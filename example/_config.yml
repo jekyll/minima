@@ -1,1 +1,8 @@
 theme: minima
+
+name: A site title
+description: "Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+collections:
+  posts:
+    permalink: /posts/:title
