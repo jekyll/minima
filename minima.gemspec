@@ -3,16 +3,16 @@
 Gem::Specification.new do |spec|
   spec.name          = "minima"
   spec.version       = "0.1.0"
-  spec.authors       = ["Parker Moore"]
-  spec.email         = ["parkrmoore@gmail.com"]
+  spec.authors       = ["Joel Glovier"]
+  spec.email         = ["jglovier@github.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A beautiful, minimal theme for Jekyll.}
+  spec.homepage      = "https://github.com/jekyll/minima"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(exe|_layouts|_includes|_sass|example|example/_posts)/}) }
+  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(exe|_layouts|_includes|_sass)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
 
