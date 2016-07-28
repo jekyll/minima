@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(exe)/}) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(<%= theme_directories.join("|") %>|LICENSE|README)/i}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
 
