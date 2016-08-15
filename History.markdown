@@ -1,3 +1,9 @@
+## HEAD
+
+### docs
+
+  * Document how to link to the theme styles (#18)
+
 ## 1.0.1 / 2016-07-28
 
   * include `_layouts`, `_includes`, and `_sass` dir in gem (#6)
