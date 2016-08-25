@@ -1,9 +1,15 @@
 {% if page.comments and jekyll.environment == "production" %}
+  {% if site.url %}
+    {% assign disqus_url = page.url | prepend: site.url %}
+  {% elsif site.github.url %}
+    {% assign disqus_url = page.url | prepend: site.github.url %}
+  {% endif %}
+
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = '{{ site.url }}{{ page.url }}';
-      this.page.identifier = '{{ site.url }}{{ page.url }}';
+      this.page.url = '{{ disqus_url }}';
+      this.page.identifier = '{{ disqus_url }}';
     };
 
     (function() {
