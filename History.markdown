@@ -2,11 +2,15 @@
 
 ### minor
 
- * Added "author" in footer instead of double title (#22)
+  * Added "author" in footer instead of double title (#22)
 
 ### docs
 
   * Document how to link to the theme styles (#18)
+
+### Minor Enhancements
+
+  * fixed Flash Of Unstyled SVG (#12)
 
 ## 1.0.1 / 2016-07-28
 
