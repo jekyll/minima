@@ -1,5 +1,9 @@
 ## HEAD
 
+### minor
+
+ * Added "author" in footer instead of double title (#22)
+
 ### docs
 
   * Document how to link to the theme styles (#18)
