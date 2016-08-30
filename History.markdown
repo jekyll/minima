@@ -10,6 +10,10 @@
   * Added "author" in footer instead of double title (#22)
   * Use upstream gemspec file matcher (#9)
 
+### Major Enhancements
+
+  * Add support to Disqus (#21)
+
 ## 1.0.1 / 2016-07-28
 
   * include `_layouts`, `_includes`, and `_sass` dir in gem (#6)
