@@ -22,7 +22,19 @@ And then execute:
 
     $ bundle
 
-## Enabling comments (via Disqus)
+## Customizing
+
+### Logo
+
+By default, `jekyll new` doesn't generate sites with a logo image included. To add a logo when using minima, simply add the full filename (including the file-extension), to your *_config.yml* like:
+
+```yaml
+logo: logo.png
+```
+minima will then look for **logo.png** at the root of your site. Your logo can be named anything you like. Just make sure it matches the config file accordingly. 
+*Note: Minima supports only image files at a max-height of 56px.*
+
+### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
 
