@@ -1,5 +1,7 @@
 ## HEAD
 
+  * Update Example to resemble Default site (#24)
+
 ### docs
 
   * Document how to link to the theme styles (#18)
