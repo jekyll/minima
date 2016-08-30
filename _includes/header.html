@@ -4,7 +4,13 @@
 
     {% assign custom_url = site.url | append: site.baseurl %}
     {% assign full_base_url = site.github.url | default: custom_url %}
-    <a class="site-title" href="{{ full_base_url }}/">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ full_base_url }}/">
+      {% if site.logo %}
+        <img src="{{ full_base_url }}/{{ site.logo }}" class="site-logo" width="auto" height="56">
+      {% else %}
+        {{ site.title | escape }}
+      {% endif %}
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">

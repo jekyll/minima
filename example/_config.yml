@@ -1,4 +1,5 @@
 title: Your awesome title
+logo: logo.png
 author: Mr. GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
