@@ -10,6 +10,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include ga.html %}
+  {% include google-analytics.html %}
   {% endif %}
 </head>
