@@ -41,13 +41,13 @@ If you don't want to display comments for a particular post you can disable them
 
 ## Enabling Google Analytics
 
-To enable GA, add the following lines to your Jekyll site:
+To enable Google Anaytics, add the following lines to your Jekyll site:
 
 ```yaml
   google_analytics: UA-NNNNNNNN-N
 ```
 
-GA is enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
 ## Contributing
 
