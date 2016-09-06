@@ -11,4 +11,8 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: full_base_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: full_base_url }}">
+  
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
