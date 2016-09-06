@@ -1,10 +1,9 @@
 ## HEAD
 
-  * Update Example to resemble Default site (#24)
-
-### docs
+### Documentation
 
   * Document how to link to the theme styles (#18)
+  * Update Example to resemble Default site (#24)
 
 ### Minor Enhancements
 
@@ -15,6 +14,7 @@
 ### Major Enhancements
 
   * Add support to Disqus (#21)
+  * Look for `site.github.url` if it exists (#25)
 
 ## 1.0.1 / 2016-07-28
 
