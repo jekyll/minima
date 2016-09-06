@@ -10,11 +10,12 @@
   * fixed Flash Of Unstyled SVG (#12)
   * Added "author" in footer instead of double title (#22)
   * Use upstream gemspec file matcher (#9)
-
+  
 ### Major Enhancements
 
   * Add support to Disqus (#21)
   * Look for `site.github.url` if it exists (#25)
+  * Google analytics support (#26)
 
 ## 1.0.1 / 2016-07-28
 
