@@ -1,5 +1,7 @@
 ## HEAD
 
+  * Fix gemspec regex (#31)
+
 ### Documentation
 
   * Document how to link to the theme styles (#18)
@@ -11,7 +13,7 @@
   * Added "author" in footer instead of double title (#22)
   * Use upstream gemspec file matcher (#9)
   * Add Travis and a basic smoke test (#33)
-  
+
 ### Major Enhancements
 
   * Add support to Disqus (#21)
