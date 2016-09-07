@@ -1,5 +1,7 @@
 ## HEAD
 
+## 1.1.0 / 2016-09-07
+
 ### Major Enhancements
 
   * Add support to Disqus (#21)
