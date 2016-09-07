@@ -10,6 +10,7 @@
   * fixed Flash Of Unstyled SVG (#12)
   * Added "author" in footer instead of double title (#22)
   * Use upstream gemspec file matcher (#9)
+  * Add Travis and a basic smoke test (#33)
   
 ### Major Enhancements
 
