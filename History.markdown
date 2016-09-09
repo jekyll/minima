@@ -1,5 +1,9 @@
 ## HEAD
 
+### Minor Enhancements
+
+  * Look to site.url when available (#35)
+
 ## 1.1.0 / 2016-09-07
 
 ### Major Enhancements
@@ -7,7 +11,7 @@
   * Add support to Disqus (#21)
   * Google analytics support (#26)
   * Look for `site.github.url` if it exists (#25)
-  
+
 ### Minor Enhancements
 
   * Fixed Flash Of Unstyled SVG (#12)
@@ -17,7 +21,7 @@
 
   * Document how to link to the theme styles (#18)
   * Update Example to resemble Default site (#24)
-  
+
 ### Development Enhancements
 
   * Use upstream gemspec file matcher (#9)
