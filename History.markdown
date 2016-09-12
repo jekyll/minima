@@ -4,6 +4,10 @@
 
   * Look to site.url when available (#35)
 
+### docs
+
+  * Move instruction for CSS in install section (#37)
+
 ## 1.1.0 / 2016-09-07
 
 ### Major Enhancements
