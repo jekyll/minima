@@ -1,10 +1,10 @@
-## HEAD
+## 1.2.0 / 2016-09-12
 
 ### Minor Enhancements
 
   * Look to site.url when available (#35)
 
-### docs
+### Documentation
 
   * Move instruction for CSS in install section (#37)
 
