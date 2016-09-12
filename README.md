@@ -21,6 +21,17 @@ theme: minima
 And then execute:
 
     $ bundle
+    
+Then add a `css/main.scss` file based on the following template, don't forget to include the frontmatter:
+
+```css
+---
+---
+
+@import "minima";
+```
+
+You can choose to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path.
 
 ## Enabling comments (via Disqus)
 
@@ -56,17 +67,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll
 ## Development
 
 To set up your environment to develop this theme, run `bundle install`.
-
-Then add a `css/main.scss` file based on the following template, don't forget to include the frontmatter:
-
-```css
----
----
-
-@import "minima";
-```
-
-You can choose to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path.
 
 To test your theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents of the `example/` directory. As you make modifications to your theme and to the example site, your site will regenerate and you should see the changes in the browser after a refresh.
 
