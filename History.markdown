@@ -1,3 +1,9 @@
+## HEAD
+
+### Minor Enhancements
+
+  * priority to site.url when site.github.url is available (#46)
+
 ## 1.2.0 / 2016-09-12
 
 ### Minor Enhancements
