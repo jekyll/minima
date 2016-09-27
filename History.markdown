@@ -1,3 +1,14 @@
+## HEAD
+
+### Minor Enhancements
+
+  * priority to site.url when site.github.url is available (#46)
+  * Move contents of the index.html page to the 'home' layout (#48)
+
+### Development Fixes
+
+  * Use standardized tab size of 2 spaces (#44)
+
 ## 1.2.0 / 2016-09-12
 
 ### Minor Enhancements
