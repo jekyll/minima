@@ -13,6 +13,10 @@
 
   * move `css/` directory from jekyll into `assets/` (#43)
 
+### Bug Fixes
+
+  * Fix html proofer errors (#49)
+
 ## 1.2.0 / 2016-09-12
 
 ### Minor Enhancements
