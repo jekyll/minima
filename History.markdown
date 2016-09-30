@@ -9,6 +9,10 @@
 
   * Use standardized tab size of 2 spaces (#44)
 
+### Major Enhancements
+
+  * move `css/` directory from jekyll into `assets/` (#43)
+
 ## 1.2.0 / 2016-09-12
 
 ### Minor Enhancements
