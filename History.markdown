@@ -16,6 +16,7 @@
 ### Bug Fixes
 
   * Fix html proofer errors (#49)
+  * Update gem regex to include new `assets` directory (#54)
 
 ## 1.2.0 / 2016-09-12
 
