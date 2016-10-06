@@ -4,8 +4,8 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
+  <h1 class="page-heading">{{ site.data.locales[site.lang].posts | default: Posts }}</h1>
+
   {{ content }}
 
   {% assign custom_url = site.url | append: site.baseurl %}
