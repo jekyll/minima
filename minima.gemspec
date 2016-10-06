@@ -35,7 +35,8 @@ https://github.com/jekyll/minima#customization
 
 msg
 
-  spec.add_development_dependency "jekyll", "~> 3.2"
+  spec.add_runtime_dependency "jekyll", "~> 3.3"
+
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 end
