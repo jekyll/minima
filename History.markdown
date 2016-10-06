@@ -2,8 +2,15 @@
 
 ### Minor Enhancements
 
+  * Update gemspec to require at least Jekyll 3.3 (#59)
+
+## 2.0.0 / 2016-10-06
+
+### Minor Enhancements
+
   * priority to site.url when site.github.url is available (#46)
   * Move contents of the index.html page to the 'home' layout (#48)
+  * Use  new `absolute_url` and `relative_url` filters in minima (#57)
 
 ### Development Fixes
 
@@ -16,6 +23,7 @@
 ### Bug Fixes
 
   * Fix html proofer errors (#49)
+  * Update gem regex to include new `assets` directory (#54)
 
 ## 1.2.0 / 2016-09-12
 
