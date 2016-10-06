@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">{{ site.data.locales[site.lang].posts | default: Posts }}</h1>
+  <h1 class="page-heading">{{ site.data.locales[site.lang].posts | default: "Posts" }}</h1>
 
   {{ content }}
 
@@ -23,6 +23,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: full_base_url }}">via RSS</a></p>
+  <p class="rss-subscribe">{{ site.data.locales[site.lang].subscribe | default: "subscribe" }} <a href="{{ "/feed.xml" | prepend: full_base_url }}">{{ site.data.locales[site.lang].via_RSS | default: "via RSS" }}</a></p>
 
 </div>
