@@ -4,6 +4,7 @@
 
   * priority to site.url when site.github.url is available (#46)
   * Move contents of the index.html page to the 'home' layout (#48)
+  * Use  new `absolute_url` and `relative_url` filters in minima (#57)
 
 ### Development Fixes
 
