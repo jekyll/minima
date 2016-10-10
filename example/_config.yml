@@ -9,9 +9,10 @@ baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Basic i18n - if you change the lang parameter,
-# minima will try to use the strings in _data/locales/[lang].yml
-lang: en
+# Basic localisation (l10n)
+# If you customize the lang parameter, minima will try to use the strings in _data/locales/[lang].yml
+# Read https://github.com/jekyll/minima/README.md for more information.
+# lang: fr
 
 # Build settings
 markdown: kramdown

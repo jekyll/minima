@@ -21,7 +21,7 @@ theme: minima
 And then execute:
 
     $ bundle
-    
+
 
 ## Usage
 
@@ -43,6 +43,14 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
   - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
   - Copy the `assets/` folder from there into the root of `<your-site>`
   - Change whatever values you want, inside `<your-site>/assets/main.scss`
+
+--
+
+### Localisation (l10n)
+
+Minima theme allows a basic localisation of the texts used. To localise your site in your language:
+1. Edit `_config.yml` to setup the `lang`parameter to your language.
+2. copy an existing locales file ([from this repo](https://github.com/jekyll/minima/tree/master/example/_data/locales) or create a new one in `_data/locales/` named `[your lang parameter].yml`
 
 --
 
