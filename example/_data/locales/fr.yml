@@ -3,3 +3,45 @@
 posts: "Articles"
 subscribe: "s'abonner au"
 via_RSS: "flux RSS"
+abbreviated_weekday:
+  - Dim
+  - Lun
+  - Mar
+  - Mer
+  - Jeu
+  - Ven
+  - Sam
+full_weekday:
+  - Dimanche
+  - Lundi
+  - Mardi
+  - Mercredi
+  - Jeudi
+  - Vendredi
+  - Samedi
+abbreviated_month:
+  - jan.
+  - fév.
+  - mar.
+  - avr.
+  - mai
+  - juin
+  - juil.
+  - août
+  - sept.
+  - oct.
+  - nov.
+  - déc.
+full_month:
+  - janvier
+  - février
+  - mars
+  - avril
+  - mai
+  - juin
+  - juillet
+  - août
+  - septembre
+  - octobre
+  - novembre
+  - décembre
