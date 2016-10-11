@@ -1,0 +1,20 @@
+{% assign num_day = include.date | date: "%w" | plus: 0 %}
+{% assign num_month = include.date | date: "%-m" | plus: 0 %}
+{% assign date_format_to_be_translated = include.format | default: "%b %-d, %Y"%}
+{% if date_format_to_be_translated contains "%a" %}
+  {% assign replacement =  site.data.locales[site.lang].abbreviated_weekday[num_day] | default: "%a" %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%a",  replacement %}
+{% elsif date_format_to_be_translated contains "%A" %}
+  {% assign replacement = site.data.locales[site.lang].full_weekday[num_day] | default: "%A" %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%A",  replacement %}
+{% endif %}
+
+{% if date_format_to_be_translated contains "%b" %}
+  {% assign replacement =  site.data.locales[site.lang].abbreviated_month[num_month] | default: "%b" %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%b",  replacement %}
+{% elsif date_format_to_be_translated contains "%B" %}
+  {%assign replacement =  site.data.locales[site.lang].full_month[num_month] | default: "%B" %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%B",  replacement %}
+{% endif %}
+
+{{ include.date | date: date_format_to_be_translated }}
