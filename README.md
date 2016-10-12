@@ -50,9 +50,9 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 
 Minima theme allows a basic localisation of the texts used. To localise your site in your language:
 
-1. Edit `_config.yml` to setup the `lang` parameter to your language.
-2. copy an existing locales file ([from this repo](https://github.com/jekyll/minima/tree/master/example/_data/locales) or create a new one in `_data/locales/` named `[your lang parameter].yml`
-3. (optional) change the `date_format` parameter in `_config.yml` by using the [date filter syntax](https://help.shopify.com/themes/liquid/filters/additional-filters#date). The day and month names will be translated.
+1.  Edit `_config.yml` to setup the `lang` parameter to your language.
+2.  copy an existing locales file ([from this repo](https://github.com/jekyll/minima/tree/master/example/_data/locales) or create a new one in `_data/locales/` named `[your lang parameter].yml`
+3.  (optional) change the `date_format` parameter in `_config.yml` by using the [date filter syntax](https://help.shopify.com/themes/liquid/filters/additional-filters#date). The day and month names will be translated.
 
 --
 
