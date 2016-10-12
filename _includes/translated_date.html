@@ -1,20 +1,47 @@
+{% comment %}
+This include allows to tranlate the days and months in the date by using strings in _data/locales/[lang].yml
+This include can be called with two parameters:
+ - include.date: the date to be processed
+ - include.format: the date format. (If empty a default format will be used)
+{% endcomment %}
+
+{% comment %}
+If the parameter date format is empty the default format the one set in _config.yml or at least "%b %-d, %Y" is used
+{% endcomment %}
+{% assign date_format_to_be_translated = include.format | default: site.date_format | default: "%b %-d, %Y" %}
+
+{% comment %}
+Init to have the indice of the day in the week (num_day) and the indice of the month in the year (num_mont)
+{% endcomment %}
 {% assign num_day = include.date | date: "%w" | plus: 0 %}
 {% assign num_month = include.date | date: "%-m" | plus: 0 %}
-{% assign date_format_to_be_translated = include.format | default: "%b %-d, %Y"%}
-{% if date_format_to_be_translated contains "%a" %}
-  {% assign replacement =  site.data.locales[site.lang].abbreviated_weekday[num_day] | default: "%a" %}
-  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%a",  replacement %}
-{% elsif date_format_to_be_translated contains "%A" %}
-  {% assign replacement = site.data.locales[site.lang].full_weekday[num_day] | default: "%A" %}
-  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%A",  replacement %}
+
+{% comment %}
+Use tranlated abbreviated weekday if "%a" is used in the format and the translation is available in _data/locales/[lang].yml
+{% endcomment %}
+{% if site.data.locales[site.lang].abbreviated_weekday[num_day] %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%a",  site.data.locales[site.lang].abbreviated_weekday[num_day] %}
 {% endif %}
 
-{% if date_format_to_be_translated contains "%b" %}
-  {% assign replacement =  site.data.locales[site.lang].abbreviated_month[num_month] | default: "%b" %}
-  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%b",  replacement %}
-{% elsif date_format_to_be_translated contains "%B" %}
-  {%assign replacement =  site.data.locales[site.lang].full_month[num_month] | default: "%B" %}
-  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%B",  replacement %}
+{% comment %}
+Use tranlated full weekday if "%A" is used in the format and the translation is available in _data/locales/[lang].yml
+{% endcomment %}
+{% if site.data.locales[site.lang].full_weekday[num_day] %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%A",  site.data.locales[site.lang].full_weekday[num_day] %}
+{% endif %}
+
+{% comment %}
+Use tranlated abbreviated month if "%b" is used in the format and the translation is available in _data/locales/[lang].yml
+{% endcomment %}
+{% if site.data.locales[site.lang].abbreviated_month[num_month] %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%b",  site.data.locales[site.lang].abbreviated_month[num_month] %}
+{% endif %}
+
+{% comment %}
+Use tranlated abbreviated weekday if "%B" is used in the format and the translation is available in _data/locales/[lang].yml
+{% endcomment %}
+{% if site.data.locales[site.lang].full_month[num_month] %}
+  {% assign date_format_to_be_translated = date_format_to_be_translated | replace: "%B",  site.data.locales[site.lang].full_month[num_month] %}
 {% endif %}
 
 {{ include.date | date: date_format_to_be_translated }}
