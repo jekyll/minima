@@ -4,6 +4,10 @@
 
   * Update gemspec to require at least Jekyll 3.3 (#59)
 
+### Development Fixes
+
+  * Example should require Jekyll 3.3 (#61)
+
 ## 2.0.0 / 2016-10-06
 
 ### Minor Enhancements
