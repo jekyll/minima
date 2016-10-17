@@ -77,7 +77,33 @@ http://localhost:4000
 username.github.io
 ```
 
-Additional links:
+13) Add Disqus support:
+
+a) register on the [site](https://disqus.com/).
+
+b) find disqus shortname, more info is provided by the [following link](
+https://help.disqus.com/customer/portal/articles/466208).
+
+c) add to the *_config.yml* file the following code:
+
+```
+disqus:
+    shortname: YOU_DISQUS_SHORT_NAME
+```
+
+14) Add Google Alytics support:
+
+a) register on the [site](https://analytics.google.com/analytics/web/).
+
+b) add to the *_config.yml* file the following code:
+
+```
+google_analytics: UA-********-*
+```
+
+where UA-********-* - it is your Tracking ID.
+
+*Additional links:*
 
 https://pages.github.com/
 
