@@ -5,6 +5,9 @@ description: ""
 baseurl: ""
 #twitter_username: jekyllrb
 github_username:  vmaks
+disqus:
+	shortname: https-vmaks-github-io
+google_analytics: UA-85794354-1
 
 # Build settings
 markdown: kramdown
@@ -12,5 +15,4 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
-disqus:
-	shortname: https-vmaks-github-io
+
