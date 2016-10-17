@@ -57,21 +57,21 @@ baseurl: ""
 
 You could also edit other filds in the files as needed.
 
-8) Run a server by the command:
+9) Run a server by the command:
 
 ```
 bundle exec jekyll serve
 ```
 
-9) Check the server by opening the web page:
+10) Check the server by opening the web page:
 
 ```
 http://localhost:4000
 ```
 
-10) Сommit all changes.
+11) Сommit all changes.
 
-11) Check the following web page: 
+12) Check the following web page: 
 
 ```
 username.github.io
