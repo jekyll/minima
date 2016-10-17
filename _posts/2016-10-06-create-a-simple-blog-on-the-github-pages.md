@@ -105,6 +105,6 @@ where UA-********-* - it is your Tracking ID.
 
 *Additional links:*
 
-https://pages.github.com/
+[pages.github](https://pages.github.com/)
 
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+[setting-up-your-github-pages-site-locally-with-jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
