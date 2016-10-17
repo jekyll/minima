@@ -12,3 +12,5 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+disqus:
+	shortname: https-vmaks-github-io
