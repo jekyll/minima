@@ -41,6 +41,22 @@ Delete example directory.
 
 7) Add a post to the "_post" directory.
 
+8) Edit *_config.yml* file
+
+Replace
+
+```
+baseurl: "/minima"
+```
+
+by
+
+```
+baseurl: ""
+```
+
+You could also edit other filds in the files as needed.
+
 8) Run a server by the command:
 
 ```
