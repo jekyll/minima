@@ -1,68 +1,75 @@
 ---
 layout: post
-title:  "Create a simple blog on the GitHub Pages"
-date:   2016-10-06 11:24:00 +0300
+title:  "How to use the fast google android emulator in Visual Studio 2015"
+date:   2016-10-17 12:50:00 +0300
 categories: other
 ---
 
-I wrote a post about how to create a simple and free blog with help of the GitHub Pages.
+For Windows you could either use Microsoft Visual Studio Hyper-V or Google android emulator. 
 
-I used Ubuntu 16.04 x64.
+If you want to use Microsoft emulator you have to use Windows Pro edition with Hyper-V support. You have to activate Hyper-V otherwise the emulator won't work. If you will activate Hyper-V then you won't be able to use Google android emulator, VMware or any other technology is not based on Hyper-V. Also despite the fact that Microsoft claims that her emulator is the fastest, on my machine,  Google emulator boots about 4 times faster compare to the Microsoft emulator (10 s vs 40 s).
 
-I described all steps below:
+Anyway, I decide to use Google android emulator.
 
-1) Install all requirements:
+I faced a lot of problems in my way so I decided to describe it by steps.
 
-```
-sudo apt-get install ruby-dev
-sudo apt-get install zlib1g-dev
-sudo apt-get install nodejs
-```
+1) Download and install the latest [Android Studio](https://developer.android.com/studio/index.html) and [Visual Studio 2015](https://www.visualstudio.com/vs/) (check Xamarin, Android SDK, Android NDK options).
 
-2) fork the following project:
+2) Download Google android emulator via *AVD Manager/Create Virtual Device/Phone/Nexus 5/Recommended*. Then choose API level 22.
 
-```
-https://github.com/jekyll/minima
-```
+3) Change Android SDK path and JDK in Visual Studio.
 
-3) Rename the project to the "username.github.io".
+```Tools/Options/Xamarin/Android Settings/Android SDK Location```
 
-4) git clone the project above in a dicrectory.
-
-5) Run the following command in the directory:
+Set to 
 
 ```
-bundle install
+C:\Users\USER_NAME\AppData\Local\Android\sdk
 ```
 
-6) Copy all files (except "_posts" folder) from the example directory to the root folder of the project.
+or other place where Android Studio usually puts it (I will call it ANDROID_STUDIO_SDK_PATH)
 
-Delete example directory.
+4) Change Java Development Kit Location:
 
-7) Add a post to the "_post" directory.
+Set path to a JDK 8 x86.
 
-8) Run a server by the command:
+5) [Change Android SDK path in the register](https://msdn.microsoft.com/en-us/library/mt228282.aspx#ADB) :)
 
-```
-bundle exec jekyll serve
-```
-
-9) Check the server by opening the web page:
+Open "regedit" and find the 
 
 ```
-http://localhost:4000
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Android SDK Tools
 ```
 
-10) Сommit all changes.
+Replace the existing path by ANDROID_STUDIO_SDK_PATH.
 
-11) Check the following web page: 
+6) Restart the PC.
+
+7) Run the Visual Studio. Then run the Google emulator Android Studio (or from a console). Then you should be able to see the emulator in the devices list.
+
+Examle of a console command to run the emulator:
 
 ```
-username.github.io
+C:\Users\USE_NAME\AppData\Local\Android\Sdk\tools\emulator.exe -netdelay none -netspeed full -avd Nexus_5_API_22
 ```
 
-Additional links:
+8) If you have any problems fell free to write a comment.
 
-https://pages.github.com/
+9) Default Visual Studio paths, if anything goes wrong, are listed below. 
 
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+JDK:
+```
+C:\Program Files (x86)\Java\jdk1.7.0_55
+```
+
+Android SDK:
+```
+C:\Program Files (x86)\Android\android-sdk
+```
+
+Android NDK:
+```
+C:\ProgramData\Microsoft\AndroidNDK\android-ndk-r11c
+```
+
+Android SDK path in the register is the same as Android SDK.
