@@ -114,10 +114,12 @@ root_folder/assets
 Then add the image to the post by
 
 ```
-![]({{ site.url }}/assets/image.jpg)
+![](\{\{ site.url \}\}/assets/image.jpg)
 ```
 
-where *image.jpg* is a name of the post and *{{ site.url }}* is just a variable which contains your site url.
+where *image.jpg* is a name of the post and *\{\{ site.url \}\}* is just a variable which contains your site url.
+
+Don't forget to delete "\\" symbols.
 
 *Additional links:*
 
