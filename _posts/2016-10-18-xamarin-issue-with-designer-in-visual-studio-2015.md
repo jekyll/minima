@@ -13,6 +13,8 @@ An issue message:
 The installed Android SDK is too old. Version 25.1.3 or newer is required. Please update to the latest version.
 ```
 
+![](https://github.com/vmaks/vmaks.github.io/blob/master/images/2016-10-18-xamarin-issue-with-designer-in-visual-studio-2015.jpg)
+
 To fix the issue you have to download Android 6.0 SDK Platform (API 23).
 
 [Thanks to John Watmuff from stackoverflow.](http://stackoverflow.com/a/40077831/3001953)
