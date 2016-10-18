@@ -103,8 +103,28 @@ google_analytics: UA-********-*
 
 where UA-********-* - it is your Tracking ID.
 
+15) Add an image to a post.
+
+To add an image to a post you should put a picture in the follwowing folder
+
+```
+root_folder/assets
+```
+
+Then add the image to the post by
+
+```
+![]({{ site.url }}/assets/image.jpg)
+```
+
+where *image.jpg* is a name of the post and *{{ site.url }}* is just a variable which contains your site url.
+
 *Additional links:*
 
 [pages.github](https://pages.github.com/)
 
 [setting-up-your-github-pages-site-locally-with-jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+
+[jekyllrb-docs-posts](https://jekyllrb.com/docs/posts/)
+
+[mastering-markdown](https://guides.github.com/features/mastering-markdown/)
