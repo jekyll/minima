@@ -19,7 +19,7 @@ Init the lang parameter depending if it's set in the include call, in the page o
 {% endcomment %}
 
 {% assign num_day = include.date | date: "%w" | plus: 0 %}
-{% assign num_month = include.date | date: "%-m" | plus: 0 %}
+{% assign num_month = include.date | date: "%-m" | plus: -1 %}
 {% assign lang = include.lang | default: page.lang | default: site.lang %}
 
 {% comment %}
