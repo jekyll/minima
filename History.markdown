@@ -3,6 +3,7 @@
 ### Minor Enhancements
 
   * Update gemspec to require at least Jekyll 3.3 (#59)
+  * Use absolute_url filter for disqus (#66)
 
 ### Development Fixes
 
