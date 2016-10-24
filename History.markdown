@@ -4,6 +4,7 @@
 
   * Update gemspec to require at least Jekyll 3.3 (#59)
   * Use absolute_url filter for disqus (#66)
+  * replace `example/index.html` with `example/index.md` (#58)
 
 ### Development Fixes
 
