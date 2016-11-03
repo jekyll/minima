@@ -2,7 +2,7 @@
 layout: post
 title:  "Xamarin speedup build time in Visual Studio 2015"
 date:   2016-11-03 23:04:00 +0300
-categories: xamarin
+categories: other
 ---
 
 I have Visual Studio 2015 Update 3 and Xamarin 4.2.0.719.

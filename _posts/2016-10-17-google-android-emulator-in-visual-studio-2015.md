@@ -2,7 +2,7 @@
 layout: post
 title:  "Google android emulator in Visual Studio 2015"
 date:   2016-10-17 12:50:00 +0300
-categories: xamarin
+categories: other
 ---
 
 For Windows you could either use Microsoft Visual Studio Hyper-V or Google android emulator. 
