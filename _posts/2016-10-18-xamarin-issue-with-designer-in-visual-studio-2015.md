@@ -2,7 +2,7 @@
 layout: post
 title:  "Xamarin issue with designer in Visual Studio 2015"
 date:   2016-10-18 14:54:00 +0300
-categories: other
+categories: xamarin
 ---
 
 I have Visual Studio 2015 Update 3, Xamarin 4.2.0.703, Android 7.0 SDK Platform (API 24), Android SDK Tools 25.2.2, Android SDK Build-tools 24.0.3 .
