@@ -25,7 +25,7 @@ And then execute:
 
 ## Contents At-A-Glance
 
-Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.  
+Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.
 
 ### Layouts
 
@@ -47,9 +47,9 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `header.html` &mdash; Defines the site's main header section.
   - `icon-* files` &mdash; Inserts github and twitter ids with respective icons.
 
-### Sass 
+### Sass
 
-Refers to `.scss` files within the `_sass` directory that define the theme's styles.  
+Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
   - `minima.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
   - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
@@ -58,7 +58,7 @@ Refers to `.scss` files within the `_sass` directory that define the theme's sty
 
 ### Assets
 
-Refers to various asset files within the `assets` directory.  
+Refers to various asset files within the `assets` directory.
 Contains the `main.scss` that imports sass files from within the `_sass` directory. This `main.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
 
 This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.
@@ -138,7 +138,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll
 
 To set up your environment to develop this theme, run `bundle install`.
 
-To test your theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/minima/`. This starts a Jekyll server using your theme and the contents of the `example/` directory. As you make modifications to your theme and to the example site, your site will regenerate and you should see the changes in the browser after a refresh.
+To test your theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/minima/`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
 ## License
 
