@@ -46,6 +46,38 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 
 --
 
+When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/main.scss` file should explicitly import the edited partial. :
+  e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "minima/syntax-highlighting";
+```
+or
+your `<your-site>/_sass/` should look like:
+
+```
+.
+├── minima.scss
+├── minima
+|   ├── _syntax-highlighting.scss
+```
+
+--
+
+To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "my_overrides";
+```
+
+--
+
 ### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
