@@ -21,7 +21,7 @@ theme: minima
 And then execute:
 
     $ bundle
-    
+
 
 ## Usage
 
@@ -67,13 +67,17 @@ If you don't want to display comments for a particular post you can disable them
 
 ### Enabling Google Analytics
 
-To enable Google Anaytics, add the following lines to your Jekyll site:
+To enable Google Anaytics tracking, add or uncomment the following lines in your `_config.yml` and copy-paste your own tracking id:
 
 ```yaml
-  google_analytics: UA-NNNNNNNN-N
+  google_analytics:
+    tracking_id: UA-NNNNNNNN-N
+    anonymize_ip: false
 ```
 
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+Optionnally, to comply with your country own privacy policies, just set `anonymize_ip` to `true`.
+
+Google Analytics will only be active in productionn, i.e. when `JEKYLL_ENV=production`.
 
 ## Contributing
 
