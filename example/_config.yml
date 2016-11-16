@@ -9,6 +9,15 @@ baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+### Basic localisation (l10n)
+# If you customize the lang parameter, minima will try to use the strings in _data/locales/[lang].yml
+# Read https://github.com/jekyll/minima/README.md for more information.
+# lang: fr
+
+# Even the day and month names will be translated. You can customize your date by
+# uncommenting the following line and customizing the date format:
+# date_format: "%A %-d %B %Y"
+
 # Build settings
 markdown: kramdown
 theme: minima

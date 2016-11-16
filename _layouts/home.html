@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
+  <h1 class="page-heading">{{ site.data.locales[site.lang].posts | default: "Posts" }}</h1>
+
   {{ content }}
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{% include translated_date.html date=post.date format=site.date_format %}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -20,6 +20,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">{{ site.data.locales[site.lang].subscribe | default: "subscribe" }} <a href="{{ "/feed.xml" | relative_url }}">{{ site.data.locales[site.lang].via_RSS | default: "via RSS" }}</a></p>
 
 </div>
