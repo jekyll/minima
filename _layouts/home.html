@@ -16,6 +16,11 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+        {% if site.show_excerpts == "enabled" %}
+          <hr class="headliner">
+          {{ post.excerpt }}
+          <hr class="visually-hidden">
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

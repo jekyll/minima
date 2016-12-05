@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
+show_excerpts: enabled
 
 # Build settings
 markdown: kramdown

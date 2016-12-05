@@ -189,6 +189,12 @@
   font-size: 24px;
 }
 
+.headliner {
+  margin-top: -($spacing-unit / 2);
+  margin-bottom: $spacing-unit / 2;
+  border-color: rgba($grey-color-light, 0.45);
+}
+
 
 
 /**
