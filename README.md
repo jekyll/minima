@@ -21,7 +21,49 @@ theme: minima
 And then execute:
 
     $ bundle
+
     
+## Contents At-A-Glance
+
+Minima has been scaffolded by the `jekyll new-theme` command and therefore has all the necessary files and directories to have a new Jekyll site up and running with zero-configuration.  
+
+### Layouts
+
+Refers to files within the `_layouts` directory, these files define the markup for your theme.  
+  
+  - `default.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says ` {{ content }} ` and are linked to this file via FrontMatter declaration  
+  `layout: default`.
+  - `home.html` &mdash; The layout for your landing-page / home-page / index-page.
+  - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
+  - `post.html` &mdash; The layout for your posts.
+
+### Includes
+
+Refers snippets of code within the `_includes` directory that can be inserted in multiple templates within the same theme-gem
+
+  - `disqus_comments.html` &mdash; code to markup disqus comment box.
+  - `footer.html` &mdash; defines the site's footer section.
+  - `google-analytics.html` &mdash; inserts Google Analytics module (active only in production environment).
+  - `head.html` &mdash; code-block that defines the `<head></head>` in *default* layout.
+  - `header.html` &mdash; defines the site's main header section.
+  - `icon-* files` &mdash; inserts github and twitter ids with respective icon.
+
+### Sass 
+
+Refers to `.scss` files within the `_sass` directory that define the theme's styles.  
+
+  - `minima.scss` &mdash; the core file imported by the pre-processed `main.scss`. It defines the defaults for the theme and further imports sass partials to supplement itself.
+  - `minima/_base.scss` &mdash; resets and defines base styles for various HTML elements
+  - `minima/_layout.scss` &mdash; defines the visual style for various layouts.
+  - `minima/_syntax-highlighting.scss` &mdash; defines the styles for syntax-highlighting.
+
+### Assets
+
+Refers to various asset files within the `assets` directory.  
+Contains the `main.scss` that imports sass files from within the `_sass` directory. This `main.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
+
+This directory can include sub-directories to house various image files.
+
 
 ## Usage
 
