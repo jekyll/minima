@@ -8,7 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
-disqus: # if you want to use disqus as comment system
+# if you want to use disqus as comment system, be aware that it only works on production
+disqus:
   shortname: your_disqus_shortname
 
 # Build settings
