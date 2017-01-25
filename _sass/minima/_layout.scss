@@ -4,16 +4,16 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: $base-font-size * 1.625;
   font-weight: 300;
-  line-height: 56px;
+  line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -26,7 +26,7 @@
 
 .site-nav {
   float: right;
-  line-height: 56px;
+  line-height: $base-line-height * $base-font-size * 2.25;
 
   .menu-icon {
     display: none;
@@ -98,7 +98,7 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: $base-font-size * 1.125;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: $base-font-size * 0.9375;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -167,7 +167,7 @@
 }
 
 .page-heading {
-  font-size: 20px;
+  font-size: $base-font-size * 1.25;
 }
 
 .post-list {
@@ -186,7 +186,7 @@
 
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: $base-font-size * 1.5;
 }
 
 
@@ -199,12 +199,12 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: $base-font-size * 2.625;
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: $base-font-size * 2.25;
   }
 }
 
@@ -212,26 +212,26 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    font-size: 32px;
+    font-size: $base-font-size * 2;
 
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: $base-font-size * 1.75;
     }
   }
 
   h3 {
-    font-size: 26px;
+    font-size: $base-font-size * 1.625;
 
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: $base-font-size * 1.375;
     }
   }
 
   h4 {
-    font-size: 20px;
+    font-size: $base-font-size * 1.25;
 
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: $base-font-size * 1.125;
     }
   }
 }
