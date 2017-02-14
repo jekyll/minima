@@ -22,7 +22,6 @@ And then execute:
 
     $ bundle
 
-
 ## Usage
 
 ### Customization
@@ -61,16 +60,7 @@ You can find out more about Disqus' shortnames [here](https://help.disqus.com/cu
 
 Note that you should have set the `url` property to make it work properly.
 
-Be sure to have registered your disqus account using a good domain name like :
-
-```
-user.github.io
-```
-
-and not
-```
-https://user.github.io
-```
+If you have any troubles with Disqus concerning domain name or URL, please refer to the [Disqus documentation](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
