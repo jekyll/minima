@@ -13,4 +13,8 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+
+  {% if site.gems contains 'jekyll-seo-tag' %}
+  {% include seo.html %}
+  {% endif %}
 </head>
