@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
+linkedin_username: jekyll
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
