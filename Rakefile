@@ -33,8 +33,6 @@ end
 task :preview do
   base = Pathname.new('.').expand_path
   options = {
-    "source"        => base.join('example').to_s,
-    "destination"   => base.join('example/_site').to_s,
     "force_polling" => false,
     "serving"       => true,
     "theme"         => "minima"
