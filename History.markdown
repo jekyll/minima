@@ -11,6 +11,7 @@
   * Scale headings relative to base-font-size (#78)
   * Remove 2.0 post-install message (#82)
   * Fixes #115 - Only include the nav tag if there are pages to be displayed in the menu (#116)
+  * Fixes #80, #106. Make the hamburger work with pure CSS. (#111)
 
 ### Development Fixes
 
