@@ -7,6 +7,7 @@
   * Close #55: Improve mobile user experience (#62)
   * Remove incomplete status from spec summary (#63)
   * Use date_format if set in configuration (#70)
+  * Corrected misspelled word (#72)
 
 ### Development Fixes
 
