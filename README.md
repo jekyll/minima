@@ -21,7 +21,6 @@ theme: minima
 And then execute:
 
     $ bundle
-    
 
 ## Usage
 
@@ -72,6 +71,10 @@ To enable it, add the following lines to your Jekyll site:
 ```
 
 You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
+
+Note that you should have set the `url` property to make it work properly.
+
+If you have any trouble with Disqus concerning domain name or URL, please refer to the [Disqus documentation](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
