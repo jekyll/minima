@@ -211,9 +211,12 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  padding-top: $spacing-unit;
 
   .post-item {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 1.266;
+    padding-bottom: $spacing-unit * 1.266;
+    border-bottom: 1px solid $border-color;
   }
 
   .post-title {
@@ -226,6 +229,12 @@
     a {
       color: $text-color;
     }
+  }
+
+  .post-excerpt {
+    font-family: $reading-font-family;
+    font-size: $base-font-size * 1.125;
+    margin-top: $spacing-unit * 0.5;
   }
 }
 
