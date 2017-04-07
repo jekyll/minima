@@ -1,6 +1,10 @@
 ## HEAD
 
-* add `header_pages` config to link only specific files in header (#52)
+  * add `header_pages` config to link only specific files in header (#52)
+
+### Minor Enhancements
+
+  * Close #55: Improve mobile user experience (#62)
 
 ## 2.1.0 / 2016-11-15
 
