@@ -105,8 +105,15 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
-}
 
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
 
 
 /**
@@ -197,5 +204,15 @@ pre {
 
   path {
     fill: $grey-color;
+  }
+}
+
+.social-media-list {
+  .icon {
+    padding-right: 5px;
+  }
+
+  li + li {
+    padding-top: 5px;
   }
 }
