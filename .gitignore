@@ -3,5 +3,4 @@
 Gemfile.lock
 example/_site
 _site
-.sass-cache
 *.gem

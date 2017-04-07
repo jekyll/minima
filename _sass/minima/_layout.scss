@@ -111,7 +111,7 @@
 }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: $base-font-size * 1.125;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .page-heading {
-  font-size: 20px;
+  font-size: $base-font-size * 1.25;
 }
 
 .post-list {

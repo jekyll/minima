@@ -2,5 +2,5 @@
 
 set -e
 
-echo "Buidling the example site..."
+echo "Building the example site..."
 bundle exec jekyll build --source example
