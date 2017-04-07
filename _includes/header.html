@@ -1,9 +1,11 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-    {% if site.pages %}
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  
+    {% if page_paths %}
       <nav class="site-nav">
         <span class="menu-icon">
           <svg viewBox="0 0 18 15" width="18px" height="15px">
@@ -14,7 +16,8 @@
         </span>
 
         <div class="trigger">
-          {% for my_page in site.pages %}
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
@@ -22,7 +25,5 @@
         </div>
       </nav>
     {% endif %}
-
   </div>
-
 </header>
