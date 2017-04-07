@@ -15,6 +15,10 @@
 
   * Remove duplicate .sass-cache  (#71)
 
+### Documentation
+
+  * Update README with theme content description (#91)
+
 ## 2.1.0 / 2016-11-15
 
 ### Minor Enhancements
