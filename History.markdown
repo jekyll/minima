@@ -11,6 +11,7 @@
   * Fixes #115 - Only include the nav tag if there are pages to be displayed in the menu (#116)
   * Fixes #80, #106. Make the hamburger work with pure CSS. (#111)
   * add `header_pages` config to link only specific files in header (#52)
+  * More easily customizable CSS (#117)
 
 ### Development Fixes
 
