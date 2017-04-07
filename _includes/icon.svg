@@ -1,0 +1,3 @@
+<svg width="{% if include.width %}{{ include.width }}{% else %}1em{% endif %}" height="{% if include.height %}{{ include.height }}{% else %}1em{% endif %}">
+    <use xlink:href="{{ "assets/icons.svg" | relative_url }}#{{ include.icon }}"></use>
+</svg>
