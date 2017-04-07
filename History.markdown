@@ -1,9 +1,22 @@
 ## HEAD
 
+  * add `header_pages` config to link only specific files in header (#52)
+
+### Minor Enhancements
+
+  * Close #55: Improve mobile user experience (#62)
+  * Remove incomplete status from spec summary (#63)
+
+### Development Fixes
+
+  * Remove duplicate .sass-cache  (#71)
+
+## 2.1.0 / 2016-11-15
+
 ### Minor Enhancements
 
   * Update gemspec to require at least Jekyll 3.3 (#59)
-  * Use absolute_url filter for disqus (#66)
+  * Use `absolute_url` filter for disqus (#66)
   * replace `example/index.html` with `example/index.md` (#58)
 
 ### Development Fixes
