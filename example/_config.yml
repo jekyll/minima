@@ -8,6 +8,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/minima"
 twitter_username: jekyllrb
 github_username:  jekyll
+# if you want to use disqus as comment system, be aware that it only works on production
+disqus:
+  shortname: your_disqus_shortname
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
