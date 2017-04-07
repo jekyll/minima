@@ -9,6 +9,7 @@
   * Use date_format if set in configuration (#70)
   * Corrected misspelled word (#72)
   * Scale headings relative to base-font-size (#78)
+  * Remove 2.0 post-install message (#82)
 
 ### Development Fixes
 
