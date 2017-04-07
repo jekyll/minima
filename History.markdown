@@ -5,6 +5,7 @@
 ### Minor Enhancements
 
   * Close #55: Improve mobile user experience (#62)
+  * Remove incomplete status from spec summary (#63)
 
 ## 2.1.0 / 2016-11-15
 
