@@ -1,13 +1,35 @@
-## HEAD
+## 2.1.0 / 2016-11-15
+
+### Minor Enhancements
+
+  * Update gemspec to require at least Jekyll 3.3 (#59)
+  * Use `absolute_url` filter for disqus (#66)
+  * replace `example/index.html` with `example/index.md` (#58)
+
+### Development Fixes
+
+  * Example should require Jekyll 3.3 (#61)
+
+## 2.0.0 / 2016-10-06
 
 ### Minor Enhancements
 
   * priority to site.url when site.github.url is available (#46)
   * Move contents of the index.html page to the 'home' layout (#48)
+  * Use  new `absolute_url` and `relative_url` filters in minima (#57)
 
 ### Development Fixes
 
   * Use standardized tab size of 2 spaces (#44)
+
+### Major Enhancements
+
+  * move `css/` directory from jekyll into `assets/` (#43)
+
+### Bug Fixes
+
+  * Fix html proofer errors (#49)
+  * Update gem regex to include new `assets` directory (#54)
 
 ## 1.2.0 / 2016-09-12
 
