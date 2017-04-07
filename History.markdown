@@ -1,7 +1,5 @@
 ## HEAD
 
-  * add `header_pages` config to link only specific files in header (#52)
-
 ### Minor Enhancements
 
   * Close #55: Improve mobile user experience (#62)
@@ -12,6 +10,7 @@
   * Remove 2.0 post-install message (#82)
   * Fixes #115 - Only include the nav tag if there are pages to be displayed in the menu (#116)
   * Fixes #80, #106. Make the hamburger work with pure CSS. (#111)
+  * add `header_pages` config to link only specific files in header (#52)
 
 ### Development Fixes
 
