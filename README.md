@@ -137,7 +137,7 @@ Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
 
 ```yaml
-show_excerpts: enabled
+show_excerpts: true
 ```
 
 ## Contributing
