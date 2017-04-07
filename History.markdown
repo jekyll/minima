@@ -16,6 +16,7 @@
 ### Development Fixes
 
   * Remove duplicate .sass-cache  (#71)
+  * Demo minima on GitHub Pages (#76)
 
 ### Documentation
 
