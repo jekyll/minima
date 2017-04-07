@@ -21,6 +21,7 @@
 ### Documentation
 
   * Update README with theme content description (#91)
+  * Update default local URL (#120)
 
 ## 2.1.0 / 2016-11-15
 
