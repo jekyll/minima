@@ -121,6 +121,24 @@
   }
 }
 
+/**
+ * Site index page
+ */
+.home {
+  .post-title {
+    font-size: $base-font-size * 2;
+    font-weight: 900;
+    letter-spacing: -.5px;
+    line-height: 1.3;
+    margin-bottom: 0;
+
+    a {
+      color: $text-color;
+    }
+  }
+
+}
+
 
 
 /**
