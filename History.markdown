@@ -11,15 +11,19 @@
   * Fixes #115 - Only include the nav tag if there are pages to be displayed in the menu (#116)
   * Fixes #80, #106. Make the hamburger work with pure CSS. (#111)
   * add `header_pages` config to link only specific files in header (#52)
+  * More easily customizable CSS (#117)
+  * Use relative size for fonts and line-height (#103)
 
 ### Development Fixes
 
   * Remove duplicate .sass-cache  (#71)
   * Demo minima on GitHub Pages (#76)
+  * Remove the Rakefile (#118)
 
 ### Documentation
 
   * Update README with theme content description (#91)
+  * Update default local URL (#120)
 
 ## 2.1.0 / 2016-11-15
 
