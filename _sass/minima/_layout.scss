@@ -243,12 +243,23 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  font-family: $reading-font-family;
+  font-size: $base-font-size * 1.375;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+    font-weight: 900;
+  }
+
+  h1, h2, h3 { margin-top: $spacing-unit * 2; }
+
+  h4, h5, h6 { margin-top: $spacing-unit; }
 
   h2 {
-    font-size: 32px;
+    font-size: $base-font-size * 2;
 
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: $base-font-size * 1.75;
     }
   }
 
