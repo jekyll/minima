@@ -13,6 +13,7 @@
   * add `header_pages` config to link only specific files in header (#52)
   * More easily customizable CSS (#117)
   * Use relative size for fonts and line-height (#103)
+  * Add 404 page from jekyll `master` (#121)
 
 ### Development Fixes
 
