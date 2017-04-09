@@ -226,8 +226,21 @@
 /**
  * Posts
  */
+.page-post {
+  .site-header {
+    background-color: transparent;
+  }
+
+  .page-content {
+    padding-top: 0;
+  }
+}
 .post-header {
+  padding-top: $spacing-unit * 2;
+  padding-bottom: $spacing-unit * 2;
   margin-bottom: $spacing-unit;
+  background-color: $background-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .post-title {
