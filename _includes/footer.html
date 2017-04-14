@@ -16,29 +16,30 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% include social_links/email.html %}
             {% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+            {% if site.dribbble_username %}{% include social_links/dribbble.html %}{% endif %}
+            {% if site.facebook_username %}{% include social_links/facebook.html %}{% endif %}
+            {% if site.flickr_username %}{% include social_links/flickr.html %}{% endif %}
+            {% if site.github_username %}{% include social_links/github.html %}{% endif %}
+            {% if site.instagram_username %}{% include social_links/instagram.html %}{% endif %}
+            {% if site.linkedin_username %}{% include social_links/linkedin.html %}{% endif %}
+            {% if site.pinterest_username %}{% include social_links/pinterest.html %}{% endif %}
+            {% if site.twitter_username %}{% include social_links/twitter.html %}{% endif %}
+            {% if site.stackoverflow_username %}{% include social_links/stackoverflow.html %}{% endif %}
+            {% if site.youtube_username %}{% include social_links/youtube.html %}{% endif %}
+            {% if site.googleplus_username %}{% include social_links/googleplus.html %}{% endif %}
+            {% if site.rss %}{% include social_links/rss.html %}{% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+          <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
