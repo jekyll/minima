@@ -1,1 +1,1 @@
-<li><a href="https://stackoverflow.com/{{ site.stackoverflow_username }}"><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/assets/icons.svg#stackoverflow"></use></svg> <span class="username">{{ site.stackoverflow_username }}</span></a></li>
+<a href="https://stackoverflow.com/{{ include.username || site.stackoverflow_username }}"><svg class="svg-icon" xmlns="http://www.w3.org/2000/svg"><use xlink:href="/assets/icons.svg#stackoverflow"></use></svg> <span class="username">{{ site.stackoverflow_username }}</span></a>
