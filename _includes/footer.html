@@ -15,7 +15,7 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li>{% include social_links/email.html %}</li>
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>
