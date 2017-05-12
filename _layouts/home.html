@@ -20,7 +20,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-
+  {% if site.gems contains "jekyll-feed" %}
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+  {% endif %}
 </div>
