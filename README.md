@@ -65,6 +65,9 @@ Contains the `main.scss` that imports sass files from within the `_sass` directo
 
 This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.
 
+### Plugins
+
+Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
 
 ## Usage
 
