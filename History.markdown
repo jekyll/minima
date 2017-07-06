@@ -1,5 +1,9 @@
 ## HEAD
 
+### Minor Enhancements
+
+  * handling content outside of posts (#88)
+
 ## 2.1.1 / 2017-04-13
 
 ### Minor Enhancements
