@@ -8,6 +8,16 @@ description: > # this means to ignore newlines until "baseurl:"
 
 twitter_username: jekyllrb
 github_username:  jekyll
+rss: rss
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#pinterest_username: jekyll
+#stackoverflow_username: 11111/jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
