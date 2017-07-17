@@ -22,22 +22,23 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+            {% if site.dribbble_username %}<li>{% include social_links/dribbble.html %}</li>{% endif %}
+            {% if site.facebook_username %}<li>{% include social_links/facebook.html %}</li>{% endif %}
+            {% if site.flickr_username %}<li>{% include social_links/flickr.html %}</li>{% endif %}
+            {% if site.github_username %}<li>{% include social_links/github.html %}</li>{% endif %}
+            {% if site.instagram_username %}<li>{% include social_links/instagram.html %}</li>{% endif %}
+            {% if site.linkedin_username %}<li>{% include social_links/linkedin.html %}</li>{% endif %}
+            {% if site.pinterest_username %}<li>{% include social_links/pinterest.html %}</li>{% endif %}
+            {% if site.twitter_username %}<li>{% include social_links/twitter.html %}</li>{% endif %}
+            {% if site.stackoverflow_username %}<li>{% include social_links/stackoverflow.html %}</li>{% endif %}
+            {% if site.youtube_username %}<li>{% include social_links/youtube.html %}</li>{% endif %}
+            {% if site.googleplus_username %}<li>{% include social_links/googleplus.html %}</li>{% endif %}
+            {% if site.rss %}<li>{% include social_links/rss.html %}</li>{% endif %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+          <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
