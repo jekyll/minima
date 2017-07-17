@@ -4,6 +4,10 @@
 
   * handling content outside of posts (#88)
 
+### Documentation
+
+  * Docs: clarification about page title (#142)
+
 ## 2.1.1 / 2017-04-13
 
 ### Minor Enhancements
