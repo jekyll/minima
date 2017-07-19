@@ -156,7 +156,6 @@ flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
 pinterest_username: jekyll
-stackoverflow_username: 11111/jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 rss: rss
