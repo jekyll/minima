@@ -2,6 +2,16 @@
 
 ### Minor Enhancements
 
+  * handling content outside of posts (#88)
+
+### Documentation
+
+  * Docs: clarification about page title (#142)
+
+## 2.1.1 / 2017-04-13
+
+### Minor Enhancements
+
   * Close #55: Improve mobile user experience (#62)
   * Remove incomplete status from spec summary (#63)
   * Use date_format if set in configuration (#70)
@@ -13,6 +23,7 @@
   * add `header_pages` config to link only specific files in header (#52)
   * More easily customizable CSS (#117)
   * Use relative size for fonts and line-height (#103)
+  * Add 404 page from jekyll `master` (#121)
 
 ### Development Fixes
 

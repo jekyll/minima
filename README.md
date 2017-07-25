@@ -46,7 +46,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
-  - `header.html` &mdash; Defines the site's main header section.
+  - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
   - `icon-* files` &mdash; Inserts github and twitter ids with respective icons.
 
 ### Sass
