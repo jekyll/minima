@@ -102,8 +102,15 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
-}
 
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
 
 
 /**
@@ -113,7 +120,7 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
+  @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
 
@@ -129,7 +136,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
@@ -194,5 +201,15 @@ pre {
 
   path {
     fill: $grey-color;
+  }
+}
+
+.social-media-list {
+  .icon {
+    padding-right: 5px;
+  }
+
+  li + li {
+    padding-top: 5px;
   }
 }
