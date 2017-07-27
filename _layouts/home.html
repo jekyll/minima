@@ -6,18 +6,17 @@ layout: default
 
   {{ content }}
 
-  {% if site.paginate %}
-  {% assign posts = paginator.posts %}
-  {% else %}
   {% assign posts = site.posts %}
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
   {% endif %}
 
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
     {% for post in posts %}
       <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
