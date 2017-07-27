@@ -103,6 +103,18 @@ minima:
 
 --
 
+### Pagination
+
+To separate your blog posts over multiple pages, add
+
+```
+paginate: <number-of-posts-per-page>
+```
+
+to `_config.yml`.
+
+--
+
 ### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
