@@ -111,7 +111,13 @@ To separate your blog posts over multiple pages, add
 paginate: <number-of-posts-per-page>
 ```
 
-to `_config.yml`.
+to `_config.yml`. You can also change the destination path for the pagination pages by setting
+
+```
+paginate_path: "/path/to/pagination/page:num/"
+```
+
+in `_config.yml`. See the Jekyll [pagination documentation](https://jekyllrb.com/docs/pagination/) for more information.
 
 --
 
