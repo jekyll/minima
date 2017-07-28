@@ -16,9 +16,6 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-
   spec.add_runtime_dependency "jekyll", "~> 3.3"
   spec.add_development_dependency "bundler", "~> 1.12"
 end
