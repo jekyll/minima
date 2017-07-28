@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "minima"
-  spec.version       = "2.1.1"
+  spec.version       = "3.0.0.dev"
   spec.authors       = ["Joel Glovier"]
   spec.email         = ["jglovier@github.com"]
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.3"
+  spec.add_runtime_dependency "jekyll", "~> 3.5", ">= 3.5.1"
   spec.add_development_dependency "bundler", "~> 1.12"
 end
