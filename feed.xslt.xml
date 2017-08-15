@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet 
+  version="1.0" 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:xlink="http://www.w3.org/2000/xlink"
+>
+  <xsl:output method="html" indent="yes"/>
+
+  <xsl:template match="/">
+    <html>
+
+      <head>
+        <title>Atom Feed: <xsl:value-of select="atom:feed/atom:title"/></title>
+        <link rel="stylesheet" href="/assets/main.css" />
+      </head>
+
+      <body id="atom-feed">
+        <div class="feed-wrap">
+          <header>
+            <div class="generator">
+              Atom Feed generated with:
+              <span><xsl:value-of select="atom:feed/atom:generator"/></span>
+              <span>-</span>
+              <span><xsl:value-of select="atom:feed/atom:generator/@version"/></span>
+            </div>
+            <div class="atom-icon">
+              <svg><use xlink:href="/assets/icons.svg#rss"></use></svg>
+            </div>
+            <h2 class="feed-title">
+              <a href="{atom:feed/atom:id}" target="_blank">
+                <xsl:value-of select="atom:feed/atom:title"/>
+              </a>
+            </h2>
+            <p class="subtitle"><xsl:value-of select="atom:feed/atom:subtitle"/></p>
+          </header>
+          <main>
+            <ul class="post-list">
+              <xsl:apply-templates select="atom:feed/atom:entry"/>
+            </ul>
+          </main>
+        </div>
+      </body>
+
+    </html>
+  </xsl:template>
+
+  <xsl:template match="atom:entry">
+    <li class="entry">
+      <header>
+        <h3 class="entry-title"><a href="{atom:id}" target="_blank"><xsl:value-of select="atom:title"/></a></h3>
+        <small class="entry-date-time"><xsl:value-of select="atom:updated"/></small>
+        <small class="entry-author"><xsl:value-of select="atom:author"/></small>
+      </header>
+      <article>
+        <xsl:value-of select="atom:summary"/>
+      </article>
+    </li>
+  </xsl:template>
+
+</xsl:stylesheet>
