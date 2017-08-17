@@ -9,5 +9,5 @@
   {% if site.social_sites.twitter %}<li><a href="https://www.twitter.com/{{ site.social_sites.twitter | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#twitter"></use></svg> <span class="username">{{ site.social_sites.twitter | escape }}</span></a></li>{% endif %}
   {% if site.social_sites.youtube %}<li><a href="https://youtube.com/{{ site.social_sites.youtube | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#youtube"></use></svg> <span class="username">{{ site.social_sites.youtube | escape }}</span></a></li>{% endif %}
   {% if site.social_sites.googleplus %}<li><a href="https://plus.google.com/{{ site.social_sites.googleplus | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#googleplus"></use></svg> <span class="username">{{ site.social_sites.googleplus | escape }}</span></a></li>{% endif %}
-  {% if site.rss %}<li><a href="{{ site.baseurl }}/feed.xml"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#rss"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{% endif %}
+  {% if site.rss %}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#rss"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{% endif %}
 </ul>
