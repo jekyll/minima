@@ -42,6 +42,7 @@ Refers to files within the `_layouts` directory, that define the markup for your
 
 Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
 
+  - `txtpen_comments.html` &mdash; Code to markup txtpen highlighting.
   - `disqus_comments.html` &mdash; Code to markup disqus comment box.
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
@@ -122,6 +123,25 @@ You can find out more about Disqus' shortnames [here](https://help.disqus.com/cu
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+
+--
+
+### Enabling Highlighting (via txtpen)
+
+txtpen provides your Jekyll blog with highlights and in-text commenting similar to Medium. If you have a txtpen account, you can add txtpen to show highlights.
+
+To enable it, add the following lines to your Jekyll site:
+
+```yaml
+  txtpen:
+    sitename: my_txtpen_shortname
+```
+
+You can find out more about [txtpen](https://txtpen.com)
+
+Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
+
+If you don't want to display highlights for a particular post you can disable them by adding `highlights: false` to that post's YAML Front Matter.
 
 --
 
