@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer h-card">
 
   <div class="wrapper">
 
@@ -7,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
+          <li class="p-name">
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
@@ -15,7 +15,7 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
       </div>
@@ -43,4 +43,5 @@
 
   </div>
 
+  <a class="u-url" href="{{ "/" | relative_url }}" hidden></a>
 </footer>
