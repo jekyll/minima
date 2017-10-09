@@ -3,6 +3,12 @@
 ### Minor Enhancements
 
   * handling content outside of posts (#88)
+  * Add default table styles (#144)
+  * Add `jekyll-seo-tag` dependency (#139)
+
+### Documentation
+
+  * Docs: clarification about page title (#142)
 
 ## 2.1.1 / 2017-04-13
 

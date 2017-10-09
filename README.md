@@ -46,7 +46,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
-  - `header.html` &mdash; Defines the site's main header section.
+  - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
   - `icon-* files` &mdash; Inserts github and twitter ids with respective icons.
 
 ### Sass
@@ -65,6 +65,9 @@ Contains the `main.scss` that imports sass files from within the `_sass` directo
 
 This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.
 
+### Plugins
+
+Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
 
 ## Usage
 
