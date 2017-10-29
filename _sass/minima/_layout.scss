@@ -83,7 +83,7 @@
     margin-left: 20px;
   }
 
-  @include media-query($on-medium) {
+  @media screen and (min-width: $on-medium) {
     position: static;
     float: right;
     border: none;
@@ -160,7 +160,7 @@
   width:         calc(100% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-large) {
+@media screen and (min-width: $on-large) {
   .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
@@ -177,7 +177,7 @@
   }
 }
 
-@include media-query($on-medium) {
+@media screen and (min-width: $on-medium) {
   .footer-col {
     float: left;
   }
@@ -229,7 +229,7 @@
   letter-spacing: -1px;
   line-height: 1;
 
-  @include media-query($on-large) {
+  @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
   }
 }
@@ -240,7 +240,7 @@
   h2 {
     @include relative-font-size(1.75);
 
-    @include media-query($on-large) {
+    @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
     }
   }
@@ -248,7 +248,7 @@
   h3 {
     @include relative-font-size(1.375);
 
-    @include media-query($on-large) {
+    @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
     }
   }
@@ -256,7 +256,7 @@
   h4 {
     @include relative-font-size(1.125);
 
-    @include media-query($on-large) {
+    @media screen and (min-width: $on-large) {
       @include relative-font-size(1.25);
     }
   }

@@ -171,7 +171,7 @@ pre {
   padding-left: $spacing-unit / 2;
   @extend %clearfix;
 
-  @include media-query($on-large) {
+  @media screen and (min-width: $on-large) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
