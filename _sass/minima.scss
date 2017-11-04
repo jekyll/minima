@@ -36,6 +36,8 @@ $on-large:         $on-laptop !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+// Notice the following mixin uses max-width, in a deprecated, desktop-first
+// approach, whereas media queries used elsewhere now use min-width.
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
