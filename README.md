@@ -106,6 +106,28 @@ minima:
 
 --
 
+### Pagination
+
+To separate your blog posts over multiple pages, add
+
+```
+gems:
+  - jekyll-paginate
+paginate: <number-of-posts-per-page>
+```
+
+to `_config.yml`.
+Then, rename your index page to `index.html` (not `index.md`) and add `layout: home` to the front matter, so that pagination runs.
+You can also change the destination path for the pagination pages by setting
+
+```
+paginate_path: "/path/to/pagination/page:num/"
+```
+
+in `_config.yml`. See the Jekyll [pagination documentation](https://jekyllrb.com/docs/pagination/) for more information.
+
+--
+
 ### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
