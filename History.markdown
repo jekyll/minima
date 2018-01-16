@@ -6,6 +6,7 @@
   * Add default table styles (#144)
   * Add `jekyll-seo-tag` dependency (#139)
   * Add Microformats markup (#160)
+  * Add more social links (#141)
 
 ### Documentation
 
