@@ -1,4 +1,4 @@
-## HEAD
+## 2.2.0 / 2018/01/22
 
 ### Minor Enhancements
 
