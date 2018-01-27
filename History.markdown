@@ -1,3 +1,7 @@
+## 2.2.1 / 2018/01/27
+
+  * Revert social_sites hash for retrocompatibility (#190)
+
 ## 2.2.0 / 2018/01/22
 
 ### Minor Enhancements
