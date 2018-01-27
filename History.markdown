@@ -1,8 +1,16 @@
-## HEAD
+## 2.2.1 / 2018/01/27
+
+  * Revert social_sites hash for retrocompatibility (#190)
+
+## 2.2.0 / 2018/01/22
 
 ### Minor Enhancements
 
   * handling content outside of posts (#88)
+  * Add default table styles (#144)
+  * Add `jekyll-seo-tag` dependency (#139)
+  * Add Microformats markup (#160)
+  * Add more social links (#141)
 
 ### Documentation
 
