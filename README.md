@@ -110,6 +110,20 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 
 --
 
+### Customize navigation links
+
+This allows you to set which pages you want to appear in the navigation area and configure order of the links.
+
+For instance, to only link to the `about` and the `portfolio` page, add the following to you `_config.yml`:
+
+```yaml
+header_pages:
+  - about.md
+  - portfolio.md
+```
+
+--
+
 ### Change default date format
 
 You can change the default date format by specifying `site.minima.date_format`
