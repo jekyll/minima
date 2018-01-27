@@ -173,6 +173,17 @@ To enable Google Anaytics, add the following lines to your Jekyll site:
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
+### Link to specific files in header
+
+Add this to only link to the about and the linklists page in the default
+navigation header:
+
+```yaml
+header_pages:
+  - about.md
+  - linklists.md
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll/minima. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
