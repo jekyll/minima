@@ -1,3 +1,10 @@
+## 2.3.0 / 2018/01/27
+
+  * Add option to show excerpts on the homepage (#90)
+  * Handle RSS feed with jekyll-feed (#183)
+  * Test build with Ruby 2.4 on CI (#184)
+  * Document how to customize navigation links (#192)
+
 ## 2.2.1 / 2018/01/27
 
   * Revert social_sites hash for retrocompatibility (#190)
