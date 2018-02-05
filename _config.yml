@@ -18,6 +18,8 @@ rss: rss
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #googleplus_username: +jekyll
+#mastodon_username: jekyll
+#mastodon_instance: mastodoninstance.tld
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
