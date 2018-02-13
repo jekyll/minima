@@ -173,6 +173,12 @@ pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 rss: rss
+
+mastodon:
+ - username: jekyll
+   instance: example.com
+ - username: jekyll2
+   instance: example.com
 ```
 
 --
