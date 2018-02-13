@@ -22,9 +22,9 @@ rss: rss
 # Mastodon instances
 # mastodon:
 # - username: jekyll
-#   instance: mastodoninstance.tld
+#   instance: example.com
 # - username: jekyll2
-#   instance: someotherinstance.tld
+#   instance: example.com
 
 
 show_excerpts: false # set to true to show excerpts on the homepage
