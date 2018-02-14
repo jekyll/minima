@@ -4,6 +4,10 @@
 
   * Adding Mastodon to the social networks (#198)
 
+### Bug Fixes
+
+  * fix: styling main element in IE 11 (#199)
+
 ## 2.3.0
 
   * Add option to show excerpts on the homepage (#90)
