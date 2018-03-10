@@ -9,24 +9,24 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {% if site.author %}
+            {%- if site.author -%}
               {{ site.author | escape }}
-            {% else %}
+            {%- else -%}
               {{ site.title | escape }}
-            {% endif %}
+            {%- endif -%}
             </li>
-            {% if site.email %}
+            {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+            {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {% include social.html %}
+        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <p>{{- site.description | escape -}}</p>
       </div>
     </div>
 
