@@ -10,10 +10,10 @@ description: > # this means to ignore newlines until "twitter_username:"
 social:
   # mastodon:
   # - username: jekyll
-  # instance: example.com
+  #   instance: example.com
   # - username: jekyll2
-
-  # instance: example.com
+  #   instance: example.com
+  
   # dribble: jekyll
   # facebook: jekyll
   # flickr: jekyll
