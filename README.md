@@ -173,6 +173,12 @@ pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 rss: rss
+
+mastodon:
+ - username: jekyll
+   instance: example.com
+ - username: jekyll2
+   instance: example.com
 ```
 
 --
@@ -186,6 +192,16 @@ To enable Google Anaytics, add the following lines to your Jekyll site:
 ```
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+
+--
+
+### Enabling Excerpts on the Home Page
+
+To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
+
+```yaml
+show_excerpts: true
+```
 
 ## Contributing
 
