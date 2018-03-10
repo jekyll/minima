@@ -1,12 +1,20 @@
-## HEAD
+## 2.3.1
 
 ### Minor Enhancements
 
+  * Add better system fonts (#205)
+  * Remove whitespace due to Liquid tags in generated HTML (#202)
   * Adding Mastodon to the social networks (#198)
 
 ### Bug Fixes
 
+  * social icons should resolve baseurl properly (#201)
   * fix: styling main element in IE 11 (#199)
+
+### Documentation
+
+  * Improve thw wording in index.md (#175)
+  * Update config description comment (#203)
 
 ## 2.3.0
 
