@@ -185,7 +185,7 @@ mastodon:
 
 ### Enabling Google Analytics
 
-To enable Google Anaytics, add the following lines to your Jekyll site:
+To enable Google Analytics, add the following lines to your Jekyll site:
 
 ```yaml
   google_analytics: UA-NNNNNNNN-N
