@@ -40,6 +40,15 @@ ul, ol, dl, figure,
 
 
 /**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+
+
+/**
  * Images
  */
 img {
@@ -195,20 +204,17 @@ pre {
 /**
  * Icons
  */
-.icon > svg {
-  display: inline-block;
-  vertical-align: middle;
 
-  path {
-    fill: $grey-color;
-  }
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #{$grey-color};
+    padding-right: 5px;
+    vertical-align: text-top;
 }
 
 .social-media-list {
-  .icon {
-    padding-right: 5px;
-  }
-
   li + li {
     padding-top: 5px;
   }

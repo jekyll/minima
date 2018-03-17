@@ -1,4 +1,33 @@
-## HEAD
+## 2.4.0
+
+### Minor Enhancements
+
+  * Add better system fonts (#205)
+  * Remove whitespace due to Liquid tags in generated HTML (#202)
+  * Adding Mastodon to the social networks (#198)
+
+### Bug Fixes
+
+  * social icons should resolve baseurl properly (#201)
+  * fix: styling main element in IE 11 (#199)
+
+### Documentation
+
+  * Improve thw wording in index.md (#175)
+  * Update config description comment (#203)
+
+## 2.3.0
+
+  * Add option to show excerpts on the homepage (#90)
+  * Handle RSS feed with jekyll-feed (#183)
+  * Test build with Ruby 2.4 on CI (#184)
+  * Document how to customize navigation links (#192)
+
+## 2.2.1
+
+  * Revert social_sites hash for retrocompatibility (#190)
+
+## 2.2.0
 
 ### Minor Enhancements
 
@@ -6,6 +35,7 @@
   * Add default table styles (#144)
   * Add `jekyll-seo-tag` dependency (#139)
   * Add Microformats markup (#160)
+  * Add more social links (#141)
 
 ### Documentation
 

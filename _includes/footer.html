@@ -9,36 +9,24 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {% if site.author %}
+            {%- if site.author -%}
               {{ site.author | escape }}
-            {% else %}
+            {%- else -%}
               {{ site.title | escape }}
-            {% endif %}
+            {%- endif -%}
             </li>
-            {% if site.email %}
+            {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+            {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
+        <p>{{- site.description | escape -}}</p>
       </div>
     </div>
 

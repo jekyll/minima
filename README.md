@@ -47,7 +47,6 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
-  - `icon-* files` &mdash; Inserts github and twitter ids with respective icons.
 
 ### Sass
 
@@ -111,6 +110,20 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 
 --
 
+### Customize navigation links
+
+This allows you to set which pages you want to appear in the navigation area and configure order of the links.
+
+For instance, to only link to the `about` and the `portfolio` page, add the following to you `_config.yml`:
+
+```yaml
+header_pages:
+  - about.md
+  - portfolio.md
+```
+
+--
+
 ### Change default date format
 
 You can change the default date format by specifying `site.minima.date_format`
@@ -144,15 +157,51 @@ If you don't want to display comments for a particular post you can disable them
 
 --
 
+### Social networks
+
+You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config:
+
+```yaml
+twitter_username: jekyllrb
+github_username:  jekyll
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+googleplus_username: +jekyll
+rss: rss
+
+mastodon:
+ - username: jekyll
+   instance: example.com
+ - username: jekyll2
+   instance: example.com
+```
+
+--
+
 ### Enabling Google Analytics
 
-To enable Google Anaytics, add the following lines to your Jekyll site:
+To enable Google Analytics, add the following lines to your Jekyll site:
 
 ```yaml
   google_analytics: UA-NNNNNNNN-N
 ```
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+
+--
+
+### Enabling Excerpts on the Home Page
+
+To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
+
+```yaml
+show_excerpts: true
+```
 
 ## Contributing
 
