@@ -181,6 +181,8 @@ mastodon:
    instance: example.com
 ```
 
+:warning: Social links have been refactored in 2.2.0, [update your footer include](https://github.com/jekyll/minima/pull/141/files#diff-7693eb643e8fe8b8d46b407909b408ce) if you have a build error.
+
 --
 
 ### Enabling Google Analytics
