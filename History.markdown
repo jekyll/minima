@@ -1,3 +1,9 @@
+## 2.4.1
+
+### Bug Fixes
+
+ * Reintroduce removed social includes for backwards compatibility (#217)
+
 ## 2.4.0
 
 ### Minor Enhancements
