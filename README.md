@@ -45,6 +45,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `disqus_comments.html` &mdash; Code to markup disqus comment box.
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
+  - `google-adsense.html` &mdash; Inserts Google AdSense module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
 
@@ -192,6 +193,19 @@ To enable Google Analytics, add the following lines to your Jekyll site:
 ```
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+
+--
+
+### Enabling Google AdSense
+
+To enable Google AdSense, add the following lines to your Jekyll 
+site:
+
+```yaml
+  google_adsense: ca-pub-NNNNNNNNNNNNNNNN
+```
+
+Google AdSense will only appear in production, i.e., `JEKYLL_ENV=production`
 
 --
 
