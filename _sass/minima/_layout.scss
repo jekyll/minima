@@ -73,7 +73,7 @@
       padding-top: 10px;
       text-align: center;
 
-      > svg path {
+      > svg {
         fill: $grey-color-dark;
       }
     }
@@ -177,10 +177,15 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  flex: 1;
 }
 
 .page-heading {
-  @include relative-font-size(1.25);
+  @include relative-font-size(2);
+}
+
+.post-list-heading {
+  @include relative-font-size(1.75);
 }
 
 .post-list {
