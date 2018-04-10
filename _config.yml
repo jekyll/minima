@@ -40,8 +40,12 @@ minima:
 # - about.html
 
 # Build settings
-markdown: kramdown
 theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock
