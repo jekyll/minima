@@ -15,6 +15,15 @@
 
     {%- include footer.html -%}
 
+<script type="text/javascript">
+   if ("serviceWorker" in navigator) {
+     navigator.serviceWorker.register("/sw.js").then(function(registration) {
+       console.log('Success!');
+     }).catch(function(error) {
+       console.log('Failure!', error);
+     })
+ }
+</script>
   </body>
 
 </html>
