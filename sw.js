@@ -1,5 +1,8 @@
+---
+layout: null
+---
 const version = 'v1';
-const staticCacheName = 'minima';
+const staticCacheName = "version-{{site.time | date: '%Y%m%d%H%M%S'}}";
 
 addEventListener('install', installEvent => {
      console.log('The service worker is installing...');
