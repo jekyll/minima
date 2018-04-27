@@ -1,6 +1,8 @@
 ---
 layout: null
 ---
+'use strict';
+
 const version = 'v1';
 const staticCacheName = "version-{{site.time | date: '%Y%m%d%H%M%S'}}";
 
