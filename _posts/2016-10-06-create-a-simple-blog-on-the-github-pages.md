@@ -130,3 +130,5 @@ Don't forget to delete "\\" symbols.
 [jekyllrb-docs-posts](https://jekyllrb.com/docs/posts/)
 
 [mastering-markdown](https://guides.github.com/features/mastering-markdown/)
+
+[simple-social-media-links-jekyll](https://blog.r3bl.me/en/simple-social-media-links-jekyll/)
