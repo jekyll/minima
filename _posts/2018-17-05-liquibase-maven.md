@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "liquibase maven"
-date:   2018-17-05 22:05:00 +0300
+date:   2018-05-17 22:05:00 +0300
 categories: other
 ---
 
