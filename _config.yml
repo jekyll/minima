@@ -5,6 +5,7 @@ description: ""
 baseurl: ""
 #twitter_username: jekyllrb
 github_username:  vmaks
+linkedin_username:    максим-власов-046bb848
 
 # Build settings
 markdown: kramdown
