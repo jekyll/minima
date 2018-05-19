@@ -39,6 +39,17 @@ $on-laptop:        800px !default;
   }
 }
 
+@media (max-width: 768px) {
+  .mobile-side-scroller {
+    overflow-x: scroll;
+    /*margin: 0 -40px;*/
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 90%;
+  }
+}
+
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }

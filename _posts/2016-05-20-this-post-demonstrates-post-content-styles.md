@@ -89,17 +89,81 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 
 ### Tables
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+<div class="mobile-side-scroller">
 
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>lorem</td>
+    <td>lorem ipsum</td>
+    <td>lorem ipsum dolor</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+<div class="mobile-side-scroller">
+<table>
+<thead>
+  <tr>
+    <th>Title 1</th>
+    <th>Title 2</th>
+    <th>Title 3</th>
+    <th>Title 4</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>lorem</td>
+    <td>lorem ipsum</td>
+    <td>lorem ipsum dolor</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor sit amet</td>
+    <td>lorem ipsum dolor sit amet consectetur</td>
+    <td>lorem ipsum dolor sit amet</td>
+    <td>lorem ipsum dolor sit</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor</td>
+    <td>lorem ipsum</td>
+    <td>lorem</td>
+    <td>lorem ipsum</td>
+  </tr>
+  <tr>
+    <td>lorem ipsum dolor</td>
+    <td>lorem ipsum dolor sit</td>
+    <td>lorem ipsum dolor sit amet</td>
+    <td>lorem ipsum dolor sit amet consectetur</td>
+  </tr>
+</tbody>
+</table>
+</div>
