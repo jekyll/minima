@@ -18,7 +18,7 @@ CREATE TABLE order (
 --rollback drop table order;
 ```
 
-### Statement and rollback multiple line example. 
+### Statement and rollback multiple line example
 
 Liquibase will split the statements on every semicolon by default. In some cases it could lead to an error. To fix the error add "splitStatements:false rollbackSplitStatements:false" to a chageset.
 
