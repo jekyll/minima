@@ -8,24 +8,16 @@
 layout: home
 ---
 
-## My Contact Info
+
+
+<img src="/assets/mypic.jpg" width="250" align="left" style="margin:10px">
+
+Hi, I'm a programmer in the Boston area. Feel free to check out my apps on the top right of this site. My contact info is below.
+
 
 Email: jiamingluo123@gmail.com
 
 Github: https://github.com/birdieming
 
-## Weather App Version 2 (7/10/2018)
-
-[Google Play Link](https://play.google.com/store/apps/details?id=com.weather.ming.newcards)
-
-
-| <img src="/assets/Screenshot_1531530724.png" width="300">  | <img src="/assets/Screenshot_1531530731.png" width="300">  | <img src="/assets/Screenshot_1531823353.png" width="300">
-
-## Fill the Blocks Game (6/15/2018)
-
-[Google Play Link](https://play.google.com/store/apps/details?id=com.game.tetrisclone)
-
-
-<img src="/assets/filltheblocks.jpg" width="100%">
 
 

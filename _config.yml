@@ -45,4 +45,4 @@ plugins:
  - jekyll-seo-tag
  
 header_pages:
- - portfolio.md
+ - myapp.md

@@ -118,8 +118,9 @@ For instance, to only link to the `about` and the `portfolio` page, add the foll
 
 ```yaml
 header_pages:
-  - about.md
+  about.md
   - portfolio.md
+  myapp.md
 ```
 
 --
