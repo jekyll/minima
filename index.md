@@ -7,3 +7,17 @@
 #
 layout: home
 ---
+
+
+
+<img src="/assets/mypic.jpg" width="250" align="left" style="margin:10px">
+
+Hi, I'm a programmer in the Boston area. Feel free to check out my apps on the top right of this site. My contact info is below.
+
+
+Email: jiamingluo123@gmail.com
+
+Github: https://github.com/birdieming
+
+
+
