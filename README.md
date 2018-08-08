@@ -172,6 +172,7 @@ linkedin_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
+microdotblog_username: jekyll
 rss: rss
 
 mastodon:
