@@ -7,7 +7,9 @@ categories: other
 
 Liquibase Tips
 
-If you don't know anything about [liquibase][0] then liquibase is a tool that helps you manage all database changes very easily.
+If you haven't heard about [liquibase][0] yet then I will explain it shortly:
+
+it is a tool that helps you manage all database changes very easily.
 
 - Store all liquibase related data in a resources folder
 
