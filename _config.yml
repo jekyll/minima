@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 
 # social links
-twitter_username: azimslives
-github_username:  azimstech
+twitter_username: AzimsLives
+github_username:  AzimsTech
 rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -44,3 +44,7 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ 
+# Enabling comments (via Disqus)
+  disqus:
+    shortname: azimstech-github-io
