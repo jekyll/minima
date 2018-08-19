@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to deploy a spring boot application into a Java EE Application Server"
-date:   2018-19-08 23:56:00 +0300
+date:   2018-08-19 23:56:00 +0300
 categories: other
 ---
 
