@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Liquibase Tips"
-date:   2018-09-08 22:40:00 +0300
+date:   2018-08-09 22:40:00 +0300
 categories: other
 ---
 
