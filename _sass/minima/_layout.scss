@@ -216,7 +216,8 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.post-title,
+.post-content h1 {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;

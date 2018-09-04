@@ -138,6 +138,12 @@ minima:
 
 --
 
+### Change default favicon
+
+Head over to https://favicon.io/ to create your own favicon and replace default `favicon.ico` file.
+
+--
+
 ### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
