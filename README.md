@@ -161,6 +161,8 @@ Comments are enabled by default and will only appear in production, i.e., `JEKYL
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
 
+Don't forget to set the "url" field in the config file (include http/https).
+
 --
 
 ### Social networks
