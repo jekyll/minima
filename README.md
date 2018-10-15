@@ -161,7 +161,7 @@ Comments are enabled by default and will only appear in production, i.e., `JEKYL
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
 
-⚠️ url, e.g. https://example.com, must be set in you config file for Disqus to work.
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
 --
 
