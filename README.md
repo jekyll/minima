@@ -186,7 +186,7 @@ mastodon:
  - username: jekyll2
    instance: example.com
 
-youtube_channel: UCvmINlrza7JHB1zkIOuXEbw
+youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
 youtube_channel_name: jekyll
 ```
 
