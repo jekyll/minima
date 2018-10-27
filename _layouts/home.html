@@ -9,24 +9,31 @@ layout: default
 
   {{ content }}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post-item">
-        <h2 class="post-title">
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+  {%- if site.posts.size > 0 -%}
+    {%- if page.list_title -%}
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif-%}
 
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post-item">
+          <h2 class="post-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
 
-        <div class="post-excerpt">
-          {{ post.excerpt }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+          {%- if site.show_excerpts -%}
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+            </div>
+          {%- endif-%}
+        </li>
+      {% endfor %}
+    </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+  {%- endif-%}
 
 </div>
