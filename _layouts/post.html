@@ -1,45 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+{%- include head.html -%}
 
-  <body class="page-post">
+<body class="page-post">
 
-    {% include header.html %}
+{%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-        <article class="post hentry" itemscope itemtype="http://schema.org/BlogPosting">
-          <header class="post-header">
-            <div class="wrapper">
+<main class="page-content" aria-label="Content">
+  <article class="post hentry" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <div class="wrapper">
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="post-meta">
+          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </time>
+          {% if page.author %}
+            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+          {% endif %}</p>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+      </div>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
+</main>
 
-              <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-              <p class="post-meta">
-                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                  {{ page.date | date: date_format }}
-                </time>
-                {% if page.author %}
-                  • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-                {% endif %}</p>
-            </div>
-          </header>
+{%- include footer.html -%}
 
-          <div class="wrapper">
-            <div class="post-content e-content" itemprop="articleBody">
-              {{ content }}
-            </div>
-
-            {% if site.disqus.shortname %}
-              {% include disqus_comments.html %}
-            {% endif %}
-          </div>
-          <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-        </article>
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
+</body>
 </html>
