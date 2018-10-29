@@ -29,7 +29,13 @@
 }
 
 .site-nav {
-  float: right;
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit / 2;
+  background-color: $background-color;
+  border: 1px solid $grey-color-light;
+  border-radius: 5px;
+  text-align: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -37,69 +43,80 @@
   }
 
   .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $grey-color-dark;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
     display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
   }
 
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 0;
     }
+    margin-left: 20px;
   }
 
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
 
     label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
       display: none;
     }
 
-    input:checked ~ .trigger {
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: none;
+    }
+
+    input ~ .trigger {
       display: block;
-      padding-bottom: 5px;
     }
 
     .page-link {
-      display: block;
-      padding: 5px 10px;
+      display: inline;
+      padding: 0;
 
       &:not(:last-child) {
-        margin-right: 0;
+        margin-right: 20px;
       }
-      margin-left: 20px;
+      margin-left: auto;
     }
   }
 }
@@ -133,44 +150,43 @@
 }
 
 .footer-col {
-  float: left;
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
+.footer-col-1,
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
-  .footer-col-1,
+@media screen and (min-width: $on-large) {
+  .footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+  }
+
   .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
   }
 }
 
-@include media-query($on-palm) {
+@media screen and (min-width: $on-medium) {
   .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    float: left;
   }
 }
 
@@ -226,8 +242,8 @@
   letter-spacing: -1px;
   line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.625);
   }
 }
 
@@ -235,26 +251,26 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    @include relative-font-size(2);
+    @include relative-font-size(1.75);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2);
     }
   }
 
   h3 {
-    @include relative-font-size(1.625);
+    @include relative-font-size(1.375);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.625);
     }
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.125);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.25);
     }
   }
 }
