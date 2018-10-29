@@ -156,7 +156,7 @@ To enable it, add the following lines to your Jekyll site:
     shortname: my_disqus_shortname
 ```
 
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
+You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
