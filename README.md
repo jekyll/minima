@@ -108,7 +108,35 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
   - Copy the `assets/` folder from there into the root of `<your-site>`
   - Change whatever values you want, inside `<your-site>/assets/main.scss`
 
---
+
+When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/main.scss` file should explicitly import the edited partial. :
+  e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "minima/syntax-highlighting";
+```
+or
+your `<your-site>/_sass/` should look like:
+
+```
+.
+├── minima.scss
+├── minima
+|   ├── _syntax-highlighting.scss
+```
+
+To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "my_overrides";
+```
+
 
 ### Customize navigation links
 
@@ -138,9 +166,10 @@ minima:
 
 --
 
-### Change default favicon
+### Add your favicons
 
-Head over to https://favicon.io/ to create your own favicon and replace default `favicon.ico` file.
+1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
+2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
 
 --
 
@@ -155,11 +184,13 @@ To enable it, add the following lines to your Jekyll site:
     shortname: my_disqus_shortname
 ```
 
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
+You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
 --
 
