@@ -217,6 +217,9 @@ mastodon:
    instance: example.com
  - username: jekyll2
    instance: example.com
+
+youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+youtube_channel_name: CloudCannon
 ```
 
 --
