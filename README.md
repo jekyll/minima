@@ -166,6 +166,13 @@ minima:
 
 --
 
+### Add your favicons
+
+1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
+2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
+
+--
+
 ### Enabling comments (via Disqus)
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
@@ -177,11 +184,13 @@ To enable it, add the following lines to your Jekyll site:
     shortname: my_disqus_shortname
 ```
 
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
+You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
 --
 
