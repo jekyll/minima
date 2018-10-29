@@ -138,9 +138,10 @@ minima:
 
 --
 
-### Change default favicon
+### Add your favicons
 
-Head over to https://favicon.io/ to create your own favicon and replace default `favicon.ico` file.
+1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
+2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
 
 --
 
