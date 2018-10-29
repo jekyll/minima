@@ -108,7 +108,35 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
   - Copy the `assets/` folder from there into the root of `<your-site>`
   - Change whatever values you want, inside `<your-site>/assets/main.scss`
 
---
+
+When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/main.scss` file should explicitly import the edited partial. :
+  e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "minima/syntax-highlighting";
+```
+or
+your `<your-site>/_sass/` should look like:
+
+```
+.
+├── minima.scss
+├── minima
+|   ├── _syntax-highlighting.scss
+```
+
+To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
+
+```sass
+/* <your-site>/assets/main.scss */
+
+@import "minima";
+@import "my_overrides";
+```
+
 
 ### Customize navigation links
 
