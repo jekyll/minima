@@ -236,6 +236,14 @@
   margin-bottom: $spacing-unit;
 }
 
+.hyphenate {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+
 .post-title,
 .post-content h1 {
   @include relative-font-size(2.625);
