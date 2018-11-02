@@ -26,6 +26,9 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$on-medium:        $on-palm !default;
+$on-large:         $on-laptop !default;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -33,6 +36,8 @@ $on-laptop:        800px !default;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+// Notice the following mixin uses max-width, in a deprecated, desktop-first
+// approach, whereas media queries used elsewhere now use min-width.
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
