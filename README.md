@@ -207,6 +207,7 @@ flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
 pinterest_username: jekyll
+wikipedia_en_username: jekyll
 youtube_username: jekyll
 telegram_username: jekyll
 googleplus_username: +jekyll
