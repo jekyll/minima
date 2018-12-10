@@ -13,7 +13,7 @@ addEventListener('install', installEvent => {
        caches.open(staticCacheName)
        .then( staticCache => {
          return staticCache.addAll([
-           '/assets/main.css',
+           '/assets/css/style.css',
            '/assets/minima-social-icons.svg',
            '/about/index.html',
            '/404.html',
