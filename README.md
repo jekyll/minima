@@ -52,7 +52,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
-  - `minima.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
+  - `minima.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
   - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
   - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
   - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
@@ -60,9 +60,9 @@ Refers to `.scss` files within the `_sass` directory that define the theme's sty
 ### Assets
 
 Refers to various asset files within the `assets` directory.
-Contains the `main.scss` that imports sass files from within the `_sass` directory. This `main.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
+Contains the `css/style.scss` that imports sass files from within the `_sass` directory. This `css/style.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
 
-This directory can include sub-directories to manage assets of similar type, and will be copied over as is, to the final transformed site directory.
+This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as is, to the final transformed site directory.
 
 ### Plugins
 
@@ -94,26 +94,26 @@ The title for this section is `Posts` by default and rendered with an `<h2>` tag
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
 
-The site's default CSS has now moved to a new place within the gem itself, [`assets/main.scss`](assets/main.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
-- Create a new instance of `main.scss` at site source.
-  - Create a new file `main.scss` at `<your-site>/assets/`
+The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
+- Create a new instance at site source.
+  - Create a new file at `<your-site>/assets/css/style.scss`
   - Add the frontmatter dashes, and
-  - Add `@import "minima";`, to `<your-site>/assets/main.scss`
+  - Add `@import "minima";`
   - Add your custom CSS.
 - Download the file from this repo
-  - Create  a new file `main.scss` at `<your-site>/assets/`
-  - Copy the contents at [assets/main.scss](assets/main.scss) onto the `main.scss` you just created, and edit away!
-- Copy directly from Minima 2.0 gem
+  - Create  a new file at `<your-site>/assets/css/style.scss`
+  - Copy the contents at [assets/css/style.scss](assets/css/style.scss) onto the `css/style.scss` you just created, and edit away!
+- Copy directly from minima gem
   - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
   - Copy the `assets/` folder from there into the root of `<your-site>`
-  - Change whatever values you want, inside `<your-site>/assets/main.scss`
+  - Change whatever values you want, inside `<your-site>/assets/css/style.scss`
 
 
-When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/main.scss` file should explicitly import the edited partial. :
+When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/css/style.scss` file should explicitly import the edited partial. :
   e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
 
 ```sass
-/* <your-site>/assets/main.scss */
+/* <your-site>/assets/css/style.scss */
 
 @import "minima";
 @import "minima/syntax-highlighting";
@@ -131,7 +131,7 @@ your `<your-site>/_sass/` should look like:
 To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
 
 ```sass
-/* <your-site>/assets/main.scss */
+/* <your-site>/assets/css/style.scss */
 
 @import "minima";
 @import "my_overrides";

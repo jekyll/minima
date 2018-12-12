@@ -5,7 +5,6 @@
   background-color: $background-color;
   border-bottom: 1px solid $border-color;
   min-height: $base-line-height * $base-font-size * 3.166;
-
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -98,10 +97,6 @@
     }
 
     .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
       display: none;
     }
 
