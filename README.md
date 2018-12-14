@@ -208,6 +208,7 @@ minima:
     facebook: jekyll
     flickr: jekyll
     instagram: jekyll
+    kaggle: jekyll
     linkedin: jekyll
     pinterest: jekyll
     telegram: jekyll
