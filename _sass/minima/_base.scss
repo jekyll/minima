@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -208,13 +209,21 @@ pre {
  * Icons
  */
 
+ .orange {
+   color: $orange-color;
+ }
+
+ .grey {
+   color: $grey-color;
+ }
+
 .svg-icon {
     width: 16px;
-    height: 16px;
+    height: 18px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: currentColor;
     padding-right: 5px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 .social-media-list {
@@ -222,7 +231,6 @@ pre {
     padding-top: 5px;
   }
 }
-
 
 
 /**
