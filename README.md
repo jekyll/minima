@@ -211,6 +211,7 @@ youtube_username: jekyll
 telegram_username: jekyll
 googleplus_username: +jekyll
 microdotblog_username: jekyll
+gitlab_username:  jekyll
 rss: rss
 
 mastodon:
