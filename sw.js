@@ -47,7 +47,7 @@ addEventListener('fetch', fetchEvent => {
      console.log('The service worker is listening.');
      const request = fetchEvent.request;
      fetchEvent.respondWith(
-       caches.match(staticCacheName)
+       caches.match(request)
        .then ( responseFromCache => {
          if (responseFromCache) {
            return responseFromCache;
