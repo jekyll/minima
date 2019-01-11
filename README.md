@@ -142,7 +142,7 @@ To have your CSS overrides in sync with upstream changes released in future vers
 
 This allows you to set which pages you want to appear in the navigation area and configure order of the links.
 
-For instance, to only link to the `about` and the `portfolio` page, add the following to you `_config.yml`:
+For instance, to only link to the `about` and the `portfolio` page, add the following to your `_config.yml`:
 
 ```yaml
 header_pages:
