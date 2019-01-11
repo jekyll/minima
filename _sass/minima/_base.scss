@@ -209,27 +209,21 @@ pre {
  * Icons
  */
 
- .orange {
-   color: $orange-color;
- }
-
- .grey {
-   color: $grey-color;
- }
-
-.svg-icon {
-    width: 16px;
-    height: 18px;
-    display: inline-block;
-    fill: currentColor;
-    padding-right: 5px;
-    vertical-align: text-bottom;
+.orange {
+  color: $orange-color;
 }
 
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
+.grey {
+  color: $grey-color;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+  padding: 5px 3px 2px 5px;
+  vertical-align: text-bottom;
 }
 
 
