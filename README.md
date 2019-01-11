@@ -196,31 +196,34 @@ If you don't want to display comments for a particular post you can disable them
 
 ### Social networks
 
-You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config:
+You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config.
+From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_links`, with the keys being simply the social-network's name:
 
 ```yaml
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-telegram_username: jekyll
-googleplus_username: +jekyll
-microdotblog_username: jekyll
-rss: rss
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
+    dribbble: jekyll
+    facebook: jekyll
+    flickr: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    pinterest: jekyll
+    telegram: jekyll
+    googleplus: +jekyll
+    microdotblog: jekyll
+    rss: rss
 
-mastodon:
- - username: jekyll
-   instance: example.com
- - username: jekyll2
-   instance: example.com
+    mastodon:
+     - username: jekyll
+       instance: example.com
+     - username: jekyll2
+       instance: example.com
 
-youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-youtube_channel_name: CloudCannon
+    youtube: jekyll
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
 ```
 
 --
