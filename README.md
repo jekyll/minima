@@ -1,3 +1,7 @@
+# minimalized
+
+*Minimalized* is a fork of the *Minima* theme by Jekyll. It's goal is to have some style customizations and keep the robustness and functionality of the *Minima* theme. 
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
