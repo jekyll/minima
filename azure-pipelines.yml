@@ -19,3 +19,9 @@ steps:
 
 - script: script/cibuild
   displayName: 'gem build'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish gem'
+  inputs:
+    PathtoPublish: ./minimalized-0.1.0.gem
+    ArtifactName: gemfile
