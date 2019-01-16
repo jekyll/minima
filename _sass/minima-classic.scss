@@ -1,14 +1,27 @@
-/**
- * Syntax highlighting styles
- */
+@charset "utf-8";
+
+$brand-color:           #828282 !default;
+$brand-color-light:     lighten($brand-color, 40%) !default;
+$brand-color-dark:      darken($brand-color, 25%) !default;
+
+$text-color:            #111 !default;
+$background-color:      #fdfdfd !default;
+$code-background-color: #eef !default;
+
+$link-base-color:       #2a7ae2 !default;
+$link-visited-color:    darken($link-base-color, 15%) !default;
+
+$table-text-color:      lighten($text-color, 18%) !default;
+$table-zebra-color:     lighten($brand-color, 46%) !default;
+$table-header-bg-color: lighten($brand-color, 43%) !default;
+$table-header-border:   lighten($brand-color, 36%) !default;
+$table-border-color:    $brand-color-light !default;
+
+
+// Syntax highlighting styles should be adjusted appropriately for every "skin"
+// ----------------------------------------------------------------------------
+
 .highlight {
-  background: #fff;
-  @extend %vertical-rhythm;
-
-  .highlighter-rouge & {
-    background: #eef;
-  }
-
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
@@ -69,3 +82,9 @@
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+// import styles same for all skins
+@import "minima/initialize";
+
+// import user-overrides
+@import "minima/custom"
