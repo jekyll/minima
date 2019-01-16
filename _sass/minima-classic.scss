@@ -83,8 +83,8 @@ $table-border-color:    $brand-color-light !default;
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-// import styles same for all skins
-@import "minima/initialize";
-
-// import user-overrides
-@import "minima/custom"
+// import skin-agnostic styles and override
+@import
+  "minima/initialize",
+  "minima/custom-styles"
+;
