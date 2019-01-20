@@ -48,10 +48,6 @@
     line-height: 0;
     padding-top: 10px;
     text-align: center;
-
-    > svg path {
-      fill: $grey-color-dark;
-    }
   }
 
   label[for="nav-trigger"] {
@@ -284,7 +280,6 @@
       padding: $spacing-unit / 4;
       border: 1px solid $grey-color-light
     }
-    &:hover .svg-icon { fill: currentColor; }
   }
 }
 
