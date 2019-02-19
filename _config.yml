@@ -1,10 +1,9 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: The Paws Blog
+author: Pawan Sasanka Ammanamanchi
+email: pass2pawan@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm an Senior undergrad student researcher working on NLP. I love to
+  read books, articles on various topics. I try to learn what i don't know.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
