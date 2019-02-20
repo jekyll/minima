@@ -3,6 +3,7 @@
 ### Bug Fixes
 
   * Footer overlapping issue (Support Microsoft Explorer 11) (#248)
+  * Update multiline config comment. (#346)
 
 ## 2.5.0
 
