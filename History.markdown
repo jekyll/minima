@@ -5,6 +5,10 @@
   * Footer overlapping issue (Support Microsoft Explorer 11) (#248)
   * Update multiline config comment. (#346)
 
+### Development Fixes
+
+  * remove deprecated `sudo: false` in .travis.yml (#347)
+
 ## 2.5.0
 
 ### Bug Fixes
