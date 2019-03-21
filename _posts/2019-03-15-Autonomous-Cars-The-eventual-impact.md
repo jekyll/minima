@@ -1,3 +1,6 @@
+---
+layout: post
+---
 The Automobile era began in the 20th century, although for the first few decades it was considered that owning cars equaled to opulence, it soon became more widespread to a point now where it's become almost a necessity, one of the first things that any household seeks to buy in todays era. Not having a car is not as such looked down upon, but is something families strive to buy as a first thing to possess in their lives. What has this resulted into? We now live in a world struggling with huge number of vehicles and the traffic which results thereof. 
 
 This huge amount of vehicles has led to kilometers long traffic situations. An average commuter in a metropolitan city almost spends about ~ 50 hours in traffic. These vehicles result in carbon emissions due to their usage of carbon fuel. But I'm not really here to sum up the various effects and consequences of automobiles, I'm here to provide my thoughts on what we might be moving towards. A pure driverless car era ushers us towards a reimagination of transportation as we know it. 
