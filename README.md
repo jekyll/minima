@@ -221,6 +221,7 @@ minima:
     twitter: jekyllrb
     github: jekyll
     stackoverflow: "11111"
+    gitlab: jekyll
     dribbble: jekyll
     facebook: jekyll
     flickr: jekyll
