@@ -272,6 +272,11 @@
   .footnotes li:target {
     background-color: $grey-color-light;
   }
+
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
 
