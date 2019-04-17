@@ -1,6 +1,8 @@
 ---
 layout: post
 ---
+## Some thoughts about how mundane things are
+
 I guess I've been deluding myself for an extended amount of time. Having always thought that maybe not being complacent would lead to the betterment of things, relations and my life. My tryst with anxiety apart, what we aren't majorly told about adult life in general is how we do the same thing in and out, daily for a very long time and it becomes so seemingly mundane that it's like your life is on autopilot cruising through the days. We simply lack the energy and initiative to slow down or contemplate at all about things. It is extremely difficult to actually stop, go back a few steps, or take a step back and have some sort of non trivial self introspection of your life. It's not that I'm writing this as a result of being overworked or that because I feel lonely, some truths need to be addressed, and it's not depressing at all to actually come to terms with some of the truths and so forth hope that this knowledge helps us deviate from this autopilot, if not permanently at least once in a while.
 
 Friends and our conversations with them definitely are a way out of this autopilot, which is so scary that sometimes we are just left wondering how a week passed by without us noticing or remembering anything distinctive about it. In our personal aims and resolutions to constantly strive forward  and become better, we don't even appreciate things we have or had. One of the strangest things I find among human habits, is to undermine value of things when we possess them be it things, relations or conversations and suffer when they are amiss or are a diminishing resource. It's not at all weak, or emotional to show some pure selfless gratitude for someone's existence in your life.
