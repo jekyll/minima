@@ -1,4 +1,4 @@
-title: The Paws Blog
+title: A Paws Blog
 author: Pawan Sasanka Ammanamanchi
 email: pass2pawan@gmail.com
 url : pawansasanka.me
@@ -7,7 +7,8 @@ description: > # this means to ignore newlines until "twitter_username:"
   read books, articles on various topics. I try to learn what i don't know.
 
 show_excerpts: false # set to true to show excerpts on the homepage
-
+disqus :
+  shortname : https-www-pawansasanka-me
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
