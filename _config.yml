@@ -42,6 +42,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - about.md
+ - valuation.md
 
 # Build settings
 theme: minima
