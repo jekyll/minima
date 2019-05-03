@@ -42,8 +42,11 @@ that the entire system will earn disney about 10 billion dollars, which makes lu
 - He also considers the taxes that are levied on the revenues.
 - This angle of thought of looking at a company from multiple metrics makes sense and is very intriguing. and that acquisitions
 can be thoughts of as something that leads to over paying for growth. sometimes like in the case of this one, your business scales
-and does you good. 
+and does you good.
 - You can find the article [here](http://aswathdamodaran.blogspot.com/2015/12/intergalactic-finance-valuing-star-wars.html).
 - What do i think about the valuation i would provide to star wars? I think I will peg it at 11 billion dollars. One thing
 not considered in this case is Disney plus and that the rest of the movies are performing better than expected.
 - Always consider taxes and margin when thinking about final revenue.
+
+
+# Weekly Newsletter
