@@ -49,3 +49,8 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+# If you want to use the TOC template, uncomment these lines.
+markdown: kramdown
+kramdown:
+  parse_block_html: true
