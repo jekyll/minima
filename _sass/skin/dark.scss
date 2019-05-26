@@ -1,0 +1,16 @@
+$text-color:       silver !default;
+$background-color: #303030 !default;
+$brand-color:      gold !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+$orange-color:     #f66a0a !default;
+
+$code-background-color: #1E1E1E !default;
+
+$table-background-color:      $grey-color;
+$table-even-row-color:        darken($grey-color, 6%);
+$table-head-background-color: lighten($grey-color, 3%);
+
+@import "../minima/syntax-highlighting-monokai";
