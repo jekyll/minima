@@ -6,3 +6,11 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 $orange-color:     #f66a0a !default;
+
+$code-background-color: #eef !default;
+
+$table-background-color:      $grey-color-light;
+$table-even-row-color:        lighten($grey-color-light, 6%);
+$table-head-background-color: lighten($grey-color-light, 3%);
+
+@import "../minima/syntax-highlighting";

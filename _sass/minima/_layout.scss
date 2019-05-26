@@ -21,11 +21,7 @@
   @include media-query($on-palm) {
     padding-right: 45px;
   }
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+  
 }
 
 .site-nav {
