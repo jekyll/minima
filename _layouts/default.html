@@ -15,6 +15,10 @@
 
     {%- include footer.html -%}
 
+    {%- if page.math -%}
+      {%- include mathjax.html -%}
+    {%- endif -%}
+
   </body>
 
 </html>
