@@ -242,6 +242,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
+    color: $headline-color;
     @include relative-font-size(1.75);
 
     @media screen and (min-width: $on-large) {
@@ -250,6 +251,7 @@
   }
 
   h3 {
+    color: $headline-color;
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
@@ -258,6 +260,7 @@
   }
 
   h4 {
+    color: $headline-color;
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
