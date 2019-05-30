@@ -41,6 +41,8 @@ minima:
 #header_pages:
 # - about.md
 
+# 測試 新增遠端分支 nick-home
+
 # Build settings
 theme: minima
 
