@@ -245,7 +245,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h2 {
+  h2, h2 > code {
     @include relative-font-size(1.75);
 
     @media screen and (min-width: $on-large) {
@@ -253,7 +253,7 @@
     }
   }
 
-  h3 {
+  h3, h3 > code {
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
@@ -261,7 +261,7 @@
     }
   }
 
-  h4 {
+  h4, h4 > code {
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
