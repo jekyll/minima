@@ -55,5 +55,5 @@ plugins:
  
 titles_from_headings:
   enabled:     false
-  strip_title: false
+  strip_title: true
   collections: false
