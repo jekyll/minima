@@ -1,6 +1,6 @@
 ---
 layout: home
-title: home
+title: Home / News
 ---
 
 The goal of the Asian-workshop on Symmetric Key Cryptography is to promote research on symmetric key cryptography (block ciphers, stream ciphers, hash functions, analysis, designs, proofs and implementations of these primitives etc) in Asia. The program usually contains two parts: invited talks in the morning, group discussions in the afternoon. This workshop targets mainly for students and young researchers to learn and work in small interest groups.
