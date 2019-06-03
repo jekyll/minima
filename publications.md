@@ -1,3 +1,7 @@
+---
+title: Publications
+---
+
 ## Related Publications:
 
 ### ASK 2017
