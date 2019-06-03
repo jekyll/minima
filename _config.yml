@@ -50,3 +50,9 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-titles-from-headings
+ 
+ 
+titles_from_headings:
+  enabled:     false
+  strip_title: true
+  collections: false
