@@ -52,4 +52,7 @@ plugins:
  - jekyll-titles-from-headings
  
  
-
+titles_from_headings:
+  enabled:     false
+  strip_title: false
+  collections: false
