@@ -30,6 +30,7 @@ minima:
     # telegram: jekyll
     # googleplus: +jekyll
     # microdotblog: jekyll
+    # gitlab: jekyll
 
     # Mastodon instances
     # mastodon:
