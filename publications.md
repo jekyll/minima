@@ -11,6 +11,7 @@ title: Related Publications
 ### ASK 2016:
 
 - Ashwin Jha, Eik List, Kazuhiko Minematsu, Sweta Mishra, Mridul Nandi: *XHX - A Framework for Optimally Secure Tweakable Block Ciphers from Classical Block Ciphers and Universal Hashing*, **LatinCrypt 2017**.
+- Carlos Cid, Tao Huang, Thomas Peyrin, Yu Sasaki, Ling Song: *Boomerang Connectivity Table: A New Cryptanalysis Tool*, **EUROCRYPT 2018**
 - Carlos Cid, Tao Huang, Thomas Peyrin, Yu Sasaki, Ling Song: *Cryptanalysis of Deoxys and its Internal Tweakable Block Ciphers*, **FSE 2018**.
 - Ralph Ankele, Subhadeep Banik, Avik Chakraborti, Eik List, Florian Mendel, Siang Meng Sim, Gaoli Wang: *Related Key Impossible Differential Attack on Reduced Round SKINNY*, **ACNS 2017**.
 
