@@ -292,7 +292,9 @@
 /**
  * Grid helpers
  */
-.one-half {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width:         calc(50% - (#{$spacing-unit} / 2));
+@media screen and (min-width: $on-large) {
+  .one-half {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+  }
 }
