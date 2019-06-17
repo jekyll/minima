@@ -23,16 +23,15 @@ layout: default
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-          {% capture content_words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
+          {% assign content_words = post.content | number_of_words %}
+          {% assign excerpt_length = post.excerpt | number_of_words %}
 
           {% capture excerpt_words %}
             {{ post.excerpt | number_of_words }}
           {% endcapture %}
 
           {% if content_words != excerpt_words  %}
-            <p><a href="{{site.baseurl}}{{ post.url }}">Read more</a></p>
+            <p><a href="{{ post.url  | relative_url }}">Read more</a></p>
           {% endif %}
         {%- endif -%}
       </li>
