@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{%- if site.show_excerpts -%}
+  {% assign excerptClass = "excerpt" %}
+{%- else  -%}
+  {% assign excerptClass = "" %}
+{%- endif -%}
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -13,23 +19,21 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
+      <li class="{{ excerptClass }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a href="{{ post.url | relative_url }}">
+            <h3>
+              <span class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </span>
+            </h3>
+            {%- if site.show_excerpts -%}
+              <div>
+              {{ post.excerpt | strip_html}}
+              </div>
+            {%- endif -%}
           </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          {% assign content_words = post.content | number_of_words %}
-          {% assign excerpt_words = post.excerpt | number_of_words %}
-
-          {% if content_words != excerpt_words  %}
-            <p><a href="{{ post.url  | relative_url }}">Read more</a></p>
-          {% endif %}
-        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>

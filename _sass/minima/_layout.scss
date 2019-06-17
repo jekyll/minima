@@ -270,6 +270,26 @@
   }
 }
 
+.excerpt:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+
+  a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+      color: darken($brand-color, 15%);
+    }
+  }
+}
+
+.excerpt {
+  div {
+    text-decoration: none;
+    color: $text-color;
+  }
+}
 
 .social-media-list {
   display: table;
