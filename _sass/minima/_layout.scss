@@ -253,7 +253,7 @@
     }
   }
 
-  h3, h2 > code {
+  h3, h3 > code {
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
@@ -261,7 +261,7 @@
     }
   }
 
-  h4, h2 > code {
+  h4, h4 > code {
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
