@@ -16,9 +16,11 @@ layout: default
   </header>
 
   {%- if page.toc -%}
-    <div class="post-toc">
-      {% include toc.html html=content %}
-    </div>
+    <aside class="post-toc">
+      <nav class="post-toc-navigation">
+        {% include toc.html html=content %}
+      </nav>
+    </aside>
   {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
