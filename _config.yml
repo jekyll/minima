@@ -49,3 +49,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+copyright: >    
+  © <!--copyyears--> <!--author-->; All rights reserved.

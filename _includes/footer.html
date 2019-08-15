@@ -8,7 +8,16 @@
       <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
+            {%- if site.copyright -%}
+              {% assign year_from = site.posts[-1].date | date: '%Y' %}
+              {% assign year_to   = site.time | date: '%Y' %}
+              {% if year_from == nil or year_from == year_to %}
+                {% assign year_string = year_from %}
+              {% else %}
+                {% assign year_string = year_from | append: '&nbsp;' | append: '-' | append: '&nbsp;' | append: year_to %}
+              {% endif %}
+              <small class="copyright">{{ site.copyright | markdownify | replace:'<!--copyyears-->',year_string | replace:'<!--author-->',site.author | replace:'<p>','' | replace:'</p>','' }}</small>
+            {%- elsif site.author -%}
               {{ site.author | escape }}
             {%- endif -%}
             </li>
