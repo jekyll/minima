@@ -1,10 +1,14 @@
 ## HEAD
 
+### Documentation
+
+  * Forward port v2.5.1 release (#399)
+
 ## 2.5.1
 
 ### Minor Enhancements
 
- * Allow use and testing with Jekyll 4.x (#398)
+  * Allow use and testing with Jekyll 4.x (#398)
 
 ### Bug Fixes
 
