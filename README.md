@@ -220,6 +220,7 @@ minima:
     telegram: jekyll
     googleplus: +jekyll
     microdotblog: jekyll
+    keybase: jekyll
     rss: rss
 
     mastodon:
