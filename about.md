@@ -3,6 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-This is a website dedicated to keeping employees informed of happenings, events and internal changes.
+This is a website dedicated to keeping our co-workers informed of happenings, events and internal changes.
+
+Who are we? Geodata IT, LLC is an innovative and advanced technology company headquarted in St. Louis, Missouri with a presence in four states. Founded in 2012, we are a Veteran-Owned Small Business (VOSB) with SBA 8(a) Business Development Program Certification. The management and information technology professionals at Geodata IT utilize engineering best practices to provide cost effective information technology, data science and GIS solutions that are designed to help our customers meet their mission and be better than the competition. With an Open Ratings Score of >95%, Geodata IT and its employees have a reputation and a history of being trustworthy and reliable.
+
+Looking for a career in GEOINT? We love hiring innovators and thinkers!
 
 <center><a href="http://www.geodatait.com/careers"><img src="http://blog.geodatait.com/wp-content/uploads/2018/12/jobs-button.png"></a></center>
