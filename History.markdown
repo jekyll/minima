@@ -4,6 +4,10 @@
 
   * Forward port v2.5.1 release (#399)
 
+### Minor Enhancements
+
+  * Add Keybase to social links (#400)
+
 ## 2.5.1
 
 ### Minor Enhancements
