@@ -1,5 +1,19 @@
 ## HEAD
 
+### Documentation
+
+  * Forward port v2.5.1 release (#399)
+
+### Minor Enhancements
+
+  * Add Keybase to social links (#400)
+
+## 2.5.1
+
+### Minor Enhancements
+
+  * Allow use and testing with Jekyll 4.x (#398)
+
 ### Bug Fixes
 
   * Footer overlapping issue (Support Microsoft Explorer 11) (#248)

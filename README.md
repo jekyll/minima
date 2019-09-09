@@ -20,12 +20,6 @@ Add this line to your Jekyll site's Gemfile:
 gem "minima"
 ```
 
-And add this line to your Jekyll site:
-
-```yaml
-theme: minima
-```
-
 And then execute:
 
     $ bundle
@@ -44,6 +38,24 @@ Refers to files within the `_layouts` directory, that define the markup for your
   - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
   - `post.html` &mdash; The layout for your posts.
 
+#### Home Layout
+
+`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+
+##### *Main Heading and Content-injection*
+
+From Minima v2.2 onwards, the *home* layout will inject all content from your `index.md` / `index.html` **before** the **`Posts`** heading. This will allow you to include non-posts related content to be published on the landing page under a dedicated heading. *We recommended that you title this section with a Heading2 (`##`)*.
+
+Usually the `site.title` itself would suffice as the implicit 'main-title' for a landing-page. But, if your landing-page would like a heading to be explicitly displayed, then simply define a `title` variable in the document's front matter and it will be rendered with an `<h1>` tag.
+
+##### *Post Listing*
+
+This section is optional from Minima v2.2 onwards.<br/>
+It will be automatically included only when your site contains one or more valid posts or drafts (if the site is configured to `show_drafts`).
+
+The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
+
+
 ### Includes
 
 Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
@@ -53,6 +65,8 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
+  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file.
+
 
 ### Sass
 
@@ -63,6 +77,7 @@ Refers to `.scss` files within the `_sass` directory that define the theme's sty
   - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
   - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
 
+
 ### Assets
 
 Refers to various asset files within the `assets` directory.
@@ -70,32 +85,22 @@ Contains the `css/style.scss` that imports sass files from within the `_sass` di
 
 This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as is, to the final transformed site directory.
 
+
 ### Plugins
 
 Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) plugin preinstalled to make sure your website gets the most useful meta tags. See [usage](https://github.com/jekyll/jekyll-seo-tag#usage) to know how to set it up.
 
+
 ## Usage
 
-### Home Layout
+Have the following line in your config file:
 
-`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+```yaml
+theme: minima
+```
 
-#### Main Heading and Content-injection
 
-From Minima v2.2 onwards, the *home* layout will inject all content from your `index.md` / `index.html` **before** the **`Posts`** heading. This will allow you to include non-posts related content to be published on the landing page under a dedicated heading. *We recommended that you title this section with a Heading2 (`##`)*.
-
-Usually the `site.title` itself would suffice as the implicit 'main-title' for a landing-page. But, if your landing-page would like a heading to be explicitly displayed, then simply define a `title` variable in the document's front matter and it will be rendered with an `<h1>` tag.
-
-#### Post Listing
-
-This section is optional from Minima v2.2 onwards.<br/>
-It will be automatically included only when your site contains one or more valid posts or drafts (if the site is configured to `show_drafts`).
-
-The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
-
---
-
-### Customization
+### Customizing templates
 
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
@@ -130,8 +135,8 @@ your `<your-site>/_sass/` should look like:
 ```
 .
 ├── minima.scss
-├── minima
-|   ├── _syntax-highlighting.scss
+└── minima
+    └── _syntax-highlighting.scss
 ```
 
 To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
@@ -156,7 +161,6 @@ header_pages:
   - portfolio.md
 ```
 
---
 
 ### Change default date format
 
@@ -170,14 +174,12 @@ minima:
   date_format: "%b %-d, %Y"
 ```
 
---
 
 ### Add your favicons
 
 1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
 2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
 
---
 
 ### Enabling comments (via Disqus)
 
@@ -198,7 +200,6 @@ If you don't want to display comments for a particular post you can disable them
 
 :warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
---
 
 ### Social networks
 
@@ -218,6 +219,7 @@ minima:
     pinterest: jekyll
     telegram: jekyll
     microdotblog: jekyll
+    keybase: jekyll
     rss: rss
 
     mastodon:
@@ -231,7 +233,6 @@ minima:
     youtube_channel_name: CloudCannon
 ```
 
---
 
 ### Enabling Google Analytics
 
@@ -243,8 +244,6 @@ To enable Google Analytics, add the following lines to your Jekyll site:
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
---
-
 ### Enabling Excerpts on the Home Page
 
 To display post-excerpts on the Home Page, simply add the following to your `_config.yml`:
@@ -252,6 +251,7 @@ To display post-excerpts on the Home Page, simply add the following to your `_co
 ```yaml
 show_excerpts: true
 ```
+
 
 ## Contributing
 
