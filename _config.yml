@@ -2,7 +2,7 @@ title: Gyan's Blog
 author: Gyan Lakhwani
 email: hello@gyanl.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  My name is Gyan, and I am an interaction designer and cat appreciator. If you'd like to see my portfolio, check out <a href="gyanl.com">gyanl.com</a>
+  My name is Gyan, and I am an interaction designer and cat appreciator.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
