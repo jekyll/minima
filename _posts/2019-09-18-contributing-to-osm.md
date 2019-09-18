@@ -8,6 +8,14 @@ categories: idc
 
 As part of my Data Visualization course at IDC School of Design, my classmates and I went to Galleria and Central Avenue in Hirandandani, Powai, and marked some places on the map. This article documents which places we went to and what we marked.
 
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
 ---
 Amenity:	Count
 beauty:	1
