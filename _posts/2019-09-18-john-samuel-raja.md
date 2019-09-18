@@ -20,13 +20,18 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 - Visualized
 
 #### Data that is easily accessible
-- [data.gov.in]
-- [indiabudgets.nic.in]
-- [censusindia.gov.in]
+- [data.gov.in](data.gov.in)
+- [indiabudgets.nic.in](indiabudgets.nic.in)
+- [censusindia.gov.in](censusindia.gov.in)
 
 #### Data that should be free, but is charged
 - Survey of India - there is a monopoly for maps in India (but some are free)
 - IMD weather data
+
+### Why is this useful?
+
+#### Answering business problems
+Example: a diaper maker wants to find out where the market is concentrated.
 
 {% comment %}
 Might you have an include in your theme? Why not try it here!
