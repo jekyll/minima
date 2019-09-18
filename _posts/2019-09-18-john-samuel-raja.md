@@ -21,6 +21,8 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 - Searchable and comparable
 - Visualized
 
+### Data Access Policy
+
 #### Data that is easily accessible
 - [data.gov.in](data.gov.in)
 - [indiabudgets.nic.in](indiabudgets.nic.in)
