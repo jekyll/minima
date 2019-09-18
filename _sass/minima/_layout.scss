@@ -214,7 +214,7 @@
 
 .post-meta {
   font-weight: 600;
-  font-size: $small-font-medium;
+  font-size: $small-font-small;
   color: $red-color;
 }
 
@@ -248,7 +248,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 18px; 
     @include relative-font-size(1.75);
 
@@ -258,7 +258,7 @@
   }
 
   h3 {
-     font-weight: 700;
+     font-weight: 600;
      margin-bottom: 4px;
      margin-top: 20px;
     @include relative-font-size(1.375);
@@ -269,7 +269,7 @@
   }
 
   h4 {
-     font-weight: 600;
+     font-weight: 700;
      margin-bottom: 4px;
      margin-top: 18px;
     @include relative-font-size(1.125);
