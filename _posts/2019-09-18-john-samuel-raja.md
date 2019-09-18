@@ -13,7 +13,7 @@ Public data exists, but few people use it to make decisions because :
 - Formats like PDF that are not directly usable.
 
 ### The Solution  
-(How India Lives)[http://howindialives.com/]  
+[How India Lives](http://howindialives.com/)  
 NLP based search engine anyone can use without prior knowledge of existing data.
 - Single database
 - Searchable and comparable
