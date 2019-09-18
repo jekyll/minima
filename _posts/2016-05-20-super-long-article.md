@@ -1,11 +1,791 @@
 ---
 layout: post
-title: "Some articles are just so long they deserve a really long title to see if things will break well"
+title: "Design Research Methodologies"
 categories: misc
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+>Running notes from the Design Research Methodologies course at IDC School of Design, IIT Bombay.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Friday, 2 August 2019
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Source Grid
+
+What is design?
+
+|
+
+Author
+
+ |
+
+Definition
+
+ |
+
+Notes
+
+ |
+|
+
+Athavankar (1990)
+
+ |
+
+Design is...
+
+ |
+
+First Definition
+
+ |
+|
+
+Balram (1995)
+
+ |
+
+Design is...
+
+ |
+
+Inspired by Ulm
+
+ |
+|\
+ |
+
+Design is...
+
+ |
+
+Agrees with Athavankar, adds...
+
+ |
+|\
+ |
+
+Design is...
+
+ |
+
+Disagrees with ...
+
+ |
+
+Referencing Styles
+
+-   LNCS  
+
+-   APA
+
+Manual Styles
+
+Chicago Manual of Style
+
+Oxford Manual of Style
+
+Reporting the work of others
+
+Paraphrasing (Writing another person's idea in your own words) 
+
+Summary (
+
+Quotations (Avoid too many)
+
+Synthesis (Taking multiple authors, paraphrase them, link their work in like one or two lines. If you have 10-15 authors but quoting each will make the text too long) 
+
+Introductory phrases 
+
+Reporting verbs
+
+Integral 
+
+According to Dalvi (2010) ...
+
+Non-integral
+
+... Dalvi
+
+Indicating agreement
+
+Joshi (2003) points out that a far more effective approach is...
+
+Foreshadowing for disagreement
+
+Joshi (2003) claims that a far more effective approach is...
+
+Direct quotation must be in quotes, author must be at beginning or end
+
+"Hit me baby one more time" (Spears, 1998)
+
+Long quotations (Mostly used for a narrative)
+
+According to Lakhwani,
+
+"When I was a child, I was ... and that's the story of how I got lost in the mall" (Lakhwani, 2019)
+
+Patching
+
+Only slightly changing the wording - using a thesaurus and swapping words. Even if you provide citation/reference, patching is considered a form of plagiarism.
+
+SIde-stepping (To show your awareness of the complexity of the issue) 
+
+-   Acknowledge a problem exists but mention that it is not your focus. 
+
+-   Give references to the work done by other people in the side-stepped area for people to pivot towards.
+
+"These issues are not the focus of the study, readers interested in postcolonial studies can refer, to mention a few, the works of (Alvares 1991), (Bhabha 1994) and the writings of Subaltern studies group"
+
+Organising your review
+
+-   Topical 
+
+-   Chronological
+
+-   Problem-cause-solution
+
+-   General-to-specific / specific-to-general
+
+-   Known-to-unknown
+
+-   Comparison-and-contrast
+
+Suggested method for organising your review (general-to-specific)
+
+-   Broad topics
+
+-   Subtopics
+
+-   Studies like yours
+
+Hedging (#humble) 
+
+Hypothesis =/= Opinion =/= Facts
+
+Distinguish between absolutes (100% certain) and probabilities (<100% certain)
+
+Provide traceable evidence and justification for any claims you make or any opinions you have formed as a result of your research.
+
+Post hedge
+
+With the evidence we have, in the context of ...
+
+Weasel words: Seems like, probably, perhaps, it appears\
+These sort of words are frowned upon in other types of writing but in academic writing you're protecting yourself against making outlandish claims. You also sound humbler.
+
+Assignment Number 1a
+
+Due by next Girish course - 21 August?
+
+Prepare a plan for the Literature Review of your Project/Research
+
+What will I cover?
+
+What will I not cover?
+
+Strategy for finding resources?
+
+What will my conclusion be?
+
+Assignment Number 1b
+
+Due at end of semester
+
+Execute the plan for Literature Review
+
+Supplementary Reading
+
+1.  Hypotheses, Laws and Theories: A user's guide\
+    Stephen Van Evera
+
+2.  The literature review: it's role within research\
+    Booth, Sutton et al
+
+3.  How to Read a Paper\
+    S. Keshav
+
+Wednesday, 7 August 2019
+
+"What is research? Nobody knows." - AJ, 2019
+
+Creation of new knowledge
+
+Reliable, valid and reproducible
+
+Contextualising and referencing
+
+-   What was known, what is new, how is it different?
+
+-   Incremental - builds on previous work.
+
+-   'Good' ideas are refined + advanced, 'bad' ideas are discarded
+
+Articulation
+
+-   Writing papers
+
+Friday, 9 August 2019
+
+Correlational Research
+
+Correlational is not necessary coincidental. 
+
+Confound - this is the third variable which meddles your data. 
+
+Causality -
+
+Experimental Research 
+
+A 'controlled' experiment in a 'lab' setting
+
+2 variables - manipulated variable and response variable. 
+
+AKA Dependent variable and independent variable.
+
+Experimental research must have at least 1 IV.\
+Number of "effects" increases rapidly with number of IVs, try to keep them limited in an experiment 2 to 3? Eg. Drug trials 2 or more start interacting with each other also.
+
+Independent Variable (IV)
+
+Independent of user behaviour. It is manipulated in an experiment to elicit a change.
+
+Eg. change in human response while using a design
+
+"Look, I'm creating a theory." - AJ 2019
+
+-   Must have at least 2 levels/values/settings
+
+-   Name both the factor (IV) and levels (test conditions)
+
+-   Human attributes (age, gender, height, etc.) could be IV but cannot be "manipulated"
+
+-   There may be confounding variables - a variable that affects IV & DV both, causing spurious association. They are often hidden, you need to guess at them. 
+
+-   Usually correlational studies
+
+Dependent Variable
+
+-   Use anything that is measurable and reproducible
+
+-   You should be able to collect the data
+
+Control Variable
+
+Circumstance (not under investigation) that is kept constant while testing effect of IV.
+
+Random Variable
+
+Circumstance (not under investigation) that is allowed to vary randomly while testing effect of IV.
+
+Confounding Variables
+
+Circumstance apart from DVs under investigation that has an effect on IV.
+
+Operational values
+
+When we're doing research we need to operationalize values - eg. trying to study technology adoption we might use number of devices owned, time taken to learn a technology (whatsapp, net banking)
+
+Research Questions
+
+Is there a higher proportion of women in the profession of design as opposed to engineering?
+
+Hypothesis
+
+There is no difference in the proportion of women in the professions of engineering and design.
+
+Research Design
+
+Tension between external v/s internal validity
+
+If you control some of the random variables, variablity comes down. 
+
+Some degree of randomness allows for better external validity.
+
+Between Subjects
+
+Each participant is tested on one condition only.
+
+More participants, but shorter study each.
+
+Variation in skills of participants can affect the study, needs balancing variables across test conditions.
+
+Within Subjects
+
+Each participant is tested on each condition. AKA repeated measures.
+
+Fewer participants, but longer study each. 
+
+Less variation because of skills of participants, balancing not needed.
+
+Order effects (eg. learning, practice, fatigue) are possible - counterbalancing reqd.
+
+Asymmetric learning effects
+
+Eg. Keyboard A teaches people how to use keyboard B and vice versa. 
+
+Use a training session to fix asymmetric learning effects.
+
+Order effects - Counterbalancing if possible, randomize if not. 
+
+-   Learning
+
+-   Practice
+
+-   Fatigue
+
+Balanced latin square when all P&C not possible
+
+Wednesday, 14 August 2019
+
+"Have fun with the data" - AJ 2019
+
+Tapping Experiment
+
+Design of experiment
+
+-   PC v/s Android - between subjects
+
+-   With and without feedback - within subjects, counter balanced
+
+-   Mixed design (since it used multiple things)
+
+The sample population is all design students who are heavy users of technology.
+
+Homework for today
+
+Friday, 16 August 2019
+
+Null hypothesis,
+
+Null Hypothesis 
+
+The hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error.
+
+What would be the purpose of doing the phonebook experiment?
+
+-   Gender bias, argue for more diverse hiring
+
+Dal factory (tur dal)
+
+Dicot seed with outer shell, some oil. "Phatka" machine - not very sophisticated.
+
+Sortex machine - uses optical camera and sorts 16 tons of dal a day. 
+
+> Good dal 70-80% 
+
+> Broken pieces to make powder
+
+> Unbroken put back in the machine
+
+Wednesday, 21 August 2019
+
+Variables according to levels of measurement
+
+Categorical variable
+
+Nominal variable
+
+2 or more categories with no intrinsic order
+
+Binomial/Dichotomous variable
+
+There are some special tests we can use, sometimes coded as 0/1
+
+-   Do you own smartphone? (yes/no)
+
+-   Success (successful/failed)
+
+Ordinal variable
+
+-   How do you feel about govt's performance? (approve, on the fence, disapprove)
+
+-   Ranking is special case of Ordinal
+
+-   Letter grades in IITB - they start as numerical, but you want consistency in measurement across subjects, and teaching methods and evaluation methods vary.
+
+Continuous variable
+
+Semantic differential scale
+
+Use bipolar adjectives to measure the psychological meaning of an attitude object.
+
+Visual continuous scale
+
+Interval scale
+
+-   Measured along continuum
+
+-   Interval between 30°C and 40°C is same as 40°C and 50°C. 
+
+-   0 is arbitrary value at which water freezes, not lack of temperature
+
+-   Ratio is not meaningful - 10°C is not double of 5°C.
+
+Ratio scale
+
+-   10m is twice of 5m
+
+-   0 is absolute lack of something
+
+-   All tests for interval can be used for ratio but not other way around. 
+
+Normal distribution
+
+Bell curve
+
+P-value
+
+Chance that the result is by chance, given that null hypothesis is true.
+
+"There are only 2 things in the world - samples and populations." - AJ 2019
+
+Friday, 23 August 2019
+
+Girish Dalvi
+
+Research paper
+
+-   Thesis/claim/data
+
+-   Method of collecting data
+
+-   Method of analysis
+
+-   Discussion\
+    What are reasons for getting results we are getting? What other areas are there for exploration?
+
+Lit Review content
+
+-   Purpose of Lit rev
+
+1.  How will you use the material you describe? Chekhov's gun.
+
+1.  Prove demand for research/product
+
+2.  Prove impact for research/product
+
+1.  Document/survey and identify gaps
+
+1.  Identify similiar/existing research/product
+
+1.  Analyse them, use theory/good features
+
+2.  Avoid disadvantages of existing products
+
+1.  Other uses
+
+-   Organisation of Lit rev
+
+-   Sources\
+    dssd
+
+-   Desired conclusion of Lit rev
+
+What is a belief system?
+
+"Research is a belief system." - Girish 2019
+
+-   Nature is orderly and regular system
+
+-   We can know/understand nature (human exceptionalism)
+
+-   Knowledge is better than ignorance
+
+-   All natural phenomena have natural causes
+
+-   Nothing is self-evident, but it must be verified or falsified
+
+-   Knowledge is derived from observation of nature
+
+Use of research
+
+Establish facts
+
+To test (and establish) 'causal' explanations for established facts
+
+Epistemology
+
+Rationalist
+
+Reasoning creates knowledge
+
+Empiricism
+
+Obtained through senses
+
+Types of explanation
+
+Idiographic
+
+Seeks to explain particular situation\
+→ Limited to single case
+
+Nomothetic
+
+Seeks to explain a class of situations
+
+→ Generalizability
+
+Research strategies
+
+Inductive
+
+Linear, bottom up process
+
+Argues from particular to general
+
+Deductive
+
+Also linear, but top down
+
+Argues from general to particular
+
+2 less common but more complex non linear processes\
+Spiral processes with many iterations
+
+Abductive (Schütz)
+
+Develop concepts and theories from actors' everyday life and understanding; inference to the best explanation
+
+//Humans are linguist abductors - everyone is guessing what people are trying to say.
+
+Retroductive
+
+Use reason and imagination to create an explanatory model and then test in real world.
+
+Homework
+
+Assignment 2a
+
+Read 'Strategies for answering research questions' - Norman Blaikie.\
+Explain each strategy with 5 examples.
+
+Assignment 2b
+
+Examine and articulate through Writing your research/project beliefs and the evidence for it.
+
+Girish sir's next class is on 18 September
+
+Wednesday, 28 August 2019
+
+AJ
+
+Revision class, notes added in previous sections
+
+Wednesday, 4 September 2019 
+
+Dr. Pramod Khambete
+
+Introduction to Research
+
+Surveys and Questionnaires (focus on questionnaires.)
+
+"Get all the information you can, we'll think of a use for it later." - common practice.
+
+Pros
+
+Popular in quant, can be used for qual also. 
+
+Enables coverage of large spread of population.
+
+Cons
+
+Results can be misleading unless done well.
+
+Survey is the measurement process. Questionnaire is the highty structured instrument comprising of a set of 'questions'.
+
+How to set questions 
+
+Questions may be in the form of statements, W/H question not necessary.
+
+-   According to what we know
+
+-   Intangible/invisible things we want to know converted into 'questions'
+
+-   Well organised - order, grouping and mix of structured and unstructured questions. 
+
+-   Articulated in a manner to reduce biases and errors
+
+-   Answers must be analysable
+
+-   Appropriate communication approach
+
+-   Interview, self-administered
+
+-   Paper based, telephonic, web
+
+Behaviour and Attitude measurement
+
+Behaviour
+
+What people do
+
+Attitude
+
+A learned, stable predisposition to respond to oneself, others, objects, events and issues in a consistently favourable or unfavourable way.
+
+Types of Attitude
+
+Cognitive
+
+Memories, evaluations, beliefs
+
+Affective
+
+Feelings, emotions, intuitions, values
+
+Behaviourally bases
+
+Expectations, behavioural intentions
+
+Attitude influences behaviour and vice-versa as well.
+
+Developing a survey questionnaire
+
+1 Research Question
+
+What are things you want to find? What to conclude?
+
+2 Investigative Questions
+
+Specific questions that adequately cover research questions?
+
+3 Measurement questions
+
+Specific, analysable questions participants must answer.
+
+4 Questionnaire development
+
+Exact form and content of questionnaire.
+
+Known x Unknown
+
+Known Known - You know you know this.
+
+Known Unknown - You know you don't know this.
+
+Unknown Known - You don't know you know this - you have some partial information.
+
+Unknown Unknown - You don't know anything about this.
+
+Friday, 6 September 2019 
+
+Dr. Pramod Khambete
+
+Circle of data collection activities
+
+1.  Locating site/individual
+
+2.  Gaining access/making rapport
+
+3.  Purposeful sampling
+
+4.  Collecting data
+
+5.  Recording information
+
+6.  Resolving field issues
+
+7.  Storing data
+
+... and loop.
+
+Creswell (2007)
+
+Be flexible
+
+Expect deviations from the plan, things can and will go wrong. Adapt to the situation.
+
+Random sampling is not always the best sampling method. 
+
+Sampling is usually not random, sample composition may emerge during study.
+
+Random sample is not 100% representative sample.
+
+Recognise role of gatekeeper
+
+Voluntary participation is a must, but role of gatekeeper can introduce filters in population, or influence people to talk to you or be more guarded.
+
+Recording, collecting, storing data
+
+Nuances v/s. Hard data - need to strike a balance
+
+Use multiple methods/tools (eg. notes, audio rec, video rec)
+
+Generally, you won't be able to interview the same person again.
+
+Ethics
+
+Don't record without consent
+
+Participants must not face any risks, even inadvertently
+
+Interviewer is in position of control, there is power asymmetry. Be conscious of this.
+
+Interview
+
+Purposeful conversation - not a Q&A. Needs to be flexible. 
+
+Your aim is to get information, other person has no obligation to you and is doing you a favor. 
+
+Generates verbal data, capturing nuances is important, capture other kinds of data if possible.
+
+Empathise
+
+"यह सब bullet point तो ठीक है, field में करके देखो" - Khambete, 2019
+
+Types of interview
+
+Open ended/unstructured
+
+-   Questions are tweaked to match unfolding situation
+
+-   Extensive use of probes - cultural probes can be used
+
+Semi-structured
+
+Structured
+
+Preparatory stage of interview
+
+-   Give basic info about research
+
+-   Tell them role of interview in research
+
+-   Tell them their role
+
+Wednesday, 18 September 2019 
+
+Girish
+
+What do I want to know? Try and be very specific
+
+What is a better way to find fonts for amateur font enthusiasts?
+
+-   What does better mean?
+
+-   How to measure improvement?
+
+-   Is one font better than another?
+
+-   Self reporting?
+
+Why do I want to know? What impact will it have?
+
+Furthering of the epistemological imagination.
+
+What do I already know? How sure am I? What is the evidence?
+
+Anecdotal evidence is not enough. Hasty generalization. Evidence should be sustantial.
+
+How will I know I want to know? What is the process? Is this the best way to know what I want to know?
+
+How will I test the new knowledge? Validation
+
+Comparing with previous literature
+
+Replication in time, space
+
+RCT
+
+Benchmark studies
