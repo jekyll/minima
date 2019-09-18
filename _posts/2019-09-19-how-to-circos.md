@@ -40,8 +40,8 @@ You can pick whatever you like, but I decided to visualize the patterns in key i
 Circos uses :
 
 - A matrix of data
-- With headers for both rows and coloumns
-- Formatted as tab separated values (.tsv)
+- With headers for both rows and coloumns, headers can't contain spaces
+- Formatted as a tab separated values (.tsv) file
 
 #### Putting tables into Circos
 
@@ -59,7 +59,7 @@ What Circos *can* do is represent *matrices.* What's the difference? In mathemat
 The matrix takes each pair of (key-in-person, key-out-person) data and inserts +1 into the corresponding position on the matrix. I did this manually, but if you can code, it's essentially a matter of [converting key-value pairs into a matrix](https://stackoverflow.com/questions/17173743/create-a-matrix-from-a-list-of-key-value-pairs)
 ![Screenshot of matrix on Google Sheets](https://gyanl.com/blog/assets/circos-matrix.png).
 
-Also remember to put the text "labels" on the top left cell, or Circos Online won't accept the input.
+Also remember to put the text "labels" on the top left cell, or Circos Online won't accept the input. Make sure your headers don't have any spaces in them, or Circos will fail and throw a bunch of scary looking errors at you.
 
 #### Download a .tsv
 In Google Sheets, go to ```File``` > ```Download``` > ```Tab-separated values (.tsv, Current sheet)```
@@ -74,3 +74,41 @@ It may take a few seconds to load, but once it does, you can pat yourself on the
 
 You can now download a ```large image``` or a zip with ```data, images (PNG/SVG) and configuration``` from Circos online. 
 
+## Let's look at another example
+
+This data comes from the [Data Visualization Community Survey 2019 Challenge](https://www.datavisualizationsociety.com/2019-survey-challenge). 
+
+I extracted the education and gender for people who responded to the survey, and got this.
+
+| Education        | Gender            | Count |
+|------------------|-------------------|-------|
+| Masters          | Man               | 353   |
+| Bachelors        | Man               | 291   |
+| Masters          | Woman             | 198   |
+| PhD              | Man               | 143   |
+| Bachelors        | Woman             | 128   |
+| PhD              | Woman             | 72    |
+| Technical School | Man               | 31    |
+| Masters          | Prefer not to say | 11    |
+| Bachelors        | Prefer not to say | 9     |
+| PhD              | Prefer not to say | 5     |
+| Technical School | Woman             | 4     |
+| Bachelors        | Non-binary        | 2     |
+| Masters          | Non-binary        | 2     |
+| Masters          | Woman             | 2     |
+| Technical School | Non-binary        | 1     |
+| PhD              | Non-binary        | 1     |
+
+After (once again, manually) converting to a matrix, we get this matrix. 
+
+| labels          | Man | Woman | NonBinary | PreferNotToSay |
+|-----------------|-----|-------|-----------|----------------|
+| Bachelors       | 291 | 128   | 2         | 9              |
+| Masters         | 353 | 198   | 2         | 11             |
+| PhD             | 143 | 71    | 1         | 5              |
+| TechnicalSchool | 31  | 4     | 1         | -              |
+
+#### Result
+The result looks something like this: 
+
+![Chord diagram of key issues](https://gyanl.com/blog/assets/circos-education-gender.png)
