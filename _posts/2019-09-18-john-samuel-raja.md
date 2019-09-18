@@ -19,18 +19,14 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 - Searchable and comparable
 - Visualized
 
-
-#### The Solution  
-[How India Lives](http://howindialives.com/)  
-NLP based search engine anyone can use without prior knowledge of existing data.
-- Single database
-- Searchable and comparable
-- Visualized
-
 #### Data that is easily accessible
 - (data.gov.in)
 - (indiabudgets.nic.in)
 - (censusindia.gov.in)
+
+#### Data that should be free, but is charged
+- Survey of India - there is a monopoly for maps in India (but some are free)
+- IMD weather data
 
 {% comment %}
 Might you have an include in your theme? Why not try it here!
