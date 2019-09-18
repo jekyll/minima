@@ -213,8 +213,9 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-weight: 600;
+  font-size: $small-font-medium;
+  color: $red-color;
 }
 
 .post-link {
@@ -233,6 +234,7 @@
 
 .post-title,
 .post-content h1 {
+  font-weight: 800;
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -256,7 +258,7 @@
   }
 
   h3 {
-     font-weight: 800;
+     font-weight: 700;
      margin-bottom: 4px;
      margin-top: 20px;
     @include relative-font-size(1.375);
@@ -267,7 +269,7 @@
   }
 
   h4 {
-     font-weight: 800;
+     font-weight: 600;
      margin-bottom: 4px;
      margin-top: 18px;
     @include relative-font-size(1.125);
