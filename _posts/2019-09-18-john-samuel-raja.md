@@ -33,7 +33,6 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 #### Answering business problems
 Example: a diaper maker wants to find out where the market is concentrated. This involves finding out where fertility rates are high, but they want people who can afford diapers. So they can look at places with high number of births in private hospitals and focus their efforts there.
 
-{% comment %}
+
 Might you have an include in your theme? Why not try it here!
 {% include my-themes-great-include.html %}
-{% endcomment %}
