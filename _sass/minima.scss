@@ -1,9 +1,9 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 // Define defaults for each variable.
 
-$base-font-family: Karla, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
