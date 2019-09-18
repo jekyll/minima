@@ -257,8 +257,8 @@
 
   h3 {
      font-weight: 800;
-     margin-top: 12px;
-     margin-bottom: 0px;
+     margin-bottom: 4px;
+     margin-top: 20px;
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
@@ -267,6 +267,9 @@
   }
 
   h4 {
+     font-weight: 800;
+     margin-bottom: 4px;
+     margin-top: 12px;
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
