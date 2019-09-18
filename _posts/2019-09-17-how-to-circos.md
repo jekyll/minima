@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Making chord diagrams with Circos
+title: Making chord diagrams with Circos Online
+tags: dataviz  idc
 ---
 
 ## What is Circos?
@@ -19,7 +20,6 @@ Circos is ideal for creating publication-quality infographics and illustrations 
 
 #### Use in Genomics
 Circos is used extensively for the analysis of genomic alterations over time, or differences between two or more genomes. You can take a look [here](http://circos.ca/intro/genomic_data/).
-
 
 #### How can I use Circos?
 *From the Circos landing page…*
