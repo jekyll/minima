@@ -255,7 +255,8 @@
   }
 
   h3 {
-     margin-top: 12px; 
+     margin-top: 12px;
+     margin-bottom: 0px;
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
