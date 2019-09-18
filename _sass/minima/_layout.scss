@@ -246,6 +246,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
+    font-weight: 800;
     margin-top: 18px; 
     @include relative-font-size(1.75);
 
@@ -255,6 +256,7 @@
   }
 
   h3 {
+     font-weight: 800;
      margin-top: 12px;
      margin-bottom: 0px;
     @include relative-font-size(1.375);
