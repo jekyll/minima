@@ -34,7 +34,7 @@ I started this project for Inktober 2016. I'd been learning brush lettering for 
 
 ![Don't even trip, dawg.](https://gyanl.com/blog/assets/lucyinthesky.jpg)
 
-> Picture yourself in a boat on a river. From Lucy In The Sky With Diamonds, by The Beatles.
+> Picture yourself in a boat on a river. From Lucy In The Sky With Diamonds, by The Beatles.  
 
 
 If you liked this project, check out my Instagram for more stuff like this!
