@@ -246,6 +246,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
+    margin-top: 18px; 
     @include relative-font-size(1.75);
 
     @media screen and (min-width: $on-large) {
@@ -254,6 +255,7 @@
   }
 
   h3 {
+     margin-top: 12px; 
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
