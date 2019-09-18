@@ -26,6 +26,10 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 - [indiabudgets.nic.in](indiabudgets.nic.in)
 - [censusindia.gov.in](censusindia.gov.in)
 
+#### Data policy not formulated yet
+- Election Commission
+- State governments
+
 #### Data that should be free, but is charged
 - Survey of India - there is a monopoly for maps in India (but some are free)
 - IMD weather data
@@ -42,9 +46,19 @@ Example: Ashok Khemka - honest IAS officer. Gets transferred almost every 6 mont
 
 >Graphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design. - Edward Tufte
 
+### Roles
+
+#### Lessons from How India Lives
+* Data cleaners
+* Coders
+* Journalists/Storytellers
+* Designers
 
 ### Data Ethics
 
 #### What if Pepsi wants to sell water?
 Pepsico wants to identify areas that don't have drinking water and sell drinking water there.
+
+#### Provide the source!
+If you make a visualization, share the Excel or CSV file as far as possible so people can check.
 
