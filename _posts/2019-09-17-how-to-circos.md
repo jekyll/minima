@@ -4,8 +4,22 @@ title: Making chord diagrams with Circos
 ---
 
 ### What is Circos?
+Circos is a free and open source software package for visualizing data in a circular layout i.e. as chord diagrams. It has been featured in many scientific and other publications (including the covers of both Science and Nature), so it's safe to say science people really like it.
 
-### Who is it for?
+#### Why Circos?
+- It looks pretty.
+- Circular layouts are great for exploring relationships between objects or positions.
+- Highly customizable.
+- High data-to-ink ratio.
+- .svg or .png output, can be used for print.
+- Scriptable, can be made part of an automated data pipeline.
+- Did I mention it looks pretty?
+
+Circos is ideal for creating publication-quality infographics and illustrations with a high data-to-ink ratio, richly layered data and pleasant symmetries. You have fine control each element in the figure to tailor its focus points and detail to your audience.
+
+#### Use in Genomics
+Circos is used extensively for the analysis of genomic alterations over time, or differences between two or more genomes. You can take a look [here](http://circos.ca/intro/genomic_data/).
+
 
 ### How can I use Circos?
 Circos Words that describe the Circos install page.
@@ -27,27 +41,5 @@ Circos uses :
 But wait! Circos can't technically represent tables, it can represent *matrices.* What's the difference? In mathematics, a matrix is a rectangular array of numbers, whereas a table can have any kinds of values.
 
 #### Turning tables into matrices
-
-
-
 ![Screenshot of matrix on Google Sheets](https://gyanl.com/blog/assets/circos-matrix.png)
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
