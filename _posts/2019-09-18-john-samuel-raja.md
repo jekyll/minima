@@ -1,11 +1,13 @@
 ---
 layout: post
+title: Talk by economist and journalist John Samuel Raja.
 ---
 
 > Talk by John Samuel Raja, economist and journalist.  
 > Part of guest lectures for DE-705 Interactive data visualization.
 
 ### How India Lives
+John Samuel Raja's startup working in the space of making public data available to everyone.
 
 #### The Problem  
 Public data exists, but few people use it to make decisions because :
