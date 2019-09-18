@@ -3,7 +3,7 @@ layout: post
 title: Making chord diagrams with Circos
 ---
 
-### What is Circos?
+## What is Circos?
 Circos is a free and open source software package for visualizing data in a circular layout i.e. as chord diagrams. It has been featured in many scientific and other publications (including the covers of both Science and Nature), so it's safe to say science people really like it.
 
 #### Why Circos?
@@ -21,20 +21,20 @@ Circos is ideal for creating publication-quality infographics and illustrations 
 Circos is used extensively for the analysis of genomic alterations over time, or differences between two or more genomes. You can take a look [here](http://circos.ca/intro/genomic_data/).
 
 
-### How can I use Circos?
+#### How can I use Circos?
 Circos Words that describe the Circos install page.
 
 
-## Some key data
+## Let's use Circos!
 Now that we know what Circos can do, let's try and use it!
 
-### Formatting the data
+#### Formatting the data
 Circos uses :  
 - A matrix of data
 - With headers for both rows and coloumns
 - Formatted as tab separated values
 
-### Putting tables into Circos
+#### Putting tables into Circos
 
 ![Screenshot of spreadsheet on Google Sheets](https://gyanl.com/blog/assets/circos-raw-keys.png)
 
@@ -43,3 +43,5 @@ But wait! Circos can't technically represent tables, it can represent *matrices.
 #### Turning tables into matrices
 ![Screenshot of matrix on Google Sheets](https://gyanl.com/blog/assets/circos-matrix.png)
 
+#### The result
+![Chord diagram of key issues](https://gyanl.com/blog/assets/circos-keys.png)
