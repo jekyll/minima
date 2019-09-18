@@ -36,7 +36,12 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 Example: a diaper maker wants to find out where the market is concentrated. This involves finding out where fertility rates are high, but they want people who can afford diapers. So they can look at places with high number of births in private hospitals and focus their efforts there.
 
 #### Data journalism
-Example: How was Gurgaon built? Did DLF get a disproportionate number of projects under a specific government? Did DLF really *build* Gurgaon?
+Example: How was Gurgaon built? Did DLF get a disproportionate number of projects under a specific government? Did DLF really *build* Gurgaon?  
+
+Example: Ashok Khemka - honest IAS officer. Gets transferred almost every 6 months. 
+
+>Graphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design. - Edward Tufte
+
 
 ### Data Ethics
 
