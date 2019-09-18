@@ -2,9 +2,7 @@ title: Gyan's Blog
 author: Gyan Lakhwani
 email: hello@gyanl.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My name is Gyan, and I am an interaction designer and cat appreciator. If you'd like to see my portfolio, check out [gyanl.com](https://gyanl.com)
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
