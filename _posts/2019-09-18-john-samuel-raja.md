@@ -20,9 +20,9 @@ NLP based search engine anyone can use without prior knowledge of existing data.
 - Visualized
 
 #### Data that is easily accessible
-- (data.gov.in)
-- (indiabudgets.nic.in)
-- (censusindia.gov.in)
+- [data.gov.in]
+- [indiabudgets.nic.in]
+- [censusindia.gov.in]
 
 #### Data that should be free, but is charged
 - Survey of India - there is a monopoly for maps in India (but some are free)
