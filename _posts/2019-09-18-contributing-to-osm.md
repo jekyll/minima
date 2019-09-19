@@ -49,9 +49,9 @@ Go to the [Overpass Turbo](https://overpass-turbo.eu/) website and paste in the 
 ````markdown
 [out:json][timeout:25];
 (
-  node(user:"GauriT")({{bbox}});
-  way(user:"GauriT")({{bbox}});
-  relation(user:"GauriT")({{bbox}});
+  node(user:"GauriT")({% include bbox.html %});
+  way(user:"GauriT")({% include bbox.html %});
+  relation(user:"GauriT")({% include bbox.html %});
 );
 out body;
 >;
