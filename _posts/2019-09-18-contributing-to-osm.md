@@ -46,8 +46,7 @@ Dont do armchair mapping, and get out into the field. Use the overflow menu to f
 Go to the [Overpass Turbo](https://overpass-turbo.eu/) website and paste in the code below, but replace ````GauriT```` with your OSM username.
 
 ````
-{% raw %}
-[out:json][timeout:25];
+{% raw %} [out:json][timeout:25];
 (
   node(user:"GauriT")({{bbox}});
   way(user:"GauriT")({{bbox}});
@@ -55,8 +54,7 @@ Go to the [Overpass Turbo](https://overpass-turbo.eu/) website and paste in the 
 );
 out body;
 >;
-out skel qt;
-{% endraw %}
+out skel qt; {% endraw %}
 ````
 
 ![Overpass Turbo Website](https://gyanl.com/blog/assets/overpass.png)
