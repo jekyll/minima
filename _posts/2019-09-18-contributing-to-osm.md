@@ -46,12 +46,12 @@ Dont do armchair mapping, and get out into the field. Use the overflow menu to f
 Go to the [Overpass Turbo](https://overpass-turbo.eu/) website and paste in the code below, but replace ````GauriT```` with your OSM username.
 
 
-````sql
+````markdown
 [out:json][timeout:25];
 (
-  node(user:"GauriT")( \{{bbox \}} );
-  way(user:"GauriT")(\{\{bbox\}\});
-  relation(user:"GauriT")( \{ \{ bbox \} \} );
+  node(user:"GauriT")({ {bbox} });
+  way(user:"GauriT")({ {bbox} });
+  relation(user:"GauriT")({ { bbox } });
 );
 out body;
 >;
