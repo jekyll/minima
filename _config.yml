@@ -45,8 +45,11 @@ minima:
 # - about.md
 
 # Build settings
-theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+theme: jekyll-theme-minimal
