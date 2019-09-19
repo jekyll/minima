@@ -4,7 +4,7 @@ title: "Contributing to OpenStreetMap"
 categories: idc
 ---
 
-### What is OSM?
+## What is OSM?
 [OpenStreetMap](https://www.openstreetmap.org) is an open source project that aims to create a free, editable map of the world. It's like Wikipedia, but for maps.
 
 #### Contributing to OSM
@@ -40,3 +40,24 @@ Open the Settings section in MAPS.ME and go to the OpenStreetMap profile option.
 
 #### Step 4
 Dont do armchair mapping, and get out into the field. Use the overflow menu to find the "Add place to the map" option. Select the type of amenity, and you can fill out more details about the place like the name or business hours or phone number (depending on the type of amenity). 
+
+## Checking your contributions with Overpass
+
+Go to the [Overpass Turbo](https://overpass-turbo.eu/) website and paste in the code below, but replace ````GauriT```` with your OSM username.
+
+
+````
+[out:json][timeout:25];
+(
+  node(user:"GauriT")({{bbox}});
+  way(user:"GauriT")({{bbox}});
+  relation(user:"GauriT")({{bbox}});
+);
+out body;
+>;
+out skel qt;
+````
+
+![Overpass Turbo Website](https://gyanl.com/blog/assets/overpass.png)
+
+On the right pane, navigate to the area you mapped and you should be able to see all your accepted changes. If you can't see the changes, they might be under review by the OSM community, and you can check in later.
