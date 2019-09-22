@@ -10,16 +10,23 @@ categories: idc
 #### Contributing to OSM
 As part of my Data Visualization course at IDC School of Design, my classmates and I went to Galleria and Central Avenue in Hirandandani, Powai, and marked some places on the map. This article documents which places we went to and what we marked.
 
-
-| Contributor | Area                     | Amenity                                                                                                | Count |
-|-------------|--------------------------|--------------------------------------------------------------------------------------------------------|-------|
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
-| Gyan        | Galleria, Central Avenue | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
+| Contributor | Area                                                                                                               | Amenity                                                                                                | Count |
+|-------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------|
+| Avyay       | Central Avenue, High Street, and Powai Road                                                                        | Benches, Dustbins and and Bus Stops                                                                    | 55    |
+| Aishwary    | Central Avenue: the Lucky Lane                                                                                     | Everything in the lane (shops, buildings, services)                                                    | 48    |
+| Prachi      | Galleria, Central Avenue                                                                                           | beauty, clothing, services, food                                                                       | 37    |
+| Dhiraj      | Powai area opposite to IIT campus                                                                                  | All                                                                                                    | 37    |
+| Bhawna      | Powai area opposite to IIT campus                                                                                  | All                                                                                                    | 37    |
+| Gauri       | Orchard Avenue, Heera Panna Shopping complex                                                                       | Shops, Restaurants, Gardens, Bus stops                                                                 | 32    |
+| Akshay      | area in front of Y point gate                                                                                      | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 30    |
+| Mayura      | area in front of Y point gate                                                                                      | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 30    |
+| Aisha       | area in front of Y point gate                                                                                      | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 30    |
+| Gyan        | Galleria, Central Avenue                                                                                           | beauty, clothes, convenience, electronics, electronics_repair, jeweller, optician, printer, stationery | 27    |
+| Rishi       | Hiranandani Galleria, Central Avenue                                                                               | Amenities (Food related), a few shops                                                                  | 26    |
+| Maulashree  | Central Avenue, Forest Avenue in Hiranandani and also Vasant Vihar, Siddhachal and Pokharan road number 2 in Thane | Fast food chains, benches, restaurants, cafes, stationery shops, convenience stores, medical stores    | x     |
+| Rashmi      | Central Avenue                                                                                                     | ATM, fashion, flower shops, pharmacy, spa, cafe and restaurants, wineshop, dustbins                    | x     |
+| Shraddha    | Central Avenue                                                                                                     | ATM, fashion, flower shops, pharmacy, spa, cafe and restaurants, wineshop, dustbins                    | x     |
+| Eeshani     | Jogeshwari Vikhroli link                                                                                           | Apartment, shops                                                                                       | x     |
 
 ### How did we do it?
 Most of us followed the instructions to update OSM through the Java based OSM editor JOSM, for which our senior Rohit had a [blog article](http://rohitg.in/2017/08/31/ContribOSM/). However, this method is a little complicated, and doesn't work very well for people with iOS devices, and even for Android requires a series of hoops you have to jump through.
