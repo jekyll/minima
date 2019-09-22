@@ -60,3 +60,10 @@ out skel qt; {% endraw %}
 ![Overpass Turbo Website](https://gyanl.com/blog/assets/overpass.png)
 
 On the right pane, navigate to the area you mapped and you should be able to see all your accepted changes. If you can't see the changes, they might be under review by the OSM community, and you can check in later.
+
+## Contributions by IxD 2020
+
+#### Gauri Tillu (GauriT)
+#### GauriT's contributions
+<iframe src="https://overpass-turbo.eu/map.html?Q=%2F*%0AThis%20is%20an%20example%20Overpass%20query.%0ATry%20it%20out%20by%20pressing%20the%20Run%20button%20above!%0AYou%20can%20find%20more%20examples%20with%20the%20Load%20tool.%0A*%2F%0A%0A%20%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A(%0A%20%20node(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A%20%20way(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A%20%20relation(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B%20
+"></iframe>
