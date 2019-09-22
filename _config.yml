@@ -46,10 +46,6 @@ minima:
 
 # Build settings
 
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-
 plugins:
   - jekyll-feed
   - jekyll-paginate
