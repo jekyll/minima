@@ -7,3 +7,21 @@
 #
 layout: home
 ---
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Living Peacefully Portal</title>
+  <meta name="Description" content="Living Peacefully Portal">
+  <meta name="Alex Yang" content="First website">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
