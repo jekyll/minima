@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Making chord diagrams with Circos Online
-tags: dataviz  idc
+tags: [dataviz, idc]
+categories: [design]
 ---
 
 ## What is Circos?

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Contributing to OpenStreetMap"
-categories: idc
+tags: idc foss
+categories: [design]
 ---
 
 ## What is OSM?
