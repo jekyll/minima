@@ -43,11 +43,15 @@ ul, ol, dl, figure,
 
   .tag{
     background-color: #ffd7d7;
-    color: #ff4343;
-    border-radius: 16px;
-    padding: 4px 10px 4px 10px;
+    color: #ffe4e4;
+    border-radius: 4px;
+    padding: 4px 10px 5px 10px;
+    transition: .2s;
   }
 
+  .tag:hover{
+    color: #ffe4e4;
+  }
 
 /**
  * `main` element
@@ -126,8 +130,8 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: lighten($brand-color, 15%);
+    text-decoration: none;
   }
 
   .social-media-list &:hover {
