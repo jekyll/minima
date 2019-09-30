@@ -85,13 +85,6 @@
     }
     margin-left: 20px;
   }
-
-  a.tag{
-    background-color: #ffd7d7;
-    color: #ff4343;
-    border-radius: 16px;
-    padding: 4px 10px 4px 10px;
-  }
   
   @media screen and (min-width: $on-medium) {
     position: static;
@@ -230,6 +223,10 @@
   @include relative-font-size(1.5);
 }
 
+.post-item {
+  border-radius: 8px;
+  border: 1px solid #ff4343;
+}
 
 
 /**
