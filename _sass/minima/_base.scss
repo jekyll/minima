@@ -43,14 +43,15 @@ ul, ol, dl, figure,
 
   .tag{
     background-color: #ffd7d7;
-    color: #ffe4e4;
+    color: $brand-color;
     border-radius: 4px;
     padding: 4px 10px 5px 10px;
     transition: .2s;
   }
 
   .tag:hover{
-    color: #ffe4e4;
+    background-color: darken(#ffd7d7, 10%);
+    color: darken($brand-color, 10%);
   }
 
 /**

@@ -219,6 +219,7 @@
 }
 
 .post-link {
+  color: $text-color;
   display: block;
   @include relative-font-size(1.5);
 }
