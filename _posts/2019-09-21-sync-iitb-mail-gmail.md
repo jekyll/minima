@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Sync your IITB mail with Gmail"
 permalink: /fix-mail
 ---
