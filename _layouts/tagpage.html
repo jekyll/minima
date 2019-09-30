@@ -2,12 +2,26 @@
 layout: default
 ---
 <div class="post">
-<h1>Tag: {{ page.tag }}</h1>
+<h1>posts about {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="/blog/{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
+<li>
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <span class="post-meta">{{ post.date | date: date_format }}</span>
+  <h3>
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}
+    </a>
+  </h3>
+  {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+  {%- endif -%}
+
+  {% for tag in post.tags %}
+   <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+ {% endfor %}
+
+</li>
 {% endfor %}
 </ul>
 </div>
