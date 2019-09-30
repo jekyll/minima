@@ -226,8 +226,6 @@
 
 .post-item {
   display: block;
-  margin-top: 2px;
-  margin-bottom: 0px;
   border: 1px solid #ffe5e5;
   box-shadow: 0 1px 12px 0 rgba(0,0,0,0.10);
   border-radius: 4px;
@@ -236,10 +234,8 @@
 }
 
 .post-item:hover {
-  margin-top: 0px;
-  margin-bottom: 2px;
   border: 1px solid #F3D8D8;
-  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 2px 16px 0 rgba(200,20,20,0.15);
 }
 
 /**
