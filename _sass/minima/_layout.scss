@@ -219,12 +219,14 @@
 }
 
 .post-link {
-  color: $text-color;
+  color: $text-color !important;
+  font-weight: 600;
   display: block;
   @include relative-font-size(1.5);
 }
 
 .post-item {
+  background: #ffffff;
   display: block;
   border: 1px solid #ffe5e5;
   box-shadow: 0 1px 12px 0 rgba(0,0,0,0.10);
