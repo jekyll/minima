@@ -86,6 +86,13 @@
     margin-left: 20px;
   }
 
+  .tag{
+    background-color: #FFBDBD;
+    color: #ff4343;
+    border-radius: 12px;
+    padding: 4px 2px 4px 2px;
+  }
+  
   @media screen and (min-width: $on-medium) {
     position: static;
     float: right;
