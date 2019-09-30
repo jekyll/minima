@@ -5,7 +5,7 @@ layout: default
 <h1>posts about {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-<li>
+
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   <span class="post-meta">{{ post.date | date: date_format }}</span>
   <h3>
@@ -21,7 +21,6 @@ layout: default
    <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
  {% endfor %}
 
-</li>
 {% endfor %}
 </ul>
 </div>
