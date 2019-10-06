@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+
+
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+
+      <header class="page-header">
+
+        <!-- You can turn off the avatar in _config.yml by setting to false -->
+        {% if site.resume_avatar == 'true' %}
+        <img src="images/resume.pdf" alt="my photo" class="avatar no-print" itemprop="image">
+        {% endif %}
+
+        <!-- Your name is defined in the _config.yml file -->
+        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+
+        <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
+        <div class="header-contact-info" itemprop="contact-info">
+          <p><a style="text-decoration:none;" href="https://www.google.com/maps/place/Cedar+Rapids,+IA" target="_blank">{{ site.resume_header_location }}</a> | <a style="text-decoration:none;" href="tel:{{ site.resume_header_phone}}">{{ site.resume_header_phone }} </a> | <a style="text-decoration:none;" href="mailto:{{ site.resume_contact_email }}">{{ site.resume_contact_email }}</a></p>
+        </div>
+
+
+
+        <div class="title-bar no-print">
+
+          <!-- Your title is also defined in the _config.yml file -->
+          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+
+          <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
+          {% include icon-links.html %}
+        </div>
+
+        <div class="executive-summary no-print" itemprop="description">
+          <p>Dedicated Cloud Architect, Cloud Engineer and IT Professional providing over four years of professional experience in technical leadership, strategic planning, cloud services, data center services, and networking. Thrives on seemingly impossible, challenging projects in a collaborative, fast-paced environment while offering a strong aptitude and demonstrated success in effective team management, data analytics, risk management, and innovative solutions. Highly regarded for his ability to interpret data into actionable information and a critical thinking mindset. Looking forward to accepting a new challenge and work with talented, passionate, dedicated people who are as motivated as I am to solving the next problem.</p>
+        </div>
+
+        {% if site.resume_looking_for_work == 'yes' %}
+        <div style="width: 100%; overflow: hidden;">
+          <div style="width: 300px; float: left;"> <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> </div>
+          <div style="margin-left: 320px;"> <a href="images/resume.pdf" download="andy_boutte_resume" class="contact-button no-print" itemprop="email">Download Resume</a> </div>
+        </div>
+
+
+        {% elsif site.resume_looking_for_work == 'no' %}
+        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
+        {% else %}
+        {% endif %}
+
+      </header>
+
+      {% if site.resume_section_experience %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Hitachi Vantara / REAN Cloud</h3>
+          <h4 class="resume-item-details" itemprop="description">Cloud Architect &bull; January 2017 - Present</h4>
+          <p class="resume-item-copy">Assigned to Department of Defense project as a Cloud Architect to lead the networking, logging, metric collection, and monitoring effort. Accumulated client requirements, architected solutions, and worked with engineers to automate the solutions.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>AWS log aggregation solution</li>
+            <li>Customized RBAC solution for ELK stack</li>
+            <li>Hub and spoke transit VPC deployment based on Department of Defense Secure Cloud Computing Architecture (SCCA) architecture</li>
+            <li>Assisted with STIGing, scanning and remediation to meet client standards</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h4 class="resume-item-details" itemprop="description">Senior Cloud Engineer &bull; June 2016 - January 2017</h4>
+          <p class="resume-item-copy">Led an international DevOps team to build the company's first product. Utilized standard DevOps tools including Chef, CloudFormation, Terraform, git, and Jenkins to create an environment where we collaborated and worked toward an end goal. As the architect, product owner, and technical lead on the project, I balanced time between training resources on the team, unblocking resources on the current tasks, and planning for the future sprints.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>Architect and product owner for company product</li>
+            <li>Built ELK deployment (single stack or tri-stack) using Terraform, CloudFormation, and Chef</li>
+            <li>Automating Kibana dashboard import, index pattern creation, and Logstash configuration file generation</li>
+            <li>Created custom Logstash plugins: logstash-input-s3zip, logstash-output-s3csv</li>
+            <li>Enforced code quality utilizing GitHub webhooks, Jenkins pipelines, and GitHub status check API</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Kibo Commerce</h3>
+          <h4 class="resume-item-details" itemprop="description">DevOps Engineer &bull; December 2013 - June 2016</h4>
+          <p class="resume-item-copy">Utilized infrastructure as code, configuration management, continuous integration, and delivery to build resilient web application deployments. Responsible for uptime, maintenance, and implementation of the production environment for 30 applications. Participated in 24/7 on-call rotation to meet business SLAs. Continuously revisited processes to build on what had already been improved. Implemented knowledge gained from working with the quality assurance team using load testing to pinpoint performance bottlenecks.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>Created and managed CI / CD pipelines</li>
+            <li>Converted team and processes from JSON based CloudFormation to Bazaarvoice's Ruby dsl based CloudFormation</li>
+            <li>Handled Multi-year project that migrated applications from colocation to AWS</li>
+            <li>Implemented Facebook's open source memcached protocol router (mcrouter) to facilitate a hot migration of a memcache pool between data centers</li>
+            <li>Designed development and QA testing environment in AWS</li>
+            <li>Database driven cron implementation</li>
+            <li>Enforced database schema verification at deployment</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Shopatron</h3>
+          <h4 class="resume-item-details" itemprop="description">Quality Assurance Engineer &bull; June 2013 - December 2013</h4>
+          <p class="resume-item-copy">Oversaw quality of the companies integration toolset software development team which included several PHP and Java applications. Primary responsibilities included maintaining documentation and test case writing so future regression testing could be maintained by team members.</p>
+          <p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>
+          <ul class="resume-item-list">
+            <li>Created documentation and test cases for several inherited projects that could be handed off to team
+            members</li>
+            <li>Provided technical assistance and documentation for testing environment setup</li>
+            <li>Obtained integral knowledge of companies order management platform was instrumental in the migration to AWS</li>
+          </ul>
+        </div>
+
+        <!--<div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">-->
+          <!--<h3 class="resume-item-title" itemprop="name">MacSuperstore Inc.</h3>-->
+          <!--<h4 class="resume-item-details" itemprop="description">Business Support Specialist &bull; August 2012 - June 2014</h4>-->
+          <!--<p class="resume-item-copy">Provide technical guidance and support to small and medium size businesses and educational institutions. Provide help with technology integration, point of sale setup, workstation troubleshooting, various hardware and software upgrades, network planning and design, wireless network setup, network security, server setup and management, backup and disaster planning, network camera security system, and network printing. Facilitated customer success by remotely troubleshooting, configuring, and training to effectively support a growing client base.</p>-->
+          <!--<p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>-->
+          <!--<ul class="resume-item-list">-->
+            <!--<li>Unified the MacSuperstores’ file servers between two separate locations</li>-->
+            <!--<li>Became an Apple Certified Technical Coordinator 10.8</li>-->
+            <!--<li>Streamlined internal billing processes</li>-->
+          <!--</ul>-->
+        <!--</div>-->
+
+        <!--<div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">-->
+          <!--<h3 class="resume-item-title" itemprop="name">MacSuperstore Inc.</h3>-->
+          <!--<h4 class="resume-item-details" itemprop="description">iPhone / iPad / iPod Technician &bull; December 2010 - June 2014</h4>-->
+          <!--<p class="resume-item-copy">Performed troubleshooting, diagnostic, and hardware part replacement on mobile devices. Oversaw all aspects of inventory control including relationships with suppliers, ordering, and pricing. Successfully developed an iOS repair department at MacSuperstore’s Colorado Springs location.</p>-->
+          <!--<p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>-->
+          <!--<ul class="resume-item-list">-->
+            <!--<li>Started a new department in both store locations</li>-->
+            <!--<li>Trained employees in sales and service counter positions</li>-->
+            <!--<li>Apple Certified Macintosh Technician</li>-->
+            <!--<li>Ran the pre-owned and iOS department simultaneously</li>-->
+            <!--<li>Setup a Squid caching web proxy to systematically save large iOS restore files</li>-->
+          <!--</ul>-->
+        <!--</div>-->
+
+        <!--<div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">-->
+          <!--<h3 class="resume-item-title" itemprop="name">MacSuperstore Inc.</h3>-->
+          <!--<h4 class="resume-item-details" itemprop="description">Pre-Owned &bull; May, 2008 - August 2012</h4>-->
+          <!--<p class="resume-item-copy">Ran in depth diagnostic utilities to determine state of computer hardware to ensure the companies profitability on resale. Implemented new processes including: software update server, NetBoot server, and NetRestore server to increase department efficiency.</p>-->
+          <!--<p><h4 class="resume-item-details" itemprop="description">Key Accomplishments:</h4></p>-->
+          <!--<ul class="resume-item-list">-->
+            <!--<li>Introduced a software update server to save time and valuable internet bandwidth</li>-->
+            <!--<li>Introduced a NetBoot server to unify the diagnostic process for both stores</li>-->
+            <!--<li>Increased pre-owned efficiency and sales margins</li>-->
+          <!--</ul>-->
+        <!--</div>-->
+
+      </section>
+      <!-- end Experience -->
+      {% endif %}
+
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
+          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
+          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
+        </div>
+
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
+      {% if site.resume_section_projects %}
+      <!-- begin Projects -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">NTP Pool Project</h3>
+          <h4 class="resume-item-details">NTP Server Operator</h4>
+          <p class="resume-item-copy">The <a href="http://www.pool.ntp.org/en/">NTP Pool Project</a> is the largest organization of NTP servers in the world and is used by millions of systems worldwide.  To give back to the NTP Pool community I donate a <a href="http://www.pool.ntp.org/scores/52.37.145.131">server</a> that is apart of the NTP Pool.  I also created a <a href="https://github.com/aboutte/ntppool_deployment">turn key solution</a> for deploying a NTP server in AWS.</p>
+        </div>
+
+        <!--<div class="resume-item">-->
+          <!--<h3 class="resume-item-title">Ghost Media Upload</h3>-->
+          <!--<h4 class="resume-item-details">Open source pipeline for upload media to Ghost blog</h4>-->
+          <!--<p class="resume-item-copy">With the current version of Ghost it is not an easy task to upload images, and it is even more difficult to upload videos.  This <a href="https://github.com/aboutte/ghost_media_upload">project</a> streamlines the process using a pipeline for uploading images and video while also converting video files to optimize them for web streaming using ffmpeg.</p>-->
+        <!--</div>-->
+
+        <!--<div class="resume-item">-->
+          <!--<h3 class="resume-item-title">Ruby CloudFormation VPC</h3>-->
+            <!--<h4 class="resume-item-details">Open source CloudFormation template for creating VPCs &bull; 2017 &mdash; Present</h4>-->
+            <!--<p class="resume-item-copy">https://github.com/aboutte/</p>-->
+        <!--</div>-->
+
+        <!--<div class="resume-item">-->
+          <!--<h3 class="resume-item-title">Mcrouter</h3>-->
+          <!--<h4 class="resume-item-details">This is the solution I used at Shopatron</h4>-->
+          <!--<p class="resume-item-copy"></p>-->
+        <!--</div>-->
+
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
+
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">AWS</h4>
+          <p class="resume-item-copy">For the last several years I have been working in AWS.  Services that I use on a regular basis include:</p>
+          <ul class="two-columns">
+            <li>Auto Scaling Groups</li>
+            <li>CloudFormation</li>
+            <li>CloudFront</li>
+            <li>CloudWatch</li>
+            <li>DynamoDB</li>
+            <li>EC2</li>
+            <li>ElastiCache</li>
+            <li>Elastic Load Balancing</li>
+            <li>IAM</li>
+            <li>Lambda</li>
+            <li>Launch Configurations</li>
+            <li>Route53</li>
+            <li>S3</li>
+            <li>SQS</li>
+            <li>VPC</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Architecting Cloud Solutions</h4>
+          <p class="resume-item-copy">Design and build fault tolerant application deployments utilizing DevOps tools including Chef and CloudFormation.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Virtual Router</h4>
+          <p class="resume-item-copy">Professional experience using Sophos and Cisco CSR for routing, firewall, BGP, and VPNs.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Lifecycle Management of Deployments</h4>
+          <p class="resume-item-copy">Manage all aspects of production including: EC2, OS, web server software, VPNs, DNS, routing, security groups, and ACLs.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Colocation to AWS Migrations</h4>
+          <p class="resume-item-copy">Executed a multi year, zero downtime migration from a colocation in AWS.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">CI / CD</h4>
+          <p class="resume-item-copy">Created pipelines using Jenkins, bash, Ruby, Chef, Test Kitchen, ChefSpec, and GitHub.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Management of production PCI environment</h4>
+          <p class="resume-item-copy">Migrated a production credit card processing environment from colocation to AWS and facilitated PCI audit.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Mcrouter</h4>
+          <p class="resume-item-copy">Utilized FaceBook's open source <a href="https://github.com/facebook/mcrouter">memcached router</a> to migrate a memcache pool from colocation to AWS with a fall back plan.</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="skills-resume-item-details">Linux Troubleshooting</h4>
+          <p class="resume-item-copy">Experience using Linux tools to diagnose network and performance issues.</p>
+        </div>
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
+      {% if site.resume_section_recognition %}
+      <!-- begin Recognition -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Recognition</h2>
+        </header>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">Moe's Patron of the Month</h3>
+          <h4 class="resume-item-details">12/2001, 8/2004</h4>
+          <p class="resume-item-copy">Specifically this prestigious awarded twice for stopping a robber with my belly.</p>
+        </div>
+
+      </section>
+      <!-- end Recognition -->
+      {% endif %}
+
+      {% if site.resume_section_associations %}
+      <!-- begin Associations -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Certifications</h2>
+        </header>
+
+                <div class="resume-item">
+          <h3 class="resume-item-title">AWS Certified Cloud Practitioner</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">K78SD4Y21MEE1ZWC &bull; August 31, 2018 - August 31, 2020</p>
+        </div>
+
+              <div class="resume-item">
+          <h3 class="resume-item-title">AWS Solutions Architect – Associate</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">CJZ71YL2CBBE1BKS &bull; August 01, 2016 - March 16, 2019</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">AWS Certified SysOps Administrator - Associate</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">JT501NJCC214QNW0 &bull; November 29, 2016 - October 26, 2020</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">AWS Certified Solutions Architect - Professional</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">2ZSV18Z2C2QE1K55 &bull; March 16, 2017 - March 16, 2019</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">AWS Certified DevOps Engineer - Professional</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">N0JFWJPC1ERQ1297 &bull; October 26, 2018 - October 26, 2020</p>
+        </div>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">AWS Certified Advanced Networking - Specialty</h3>
+          <!--<h4 class="resume-item-details"></h4>-->
+          <p class="resume-item-copy">NSCTGSYKDJ1QQ7S6 &bull; February 22, 2019 - February 22, 2021</p>
+        </div>
+
+      </section>
+      <!-- end Associations -->
+      {% endif %}
+
+      {% if site.resume_section_links %}
+      <!-- begin Links -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Additional Links</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            <li><a href="#">Springfield Poker Club</a></li>
+            <li><a href="#">Springfield Donut Eater's User Group</a></li>
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Links -->
+      {% endif %}
+
+      {% if site.resume_print_social_links %}
+      <!-- begin Print Social Links -->
+      <section class="content-section print-only">
+
+        <header class="section-header">
+          <h2>Social Links</h2>
+        </header>
+
+        <div class="resume-item">
+        {% include print-social-links.html %}
+        </div>
+
+      </section>
+      <!-- end Print Social Links -->
+      {% endif %}
+
+      <footer class="page-footer">
+        <p class="footer-line"><a href="images/resume.pdf"></a></p>
+      </footer>
+
+    </div>
+  {% if jekyll.environment == 'production' %}
+  {% endif %}
+  </body>
+
+</html>
