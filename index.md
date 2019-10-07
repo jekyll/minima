@@ -4,4 +4,11 @@ title: Everyday Security
 ---
 <img src="nc_state.jpg" alt="hi" class="inline" width="227" height="74"/>
 
+Horrible fact
+- According to a 2014 Pew Internet report 26 percent of women have been stalked online, compared to 8 percent of men; 25 percent of women have been sexually harassed online, compared to 6 percent of men. 
+- 23 percent of women have been physically threatened online, compared to 8 percent of men; and 18 percent of women have experienced sustained harassment online, compared to 7 percent of men. According to the Stalking Resource
+Center 
+- 76 percent of intimate partner femicide victims have been stalked by their intimate partner, and 54 percent of femicide victims reported the stalking to the police before they were killed.
+- Almost one third of undergraduate students reported experiencing some form of computer-based harassment.
+
 
