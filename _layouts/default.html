@@ -1,44 +1,32 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  {%- include head.html -%}
 
   <body>
 
-    {% include sidebar.html %}
+    {%- include header.html -%}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </main>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {%- include footer.html -%}
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
+
 </html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
