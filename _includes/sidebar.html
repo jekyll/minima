@@ -3,7 +3,6 @@
   <ul class="nav sidenav">
     <div class="vertical-menu">
       {%- if titles_size > 0 -%}
-        <nav class="site-nav">
           <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -12,7 +11,6 @@
             {%- endif -%}
           {%- endfor -%}
         </div>
-        </nav>
       {%- endif -%}
     </div>
     
