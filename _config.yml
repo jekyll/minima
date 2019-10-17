@@ -43,6 +43,7 @@ minima:
 header_pages:
  - TrackingApp.md
  - IntimatePartnerViolence.md
+ - WhatToDo.md
 
 # Build settings
 theme: minima
