@@ -6,6 +6,12 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
+  
+  <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include sidebar.html %} 
+      </div>
+  </div>
 
   <div class="post-content">
     {{ content }}
