@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Everyday Security
+title: Live Peacefully
 ---
 
 <h2>Cyber Stalking has been a major downside of social media, especially for females and college students. The following statistics speak for itself:</h2>
