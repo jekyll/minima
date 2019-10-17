@@ -6,7 +6,13 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
+  <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include sidebar.html %} 
+      </div>
+  </div>
+  
+  
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
