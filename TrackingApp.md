@@ -13,8 +13,7 @@ While some application are malicious, others are designed to make our life easie
 
 The <strong>spy app</strong> belongs the first category. These type of applications are designed to track the user while exposing their private information to others. The "spy" nature of this kind of application make the spying activity hard to trace.
 
-The second category of application used during IPV is typical family & friends <strong>location sharing apps</strong>. Some of the most common used ones are <em>Life360</em>, <em>iMapp</em>, and <em>Glympse</em>. 
-
+The second category of application used during IPV falls in family & friends <strong>location sharing apps</strong>. Some of the most commonly used ones are <em>Life360</em>, <em>iMapp</em>, and <em>Glympse</em>.
 
 Their initial design purpose is to serve us. For example, the finding device or anti-theft (Find-my-phone) apps or system function(Find my iPhone) can also be misused for their locating features. When the abuser have access to these apps, they can monitor the victim in a very hidden and distanted way, especially these apps generally can't be disabled unless the victim aware of. Additionally, some system apps can’t be uninstalled or disabled for security reasons and the user can’t block this system calls/notification.<br>
 
