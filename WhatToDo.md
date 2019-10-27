@@ -27,5 +27,4 @@ When there is malicious post in social media, contect with the developer to save
 When there is likely a private information leak, report the abuse to the developer even if the information is not yours. Many online sites have policies against these actions and they will delete it.
 
 <br>
- <a href="http://TechSafety.org/resources"> TechSafety </a>
-Extra link: http://TechSafety.org/resources
+ Extra link:<a href="http://TechSafety.org/resources"> TechSafety </a>
