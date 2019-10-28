@@ -13,5 +13,6 @@ image: nc_state.jpg
 <h2>Cyber stalking has also led to the increase in number of femicide and computer_based harassment:</h2>
 - <strong>76%</strong> of intimate partner femicide victims have been stalked by their intimate partner.
 - <strong>89% </strong> of femicide victims who had been physically assaulted had also been stalked in the 12 months before their murder
+- <strong>1 in 7 </strong> stalking victims have to move in the end to escape from the abuser.
 
 <em>Information provided by Stalking Resource Center</em>
