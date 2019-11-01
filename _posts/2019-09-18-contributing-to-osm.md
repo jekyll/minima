@@ -71,7 +71,12 @@ As part of my Data Visualization course at IDC School of Design, my classmates a
 | Shraddha    | Central Avenue                                                                                                     | ATM, fashion, flower shops, pharmacy, spa, cafe and restaurants, wineshop, dustbins                    | x     |
 | Eeshani     | Jogeshwari Vikhroli link                                                                                           | Apartment, shops                                                                                       | x     |
 
-#### Gauri Tillu (GauriT)  
-GauriT's contributions
+#### Mapping your contributions
+
+It is possible to use Leaflet to map your contributions on an embeddable map. As an example, I mapped my classmate Gauri's contributions here: 
+
+**GauriT's contributions**
+
+
 <iframe src="https://overpass-turbo.eu/map.html?Q=%2F*%0AThis%20is%20an%20example%20Overpass%20query.%0ATry%20it%20out%20by%20pressing%20the%20Run%20button%20above!%0AYou%20can%20find%20more%20examples%20with%20the%20Load%20tool.%0A*%2F%0A%0A%20%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A(%0A%20%20node(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A%20%20way(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A%20%20relation(user%3A%22GauriT%22)(19.10746008762309%2C72.89656162261963%2C19.13645149519419%2C72.93050765991211)%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B%20
 "></iframe>
