@@ -4,7 +4,7 @@ email: everydaysecurit@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Our website is an education portal for intimate partner stalking.
 
-logo: nc_state.jpg
+logo: _images/nc_state.jpg
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
