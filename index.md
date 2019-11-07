@@ -3,6 +3,7 @@ layout: home
 title: Live Peacefully
 image: nc_state.jpg
 ---
+
 <strong>Hello! We are a division under Everyday Security and we are dedicated to
 providing you with the latest information on cyber stalking and intimate partner violence.</strong>
 
