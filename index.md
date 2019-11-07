@@ -9,6 +9,8 @@ providing you with the latest information on cyber stalking and intimate partner
 <img src="_images/stalkingStatistics.jpg" 
 		alt="Cyber Stalking Statistics">
 
+<em>Statistics provided by U.S. Bureau of Statistics</em>
+
 
 <h1>Statistics:</h1>
 <h2>Cyber Stalking has been a major downside of social media, especially for females and college students. The following statistics speak for itself:</h2>
