@@ -8,6 +8,10 @@
 
   * Add Keybase to social links (#400)
 
+### Major Enhancements
+
+  * Allow skins to be defined and customized easily (#336)
+
 ## 2.5.1
 
 ### Minor Enhancements
