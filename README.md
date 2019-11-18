@@ -117,7 +117,6 @@ In Minima 3.0, if you only need to customize the colors of the theme, refer to t
 variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
 placed at path `_sass/minima/custom.scss`.
 
-
 You need not maintain entire partial(s) at the site's source just to override a few styles.
 
 #### Skins
@@ -130,6 +129,7 @@ Minima 3.0 supports defining and switching between multiple color-palettes (or *
 └── minima
     └── _syntax-highlighting.scss
 ```
+
 
 A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
 variable defaults related to the "color" aspect of the theme and imports two components:
