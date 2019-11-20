@@ -67,3 +67,11 @@ Design 1 and 2 share some elements. If you learn to use 1, 2 is easier to use. T
 Therefore, we give half of the people design 1 and 
 
 # Distribution curves
+
+
+# Goodness of fit Tests
+How well does this distribution match an expected distribution?
+
+### Z test (Standard error of proportions test)
+- For binomial variables only
+- 
