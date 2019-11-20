@@ -7,6 +7,7 @@
 ### Minor Enhancements
 
   * Add Keybase to social links (#400)
+  * Solarized skins (#404)
 
 ### Major Enhancements
 
