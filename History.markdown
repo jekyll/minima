@@ -13,6 +13,10 @@
 
   * Allow skins to be defined and customized easily (#336)
 
+### Bug Fixes
+
+  * Add missing rel=me attributes to social links (#386)
+
 ## 2.5.1
 
 ### Minor Enhancements
