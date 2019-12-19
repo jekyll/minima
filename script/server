@@ -1,5 +1,3 @@
 #!/bin/sh
 
-python3 script/generate-category-pages.py
-python3 script/generate-tag-pages.py
 bundle exec jekyll serve

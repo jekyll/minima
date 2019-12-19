@@ -5,4 +5,3 @@ _site
 .bundle
 Gemfile.lock
 *.gem
-
