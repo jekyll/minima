@@ -1,7 +1,7 @@
 <span class="post-categories">{%- if page.categories.size == 1 -%}Category{%- else -%}Categories{%- endif -%}:&nbsp;
   {%- for category in page.categories -%}
     {%- if site.minima.archive_page.categories -%}
-      <a href="{{ site.minima.archive_page.categories }}{{ category | slugify }}/">{{ category }}</a>
+      <a href="{{ site.minima.archive_page.categories }}/{{ category | slugify }}/">{{ category }}</a>
     {%- else -%}
       {{ category }}
     {%- endif -%}
