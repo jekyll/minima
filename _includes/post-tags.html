@@ -1,7 +1,8 @@
 <span class="post-tags">{% if page.tags.size == 1 %}Tag: {% else %}Tags: {% endif %}
   {% for tag in page.tags %}
     {% if site.minima.archive_page.tags %}
-      <a href="{{ site.baseurl }}{{ site.minima.archive_page.tags }}/{{ tag | slugify }}/">{{ tag }}</a>
+      {% capture tag_url %}{{ site.minima.archive_page.tags }}/{{ tag | slugify }}/{% endcapture %}
+      <a href="{{ tag_url | relative_url }}">{{ tag }}</a>
     {% else %}
       {{ tag }}
     {% endif %}

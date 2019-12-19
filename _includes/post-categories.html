@@ -1,7 +1,8 @@
 <span class="post-categories">{% if page.categories.size == 1 %}Category: {% else %}Categories: {% endif %}
   {% for category in page.categories %}
     {% if site.minima.archive_page.categories %}
-      <a href="{{ site.baseurl }}{{ site.minima.archive_page.categories }}/{{ category | slugify }}/">{{ category }}</a>
+      {% capture category_url %}{{ site.minima.archive_page.categories }}/{{ category | slugify }}/{% endcapture %}
+      <a href="{{ category_url | relative_url }}">{{ category }}</a>
     {% else %}
       {{ category }}
     {% endif %}
