@@ -3,4 +3,6 @@
 set -e
 
 echo "Building the example site..."
+python3 script/generate-category-pages.py
+python3 script/generate-tag-pages.py
 bundle exec jekyll build

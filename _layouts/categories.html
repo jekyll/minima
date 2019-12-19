@@ -19,7 +19,7 @@ layout: page
       {%- assign posts = category[1] -%}
       {%- if posts.size == i -%}
         <li>
-          {% capture category_url %}{{ site.minima.archive_page.categories }}/{{ category_name | slugify }}/{% endcapture %}
+          {% capture category_url %}/categories/{{ category_name | slugify }}/{% endcapture %}
           <a href="{{ category_url | relative_url }}">{{ category_name }}</a> <small>{{ posts.size }}</small>
         </li>
       {%- endif -%}
