@@ -1,10 +1,10 @@
-<span class="post-tags">{%- if page.tags.size == 1 -%}Tag{%- else -%}Tags{%- endif -%}:&nbsp;
-  {%- for tag in page.tags -%}
-    {%- if site.minima.archive_page.tags -%}
+<span class="post-tags">{% if page.tags.size == 1 %}Tag{% else %}Tags{% endif %}:&nbsp;
+  {% for tag in page.tags %}
+    {% if site.minima.archive_page.tags %}
       <a href="{{ site.minima.archive_page.tags }}/{{ tag | slugify }}/">{{ tag }}</a>
-    {%- else -%}
+    {% else %}
       {{ tag }}
-    {%- endif -%}
-    {%- if forloop.last == false -%},&nbsp;{%- endif -%}
-  {%- endfor -%}
+    {% endif %}
+    {% if forloop.last == false %}, {% endif %}
+  {% endfor %}
 </span>

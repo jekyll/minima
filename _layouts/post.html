@@ -13,12 +13,12 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
-      {%- if page.categories.size > 0 -%}
-        &nbsp;|&nbsp;{%- include post-categories.html -%}
-      {%- endif -%}
-      {%- if page.tags.size > 0 -%}
-        &nbsp;|&nbsp;{%- include post-tags.html -%}
-      {%- endif -%}
+      {% if page.categories.size > 0 %}
+        | {% include post-categories.html %}
+      {% endif %}
+      {% if page.tags.size > 0 %}
+        | {% include post-tags.html %}
+      {% endif %}
     </p>
   </header>
 
