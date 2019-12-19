@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{%- assign max_count = 0 -%}
+{%- for tag in site.tags -%}
+  {%- assign posts = tag[1] -%}
+  {%- if posts.size > max_count -%}
+    {%- assign max_count = posts.size -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<ul class="site-tags">
+  {%- for i in (1..max_count) reversed -%}
+    {%- for tag in site.tags -%}
+      {%- assign tag_name = tag[0] -%}
+      {%- assign posts = tag[1] -%}
+      {%- if posts.size == i -%}
+        <li>
+          <a href="{{ site.baseurl }}{{ site.minima.archive_page.tags }}/{{ tag_name | slugify }}/">{{ tag_name }}</a> <small>{{ posts.size }}</small>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+</ul>
