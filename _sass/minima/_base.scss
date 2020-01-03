@@ -171,6 +171,7 @@ pre {
 }
 
 .highlight {
+  border-radius: 3px;
   background: $code-background-color;
   @extend %vertical-rhythm;
 
