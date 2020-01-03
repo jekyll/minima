@@ -16,6 +16,7 @@
 ### Bug Fixes
 
   * Add missing rel=me attributes to social links (#386)
+  * Set the border radius of highlight (#426)
 
 ## 2.5.1
 
