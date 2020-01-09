@@ -1,5 +1,6 @@
 The MIT License (MIT)
 
+Content and Images - Copyright 2019-2020 Geodata IT, LLC
 Minima Jekyll - Copyright (c) 2016-present Parker Moore and the minima contributors
 Emoji - Copyright (c) Ika <ikatyang@gmail.com> (https://github.com/ikatyang)
 
