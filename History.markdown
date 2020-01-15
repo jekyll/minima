@@ -1,8 +1,37 @@
 ## HEAD
 
+### Documentation
+
+  * Forward port v2.5.1 release (#399)
+
+### Minor Enhancements
+
+  * Add Keybase to social links (#400)
+  * Solarized skins (#404)
+
+### Major Enhancements
+
+  * Allow skins to be defined and customized easily (#336)
+
+### Bug Fixes
+
+  * Add missing rel=me attributes to social links (#386)
+  * Set the border radius of highlight (#426)
+
+## 2.5.1
+
+### Minor Enhancements
+
+  * Allow use and testing with Jekyll 4.x (#398)
+
 ### Bug Fixes
 
   * Footer overlapping issue (Support Microsoft Explorer 11) (#248)
+  * Update multiline config comment. (#346)
+
+### Development Fixes
+
+  * remove deprecated `sudo: false` in .travis.yml (#347)
 
 ## 2.5.0
 
