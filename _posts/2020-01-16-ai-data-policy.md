@@ -1,8 +1,11 @@
 ---
 layout: post
-title: PS626: AI, Data & Policy
+title: "PS626: AI, Data & Policy"
 tags: idc
+permalink: ai
 ---
+
+
 
 These are my notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay.
 
