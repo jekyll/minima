@@ -215,6 +215,12 @@
 .post-meta {
   font-size: $small-font-size;
   color: $brand-color;
+
+  img.avatar {
+    width: $small-font-size * 1.6;
+    height: $small-font-size * 1.6;
+    border-radius: $small-font-size * 1.6;
+  }
 }
 
 .post-link {

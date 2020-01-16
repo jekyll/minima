@@ -11,7 +11,14 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        • 
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          {%- if site.minima.avatar -%}
+            {%- assign avatar = site.minima.avatar | default: "/avatar.png" -%}
+            <span><img class="avatar" src="{{ avatar }}"></span>
+          {%- endif -%}
+          <span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span>
+        </span>
       {%- endif -%}</p>
   </header>
 
