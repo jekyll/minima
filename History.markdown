@@ -21,7 +21,6 @@
   * Add missing rel=me attributes to social links (#386)
   * Set the border radius of highlight (#426)
   * Removed unnecessary whitespace-controls (#390)
-  * Use &#34;em&#34; unit in relative-font-size mixin (#435)
   * fix: overflow auto for tables (#296)
   *  Add `overflow-wrap: break-word` to body tag (#321)
 
