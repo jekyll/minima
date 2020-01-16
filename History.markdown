@@ -3,6 +3,7 @@
 ### Documentation
 
   * Forward port v2.5.1 release (#399)
+  * Docs: remove Google+ (#373)
 
 ### Minor Enhancements
 
