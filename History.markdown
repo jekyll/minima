@@ -23,6 +23,7 @@
   * Removed unnecessary whitespace-controls (#390)
   * fix: overflow auto for tables (#296)
   *  Add `overflow-wrap: break-word` to body tag (#321)
+  * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
 
 ## 2.5.1
 
