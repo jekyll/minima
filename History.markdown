@@ -7,6 +7,18 @@
 ### Minor Enhancements
 
   * Add Keybase to social links (#400)
+  * Solarized skins (#404)
+  * Add a placeholder of favicons (#433)
+
+### Major Enhancements
+
+  * Allow skins to be defined and customized easily (#336)
+
+### Bug Fixes
+
+  * Add missing rel=me attributes to social links (#386)
+  * Set the border radius of highlight (#426)
+  * Removed unnecessary whitespace-controls (#390)
 
 ## 2.5.1
 

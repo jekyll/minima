@@ -104,11 +104,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-base-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $link-visited-color;
   }
 
   &:hover {
@@ -130,8 +130,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $brand-color;
+  border-left: 4px solid $brand-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -150,9 +150,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $brand-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $code-background-color;
 }
 
 code {
@@ -167,6 +167,16 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+.highlight {
+  border-radius: 3px;
+  background: $code-background-color;
+  @extend %vertical-rhythm;
+
+  .highlighter-rouge & {
+    background: $code-background-color;
   }
 }
 
@@ -210,11 +220,11 @@ pre {
  */
 
 .orange {
-  color: $orange-color;
+  color: #f66a0a;
 }
 
 .grey {
-  color: $grey-color;
+  color: #828282;
 }
 
 .svg-icon {
@@ -234,23 +244,22 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: $table-text-color;
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $table-border-color;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $table-zebra-color;
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: $table-header-bg-color;
+    border: 1px solid $table-header-border;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $table-border-color;
   }
 }
