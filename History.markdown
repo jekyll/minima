@@ -10,6 +10,7 @@
   * Add Keybase to social links (#400)
   * Solarized skins (#404)
   * Add a placeholder of favicons (#433)
+  * fix: make page.list_title optional (#303)
 
 ### Major Enhancements
 
