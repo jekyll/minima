@@ -14,7 +14,7 @@ layout: default
         • 
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           {%- if site.minima.avatar -%}
-            {%- assign avatar = site.minima.avatar | default: "/avatar.png" -%}
+            {%- assign avatar = site.minima.avatar -%}
             <span><img class="avatar" src="{{ avatar }}"></span>
           {%- endif -%}
           <span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span>
