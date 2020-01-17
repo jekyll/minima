@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $brand-color-dark;
+  border-bottom: 1px solid $brand-color-light;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -24,7 +24,7 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $brand-color-dark;
   }
 }
 
@@ -33,7 +33,7 @@
   top: 9px;
   right: $spacing-unit / 2;
   background-color: $background-color;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $brand-color-light;
   border-radius: 5px;
   text-align: right;
 
@@ -50,7 +50,7 @@
     text-align: center;
 
     > svg path {
-      fill: $grey-color-dark;
+      fill: $brand-color-dark;
     }
   }
 
@@ -147,7 +147,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $brand-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -164,7 +164,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $brand-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -239,7 +239,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $brand-color;
 }
 
 .post-link {
@@ -307,7 +307,7 @@
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $grey-color-light
+      border: 1px solid $brand-color-light
     }
     &:hover .svg-icon { fill: currentColor; }
   }

@@ -72,10 +72,15 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
-  - `minima.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
-  - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
-  - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
+  - `minima-classic.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for
+    the "classic" skin of the theme.
+  - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
+  - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
+  - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles. (*Note: Cannot override variables*)
+  - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
+  - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+
+Refer the [skins](#skins) section for more details.
 
 
 ### Assets
@@ -105,32 +110,18 @@ theme: minima
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
 
-The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
-- Create a new instance at site source.
-  - Create a new file at `<your-site>/assets/css/style.scss`
-  - Add the frontmatter dashes, and
-  - Add `@import "minima";`
-  - Add your custom CSS.
-- Download the file from this repo
-  - Create  a new file at `<your-site>/assets/css/style.scss`
-  - Copy the contents at [assets/css/style.scss](assets/css/style.scss) onto the `css/style.scss` you just created, and edit away!
-- Copy directly from minima gem
-  - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
-  - Copy the `assets/` folder from there into the root of `<your-site>`
-  - Change whatever values you want, inside `<your-site>/assets/css/style.scss`
+The site's default CSS has now moved to a new place within the gem itself, [`assets/css/style.scss`](assets/css/style.scss).
 
+In Minima 3.0, if you only need to customize the colors of the theme, refer to the subsequent section on skins. To have your
+*CSS overrides* in sync with upstream changes released in future versions, you can collect all your overrides for the Sass
+variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
+placed at path `_sass/minima/custom.scss`.
 
-When you override only a minima-sass-partial, it is not automatically imported because we're still importing the `minima.scss` within the theme-gem and that subsequently imports the partials with respect to itself, i.e. partials within the gem. Hence you should either include a *copy of `minima.scss` from the gem* inside the `_sass` directory at source or the overriding `/assets/css/style.scss` file should explicitly import the edited partial. :
-  e.g. To have an **edited** `_syntax-highlighting.scss` be rendered, you should either have
+You need not maintain entire partial(s) at the site's source just to override a few styles.
 
-```sass
-/* <your-site>/assets/css/style.scss */
+#### Skins
 
-@import "minima";
-@import "minima/syntax-highlighting";
-```
-or
-your `<your-site>/_sass/` should look like:
+Minima 3.0 supports defining and switching between multiple color-palettes (or *skins*).
 
 ```
 .
@@ -139,14 +130,32 @@ your `<your-site>/_sass/` should look like:
     └── _syntax-highlighting.scss
 ```
 
-To have your CSS overrides in sync with upstream changes released in future versions, collect all your overrides into a single partial sass-file and then import that partial after importing minima, like so:
 
-```sass
-/* <your-site>/assets/css/style.scss */
+A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
+variable defaults related to the "color" aspect of the theme and imports two components:
 
-@import "minima";
-@import "my_overrides";
+  - `minima/initialize.scss` &mdash; Defines the theme's *skin-agnostic* variable defaults and sass partials for styles.
+  - `minima/custom-styles.scss` &mdash; A hook for overriding the predefined styles. (*Note: Cannot override variables*)
+
+A skin also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and has to be adjusted
+in harmony with the current skin.
+
+The default color palette for Minima is defined within `_sass/minima-classic.scss`. To switch to another available skin, simply
+declare it in the site's config file. For example, to activate `_sass/minima-sunrise.scss` as the skin, the setting would be:
+
+```yaml
+minima:
+  skin: sunrise
 ```
+
+As part of the migration to support skins, some existing Sass variables have been retired and some **have been redefined** as
+summarized in the following table:
+
+Minima 2.0      | Minima 3.0
+--------------- | ----------
+`$brand-color`  | `$link-base-color`
+`$grey-*`       | `$brand-*`
+`$orange-color` | *has been removed*
 
 
 ### Customize navigation links
@@ -218,7 +227,6 @@ minima:
     linkedin: jekyll
     pinterest: jekyll
     telegram: jekyll
-    googleplus: +jekyll
     microdotblog: jekyll
     keybase: jekyll
     rss: rss
