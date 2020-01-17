@@ -25,6 +25,10 @@
   *  Add `overflow-wrap: break-word` to body tag (#321)
   * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
 
+### Development Fixes
+
+  * Ignore .jekyll-cache (#439)
+
 ## 2.5.1
 
 ### Minor Enhancements
