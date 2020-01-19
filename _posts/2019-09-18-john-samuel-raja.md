@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk by economist and journalist John Samuel Raja.
+title: Talk by John Samuel Raja.
 ---
 
 > Talk by John Samuel Raja, economist and journalist.  
