@@ -3,10 +3,35 @@
 ### Documentation
 
   * Forward port v2.5.1 release (#399)
+  * Docs: remove Google+ (#373)
+  * Update README section on adding favicons to site (#438)
 
 ### Minor Enhancements
 
   * Add Keybase to social links (#400)
+  * Solarized skins (#404)
+  * Add a placeholder of favicons (#433)
+  * fix: make page.list_title optional (#303)
+  * Add stackoverflow to social media list (#443)
+
+### Major Enhancements
+
+  * Allow skins to be defined and customized easily (#336)
+
+### Bug Fixes
+
+  * Add missing rel=me attributes to social links (#386)
+  * Set the border radius of highlight (#426)
+  * Removed unnecessary whitespace-controls (#390)
+  * fix: overflow auto for tables (#296)
+  *  Add `overflow-wrap: break-word` to body tag (#321)
+  * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
+  * Assign static value to variable outside forloop (#437)
+  * Add font-size styles for elements h5 and h6 (#441)
+
+### Development Fixes
+
+  * Ignore .jekyll-cache (#439)
 
 ## 2.5.1
 
