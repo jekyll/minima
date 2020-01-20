@@ -220,6 +220,7 @@ minima:
   social_links:
     twitter: jekyllrb
     github: jekyll
+    stackoverflow: "11111"
     dribbble: jekyll
     facebook: jekyll
     flickr: jekyll
