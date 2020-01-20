@@ -1,6 +1,10 @@
-.bundle
+# Jekyll
 .jekyll-cache
 .sass-cache
-Gemfile.lock
 _site
+
+# Bundler
 *.gem
+.bundle
+Gemfile.lock
+vendor/bundle
