@@ -13,6 +13,7 @@
   * Add a placeholder of favicons (#433)
   * fix: make page.list_title optional (#303)
   * Add stackoverflow to social media list (#443)
+  * Add social support for dev.to (#410)
 
 ### Major Enhancements
 
