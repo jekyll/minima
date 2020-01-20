@@ -30,6 +30,7 @@
   * Use &#34;rem&#34; unit in relative-font-size mixin (#436)
   * Assign static value to variable outside forloop (#437)
   * Add font-size styles for elements h5 and h6 (#441)
+  * Stop prefixing CSS calc with `-webkit-` (#445)
 
 ### Development Fixes
 
