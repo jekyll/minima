@@ -140,14 +140,13 @@
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $brand-color;
-  margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
 
 .footer-col {
   width: calc(100% - (#{$spacing-unit} / 2));
   margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2;
 }
 
 .footer-col-1,
@@ -269,6 +268,7 @@
 
 
 .social-media-list {
+  border: 1px solid yellow;
   display: table;
   margin: 0 auto;
   li {
