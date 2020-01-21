@@ -267,6 +267,18 @@
   }
 }
 
+.task-list {
+  list-style: none;
+  margin-left: 0px;
+
+  .task-list-item-checkbox {
+    vertical-align: middle;
+    position: relative;
+    margin-right: 6px;
+    bottom: 2px;
+  }
+}
+
 
 .social-media-list {
   display: table;
