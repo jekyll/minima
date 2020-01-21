@@ -36,8 +36,7 @@ This is despite the 2015 striking down of Section 66A of India’s Information T
 [2] [Google ‘fixed’ its racist algorithm by removing gorillas from its image-labeling tech](
 https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recognition-algorithm-ai)
 
-[3] [Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making]
-(https://royalsocietypublishing.org/doi/full/10.1098/rsta.2018.0087)
+[3] [Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2018.0087)
 
 [4] [Delhi Police Is Now Using Facial Recognition Software to Screen 'Habitual Protestors'](
 https://thewire.in/government/delhi-police-is-now-using-facial-recognition-software-to-screen-habitual-protestors)
