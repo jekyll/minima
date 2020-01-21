@@ -16,11 +16,11 @@ I was especially interested in how the course was pitched - over the past year I
 ### Managing courseload (IDC M.Des)
 IDC courseload is heavy as it is, and so I checked with my faculty advisor and project guide before taking this course. They said it was a good idea to be exposed to courses outside IDC, but warned me about the courseload and suggested that I could take it as an audit course. DRS and P3 are 12 and 30 credits respectively, and the elective is 6, which adds up to a 48 credit semester. It is possible to take courses as audit courses or as additional learning courses, which do not impact your CPI. I have currently taken the course as an additional learning course.
 
-### Some thoughts about the first class and this paper
+### Some thoughts about the first class and [this paper](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2018.0087)
 
 About two years ago, I read a Twitter thread [[1]](https://twitter.com/yonatanzunger/status/975545004205654016) that said the field of Computer Science has not had it’s reckoning yet. It said that unlike Chemistry that had seen dynamite and chemical weapons, and Physics that had seen the atom bomb, the field of Computer Science had not yet had a moment that ‘seared the importance of ethics and consequences’ into the minds of everyone in the field.
 
-This has stayed with me as an IT engineer turned into an Interaction Designer. The road to hell is paved with good intentions, and the first time Google Photos let me search through my photos with words felt like magic, but I also read about the app labelling black people as gorillas [[2]](). This made me wonder about all the trust we put in what is essentially a black box for decision making. AI systems could be mostly useful, but every now and then spit out wrong or biased results, with no way of understanding why. Data collection and algorithmic curation of everything we do online has become so normalised that the constant surveillance has become implicitly accepted as we use identities controlled by corporations to manage our entire identities online.
+This has stayed with me as an IT engineer turned into an Interaction Designer. The road to hell is paved with good intentions, and the first time Google Photos let me search through my photos with words felt like magic, but I also read about the app labelling black people as gorillas [[2]](https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recognition-algorithm-ai). This made me wonder about all the trust we put in what is essentially a black box for decision making. AI systems could be mostly useful, but every now and then spit out wrong or biased results, with no way of understanding why. Data collection and algorithmic curation of everything we do online has become so normalised that the constant surveillance has become implicitly accepted as we use identities controlled by corporations to manage our entire identities online.
 
 My summer internship involved working on an AI product, and had to understand and weigh in on issues with data availability to train a model, and issues with model accuracy. As a designer, I felt a little crippled by my limited grasp on the technology and inability to actually prototype anything myself. I read about issues like explaining to the user where smart inputs from an AI agent were coming from, and explaining that the information could be inaccurate sometimes. This motivated me to take this course, and the structure of alternating classes discussing the technical and socio-politico-economic aspects of artificial intelligence was a surprise but in retrospect seems like the obvious approach to be able to completely understand the possible impacts of a piece of AI technology.
 
@@ -63,7 +63,6 @@ a[2:-5] //2nd to 5th last char
 import random
 print (random.randrange(50,100))
 ```
-
 
 ### Tuple v/s List v/s Set v/s Dictionary
 ```
