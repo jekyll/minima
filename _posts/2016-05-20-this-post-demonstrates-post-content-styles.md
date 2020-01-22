@@ -2,7 +2,9 @@
 layout: post
 title: "This post demonstrates post content styles"
 categories: junk
-author: "Bart Simpson"
+author:
+- Bart Simpson
+- Nelson Mandela Muntz
 meta: "Springfield"
 ---
 
@@ -56,6 +58,14 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
 #### But it's probably overkill (h4)
+
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
+##### Could be a smaller sub-heading, `pacman` (h5)
+
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
+###### Small yet significant sub-heading  (h6)
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
