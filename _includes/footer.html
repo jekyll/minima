@@ -6,14 +6,16 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      {%- if site.author %}
         <ul class="contact-list">
-          {% if site.author -%}
-            <li class="p-name">{{ site.author | escape }}</li>
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
-          {% if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
+      {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
