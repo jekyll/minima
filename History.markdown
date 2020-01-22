@@ -16,6 +16,7 @@
   * Add social support for dev.to (#410)
   * Add GitLab to social (#352)
   * Support mutiple authors on post layout (#348)
+  * Re-implement site footer markup and styles (#448)
 
 ### Major Enhancements
 
