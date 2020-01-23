@@ -297,6 +297,33 @@
 }
 
 
+
+/**
+ * Pagination navbar
+ */
+.pagination {
+  @extend .social-media-list;
+  li {
+    a, div {
+      min-width: 41px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    div {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid transparent;
+
+      &.pager-edge {
+        color: darken($brand-color-light, 5%);
+        border: 1px dashed;
+      }
+    }
+  }
+}
+
+
+
 /**
  * Grid helpers
  */
