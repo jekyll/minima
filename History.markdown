@@ -34,6 +34,7 @@
   * Assign static value to variable outside forloop (#437)
   * Add font-size styles for elements h5 and h6 (#441)
   * Stop prefixing CSS calc with `-webkit-` (#445)
+  * Improve readability of post titles with diacritics (#449)
 
 ### Development Fixes
 
