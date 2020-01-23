@@ -28,6 +28,8 @@ Vidushi Marda’s paper on AI Policy in India [[3]](https://royalsocietypublishi
 
 This is despite the 2015 striking down of Section 66A of India’s Information Technology Act by the Supreme Court because it was said to have a ‘chilling effect on free speech’. In a 2017 statement, the Indian supreme court also recognised informational privacy as a fundamental right. With practice preceding policy, there is a void on clear policy against the use of AI by the state in a way that violates fundamental freedoms of the citizens.
 
+#20 Jan 2020
+Monday, 2pm
 
 ### References
 
@@ -80,3 +82,9 @@ d[first]
 'Gyan'
 ```
 
+### pip
+
+
+### nltk
+Python Natural Language Tool Kit library
+[NLTK Book](https://www.nltk.org/book/)
