@@ -209,6 +209,23 @@ If you don't want to display comments for a particular post you can disable them
 
 :warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
+### Author Metadata
+
+From `Minima-3.0` onwards, `site.author` is expected to be a mapping of attributes instead of a simple scalar value:
+
+```yaml
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
+```
+
+To migrate existing metadata, update your config file and any reference to the object in your layouts and includes as summarized below:
+
+Minima 2.x    | Minima 3.0
+------------- | -------------------
+`site.author` | `site.author.name`
+`site.email`  | `site.author.email`
+
 
 ### Social networks
 
