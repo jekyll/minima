@@ -17,6 +17,7 @@
   * Add GitLab to social (#352)
   * Support mutiple authors on post layout (#348)
   * Re-implement site footer markup and styles (#448)
+  * Support pagination through posts in home layout (#450)
 
 ### Major Enhancements
 
