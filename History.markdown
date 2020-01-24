@@ -18,6 +18,7 @@
   * Support mutiple authors on post layout (#348)
   * Re-implement site footer markup and styles (#448)
   * Support pagination through posts in home layout (#450)
+  * Show the last modified date of posts (#432)
 
 ### Major Enhancements
 
