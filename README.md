@@ -65,7 +65,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
-  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file.
+  - `social.html` &mdash; Renders social-media icons based on the data provided in a (configurable) data file at source.
 
 
 ### Sass
@@ -86,9 +86,14 @@ Refer the [skins](#skins) section for more details.
 ### Assets
 
 Refers to various asset files within the `assets` directory.
-Contains the `css/style.scss` that imports sass files from within the `_sass` directory. This `css/style.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
 
-This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as is, to the final transformed site directory.
+  - `css/style.scss` &mdash; This imports Sass files from within the `_sass` directory gets processed into the theme's main
+    stylesheet `style.css` called by `_layouts/default.html` via `_includes/head.html`.
+  - `minima-social-icons.svg` &mdash; An SVG file that contains various social media icons in alphabetic order of their
+    respective `id` attribute. Used to render social icons via `_includes/social.html`.
+
+This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as
+is, to the final transformed site directory.
 
 
 ### Plugins
@@ -229,42 +234,43 @@ Minima 2.x    | Minima 3.0
 
 ### Social networks
 
-You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config.
-From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_links`, with the keys being simply the social-network's name:
+You can add links to the accounts you have on other sites, with respective icon. From `Minima-3.0` onwards, the theme yields
+the users with greater control over rendering a social-icon.
+
+Users are now expected to provide necessary details in a data file instead of using the config file. By default, Minima looks
+for social information in a datafile named `social_media` (of any data type supported by Jekyll). In the event that your site
+uses the said file for a different purpose, you can configure a different filename via `minima.social_datafile` in your site's
+config file:
 
 ```yaml
+# _config.yml
+
 minima:
-  social_links:
-    twitter: jekyllrb
-    github: jekyll
-    stackoverflow: "11111"
-    dribbble: jekyll
-    facebook: jekyll
-    flickr: jekyll
-    instagram: jekyll
-    linkedin: jekyll
-    pinterest: jekyll
-    telegram: jekyll
-    microdotblog: jekyll
-    keybase: jekyll
-    rss: rss
-
-    mastodon:
-     - username: jekyll
-       instance: example.com
-     - username: jekyll2
-       instance: example.com
-
-    gitlab:
-     - username: jekyll
-       instance: example.com
-     - username: jekyll2
-       instance: example.com
-
-    youtube: jekyll
-    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    youtube_channel_name: CloudCannon
+  social_datafile: "my-social-media-details"
 ```
+
+However, the data provided should comply with the following pattern:
+
+```yaml
+- id: github
+  base: "https://github.com/"
+  username: "jekyll/minima"
+
+- id: twitter
+  base: "https://twitter.com/"
+  username: jekyllrb
+
+- id: rss
+  feed_path: feed.xml
+```
+
+- The data comprises of a list of social entries. The order of entries is up to your preference.
+- Icons can be repeated if desired.
+- key `id` should be one of existing `<symbol id>` in `assets/minima-social-icons.svg`.
+- keys `base` and `username` jointly yields the icon's link reference. Minima no longer escapes invalid HTML sequences.
+- Feed entries generate link reference for given `feed_path`. Internally, the final link is prepended with `site.baseurl`.
+- [Optional] key `title` generates the title attribute for the link. Defaults to the value of `id`.
+
 
 
 ### Enabling Google Analytics

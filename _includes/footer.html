@@ -22,9 +22,11 @@
       </div>
     </div>
 
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
+    {% assign social_datafile = site.minima.social_datafile | default: 'social_media' %}
+    {%- assign social_media_list = site.data[social_datafile] %}
+    {%- if social_media_list %}
+      {%- include social.html list = social_media_list %}
+    {%- endif %}
 
   </div>
 
