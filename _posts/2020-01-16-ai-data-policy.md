@@ -28,6 +28,8 @@ Vidushi Marda’s paper on AI Policy in India [[3]](https://royalsocietypublishi
 
 This is despite the 2015 striking down of Section 66A of India’s Information Technology Act by the Supreme Court because it was said to have a ‘chilling effect on free speech’. In a 2017 statement, the Indian supreme court also recognised informational privacy as a fundamental right. With practice preceding policy, there is a void on clear policy against the use of AI by the state in a way that violates fundamental freedoms of the citizens.
 
+#20 Jan 2020
+Monday, 2pm
 
 ### References
 
@@ -79,6 +81,80 @@ d = {"first":"Gyan","second":"Rishi","third":"Aisha"}
 d[first]
 'Gyan'
 ```
+
+# nltk  
+Python Natural Language Tool Kit library  
+
+### install
+If you have pip installed, use this command to install nltk.
+```
+pip install nltk
+```
+
+### [NLTK Book](https://www.nltk.org/book/)
+Tutorial for nltk
+
+### concordance("word")
+Returns all occurrences of word. with some surrounding words.
+```
+>>> text1.concordance('flowers')
+Displaying 4 of 4 matches:
+has superinduced bright terraces of flowers upon the barren refuse rocks thrown
+he green grass ; who standing among flowers can say -- here , HERE lies my belo
+ the warp and woof , and the living flowers the figures . All the trees , with
+ in some glad May - time , when the flowers of the woods are plucked . And all
+```
+
+### similar("word")
+Returns other words appear in a similar range of contexts.
+```
+>>> text1.similar('flowers')
+hands blue act lines school in heart body world hand name whale tongue
+signification word from roll english will whales
+```
+
+### common_contexts(["word1","word2"]
+```
+>>> text1.common_contexts(["very","so"])
+is_often ye_much not_often not_much is_much was_far been_long
+```
+
+### FreqDist(text)
+Returns frequency of most common words. Can be used for n most common words as shown.
+```
+>>> FreqDist(text1).most_common(50)
+[(',', 18713), ('the', 13721), ('.', 6862), ('of', 6536), ('and', 6024), ('a', 4569), ('to', 4542), (';', 4072), ('in', 3916), ('that', 2982), ("'", 2684), ('-', 2552), ('his', 2459), ('it', 2209), ('I', 2124), ('s', 1739), ('is', 1695), ('he', 1661), ('with', 1659), ('was', 1632), ('as', 1620), ('"', 1478), ('all', 1462), ('for', 1414), ('this', 1280), ('!', 1269), ('at', 1231), ('by', 1137), ('but', 1113), ('not', 1103), ('--', 1070), ('him', 1058), ('from', 1052), ('be', 1030), ('on', 1005), ('so', 918), ('whale', 906), ('one', 889), ('you', 841), ('had', 767), ('have', 760), ('there', 715), ('But', 705), ('or', 697), ('were', 680), ('now', 646), ('which', 640), ('?', 637), ('me', 627), ('like', 624)]
+
+```
+
+### matplotlib
+Install using ```pip install matplotlib```
+
+### Plot Graph of frequency dist
+```
+>>> fdist = FreqDist(text2)
+>>> fdist1.plot(50,cumulative="True")
+```
+
+### get all words over 15 char in Moby Dick
+```
+>>> V = set(text1)
+>>> longs = [w for w in V if len(w) > 15]
+>>> sorted(longs)
+['CIRCUMNAVIGATION', 'Physiognomically', 'apprehensiveness', 'cannibalistically', 'characteristically', 'circumnavigating', 'circumnavigation', 'circumnavigations', 'comprehensiveness', 'hermaphroditical', 'indiscriminately', 'indispensableness', 'irresistibleness', 'physiognomically', 'preternaturalness', 'responsibilities', 'simultaneousness', 'subterraneousness', 'supernaturalness', 'superstitiousness', 'uncomfortableness', 'uncompromisedness', 'undiscriminating', 'uninterpenetratingly']
+```
+
+### Collocations
+Words that occur together. Eg. red wine.
+
+***bigrams***
+2 words that occur together
+
+***ngrams***
+n words that occur together
+
+### Homework
+Find all bigrams in Moby Dick that occur more than 10 times without using inbuilt nltk code.
 
 # Reading List
 Readings assigned during the course.
