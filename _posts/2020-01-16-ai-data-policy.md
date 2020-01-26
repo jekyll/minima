@@ -80,3 +80,11 @@ d[first]
 'Gyan'
 ```
 
+# Reading List
+Readings assigned during the course.
+
+[Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
+Vidushi Marda
+
+[Perspectives on Issues in AI Governance](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf)  
+Google AI

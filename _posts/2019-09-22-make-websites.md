@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Make a website for free"
-permalink: /make-websites
+title: "Markdown Resources"
+permalink: /markdown
 ---
 
 
