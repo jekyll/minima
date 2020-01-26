@@ -53,12 +53,19 @@ $brand-color:           $sol-mono1 !default;
 $brand-color-light:     mix($sol-mono1, $sol-mono3) !default;
 $brand-color-dark:      $sol-mono00 !default;
 
+$site-title-color:      $sol-mono00 !default;
+
 $text-color:            $sol-mono01 !default;
 $background-color:      $sol-mono3 !default;
 $code-background-color: $sol-mono2 !default;
 
 $link-base-color:       $sol-blue !default;
 $link-visited-color:    mix($sol-blue, $sol-mono00) !default;
+$link-hover-color:      $sol-mono00 !default;
+
+$border-color-01:       $brand-color-light !default;
+$border-color-02:       $sol-mono1 !default;
+$border-color-03:       $sol-mono00 !default;
 
 $table-text-color:      $sol-mono00 !default;
 $table-zebra-color:     mix($sol-mono2, $sol-mono3) !default;
