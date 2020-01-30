@@ -117,3 +117,41 @@ n words that occur together
 
 ### Homework
 Find all bigrams in Moby Dick that occur more than 10 times without using inbuilt nltk code.
+
+
+# Lab 3
+30 Jan 2020
+
+### regex
+Regular expression
+Finding a pattern of characters in regex.
+
+### Chatter text
+People talking to each other online (For eg. Reddit)
+
+Organisations can use chattertext to run sentiment analysis and figure out who thinks what about what.
+
+Possible project idea: understanding chattertext
+
+### Write and read a .txt file 
+```
+text = "Hello\nMy name is Gyan\nI like rusty spoons\n"
+
+f = open('hello.txt', 'a')
+f.write(text)
+f.close()
+
+f = open('hello.txt', 'r')
+for line in f:
+	print len(line), line
+f.close()
+
+## Output
+
+## 6 Hello
+
+## 16 My name is Gyan
+
+## 20 I like rusty spoons
+
+```
