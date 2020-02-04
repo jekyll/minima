@@ -226,18 +226,20 @@
 }
 
 .post-item {
-  background: #ffffff;
+  background: #ffec59;
   display: block;
-  border: 1px solid #ffe5e5;
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgba(0,0,0,0.10);
   box-shadow: 0 1px 12px 0 rgba(0,0,0,0.10);
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 16px;
   transition: .2s;
 }
 
 .post-item:hover {
-  border: 1px solid #F3D8D8;
-  box-shadow: 0 2px 16px 0 rgba(200,20,20,0.15);
+  border: 1px solid rgba(0,0,0,0.40);
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.20);
 }
 
 /**
