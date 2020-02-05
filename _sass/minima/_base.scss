@@ -27,6 +27,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  overflow-wrap: break-word;
 }
 
 
@@ -149,7 +150,7 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
+  font-size: 0.9375em;
   border: 1px solid $brand-color-light;
   border-radius: 3px;
   background-color: $code-background-color;
@@ -186,8 +187,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
@@ -195,8 +195,7 @@ pre {
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
@@ -261,5 +260,12 @@ table {
   }
   td {
     border: 1px solid $table-border-color;
+  }
+
+  @include media-query($on-laptop) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }

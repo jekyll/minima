@@ -187,7 +187,7 @@ minima:
 ### Add your favicons
 
 1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
-2. [Customize](#customization) default `_includes/head.html` in your source directory and insert the given code snippet.
+2. [Customize](#customization) default `_includes/favicons.html` in your source directory and insert the given code snippet.
 
 
 ### Enabling comments (via Disqus)
@@ -209,6 +209,23 @@ If you don't want to display comments for a particular post you can disable them
 
 :warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
+### Author Metadata
+
+From `Minima-3.0` onwards, `site.author` is expected to be a mapping of attributes instead of a simple scalar value:
+
+```yaml
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
+```
+
+To migrate existing metadata, update your config file and any reference to the object in your layouts and includes as summarized below:
+
+Minima 2.x    | Minima 3.0
+------------- | -------------------
+`site.author` | `site.author.name`
+`site.email`  | `site.author.email`
+
 
 ### Social networks
 
@@ -220,6 +237,7 @@ minima:
   social_links:
     twitter: jekyllrb
     github: jekyll
+    stackoverflow: "11111"
     dribbble: jekyll
     facebook: jekyll
     flickr: jekyll
@@ -227,12 +245,17 @@ minima:
     linkedin: jekyll
     pinterest: jekyll
     telegram: jekyll
-    googleplus: +jekyll
     microdotblog: jekyll
     keybase: jekyll
     rss: rss
 
     mastodon:
+     - username: jekyll
+       instance: example.com
+     - username: jekyll2
+       instance: example.com
+
+    gitlab:
      - username: jekyll
        instance: example.com
      - username: jekyll2
