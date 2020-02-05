@@ -37,6 +37,7 @@
   * Add font-size styles for elements h5 and h6 (#441)
   * Stop prefixing CSS calc with `-webkit-` (#445)
   * Improve readability of post titles with diacritics (#449)
+  * Fix a bug of incorrect parsing of page.modified_date (#455)
 
 ### Development Fixes
 
