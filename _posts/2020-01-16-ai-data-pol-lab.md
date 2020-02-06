@@ -155,3 +155,30 @@ f.close()
 ## 20 I like rusty spoons
 
 ```
+
+
+# Lab 4
+30 Jan 2020
+
+### Supervised Machine Learning
+Training data has explicit labels.
+
+### Unsupervised Machine Learning
+Training data does not have explicit words.
+
+### Dictionary
+List of all unique words
+
+
+## Topic model
+
+### Non-parametric topic modelling
+You don't give the number of topics. More sophisticated.
+
+### Parametric topic modelling
+You give number of topics. 
+
+### tf-idf
+Stands for term frequency–inverse document frequency [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+Way of figuring out what words define the 'topic' of the document.
+
