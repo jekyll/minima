@@ -19,6 +19,7 @@
   * Re-implement site footer markup and styles (#448)
   * Support pagination through posts in home layout (#450)
   * Show the last modified date of posts (#432)
+  * Set margins of hr to improve readability (#461)
 
 ### Major Enhancements
 
