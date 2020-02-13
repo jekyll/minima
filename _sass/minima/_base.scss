@@ -42,7 +42,10 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
+hr {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
 
 /**
  * `main` element
@@ -150,6 +153,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $brand-color-light;
   border-radius: 3px;
