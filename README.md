@@ -4,7 +4,7 @@
 
 ***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
 within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
-version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
+version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*
 *Running `bundle show minima` will provide you with the local path to your current theme version.*
 
 
@@ -235,19 +235,18 @@ From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_l
 ```yaml
 minima:
   social_links:
-    twitter: jekyllrb
-    github: jekyll
-    stackoverflow: "11111"
     dribbble: jekyll
     facebook: jekyll
     flickr: jekyll
+    github: jekyll
     instagram: jekyll
-    linkedin: jekyll
-    pinterest: jekyll
-    telegram: jekyll
-    microdotblog: jekyll
     keybase: jekyll
-    rss: rss
+    linkedin: jekyll
+    microdotblog: jekyll
+    pinterest: jekyll
+    stackoverflow: "11111"
+    telegram: jekyll
+    twitter: jekyllrb
 
     mastodon:
      - username: jekyll
