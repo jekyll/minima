@@ -5,7 +5,12 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}" title="Subscribe to this feed">
+            <span>Subscribe</span><svg class="svg-icon"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg>
+          </a>
+        </p>
+        <h2 class="footer-heading">Contact</h2>
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
