@@ -21,6 +21,7 @@
   * Show the last modified date of posts (#432)
   * Set margins of hr to improve readability (#461)
   * Export a variable to let users to custom the font family of code (#462)
+  * Set margin-bottom of pagination (#458)
 
 ### Major Enhancements
 
