@@ -53,8 +53,9 @@ If you have pip installed, use this command to install nltk.
 pip install nltk
 ```
 
-### [NLTK Book](https://www.nltk.org/book/)
-Tutorial for nltk
+### NLTK Book
+[Tutorial for nltk](https://www.nltk.org/book/)
+
 
 ### concordance("word")
 Returns all occurrences of word. with some surrounding words.
@@ -180,13 +181,16 @@ You don't give the number of topics. More sophisticated.
 ### Parametric topic modelling
 You give number of topics. 
 
-### tf-idf
-Stands for term frequency–inverse document frequency [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+### tf-idf  
+[Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)  
+Stands for term frequency–inverse document frequency
 Way of figuring out what words define the 'topic' of the document.
 
 # Lab 6
 13 Feb 2020
 
 ## Vowpal Wabbit
-[Website](https://vowpalwabbit.org/)  | [Recommended Tutorial](https://github.com/hal3/vwnlp)
+[Website](https://vowpalwabbit.org/)  | [Recommended Tutorial](https://github.com/hal3/vwnlp)  
 Very fast way to do ML. Takes one data point, creates model. Then adjusts model for next data point and so on. Thus RAM requirement is low.
+
+
