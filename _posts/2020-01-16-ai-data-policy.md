@@ -51,3 +51,21 @@ Vidushi Marda
 
 [Perspectives on Issues in AI Governance](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf)  
 Google AI
+
+
+# Mid-term presentation
+
+### Create a team
+3 or 4 people. Try and not have more than 1-2 coders.
+
+### Fix a topic
+Decide what you want to work on.
+
+### Meeting with Anupam
+Mail Anupam and fix a .5hr slot for 18 Feb (Tue) or 19 Feb (Wed).
+
+### AI lens
+What sort of ML algorithms will you explore?
+
+### Social science lens
+How will you critique?
