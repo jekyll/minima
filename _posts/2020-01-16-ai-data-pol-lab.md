@@ -169,6 +169,8 @@ Training data does not have explicit words.
 ### Dictionary
 List of all unique words
 
+# Lab 5
+6 Feb 2020
 
 ## Topic model
 
@@ -182,3 +184,9 @@ You give number of topics.
 Stands for term frequency–inverse document frequency [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 Way of figuring out what words define the 'topic' of the document.
 
+# Lab 6
+13 Feb 2020
+
+## Vowpal Wabbit
+[Website](https://vowpalwabbit.org/)  | [Recommended Tutorial](https://github.com/hal3/vwnlp)
+Very fast way to do ML. Takes one data point, creates model. Then adjusts model for next data point and so on. Thus RAM requirement is low.
