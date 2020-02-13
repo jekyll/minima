@@ -20,6 +20,7 @@
   * Support pagination through posts in home layout (#450)
   * Show the last modified date of posts (#432)
   * Set margins of hr to improve readability (#461)
+  * Export a variable to let users to custom the font family of code (#462)
 
 ### Major Enhancements
 
