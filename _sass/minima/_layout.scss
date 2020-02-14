@@ -237,6 +237,10 @@
   margin-bottom: $spacing-unit;
 }
 
+.post-tag {
+  margin-right: $spacing-unit / 2;
+}
+
 .post-title,
 .post-content h1 {
   @include relative-font-size(2.625);

@@ -53,6 +53,10 @@ minima:
 #header_pages:
 # - about.md
 
+# If you want that tags on posts link to somewhere, uncomment this and configure
+# the path pattern.
+#taglink: /tags/#:tag
+
 # Build settings
 theme: minima
 
