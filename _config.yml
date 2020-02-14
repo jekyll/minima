@@ -14,7 +14,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 minima:
   date_format: "%b %-d, %Y"
 
-  # social links displayed in footer
+  # generate social links in footer
   social_links:
     twitter: jekyllrb
     github:  jekyll
@@ -48,7 +48,7 @@ minima:
     #   instance: example.com
 
 # If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up.
+# this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
 
