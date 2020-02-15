@@ -228,7 +228,35 @@
   @include relative-font-size(1.5);
 }
 
+.page-share {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
+  .btn {
+    color: white;
+    border: 0px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &--twitter {
+      background-color: #1da1f2;
+    }
+
+    &--facebook {
+      background-color: #3b5998;
+    }
+
+    &--reddit {
+      background-color: #ff5700;
+    }
+
+    &--linkedin {
+      background-color: #2867b2;
+    }
+  }
+}
 
 /**
  * Posts

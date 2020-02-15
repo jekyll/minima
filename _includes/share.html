@@ -1,0 +1,18 @@
+<div class="page-share">
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--twitter">
+    <svg class="svg-icon white"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>
+    <span>Tweet</span>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--facebook">
+    <svg class="svg-icon white"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg>
+    <span>Share</span>
+  </a>
+  <a href="https://reddit.com/submit?title={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--reddit">
+    <svg class="svg-icon white"><use xlink:href="{{ '/assets/minima-social-icons.svg#reddit' | relative_url }}"></use></svg>
+    <span>Reddit</span>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--linkedin">
+    <svg class="svg-icon white"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+    <span>LinkedIn</span>
+  </a>
+</div>

@@ -241,6 +241,21 @@ pre {
 
 
 /**
+ * Buttons
+ */
+.btn {
+  display: inline-block;
+  fill: currentColor;
+  padding: 0.1em 0.3em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+/**
  * Tables
  */
 table {
