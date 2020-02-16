@@ -46,21 +46,26 @@ https://thewire.in/government/delhi-police-is-now-using-facial-recognition-softw
 
 # Reading List
 Readings assigned during the course.
+ 
+Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making.  
+- *Vidushi Marda*  
+[Access Link](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
 
-[Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
-Vidushi Marda
+Perspectives on Issues in AI Governance  
+- *Google AI*  
+[Access Link](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf) 
 
-[Perspectives on Issues in AI Governance](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf)  
-Google AI
+National Strategy for Artificial Intelligence #AIFORALL   
+- *Niti Aayog*  
+[Access Link](https://niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf)
 
-[National Strategy for Artificial Intelligence #AIFORALL](https://niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf)
-Niti Aayog
 
 # Things to check out
 
 ### ELIZA
+Chatbot created in the 1960s at MIT Artificial Intelligence Laboratory.  
 [Try here](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm)
-Chatbot created in the 1960s at MIT Artificial Intelligence Laboratory.
+
 
 # Mid-term presentation
 
