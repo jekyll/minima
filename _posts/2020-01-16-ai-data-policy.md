@@ -47,18 +47,21 @@ https://thewire.in/government/delhi-police-is-now-using-facial-recognition-softw
 # Reading List
 Readings assigned during the course.
  
-Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making.  
-- *Vidushi Marda*  
-[Access Link](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
+- Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making.  
+*Vidushi Marda*  
+[PDF](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
 
-Perspectives on Issues in AI Governance  
-- *Google AI*  
-[Access Link](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf) 
+- Perspectives on Issues in AI Governance  
+*Google AI*  
+[PDF](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf) 
 
-National Strategy for Artificial Intelligence #AIFORALL   
-- *Niti Aayog*  
-[Access Link](https://niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf)
+- National Strategy for Artificial Intelligence #AIFORALL   
+*Niti Aayog*  
+[PDF](https://niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf)
 
+- Mind: A Brief Introduction  
+*John R. Searle*  
+[PDF](https://isidore.co/calibre/get/PDF/Searle%2C%20John%20R_-Mind_%20A%20Brief%20Introduction_4060.pdf)
 
 # Things to check out
 
