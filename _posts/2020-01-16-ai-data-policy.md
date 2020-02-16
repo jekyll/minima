@@ -43,6 +43,7 @@ https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recogni
 [4] [Delhi Police Is Now Using Facial Recognition Software to Screen 'Habitual Protestors'](
 https://thewire.in/government/delhi-police-is-now-using-facial-recognition-software-to-screen-habitual-protestors)
 
+
 # Reading List
 Readings assigned during the course.
 
@@ -52,6 +53,14 @@ Vidushi Marda
 [Perspectives on Issues in AI Governance](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf)  
 Google AI
 
+[National Strategy for Artificial Intelligence #AIFORALL](https://niti.gov.in/writereaddata/files/document_publication/NationalStrategy-for-AI-Discussion-Paper.pdf)
+Niti Aayog
+
+# Things to check out
+
+### ELIZA
+[Try here](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm)
+Chatbot created in the 1960s at MIT Artificial Intelligence Laboratory.
 
 # Mid-term presentation
 
