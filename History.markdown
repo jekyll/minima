@@ -24,6 +24,7 @@
   * Set margin-bottom of pagination (#458)
   * Adjust margins of headings to make sections clear (#467)
   * Rename favicons.html to custom-head.html (#468)
+  * Remove RSS icon from the social media list (#470)
 
 ### Major Enhancements
 
