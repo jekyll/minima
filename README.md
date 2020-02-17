@@ -250,7 +250,6 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
-    rss: rss
 
     mastodon:
      - username: jekyll
