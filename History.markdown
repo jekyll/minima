@@ -23,6 +23,7 @@
   * Export a variable to let users to custom the font family of code (#462)
   * Set margin-bottom of pagination (#458)
   * Adjust margins of headings to make sections clear (#467)
+  * Rename favicons.html to custom-head.html (#468)
 
 ### Major Enhancements
 
