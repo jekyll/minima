@@ -184,10 +184,12 @@ minima:
 ```
 
 
-### Add your favicons
+### Custom head
+
+You can custom your `head` by creating a file `_includes/custom-head.html` in your source directory, for example, adding favicons:
 
 1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
-2. [Customize](#customization) default `_includes/favicons.html` in your source directory and insert the given code snippet.
+2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
 
 
 ### Enabling comments (via Disqus)
