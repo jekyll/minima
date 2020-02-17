@@ -184,7 +184,7 @@ minima:
 ```
 
 
-### Custom head
+### Extending the `<head />`
 
 You can custom your `head` by creating a file `_includes/custom-head.html` in your source directory, for example, adding favicons:
 
