@@ -131,6 +131,10 @@
   margin-bottom: $spacing-unit / 2;
 }
 
+.feed-subscribe .svg-icon {
+  padding: 5px 5px 2px 0
+}
+
 .contact-list,
 .social-media-list {
   list-style: none;
@@ -251,6 +255,9 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  h1, h2, h3 { margin-top: $spacing-unit * 2 }
+  h4, h5, h6 { margin-top: $spacing-unit }
+
   h2 {
     @include relative-font-size(1.75);
 
@@ -302,6 +309,7 @@
  * Pagination navbar
  */
 .pagination {
+  margin-bottom: $spacing-unit;
   @extend .social-media-list;
   li {
     a, div {

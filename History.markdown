@@ -19,6 +19,12 @@
   * Re-implement site footer markup and styles (#448)
   * Support pagination through posts in home layout (#450)
   * Show the last modified date of posts (#432)
+  * Set margins of hr to improve readability (#461)
+  * Export a variable to let users to custom the font family of code (#462)
+  * Set margin-bottom of pagination (#458)
+  * Adjust margins of headings to make sections clear (#467)
+  * Rename favicons.html to custom-head.html (#468)
+  * Remove RSS icon from the social media list (#470)
 
 ### Major Enhancements
 

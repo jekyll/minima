@@ -64,6 +64,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
+  - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
   - `social.html` &mdash; Renders social-media icons based on the data provided in a (configurable) data file at source.
 
@@ -189,10 +190,12 @@ minima:
 ```
 
 
-### Add your favicons
+### Extending the `<head />`
+
+You can *add* custom metadata to the `<head />` of your layouts by creating a file `_includes/custom-head.html` in your source directory. For example, to add favicons:
 
 1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
-2. [Customize](#customization) default `_includes/favicons.html` in your source directory and insert the given code snippet.
+2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
 
 
 ### Enabling comments (via Disqus)

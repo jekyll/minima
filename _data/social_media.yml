@@ -5,6 +5,3 @@
 - id: twitter
   base: "https://twitter.com/"
   username: jekyllrb
-
-- id: rss
-  feed_path: feed.xml

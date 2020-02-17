@@ -2,11 +2,7 @@
   <ul class="social-media-list">
   {%- for entry in include.list %}
     <li>
-      {%- if entry.id == 'rss' %}
-        {% assign social_href = entry.feed_path | relative_url %}
-      {% else %}
-        {% assign social_href = entry.username | prepend: entry.base %}
-      {% endif %}
+      {% assign social_href = entry.username | prepend: entry.base %}
       <a rel="me" href="{{ social_href }}" title="{{ entry.title | default: entry.id }}">
         <svg class="svg-icon grey">
           {%- capture svgpath %}assets/minima-social-icons.svg#{{ entry.id }}{% endcapture %}
