@@ -262,9 +262,6 @@ However, the data provided should comply with the following pattern:
 - id: twitter
   base: "https://twitter.com/"
   username: jekyllrb
-
-- id: rss
-  feed_path: feed.xml
 ```
 
 - The data comprises of a list of social entries. The order of entries is up to your preference.
