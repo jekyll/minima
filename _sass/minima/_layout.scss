@@ -12,7 +12,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 700;
+  font-weight: $base-font-weight * 1.75;
   line-height: $base-line-height * $base-font-size * 3.166;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -265,7 +265,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
-  font-weight: 900;
+  font-weight: $base-font-weight * 2.25;
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -279,7 +279,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $base-font-family;
-    font-weight: 900;
+    font-weight: $base-font-weight * 2.25;
   }
 
   h1, h2, h3 { margin-top: $spacing-unit * 2 }
