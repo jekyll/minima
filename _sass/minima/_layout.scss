@@ -32,7 +32,7 @@
   position: absolute;
   top: $base-line-height * $base-font-size * 0.8;
   right: $spacing-unit / 2;
-  background-color: white;
+  background-color: $background-color;
   border: 1px solid $brand-color-light;
   border-radius: 5px;
   text-align: right;
