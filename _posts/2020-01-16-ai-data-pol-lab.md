@@ -189,8 +189,23 @@ Way of figuring out what words define the 'topic' of the document.
 # Lab 6
 13 Feb 2020
 
-## Vowpal Wabbit
+### Vowpal Wabbit
 [Website](https://vowpalwabbit.org/)  | [Recommended Tutorial](https://github.com/hal3/vwnlp)  
 Very fast way to do ML. Takes one data point, creates model. Then adjusts model for next data point and so on. Thus RAM requirement is low.
 
+# Lab 7
 
+### Bag of Words  
+Simplified representation used in NLP - ignores word order, keeps multiplicity.  
+
+### Word embedding  
+Words/phrases from the vocabulary are mapped to vectors of real numbers.  
+Distance between points represents similiarity of words, can be found by n-dimensional Euclidean distance.  
+
+### word2vec  
+[Website](https://code.google.com/archive/p/word2vec/)  
+Efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.  
+
+### Mallet  
+[Website](http://mallet.cs.umass.edu/)  
+Document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.  
