@@ -43,7 +43,6 @@ https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recogni
 [4] [Delhi Police Is Now Using Facial Recognition Software to Screen 'Habitual Protestors'](
 https://thewire.in/government/delhi-police-is-now-using-facial-recognition-software-to-screen-habitual-protestors)
 
-
 # Reading List
 Readings assigned during the course.
  
@@ -62,6 +61,14 @@ Readings assigned during the course.
 - Mind: A Brief Introduction  
 *John R. Searle*  
 [PDF](https://isidore.co/calibre/get/PDF/Searle%2C%20John%20R_-Mind_%20A%20Brief%20Introduction_4060.pdf)
+
+- Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships
+*Mohit Iyyer, Anupam Guha, Snigdha Chaturvedi, Jordan Boyd-Graber, Hal Daume III*
+[PDF](https://people.cs.umass.edu/~miyyer/pubs/2016_naacl_relationships.pdf)
+
+- The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives
+*Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry Davis*
+[PDF](http://zpascal.net/cvpr2017/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.pdf)
 
 # Things to check out
 
