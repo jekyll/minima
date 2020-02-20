@@ -86,3 +86,9 @@ What sort of ML algorithms will you explore?
 
 ### Social science lens
 How will you critique?
+
+### 10 minute Presentation
+(Including feedback time) 
+6:30pm - 8:30pm
+Monday, 24 Feb 2020
+LH-101
