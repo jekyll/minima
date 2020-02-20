@@ -194,6 +194,7 @@ Way of figuring out what words define the 'topic' of the document.
 Very fast way to do ML. Takes one data point, creates model. Then adjusts model for next data point and so on. Thus RAM requirement is low.
 
 # Lab 7
+20 Feb 2020
 
 ### Bag of Words  
 Simplified representation used in NLP - ignores word order, keeps multiplicity.  
