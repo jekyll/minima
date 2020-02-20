@@ -48,6 +48,7 @@
 ### Development Fixes
 
   * Ignore .jekyll-cache (#439)
+  * Clean up and optimize .gitignore (#475)
 
 ## 2.5.1
 
