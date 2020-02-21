@@ -127,7 +127,7 @@ source (`assets/css/style.scss`) should contain the following:
 
 Therefore, your `assets/css/style.scss` should contain the following at minimum:
 
-```
+```sass
 ---
 ---
 
