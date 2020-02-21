@@ -82,9 +82,3 @@ $table-border-color:    $brand-color-light !default;
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
-
-// import skin-agnostic styles and override
-@import
-  "minima/initialize",
-  "minima/custom-styles"
-;

@@ -43,7 +43,8 @@ $on-large:         $on-laptop !default;
 
 // Import pre-styling-overrides hook and style-partials.
 @import
-  "custom-variables", // Hook to override predefined variables.
-  "base",             // Defines element resets.
-  "layout"            // Defines structure and style based on CSS selectors.
+  "minima/custom-variables", // Hook to override predefined variables.
+  "minima/base",             // Defines element resets.
+  "minima/layout",           // Defines structure and style based on CSS selectors.
+  "minima/custom-styles"     // Hook to override existing styles.
 ;
