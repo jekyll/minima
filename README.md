@@ -76,10 +76,11 @@ Refers to `.scss` files within the `_sass` directory that define the theme's sty
   - `minima-classic.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for
     the "classic" skin of the theme.
   - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
-  - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
-  - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles. (*Note: Cannot override variables*)
-  - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    It imports the following components (in the following order):
+    - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
+    - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
+    - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles defined above. (*Note: Cannot override variables*)
 
 Refer the [skins](#skins) section for more details.
 
@@ -88,13 +89,11 @@ Refer the [skins](#skins) section for more details.
 
 Refers to various asset files within the `assets` directory.
 
-  - `css/style.scss` &mdash; This imports Sass files from within the `_sass` directory gets processed into the theme's main
-    stylesheet `style.css` called by `_layouts/default.html` via `_includes/head.html`.
-  - `minima-social-icons.svg` &mdash; An SVG file that contains various social media icons in alphabetic order of their
+  - `assets/css/style.scss` &mdash; Imports sass files from within the `_sass` directory and gets processed into the theme's
+    stylesheet: `assets/css/styles.css`.
+  - `assets/minima-social-icons.svg` &mdash; An SVG file that contains various social media icons in alphabetic order of their
     respective `id` attribute. Used to render social icons via `_includes/social.html`.
-
-This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as
-is, to the final transformed site directory.
+    Refer [section on social networks](#social-networks) for its usage.
 
 
 ### Plugins
@@ -123,7 +122,22 @@ In Minima 3.0, if you only need to customize the colors of the theme, refer to t
 variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
 placed at path `_sass/minima/custom.scss`.
 
-You need not maintain entire partial(s) at the site's source just to override a few styles.
+You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
+source (`assets/css/style.scss`) should contain the following:
+
+  - Front matter dashes at the very beginning (can be empty).
+  - Directive to import a skin.
+  - Directive to import the base styles (automatically loads overrides when available).
+
+Therefore, your `assets/css/style.scss` should contain the following at minimum:
+
+```sass
+---
+---
+
+@import "minima-{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+```
 
 #### Skins
 
@@ -138,10 +152,7 @@ Minima 3.0 supports defining and switching between multiple color-palettes (or *
 
 
 A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
-variable defaults related to the "color" aspect of the theme and imports two components:
-
-  - `minima/initialize.scss` &mdash; Defines the theme's *skin-agnostic* variable defaults and sass partials for styles.
-  - `minima/custom-styles.scss` &mdash; A hook for overriding the predefined styles. (*Note: Cannot override variables*)
+variable defaults related to the "color" aspect of the theme.
 
 A skin also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and has to be adjusted
 in harmony with the current skin.
