@@ -131,9 +131,3 @@ $table-border-color:    $sol-mono1 !default;
   .vi    { color: $sol-cyan } // Name.Variable.Instance
   .il    { color: $sol-cyan } // Literal.Number.Integer.Long
 }
-
-// import skin-agnostic styles and override
-@import
-  "minima/initialize",
-  "minima/custom-styles"
-;
