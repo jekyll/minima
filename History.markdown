@@ -30,6 +30,7 @@
 
   * Allow skins to be defined and customized easily (#336)
   * Drop support for scalar &#39;author&#39; configuration (#384)
+  * Place skins in `minima/skins` to clarify purpose (#479)
 
 ### Bug Fixes
 
