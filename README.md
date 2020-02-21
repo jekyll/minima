@@ -76,10 +76,11 @@ Refers to `.scss` files within the `_sass` directory that define the theme's sty
   - `minima-classic.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for
     the "classic" skin of the theme.
   - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
-  - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
-  - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles. (*Note: Cannot override variables*)
-  - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    It imports the following components (in the following order):
+    - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
+    - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
+    - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles defined above. (*Note: Cannot override variables*)
 
 Refer the [skins](#skins) section for more details.
 
@@ -148,10 +149,7 @@ Minima 3.0 supports defining and switching between multiple color-palettes (or *
 
 
 A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
-variable defaults related to the "color" aspect of the theme and imports two components:
-
-  - `minima/initialize.scss` &mdash; Defines the theme's *skin-agnostic* variable defaults and sass partials for styles.
-  - `minima/custom-styles.scss` &mdash; A hook for overriding the predefined styles. (*Note: Cannot override variables*)
+variable defaults related to the "color" aspect of the theme.
 
 A skin also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and has to be adjusted
 in harmony with the current skin.
