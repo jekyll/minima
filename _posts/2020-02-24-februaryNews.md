@@ -13,7 +13,7 @@ We’re excited to share that Geodata IT has relocated its home office to the Ge
 
 In order to show our appreciation for you, we’re inviting you and your guest to join us for an employee happy hour in the new office on Thursday March 19, 2020 from 4-6 PM.   The event will feature Wellspent Brewing Company and plenty of tasty snacks.  Please be on the lookout for an email invitation soon.  We hope you will join us!
 
-<img src="https://github.com/geodata-it/newsletter/blob/master/assets/img/thank-you-515514_640.jpg?raw=true">
+<img src="https://github.com/geodata-it/newsletter/blob/master/assets/img/thanks.jpg?raw=true">
 
 ### Team Updates
 
