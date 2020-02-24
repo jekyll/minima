@@ -7,7 +7,7 @@ categories: employee update
 
 ## February 2020
 
-### :handshake: March 19th Team Appreciation Happy Hour at the New Home of Geodata IT!
+### March 19th Team Appreciation Happy Hour at the New Home of Geodata IT!
 
 We’re excited to share that Geodata IT has relocated its home office to the Geosaurus, which is a geospatial resource and innovation center that is located within the T-REX in Downtown St. Louis. 
 
@@ -23,7 +23,7 @@ Cheryl Hughey is in full swing in her new role as Sr. Software Engineer.  In add
 
 >> As a reminder, Sharon Bennett is now your main point of contact heading all things in the office, so please feel free to contact her with any questions or needs.  
 
-### Annual Employee Reviews :smiley:
+### Annual Employee Reviews
 
 Going forward, Geodata IT will conduct annual reviews around the anniversary of each employee’s start date.  Sharon will coordinate a brief tag up with each of you as your anniversary date nears.
 
