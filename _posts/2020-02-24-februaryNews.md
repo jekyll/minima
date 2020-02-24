@@ -18,7 +18,7 @@ We’d like to welcome two new team members.  Brian Ahlers, Software Engineer, a
  
 Cheryl Hughey is in full swing in her new role as Sr. Software Engineer.  In addition to her developer endeavors, Cheryl will continue to be the lead on Geodata IT’s recruiting efforts, so please continue to send resumes and referrals her way if you know of qualified candidates. 
 
-As a reminder, Sharon Bennett is now your main point of contact heading all things in the office, so please feel free to contact her with any questions or needs.  
+>> As a reminder, Sharon Bennett is now your main point of contact heading all things in the office, so please feel free to contact her with any questions or needs.  
 
 ## Annual Employee Reviews 
 
