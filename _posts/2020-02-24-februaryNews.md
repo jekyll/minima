@@ -9,7 +9,8 @@ categories: employee update
 
 ### :handshake: March 19th Team Appreciation Happy Hour at the New Home of Geodata IT!
 
-We’re excited to share that Geodata IT has relocated its home office to the Geosaurus, which is a geospatial resource and innovation center that is located within the T-REX in Downtown St. Louis.  
+We’re excited to share that Geodata IT has relocated its home office to the Geosaurus, which is a geospatial resource and innovation center that is located within the T-REX in Downtown St. Louis. 
+
 In order to show our appreciation for you, we’re inviting you and your guest to join us for an employee happy hour in the new office on Thursday March 19, 2020 from 4-6 PM.   The event will feature Wellspent Brewing Company and plenty of tasty snacks.  Please be on the lookout for an email invitation soon.  We hope you will join us!
 
 ### Team Updates
