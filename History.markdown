@@ -50,6 +50,7 @@
 
   * Ignore .jekyll-cache (#439)
   * Clean up and optimize .gitignore (#475)
+  * [chore] Normalize Travis CI builds (#480)
 
 ## 2.5.1
 
