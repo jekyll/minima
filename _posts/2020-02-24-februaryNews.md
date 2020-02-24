@@ -20,11 +20,11 @@ Cheryl Hughey is in full swing in her new role as Sr. Software Engineer.  In add
 
 >> As a reminder, Sharon Bennett is now your main point of contact heading all things in the office, so please feel free to contact her with any questions or needs.  
 
-## Annual Employee Reviews 
+## Annual Employee Reviews ::smiley::
 
 Going forward, Geodata IT will conduct annual reviews around the anniversary of each employee’s start date.  Sharon will coordinate a brief tag up with each of you as your anniversary date nears.
 
-## Employee Satisfaction Survey
+## Employee Satisfaction Survey ::handshake::
 Geodata IT values your feedback.  We’d like to hear your thoughts on our communication process.  Please share your input via the following link:  https://docs.google.com/forms/d/e/1FAIpQLSc3sTDSCs4jN8FCk-cnJHe9vANmR32ZhR1TUutxs7ZA-pgfRg/viewform
 
 
