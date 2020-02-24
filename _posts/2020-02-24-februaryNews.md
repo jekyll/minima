@@ -5,8 +5,6 @@ date:   2020-02-24
 categories: employee update
 ---
 
-## February 2020
-
 ### March 19th Team Appreciation Happy Hour at the New Home of Geodata IT!
 
 We’re excited to share that Geodata IT has relocated its home office to the Geosaurus, which is a geospatial resource and innovation center that is located within the T-REX in Downtown St. Louis. 
