@@ -12,7 +12,7 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include ratio-to-base-font-size(1.625);
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -206,11 +206,11 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include ratio-to-base-font-size(2);
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include ratio-to-base-font-size(1.75);
 }
 
 .post-list {
@@ -229,7 +229,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include ratio-to-base-font-size(1.5);
 }
 
 
@@ -243,12 +243,12 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
+  @include ratio-to-base-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
+    @include ratio-to-base-font-size(2.625);
   }
 }
 
@@ -259,30 +259,30 @@
   h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
-    @include relative-font-size(1.75);
+    @include ratio-to-base-font-size(1.75);
 
     @media screen and (min-width: $on-large) {
-      @include relative-font-size(2);
+      @include ratio-to-base-font-size(2);
     }
   }
 
   h3 {
-    @include relative-font-size(1.375);
+    @include ratio-to-base-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.625);
+      @include ratio-to-base-font-size(1.625);
     }
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include ratio-to-base-font-size(1.25);
   }
 
   h5 {
-    @include relative-font-size(1.125);
+    @include ratio-to-base-font-size(1.125);
   }
   h6 {
-    @include relative-font-size(1.0625);
+    @include ratio-to-base-font-size(1.0625);
   }
 }
 
