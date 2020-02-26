@@ -143,6 +143,10 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
+
+  i, em {
+    font-style: normal;
+  }
 }
 
 
