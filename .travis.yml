@@ -1,15 +1,14 @@
 language: ruby
 cache: bundler
-rvm:
-  - 2.6
-  - 2.4
+rvm: 2.4
 
-before_install: gem update --system
-install: script/bootstrap
+before_install:
+  - gem update --system --no-document
+  - gem install bundler --no-document
+
 script: script/cibuild
 
 env:
   matrix:
-    - JEKYLL_VERSION="~> 3.5"
-    - JEKYLL_VERSION="~> 3.8.0"
-    - JEKYLL_VERSION=">= 4.0.0.pre.alpha1"
+    - JEKYLL_VERSION="~> 3.8"
+    - JEKYLL_VERSION="~> 4.0"
