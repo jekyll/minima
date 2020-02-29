@@ -163,7 +163,7 @@ code {
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $brand-color-light;
-  border-radius: 3px;
+  border-radius: 0.4em;
   background-color: $code-background-color;
 }
 
@@ -183,7 +183,7 @@ pre {
 }
 
 .highlight {
-  border-radius: 3px;
+  border-radius: 0.4em;
   background: $code-background-color;
   @extend %vertical-rhythm;
 
