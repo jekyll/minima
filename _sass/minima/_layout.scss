@@ -217,8 +217,10 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
-    margin-bottom: $spacing-unit;
+  li {
+    padding-bottom: $spacing-unit / 2;
+    border-bottom: 1px solid $brand-color-light;
+    margin-bottom: 2 * $spacing-unit;
   }
 }
 
