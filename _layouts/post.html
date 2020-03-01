@@ -30,9 +30,10 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  {% if page.comments != false %}
+    {% capture comments_provider %}{{ site.minima.comments_provider | default: "disqus" }}{% endcapture %}
+    {% include {{ comments_provider }}_comments.html %}
+  {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
