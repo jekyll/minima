@@ -30,7 +30,7 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.comments != false %}
+  {% if page.comments != false and jekyll.environment == "production" %}
     {% capture comments_provider %}{{ site.minima.comments_provider | default: "disqus" }}{% endcapture %}
     {% include {{ comments_provider }}_comments.html %}
   {% endif %}
