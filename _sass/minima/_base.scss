@@ -162,7 +162,6 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $brand-color-light;
   border-radius: 3px;
   background-color: $code-background-color;
 }
@@ -172,6 +171,7 @@ code {
 }
 
 pre {
+  border: 1px solid $brand-color-light;
   padding: 8px 12px;
   overflow-x: auto;
 
