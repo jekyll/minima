@@ -24,11 +24,22 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+    
+    {% include custom-post-header.html %}
+
   </header>
+
+  <aside class="post-aside">
+    {% include custom-post-aside.html %}
+  </aside>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <footer class="post-footer">
+    {% include custom-post-footer.html %}
+  </footer>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

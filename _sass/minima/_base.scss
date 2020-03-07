@@ -34,6 +34,11 @@ body {
   overflow-wrap: break-word;
 }
 
+p {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
 
 
 /**
@@ -162,7 +167,6 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $brand-color-light;
   border-radius: 0.4em;
   background-color: $code-background-color;
 }
@@ -172,6 +176,7 @@ code {
 }
 
 pre {
+  border: 1px solid $brand-color-light;
   padding: 8px 12px;
   overflow-x: auto;
 
@@ -179,6 +184,10 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
   }
 }
 
