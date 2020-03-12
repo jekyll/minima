@@ -209,4 +209,13 @@ Efficient implementation of the continuous bag-of-words and skip-gram architectu
 
 ### Mallet  
 [Website](http://mallet.cs.umass.edu/)  
-Document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.  
+Document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
+
+-- Midsem Exam --
+
+# Lab 8
+5 Mar 2020
+I missed this class.
+
+# Lab 9
+12 Mar 2020
