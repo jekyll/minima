@@ -233,4 +233,8 @@ Data for 50 flowers from each of the 3 species - Setosa, Versicolor and Virginic
 For a point, find closest points and cluster into k sets.
 
 ### PCA (Principal Component Analysis)
-Tool for dimensionality reduction. 
+Tool for reducing dimensions of data so it is easier to analyse. Use if you don't have class labels.
+
+### LDA (Linear Discriminant Analysis)
+Tool for reducing dimensions of data so it is easier to analyse. Use if you have class labels.
+
