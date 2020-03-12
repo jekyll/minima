@@ -73,8 +73,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
-  - `minima-classic.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for
-    the "classic" skin of the theme.
+  - `minima/skins/classic.scss` &mdash; The "classic" skin of the theme. *Used by default.*
   - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
     It imports the following components (in the following order):
     - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
@@ -135,7 +134,7 @@ Therefore, your `assets/css/style.scss` should contain the following at minimum:
 ---
 ---
 
-@import "minima-{{ site.minima.skin | default: 'classic' }}";
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 @import "minima/initialize";
 ```
 
@@ -151,14 +150,13 @@ Minima 3.0 supports defining and switching between multiple color-palettes (or *
 ```
 
 
-A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
-variable defaults related to the "color" aspect of the theme.
+A skin is a Sass file placed in the directory `_sass/minima/skins` and it defines the variable defaults related to the "color"
+aspect of the theme. It also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and
+has to be adjusted in harmony with the current skin.
 
-A skin also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and has to be adjusted
-in harmony with the current skin.
-
-The default color palette for Minima is defined within `_sass/minima-classic.scss`. To switch to another available skin, simply
-declare it in the site's config file. For example, to activate `_sass/minima-sunrise.scss` as the skin, the setting would be:
+The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
+simply declare it in the site's config file. For example, to activate `_sass/minima/skins/sunrise.scss` as the skin, the setting
+would be:
 
 ```yaml
 minima:
