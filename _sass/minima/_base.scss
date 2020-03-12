@@ -1,3 +1,7 @@
+html {
+  font-size: $base-font-size;
+}
+
 /**
  * Reset some basic elements
  */
@@ -42,7 +46,10 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
+hr {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
 
 /**
  * `main` element
@@ -135,11 +142,14 @@ blockquote {
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
+  }
+
+  i, em {
+    font-style: normal;
   }
 }
 
@@ -150,6 +160,7 @@ blockquote {
  */
 pre,
 code {
+  font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
   border-radius: 3px;

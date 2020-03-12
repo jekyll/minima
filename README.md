@@ -64,6 +64,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
+  - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
   - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file.
 
@@ -72,13 +73,13 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
-  - `minima-classic.scss` &mdash; The core file imported by preprocessed `css/style.scss`, it defines the variable defaults for
-    the "classic" skin of the theme.
+  - `minima/skins/classic.scss` &mdash; The "classic" skin of the theme. *Used by default.*
   - `minima/initialize.scss` &mdash; A component that defines the theme's *skin-agnostic* variable defaults and sass partials.
-  - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
-  - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles. (*Note: Cannot override variables*)
-  - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
-  - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    It imports the following components (in the following order):
+    - `minima/custom-variables.scss` &mdash; A hook that allows overriding variable defaults and mixins. (*Note: Cannot override styles*)
+    - `minima/_base.scss` &mdash; Sass partial for resets and defines base styles for various HTML elements.
+    - `minima/_layout.scss` &mdash; Sass partial that defines the visual style for various layouts.
+    - `minima/custom-styles.scss` &mdash; A hook that allows overriding styles defined above. (*Note: Cannot override variables*)
 
 Refer the [skins](#skins) section for more details.
 
@@ -86,9 +87,11 @@ Refer the [skins](#skins) section for more details.
 ### Assets
 
 Refers to various asset files within the `assets` directory.
-Contains the `css/style.scss` that imports sass files from within the `_sass` directory. This `css/style.scss` is what gets processed into the theme's main stylesheet `main.css` called by `_layouts/default.html` via `_includes/head.html`.
 
-This directory can include sub-directories to manage assets of similar type (`img`, `fonts`, `svg`), and will be copied over as is, to the final transformed site directory.
+  - `assets/css/style.scss` &mdash; Imports sass files from within the `_sass` directory and gets processed into the theme's
+    stylesheet: `assets/css/styles.css`.
+  - `assets/minima-social-icons.svg` &mdash; A composite SVG file comprised of *symbols* related to various social-media icons.
+    This file is used as-is without any processing. Refer [section on social networks](#social-networks) for its usage.
 
 
 ### Plugins
@@ -117,7 +120,22 @@ In Minima 3.0, if you only need to customize the colors of the theme, refer to t
 variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
 placed at path `_sass/minima/custom.scss`.
 
-You need not maintain entire partial(s) at the site's source just to override a few styles.
+You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
+source (`assets/css/style.scss`) should contain the following:
+
+  - Front matter dashes at the very beginning (can be empty).
+  - Directive to import a skin.
+  - Directive to import the base styles (automatically loads overrides when available).
+
+Therefore, your `assets/css/style.scss` should contain the following at minimum:
+
+```sass
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+```
 
 #### Skins
 
@@ -131,17 +149,13 @@ Minima 3.0 supports defining and switching between multiple color-palettes (or *
 ```
 
 
-A skin is a Sass file named in the format `minima-*` and is the core file imported by the `assets/css/style.scss`. It defines the
-variable defaults related to the "color" aspect of the theme and imports two components:
+A skin is a Sass file placed in the directory `_sass/minima/skins` and it defines the variable defaults related to the "color"
+aspect of the theme. It also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and
+has to be adjusted in harmony with the current skin.
 
-  - `minima/initialize.scss` &mdash; Defines the theme's *skin-agnostic* variable defaults and sass partials for styles.
-  - `minima/custom-styles.scss` &mdash; A hook for overriding the predefined styles. (*Note: Cannot override variables*)
-
-A skin also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and has to be adjusted
-in harmony with the current skin.
-
-The default color palette for Minima is defined within `_sass/minima-classic.scss`. To switch to another available skin, simply
-declare it in the site's config file. For example, to activate `_sass/minima-sunrise.scss` as the skin, the setting would be:
+The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
+simply declare it in the site's config file. For example, to activate `_sass/minima/skins/sunrise.scss` as the skin, the setting
+would be:
 
 ```yaml
 minima:
@@ -184,10 +198,12 @@ minima:
 ```
 
 
-### Add your favicons
+### Extending the `<head />`
+
+You can *add* custom metadata to the `<head />` of your layouts by creating a file `_includes/custom-head.html` in your source directory. For example, to add favicons:
 
 1. Head over to [https://realfavicongenerator.net/](https://realfavicongenerator.net/) to add your own favicons.
-2. [Customize](#customization) default `_includes/favicons.html` in your source directory and insert the given code snippet.
+2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
 
 
 ### Enabling comments (via Disqus)
@@ -247,7 +263,6 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
-    rss: rss
 
     mastodon:
      - username: jekyll

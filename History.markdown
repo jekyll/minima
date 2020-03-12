@@ -19,11 +19,19 @@
   * Re-implement site footer markup and styles (#448)
   * Support pagination through posts in home layout (#450)
   * Show the last modified date of posts (#432)
+  * Set margins of hr to improve readability (#461)
+  * Export a variable to let users to custom the font family of code (#462)
+  * Set margin-bottom of pagination (#458)
+  * Adjust margins of headings to make sections clear (#467)
+  * Rename favicons.html to custom-head.html (#468)
+  * Remove RSS icon from the social media list (#470)
+  * Improve the readablility of blockquotes (#481)
 
 ### Major Enhancements
 
   * Allow skins to be defined and customized easily (#336)
   * Drop support for scalar &#39;author&#39; configuration (#384)
+  * Place skins in `minima/skins` to clarify purpose (#479)
 
 ### Bug Fixes
 
@@ -37,10 +45,14 @@
   * Add font-size styles for elements h5 and h6 (#441)
   * Stop prefixing CSS calc with `-webkit-` (#445)
   * Improve readability of post titles with diacritics (#449)
+  * Fix a bug of incorrect parsing of page.modified_date (#455)
+  * Specify the font size of the root element (#485)
 
 ### Development Fixes
 
   * Ignore .jekyll-cache (#439)
+  * Clean up and optimize .gitignore (#475)
+  * [chore] Normalize Travis CI builds (#480)
 
 ## 2.5.1
 
