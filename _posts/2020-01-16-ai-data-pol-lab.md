@@ -219,3 +219,18 @@ I missed this class.
 
 # Lab 9
 12 Mar 2020
+
+### Unsupervised learning
+
+### scikit-learn
+[Website](https://scikit-learn.org/stable/)  
+Predictive data analysis. Built on NumPy, SciPy, and matplotlib.
+
+### iris database
+Data for 50 flowers from each of the 3 species - Setosa, Versicolor and Virginica
+
+### k means clustering
+For a point, find closest points and cluster into k sets.
+
+### PCA (Principal Component Analysis)
+Tool for dimensionality reduction. 
