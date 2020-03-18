@@ -1,4 +1,4 @@
-{%- if page.comments != false and jekyll.environment == "production" -%}
+{%- if page.comments and jekyll.environment == "production" -%}
 
   <div id="disqus_thread"></div>
   <script>
