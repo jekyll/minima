@@ -47,4 +47,10 @@
 <symbol id="gitlab" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="0 0 1792 1792">
   <path d="M104 706l792 1015-868-630q-18-13-25-34.5t0-42.5l101-308zm462 0h660l-330 1015zm-198-612l198 612h-462l198-612q8-23 33-23t33 23zm1320 612l101 308q7 21 0 42.5t-25 34.5l-868 630 792-1015zm0 0h-462l198-612q8-23 33-23t33 23z"/>
 </symbol>
+
+<symbol id="scholar" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="0 0 100 100">
+  <path transform="matrix(0.26458333,0,0,0.26458333,0,0)" d="M 188.97656 0 L 0 151.18164 L 85.097656 219.25977 A 113.38583 113.38583 0 0 1 188.97656 151.18164 A 113.38583 113.38583 0 0 1 292.79102 219.31055 L 377.95312 151.18164 L 188.97656 0 z"/>
+  <path d="M 22.5156,58.0124 A 30,30 0 0 0 20,70 30,30 0 0 0 50,100 30,30 0 0 0 80,70 30,30 0 0 0 77.4678,58.0263 l -27.4676,21.9739 z"/>
+</symbol>
+
 </svg>

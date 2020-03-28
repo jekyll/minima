@@ -263,6 +263,8 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
+    scholar: zIiccw4AAAAJ
+    scholar_name: Scientist XYZ
 
     mastodon:
      - username: jekyll
