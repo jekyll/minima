@@ -120,7 +120,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
+    color: $link-hover-color;
     text-decoration: underline;
   }
 
@@ -139,7 +139,7 @@ a {
  */
 blockquote {
   color: $brand-color;
-  border-left: 4px solid $brand-color-light;
+  border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   font-style: italic;
@@ -162,7 +162,7 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $brand-color-light;
+  border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
 }

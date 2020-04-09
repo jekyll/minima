@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $brand-color-dark;
-  border-bottom: 1px solid $brand-color-light;
+  border-top: 5px solid $border-color-03;
+  border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -24,7 +24,7 @@
 
   &,
   &:visited {
-    color: $brand-color-dark;
+    color: $site-title-color;
   }
 }
 
@@ -33,12 +33,12 @@
   top: 9px;
   right: $spacing-unit / 2;
   background-color: $background-color;
-  border: 1px solid $brand-color-light;
+  border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -50,7 +50,7 @@
     text-align: center;
 
     > svg path {
-      fill: $brand-color-dark;
+      fill: $border-color-03;
     }
   }
 
@@ -122,7 +122,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $brand-color-light;
+  border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
 }
 
@@ -297,8 +297,8 @@
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $brand-color-light;
-      &:hover { border-color: darken($brand-color-light, 10%) }
+      border: 1px solid $border-color-01;
+      &:hover { border-color: $border-color-02 }
     }
   }
 }
@@ -323,7 +323,7 @@
       border: 1px solid transparent;
 
       &.pager-edge {
-        color: darken($brand-color-light, 5%);
+        color: $border-color-01;
         border: 1px dashed;
       }
     }
