@@ -26,6 +26,7 @@
   * Rename favicons.html to custom-head.html (#468)
   * Remove RSS icon from the social media list (#470)
   * Improve the readablility of blockquotes (#481)
+  * Extract more color rules into skins (#452)
 
 ### Major Enhancements
 
