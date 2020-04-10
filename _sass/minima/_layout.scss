@@ -3,10 +3,9 @@
  */
 .site-header {
   border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $header-border-bottom-color;
+  border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-  background-color: $header-background-color;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -125,19 +124,7 @@
 .site-footer {
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
-  background-color: $footer-background-color;
-  
-  a {
-    color: $footer-link-base-color;
-    &:visited {
-      color: $footer-link-visited-color;
-    }
-    &:hover {
-      color: $footer-link-hover-color;
-    }
-  }
 }
-
 
 .footer-heading {
   @include relative-font-size(1.125);
@@ -158,10 +145,6 @@
 .social-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
-}
-
-.footer-col-wrapper {
-  color: $footer-text-color;
 }
 
 .footer-col {

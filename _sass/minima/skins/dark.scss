@@ -14,18 +14,9 @@ $link-base-color:       #79b8ff !default;
 $link-visited-color:    $link-base-color !default;
 $link-hover-color:      $text-color !default;
 
-$footer-background-color:      #c8e1ff !default;
-$footer-text-color:            $background-color !default;
-$footer-link-base-color:       $background-color !default;
-$footer-link-visited-color:    $background-color !default;
-$footer-link-hover-color:      $background-color !default;
-
 $border-color-01:       $brand-color-light !default;
 $border-color-02:       lighten($brand-color, 35%) !default;
 $border-color-03:       $brand-color-dark !default;
-
-$header-background-color:    #2b2f33 !default;
-$header-border-bottom-color: $header-background-color !default;
 
 $table-text-color:      lighten($text-color, 18%) !default;
 $table-zebra-color:     lighten($background-color, 46%) !default;
