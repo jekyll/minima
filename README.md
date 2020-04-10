@@ -154,12 +154,12 @@ aspect of the theme. It also embeds the Sass rules related to syntax-highlightin
 has to be adjusted in harmony with the current skin.
 
 The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
-simply declare it in the site's config file. For example, to activate `_sass/minima/skins/sunrise.scss` as the skin, the setting
+simply declare it in the site's config file. For example, to activate `_sass/minima/skins/dark.scss` as the skin, the setting
 would be:
 
 ```yaml
 minima:
-  skin: sunrise
+  skin: dark
 ```
 
 As part of the migration to support skins, some existing Sass variables have been retired and some **have been redefined** as
@@ -171,6 +171,12 @@ Minima 2.0      | Minima 3.0
 `$grey-*`       | `$brand-*`
 `$orange-color` | *has been removed*
 
+##### Available skins
+
+- classic
+- dark
+- solarized
+- solarized-dark
 
 ### Customize navigation links
 
