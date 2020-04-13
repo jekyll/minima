@@ -55,6 +55,7 @@
   * Ignore .jekyll-cache (#439)
   * Clean up and optimize .gitignore (#475)
   * [chore] Normalize Travis CI builds (#480)
+  * chore(deps): bump Ruby version (#510)
 
 ## 2.5.1
 
