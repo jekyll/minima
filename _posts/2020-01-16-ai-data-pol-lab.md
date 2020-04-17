@@ -189,8 +189,56 @@ Way of figuring out what words define the 'topic' of the document.
 # Lab 6
 13 Feb 2020
 
-## Vowpal Wabbit
+### Vowpal Wabbit
 [Website](https://vowpalwabbit.org/)  | [Recommended Tutorial](https://github.com/hal3/vwnlp)  
 Very fast way to do ML. Takes one data point, creates model. Then adjusts model for next data point and so on. Thus RAM requirement is low.
 
+# Lab 7
+20 Feb 2020
 
+### Bag of Words  
+Simplified representation used in NLP - ignores word order, keeps multiplicity.  
+
+### Word embedding  
+Words/phrases from the vocabulary are mapped to vectors of real numbers.  
+Distance between points represents similiarity of words, can be found by n-dimensional Euclidean distance.  
+
+### word2vec  
+[Website](https://code.google.com/archive/p/word2vec/)  
+Efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.  
+
+### Mallet  
+[Website](http://mallet.cs.umass.edu/)  
+Document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
+
+-- Midsem Exam --
+
+# Lab 8
+5 Mar 2020
+I missed this class.\
+
+### Handwritten digits dataset
+[Dataset](https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits)
+
+# Lab 9
+12 Mar 2020
+
+### Unsupervised learning
+
+### scikit-learn
+[Website](https://scikit-learn.org/stable/)  
+Predictive data analysis. Built on NumPy, SciPy, and matplotlib.
+
+### iris database
+Inbuilt "toy" dataset for 50 flowers from each of the 3 species - Setosa, Versicolor and Virginica
+
+### k means clustering
+For a point, find closest points and cluster into k sets.
+
+### PCA (Principal Component Analysis)
+Tool for reducing dimensions of data so it is easier to analyse. Use if you don't have class labels.
+Works by identifying attributes that account for the most variance in the data.
+
+### LDA (Linear Discriminant Analysis)
+Tool for reducing dimensions of data so it is easier to analyse. Use if you have class labels.
+Works by identifying attributes that account for the most variance between classes.
