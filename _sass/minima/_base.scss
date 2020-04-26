@@ -33,22 +33,29 @@ body {
     font-size: 11px;
     color: gray;
     border-radius: 4px;
-    margin: 0 0 0 8px;
-    padding: 6px 8px 6px 8px;
+    margin: 0 0 0 12px;
+    padding: 4px 8px 4px 8px;
     transition: .2s;
     font-weight: 600;
     text-transform: uppercase;
+    background-color: lighten(gray, 46%);
   }
+
+a:visited.tag {
+      color: gray;
+  }
+
 
 .tag::before{
   content: " • ";
   position: absolute;
   color: #ccc;
-  padding-right: 28px;
+  padding-right: 33px;
   transform: translate(-50%, 32%);
 }
 
-  .tag:hover{
+  .tag:hover, a:visited.tag:hover {
+    color: $brand-color;
     background-color: lighten($brand-color, 32%);
   }
 
