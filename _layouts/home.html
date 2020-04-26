@@ -32,7 +32,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         {% for tag in post.tags %}
-  			 <a class="tag" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+  			 <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
   		 {% endfor %}
 
       </li>
