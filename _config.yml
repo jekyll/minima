@@ -52,4 +52,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-theme: jekyll-theme-minimal
+theme: tachyons-css/jekyll-tachyons
