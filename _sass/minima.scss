@@ -9,10 +9,10 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     16px !default;
 
 $text-color:       #1B1B30 !default;
-$background-color: #F2F6F8 !default;
+$background-color: #FFFFFF !default;
 $brand-color:      #ff4343 !default;
 
 $grey-color:       #828282 !default;
@@ -53,6 +53,7 @@ $on-large:         $on-laptop !default;
 // Import partials.
 @import
   "minima/base",
+  "minima/type",
   "minima/layout",
   "minima/syntax-highlighting"
 ;

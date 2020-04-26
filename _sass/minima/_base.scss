@@ -9,10 +9,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-/** Gyan's hack to make h1 not so cramped **/
-h1{
-  margin-top: 16px;
-}
 
 
 /**
@@ -33,29 +29,32 @@ body {
   flex-direction: column;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 4;
-}
-
   .tag{
-    background-color: #ffd7d7;
-    color: $brand-color;
+    font-size: 11px;
+    color: gray;
     border-radius: 4px;
-    padding: 4px 10px 5px 10px;
+    margin: 0 0 0 8px;
+    padding: 6px 8px 6px 8px;
     transition: .2s;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
+.tag::before{
+  content: " • ";
+  position: absolute;
+  color: #ccc;
+  padding-right: 28px;
+  transform: translate(-50%, 32%);
+}
+
   .tag:hover{
-    background-color: darken(#ffd7d7, 10%);
-    color: darken($brand-color, 10%);
+    background-color: lighten($brand-color, 32%);
+  }
+
+  .tag-description{
+    color: $grey-color;
+    padding-bottom: 2*$spacing-unit;
   }
 
 /**
@@ -73,6 +72,7 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  padding: $spacing-unit 0;
 }
 
 
@@ -84,7 +84,9 @@ iframe {
   vertical-align: middle;
 }
 
-
+time{
+  display: inline;
+}
 /**
  * Figures
  */
@@ -110,15 +112,6 @@ li {
   > ol {
     margin-bottom: 0;
   }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
 }
 
 
@@ -198,9 +191,14 @@ pre {
 /**
  * Wrapper
  */
+.home-flex-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
@@ -245,11 +243,12 @@ pre {
 }
 
 .svg-icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   display: inline-block;
+  border-radius: 4px;
   fill: currentColor;
-  padding: 5px 3px 2px 5px;
+  padding: 8px 0 0 8px;
   vertical-align: text-bottom;
 }
 

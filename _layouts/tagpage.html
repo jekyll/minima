@@ -2,12 +2,11 @@
 layout: default
 ---
 <div class="post">
-<h1>posts about {{ page.tag }}</h1>
-<ul>
+<h2 class="post-list-heading">{{ page.title }}</h2>
+<p class="tag-description">{{ page.description }}</p>
+<ul class="post-list">
 {% for post in site.tags[page.tag] %}
 <li class="post-item">
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  <span class="post-meta">{{ post.date | date: date_format }}</span>
   <h3>
     <a class="post-link" href="{{ post.url | relative_url }}">
       {{ post.title | escape }}
@@ -17,11 +16,13 @@ layout: default
     {{ post.excerpt }}
   {%- endif -%}
 
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <span class="post-meta">{{ post.date | date: date_format }}</span>
+
   {% for tag in post.tags %}
-   <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+   <a class="tag" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
  {% endfor %}
 </li>
 {% endfor %}
 </ul>
 </div>
-<hr>

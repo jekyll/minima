@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<div class="home-flex-wrapper">
+
+<div class="intro">
+  <h5><b>ABOUT ME</b></h5>
+  <p>Hi! My name is Gyan.
+  <p>I design digital experiences.
+</div>
 
 <div class="home">
   {%- if page.title -%}
@@ -10,12 +17,10 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li class="post-item">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -24,9 +29,10 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
         {% for tag in post.tags %}
-  			 <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+  			 <a class="tag" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
   		 {% endfor %}
 
       </li>
@@ -41,4 +47,5 @@ layout: default
     </p>
   {%- endif -%}
 
+</div>
 </div>

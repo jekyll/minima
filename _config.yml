@@ -1,4 +1,4 @@
-title: Notes from Gyan
+title: Gyan Lakhwani
 author: Gyan Lakhwani
 email: hello@gyanl.com
 description: > # this means to ignore newlines until "show_excerpts:"
@@ -17,8 +17,8 @@ minima:
   social_links:
     twitter: gyanl
     github:  gyanl
-    rss: rss
-    # dribbble: jekyll
+    # rss: rss
+    dribbble: gyanl
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
