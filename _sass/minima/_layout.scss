@@ -183,7 +183,7 @@
 }
 
 .intro{
-  padding: 6px $spacing-unit 0 0;
+  padding: 6px 0 0 0;
   flex-grow: 1;
   @include relative-font-size(.9);
 }
@@ -199,7 +199,7 @@
   }
 
   .intro{
-    padding: 0 0 $spacing-unit 0;
+    padding: 0 $spacing-unit $spacing-unit $spacing-unit;
     flex-grow: none;
   }
 
@@ -253,12 +253,18 @@
 
 .post-item {
   display: inline-block;
-  padding: 0 0 $spacing-unit 0;
+  margin: 0 $spacing-unit/2 $spacing-unit $spacing-unit/2;
+  padding: $spacing-unit;
   transition: .2s;
+  border: 2px solid;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 6px;
+  border-color: #ddd;
 }
 
 .post-item:hover {
-  transform: translateY(2px);
+  border-color: #000;
 }
 
 /**
