@@ -22,6 +22,7 @@ layout: default
       {%- for post in site.tags["internships"] -%}
 
       <li class="post-item">
+        <img src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/zomato.png" -% }}">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
