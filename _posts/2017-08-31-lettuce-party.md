@@ -2,7 +2,7 @@
 layout: post
 title: Lettuce Party
 subtitle: An open source handwritten display font
-tags: typography
+tags: fonts
 thumbnail: https://gyanl.com/blog/assets/thumbs/lettuce.png
 ---
 

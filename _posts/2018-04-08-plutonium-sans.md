@@ -2,7 +2,7 @@
 layout: post
 title: Plutonium Sans
 subtitle: Designing my second typeface
-tags: typography
+tags: fonts
 thumbnail: https://gyanl.com/blog/assets/thumbs/plutonium.png
 ---
 

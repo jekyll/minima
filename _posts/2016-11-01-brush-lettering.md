@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Brush Lettering
-tags: typography
+tags: misc
 ---
 
 ### About the project

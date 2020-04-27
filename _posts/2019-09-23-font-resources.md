@@ -2,7 +2,7 @@
 layout: post
 title: "Font Resources"
 permalink: /font-resources
-tags: typography
+tags: misc
 ---
 
 
