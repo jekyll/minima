@@ -59,9 +59,9 @@ a:visited.tag {
     background-color: lighten($brand-color, 32%);
   }
 
-  .tag-description{
+  .sub-title{
     color: $grey-color;
-    padding-bottom: 2*$spacing-unit;
+    padding-bottom: $spacing-unit/2;
   }
 
 /**

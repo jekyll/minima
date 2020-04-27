@@ -183,8 +183,9 @@
 }
 
 .intro{
-  padding: 6px 0 0 0;
+  padding: 2*$spacing-unit $spacing-unit 0 0;
   flex-grow: 1;
+  max-width: 25%;
   @include relative-font-size(.9);
 }
 
@@ -252,7 +253,7 @@
 }
 
 .post-item {
-  display: inline-block;
+  display: block;
   margin: 0 $spacing-unit/2 $spacing-unit $spacing-unit/2;
   padding: $spacing-unit;
   transition: .2s;

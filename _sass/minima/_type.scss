@@ -5,22 +5,32 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
-h1{
-  margin-top: 16px;
+h2{
+  margin-top: 1em;
+  margin-bottom: .2em;
 }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+ // h1, h2, h3, h4, h5, h6,
+ // p,
+ //   %vertical-rhythm {
+ //     margin-bottom: $spacing-unit/5;
+ // }
+
 p, blockquote, pre,
-ul, ol, dl, figure,
+ul, ol, li, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 6;
+  margin-bottom: $spacing-unit/2;
 }
 
 .post-title,
 .post-content h1 {
+  margin-top: .5em;
+  margin-bottom: .25em;
+  letter-spacing: 0 !important;
+  font-family: "Utopia Std";
   font-weight: 800;
   @include relative-font-size(2.25);
   letter-spacing: -1px;
@@ -32,7 +42,7 @@ ul, ol, dl, figure,
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  // margin-bottom: $spacing-unit;
 
   h2 {
     font-weight: 500;
@@ -62,7 +72,7 @@ ul, ol, dl, figure,
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.25);
+      @include relative-font-size(1.2);
     }
   }
 }

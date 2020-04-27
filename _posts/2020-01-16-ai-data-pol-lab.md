@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Lab Notes - PS626: AI, Data & Policy"
+subtitle: "These are my lab notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay."
 tags: idc
 permalink: nltk
 ---
-
->These are my lab notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay.
 
 # Useful stuff in Python
 
@@ -134,7 +133,7 @@ Organisations can use chattertext to run sentiment analysis and figure out who t
 
 Possible project idea: understanding chattertext
 
-### Write and read a .txt file 
+### Write and read a .txt file
 ```
 text = "Hello\nMy name is Gyan\nI like rusty spoons\n"
 
@@ -179,7 +178,7 @@ List of all unique words
 You don't give the number of topics. More sophisticated.
 
 ### Parametric topic modelling
-You give number of topics. 
+You give number of topics.
 
 ### tf-idf  
 [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)  

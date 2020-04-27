@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Theory - PS626: AI, Data & Policy"
+subtitle: "These are my lab notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay."
 tags: idc
 permalink: ai
 ---
-
->These are my theory notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay.
 
 ### Why did I take this elective?
 The fourth and last semester of the IDC M.Des. program has a research project and a design project, but no lectures. Masters students at IIT, however, can choose to take one of a [set of electives](http://www.iitb.ac.in/newacadhome/Instituteelectivelist2019.pdf). I thought it would be interesting to make the most of being a design school in IIT Bombay, and take a course offerred by another department. I took the AI, Data and Policy partly because I follow [Prof. Guha on Twitter](https://twitter.com/anupam_guha) and I happened to see his tweet about the course, and partly because my internship at Microsoft in Summer 2019 involved working with AI, and I felt a little crippled by my inability to actually prototype anything as a designer and wanted to learn more.
@@ -45,14 +44,14 @@ https://thewire.in/government/delhi-police-is-now-using-facial-recognition-softw
 
 # Reading List
 Readings assigned during the course.
- 
+
 - Artificial intelligence policy in India: a framework for engaging the limits of data-driven decision-making.  
 *Vidushi Marda*  
 [PDF](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0087)  
 
 - Perspectives on Issues in AI Governance  
 *Google AI*  
-[PDF](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf) 
+[PDF](https://ai.google/static/documents/perspectives-on-issues-in-ai-governance.pdf)
 
 - National Strategy for Artificial Intelligence #AIFORALL   
 *Niti Aayog*  
@@ -95,7 +94,7 @@ What sort of ML algorithms will you explore?
 How will you critique?
 
 ### 10 minute Presentation
-(Including feedback time) 
+(Including feedback time)
 6:30pm - 8:30pm  
 Monday, 24 Feb 2020  
 LH-101  
