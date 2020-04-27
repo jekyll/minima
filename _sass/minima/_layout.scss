@@ -267,18 +267,22 @@
 
 .post-item-text{
   display: block;
+  margin: 2px 0 -2px 0;
 }
 
 .thumbnail{
+  padding: 0;
+  border-radius: 4px;
   width: 48px;
   height: 48px;
-  padding: 0 $spacing-unit 0 0;
+  margin: 0 $spacing-unit 0 0;
+  border: 1px solid rgba(100, 100, 100, .2) inset;
 }
 
 .post-item:hover {
   box-shadow: 0 4px 16px 0 rgba(0,0,0,0.15);
   transform: translateY(-1px);
-  border: 1px solid #fff;
+  border: 1px solid $brand-color;
 }
 
 /**
