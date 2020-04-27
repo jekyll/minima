@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Talk by John Samuel Raja.
+subtitle: Part of guest lectures for DE-705 Interactive data visualization
+tags: idc dataviz
+thumbnail: https://gyanl.com/blog/assets/thumbs/data.png
 ---
 
 > Talk by John Samuel Raja, economist and journalist.  
-> Part of guest lectures for DE-705 Interactive data visualization.
 
 ### How India Lives
 John Samuel Raja's startup working in the space of making public data available to everyone.
@@ -46,7 +48,7 @@ Example: a diaper maker wants to find out where the market is concentrated. This
 #### Data journalism
 Example: How was Gurgaon built? Did DLF get a disproportionate number of projects under a specific government? Did DLF really *build* Gurgaon?  
 
-Example: Ashok Khemka - honest IAS officer. Gets transferred almost every 6 months. 
+Example: Ashok Khemka - honest IAS officer. Gets transferred almost every 6 months.
 
 >Graphical excellence is the well-designed presentation of interesting data—a matter of substance, of statistics, and of design. - Edward Tufte
 
@@ -65,4 +67,3 @@ Pepsico wants to identify areas that don't have drinking water and sell drinking
 
 #### Provide the source!
 If you make a visualization, share the Excel or CSV file as far as possible so people can check.
-

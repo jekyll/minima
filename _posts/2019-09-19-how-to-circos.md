@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Making chord diagrams with Circos Online
-tags: [dataviz, idc]
-categories: [design]
+tags: dataviz, idc
+thumbnail: https://gyanl.com/blog/assets/thumbs/circos.png
 ---
 
 ## What is Circos?
@@ -24,7 +24,7 @@ Circos is used extensively for the analysis of genomic alterations over time, or
 
 #### How can I use Circos?
 *From the Circos landing page…*
-> Creation of images is controlled through a plain-text configuration file. There is no interactive user interface. This approach to configuration should be very familiar to you *if you have UNIX experience*. 
+> Creation of images is controlled through a plain-text configuration file. There is no interactive user interface. This approach to configuration should be very familiar to you *if you have UNIX experience*.
 
 The emphasis here is mine, but after spending a while trying to understand the complex system of config files you need to setup, I realised that there is also an online version called [Circos Online](http://circos.ca/circos_online) that allows less flexibility and customization options, but can still be used for visualizing simple tables.
 
@@ -48,7 +48,7 @@ Circos uses :
 
 Chances are you have your data in a table, isolate just the two values you'd like to look at the relationship between. In my case, I took just the name of the person issuing the keys, and the name of the person returning the keys.
 
-But that poses an issue as Circos can't *technically* represent tables. 
+But that poses an issue as Circos can't *technically* represent tables.
 
 ![Screenshot of spreadsheet on Google Sheets](https://gyanl.com/blog/assets/circos-raw-keys.png)
 
@@ -67,17 +67,17 @@ In Google Sheets, go to ```File``` > ```Download``` > ```Tab-separated values (.
 
 #### Upload .tsv to Circos
 Upload the .tsv to [Circos Online](http://circos.ca/circos_online). Leave the checkboxes unchecked for now and click on ```Visualize Table```.
- 
+
 #### The result
 It may take a few seconds to load, but once it does, you can pat yourself on the back for a beautiful data visualization.  
 
 ![Chord diagram of key issues](https://gyanl.com/blog/assets/circos-keys.png)
 
-You can now download a ```large image``` or a zip with ```data, images (PNG/SVG) and configuration``` from Circos online. 
+You can now download a ```large image``` or a zip with ```data, images (PNG/SVG) and configuration``` from Circos online.
 
 ## Let's look at another example
 
-This data comes from the [Data Visualization Community Survey 2019 Challenge](https://www.datavisualizationsociety.com/2019-survey-challenge). 
+This data comes from the [Data Visualization Community Survey 2019 Challenge](https://www.datavisualizationsociety.com/2019-survey-challenge).
 
 I extracted the education and gender for people who responded to the survey, and got this.
 
@@ -100,7 +100,7 @@ I extracted the education and gender for people who responded to the survey, and
 | Technical School | Non-binary        | 1     |
 | PhD              | Non-binary        | 1     |
 
-After (once again, manually) converting to a matrix, we get this matrix. 
+After (once again, manually) converting to a matrix, we get this matrix.
 
 | labels          | Man | Woman | NonBinary | PreferNotToSay |
 |-----------------|-----|-------|-----------|----------------|
@@ -110,6 +110,6 @@ After (once again, manually) converting to a matrix, we get this matrix.
 | TechnicalSchool | 31  | 4     | 1         | -              |
 
 #### Result
-The result looks something like this: 
+The result looks something like this:
 
 ![Chord diagram of key issues](https://gyanl.com/blog/assets/circos-education-gender.png)

@@ -3,7 +3,7 @@ layout: post
 title: Lettuce Party
 subtitle: An open source handwritten display font
 tags: typography
-thumbnail: https://gyanl.com/blog/assets/thumbs/default.png
+thumbnail: https://gyanl.com/blog/assets/thumbs/lettuce.png
 ---
 
 While [interning at Zomato](/zomato) last winter, I worked on some illustrations for a Zomato iMessage sticker pack. I wanted a hand-made look for the stickers, so I was manually doing the lettering using a Wacom graphics tablet. I really liked how it turned out — and wondered if I could turn it into a font for use in future projects.
