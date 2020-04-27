@@ -2,6 +2,7 @@
 layout: post
 title: New Delhi Dribbble Meetup
 tags: dribbble
+thumbnail: https://gyanl.com/blog/assets/thumbs/dribbble.png
 ---
 
 ![Dribbble Shot](https://gyanl.com/blog/assets/delhidribbble-meetup.png)
