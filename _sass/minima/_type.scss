@@ -75,4 +75,16 @@ ul, ol, li, dl, figure,
       @include relative-font-size(1.2);
     }
   }
+
+  h6 {
+     font-weight: 400;
+     margin-bottom: $spacing-unit;
+     border-left: 3px solid $brand-color;
+     padding-left: 4px;
+    @include relative-font-size(.8);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(.9);
+    }
+  }
 }

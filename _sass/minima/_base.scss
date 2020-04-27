@@ -10,6 +10,11 @@ dl, dd, ol, ul, figure {
 }
 
 
+/**
+ * Remove blue highlights on mobile
+ */
+input:focus, textarea:focus, select:focus{
+    outline: none;
 
 /**
  * Basic styling
