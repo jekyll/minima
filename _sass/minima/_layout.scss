@@ -253,7 +253,7 @@
 }
 
 .post-item {
-  display: block;
+  display: flex;
   margin: 0 $spacing-unit/2 $spacing-unit 0;
   padding: $spacing-unit;
   transition: .2s;
@@ -265,6 +265,15 @@
   // border-color: #ddd;
 }
 
+.post-item-text{
+  display: block;
+}
+
+.thumbnail{
+  width: 48px;
+  height: 48px;
+  padding: 0 $spacing-unit 0 0;
+}
 
 .post-item:hover {
   box-shadow: 0 4px 16px 0 rgba(0,0,0,0.15);

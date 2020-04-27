@@ -22,7 +22,8 @@ layout: default
       {%- for post in site.tags["internships"] -%}
 
       <li class="post-item">
-        <img src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/zomato.png" -% }}">
+        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/zomato.png" }}">
+        <div class="post-item-text">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -36,7 +37,7 @@ layout: default
         {% for tag in post.tags %}
   			 <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
   		 {% endfor %}
-
+      </div>
       </li>
 
       {%- endfor -%}
@@ -49,6 +50,9 @@ layout: default
       {%- for post in site.tags["typography"] -%}
 
       <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
+        <div class="post-item-text">
+
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -62,7 +66,7 @@ layout: default
         {% for tag in post.tags %}
          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
        {% endfor %}
-
+      </div>
       </li>
 
       {%- endfor -%}
@@ -76,6 +80,8 @@ layout: default
       {%- for post in site.tags["code"] -%}
 
       <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
+        <div class="post-item-text">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -89,7 +95,7 @@ layout: default
         {% for tag in post.tags %}
          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
        {% endfor %}
-
+      </div>
       </li>
 
       {%- endfor -%}
