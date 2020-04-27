@@ -13,7 +13,7 @@ h2{
 h5 {
   color: $grey-color-dark;
    font-weight: 700;
-   margin-bottom: $spacing-unit;
+   margin-bottom: $spacing-unit/2;
    text-transform: uppercase;
 
   @include relative-font-size(.9);
@@ -21,6 +21,18 @@ h5 {
   @media screen and (min-width: $on-large) {
     @include relative-font-size(.9);
   }
+}
+
+h5 a{
+  transition: .1s;
+}
+
+h5 a:visited{
+  color: lighten($brand-color, 5%);
+}
+
+h5 a:hover{
+  color: $brand-color;
 }
 
 /**

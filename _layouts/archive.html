@@ -1,18 +1,13 @@
 ---
 layout: default
 ---
-<div class="home-flex-wrapper">
-
-<div class="intro">
-  <h5><b>ABOUT ME</b></h5>
-  <p>Hi! My name is Gyan. I am a designer currently studying Interaction Design at IDC School of Design, IIT Bombay.
-  <p>In the past I have interned at Zomato and Microsoft, and done a number of freelance projects creating brands, apps and websites.
-</div>
 
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+  <p class="sub-title">{{ page.description }}</p>
+
 
   {{ content }}
 
@@ -21,6 +16,8 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
+        <div class="post-item-text">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -34,7 +31,7 @@ layout: default
         {% for tag in post.tags %}
   			 <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
   		 {% endfor %}
-
+     </div>
       </li>
 
       {%- endfor -%}
@@ -47,5 +44,4 @@ layout: default
     </p>
   {%- endif -%}
 
-</div>
 </div>

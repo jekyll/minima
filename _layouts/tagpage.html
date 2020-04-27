@@ -7,7 +7,7 @@ layout: default
 <ul class="post-list">
 {% for post in site.tags[page.tag] %}
 <li class="post-item">
-  <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/zomato.png" }}">
+  <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
 <div class="post-item-text">
   <h3>
     <a class="post-link" href="{{ post.url | relative_url }}">
