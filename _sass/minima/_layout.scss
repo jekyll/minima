@@ -183,10 +183,9 @@
 }
 
 .intro{
-  padding: 2*$spacing-unit $spacing-unit 0 0;
+  padding: 0 $spacing-unit*2 0 0;
   flex-grow: 1;
-  max-width: 25%;
-  @include relative-font-size(.9);
+  max-width: 30%;
 }
 
 .home{
@@ -201,7 +200,7 @@
 
   .intro{
     max-width: none;
-    padding: 0 $spacing-unit $spacing-unit $spacing-unit;
+    padding: 0 $spacing-unit/2 $spacing-unit $spacing-unit/2;
     flex-grow: none;
   }
 
@@ -255,12 +254,12 @@
 
 .post-item {
   display: block;
-  margin: 0 $spacing-unit/2 $spacing-unit $spacing-unit/2;
+  margin: 0 $spacing-unit/2 $spacing-unit 0;
   padding: $spacing-unit;
   transition: .2s;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0px 12px 0 rgba(0,0,0,0.02);
   border-radius: 4px;
-  border: 1px solid #eee;
+  border: 1px solid rgba(0,0,0,0.05);
   // border-bottom: 4px solid;
   // border-right: 4px solid;
   // border-color: #ddd;

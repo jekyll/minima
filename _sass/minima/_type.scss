@@ -10,6 +10,19 @@ h2{
   margin-bottom: .2em;
 }
 
+h5 {
+  color: $grey-color-dark;
+   font-weight: 700;
+   margin-bottom: $spacing-unit;
+   text-transform: uppercase;
+
+  @include relative-font-size(.9);
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(.9);
+  }
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -18,6 +31,20 @@ h2{
  //   %vertical-rhythm {
  //     margin-bottom: $spacing-unit/5;
  // }
+
+
+ /**
+  * Hanging lists
+  */
+
+ .post-content li{
+   transform: translateX(-$spacing-unit);
+ }
+
+ .post-content li::marker{
+   color: green;
+   margin: 50px;
+ }
 
 p, blockquote, pre,
 ul, ol, li, dl, figure,
@@ -78,9 +105,10 @@ ul, ol, li, dl, figure,
 
   h6 {
      font-weight: 400;
-     margin-bottom: $spacing-unit;
+     margin-bottom: 2*$spacing-unit;
      border-left: 3px solid $brand-color;
-     padding-left: 4px;
+     padding-left: 8px;
+     line-height: 1.6;
     @include relative-font-size(.8);
 
     @media screen and (min-width: $on-large) {

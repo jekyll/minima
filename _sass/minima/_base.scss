@@ -9,13 +9,12 @@ dl, dd, ol, ul, figure {
 
 }
 
-
 /**
  * Remove blue highlights on mobile
  */
 input:focus, textarea:focus, select:focus{
     outline: none;
-
+}
 /**
  * Basic styling
  */
@@ -209,19 +208,21 @@ pre {
 }
 
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
+  // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
+  // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
+  max-width: 720px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: $spacing-unit * 2;
+  padding-left: $spacing-unit * 2;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit * 1.5;
-    padding-left: $spacing-unit * 1.5;
+    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    // max-width: 720px;
+    padding-right: $spacing-unit * 4;
+    padding-left: $spacing-unit * 4;
   }
 }
 
