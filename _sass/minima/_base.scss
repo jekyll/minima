@@ -35,14 +35,14 @@ body {
 
   .tag{
     font-size: 11px;
-    color: gray;
+    color: $grey-color;
+    background-color: $grey-color-light;
     border-radius: 4px;
     margin: 0 0 0 12px;
     padding: 4px 8px 4px 8px;
     transition: .2s;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: lighten(gray, 46%);
   }
 
 a:visited.tag {
@@ -60,11 +60,11 @@ a:visited.tag {
 
   .tag:hover, a:visited.tag:hover {
     color: $brand-color;
-    background-color: lighten($brand-color, 32%);
+    background-color: $brand-color-light;
   }
 
   .sub-title{
-    color: $grey-color;
+    color: $text-color-light;
     padding-bottom: $spacing-unit/2;
   }
 

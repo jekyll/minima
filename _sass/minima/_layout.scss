@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-  min-height: 80px;
-  line-height: 80px;
-
+  min-height: 60px;
+  line-height: 60px;
+  background: #ffffff;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -121,6 +121,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: #ffffff;
 }
 
 .footer-heading {
@@ -214,6 +215,7 @@
  * Page content
  */
 .page-content {
+  background: $background-color;
   padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
@@ -240,7 +242,7 @@
 .post-meta {
   font-weight: 600;
   font-size: 12px;
-  color: $red-color;
+  color: $text-color-darker;
   margin: -4px 0 0 0;
 }
 
@@ -308,7 +310,7 @@
     }
     &:hover .svg-icon {
        fill: $brand-color;
-       background-color: lighten($brand-color, 32%);
+       background-color: $brand-color-light;
      }
   }
 }
