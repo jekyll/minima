@@ -3,7 +3,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, !default;
+$base-font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, !default;
 $base-font-size:   18px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -15,11 +15,16 @@ $brand-color:      #ff4343 !default;
 $brand-color-darker:darken($brand-color, 90%) !default;
 $brand-color-light:lighten($brand-color, 34%) !default;
 
-$text-color:       #251938 !default;
-$text-color-light: desaturate(lighten($text-color, 20%), 10%) !default;
-$text-color-darker:desaturate(darken($text-color, 20%), 30%) !default;
+// $text-color:       #251938 !default;
+// $text-color-light: desaturate(lighten($text-color, 20%), 10%) !default;
+// $text-color-darker:desaturate(darken($text-color, 20%), 30%) !default;
+$text-color: #D5C0FE;
+$text-color-darker: #A391C7;
+$text-color-light: #EADFFE;
 
-$background-color: desaturate(lighten(complement($brand-color), 34%), 60%) !default;
+// $background-color: desaturate(lighten(complement($brand-color), 34%), 60%) !default;
+$background-color: #251938;
+$foreground-color: rgba(255, 255, 255, 0.05);
 
 $grey-color:       lighten(desaturate($text-color, 50%), 12%) !default;
 $grey-color-light: lighten(desaturate($grey-color, 40%), 65%) !default;

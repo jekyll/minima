@@ -3,6 +3,7 @@
 Headings
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  color: white;
 }
 
 h2{
@@ -11,7 +12,7 @@ h2{
 }
 
 h5 {
-  color: $grey-color-dark;
+  color: white;
    font-weight: 700;
    margin-bottom: $spacing-unit/2;
    text-transform: uppercase;
@@ -73,6 +74,7 @@ ul, ol, li, dl, figure,
   @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
+  color: white;
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.25);

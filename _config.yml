@@ -2,7 +2,7 @@ title: Gyan Lakhwani
 author: Gyan Lakhwani
 email: hello@gyanl.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  My name is Gyan, and I am an interaction designer and cat appreciator.
+  Made with <3 in Mumbai, India
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -21,7 +21,7 @@ minima:
     dribbble: gyanl
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: gyanl
     linkedin: gyanlakhwani
     # pinterest: jekyll
     # youtube: jekyll

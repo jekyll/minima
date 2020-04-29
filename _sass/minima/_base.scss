@@ -35,27 +35,28 @@ body {
 
   .tag{
     font-size: 11px;
-    color: $grey-color;
-    background-color: $grey-color-light;
+    color: $text-color-darker;
+    background: rgba(255, 255, 255, .05);
     border-radius: 4px;
     margin: 0 0 0 12px;
-    padding: 4px 8px 4px 8px;
+    padding: 4px 8px 5px 8px;
     transition: .2s;
     font-weight: 600;
     text-transform: uppercase;
   }
 
 a:visited.tag {
-      color: gray;
+    color: $text-color-darker;
+    background: (255, 255, 255, .1)
   }
 
 
 .tag::before{
   content: " • ";
   position: absolute;
-  color: #ccc;
-  padding-right: 33px;
-  transform: translate(-50%, 32%);
+  color: white;
+  padding-right: 35px;
+  transform: translate(-50%, 40%);
 }
 
   .tag:hover, a:visited.tag:hover {
@@ -81,9 +82,10 @@ main {
  * Images
  */
 img {
+  border-radius: 4px;
   max-width: 100%;
   vertical-align: middle;
-  padding: $spacing-unit 0;
+  margin: $spacing-unit 0 $spacing-unit/2 0;
 }
 
 
@@ -202,10 +204,6 @@ pre {
 /**
  * Wrapper
  */
-.home-flex-wrapper {
-  display: flex;
-  flex-direction: row;
-}
 
 .wrapper {
   // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
