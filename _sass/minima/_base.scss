@@ -83,11 +83,19 @@ main {
  */
 img {
   border-radius: 4px;
-  max-width: 100%;
+  width: 100%;
   vertical-align: middle;
   margin: $spacing-unit 0 $spacing-unit/2 0;
 }
 
+.post img{
+  transition: .1s;
+}
+
+.post img:hover{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /**
  * Iframes (added by Gyan)
