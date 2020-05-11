@@ -1,57 +1,71 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
-
 }
 
 /**
  * Remove blue highlights on mobile
  */
-input:focus, textarea:focus, select:focus{
-    outline: none;
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-  .tag{
-    font-size: 11px;
-    color: $text-color-darker;
-    background: rgba(255, 255, 255, .05);
-    border-radius: 4px;
-    margin: 0 0 0 12px;
-    padding: 4px 8px 5px 8px;
-    transition: .2s;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+.tag {
+  font-size: 11px;
+  color: $text-color-darker;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  margin: 0 0 0 12px;
+  padding: 4px 8px 5px 8px;
+  transition: 0.2s;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 a:visited.tag {
-    color: $text-color-darker;
-    background: (255, 255, 255, .1)
-  }
+  color: $text-color-darker;
+  background: (255, 255, 255, 0.1);
+}
 
-
-.tag::before{
+.tag::before {
   content: " • ";
   position: absolute;
   color: white;
@@ -59,15 +73,16 @@ a:visited.tag {
   transform: translate(-50%, 40%);
 }
 
-  .tag:hover, a:visited.tag:hover {
-    color: $brand-color;
-    background-color: $brand-color-light;
-  }
+.tag:hover,
+a:visited.tag:hover {
+  color: $brand-color;
+  background-color: $brand-color-light;
+}
 
-  .sub-title{
-    color: $text-color-light;
-    padding-bottom: $spacing-unit/2;
-  }
+.sub-title {
+  color: $text-color-light;
+  padding-bottom: $spacing-unit/2;
+}
 
 /**
  * `main` element
@@ -75,8 +90,6 @@ a:visited.tag {
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
  * Images
@@ -88,11 +101,11 @@ img {
   margin: $spacing-unit 0 $spacing-unit/2 0;
 }
 
-.post img{
-  transition: .1s;
+.post img {
+  transition: 0.1s;
 }
 
-.post img:hover{
+.post img:hover {
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,7 +118,7 @@ iframe {
   vertical-align: middle;
 }
 
-time{
+time {
   display: inline;
 }
 /**
@@ -119,12 +132,11 @@ figcaption {
   font-size: $small-font-size;
 }
 
-
-
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
   margin-left: $spacing-unit;
 }
 
@@ -134,8 +146,6 @@ li {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Links
@@ -162,7 +172,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -178,8 +187,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -207,8 +214,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -232,8 +237,6 @@ pre {
   }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -242,8 +245,6 @@ pre {
   display: table;
   clear: both;
 }
-
-
 
 /**
  * Icons
@@ -271,7 +272,6 @@ pre {
   vertical-align: text-bottom;
 }
 
-
 /**
  * Tables
  */
@@ -287,7 +287,8 @@ table {
       background-color: lighten($grey-color-light, 6%);
     }
   }
-  th, td {
+  th,
+  td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {

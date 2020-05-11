@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "DRM Cheatsheet"
+title: "Stats for Research Methods"
+tags: slides
 permalink: /drm-cheatsheet
+thumbnail: https://gyanl.com/blog/assets/thumbs/drm.png
 ---
 
 >What you need to know to pass the exam.
@@ -21,7 +23,7 @@ Eg. Is the proportion of women in design higher than in engineering?
 
 ## Hypothesis
 A statement about the relationship between 2 variables.
-Eg. There is no difference between proportion of women in engineering and design. 
+Eg. There is no difference between proportion of women in engineering and design.
 
 # Experiment Design  
 An experiment is conducted to find the effect of one variable on another.
@@ -64,7 +66,7 @@ We can say that B is better, but it's possible that B was just more generous wit
 ### Order effects within subjects
 Design 1 and 2 share some elements. If you learn to use 1, 2 is easier to use. Therefore if you use 1 first or 2 first will impact the ranking.
 
-Therefore, we give half of the people design 1 and 
+Therefore, we give half of the people design 1 and
 
 # Distribution curves
 
@@ -74,4 +76,4 @@ How well does this distribution match an expected distribution?
 
 ### Z test (Standard error of proportions test)
 - For binomial variables only
-- 
+-

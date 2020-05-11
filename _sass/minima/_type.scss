@@ -1,74 +1,83 @@
 // Gyan's Typography
 
-Headings
-h1, h2, h3, h4, h5, h6 {
+Headings h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $base-font-weight;
   color: white;
 }
 
-h2{
+h2 {
   margin-top: 1em;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
 h5 {
   color: white;
-   font-weight: 700;
-   margin-bottom: $spacing-unit/2;
-   text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: $spacing-unit/2;
+  text-transform: uppercase;
 
-  @include relative-font-size(.9);
+  @include relative-font-size(0.9);
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(.9);
+    @include relative-font-size(0.9);
   }
 }
 
-h5 a{
-  transition: .1s;
+h5 a {
+  transition: 0.1s;
 }
 
-h5 a:visited{
+h5 a:visited {
   color: lighten($brand-color, 5%);
 }
 
-h5 a:hover{
+h5 a:hover {
   color: $brand-color;
 }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
- // h1, h2, h3, h4, h5, h6,
- // p,
- //   %vertical-rhythm {
- //     margin-bottom: $spacing-unit/5;
- // }
+// h1, h2, h3, h4, h5, h6,
+// p,
+//   %vertical-rhythm {
+//     margin-bottom: $spacing-unit/5;
+// }
 
-
- /**
+/**
   * Hanging lists
   */
 
- .post-content li{
-   transform: translateX(-$spacing-unit);
- }
+.post-content li {
+  transform: translateX(-$spacing-unit);
+}
 
- .post-content li::marker{
-   color: green;
-   margin: 50px;
- }
+.post-content li::marker {
+  color: green;
+  margin: 50px;
+}
 
-p, blockquote, pre,
-ul, ol, li, dl, figure,
+p,
+blockquote,
+pre,
+ul,
+ol,
+li,
+dl,
+figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit/2;
 }
 
 .post-title,
 .post-content h1 {
-  margin-top: .5em;
-  margin-bottom: .25em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
   letter-spacing: 0 !important;
   font-weight: 800;
   @include relative-font-size(2.25);
@@ -95,9 +104,9 @@ ul, ol, li, dl, figure,
   }
 
   h3 {
-     font-weight: 600;
-     margin-bottom: 4px;
-     margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 20px;
     @include relative-font-size(1.375);
 
     @media screen and (min-width: $on-large) {
@@ -106,9 +115,9 @@ ul, ol, li, dl, figure,
   }
 
   h4 {
-     font-weight: 700;
-     margin-bottom: 4px;
-     margin-top: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 18px;
     @include relative-font-size(1.125);
 
     @media screen and (min-width: $on-large) {
@@ -117,15 +126,15 @@ ul, ol, li, dl, figure,
   }
 
   h6 {
-     font-weight: 400;
-     margin-bottom: 2*$spacing-unit;
-     border-left: 3px solid $brand-color;
-     padding-left: 8px;
-     line-height: 1.6;
-    @include relative-font-size(.8);
+    font-weight: 400;
+    margin-bottom: 2 * $spacing-unit;
+    border-left: 3px solid $brand-color;
+    padding-left: 8px;
+    line-height: 1.6;
+    @include relative-font-size(0.8);
 
     @media screen and (min-width: $on-large) {
-      @include relative-font-size(.9);
+      @include relative-font-size(0.9);
     }
   }
 }
