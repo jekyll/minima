@@ -5,10 +5,6 @@ subtitle: A reflection essay on writing a paper about WhatsApp forwards in my fi
 tags: idc
 ---
 
-# Reflections on DRS
-
-Gyan Lakhwani • 15 May 2020
-
 As I look back on my time at IDC I think that I have changed quite a bit in my outlook towards design. As a 22 year old engineering graduate I had discovered an interest in design, had learned the software tools and even found paid projects. I had proven to anxious parents that this was a viable career option, and had a job offer in hand. And yet I felt that I did not know enough to be doing this professionally, and I applied to design schools in the hope that I would be able to fill the gaps in my knowledge. I did not have any intention of becoming a researcher when I applied to the M.Des. program. I didn't really know much about how academic research works, and I had never read a research paper in its entirety. I had thought that I would learn design theory, and while there was enough of that, I think the really important things I learned were asking questions, challenging assumptions, and how to read, conduct and write about research work.
 
 The research methods course in the third semester introduces M.Des. students to the concept of academic research and provides a number of quantitative research methods as methods of analysis. Students learn about structuring arguments and conducting statistically valid experiments. The Design Research Seminar which follows in the fourth semester is a research project in which students are expected to utilise the theory covered in the Research Methods course to identify research questions, design a study, conduct the study, analyse the collected data, and write it up as a research paper.
@@ -39,7 +35,17 @@ Without any sort of external organisation to help with recruiting users, or real
 
 ### Analysis 
 
-It took me about a week just to transcribe my recordings. I had not anticipated it would take this much time, or be this boring. Eventually I got it done, and then spent some time trying to highlight interesting sections in Google docs to get started on finding themes. This was very slow, and I eventually shifted to printouts with large margins so I could highlight sections and add annotations. I was also taking notes in a notebook, and sometimes on the margins of my printouts, and adding to a Google doc. I was also writing my paper in parallel, and at one point my room had papers strewn all over it because it was getting so hard to keep track of multiple ideas at once. It made me appreciate the process of iteratively building themes using post-its/cutouts in contextual inquiry, and also how helpful it was to have other people to bounce ideas with. I might explore other ways of keeping track of multiple ideas across a text if I do a similar style of analysis in the future, because my process was quite messy and made it very hard to collate information in one place.
+It took me about a week just to transcribe my recordings. I had not anticipated it would take this much time, or be this boring. Eventually I got it done, and then spent some time trying to highlight interesting sections in Google docs to get started on finding themes. This was very slow, and I eventually shifted to printouts with large margins so I could highlight sections and add annotations.
+
+![Highlighting sections on printouts](https://gyanl.com/blog/assets/drs-1.jpeg)
+###### Highlighting sections on printouts
+
+I was also taking notes on loose sheets, and sometimes on the margins of my printouts, and adding to a Google doc as I was writing my paper in parallel. At one point my room had papers strewn all over it because it was getting so hard to keep track of multiple ideas at once. 
+
+![Simultaneously using 3 different sources for information processing: a recipe for disaster](https://gyanl.com/blog/assets/drs-2.jpeg)
+###### Simultaneously using 3 different sources for information processing: a recipe for disaster
+
+It made me appreciate the process of iteratively building themes using post-its/cutouts in contextual inquiry, and also how helpful it was to have other people to bounce ideas with. I might explore other ways of keeping track of multiple ideas across a text if I do a similar style of analysis in the future, because my process was quite messy and made it very hard to collate information in one place.
 
 ### Writing a paper 
 
