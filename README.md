@@ -269,6 +269,7 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
+    goodreads: jekyll
 
     mastodon:
      - username: jekyll
