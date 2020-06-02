@@ -10,8 +10,12 @@ layout: default
   {{ content }}
 
 
-  {% if site.paginate %}
+  {% if site.paginate and site.minima.post_order == 'reverse' %}
+    {% assign posts = paginator.posts | reverse %}
+  {% elsif site.paginate %}
     {% assign posts = paginator.posts %}
+  {% elsif site.minima.post_order == 'reverse' %}
+    {% assign posts = site.posts | reverse %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
