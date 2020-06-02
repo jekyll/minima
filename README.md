@@ -55,6 +55,13 @@ It will be automatically included only when your site contains one or more valid
 
 The title for this section is `Posts` by default and rendered with an `<h2>` tag. You can customize this heading by defining a `list_title` variable in the document's front matter.
 
+Post order can be reversed by configuring `post_order` within `minima` configuration block for site...
+
+```yaml
+minima:
+  post_order: reverse
+```
+
 
 ### Includes
 
