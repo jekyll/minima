@@ -20,9 +20,7 @@ h5 {
   font-weight: 700;
   margin-bottom: $spacing-unit/2;
   text-transform: uppercase;
-
   @include relative-font-size(0.9);
-
   @media screen and (min-width: $on-large) {
     @include relative-font-size(0.9);
   }
@@ -39,7 +37,6 @@ h5 a:visited {
 h5 a:hover {
   color: $brand-color;
 }
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -48,11 +45,9 @@ h5 a:hover {
 //   %vertical-rhythm {
 //     margin-bottom: $spacing-unit/5;
 // }
-
 /**
   * Hanging lists
   */
-
 .post-content li {
   transform: translateX(-$spacing-unit);
 }
@@ -62,29 +57,28 @@ h5 a:hover {
   margin: 50px;
 }
 
-p,
+%vertical-rhythm,
 blockquote,
-pre,
-ul,
-ol,
-li,
 dl,
 figure,
-%vertical-rhythm {
+li,
+ol,
+p,
+pre,
+ul {
   margin-bottom: $spacing-unit/2;
 }
 
-.post-title,
-.post-content h1 {
+.post-content h1,
+.post-title {
   margin-top: 0.5em;
   margin-bottom: 0.25em;
   letter-spacing: 0 !important;
-  font-weight: 800;
+  font-weight: 700;
   @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
   color: white;
-
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.25);
   }
@@ -92,23 +86,20 @@ figure,
 
 .post-content {
   // margin-bottom: $spacing-unit;
-
   h2 {
     font-weight: 500;
     margin-top: 18px;
     @include relative-font-size(1.75);
-
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
     }
   }
 
   h3 {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 4px;
     margin-top: 20px;
     @include relative-font-size(1.375);
-
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
     }
@@ -119,7 +110,6 @@ figure,
     margin-bottom: 4px;
     margin-top: 18px;
     @include relative-font-size(1.125);
-
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.2);
     }
@@ -132,7 +122,6 @@ figure,
     padding-left: 8px;
     line-height: 1.6;
     @include relative-font-size(0.8);
-
     @media screen and (min-width: $on-large) {
       @include relative-font-size(0.9);
     }

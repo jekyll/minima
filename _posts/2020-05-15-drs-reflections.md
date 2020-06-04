@@ -52,3 +52,17 @@ It made me appreciate the process of iteratively building themes using post-its/
 There are a number of things I'd do differently if I were to be doing this again, but I didn’t have very clear research questions before going into the field. My focus was on talking to people, and getting an understanding of how people react to forwarded messages and what drives sharing behavior. My findings largely confirmed existing suspicions—people find it hard to distinguish misinformation merely by reading it, most people don’t bother with fact checking, and just ignore a large section of the messages they get every day. It became difficult to derive any insights that were very interesting for design interventions. I hence relied on the literature review and gut instinct to come up with solutions that I myself was not very convinced would work. This was probably apparent to reviewers, who pointed out that the discussion seemed disjointed from the analysis, and there was not too much new to be gained from reading the paper.
 
 I don’t know if I will write more research papers, but I think the learnings from trying to express my thoughts in a coherent manner were helpful in general. I still need to work on improving how I structure arguments in a logical manner. I have been trying to write about my work on my blog, and hope to spend some of my time after graduating on writing about some of my projects, both to document what I have done in my time at IDC and to try and improve how I verbalise the thought process behind these projects.
+
+---
+
+- Finding what to work on. Supportive faculty, peers, etc. won't be there. Stagnation without external push to do new things.  
+
+- Strong sense of I. I can/can't do this. Hold yourself back because of this. 
+
+- Wherever you go, what do you want to do there? What kind of work do you want to do? Don't just do what other people tell you to do. Make your own plan.
+
+- User researcher because calmer, quieter, sensitive. 
+
+- Organisation, planning. Unless you make time for thinking, how will it happen? Despite the everyday-ness of things. 
+
+- 

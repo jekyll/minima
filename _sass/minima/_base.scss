@@ -1,41 +1,40 @@
 /**
  * Reset some basic elements
  */
+blockquote,
 body,
+dd,
+dl,
+figure,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-pre,
 hr,
-dl,
-dd,
 ol,
-ul,
-figure {
+p,
+pre,
+ul {
   margin: 0;
   padding: 0;
 }
-
 /**
  * Remove blue highlights on mobile
  */
 input:focus,
-textarea:focus,
-select:focus {
+select:focus,
+textarea:focus {
   outline: none;
 }
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-    $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
+  font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -54,7 +53,7 @@ body {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
   margin: 0 0 0 12px;
-  padding: 4px 8px 5px 8px;
+  padding: 4px 8px 5px;
   transition: 0.2s;
   font-weight: 600;
   text-transform: uppercase;
@@ -83,14 +82,13 @@ a:visited.tag:hover {
   color: $text-color-light;
   padding-bottom: $spacing-unit/2;
 }
-
 /**
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
+  /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
 /**
  * Images
  */
@@ -98,7 +96,7 @@ img {
   border-radius: 4px;
   width: 100%;
   vertical-align: middle;
-  margin: $spacing-unit 0 $spacing-unit/2 0;
+  margin: $spacing-unit 0 $spacing-unit/2;
 }
 
 .post img {
@@ -109,7 +107,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 /**
  * Iframes (added by Gyan)
  */
@@ -131,12 +128,11 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
 /**
  * Lists
  */
-ul,
-ol {
+ol,
+ul {
   margin-left: $spacing-unit;
 }
 
@@ -146,7 +142,6 @@ li {
     margin-bottom: 0;
   }
 }
-
 /**
  * Links
  */
@@ -171,7 +166,6 @@ a {
     }
   }
 }
-
 /**
  * Blockquotes
  */
@@ -187,12 +181,11 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
 /**
  * Code formatting
  */
-pre,
-code {
+code,
+pre {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
@@ -213,11 +206,9 @@ pre {
     padding-left: 0;
   }
 }
-
 /**
  * Wrapper
  */
-
 .wrapper {
   // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
   // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
@@ -227,7 +218,6 @@ pre {
   padding-right: $spacing-unit * 2;
   padding-left: $spacing-unit * 2;
   @extend %clearfix;
-
   @media screen and (min-width: $on-large) {
     // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -236,7 +226,6 @@ pre {
     padding-left: $spacing-unit * 4;
   }
 }
-
 /**
  * Clearfix
  */
@@ -245,11 +234,9 @@ pre {
   display: table;
   clear: both;
 }
-
 /**
  * Icons
  */
-
 .orange {
   color: $orange-color;
 }
@@ -271,7 +258,6 @@ pre {
   padding: 8px 0 0 8px;
   vertical-align: text-bottom;
 }
-
 /**
  * Tables
  */
@@ -282,20 +268,24 @@ table {
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
+
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
     }
   }
-  th,
-  td {
+
+  td,
+  th {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
+
   th {
     background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
+
   td {
     border: 1px solid $grey-color-light;
   }
