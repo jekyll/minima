@@ -1,11 +1,11 @@
-title: Rayearths
+title: r.
 author:
-  name: Clovil
-  email: ray.earths@hotmail.com
+  name: r
+  email: rayearths@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Website maintained by Ray.
+  In pursuit of learning how to code and creating an blog/vlog without depending on any website platform.
 
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -14,13 +14,13 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: rayearths
+    # twitter: jekyll
     github:  clovil
     # devto: jekyll
     # dribbble: jekyll
-    facebook: ray.f.halim
+    # facebook: jekyll
     # flickr:   jekyll
-    instagram: ray_earths
+    # instagram: jekyll
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
@@ -47,8 +47,9 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
+ - stuff.md
 
 # Build settings
 theme: minima
