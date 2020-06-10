@@ -1,9 +1,9 @@
-title: r.
+title: rayearths
 author:
-  name: r
-  email: rayearths@gmail.com
+  name: ray
+  email: ray_earths@hotmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  In pursuit of learning how to code and creating an blog/vlog without depending on any website platform.
+  Simple blog setup by r.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -20,7 +20,7 @@ minima:
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: ray_earths
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
@@ -50,6 +50,7 @@ minima:
 header_pages:
  - about.md
  - stuff.md
+ - resume.md
 
 # Build settings
 theme: minima
