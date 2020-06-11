@@ -58,3 +58,10 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+ # This will require each of these plugins automatically.
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
