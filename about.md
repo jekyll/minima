@@ -3,6 +3,7 @@ date: 06/10
 layout: page
 title: "About"
 permalink: /about/
+author: Ray
 meta: "about"
 ---
 
