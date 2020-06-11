@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem "jekyll-coffeescript"
     gem "jekyll-assets"
     gem "another-jekyll-plugin"
+    gem "jekyll-admin"
   end

@@ -65,3 +65,4 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - another-jekyll-plugin
+  - jekyll-admin
