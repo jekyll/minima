@@ -1,11 +1,13 @@
 title: rayearths
 author:
-  name: ray
+  name: Raymond Felix Halim
   email: ray_earths@hotmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Simple blog setup by r.
+  A simple blog with no purpose/direction yet.
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
+words_per_minute: 160
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -18,7 +20,7 @@ minima:
     github:  clovil
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: rayfhalim
     # flickr:   jekyll
     instagram: ray_earths
     # linkedin: jekyll
@@ -65,3 +67,6 @@ plugins:
   - jekyll-coffeescript
   - jekyll-assets
   - jekyll-admin
+
+guides: 
+  markdown: https://www.markdownguide.org/basic-syntax/

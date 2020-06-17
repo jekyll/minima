@@ -2,9 +2,7 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  <header class="post-header"></header>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -17,10 +15,25 @@ layout: default
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
+      &nbsp;| {% include read_time.html %}
+      <span class="reading-time" title="Estimated read time">
+        {% assign words = include.content | strip_html | number_of_words %}
+        {{ words | divided_by: 150 | plus: 1 }} min read.
+      </span>
+    </p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
       {%- if page.author -%}
-        • {% for author in page.author %}
+        {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}
+      {%- if page.city -%}
+        &nbsp;•{% for city in page.city %}
+          <span itemprop="place" itemscope itemtype="http://schema.org/City">
+            <span class="p-location h-card" itemprop="city">{{ city }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
