@@ -3,7 +3,7 @@ layout: post
 author: Ray
 lang: zh_cn
 city: Shanghai, China
-title: "第一次做博客。开始享受了吗？"
+title: "Learning how to blog"
 category: blog
 meta: [jekyll, blog, chinese, daily, covid-19]
 ---
