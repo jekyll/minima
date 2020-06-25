@@ -3,8 +3,6 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header"></header>   
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <h3>{{ page.subtitle | escape }}</h3>
     <p class="post-meta">
       <span>
         Posted on {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -31,8 +29,10 @@ layout: default
       <span class="reading-time" title="Estimated read time">
         {% assign words = include.content | strip_html | number_of_words %}
         {{ words | divided_by: 150 | plus: 1 }} min read
-      </span></br>
+      </span>
     </p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h3>{{ page.subtitle | escape }}</h3>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -1,10 +1,14 @@
 ---
-date: 06/10
+date: "2020-04-01"
 layout: page
-title: "About"
-permalink: /about/
 author: Ray
-meta: "about"
+lang: en
+city: Shanghai, China
+title: "About"
+subtitle: "关于我们"
+permalink: /about/
+category: page
+meta: [ page, about, profile, author]
 ---
 
 <!---An about us page is your chance to tell the world
@@ -19,6 +23,10 @@ It is often one of the first stops when someone visits your website or blog.--->
 ### Short 
 
 My name is Ray. I graduated with Bachelor's degree in Design Communication Visual. I am usually seen at home either staring at computer monitor, watching drama or movies, and playing games (Nintendo switch). I am currently interested in data and analysis. If you are interested in contacting me, please send me an [email][email] and give me a hollar.
+
+### 自我介绍 （短版）
+
+我叫Ray，中文名是秦汉。在2012年从印度尼西亚一名大学（Tarumanagara大学）平面设计本科毕业。我的爱好是玩游戏，看电影或电视剧和跑步。我在中国已经呆了7年多，目前在一个外企企业工作。工作经验在技术支持，测试工程师还有数据分析比较丰富。如果你对我感兴趣或者想找我，请发个[邮件][email]我会尽量回复。
 
 ### Long
 

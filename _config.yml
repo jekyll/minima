@@ -1,4 +1,5 @@
-title: rayearths
+title: ray_earths
+sub-title: exceed your limits
 author:
   name: Raymond Felix Halim
   email: ray_earths@hotmail.com
@@ -7,7 +8,11 @@ description: > # this means to ignore newlines until "show_excerpts:"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-words_per_minute: 160
+profile: true
+
+port: 8080
+
+words_per_minute: 150
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -50,9 +55,10 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - about.md
- - stuff.md
- - resume.md
+ - pages/about.md
+ - pages/post.md
+ - pages/stuff.md
+ - pages/resume.md
 
 # Build settings
 theme: minima
