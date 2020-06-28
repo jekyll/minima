@@ -12,7 +12,7 @@ It's what you get when you run `jekyll new`.
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "minima"
+gem "minima-jamesalfei"
 ```
 
 And then execute:
@@ -98,7 +98,7 @@ Minima comes with [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag) p
 Have the following line in your config file:
 
 ```yaml
-theme: minima
+theme: minima-jamesalfei
 ```
 
 

@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = 'minima-jamesalfei'
+  spec.name          = 'minima-jamesalfei-jamesalfei'
   spec.version       = '1.0.0'
   spec.authors       = ['James Alfei']
   spec.email         = ['jamesalfei@gmail.com']
 
-  spec.summary       = 'Customised minima theme for https://www.jamesalfei.co.uk'
-  spec.homepage      = 'https://github.com/jamesalfei/minima'
+  spec.summary       = 'Customised minima-jamesalfei theme for https://www.jamesalfei.co.uk'
+  spec.homepage      = 'https://github.com/jamesalfei/minima-jamesalfei'
   spec.license       = 'MIT'
 
   spec.metadata['plugin_type'] = 'theme'

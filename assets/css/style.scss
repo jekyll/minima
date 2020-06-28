@@ -3,5 +3,5 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima-jamesalfei.skin | default: 'classic' }}",
-  "minima/initialize";
+  "minima-jamesalfei/skins/{{ site.minima-jamesalfei.skin | default: 'classic' }}",
+  "minima-jamesalfei/initialize";
