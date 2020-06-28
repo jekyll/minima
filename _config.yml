@@ -54,5 +54,5 @@ header_pages:
 theme: minima
 
 plugins:
- - jekyll-feed
+#  - jekyll-feed
  - jekyll-seo-tag
