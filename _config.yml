@@ -51,7 +51,7 @@ minima-jamesalfei:
 # - about.md
 
 # Build settings
-theme: minima-jamesalfei-jamesalfei
+theme: minima-jamesalfei
 
 plugins:
   - jekyll-feed
