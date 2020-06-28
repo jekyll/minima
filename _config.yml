@@ -1,7 +1,7 @@
 title: My Home
 author: 
   name: Michael Salam
-  email: salammichaelcse@gmail.com
+  email: 
 description: > # this means to ignore newlines until "show_excerpts:"
   Researcher | CNLP LAB | NIT Silchar
 
@@ -47,8 +47,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+- about.md
 
 # Build settings
 theme: minima
