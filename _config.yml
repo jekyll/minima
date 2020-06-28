@@ -2,6 +2,8 @@ title: My Home
 author: 
   name: Michael Salam
   email: 
+# display avatar
+avatar: https://cdn.icon-icons.com/icons2/1576/PNG/512/3561848-avatar-emoji-emoticon-face-suspicious-think-think-bad_107885.png
 description: > # this means to ignore newlines until "show_excerpts:"
   Researcher | CNLP LAB | NIT Silchar
 
