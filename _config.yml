@@ -1,35 +1,33 @@
-title: Your awesome title
+title: James Alfei
+baseurl: ""
+url: "https://jamesalfei.co.uk"
+tagline: The personal website of James Alfei
 author:
-  name: GitHub User
-  email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  name: James Alfei
+  email: jamesalfei@gmail.com
+description: >
+  The personal website of James Alfei.
+show_excerpts: true
 
-show_excerpts: false # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima-jamesalfei:
   date_format: "%b %-d, %Y"
+  skin: dark
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    # twitter: jekyllrb
+    github:  jamesalfei
     # devto: jekyll
     # dribbble: jekyll
-    # facebook: jekyll
+    facebook: jamesalfei
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: jamesalfei
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
-    # googleplus: +jekyll
     # microdotblog: jekyll
     # keybase: jekyll
 
@@ -56,5 +54,5 @@ minima-jamesalfei:
 theme: minima-jamesalfei
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
