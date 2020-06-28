@@ -9,13 +9,14 @@ layout: default
 
   {{ content }}
 
+  <hr>
+  <h2>Newest posts</h2>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}

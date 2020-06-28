@@ -1,10 +1,7 @@
 title: James Alfei
 baseurl: ""
-url: "https://jamesalfei.co.uk"
 tagline: The personal website of James Alfei
-author:
-  name: James Alfei
-  email: jamesalfei@gmail.com
+url: "https://jamesalfei.co.uk"
 description: >
   The personal website of James Alfei.
 show_excerpts: true
@@ -56,3 +53,5 @@ theme: minima-jamesalfei
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+port: 4001
