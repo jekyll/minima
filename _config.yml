@@ -55,6 +55,8 @@ minima:
 # Build settings
 theme: minima
 
+google_analytics: UA-171748544-1
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
