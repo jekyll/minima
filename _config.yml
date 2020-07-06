@@ -1,12 +1,10 @@
-title: Your awesome title
+title: Siddharth Jain
 author:
-  name: GitHub User
-  email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+  name: Siddharth Jain
+  email: jsiddharth24@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:" # Write an awesome description for your new site here. You can edit thisline in _config.yml. It will appear in your document head meta (forGoogle search results) and in your feed.xml site description. 
+	This is Siddharth Jain's blog
+    
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -16,14 +14,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: jsiddharth24
+    # github:  jsiddharth24
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: jsiddharth24
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
