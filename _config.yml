@@ -2,9 +2,11 @@ title: Siddharth Jain
 author:
   name: Siddharth Jain
   email: jsiddharth24@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:" # Write an awesome description for your new site here. You can edit thisline in _config.yml. It will appear in your document head meta (forGoogle search results) and in your feed.xml site description. 
-	This is Siddharth Jain's blog
-    
+  #Write an awesome description for your new site here. You can edit this
+  #line in _config.yml. It will appear in your document head meta (for
+  #Google search results) and in your feed.xml site description.
+description: > # this means to ignore newlines until "show_excerpts:"
+  This is Siddharth Jain's blog   
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
