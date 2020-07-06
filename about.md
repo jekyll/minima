@@ -5,4 +5,6 @@ permalink: /about/
 published: true
 ---
 
-I am trying my hand at writing. I would love to have a chat and discuss any ideas. Easiest way to reach out is via e-mail (j.siddharth24@gmail.com)
+I intend to use this space as a place to write about my ideas. 
+
+If you would like to chat or discuss any ideas, reach out to me at _j.siddharth24@gmail.com_ 
