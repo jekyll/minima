@@ -1,1 +1,1 @@
-Siddharth Jain's Blog using Jekyll theme minima
+Siddharth Jain's Blog
