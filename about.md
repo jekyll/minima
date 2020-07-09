@@ -5,8 +5,9 @@ permalink: /about/
 published: true
 ---
 
-Hi! 
+Hi! I am Siddharth.  
 
-I am Siddharth. I started this blog to write about my ideas. 
+I started this blog to write about my ideas. 
 
-If you would like to dicuss any ideas or have an informal conversation, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+If you would like to discuss any ideas or have an informal conversation, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+
