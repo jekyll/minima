@@ -2,7 +2,9 @@
 layout: post
 title: My favourite blogs & newsletters
 published: true
-permalink: /:title
+description: What are my favourite blogs and newsletters?
+permalink: /:title/
+
 ---
 
 Over the years I have got into a habit of reading blogs and subscribing to newsletters. I have gained immensely, both in my personal and and professional life by reading them. Below I share a list of my favourite blogs & newsletters split by topic. 

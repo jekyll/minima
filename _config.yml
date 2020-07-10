@@ -5,12 +5,15 @@ author:
   #Write an awesome description for your new site here. You can edit this
   #line in _config.yml. It will appear in your document head meta (for
   #Google search results) and in your feed.xml site description.
+tagline: Blog
 description: > # this means to ignore newlines until "show_excerpts:"
-  Blog   
+  This is Siddharth Jain's Blog where he shares his ideas
+url: https://sid-jain.com     
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+
 minima:
   date_format: "%b %-d, %Y"
 
@@ -60,3 +63,4 @@ google_analytics: UA-171748544-1
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate
