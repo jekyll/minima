@@ -1,194 +1,162 @@
----
-layout: default
----
-
+--- layout: default ---
 
 <div class="intro">
-  <h5>ABOUT ME</h5>
-  <p>Hi! My name is Gyan. I am a designer currently studying Interaction Design at IDC School of Design, IIT Bombay.
-  <p>In the past I have interned at Zomato and Microsoft, and done a number of freelance projects creating brands, apps and websites.
+    <h5>ABOUT ME</h5>
+    <p>
+        Hi! My name is Gyan. I am a designer currently studying Interaction Design at IDC School of Design, IIT Bombay.
+    </p>
+    <p>
+        In the past I have interned at Zomato and Microsoft, and done a number of freelance projects creating brands, apps and websites.
+    </p>
 </div>
 
-
 <div class="home-flex-wrapper">
+    <div class="home">
+        {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {%- endif -%} {{ content }}
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-    <h5><a href="tag/internships">Internships [{{ site.tags["internships"].size }}]</a></h5>
+        <h5>
+            <a href="tag/internships">Internships [{{ site.tags["internships"].size }}]</a
+      >
+    </h5>
     <ul class="post-list">
-
       {%- for post in site.tags["internships"] -%}
 
       <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/zomato.png" }}">
+        <img class="thumbnail" src="{{ post.thumbnail | default:
+        "https://gyanl.com/assets/thumbs/zomato.png" }}">
         <div class="post-item-text">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-  			 <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-  		 {% endfor %}
-      </div>
-      </li>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+            </h3>
+            {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+            <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+    </div>
+    </li>
 
-      {%- endfor -%}
+    {%- endfor -%}
     </ul>
-
 
     <h5><a href="tag/fonts">Type Design [{{ site.tags["fonts"].size }}]</a></h5>
     <ul class="post-list">
+        {%- for post in site.tags["fonts"] -%}
 
-      {%- for post in site.tags["fonts"] -%}
+        <li class="post-item">
+            <img class="thumbnail" src="{{ post.thumbnail | default:
+        " https://gyanl.com/assets/thumbs/default.png " }}">
+            <div class="post-item-text">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+                </h3>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+            </div>
+        </li>
 
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
-        <div class="post-item-text">
-
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-         <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-       {% endfor %}
-      </div>
-      </li>
-
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
 
-    <h5><a href="tag/fonts">Presentations [{{ site.tags["slides"].size }}]</a></h5>
+    <h5>
+        <a href="tag/fonts">Presentations [{{ site.tags["slides"].size }}]</a>
+    </h5>
     <ul class="post-list">
+        {%- for post in site.tags["slides"] -%}
 
-      {%- for post in site.tags["slides"] -%}
+        <li class="post-item">
+            <img class="thumbnail" src="{{ post.thumbnail | default:
+        " https://gyanl.com/assets/thumbs/default.png " }}">
+            <div class="post-item-text">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+                </h3>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+            </div>
+        </li>
 
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
-        <div class="post-item-text">
-
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-         <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-       {% endfor %}
-      </div>
-      </li>
-
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
 </div>
 
-
 <div class="home">
-
-
-    <h5><a href="tag/code">Code Experiments [{{ site.tags["code"].size }}]</a></h5>
+    <h5>
+        <a href="tag/code">Code Experiments [{{ site.tags["code"].size }}]</a>
+    </h5>
     <ul class="post-list">
+        {%- for post in site.tags["code"] -%}
 
-      {%- for post in site.tags["code"] -%}
+        <li class="post-item">
+            <img class="thumbnail" src="{{ post.thumbnail | default:
+        " https://gyanl.com/assets/thumbs/default.png " }}">
+            <div class="post-item-text">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+                </h3>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+            </div>
+        </li>
 
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
-        <div class="post-item-text">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-         <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-       {% endfor %}
-      </div>
-      </li>
-
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
 
-
-    <h5><a href="tag/code">Sketch Notes [{{ site.tags["sketchnotes"].size }}]</a></h5>
+    <h5>
+        <a href="tag/code">Sketch Notes [{{ site.tags["sketchnotes"].size }}]</a>
+    </h5>
     <ul class="post-list">
+        {%- for post in site.tags["sketchnotes"] -%}
 
-      {%- for post in site.tags["sketchnotes"] -%}
+        <li class="post-item">
+            <img class="thumbnail" src="{{ post.thumbnail | default:
+        " https://gyanl.com/assets/thumbs/default.png " }}">
+            <div class="post-item-text">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+                </h3>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+            </div>
+        </li>
 
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
-        <div class="post-item-text">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-         <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-       {% endfor %}
-      </div>
-      </li>
-
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
-
 
     <h5><a href="tag/code">UI/UX [{{ site.tags["uiux"].size }}]</a></h5>
     <ul class="post-list">
+        {%- for post in site.tags["uiux"] -%}
 
-      {%- for post in site.tags["uiux"] -%}
+        <li class="post-item">
+            <img class="thumbnail" src="{{ post.thumbnail | default:
+        " https://gyanl.com/assets/thumbs/default.png " }}">
+            <div class="post-item-text">
+                <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+                </h3>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+            </div>
+        </li>
 
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default: "https://gyanl.com/blog/assets/thumbs/default.png" }}">
-        <div class="post-item-text">
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {% for tag in post.tags %}
-         <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a>
-       {% endfor %}
-      </div>
-      </li>
-
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
 
     <!-- <p class="feed-subscribe">
@@ -196,7 +164,5 @@ layout: default
         <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
       </a>
     </p> -->
-
-
 </div>
 </div>

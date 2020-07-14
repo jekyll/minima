@@ -4,9 +4,9 @@ title: "Sync your IITB mail with Gmail"
 permalink: /fix-mail
 ---
 
-So you're at IIT Bombay, and you have a fancy @iitb.ac.in email. You go to the [Webmail interface](https://webmail.iitb.ac.in/) and are greeted by this: 
+So you're at IIT Bombay, and you have a fancy @iitb.ac.in email. You go to the [Webmail interface](https://webmail.iitb.ac.in/) and are greeted by this:
 
-![Webmail Screenshot](https://gyanl.com/blog/assets/webmail-screenshot.png)
+![Webmail Screenshot](https://gyanl.com/assets/webmail-screenshot.png)
 
 It would be so much nicer if you could use Gmail, right? Well, you can.
 

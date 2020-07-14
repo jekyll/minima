@@ -3,20 +3,23 @@ layout: post
 title: Plutonium Sans
 subtitle: Designing my second typeface
 tags: fonts
-thumbnail: https://gyanl.com/blog/assets/thumbs/plutonium.png
+thumbnail: https://gyanl.com/assets/thumbs/plutonium.png
 ---
 
-![Plutonium Sans](https://gyanl.com/blog/assets/plutonium.png)
+![Plutonium Sans](https://gyanl.com/assets/plutonium.png)
 
 A few months ago, I worked on a casual typeface based on my handwriting. I called it [Lettuce Party](/lettuce-party). It was my first foray into type design, and I came out of the experience with a lot of insights into what not to do when you are trying to design a typeface. This summer, I read [Never Use Futura](http://www.neverusefutura.com/) and decided to work on my own sans serif inspired by the geometric forms of Futura. This was the result.
 
-![Plutonium Sans](https://gyanl.com/blog/assets/plutonium-sample.png)
+![Plutonium Sans](https://gyanl.com/assets/plutonium-sample.png)
+
 ###### Plutonium Sans
 
-![Plutonium Sans](https://gyanl.com/blog/assets/plutonium-lower.png)
+![Plutonium Sans](https://gyanl.com/assets/plutonium-lower.png)
+
 ###### Lowercase letters
 
-![Plutonium Sans](https://gyanl.com/blog/assets/plutonium-capitals.png)
+![Plutonium Sans](https://gyanl.com/assets/plutonium-capitals.png)
+
 ###### Capitals
 
 ### Getting started
@@ -27,7 +30,8 @@ I started Lettuce Party with no previous experience or research into type design
 
 I had previously used Birdfont, a free & open source font editor, but had found it confusing and badly documented. I was keen to try out other font editors, and settled on Glyphs for Mac. It’s a paid software with a 30 day trial that I used, and their website has some great [tutorials](https://glyphsapp.com/tutorials) to get you started.
 
-![Glyphs for Mac](https://gyanl.com/blog/assets/plutonium-capitals.png)
+![Glyphs for Mac](https://gyanl.com/assets/plutonium-capitals.png)
+
 ###### Glyphs for Mac
 
 ![https://miro.medium.com/max/60/1*iJSuWVUFdoRBOgtAbkO3jQ.png?q=20](https://miro.medium.com/max/60/1*iJSuWVUFdoRBOgtAbkO3jQ.png?q=20)
@@ -54,7 +58,7 @@ I started stringing them into words to check how they looked. Certain combinatio
 
 ![https://miro.medium.com/max/2160/1*HCxqV6HKdEkj3kS8vhuqjQ.png](https://miro.medium.com/max/2160/1*HCxqV6HKdEkj3kS8vhuqjQ.png)
 
-The lowercase ***a*** & ***s*** went through a couple of explorations, and I briefly considered a 3 degree slant to the right. I kept trying random words and edited anything that looked off.
+The lowercase **_a_** & **_s_** went through a couple of explorations, and I briefly considered a 3 degree slant to the right. I kept trying random words and edited anything that looked off.
 
 ![https://miro.medium.com/max/60/1*QkUekazm1C0bIE021mbSRQ.png?q=20](https://miro.medium.com/max/60/1*QkUekazm1C0bIE021mbSRQ.png?q=20)
 
@@ -64,7 +68,7 @@ The lowercase ***a*** & ***s*** went through a couple of explorations, and I
 
 ![https://miro.medium.com/max/1270/1*EDEg2KJlv-4mNORkIuSX3g.png](https://miro.medium.com/max/1270/1*EDEg2KJlv-4mNORkIuSX3g.png)
 
-A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I wanted the typeface to look modern and clean but not too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the ***k*** and ***y*** came out.
+A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I wanted the typeface to look modern and clean but not too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
 
 ![https://miro.medium.com/max/60/1*qL6UrdzuTn5Bce7d7D9klQ.png?q=20](https://miro.medium.com/max/60/1*qL6UrdzuTn5Bce7d7D9klQ.png?q=20)
 
