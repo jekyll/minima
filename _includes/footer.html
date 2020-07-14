@@ -6,9 +6,9 @@
     <div class="footer-col-wrapper">
 
       <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <ul class="contact-list">
-        <p>{{- site.description | escape -}}</p>
+          <p>{{- site.description | escape -}}</p>
           <!-- <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
@@ -22,7 +22,11 @@
 
       <div class="footer-col one-half">
         <h2 class="footer-heading"></h2>
+        <div class="social-links mobile-only">
+          {%- include social.html -%}
+        </div>
         <a href="archive">Archive</a>
+
         <!-- <p>{{- site.description | escape -}}</p> -->
       </div>
 

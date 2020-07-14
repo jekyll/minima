@@ -1,3 +1,6 @@
+.mobile-only {
+  display: none;
+}
 /**
  * Site header
  */
@@ -18,7 +21,6 @@
   margin-bottom: 0;
   float: left;
   vertical-align: middle;
-
   @include media-query($on-palm) {
     padding-right: 45px;
   }
@@ -77,14 +79,21 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
-
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
     margin-left: 20px;
   }
+  @media screen and (min-width: $on-palm) {
+    .desktop-only {
+      display: none;
+    }
 
+    .mobile-only {
+      display: flex;
+    }
+  }
   @media screen and (min-width: $on-medium) {
     position: static;
     float: right;
@@ -114,7 +123,6 @@
     }
   }
 }
-
 /**
  * Site footer
  */
@@ -139,7 +147,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -161,7 +168,6 @@
   width: -webkit-calc(100% - (#{$spacing-unit} / 2));
   width: calc(100% - (#{$spacing-unit} / 2));
 }
-
 @media screen and (min-width: $on-large) {
   .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
@@ -178,7 +184,6 @@
     width: calc(45% - (#{$spacing-unit} / 2));
   }
 }
-
 @media screen and (min-width: $on-medium) {
   .footer-col {
     float: left;
@@ -199,7 +204,6 @@
   display: flex;
   flex-direction: row;
 }
-
 @media screen and (max-width: $on-medium) {
   .home-flex-wrapper {
     display: flex;
@@ -217,7 +221,6 @@
     max-width: none;
   }
 }
-
 /**
  * Page content
  */
@@ -250,7 +253,7 @@
   font-weight: 600;
   font-size: 12px;
   color: $text-color-darker;
-  margin: -4px 0 0 0;
+  margin: -4px 0 0;
 }
 
 .post-link {
@@ -266,7 +269,7 @@
   // margin: 0 $spacing-unit/2 $spacing-unit 0;
   padding: $spacing-unit/2 0;
   transition: 0.2s;
-  box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.02);
   border-radius: 4px;
   // border: 1px solid rgba(0,0,0,0.05);
   // border-bottom: 4px solid;
@@ -294,7 +297,6 @@
   // background: rgba(255, 255, 255, .05);
   // border: 1px solid $brand-color;
 }
-
 /**
  * Posts
  */
@@ -305,26 +307,30 @@
 .social-media-list {
   display: table;
   margin: 0;
+
   li {
     float: left;
     margin: 0 5px;
+
     &:first-of-type {
       margin-left: 0;
     }
+
     &:last-of-type {
       margin-right: 8px;
     }
+
     a {
       display: block;
       padding: 4px 0 0 4px;
     }
+
     &:hover .svg-icon {
       fill: $brand-color;
       background-color: $brand-color-light;
     }
   }
 }
-
 /**
  * Grid helpers
  */
