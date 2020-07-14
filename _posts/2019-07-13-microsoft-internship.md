@@ -18,6 +18,8 @@ I designed the UI for our interventions and worked with the development team to 
 
 As a designer, it was a challenge for me to understand just how the technologies we were using worked and the limitations they carried. Designing carefully with these considerations allowed us to present something that seemed to work almost magically when the AI model had a higher degree of confidence, and gracefully degrade when there was lower confidence in our results.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TZadxCqlDK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### The experience
 
-<iframe src="https://www.youtube.com/embed/TZadxCqlDK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I had a great time working at Microsoft—the people are friendly and supportive, and the 9 weeks I was there at the beautiful Hyderabad campus just flew by. Here's a short video of the design interns (Me, Anjan, Naveen, Yasha, Sidharth and Nebin) hanging out, (not) working and generally having a great time.
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/TZadxCqlDK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
