@@ -7,10 +7,10 @@ layout: default
 <div class="intro">
   <h5>ABOUT ME</h5>
   <p>
-    Hi! My name is Gyan. I am a designer currently studying Interaction Design at IDC School of Design, IIT Bombay.
+    Hi! My name is Gyan. I like memes, fonts, and shifting stuff one pixel up and down to see how it looks.
   </p>
   <p>
-    In the past I have interned at Zomato and Microsoft, and done a number of freelance projects creating brands, apps and websites.
+    I am currently a UX Designer at Microsoft, and before that I studied Interaction Design at IDC School of Design, IIT Bombay.
   </p>
 </div>
 
@@ -20,7 +20,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%} {{ content }}
 
-    <h5>
+    <!-- <h5>
       <a href="tag/internships">Work [{{ site.tags["work"].size }}]</a>
     </h5>
     <ul class="post-list">
@@ -42,7 +42,7 @@ layout: default
       </li>
 
       {%- endfor -%}
-    </ul>
+    </ul> -->
 
     <h5>
       <a href="tag/internships">Internships [{{ site.tags["internships"].size }}]</a>
@@ -111,7 +111,34 @@ layout: default
 
       {%- endfor -%}
     </ul>
+
+    <h5>
+      <a href="tag/internships">Branding [{{ site.tags["branding"].size }}]</a>
+    </h5>
+    <ul class="post-list">
+      {%- for post in site.tags["branding"] -%}
+
+      <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default:
+        "https://gyanl.com/assets/thumbs/default.png" }}">
+        <div class="post-item-text">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+        </div>
+      </li>
+
+      {%- endfor -%}
+    </ul>
+
+
   </div>
+
 
   <div class="home">
     <h5>
@@ -166,30 +193,6 @@ layout: default
 
       <li class="post-item">
         <img class="thumbnail" src="{{ post.thumbnail | default: " https://gyanl.com/assets/thumbs/default.png " }}">
-        <div class="post-item-text">
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
-          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
-        </div>
-      </li>
-
-      {%- endfor -%}
-    </ul>
-
-    <h5>
-      <a href="tag/internships">Branding [{{ site.tags["branding"].size }}]</a>
-    </h5>
-    <ul class="post-list">
-      {%- for post in site.tags["branding"] -%}
-
-      <li class="post-item">
-        <img class="thumbnail" src="{{ post.thumbnail | default:
-        "https://gyanl.com/assets/thumbs/default.png" }}">
         <div class="post-item-text">
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
