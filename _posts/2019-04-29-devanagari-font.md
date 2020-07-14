@@ -16,6 +16,6 @@ I took the Advanced Typography elective at IDC in my second semester, and spent 
 
 ###### The monument of love. Also, tea.
 
-![Waterfall.](https://gyanl.com/assets/utf-waterfall.jpg)
+![Waterfall.](https://gyanl.com/assets/utf-waterfall.png)
 
 ###### Waterfall view of some of the finished characters.
