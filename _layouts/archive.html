@@ -1,40 +1,40 @@
---- layout: default ---
+---
+layout: default
+---
 
 <div class="home">
-    {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-    <p class="sub-title">{{ page.description }}</p>
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <p class="sub-title">{{ page.description }}</p>
 
-    {{ content }} {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
-    <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li class="post-item">
-            <img class="thumbnail" src="{{ post.thumbnail | default:
+  {{ content }} {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li class="post-item">
+      <img class="thumbnail" src="{{ post.thumbnail | default:
       " https://gyanl.com/assets/thumbs/default.png " }}">
-            <div class="post-item-text">
-                <h3>
-                    <a class="post-link" href="{{ post.url | relative_url }}">
+      <div class="post-item-text">
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-                </h3>
-                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
-                <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
-            </div>
-        </li>
+        </h3>
+        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+        <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+      </div>
+    </li>
 
-        {%- endfor -%}
-    </ul>
+    {%- endfor -%}
+  </ul>
 
-    <p class="feed-subscribe">
-        <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-        <use
-          xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"
-        ></use></svg
-      ><span>Subscribe</span>
+  <p class="feed-subscribe">
+    <a href="{{ 'feed.xml' | relative_url }}">
+      <svg class="svg-icon orange">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg><span>Subscribe</span>
     </a>
   </p>
   {%- endif -%}
