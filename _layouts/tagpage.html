@@ -1,26 +1,26 @@
---- 
+---
 layout: default
- ---
+---
 
 <div class="post">
-    <h1 class="page-heading">{{ page.title }}</h1>
-    <p class="sub-title">{{ page.description }}</p>
-    <ul class="post-list">
-        {% for post in site.tags[page.tag] %}
-        <li class="post-item">
-            <img class="thumbnail" src="{{ post.thumbnail | default:
+  <h1 class="page-heading">{{ page.title }}</h1>
+  <p class="sub-title">{{ page.description }}</p>
+  <ul class="post-list">
+    {% for post in site.tags[page.tag] %}
+    <li class="post-item">
+      <img class="thumbnail" src="{{ post.thumbnail | default:
       " https://gyanl.com/assets/thumbs/default.png " }}">
-            <div class="post-item-text">
-                <h3>
-                    <a class="post-link" href="{{ post.url | relative_url }}">
+      <div class="post-item-text">
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-                </h3>
-                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
-                <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
+        </h3>
+        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+        <a class="tag" href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
