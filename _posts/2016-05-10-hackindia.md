@@ -3,6 +3,7 @@ layout: post
 title: "HackIndia"
 subtitle: Branding for India's first large scale hackathon for and by students
 tags: branding
+thumbnail: https://gyanl.com/assets/thumbs/hackindia.png
 ---
 
 ![HackIndia banner](https://gyanl.com/assets/hackindia.png)
