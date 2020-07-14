@@ -21,6 +21,30 @@ layout: default
     {%- endif -%} {{ content }}
 
     <h5>
+      <a href="tag/internships">Work [{{ site.tags["work"].size }}]</a>
+    </h5>
+    <ul class="post-list">
+      {%- for post in site.tags["work"] -%}
+
+      <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default:
+        "https://gyanl.com/assets/thumbs/default.png" }}">
+        <div class="post-item-text">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+        </div>
+      </li>
+
+      {%- endfor -%}
+    </ul>
+
+    <h5>
       <a href="tag/internships">Internships [{{ site.tags["internships"].size }}]</a>
     </h5>
     <ul class="post-list">
@@ -142,6 +166,30 @@ layout: default
 
       <li class="post-item">
         <img class="thumbnail" src="{{ post.thumbnail | default: " https://gyanl.com/assets/thumbs/default.png " }}">
+        <div class="post-item-text">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%} {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span> {% for tag in post.tags %}
+          <a class="tag" href="tag/{{ tag | slugify }}">{{ tag }}</a> {% endfor %}
+        </div>
+      </li>
+
+      {%- endfor -%}
+    </ul>
+
+    <h5>
+      <a href="tag/internships">Branding [{{ site.tags["branding"].size }}]</a>
+    </h5>
+    <ul class="post-list">
+      {%- for post in site.tags["branding"] -%}
+
+      <li class="post-item">
+        <img class="thumbnail" src="{{ post.thumbnail | default:
+        "https://gyanl.com/assets/thumbs/default.png" }}">
         <div class="post-item-text">
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">

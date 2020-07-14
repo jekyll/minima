@@ -2,7 +2,7 @@
 layout: post
 title: UX Design at Microsoft
 subtitle: Starting a new job at Microsoft Noida while working from home.
-tags: jobs
+tags: work
 thumbnail: https://gyanl.com/assets/thumbs/microsoft.png
 ---
 
