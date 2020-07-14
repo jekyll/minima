@@ -49,4 +49,4 @@ HackIndia took place at a time when hackathons were only just starting to catch 
 
 At HackIndia 2015, we brought together some of the nation’s best artists, designers, creators, inventors and leaders of tomorrow. It was a pretty successful event (some organisational mishaps aside) and everyone took away a lot from the event.
 
-<iframe src="https://www.youtube.com/embed/hybsfnLjdck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed" width="720" height="405"  src="https://www.youtube.com/embed/hybsfnLjdck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
