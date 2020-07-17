@@ -7,7 +7,7 @@ author:
   #Google search results) and in your feed.xml site description.
 tagline: Blog
 description: > # this means to ignore newlines until "show_excerpts:"
-  This is Siddharth Jain's Blog where he shares his ideas
+  I write about my ideas on this blog
 url: https://sid-jain.com     
 show_excerpts: false # set to true to show excerpts on the homepage
 
