@@ -2,7 +2,7 @@
 layout: post
 title: Untitled Devanagari Font
 subtitle: Attempts at a Devanagari typeface
-tags: fonts
+tags: fonts idc
 thumbnail: https://gyanl.com/assets/thumbs/devanagari.png
 ---
 

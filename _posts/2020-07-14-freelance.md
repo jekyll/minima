@@ -15,6 +15,11 @@ When I was a nerdy, computer obsessed teenager in school, a few of my nerdy, com
 <iframe class="embed" width="720" height="405" src="https://www.youtube.com/embed/uN1Rtzk_TMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ###### I like to think this is not bad, just avant-garde.
 
+### Get a work website and an email
+
+“Looking” professional can help by having indicators
+A potential client needs reasons to trust you. 
+
 ### Accurately estimate your available time
 
 ### Offer a freebie
@@ -33,7 +38,7 @@ For eg. if your hourly rate is $25, and you think a project might take about 10 
 
 ### Underpromise, Over-deliver
 
-Give the client just a little bit more than you promised them. If you charged for a logo, throw in some business cards. If you're designing an app for a new startup, create some social media banners for them. Figure out what your client could use, and if it doesn't take too much effort, do it. This is also a good 
+Give the client just a little bit more than you promised them. If you charged for a logo, throw in some business cards. If you're designing an app for a new startup, create some social media banners for them. Figure out what your client could use, and if it doesn't take too much effort, do it. This is also a good
 
 ### Plan for stretches of no work
 
