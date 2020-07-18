@@ -3,7 +3,6 @@ layout: post
 title: How I started freelancing
 subtitle: Some advice for designers starting out
 tags: misc
-thumbnail: https://gyanl.com/assets/thumbs/microsoft.png
 ---
 
 I started my first job as a UX Designer at Microsoft soon after finishing my Master's degree in Interaction Design at IDC School of Design, IIT Bombay.

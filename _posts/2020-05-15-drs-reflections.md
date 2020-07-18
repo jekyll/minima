@@ -17,7 +17,7 @@ I had spent much of my third semester struggling to design a “Novel Font Searc
 
 ### Finding a “good” topic
 
-I had found it difficult to argue that my project was solving any significant problems. I was convinced myself that picking fonts online could be made simpler, but I was also quite aware of the fact that 12 out of my 16 peers had picked projects in the domains of education, healthcare, accessibility or agriculture. Student design projects are self-contained solutions to a specific problem, and students rarely have the expertise or time to really make a dent in the world. However, the kind of projects that seem to be considered “good projects” at IDC tend to be those that attempt to solve challenging social problems. This was a bit of an internal conflict for me—I did not want to pick a topic unless I personally found it interesting, and these areas just didn't appeal to me. I eventually found a happy medium in misinformation, which seemed to be a widespread problem that I thought could be studied through the lens of interaction design.
+I had found it difficult to argue that my project was solving any significant problems. I was convinced myself that picking fonts online could be made simpler, but I was also quite aware of the fact that 12 out of my 16 peers had picked projects in the domains of education, healthcare, accessibility or agriculture. Student design projects are expected to be self-contained solutions to a problem, and students rarely have the expertise or time to really make a dent in the world. However, the kind of projects that seem to be considered “good projects” at IDC tend to be those that attempt to solve challenging social problems. This was a bit of an internal conflict for me—I did not want to pick a topic unless I personally found it interesting, and these areas just didn't appeal to me. I eventually found a happy medium in misinformation, which seemed to be a real problem that I thought could be studied through the lens of interaction design.
 
 ### Challenges
 
@@ -41,7 +41,7 @@ It took me about a week just to transcribe my recordings. I had not anticipated 
 
 ###### Highlighting sections on printouts
 
-I was also taking notes on loose sheets, and sometimes on the margins of my printouts, and adding to a Google doc as I was writing my paper in parallel. At one point my room had papers strewn all over it because it was getting so hard to keep track of multiple ideas at once.
+I was also taking notes on loose sheets, and sometimes on the margins of my printouts, and adding to a Google doc as I was writing my paper in parallel. At one point my room had papers strewn all over it because it was getting so hard to keep track of multiple trains of thought at once.
 
 ![Simultaneously using 3 different sources for information processing: a recipe for disaster](https://gyanl.com/assets/drs-2.jpeg)
 
@@ -51,20 +51,18 @@ It made me appreciate the process of iteratively building themes using post-its/
 
 ### Writing a paper
 
-There are a number of things I'd do differently if I were to be doing this again, but I didn’t have very clear research questions before going into the field. My focus was on talking to people, and getting an understanding of how people react to forwarded messages and what drives sharing behavior. My findings largely confirmed existing suspicions—people find it hard to distinguish misinformation merely by reading it, most people don’t bother with fact checking, and just ignore a large section of the messages they get every day. It became difficult to derive any insights that were very interesting for design interventions. I hence relied on the literature review and gut instinct to come up with solutions that I myself was not very convinced would work. This was probably apparent to reviewers, who pointed out that the discussion seemed disjointed from the analysis, and there was not too much new to be gained from reading the paper.
+I didn’t have very clear research questions before going into the field. My focus was on talking to people, and getting an understanding of how people react to forwarded messages and what drives sharing behavior. My findings largely confirmed existing suspicions—people find it hard to distinguish misinformation merely by reading it, most people don’t bother with fact checking, and just ignore a large section of the messages they get every day. It became difficult to derive any insights that were very interesting for design interventions. I hence relied on the literature review and gut instinct to come up with solutions that I myself was not very convinced would work. This was probably apparent to reviewers, who pointed out that the discussion seemed disjointed from the analysis, and there was not too much new to be gained from reading the paper.
 
 I don’t know if I will write more research papers, but I think the learnings from trying to express my thoughts in a coherent manner were helpful in general. I still need to work on improving how I structure arguments in a logical manner. I have been trying to write about my work on my blog, and hope to spend some of my time after graduating on writing about some of my projects, both to document what I have done in my time at IDC and to try and improve how I verbalise the thought process behind these projects.
 
----
+* * *
 
-- Finding what to work on. Supportive faculty, peers, etc. won't be there. Stagnation without external push to do new things.
+-   Finding what to work on. Supportive faculty, peers, etc. won't be there. Stagnation without external push to do new things.
 
-- Strong sense of I. I can/can't do this. Hold yourself back because of this.
+-   Strong sense of I. I can/can't do this. Hold yourself back because of this.
 
-- Wherever you go, what do you want to do there? What kind of work do you want to do? Don't just do what other people tell you to do. Make your own plan.
+-   Wherever you go, what do you want to do there? What kind of work do you want to do? Don't just do what other people tell you to do. Make your own plan.
 
-- User researcher because calmer, quieter, sensitive.
+-   User researcher because calmer, quieter, sensitive.
 
-- Organisation, planning. Unless you make time for thinking, how will it happen? Despite the everyday-ness of things.
-
--
+-   Organisation, planning. Unless you make time for thinking, how will it happen? Despite the everyday-ness of things.
