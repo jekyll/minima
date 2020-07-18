@@ -110,9 +110,11 @@ img {
 /**
  * Iframes (added by Gyan)
  */
-iframe {
-  max-width: 100%;
+iframe,
+video {
+  width: 100%;
   vertical-align: middle;
+  margin: $spacing-unit 0 $spacing-unit/2;
 }
 
 time {
