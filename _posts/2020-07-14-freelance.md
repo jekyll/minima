@@ -18,7 +18,13 @@ When I was a nerdy, computer obsessed teenager in school, a few of my nerdy, com
 ### Get a work website and an email
 
 “Looking” professional can help by having indicators
-A potential client needs reasons to trust you. 
+A potential client needs reasons to trust you.
+
+### Show your work
+
+Create a place to show your work. This can include projects, reviews from clients, and
+
+If you are actively looking for jobs, also keep an updated copy of your resume on your website. Here are some [tips for making a great resume](https://gumroad.com/l/resumeguide).
 
 ### Accurately estimate your available time
 
