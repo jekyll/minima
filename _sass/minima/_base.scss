@@ -141,9 +141,13 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  padding-right: $spacing-unit / 4;
+  padding-top: $spacing-unit / 8;
+  padding-bottom: $spacing-unit / 8;
+  @include relative-font-size(1);
   font-style: italic;
-
+  background-color: $brand-background-color;
+  
   > :last-child {
     margin-bottom: 0;
   }
