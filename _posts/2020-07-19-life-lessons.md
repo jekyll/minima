@@ -23,7 +23,7 @@ I used to get overly worried about politics. It made me super anxious. I didn't 
 
 >"Because the world is not composed of saints, as an organization scales the level of politics increases exponentially... the difference between a great company and a bad company is that in a great company execs spend only 25% of the time playing politics while in a bad one they spend 50% of the time playing politics. That delta is the entire gaussian bell-curve from the best Fortune 500 company to the worst."
 
-What Charlie said struck a chord with me. Finally, reality dawned. I realized that no matter what, politics is here to stay. It is one of those evils that cannot be eliminated but only be minimized. The sooner you accept this, the better it would be for you. Instead, you should channelize your energy into your work. You should focus on things that you you can control. You should focus on your karma. 
+What Charlie said struck a chord with me. Finally, reality dawned. I realized that no matter what, politics is here to stay. It is one of those evils that cannot be eliminated but only be minimized. The sooner you accept this, the better it would be for you. Instead, you should channelize your energy into your work. Focus on your karma. 
 
 ![Politics](/assets/img/politics.png)
 
@@ -33,7 +33,7 @@ One of my all-time favourite speeches is [Steve Jobs' 2005 Stanford commencement
 
 >"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of other's opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary." 
 
-For far too long I gave away my happiness switch to someone else. I had let myself be driven by external factors. Not any longer. I took back control. I now have an internal compass guiding me. No matter what, people are still going to find a way to hate or criticize you. [Learn to deal with it](https://jamesclear.com/haters){:target="_blank"}. Stop focusing on external factors. Instead, reflect, meditate, [even better, write](https://medium.com/better-humans/better-than-meditation-12532d29f6cd){:target="_blank"}. 
+For far too long I gave away my happiness switch to someone else. I had let myself be driven by external factors. Not any longer. I took back control. I now have an internal compass guiding me. No matter what, people are still going to find a way to hate or criticize you. [Learn to deal with it](https://jamesclear.com/haters){:target="_blank"}. Stop focusing on external factors. Instead, focus on things that you you can control. Reflect, meditate, [even better, write](https://medium.com/better-humans/better-than-meditation-12532d29f6cd){:target="_blank"}. 
 
 ![Internally Driven](/assets/img/internally driven.png)
 
@@ -102,5 +102,5 @@ There is nothing in the world, seriously nothing, more important than your healt
 
    
 
-*Last Updated: 19th July 2020*
+*Last Updated: 20th July 2020*
 
