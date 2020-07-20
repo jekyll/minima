@@ -10,11 +10,11 @@ Hi! I am Siddharth.
 I started this blog to write about my ideas. If you would like to discuss any ideas, have any feedback or want to have an informal conversation, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
 
 
-**Thank you!**
+**A word of thanks**
 
-I would like to thank my mother and my wife who help edit my posts. 
+I would like to thank my mother and my wife who help edit all my posts. 
 
-I would like to thank the noun project for all their icons. In particular I would like to thank the following creators: 
+I would also like to thank the noun project for all their icons. In particular I would like to thank the following creators: 
 
 >1. Bakunetsu Kaito
 2. Luiz Carvalho
