@@ -33,7 +33,7 @@ One of my all-time favourite speeches is [Steve Jobs' 2005 Stanford commencement
 
 >"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of other's opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary." 
 
-For far too long I gave away my happiness switch to someone else. I had let myself be driven by external factors. Not any longer. I took back control. I now have an internal compass guiding me. No matter what, people are still going to find a way to hate or criticize you. [Learn to deal with it](https://jamesclear.com/haters){:target="_blank"}. Stop focusing on external factors. Instead, focus on things that you control. Reflect, meditate, [even better, write](https://medium.com/better-humans/better-than-meditation-12532d29f6cd){:target="_blank"}. 
+For far too long I gave away my happiness switch to someone else. I had let myself be driven by external factors. Not any longer. I took back control. You need to have an internal compass guiding you. No matter what, people are still going to find a way to hate or criticize you. [Learn to deal with it](https://jamesclear.com/haters){:target="_blank"}. Stop focusing on external factors. Instead, focus on things that you control. Reflect, meditate, [even better, write](https://medium.com/better-humans/better-than-meditation-12532d29f6cd){:target="_blank"}. 
 
 ![Internally Driven](/assets/img/internally driven.png)
 
