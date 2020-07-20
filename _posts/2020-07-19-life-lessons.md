@@ -23,7 +23,7 @@ I used to get overly worried about politics. It made me super anxious. I didn't 
 
 >"Because the world is not composed of saints, as an organization scales the level of politics increases exponentially... the difference between a great company and a bad company is that in a great company execs spend only 25% of the time playing politics while in a bad one they spend 50% of the time playing politics. That delta is the entire gaussian bell-curve from the best Fortune 500 company to the worst."
 
-What Charlie said struck a chord with me. Finally, reality dawned. I realized that no matter what, politics is here to stay. It is one of those evils that cannot be eliminated but only be minimized. The sooner you accept this, the better it would be for you. Instead, you should channelize your energy into your work. You should focus on energy on what you can control. You should focus on your karma. 
+What Charlie said struck a chord with me. Finally, reality dawned. I realized that no matter what, politics is here to stay. It is one of those evils that cannot be eliminated but only be minimized. The sooner you accept this, the better it would be for you. Instead, you should channelize your energy into your work. You should focus on things that you you can control. You should focus on your karma. 
 
 ![Politics](/assets/img/politics.png)
 
