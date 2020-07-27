@@ -30,4 +30,9 @@ I would also like to thank the noun project for all their icons. In particular I
 12. Sergey Demushkin
 13. GreenHill
 14. Adrien Coquet
+15. Akshar Pathak
+16. Shocho
+17. Vectors Point
+18. Smalllike
+19. Ted Grajeda
 
