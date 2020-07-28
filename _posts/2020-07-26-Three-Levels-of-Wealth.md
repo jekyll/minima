@@ -37,7 +37,7 @@ At a very basic level, wealth provides for essentials such as food, shelter and 
 
 What wealth cannot necessarily guarantee, is a life with zero stress. It cannot guarantee a life full of happiness or one filled with love. It also cannot guarantee good health or sound sleep. 
 
-Personally, I consider myself very fortunate to be on level 2 of wealth. I no longer have to worry about debt or the cost of my meals. As for my journey ahead, I continue to work towards level 3. As for your journey, I wish you the very best!
+Personally, I consider myself very fortunate to be on level 2 of wealth. I no longer have to worry about debt or the cost of my meals. As for my journey ahead, I continue to work on getting better each passing day. As for your journey ahead, I wish you the very best!
 
 <br />
 
