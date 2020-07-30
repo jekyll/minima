@@ -1,6 +1,6 @@
 ---
 layout: post
-title: User Studies
+title: DE 637: User Studies
 subtitle: Notes from the User Studies course at IDC School of Design, IIT Bombay.
 tags: idc
 ---

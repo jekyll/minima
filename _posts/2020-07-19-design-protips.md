@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finding internships
+title: UI Design protips
 subtitle: Some neat tricks I wish I knew earlier
 tags: misc
 ---
