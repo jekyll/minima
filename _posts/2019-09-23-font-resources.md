@@ -19,45 +19,45 @@ The experience of browsing indic fonts and variable fonts is still not very smoo
 
 #### Font Collections
 
-[Ideo Fontmap](http://fontmap.ideo.com/)
+[Ideo Fontmap](http://fontmap.ideo.com/)  
 Ideo creates a 2 dimensional map of fonts by using dimensionality reduction. It's a bit slow to load, but an interesting way to see a very large number of fonts at once and stumble upon something new.
 
-[Fontjoy Projector](https://fontjoy.com/projector/)
+[Fontjoy Projector](https://fontjoy.com/projector/)  
 Like Fontmap, but on steroids. Uses 3 dimensions instead of 2, and lets you pick different mappings.
 
-[Google Fonts Korean](https://googlefonts.github.io/korean/)
+[Google Fonts Korean](https://googlefonts.github.io/korean/)  
 More form than function, but this is a beautiful website created to show off support for Chinese, Japanese and Korean (CJK) font files on Google fonts.
 
-[The anatomy of a thousand typefaces](https://medium.com/@getflourish/the-anatomy-of-a-thousand-typefaces-f7b9088eed1)
+[The anatomy of a thousand typefaces](https://medium.com/@getflourish/the-anatomy-of-a-thousand-typefaces-f7b9088eed1)  
 A really good article about the challenges of classifying fonts, and how the author came up with a system to do it.
 
-[Fontbase SuperSearch](https://fontba.se/blog/super-search)
+[Fontbase SuperSearch](https://fontba.se/blog/super-search)  
 Find Fonts by Contrast, X-Height, Weight and More! Cites The anatomy of a thousand typefaces as an influence.
 
-[Beautiful Web Type](https://beautifulwebtype.com)
+[Beautiful Web Type](https://beautifulwebtype.com)  
 Website that lists a number of high quality open source fonts, and shows pairings with other fonts. Beautiful, responsive previews.
 
-[TypeSource](https://tobiasahlin.com/typesource/)
+[TypeSource](https://tobiasahlin.com/typesource/)  
 Google Web Font inspiration in HTML & CSS. Somewhat similiar to Beautiful Web Type.
 
-[Moving Letters](https://tobiasahlin.com/moving-letters/)
+[Moving Letters](https://tobiasahlin.com/moving-letters/)  
 Motion typography using anime.js.
 
 #### Code Tools
 
-[Web Font Loader](https://github.com/typekit/webfontloader)
+[Web Font Loader](https://github.com/typekit/webfontloader)  
 Load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts.
 
-[opentype.js](https://opentype.js.org/)
+[opentype.js](https://opentype.js.org/)  
 I don't understand what this does, but it looks like more complex web font tasks can be achieved with this library.
 
 #### Websites for a single font
 
-[Universal Sans](https://universalsans.com/)
+[Universal Sans](https://universalsans.com/)  
 A variable sans serif that can be tweaked to match user's needs.
 
-[Hellvetica](https://hellveticafont.com/)
+[Hellvetica](https://hellveticafont.com/)  
 A really badly kerned version of Helvetica.
 
-[Comic Neue](http://comicneue.com/)
+[Comic Neue](http://comicneue.com/)  
 Comic Sans, but a little less wonky.
