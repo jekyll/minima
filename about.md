@@ -5,16 +5,66 @@ permalink: /about/
 published: true
 ---
 
-Hi! I am Siddharth.  
+Hey!  
 
-I started this blog to write about my ideas. If you would like to discuss any ideas, have any feedback or want to have an informal conversation, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+Welcome to my blog. I am Siddharth Jain. You can call me Sid.
+
+##### **Here is my introduction in 3 bullets** 
+ 
+- I grew up in New Delhi, India and studied engineering at IIT Guwahati
+- I currently live in London and work as a product manager at J.P.Morgan
+- In my spare time, I love to read, cook, write and spend time with my family
+
+##### **Why did I start this blog?**
+
+I started this blog to write about my ideas. I had been thinking about writing a blog for a long time but never really started until mid-2020. 
+
+My primary motivation to write is to get clarity of my own thoughts. Barry Ritholtz aptly summarises this in his post [Why I write?](https://ritholtz.com/2015/05/ritholtz-why-i-write/){:target="_blank"}  
+
+> I write mostly for myself. It’s a process, one that helps me to better understand my own thinking and ideas. Daniel Boorstein once said ‘*I write to figure out what I think*’. It’s a surprisingly accurate quote – until you sit down and put pen to paper (or fingers to keyboard) you have nothing. Not until you have a coherent work with a beginning, middle and end, AND a justifiable premise, AND the ability to defend it to other people’s attacks, you don’t really know what you think. Writing it out is a very, very different process than just having a half formed idea kicking around inside your head.
+
+Like me, if you are somewhat interested in starting your own blog, I would recommend reading [this](https://andrewchen.co/professional-blogging/){:target="_blank"}, [this](https://www.nateliason.com/blog/start-a-blog){:target="_blank"} & [this](https://ofdollarsanddata.com/my-best-advice-to-prospective-bloggers/){:target="_blank"} before getting started.
+
+##### **My habits**
+
+![Getting 1% better each day](/assets/img/Getting better each day.png)
+
+I believe in the power of habits. I believe in tiny 1% gains each day that become exponential gains over time. Here are a few habits that I am building: 
+
+**Daily habits**
+
+1. No phone for the 1st hour of the day
+2. Exercise (a short stroll counts too)
+3. Fast for 14-16 hours a day (better known as intermittent fasting) 
+4. Measure your weight (already lost 7 kgs so far in 2020) 
+5. Read 20 pages of a book
+6. Spend 30 mins learning something new (e.g. design, coding, product, data landscape)
+7. Write down [750 words](https://750words.com/){:target="_blank"} (can be about anything e.g. reflection, gratitude, daily journal, ideas etc.)
+
+**Weekly habits** 
+
+1. Reconnect with an old friend 
+2. Sharpen your mind with an [arithmetic exercise](http://arithmetic.zetamac.com/){:target="_blank"}  
+3. Declutter your digital & physical workspace (e.g. unsubscribing e-mails, cleaning your desk) 
+4. Write a blog post 
+
+##### **Books I am currently reading**
+
+I tend to switch and read multiple books at a time. The ones I am currently reading are:
+
+1. The difficulty of being good: on the subtle art of dharma *by* Gurucharan Das
+2. High output management *by* Andy Grove
 
 
-**A word of thanks**
+##### **Contact**
 
-I would like to thank my mother and my wife who help edit all my posts. 
+If you would like to discuss any ideas or have any feedback, or just want to have an informal chat reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
 
-I would also like to thank the noun project for all their icons. In particular I would like to thank the following creators: 
+##### **A word of thanks**
+
+I would like to thank my mother and my wife who help edit my posts. 
+
+I would also like to thank the noun project for their icons. In particular, I would like to thank the following creators: 
 
 >1. Bakunetsu Kaito
 2. Luiz Carvalho
@@ -36,3 +86,5 @@ I would also like to thank the noun project for all their icons. In particular I
 18. Smalllike
 19. Ted Grajeda
 
+##### **Disclaimer** 
+All opinions expressed in this blog are solely my own.
