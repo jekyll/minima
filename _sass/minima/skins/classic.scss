@@ -4,18 +4,25 @@ $brand-color:           #828282 !default;
 $brand-color-light:     lighten($brand-color, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
-$text-color:            #111 !default;
+$site-title-color:      $brand-color-dark !default;
+
+$text-color:            #111111 !default;
 $background-color:      #fdfdfd !default;
-$code-background-color: #eef !default;
+$code-background-color: #eeeeff !default;
 
 $link-base-color:       #2a7ae2 !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
+$link-hover-color:      $text-color !default;
+
+$border-color-01:       $brand-color-light !default;
+$border-color-02:       lighten($brand-color, 35%) !default;
+$border-color-03:       $brand-color-dark !default;
 
 $table-text-color:      lighten($text-color, 18%) !default;
 $table-zebra-color:     lighten($brand-color, 46%) !default;
 $table-header-bg-color: lighten($brand-color, 43%) !default;
-$table-header-border:   lighten($brand-color, 36%) !default;
-$table-border-color:    $brand-color-light !default;
+$table-header-border:   lighten($brand-color, 37%) !default;
+$table-border-color:    $border-color-01 !default;
 
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
