@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Levels of Wealth
+title: 3 levels of wealth
 published: true
 description: How do you think about wealth? What are the 3 levels of wealth? 
 permalink: /3-levels-of-wealth/

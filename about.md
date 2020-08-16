@@ -37,7 +37,7 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 2. Exercise (a short stroll counts too)
 3. Fast for 14-16 hours a day (better known as intermittent fasting) 
 4. Measure your weight (already lost 7 kgs so far in 2020) 
-5. Read 20 pages of a book
+5. Read 20 pages of any book
 6. Spend 30 mins learning something new (e.g. design, coding, product, data landscape)
 7. Write down [750 words](https://750words.com/){:target="_blank"} (can be about anything e.g. reflection, gratitude, daily journal, ideas etc.)
 

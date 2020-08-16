@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Lessons from my Life
+title: 10 Lessons from my life
 published: true
 description: A few lessons that I have learnt in my life
 permalink: /life-lessons/

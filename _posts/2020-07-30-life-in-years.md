@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Life in Years
+title: Life in years
 published: false
 description: My life in years 
 permalink: /life-in-years/
