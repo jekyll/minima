@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UI Design protips
+title: Neat UI Design tricks
 subtitle: Some neat tricks I wish I knew earlier
 tags: misc
 ---

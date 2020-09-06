@@ -43,21 +43,26 @@ Google Web Font inspiration in HTML & CSS. Somewhat similiar to Beautiful Web Ty
 [Moving Letters](https://tobiasahlin.com/moving-letters/)  
 Motion typography using anime.js.
 
+#### Websites for a single font
+
+[Universal Sans](https://universalsans.com/)  
+A variable sans serif that can be tweaked to match user's needs.
+
+[Comic Neue](http://comicneue.com/)  
+Comic Sans, but a little less wonky.
+
+#### Funny
+
+[Hellvetica](https://hellveticafont.com/)  
+A really badly kerned version of Helvetica.
+
+[I'm Comic Sans, asshole](https://www.mcsweeneys.net/articles/im-comic-sans-asshole)  
+Comic Sans hits back.
+
 #### Code Tools
 
 [Web Font Loader](https://github.com/typekit/webfontloader)  
 Load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-hosted web fonts.
 
 [opentype.js](https://opentype.js.org/)  
-I don't understand what this does, but it looks like more complex web font tasks can be achieved with this library.
-
-#### Websites for a single font
-
-[Universal Sans](https://universalsans.com/)  
-A variable sans serif that can be tweaked to match user's needs.
-
-[Hellvetica](https://hellveticafont.com/)  
-A really badly kerned version of Helvetica.
-
-[Comic Neue](http://comicneue.com/)  
-Comic Sans, but a little less wonky.
+Complex web font tasks where you need to access individual glyphs as shapes can be achieved with this library.
