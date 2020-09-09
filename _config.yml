@@ -1,11 +1,9 @@
-title: Your awesome title
+title: Grant Amann's Blog
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: gamann
+  email: gamann@usc.edu
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Grant Amann's Blog. I write my thoughts here.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: grantaamann
+    github:  gamann
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -25,8 +23,8 @@ minima:
     # instagram: jekyll
     # linkedin: jekyll
     # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+     youtube: Grant Amann
+     youtube_channel: UCsr3yp7jOiBZUVN2v0ffKOA
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
     # googleplus: +jekyll
