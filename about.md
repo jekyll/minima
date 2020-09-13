@@ -10,7 +10,7 @@ Hey!
 Welcome to my blog. I am Siddharth Jain. You can call me Sid.
 
 ##### **Here is my introduction in 3 bullets** 
- 
+
 - I grew up in New Delhi, India and studied engineering at IIT Guwahati
 - I currently live in London and work as a product manager at J.P.Morgan
 - In my spare time, I love to read, cook, write and spend time with my family
@@ -21,7 +21,7 @@ I started this blog to write about my ideas. I had been thinking about writing a
 
 My primary motivation to write is to get clarity of my own thoughts. Barry Ritholtz aptly summarises this in his post [Why I write?](https://ritholtz.com/2015/05/ritholtz-why-i-write/){:target="_blank"}  
 
-> I write mostly for myself. It’s a process, one that helps me to better understand my own thinking and ideas. Daniel Boorstein once said ‘*I write to figure out what I think*’. It’s a surprisingly accurate quote – until you sit down and put pen to paper (or fingers to keyboard) you have nothing. Not until you have a coherent work with a beginning, middle and end, AND a justifiable premise, AND the ability to defend it to other people’s attacks, you don’t really know what you think. Writing it out is a very, very different process than just having a half formed idea kicking around inside your head.
+> I write mostly for myself. It’s a process, one that helps me to better understand my own thinking and ideas. Daniel Boorstein, an American historian, once said ‘*I write to figure out what I think*’. It’s a surprisingly accurate quote – until you sit down and put pen to paper (or fingers to keyboard) you have nothing. Not until you have a coherent work with a beginning, middle and end, AND a justifiable premise, AND the ability to defend it to other people’s attacks, you don’t really know what you think. Writing it out is a very, very different process than just having a half formed idea kicking around inside your head.
 
 Like me, if you are somewhat interested in starting your own blog, I would recommend reading [this](https://andrewchen.co/professional-blogging/){:target="_blank"}, [this](https://www.nateliason.com/blog/start-a-blog){:target="_blank"} & [this](https://ofdollarsanddata.com/my-best-advice-to-prospective-bloggers/){:target="_blank"} before getting started.
 
@@ -39,7 +39,8 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 4. Measure your weight (already lost 7 kgs so far in 2020) 
 5. Read 20 pages of any book
 6. Spend 30 mins learning something new (e.g. design, coding, product, data landscape)
-7. Write down [750 words](https://750words.com/){:target="_blank"} (can be about anything e.g. reflection, gratitude, daily journal, ideas etc.)
+7. Recap highlights from your books, articles, notes etc. (using [Instapaper](http://instapaper.com/){:target="_blank"} & [Readwise](https://readwise.io/){:target="_blank"})
+8. Write down [750 words](https://750words.com/){:target="_blank"} (can be about anything e.g. reflection, gratitude, daily journal, ideas etc.)
 
 **Weekly habits** 
 
