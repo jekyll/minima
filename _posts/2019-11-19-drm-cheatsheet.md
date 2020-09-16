@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "Stats for Research Methods"
+subtitle: Research for <del>dummies<del> designers
 tags: slides
 permalink: /drm-cheatsheet
 thumbnail: https://gyanl.com/assets/thumbs/drm.png
 ---
 
-> What you need to know to pass the exam.
+![Class photo](https://gyanl.com/assets/talk-curves.jpeg)
+
+> Nobody even cracked a smile when I showed this slide. Photo courtesy of [Bhawna](https://www.behance.net/sonibhawna)
+
+You can download the slides here: [link](https://www.dropbox.com/s/05228sulizdxwqw/Stats%20for%20DRM%20v2.pdf?dl=0)
 
 # Types of Research
 
