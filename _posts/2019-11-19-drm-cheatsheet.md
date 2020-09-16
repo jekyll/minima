@@ -11,31 +11,31 @@ thumbnail: https://gyanl.com/assets/thumbs/drm.png
 
 > Nobody even cracked a smile when I showed this slide, which tells you just how stressed people were about this course. Photo courtesy of [Bhawna](https://www.behance.net/sonibhawna)
 
-In my third semester at IDC, I was a teaching assistant for the Design Research Methods (DRM) course. Students were expected to have prior knowledge of some statistical concepts, but a lot of students hadn't studied math or statistics in a few years and found the class hard to follow. I taught a supplementary class that started with an intuitive (I hoped) understanding of some of the basic ideas. You can download the slides I used here: [link](https://www.dropbox.com/s/05228sulizdxwqw/Stats%20for%20DRM%20v2.pdf?dl=0)
+In my third semester at IDC, I was a teaching assistant for the Design Research Methods (DRM) course. Students were expected to have prior knowledge of some statistical concepts, but a lot of students hadn't studied math or statistics in a few years and found the class hard to follow. I taught a supplementary class that started with an intuitive (I hoped) understanding of some of these basic ideas. You can get the slides I used here: [link](https://www.dropbox.com/s/05228sulizdxwqw/Stats%20for%20DRM%20v2.pdf?dl=0)
 
 
-# Types of Research
+## Types of Research
 
 - Qualitative
 - Quantitative
 
-# Types of Research Methods
+## Types of Research Methods
 
 - Observational - observe and record
 - Correlational - relationship b/w 2 variables
 - Experimental - consuct a lab experiment
 
-## Research question
+### Research question
 
 A question about an area of interest.
 Eg. Is the proportion of women in design higher than in engineering?
 
-## Hypothesis
+### Hypothesis
 
 A statement about the relationship between 2 variables.
 Eg. There is no difference between proportion of women in engineering and design.
 
-# Experiment Design
+## Experiment Design
 
 An experiment is conducted to find the effect of one variable on another.
 
@@ -87,15 +87,4 @@ We can say that B is better, but it's possible that B was just more generous wit
 
 Design 1 and 2 share some elements. If you learn to use 1, 2 is easier to use. Therefore if you use 1 first or 2 first will impact the ranking.
 
-Therefore, we give half of the people design 1 and
-
-# Distribution curves
-
-# Goodness of fit Tests
-
-How well does this distribution match an expected distribution?
-
-### Z test (Standard error of proportions test)
-
-- For binomial variables only
--
+Therefore, we give half of the people design 1 first and the other half design 2 first.
