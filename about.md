@@ -15,11 +15,13 @@ Welcome to my blog. I am Siddharth Jain. You can call me Sid.
 - I currently live in London and work as a product manager at J.P.Morgan
 - In my spare time, I love to read, cook, write and spend time with my family
 
+You can read about the 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}. I also summarise a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. 
+
 ##### **Why did I start this blog?**
 
 I started this blog to write about my ideas. I had been thinking about writing a blog for a long time but never really started until mid-2020. 
 
-My primary motivation to write is to get clarity of my own thoughts. Barry Ritholtz aptly summarises this in his post [Why I write?](https://ritholtz.com/2015/05/ritholtz-why-i-write/){:target="_blank"}  
+My primary motivation to write is to get clarity in my own thoughts. Barry Ritholtz aptly summarises this in his post [Why I write?](https://ritholtz.com/2015/05/ritholtz-why-i-write/){:target="_blank"}  
 
 > I write mostly for myself. It’s a process, one that helps me to better understand my own thinking and ideas. Daniel Boorstein, an American historian, once said ‘*I write to figure out what I think*’. It’s a surprisingly accurate quote – until you sit down and put pen to paper (or fingers to keyboard) you have nothing. Not until you have a coherent work with a beginning, middle and end, AND a justifiable premise, AND the ability to defend it to other people’s attacks, you don’t really know what you think. Writing it out is a very, very different process than just having a half formed idea kicking around inside your head.
 
@@ -53,13 +55,14 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 
 I tend to switch and read multiple books at a time. The ones I am currently reading are:
 
-1. The difficulty of being good: on the subtle art of dharma *by* Gurucharan Das
-2. High output management *by* Andy Grove
+1. Cosmos *by* Carl Sagan
+2. Shoe Dog: A Memoir by the Creator of Nike *by* Phil Knight
 
+You can find the full list of books that I have read and 3 key takeways for a subset of them [here](https://www.sid-jain.com/books/){:target="_blank"}.
 
 ##### **Contact**
 
-If you would like to discuss any ideas or have any feedback, or just want to have an informal chat reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+I would love to hear from you. Reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
 
 ##### **A word of thanks**
 

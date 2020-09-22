@@ -32,7 +32,7 @@ To feel accomplished, we need to do something that feels like growing or learnin
 
 Is there an activity that you undertake daily/weekly, which if you consistently do for a year, would change your life? Are you growing?
 
-If not, when will you start? Is yes, what activity is it? 
+If not, when will you start? If yes, what activity is it? 
 
 I would love to know. Shoot me an e-mail at j.siddharth24@gmail.com
 
