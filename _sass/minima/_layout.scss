@@ -135,6 +135,14 @@
   padding: 5px 5px 2px 0
 }
 
+.subscribe  {
+  color: $blue-color;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+
 .contact-list,
 .social-media-list {
   list-style: none;
@@ -225,7 +233,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $brand-color;
-  margin: 0px;
+  margin-bottom: 25px;
 }
 
 .post-link {
