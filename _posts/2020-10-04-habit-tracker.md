@@ -42,8 +42,8 @@ Here are 4 easy steps to get you started.
 
 3. Enter the date (preferably a Monday because the sheet also tracks weekly habits) 
 
-4. Enter 1 if you succeeded the habit, 0 if not 
+4. Enter 1 if you succeeded, 0 if not 
 
 ![Get started to track your habits](/assets/img/get-started-habit-tracker.png)  
 
-In case you get stuck, shoot me an e-mail at j.siddharth24@gmail.com. 
+In case you get stuck, shoot me an e-mail at j.siddharth24@gmail.com 
