@@ -2,60 +2,25 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<h2>How can we help?</h2>
 
-  {{ content }}
-
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-
+<div class="w3-container">
+    <a href="/sti-tests"><div class="jblock w3-blue w3-quarter">
+      <h3>Test for STI's</h3>
+      <p>Infections passed on through sex.</p>
+    </div></a>
+      <a href="/contraception"><div class="jblock w3-green w3-quarter">
+      <h3>Contraception</h3>
+      <p>Help to avoid becoming pregnant.</p>
+    </div></a>
+    <a href="/lgbt"><div class="jblock w3-amber w3-quarter">
+        <h3>Gay, Bi or Trans*</h3>
+        <p>Use any of our services or come to a specialist clinic.</p>
+      </div></a>
+      <a href="/hiv-care"><div class="jblock w3-red w3-quarter">
+      <h3>HIV Care</h3>
+        <p>Services for People who have HIV.</p>
+    </div></a>
 </div>
+<hr>
+{{ content }}
