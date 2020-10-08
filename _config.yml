@@ -17,6 +17,9 @@ defaults:
     type: products
   values:
     layout: product
+    welsh: ''
+    image: ''
+    short: ''
 - scope:
     path: ''
     type: page
