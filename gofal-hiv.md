@@ -1,7 +1,8 @@
 ---
-layout: cympage
 title: Gofal HIV
-permalink: /gofal-HIV/
+permalink: "/gofal-HIV/"
+layout: cympage
 ref: HIV
 lang: cym
 ---
+

@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Contraception
-permalink: /contraception/
+permalink: "/contraception/"
+layout: page
 ref: contraception
 lang: en
 ---
+

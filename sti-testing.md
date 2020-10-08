@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Test for STI's
-permalink: /sti-tests/
+permalink: "/sti-tests/"
+layout: page
 ref: STI
 lang: en
 ---
+

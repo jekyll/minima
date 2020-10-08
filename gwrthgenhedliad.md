@@ -1,7 +1,8 @@
 ---
-layout: cympage
 title: Gwrthgenhedliad
-permalink: /gwrthgenhedliad/
+permalink: "/gwrthgenhedliad/"
+layout: cympage
 ref: contraception
 lang: cym
 ---
+

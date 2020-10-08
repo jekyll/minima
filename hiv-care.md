@@ -1,7 +1,8 @@
 ---
-layout: page
 title: HIV Care
-permalink: /hiv-care/
+permalink: "/hiv-care/"
+layout: page
 ref: HIV
 lang: en
 ---
+

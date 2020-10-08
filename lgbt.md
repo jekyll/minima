@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Gay, Bi or Trans*
-permalink: /lgbt/
+permalink: "/lgbt/"
+layout: page
 ref: LGBT
 lang: en
 ---
+
