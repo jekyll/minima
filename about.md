@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: "/cym/about/"
+permalink: "/about/"
 layout: page
 ---
 
