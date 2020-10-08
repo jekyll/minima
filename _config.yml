@@ -1,6 +1,5 @@
 ---
 title: JNX.wales
-timezone: Europe/London
 collections:
   posts:
     title: Posts
@@ -11,6 +10,17 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "page"
 author:
   name: Jake Jenkins
   email: dev@jakejnx.com
