@@ -4,15 +4,42 @@ permalink: "/about/"
 layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+JakeJnx is a software development company based in South Wales. We provide custom app building, website design and support in Cardiff, Newport and Bristol. Jake Jenkins has experience in Healthcare and Education sectors including technical and managerial roles. We have been building websites and modern web applications over the past ten years.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## What Makes Us Different?
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+* Our staff are qualified with over 10 years experience
 
+* Our customers are our partners
 
-[jekyll-organization]: https://github.com/jekyll
+* We get things done, right, the first time
+
+* We are honest
+
+* We listen to our customers
+
+* We take pride in our work
+
+## Our History
+
+We provide Software Development and Web Design services in South Wales and Bristol.
+
+We have worked with many different technologies over time, some of which are;
+
+* HTML, CSS and SASS
+
+* C# and .net
+
+* MVC
+
+* REACT
+
+* Java and JavaScript
+
+* Frameworks: Bootstrap, Bulma and w3.css.
+
+* Content Management Systems; Drupal, Wordpress, Joomla, Jekyll, Grav
+
+* Oracle APEX, Application Express
+
+* Office 365 and Azure Active Director
