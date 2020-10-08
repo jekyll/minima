@@ -1,6 +1,6 @@
 ---
-title: Index
-date: 2020-10-08 10:45:00 +01:00
+title: Awesome Web Design and Fast Application Building
+date: 2020-10-08 09:45:00 Z
 layout: home
 ---
 
