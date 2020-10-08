@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Jake Jenkins
+  email: dev@jakejnx.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
@@ -18,10 +18,10 @@ description: 'Write an awesome description for your new site here. You can edit 
 '
 show_excerpts: false
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%-d %b, %Y"
   social_links:
-    twitter: jekyllrb
-    github: jekyll
+    twitter: jakejnx
+    github: jakejnx
 theme: minima
 plugins:
 - jekyll-seo-tag
