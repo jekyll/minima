@@ -10,4 +10,10 @@ We are a small Web Design and Web Application company based in south Wales.
 
 ## Why you should choose us?
 
-xxx
+* Building a website or app is a partnership and we love working with our customers.
+
+* We always go the extra mile.
+
+* We make the complex, simple.
+
+* We are experts and experienced in design and build.
