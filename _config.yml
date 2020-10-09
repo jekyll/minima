@@ -1,5 +1,6 @@
 ---
 title: JNX.wales
+timezone: UTC
 collections:
   posts:
     title: Posts
