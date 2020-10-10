@@ -1,6 +1,7 @@
 ---
 title: Products
 date: 2020-10-08 09:51:00 Z
+welsh: https://jnx.cymru/cynhyrchion
 layout: page
 ---
 
