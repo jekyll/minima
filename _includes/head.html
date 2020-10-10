@@ -39,14 +39,19 @@ main {
 }
 
 footer {
-  height: 100px;
+  min-height: 100px;
   padding: 20px;
 
+}
+
+.jnx-h {
+  padding-top: 20px;
 }
 
 .brand {
   margin-left: 6px;
   margin-top: 5px;
+  height: 70px;
 }
 
 .cym {
@@ -56,6 +61,64 @@ footer {
 
 #mainnav a {
   margin: 6px;
+}
+
+@media only screen and (max-width: 780px) {
+
+  header {
+  height: 90px;
+}
+
+header .w3-container {
+  padding: 0px !important;
+}
+
+header button {
+  margin-right: 10px;
+}
+
+.jnx-mm {
+  margin-top: -70px;
+  margin-right: 10px;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+main {
+  min-height: Calc(100vh - 140px);
+  padding: 15px;
+}
+
+footer {
+  min-height: 50px;
+  padding: 10px;
+
+}
+
+.jnx-h {
+  padding-top: 10px;
+}
+
+.brand {
+  margin-left: 12px;
+  margin-top: 8px;
+  height: 60px;
+}
+
+.cym {
+  padding-top: 0px;
+  padding-right: 5px;
+  }
+
+#mainnav a {
+  margin: 3px;
+}
+
+.cymicon{
+  display: none;
+}
+
 }
   </style>
 </head>
