@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Objektiv Mk3 W03 Regular;
+    src: url('/assets/ObjektivMk3W03-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Objektiv Mk3 W03 XBold;
+    src: url('/assets/ObjektivMk3W03-XBold.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: Objektiv Mk3 W03 Regular;
+    font-size: 1.2rem;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: Objektiv Mk3 W03 XBold;
+    color: #e6ac00;
+  }
+
+header {
+height: 120px;
+}
+
+main {
+min-height: Calc(100vh - 465px);
+padding: 15px;
+}
+
+footer {
+min-height: 100px;
+padding: 20px;
+
+}
+
+.jnx-h {
+padding-top: 20px;
+}
+
+.brand {
+margin-left: 6px;
+margin-top: 5px;
+height: 70px;
+}
+
+.cym {
+padding-top: 35px;
+padding-right: 14px;
+}
+
+#mainnav a {
+margin: 6px;
+}
+
+.social {
+  height: 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+
+header {
+height: 90px;
+}
+
+header .w3-container {
+padding: 0px !important;
+}
+
+header button {
+margin-right: 10px;
+}
+
+.jnx-mm {
+margin-top: -70px;
+margin-right: 10px;
+right: 0;
+position: absolute;
+z-index: 2;
+}
+
+main {
+min-height: Calc(100vh - 442px);
+padding: 15px;
+}
+
+footer {
+min-height: 50px;
+padding: 10px;
+
+}
+
+.jnx-h {
+padding-top: 10px;
+}
+
+.brand {
+margin-left: 12px;
+margin-top: 8px;
+height: 60px;
+}
+
+.cym {
+padding-top: 0px;
+}
+
+#mainnav a {
+margin: 3px;
+}
+
+.cymicon{
+display: none;
+}
+
+}
