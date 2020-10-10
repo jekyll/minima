@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2020-10-08 10:54:00 Z
+welsh: https://jnx.cymru/cysylltwch
 ---
 
 Phone:
