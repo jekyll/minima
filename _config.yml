@@ -24,6 +24,7 @@ defaults:
     path: ''
     type: page
   values:
+    welsh: ''
     layout: page
 author:
   name: Jake Jenkins
