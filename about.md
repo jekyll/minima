@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+welsh: https://jnx.cymru/am/
 layout: page
 ---
 
