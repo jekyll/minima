@@ -4,6 +4,13 @@ layout: default
 
 <h2>What we do?</h2>
 
-<p>list of products</p>
+<ul>
+    {% for product in site.products %}
+      <li>
+        <a href="{{ product.url }}">{{ product.title }}</a>
+  <p>{{ product.short }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 <hr>
 {{ content }}
