@@ -1,16 +1,21 @@
 ---
 layout: default
 ---
-
 <h2>What we do?</h2>
-
-<ul>
+<p>
     {% for product in site.products %}
-      <li>
-        <a href="{{ product.url }}">{{ product.title }}</a>
-  <p>{{ product.short }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-<hr>
+  <div class="w3-container w3-cell w3-mobile w3-third" style="max-width: 500px; min-width: 400px;">
+    <a href="{{ product.url }}" style="text-decoration: none;">
+    <div class="w3-card-4">
+        <img src="/uploads/img/thumb/{{ product.image }}" alt="Alps" class="w3-image" style="min-height: 350px;">
+        <div class="w3-container w3-center">
+          <h3>{{ product.title }}</h3>
+        </div>
+      </div></a>
+  </div>
+  {% endfor %}
+</p>
+<p>&nbsp;</p>
+<div class="w3-container">
+  <p>&nbsp;</p>
 {{ content }}

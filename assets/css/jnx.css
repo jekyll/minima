@@ -64,6 +64,11 @@ footer a {
   text-decoration: none;
 }
 
+.content {
+  max-width: 1400px;
+  margin: auto;
+}
+
 @media only screen and (max-width: 780px) {
 
 header {

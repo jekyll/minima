@@ -1,6 +1,5 @@
 ---
 title: JNX.wales
-timezone: UTC
 collections:
   posts:
     title: Posts
@@ -10,6 +9,9 @@ collections:
     output: true
   uploads:
     title: Uploads
+    output: true
+  pages:
+    title: Pages
     output: true
 defaults:
 - scope:
@@ -22,18 +24,14 @@ defaults:
     short: ''
 - scope:
     path: ''
-    type: page
+    type: pages
   values:
     welsh: ''
     layout: page
 author:
   name: Jake Jenkins
-  email: dev@jakejnx.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
+  email: dev@jnx.wales
+description: 'We are a small Web Design and Web Application company based in south Wales that make awesome websites and business apps.'
 show_excerpts: false
 minima:
   date_format: "%-d %b, %Y"
