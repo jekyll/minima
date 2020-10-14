@@ -1,6 +1,10 @@
 ---
 title: JNX.wales
+timezone: UTC
 collections:
+  pages:
+    title: Pages
+    output: true
   posts:
     title: Posts
     output: true
@@ -9,9 +13,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  pages:
-    title: Pages
     output: true
 defaults:
 - scope:
@@ -31,7 +32,8 @@ defaults:
 author:
   name: Jake Jenkins
   email: dev@jnx.wales
-description: 'We are a small Web Design and Web Application company based in south Wales that make awesome websites and business apps.'
+description: We are a small Web Design and Web Application company based in south
+  Wales that make awesome websites and business apps.
 show_excerpts: false
 minima:
   date_format: "%-d %b, %Y"
