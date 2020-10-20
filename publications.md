@@ -9,6 +9,7 @@ title: Related Publications
 
 ### ASK 2018
 
+- Donghoon Chang, Nilanjan Datta, Avijit Dutta, Bart Mennink, Mridul Nandi, Somitra Sanadhya and Ferdinand Sibleyras: *Release of Unverified Plaintext: Tight Unified Model and Application to ANYDAE*, **FSE 2019**.
 - Subhadeep Banik, Jannis Bossert, Amit Jana, Eik List, Stefan Lucks, Willi Meier, Mostafizar Rahman, Dhiman Saha, Yu Sasaki: *Cryptanalysis of ForkAES*, **ACNS 2019**.
 - Shoichi Hirose, Yu Sasaki, Hirotaka Yoshida: *Lesamnta-LW Revisited: Improved Security Analysis of Primitive and New PRF Mode*, **ACNS 2020**.
 
