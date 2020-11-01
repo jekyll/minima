@@ -9,7 +9,6 @@ Inner compass is a list of ideas that guide me. It is a collection of quotes, su
 
 Most ideas listed in this internal compass are not mine. They have been borrowed from many authors. I am truly grateful for their work.  This post is work in progress and continues to evolve with my thoughts.
 
-
 #### **Decision Making**
 
 - **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
@@ -53,10 +52,13 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Perfection is a myth.** Perfection can be enemy of good. Progress is more important than perfection. Make a choice and move on. Just ship. Done > Perfect.  
 
-- **Look out for 90/10 solutions.**  Look for ways in which you could do 90% of the work with 10% of the effort.  
+- **Look out for 90/10 solutions.** Look for a way in which you can accomplish 90% of what you want with only 10% of the work/effort/time. If you search hard for it, there is almost always a 90/10 solution available. Most importantly, a 90% solution to a real customer problem which is available right away, is much better than a 100% solution that takes ages to build.
 
 - **Focus on a few things.** Eliminate things that have little to no payoff. Every minute spent on a task that little or no payoff takes up time, energy, and space that could be put to work for a more important task. Don't let distractions let you half ass things. 
 
+- **Focus on what you control.** Leave the rest to fate. God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference. 
+
+- **Associate growth with doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books. Doing something is better than doing nothing.
 
 
 #### **People**
@@ -102,7 +104,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Be an optimist.** Optimism should be your default strategy. Pessimism is intellectually seductive and the arguments always sound smarter. But it leads you nowhere. No one is excited by pessimists. No one wants to really follow a pessimist.
 
-- **Stay away from negative people.** Vibes are contagious.
+- **Stay away from negative people.** Vibes are contagious. Surround yourself with people who increase your energy and run far away from those who drain it. 
 
 - **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter what you do, there will always be someone who finds fault in it. Criticism and negativity from difficult people is like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 

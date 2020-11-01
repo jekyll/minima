@@ -12,42 +12,73 @@ I am 11 kgs lighter...
 
 ![Average Monthly Weight since July 2019](/assets/img/monthly-weight.png)  
 
+I am 11 kgs lighter... 
+
+![Average Monthly Weight since July 2019](/assets/img/monthly-weight-1.png)  
+
+I am 11 kgs lighter... 
+
+![Average Monthly Weight since July 2019](/assets/img/monthly-weight-2.png)  
+
+I am 11 kgs lighter... 
+
+![Average Monthly Weight since July 2019](/assets/img/monthly-weight-3.png)  
+
+I am 11 kgs lighter... 
+
+![Average Monthly Weight since July 2019](/assets/img/monthly-weight-4.png)  
+
+
+I am 11 kgs lighter... 
+
+![Average Monthly Weight since July 2019](/assets/img/monthly-weight-5.png)  
+
+
 ..and 4 years younger
 
 ![Average Monthly Metabolic Age since July 2019](/assets/img/monthly-age.png)
 
-This is a post about what I learnt in this journey? 
+This is a post about what I learnt in this journey? What works?  What doesn't? 
 
-Before I go ahead, a disclosure. I am neither a doctor, nor a  fitness trainer. I am just a simple guy who lost 11 kgs weight. Take any of what I say with a pinch of salt. 
+Before I go ahead, a disclosure. I am neither a doctor, nor a fitness trainer. I am just a simple guy who lost 11 kgs weight. Take any of what I say with a pinch of salt. 
 
 #### **A simple equation that governs change in body weight** 
 
-*Change in Body Weight = Total Calories In - Total Calories Out*
+*Change in Body Weight = Total Energy In - Total Energy Out*
 
 You lose weight if Total Calories in < Total Calories Out i.e. you take in lower number of calories than you spend. You gain weight Total Calories In > Total Calories Out i.e. you take in more calories than you spend. It's that simple. 
 
+Now to lose you need to both control your calorie in rate and and increase your calaroire out rate. Now to lose weight, you need to control your intake while increasing the calorie out/burn rate.  
 
-#### **Control your calorie intake** 
 
-- Reduce high calorie food.. Dairy for example.. 
-- Now to lose weight, you need to control your intake while increasing the calorie out/burn rate.  Consume foods that have high fibre or high protein. They help you feel fuller for a longer duration. Increase your Protein and fibre Intake. Decrease the amound of carbs in your food.  
+#### **Decrease your calorie in rate** 
 
+The only way to cut down your calories are to focus on your food. A few things that have worked for me are are: 
+
+- Reducing high calorie food. Dairy for example.. 
+- Consume foods that have high fibre or high protein. They help you feel fuller for a longer duration. 
+- Decrease the amound of carbs in your food. Carbs make you full for longer,
+- Intermittent Fasting   
 - **Cook your own food.** The surest way to control what you eat is to cook it yourself. You can't be 100% sure of the materials or ingredients that someone else puts in your food. Give restaruants food a pass. Cut outside food. You don't know what ingredients do restaurants use.. cut them out.  
 - Focus on your diet. Reduce outside foodReduce dairy. Diet matters more than exercise. 
-- Few hours before gap. 
-- **Try Fasting**
+- Giving food ample time to digest. Few hours before gap. 
 
 #### **Increase your calorie out rate**
 
-- Increase your metabolism 
+The other part is how to increase your calorie out rate. 
 
-- Exercise. 
+- Increase your metabolism rate. 
 
-- Build muscle.
+- Exercise. Do an exercise that works for you.
 
+- Build muscle. Increasese BMR.
+
+Sleep well.
   
 
-#### **Other Tips Motivation Puzzle**
+#### **Consistency is the key**
+
+- This is something that would not happen in the short term. It is something that will take a long time for things to happen.  
 
 - Long Term. Weight loss for me wasn't a straight line.. there were always uphills and downhill.. it didn't even move for maybe 3 months. It is not a sprint.. it is a marathon. I tried Keto but it was something that I couldn't do for the long term being a vegetarian..
 
@@ -56,24 +87,19 @@ You lose weight if Total Calories in < Total Calories Out i.e. you take in lower
 - Consistency. Consistency is the key/ Consistency. Being consistent was key. Be it Diet Consistence in Diet. Consistency in Exercise. I tried losing weight for 6 years.. but soemthing about this year just worked. Maybe it was the pandemic. 
 
 
-- Exercise that works for you..
-
 - Measure what matters.. Measure your weigjt.. what gets measured gets manager.. everday mesasure.. consistencey check marks.. etc. 
 
--  Motivation angle 
-
-- Follow a routine. Jess Sims is our favourite insturctor.. 
+-  Follow a routine. Jess Sims is our favourite insturctor.. 
 
 - Follow a routine. Jess Sims is our favourite insturctor..
 
 
 
-What didn't work for me?
+**What didn't work for me?**
 
 
 
-
-Things I was doing wrong? 
+**Things I was doing wrong?** 
 
 
 

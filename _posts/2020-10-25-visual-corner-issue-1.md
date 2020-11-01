@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Corner — Edition 1
-published: true
+published: false
 description: 
 permalink: /visual-corner-edition-1/
 ---

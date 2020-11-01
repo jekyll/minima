@@ -15,7 +15,7 @@ Welcome to my blog. I am Siddharth Jain. You can call me Sid.
 - I currently live in London and work as a product manager at J.P.Morgan
 - In my spare time, I love to read, cook, write and spend time with my family
 
-You can read about the 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}. I also summarise a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. 
+You can read about the 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}. I also summarise a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. You can find more about what guides me [here](https://www.sid-jain.com/inner-compass/){:target="_blank"}. 
 
 ##### **Why did I start this blog?**
 
@@ -56,13 +56,13 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 I tend to switch and read multiple books at a time. The ones I am currently reading are:
 
 1. Cosmos *by* Carl Sagan
-2. Shoe Dog: A Memoir by the Creator of Nike *by* Phil Knight
+2. Liar's Poker *by* Michael Lewis
 
 You can find the full list of books that I have read and 3 key takeways for a subset of them [here](https://www.sid-jain.com/books/){:target="_blank"}.
 
 ##### **Contact**
 
-I would love to hear from you. Reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+I host regular [coffee hours](https://calendly.com/jsiddharth24/coffee-hours-with-sid){:target="_blank"} if you want to chat about anything. If you would like to send an e-mail instead, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
 
 ##### **A word of thanks**
 
@@ -92,3 +92,4 @@ I would also like to thank the noun project for their icons. In particular, I wo
 
 ##### **Disclaimer** 
 All opinions expressed in this blog are solely my own.
+
