@@ -23,7 +23,7 @@ You can use some ASCII symbols like the [interpunct](https://en.wikipedia.org/wi
 
 #### Icon packs
 
-Using an icon pack saves a lot of time, and even defines the look and feel of your app to an extent. Google's Material Design icons and Apple's SF Icons are the default for Android and iOS respectively. Other icon packs you can look at include Feather and Font Awesome.
+Using an icon pack saves a lot of time, and even defines the look and feel of your app to an extent. Google's Material Design icons and Apple's SF Icons are the default for Android and iOS respectively. Other icon packs you can look at include [Feather](https://feathericons.com/), [Phosphor](https://phosphoricons.com/) and [Font Awesome](https://fontawesome.com/).
 
 #### Brand Icons
 
