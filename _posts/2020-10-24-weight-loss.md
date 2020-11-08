@@ -6,150 +6,91 @@ description: There are multiple apps that help you track your habits. But none o
 permalink: /weight-loss/
 ---
 
-It is July 2019. I weigh 82 Kgs. I am obese. I am trying to lose weight now for the 8th year running. Finally something worked.   weighed 82 kgs. I was obese. I no longer am. For the first time in 8 years, my weight is back to normal. 
-
-I am 11 kgs lighter... 
+Compared to last year, I am now 11 kgs lighter... 
 
 ![Average Monthly Weight since July 2019](/assets/img/monthly-weight.png)  
 
-I am 11 kgs lighter... 
-
-![Average Monthly Weight since July 2019](/assets/img/monthly-weight-1.png)  
-
-I am 11 kgs lighter... 
-
-![Average Monthly Weight since July 2019](/assets/img/monthly-weight-2.png)  
-
-I am 11 kgs lighter... 
-
-![Average Monthly Weight since July 2019](/assets/img/monthly-weight-3.png)  
-
-I am 11 kgs lighter... 
-
-![Average Monthly Weight since July 2019](/assets/img/monthly-weight-4.png)  
-
-
-I am 11 kgs lighter... 
-
-![Average Monthly Weight since July 2019](/assets/img/monthly-weight-5.png)  
-
-
-..and 4 years younger
+...and 4 years younger
 
 ![Average Monthly Metabolic Age since July 2019](/assets/img/monthly-age.png)
 
-This is a post about what I learnt in this journey? What works?  What doesn't? 
+This is a post about what worked for me? 
 
-Before I go ahead, a disclosure. I am neither a doctor, nor a fitness trainer. I am just a simple guy who lost 11 kgs weight. Take any of what I say with a pinch of salt. 
+Before I go ahead, a disclosure. I am neither a doctor, nor a fitness trainer. Take any of what I say with a pinch of salt. 
 
-#### **A simple equation that governs change in body weight** 
+#### **Simple equation that governs weight loss** 
 
-*Change in Body Weight = Total Energy In - Total Energy Out*
+Let me introduce you to a simple equation that governs weight loss.
 
-You lose weight if Total Calories in < Total Calories Out i.e. you take in lower number of calories than you spend. You gain weight Total Calories In > Total Calories Out i.e. you take in more calories than you spend. It's that simple. 
+**_Loss in body weight = Total Energy Out - Total Energy In_**
 
-Now to lose you need to both control your calorie in rate and and increase your calaroire out rate. Now to lose weight, you need to control your intake while increasing the calorie out/burn rate.  
+You lose body weight when you spend more energy than you consume i.e. Total Energy Out > Total Energy In. You gain weight when you consume more energy than you spend i.e. Total Energy Out < Total Energy In. 
+
+Losing weight is not complex. To lose weight, you simply need to decrease your energy in rate and increase your energy out rate.  
+
+#### **How to decrease your energy in rate?** 
+
+Here are a few things that helped me decrease my energy in rate: 
+
+- **Intermittent Fasting** — Reduce the number of hours during which you consume food. I followed 16/8 intermittent fasting i.e. 16 hour fasting followed by an 8 hour interval where I ate food. Naturally, having a smaller window during which I ate food meant that I consumed less calories.  
+
+- **Take in more protein & fibre, cut out the carbs** — Protein helps you feel fuller for longer. Fibre helps in digestion. Increase their quantity in your meeals. Carbohydrates make you feel lousy. They make you feel hungry fast. Decrease their quantity. Ultimately, you'll need to maintain a good balance. A quick google search will help you with nutrition facts. 
+
+- **Reducing calorie desnse foods** — Some foods have much higher calories than your realize. One if them is dairy. Though tasty, it is very calorie dense. Reduce your consumption of food that are very calorie dense. 
+
+- **Cooking your own food.** The surest way to control what you eat is to cook it yourself. You can't be 100% sure of the materials or ingredients that someone else puts in your food. Give restaruants food a pass. Cut outside food. You don't know what ingredients do restaurants use.. cut them out.  
 
 
-#### **Decrease your calorie in rate** 
+#### **How to increase your energy out rate?**
 
-The only way to cut down your calories are to focus on your food. A few things that have worked for me are are: 
+Here are a few thing that helped me increase my energy out rate: 
 
-- Reducing high calorie food. Dairy for example.. 
-- Consume foods that have high fibre or high protein. They help you feel fuller for a longer duration. 
-- Decrease the amound of carbs in your food. Carbs make you full for longer,
-- Intermittent Fasting   
-- **Cook your own food.** The surest way to control what you eat is to cook it yourself. You can't be 100% sure of the materials or ingredients that someone else puts in your food. Give restaruants food a pass. Cut outside food. You don't know what ingredients do restaurants use.. cut them out.  
-- Focus on your diet. Reduce outside foodReduce dairy. Diet matters more than exercise. 
-- Giving food ample time to digest. Few hours before gap. 
+- **Intermitten Fasting** - According to some studies, Intermittent fasting has shown to increase the rate of metablosim in the body. So your body consumer more food naturally to keep it running. 
 
-#### **Increase your calorie out rate**
+- **Exercise** - I exercised routinely so I spent calories on that. -  Follow a routine. Jess Sims is our favourite insturctor.. 
 
-The other part is how to increase your calorie out rate. 
+- **Increaseing Muscle Mass** - While exercising, I focused on exercised that helped increase my muscle mass. As muscles, consume more energy . Thsi increase in muscle continued to an increase in energy that got out. 
 
-- Increase your metabolism rate. 
+- **Give food ample time to digest.** Few hours before gap. 
 
-- Exercise. Do an exercise that works for you.
 
-- Build muscle. Increasese BMR.
+#### **A few things to keep in mind**
 
-Sleep well.
-  
-
-#### **Consistency is the key**
-
-- This is something that would not happen in the short term. It is something that will take a long time for things to happen.  
-
-- Long Term. Weight loss for me wasn't a straight line.. there were always uphills and downhill.. it didn't even move for maybe 3 months. It is not a sprint.. it is a marathon. I tried Keto but it was something that I couldn't do for the long term being a vegetarian..
+- **Consistency is the key** - for me this was not a one week, one month or even a year long battle. I was trying to lose weight for more than 6 years. I finally got to lose it in year 6. There are going to be ups and downs.. consistency is the key. You need to stick to plan. - Long Term. Weight loss for me wasn't a straight line.. there were always uphills and downhill.. it didn't even move for maybe 3 months. It is not a sprint.. it is a marathon. I tried Keto but it was something that I couldn't do for the long term being a vegetarian..
+- Consistency. Consistency is the key/ Consistency. Being consistent was key. Be it Diet Consistence in Diet. Consistency in Exercise. I tried losing weight for 6 years.. but soemthing about this year just worked. Maybe it was the pandemic. 
 
   ![Granular weight details since July 2019](/assets/img/granular-weight.png)
 
-- Consistency. Consistency is the key/ Consistency. Being consistent was key. Be it Diet Consistence in Diet. Consistency in Exercise. I tried losing weight for 6 years.. but soemthing about this year just worked. Maybe it was the pandemic. 
+- **Sleep well.** 
 
+- **Measure what matters** - One thing that helped me be motivated was that I measured my weight every day. What gets measured gets managed. So this is something that you need to do as well. What I also did was use a habit tracker excel sheet to track my exercise and weight mesuring regime. 
 
-- Measure what matters.. Measure your weigjt.. what gets measured gets manager.. everday mesasure.. consistencey check marks.. etc. 
+- **Common Sense** - You know what is right and good for your body and what is not. Just ask yourself. A day or two is ok but don't do a lot. 
 
--  Follow a routine. Jess Sims is our favourite insturctor.. 
-
-- Follow a routine. Jess Sims is our favourite insturctor..
-
-
-
-**What didn't work for me?**
-
-
-
-**Things I was doing wrong?** 
-
-
+In the end, listen to your body. What worked for me might not work for you. Take action. 
 
 In the end, I would be lying if I told you that it was easy. There are no shortcuts. The equation is simple, the work is hard.  
 
 This post is about what worked for me and what might work for you..
 
-For long, I health is a top priority. I outline that in my Inner compass.. wanted to improve my weight.. but couldn't get to it..  untill I stumbled upon this simple equation Jeff Caverliar teached in his workouts.. 
+Motivation - my wife... 
 
-Both my mother, and wife really wanted me to lose weight.. but not any longer.. 
+- Me and my wife are huge fans of Jess Sims. She is the best fitness instructor on the planet. I and my wide We start our day with her body-weight strength classes on Peloton are my absolute favourite. Thanks to them and intermittent fasting I have already lost 8kgs this year. In her classes, she routinely shares few words of wisdom Today I wanted to share with you 10 lessons from her workout that are as relevant 
 
-I lost weight because my Calories out was less than Calories In.. There are no magic bullets here.. Every Weight loss technique relies on that simple equitation. 
-
-In the end, what worked for me might not work for you. But give it a try! 
-
-It is not a smooth journey .. there are going to be ups and downs. 
-
-
+As I mentioned losign wirght is not complex, it's simple. But it's not easy. 
 
 - Me and my wife are huge fans of Jess Sims. She is the best fitness instructor on the planet. I and my wide We start our day with her body-weight strength classes on Peloton are my absolute favourite. Thanks to them and intermittent fasting I have already lost 8kgs this year. In her classes, she routinely shares few words of wisdom Today I wanted to share with you 10 lessons from her workout that are as relevant during the fitness class as much they are in the real world:
-- Many of you might have come across the book Atomic Habits by James Clear. James' writing is the gold standard for everything related to habits. 
-
-In his book, James makes the case for [tiny consistent habits](https://jamesclear.com/habits){:target="_blank"} that compound and chan  
-
-#### **A tool that can change your life**
-
-[Here is the link.](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
-
-![Excel sheet that tracks your habits](/assets/img/sample-habit-tracker.png)  
-
-It is an excel sheet that you can use to track your habits. Both I and my wife have been using it for months. It has worked wonders.
-
-#### **3 features worth highlighting** 
-
-Before creating this sheet, I tried many apps to track my habits. Unfortunately, none of them worked. I really wanted my habit tracker to have these 3 features.  
-
-1. **Flexibility —**  Ability to keep track of daily, weekly, and monthly habits. Ability to modify, delete, or add as many habits as you want. Access to the tracker on any device at any time 
-2. **Analytics —**  Ability to analyze raw data (eg. hit ratios daily and over time)  
-3. **Notes —** Ability to add customized notes on your habits
-
-The excel sheet has all these features. 
-
-1. Make a copy of the [sheet](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
-
-2. Start by listing down the habits that you want to track
-
-3. Enter the date (preferably a Monday because the sheet also tracks weekly habits) 
-
-4. Enter 1 if you succeeded, 0 if not 
-
-![Get started to track your habits](/assets/img/get-started-habit-tracker.png)  
-
-In case you get stuck, shoot me an e-mail at j.siddharth24@gmail.com 
+- No ego, amigo.
+- Scale it down. No ego, amigo.
+- The way you do anything is the way you do everything.
+- Last set. Best set.
+- Don't cheat it. The way you do anything is the way you do everything. Don't half ass stuff.
+- I am not sorry
+- Don't wish for things to be over. Life is too short. Enjoy the moment. Even the tough ones. Be present. They make you stronger.
+- Don't sell yourself short.
+- The little things make all the difference. It is not the big stuff.
+- Showing up each day.
+- Don't quit. Modifying is always ok. Quitting is not.
+- Whether during workout or in life don't quit on things. Modify. Pivot. Find a way to get to the finish line.
+- Earn your recovery. It is so much better when it is earned.
+- Move fast but safely and efficiently.
