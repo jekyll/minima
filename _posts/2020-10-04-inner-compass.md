@@ -13,17 +13,17 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
 
-- **Minimize long term regret.**  Will you care about it in the future? One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. When making a decision project yourself forward to age 80 and say, "Okay, now I'm looking back on my life. I want to minimize the number of regrets I have".  
+- **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. When making a decision project yourself forward to age 80 and say, "Okay, now I'm looking back on my life. I want to minimize the number of regrets I have".  
 
 - **Optimize for speed.** If a decision is reversible, the biggest risk is moving too slow. If a decision is irreversible, the biggest risk is moving too fast.
 
-- **Over and above all, make decisions.** There is nothing worse than sitting on decision that needs to made. Get better at it. Give yourself +2 for every right decision, 0 for every wrong decision, -2 for every decision that you don't make. Write down the pros and cons of the decisions and make it. 
+- **Listen to your gut.** Don’t ignore your instincts. Believe in yourself. Sometimes your intuition already knows what is right.  Don’t let the noise of other opinions drown your own inner voice. Have the courage to follow your heart and intuition, they somehow already know what you truly want to become. Everything else is secondary. 
 
-- **Listen to your gut.** Don’t ignore your instincts. Believe in yourself. Sometimes your intuition already knows what is right.  Don’t let the noise of other opinions drown your own inner voice. And most important, have the courage to follow your heart and intuition, they somehow already know what you truly want to become. Everything else is secondary. 
-
-- **Reduce decision fatigue.** Decision making ability can get fatigued when you use it over and over again. Take the time to plan out, simplify, and automate the repeated decisions. Automating decisions will free up your mental mental space and give you more time for making important choices.  
+- **Reduce decision fatigue.** Decision making ability can get fatigued when you use it over and over again. Take the time to plan out, simplify, and automate the repeated decisions. Automating decisions will free up your mental space and give you more time for making important choices.  
 
 - **Analyse decisions.** What did you know before hand? What didn’t you know before hand? What were the range of possibilities and what outcome you expected? What happened? 
+
+- **Over and above all, make decisions.** There is nothing worse than sitting on decision that needs to made. Get better at it. Give yourself +2 for every right decision, 0 for every wrong decision, -2 for every decision that you don't make. Write down the pros and cons of the decisions and make it. 
 
 #### **Goals**
 
@@ -31,12 +31,12 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Complete it or kill it.** If something is important to you, complete it. If not, kill it. Don't be in the middle. Fill your life with goals that are worth finishing and eliminate the rest.
 
-- **Set the agenda.** Or someone else will. If you don’t decide what you want for yourself someone else will. Don’t waste your time living someone else’s life. You need to be proactive with what you want.
+- **Set the agenda.** Or someone else will. If you don’t decide what you want for yourself someone else will. Don’t waste your time living someone else’s life. You need to be proactive with what you want. Own your career and your life. 
 
 
 #### **Self Reflection**
 
-- **Be original.** You should strive for an original relation to the universe. Not a novel relation, just your own. Being in a rat race is the worst thing you can do to yourself. Because even if you win the race, you will still be a rat. There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you.
+- **Be original.** You should strive for an original relation to the universe. Not a novel relation, just your own. Being in a rat race is the worst thing you can do to yourself. Because even if you win the race, you will still be a rat. There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you. Be yourself, because everyone else is already taken. 
 
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
@@ -45,7 +45,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Business**
 
-- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks everyday. And people buy all those things too. In other industries, we don't have this idea that you have the be the only water bottle. We don't have this idea that, someone's already invested the water bottle, there can't be another one, but in software, we very often have this idea, of well, there already a social media software.  
+- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks everyday. And people buy all those things too. In other industries, we don't have this idea that you have to be the only water bottle. We don't have this idea that, someone's already invested the water bottle, there can't be another one, but in software, we very often have this idea, of well, there already a social media software.  
 
 
 #### **Productivity**
@@ -84,7 +84,6 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - **It is ok to not finish a book.** Don't grind through pages and pages of books. Read what you like. There are more books published every year than you can even read in your entire lifetime. It is ok to quit on a book and move to a different one.  
 
 
-
 #### **Moral Values**
 
 - **Do the right thing.** No matter what don't compromise on your ethics. You would not repent it. Always do the right thing. 
@@ -98,13 +97,20 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Have Patience.** No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women pregnant.
 
+- **Take time to respond.** 
+
+#### **Emotions**
+
+- **Being angry is never the answer.** Control your anger. So it does not control you. Anger seldoms bring you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breath in. Let it go. Act once your anger subsides.**  
+
+
 #### **Taking care of yourself**
 
 - **Make health your top priority.** There is nothing more important than your health. There is no wealth, no fame, no power without good health. Health precedes everything else.
 
 - **Be an optimist.** Optimism should be your default strategy. Pessimism is intellectually seductive and the arguments always sound smarter. But it leads you nowhere. No one is excited by pessimists. No one wants to really follow a pessimist.
 
-- **Stay away from negative people.** Vibes are contagious. Surround yourself with people who increase your energy and run far away from those who drain it. 
+- **Stay away from negative people.** Vibes are contagious. Surround yourself with people who increase your energy. Run far away from those who drain it (Vampires). 
 
 - **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter what you do, there will always be someone who finds fault in it. Criticism and negativity from difficult people is like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 

@@ -7,6 +7,13 @@ published: true
 
 This page is a collection of charts, images, data points and visuals that I find interesting.
 
+#### **Weekly Covid Cases Heatmap**
+
+![Weekly Covid Cases Heatmap](/assets/img/Weekly-Covid-Cases-Heatmap.png) 
+<br/>
+<br/>
+
+
 #### **90% of the human population lives in the northern hemisphere**
 
 ![Percent of human population by hemisphere](/assets/img/Percent-of-human-population-hemisphere.png) 
