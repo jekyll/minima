@@ -7,6 +7,13 @@ published: true
 
 This page is a collection of charts, images, data points and visuals that I find interesting.
 
+
+#### **Why do we need a strategy?**
+
+![Why do we need a product strategy?](/assets/img/Why-do-we-need-a-strategy.png) 
+<br/>
+<br/>
+
 #### **Weekly Covid Cases Heatmap**
 
 ![Weekly Covid Cases Heatmap](/assets/img/Weekly-Covid-Cases-Heatmap.png) 
