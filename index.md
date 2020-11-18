@@ -7,7 +7,7 @@
 #
 layout: home
 ---
-<!-- ![under_cons](https://media.giphy.com/media/hvN3SkNMRSB7mZa8JL/giphy.gif) -->
-Hi, my name is Michael Salam and I am a PhD candidate at National Institute of Technology, Silchar, India. My research interest is primarily on Natural Language Processing for low resource languages.
 
+Hi, my name is Michael Salam and I am a PhD candidate at National Institute of Technology, Silchar, India. My research interest is primarily on Natural Language Processing for low resource languages.
+![under_cons](https://media.giphy.com/media/hvN3SkNMRSB7mZa8JL/giphy.gif)
 
