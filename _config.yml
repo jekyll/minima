@@ -54,7 +54,7 @@ header_pages:
 - contact.md
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 
 plugins:
 #  - jekyll-feed
