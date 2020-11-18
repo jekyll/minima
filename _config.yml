@@ -61,7 +61,6 @@ plugins:
  - jekyll-seo-tag
 
 # added on 18-11-2020 
-plugins: ['jekyll/scholar']
-
-scholar:
-  style: modern-language-association
+# plugins: ['jekyll/scholar']
+# scholar:
+#   style: modern-language-association
