@@ -50,6 +50,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+- publications.md
 - contact.md
 
 # Build settings
@@ -58,3 +59,9 @@ theme: jekyll-theme-cayman
 plugins:
 #  - jekyll-feed
  - jekyll-seo-tag
+
+# added on 18-11-2020 
+plugins: ['jekyll/scholar']
+
+scholar:
+  style: modern-language-association
