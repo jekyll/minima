@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+# layout: default
 ---
 
 Hi, my name is Michael Salam and I am a PhD candidate at National Institute of Technology, Silchar, India. My research interest is primarily on Natural Language Processing for low resource languages.
