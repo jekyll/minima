@@ -5,5 +5,8 @@ gemspec
 
 gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
 
-# added on 18-11-2020
-# gem 'jekyll-scholar', group: :jekyll_plugins
+# added on 19-11-2020
+gem 'jekyll-scholar', group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-theme-cayman'
+# gem 'jekyll-twitter-plugin'

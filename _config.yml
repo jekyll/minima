@@ -54,12 +54,15 @@ header_pages:
 - contact.md
 
 # Build settings
-theme: minima
+# theme: minima
+
+theme: jekyll-theme-minimal # added on 19-11-2020
 
 plugins:
 #  - jekyll-feed
  - jekyll-seo-tag
-
+ - jekyll-gist # added on 19-11-2020 
+#  - jekyll-twitter-plugin # added on 19-11-2020 
 # added on 18-11-2020 
 # plugins: ['jekyll/scholar']
 # scholar:
