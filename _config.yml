@@ -50,11 +50,12 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+- about_me.md
 - publications.md
 - contact.md
 
 # Build settings
-theme: jekyll-theme-cayman # added on 19-11-2020
+theme: minimal-mistakes-jekyll # added on 19-11-2020
 
 plugins:
 #  - jekyll-feed

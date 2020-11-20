@@ -5,3 +5,13 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+@import "minimal-mistakes/skins/default"; // Added on 19-11-2020
+
+  .site-title::before {
+    content: url("../logo.png");
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    top: 5px;
+    }
