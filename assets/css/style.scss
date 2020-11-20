@@ -6,7 +6,7 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-@import "minimal-mistakes/skins/default"; // Added on 19-11-2020
+// @import "minimal-mistakes/skins/default"; // Added on 19-11-2020
 
   .site-title::before {
     content: url("../logo.png");
