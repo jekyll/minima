@@ -41,13 +41,35 @@ summary {
     display: list-item;
 }
 
-/* Not too big otherwise the size of the blocks distort, unless text is also made bigger. */
+/*
+    Not too big otherwise the size of the blocks distort, unless text is also made bigger.
+
+    The inline-block part
+*/
 .logo-small {
     width: 20px;
     height: 20px;
+
+    display: inline-block;
 }
 
 .logo-medium {
     width: 30px;
     height: 30px;
+
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+
+.flex-container div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+
+    box-shadow: 1px 2px 4px gray;
 }
