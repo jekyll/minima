@@ -5,7 +5,7 @@ author:
 # display avatar
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 description: > # this means to ignore newlines until "show_excerpts:"
-  Ph.D. candidate at NIT Silchar
+  Ph.D. candidate | NIT Silchar
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
