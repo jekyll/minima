@@ -4,6 +4,8 @@
     It is possible to put all SVGs in a single file and use IDs, but this
     is extra work to build the pipeline esp as the SVG files have to have frontmatter to be picked up. Also this way means that a bad logo is picked up immediately, rather than looking up a possible ID in a single SVG.
 
+    Note that the minus signs are needed for the logo to be used alone outside of tags, even if if the include is not indented.
+
     Required args:
         name: SVG name excluding extension. e.g. 'ansible'.
 
@@ -13,6 +15,6 @@
 {% assign _size = include._size | default: 'small' %}
 {% assign svg_path = include.name | prepend: 'logos/' | append: '.svg' %}
 
-<div class="logo-{{ _size }}">
-    {% include {{ svg_path }} %}
-</div>
+<span class="logo-{{ _size }}">
+    {%- include {{ svg_path }} -%}
+</span>
