@@ -22,7 +22,9 @@ titles_from_headings:
   strip_title: true
 
 exclude:
+  - bin/
   - docs/
+  - simple-icons/
   - vendor/
   - LICENSE
   - README.md
