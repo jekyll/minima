@@ -4,7 +4,7 @@
 This works on GH Pages through the Remote Theme plugin.
 
 
-1. Setup `Gemfile`.
+1. Setup `Gemfile`. Version should match GH Pages dependencies.
     ```ruby
     source "https://rubygems.org"
 
@@ -15,7 +15,7 @@ This works on GH Pages through the Remote Theme plugin.
     gem 'minima', git: 'https://github.com/MichaelCurrin/minima'
 
     group :jekyll_plugins do
-      gem "jekyll-remote-theme", "0.4.2"
+      gem "jekyll-remote-theme", "..."
     end
     ```
 2. Setup `_config.yml`:
