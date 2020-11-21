@@ -16,7 +16,7 @@ With my own changes as:
 
 - Added to [\_layouts](/_layouts/) and [\_includes](/_includes/) which allow **nesting** of my content.
 - Added SVGs **logos** from the SimpleIcons site or repo to this project, so they get added to project's assets.
-- Add **dependencies** to gemspec file, to save having them in downstream project.
+- Add **dependencies** to gemspec file which suit my sites, to save having them in downstream project.
 - Removed **unneeded** pieces, like Travis config and shell scripts and some social icons.
 
 Specifically I start my fork from tag `2.5.1`, since there are major changes after that. When using `master` of `minima` as a remote theme, I get this error:

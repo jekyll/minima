@@ -29,9 +29,29 @@ make serve
 ```
 
 
+## Plugins
+
+Here are the plugins used in the `.gemspec` file. They don't have to be enabled in the config though for the theme or another project. They all work by just being installed.
+
+1. `jekyll-feed`
+2. `jekyll-seo-tag`
+3. `jekyll-titles-from-headings`
+4. `jekyll-optional-front-matter`
+5. `jekyll-sitemap`
+
+The first two come from the base Minima theme.
+
+The next two allow use of H1 titles without frontmatter. To help with that, this is set in the config:
+
+```yaml
+titles_from_headings:
+  strip_title: true
+```
+
+
 ## Editing
 
-Recommended tool for markdown editing:
+Recommended tool for markdown editing of content in projects that use this theme:
 
 - [stackedit.io](https://stackedit.io/)
 
