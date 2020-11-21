@@ -1,6 +1,13 @@
 # Minima
 > Jekyll theme to support my sites containing writing about code
 
+I found myself writing the same modifications on top of the Minima theme across my projects, so made my own theme to put everything in one place.
+
+I use this theme in my projects where I collect and write content around programming:
+
+[![MichaelCurrin - dev-cheatsheets](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-cheatsheets&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-cheatsheets)
+[![MichaelCurrin - code-cookbook](https://img.shields.io/static/v1?label=MichaelCurrin&message=code-cookbook&color=blue&logo=github)](https://github.com/MichaelCurrin/code-cookbook)
+
 
 ## Forking
 
@@ -33,4 +40,10 @@ The theme is available as open source under the terms of the [MIT License](http:
 
 See the base [LICENSE-source](/LICENSE-source).
 
-See my own [LICENSE](/LICENSE) file.
+See the project's MIT [LICENSE](/LICENSE).
+
+### Icons
+
+Rights for the logos belong to Simple Icons project and to the original brands. The Simple Icons project uses the [CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) license to waive copyright interest in the work.
+
+See the [simple-icons](https://github.com/simple-icons/simple-icons) repo. It encourages you to download the icons, if you don't want to use them on the server. See the `assets` directory for the actual SVG content. An NPM package is listed there is too, if you want to use that for your project.
