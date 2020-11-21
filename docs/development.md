@@ -3,6 +3,9 @@
 
 If you just want to use this theme in your project, see [Usage](usage.md) doc.
 
+Note that adding the config file to the `.gemspec` list did not let the values be used in a downstream site.
+
+
 ## Versioning
 
 When creating a release:
