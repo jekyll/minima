@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        // Use "Jekyll (HTML)" so that Jekyll Liquid syntax is picked up correctly for validation and highlighting.
+        // Remember to switch a script to HTML though, when you want formatting.
+        "*.html": "jekyll",
+    }
+}
