@@ -1,20 +1,25 @@
+### Site metadata ###
+
 title: Your awesome title
 author: MichaelCurrin
 email:
 description:
 
-# Social links
 github_username: MichaelCurrin
-rss: rss
+rss: RSS
+
+### Build settings ###
+
+theme: minima
 
 show_excerpts: false
 
 minima:
   date_format: "%b %-d, %Y"
 
-# Build settings
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+titles_from_headings:
+  strip_title: true
