@@ -128,7 +128,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Zombie_Purii"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-in-square"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/michael-salam-93b52074/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
