@@ -10,6 +10,9 @@ rss: RSS
 
 ### Build settings ###
 
+url: "https://michaelcurrin.github.io"
+baseurl: "/minima"
+
 theme: minima
 
 show_excerpts: false
