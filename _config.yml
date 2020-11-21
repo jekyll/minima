@@ -14,15 +14,29 @@ url: "https://michaelcurrin.github.io"
 baseurl: "/minima"
 
 theme: minima
-
 show_excerpts: false
-
 minima:
   date_format: "%b %-d, %Y"
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
 titles_from_headings:
   strip_title: true
+
+exclude:
+  - docs/
+  - vendor/
+  - CONTRIBUTING.md
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+
+# Warning - there are memory issues when using a pattern to define listing
+# layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
+# And you can only use path (and type) and not name.
+# Therefore it is best to be explicit in each index file to set its layout.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
