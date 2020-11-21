@@ -3,6 +3,13 @@
 
 If you just want to use this theme in your project, see [Usage](usage.md) doc.
 
+## Versioning
+
+When creating a release:
+
+- Increment the version in `.gemspec` file.
+- Create a tag.
+
 
 ## How to update logos
 
