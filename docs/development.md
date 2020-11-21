@@ -1,8 +1,32 @@
 # Development
 > Notes for developers working on this project
 
+If you just want to use this theme in your project, see [Usage](usage.md) doc.
 
-First follow the install and usage docs to get this project setup locally.
+
+## How to update logos
+
+This will add or update logos in the [\_includes/logos](/_includes/logos/) directory.
+
+```sh
+$ make logos
+```
+
+Commit any changes. Then push your commits. When you rebuild a site that uses the theme, you'll get the updates.
+
+If you want to add a new logo from the SimpleIcons repo, add the name to the `LOGOS` variable in the script in [bin](/bin/). Then run the command above.
+
+
+## Setup dev server
+> How to setup this theme as a standalone project
+
+Clone and install with Bundle.
+
+Start a server.
+
+```sh
+make serve
+```
 
 
 ## Editing

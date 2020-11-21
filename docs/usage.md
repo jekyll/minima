@@ -1,24 +1,10 @@
 # Usage
-> Configure your project to use this theme
+> How to configure your project to use this theme
 
 This works on GH Pages through the Remote Theme plugin.
 
 
-- Setup `_config.yml`:
-    ```yaml
-    plugins:
-      - jekyll-feed
-      - jekyll-sitemap
-      - jekyll-titles-from-headings
-      - jekyll-optional-front-matter
-      - jekyll-remote-theme
-
-    remote_theme: MichaelCurrin/minima
-
-    titles_from_headings:
-      strip_title: true
-    ```
-- Setup `Gemfile`
+1. Setup `Gemfile`.
     ```ruby
     source "https://rubygems.org"
 
@@ -32,3 +18,23 @@ This works on GH Pages through the Remote Theme plugin.
       gem "jekyll-remote-theme", "0.4.2"
     end
     ```
+2. Setup `_config.yml`:
+    ```yaml
+    plugins:
+      - jekyll-feed
+      - jekyll-sitemap
+      - jekyll-titles-from-headings
+      - jekyll-optional-front-matter
+      - jekyll-remote-theme
+
+    remote_theme: MichaelCurrin/minima
+
+    titles_from_headings:
+      strip_title: true
+    ```
+3. Install project dependencies with Bundle.
+4. Serve your site locally with Jekyll.
+5. Deploy to GitHub Pages.
+
+
+**Warning** - this setup does not choose tag version. You just get the latest changes on `master`.
