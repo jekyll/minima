@@ -1,0 +1,22 @@
+{%- comment -%}
+See Breadcrumbs in docs/development.md
+{%- endcomment -%}
+{% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+
+{% if crumbs.size > 2 %}
+    <div id="breadcrumbs">
+    {% for i in (2..crumbs.size) %}
+        {% unless forloop.first %}
+            /
+        {% endunless %}
+        {% if forloop.last %}
+            <a href="{{ page.url | relative_url }}" class="underline">
+                {{ page.title }}
+            </a>
+        {% else %}
+            {% assign target_url = crumbs | slice: 0, i | join: '/' %}
+            {% include url-to-page-link.html target_url=target_url %}
+        {% endif %}
+     {% endfor %}
+    </div>
+{% endif %}

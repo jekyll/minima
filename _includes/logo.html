@@ -1,0 +1,8 @@
+{% assign _size = include._size | default: 'small' %}
+
+<svg class="logo-{{ _size }}">
+    {%- capture svg_path -%}
+        https://michaelcurrin.github.io/logos/assets/img/{{ include.name }}.svg#logo-{{ include.name }}
+    {%- endcapture -%}
+    <use xlink:href="{{ svg_path | relative_url }}"></use>
+</svg>

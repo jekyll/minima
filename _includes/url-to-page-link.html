@@ -1,0 +1,17 @@
+{%- comment -%}
+Find page object from a given URL string and create a link to the page.
+
+Required param:
+    url: A page's path on the domain. e.g. "/cheatsheets/python/".
+
+Sample data, for context:
+    "dir": "/cheatsheets/python/", # Too many match on dir. And dir and name is two passes.
+    "name": "index.md",
+    "path": "cheatsheets/python/index.md",
+    "url": "/cheatsheets/python/" # Only one matches on url.
+{%- endcomment -%}
+{%- assign target_url = include.target_url | append: '/' -%}
+{%- assign p = site.pages | where: 'url', target_url | first -%}
+<a href="{{ p.url | relative_url }}">
+    {{ p.title }}
+</a>

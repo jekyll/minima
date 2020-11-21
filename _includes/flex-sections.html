@@ -1,0 +1,47 @@
+{% comment %}
+    Flexbox menu.
+
+    After removing the common part of the item's path, show an directory if it is a direct descendent of the current directory.
+{% endcomment %}
+
+{% if page.url == '/' %}
+    {% assign depth = 2 %}
+{% else %}
+    {% assign depth = 1 %}
+{% endif %}
+
+<div class="flex-container">
+    {% assign pages = site.pages | sort: 'title' %}
+
+    {% for item in pages %}
+        {% assign item_crumbs = item.url | remove_first: page.dir | split: '/' %}
+
+        {% if item_crumbs.size == depth and item.name == 'index.md' %}
+            <a href="{{ item.url | relative_url }}">
+                <div>
+                    {% if item.logo %}
+                        {% include logo.html name=item.logo %}
+                    {% endif %}
+                    <span>{{ item.title }}</span>
+                </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1em;
+    }
+
+    .flex-container>a>div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+
+        box-shadow: 1px 2px 4px gray;
+    }
+
+</style>
