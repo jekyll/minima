@@ -20,7 +20,7 @@ This works on GH Pages through the Remote Theme plugin.
       gem "jekyll-remote-theme", "..."
     end
     ```
-2. Setup `_config.yml` with theme, plugins and layout.
+2. Setup `_config.yml` with theme, plugins and layout settings.
     ```yaml
     ### Theme boilerplate
 

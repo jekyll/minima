@@ -45,18 +45,17 @@ Here are the plugins used in the `.gemspec` file. They don't have to be enabled 
 
 1. `jekyll-feed`
 2. `jekyll-seo-tag`
-3. `jekyll-titles-from-headings`
-4. `jekyll-optional-front-matter`
+3. [jekyll-optional-front-matter](https://rubygems.org/gems/jekyll-optional-front-matter)
+    - Process a page without frontmatter.
+4. [jekyll-title-from-headings](https://rubygems.org/gems/jekyll-titles-from-headings/versions/0.5.3)
+    - To turn the first line of the page into `page.title`. This is setup in the config to hide the title, as there is a layout to take care that of that already.
 5. `jekyll-sitemap`
 
 The first two come from the base Minima theme.
 
-The next two allow use of H1 titles without frontmatter. To help with that, this is set in the config:
+The next two allow use of H1 titles without frontmatter.
 
-```yaml
-titles_from_headings:
-  strip_title: true
-```
+To help with that, the `titles_from_headings` should be set in the config as per the [Usage](usage.md) doc.
 
 
 ## Editing
@@ -125,11 +124,3 @@ But we can't just use the first page we find as there could be duplicate folder 
 Therefore rather than using split pieces, we use the full path (a, then a/b then a/b/c) to find the index files.
 
 Each piece of the breadcrumb pieces needs a bigger slice to build a URL and then find the path. So we use `slice: 0, forloop.index` to get the URL for the first breadcrumb (slice 0 and 1), then the second (slice 0 and 2).
-
-
-## Plugins
-
-Most pages are kept light as `# Title` without frontmatter by using two plugins.
-
-- [Optional frontmatter](https://rubygems.org/gems/jekyll-optional-front-matter) - Process a page without frontmatter.
-- [Title from Headings](https://rubygems.org/gems/jekyll-titles-from-headings/versions/0.5.3) to turn the first line of the page into `page.title`. This is setup in the config to hide the title, as there is a layout to take care that of that already.
