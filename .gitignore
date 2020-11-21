@@ -7,3 +7,5 @@ _site/
 
 *.gem
 Gemfile.lock
+
+simple-icons/
