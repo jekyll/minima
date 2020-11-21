@@ -1,16 +1,29 @@
 ---
 layout: default
 ---
-{% comment %}Copied from Minima{% endcomment %}
+{% comment %}Based on Minima layout{% endcomment %}
 
 <article class="post">
-
     <header class="post-header">
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <h1 class="post-title">
+            {% if page.logo %}
+            {% include logo.html name=page.logo _size='medium' %}
+            {% endif %}
+            <span>{{ page.title | escape }}</span>
+        </h1>
+
+        {% if page.description %}
+        <blockquote>
+            {{ page.description | escape | markdownify }}
+        </blockquote>
+        {% endif %}
     </header>
+
+    {% include breadcrumbs.html %}
+
+    <br>
 
     <div class="post-content">
         {{ content }}
     </div>
-
 </article>
