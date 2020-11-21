@@ -20,8 +20,10 @@ This works on GH Pages through the Remote Theme plugin.
       gem "jekyll-remote-theme", "..."
     end
     ```
-2. Setup `_config.yml` with plugins.
+2. Setup `_config.yml` with theme, plugins and layout.
     ```yaml
+    ### Theme boilerplate
+
     plugins:
       - jekyll-remote-theme
 
@@ -29,13 +31,7 @@ This works on GH Pages through the Remote Theme plugin.
 
     titles_from_headings:
       strip_title: true
-    ```
-4. Add default layout.
-    ```yaml
-    # Warning - there are memory issues when using a pattern to define listing
-    # layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
-    # And you can only use path (and type) and not name.
-    # Therefore it is best to be explicit in each index file to set its layout.
+
     defaults:
       - scope:
           path: ""
@@ -47,3 +43,13 @@ This works on GH Pages through the Remote Theme plugin.
 
 
 You can push your site to GitHub and setup a deploy to GitHub Pages.
+
+### Note
+
+Regarding default layout:
+
+Warning - there are memory issues when using a pattern to define listing
+layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
+
+And you can only use path (and type) and not name.
+Therefore it is best to be explicit in each index file to set its layout.
