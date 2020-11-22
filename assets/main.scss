@@ -13,8 +13,6 @@
 
 /**
  * Shift menu on mobile when covered by GitHub corner.
- * Also force it to be absolute so that is has an effect.
- * This is also smoother using 900 rather than 800 or 800.
  */
 @media screen and (max-width: 900px) {
     .site-nav {
