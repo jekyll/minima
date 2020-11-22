@@ -20,12 +20,9 @@ This works on GH Pages through the Remote Theme plugin.
       gem "jekyll-remote-theme", "..."
     end
     ```
-2. Setup `_config.yml` with theme, plugins and layout settings.
+2. Setup `_config.yml` with theme, plugins and layout settings. Note that you do not need to add `plugins` key to use Remote Theme plugin.
     ```yaml
     ### Theme boilerplate
-
-    plugins:
-      - jekyll-remote-theme
 
     remote_theme: MichaelCurrin/minima
 
