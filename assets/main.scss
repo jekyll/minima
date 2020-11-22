@@ -15,28 +15,28 @@
  * Shift menu on mobile when covered by GitHub corner.
  */
 @media screen and (max-width: 900px) {
-    .site-nav {
-        position: absolute;
-        right: 90px;
-    }
+  .site-nav {
+    position: absolute;
+    right: 90px;
+  }
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Details and summary blocks. Copied from GH Pages without Jekyll. The cursor pointer is the most useful here. */
 [hidden][hidden] {
-    display: none !important;
+  display: none !important;
 }
 details summary {
-    cursor: pointer;
+  cursor: pointer;
 }
 details:not([open]) > *:not(summary) {
-    display: none !important;
+  display: none !important;
 }
 summary {
-    display: list-item;
+  display: list-item;
 }
 
 /*
@@ -45,29 +45,29 @@ summary {
     The inline-block part
 */
 .logo-small {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 
-    display: inline-block;
+  display: inline-block;
 }
 
 .logo-medium {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 
-    display: inline-block;
+  display: inline-block;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
 }
 
 .flex-container div {
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
 
-    box-shadow: 1px 2px 4px gray;
+  box-shadow: 1px 2px 4px gray;
 }
