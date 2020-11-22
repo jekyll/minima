@@ -1,12 +1,14 @@
 # Usage
 > How to configure your project to use this theme
 
-This works on GH Pages through the Remote Theme plugin.
+Use this theme's layouts, includes files, SVG icons and dependencies by configuring this theme for your project. No forking needed.
 
-**Warning** - this setup does not choose a tag version for the theme. You just get the latest changes on `master`.
+The approach here works on GH Pages through the Remote Theme plugin.
+
+**Warning** - this setup does not pin a tag version of the theme. You just get the latest changes that are on `master`.
 
 
-1. Setup `Gemfile`. Version should match GH Pages dependencies.
+1. Setup `Gemfile`. Versions should match [GH Pages dependency versions](https://pages.github.com/versions/) but marked as dots for placeholders.
     ```ruby
     source "https://rubygems.org"
 
