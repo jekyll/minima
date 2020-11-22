@@ -11,7 +11,17 @@ defaults:
       comments: true
       share: true
       related: true
+
 ---
 
 
 Wubba Lubba Dub Dub!
+
+<script src="https://utteranc.es/client.js"
+        repo="masonreznov/masonreznov.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -44,8 +44,9 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
+    repo                 : "masonreznov/masonreznov.github.io"
     theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    issue_term           : "pathname" # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
