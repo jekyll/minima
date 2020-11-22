@@ -1,4 +1,4 @@
-{% comment %}Copied from Minima{% endcomment %}
+{% comment %}Based on Minima{% endcomment %}
 <footer class="site-footer h-card">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
@@ -11,13 +11,11 @@
                 <ul class="contact-list">
                     <li class="p-name">
                         {%- if site.author -%}
-                        {{ site.author | escape }}
-                        {%- else -%}
-                        {{ site.title | escape }}
+                            {{ site.author | escape }}
                         {%- endif -%}
                     </li>
                     {%- if site.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                        <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
                     {%- endif -%}
                 </ul>
             </div>
