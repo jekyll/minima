@@ -49,3 +49,22 @@
         font-size: 10pt;
     }
 }
+
+/* Twitter Plugin */
+.twitter-wrapper{
+    position: absolute;
+    right: 30px;
+    height: auto;
+    width: auto;
+    top: 100px;
+}
+
+/* Home page texts */
+.home-text{
+    text-align: center;
+    text-justify: auto;
+    font-size: 15pt;
+    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    // width: 60%;
+}
