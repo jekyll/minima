@@ -56,13 +56,13 @@ $ sudo apt-get install $(cat requirements.txt)
 
 ## Step-2: Installation of an alignment tool
 We will install `mgiza++` alignment tool which is the multi-threaded version of `giza++`.
-- Clone the `mgiza++` repo
+Clone the `mgiza++` repo
 ```
 $ mkdir tools
 $ cd tools
 $ git clone https://github.com/moses-smt/mgiza.git
 ``` 
-- Building the repo
+Building the repo
 ```
 $ cd mgiza/mgizapp
 $ cmake .
