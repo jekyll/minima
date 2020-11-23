@@ -30,6 +30,10 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if site.links_to_prev_next -%}
+    {%- include links_to_prev_next.html -%}
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
