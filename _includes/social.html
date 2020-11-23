@@ -2,7 +2,7 @@
 <ul class="social-media-list">
     {%- if site.github_username -%}
         <li>
-            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon">
+            <a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon">
                     <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
                 </svg> <span class="username">{{ site.github_username| escape }}</span></a>
         </li>
@@ -10,7 +10,7 @@
 
     {%- if site.twitter_username -%}
         <li>
-            <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon">
+            <a href="https://www.twitter.com/{{ site.twitter_username | cgi_escape | escape }}"><svg class="svg-icon">
                     <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
                 </svg> <span class="username">{{ site.twitter_username| escape }}</span>
             </a>
