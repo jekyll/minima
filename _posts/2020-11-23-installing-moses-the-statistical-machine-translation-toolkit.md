@@ -24,7 +24,7 @@ defaults:
             title="translate"
             caption="Image courtesy: https://tenor.com/view/google-translate-chan-yumis-arts-gtc-gif-14803317"
             url="https://tenor.com/view/google-translate-chan-yumis-arts-gtc-gif-14803317" %}
-Machine translation is the task for translating from one language lets say *English* to another language for an instance *Japanese*. Primarily there are two major techniques to achieve this task, one is Statistical Machine Translation(SMT) and the other is Neural Machine Translation(NMT). The first converts the translation task to a `noisy channel` model while the second one uses a `sequence-to-sequence` deeplearning method.
+Machine translation is the task for translating from one language lets say *English* to another language for an instance *Japanese*. Primarily there are two major techniques to achieve this task, one is Statistical Machine Translation(SMT) and the other is Neural Machine Translation(NMT). The first appraoch converts the translation task to a `noisy channel` model while the second one uses a `sequence-to-sequence` deeplearning method.
 
 In this post, we will cover the statistical one and to be specific we will walk through the installation for one of the most widely used SMT toolkit: the `mosesdecoder`.  
 ## Prerequisites: 
