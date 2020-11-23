@@ -12,5 +12,5 @@ permalink: /publications/
 
 - Salam Michael Singh and Thoudam Doren Singh. 2020. Statistical and Neural Machine Translation Systems of English to Manipuri: A Preliminary Study. In the third International Conference Soft Computing and Signal Processing. Accepted, Publication Due
 
-<a class="twitter-timeline" data-width="220" data-theme="light" href="https://twitter.com/Zombie_Purii?ref_src=twsrc%5Etfw">Tweets by Zombie_Purii</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
