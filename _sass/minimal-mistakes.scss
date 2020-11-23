@@ -38,3 +38,14 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* Image caption */
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: grey-color;
+        margin-top: spacing-unit / 3;
+        font-size: 10pt;
+    }
+}
