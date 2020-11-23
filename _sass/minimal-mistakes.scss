@@ -52,19 +52,39 @@
 
 /* Twitter Plugin */
 .twitter-wrapper{
-    position: absolute;
-    right: 30px;
+    position: relative;
+    padding-right: 0%;
+    left: 98%;
     height: auto;
     width: auto;
-    top: 100px;
+    top: 20%;
+    overflow: hidden;
+}
+
+.twitter-wrapper a{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Home page texts */
 .home-text{
     text-align: center;
     text-justify: auto;
-    font-size: 15pt;
+    font-size: 12pt;
     // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
+    top: 45%;
+    // overflow: hidden;
     // width: 60%;
 }
+.home-text p{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
