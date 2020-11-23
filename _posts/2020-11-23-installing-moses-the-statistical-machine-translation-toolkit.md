@@ -119,10 +119,10 @@ If the building and linkink was successful, then a `SUCCESS` prompt will be show
 
 To sum up, the directory tree should look like this:
 ```
-tools
-    |-srilm
-    |-boost
-    |-mosesdecoder
+|-tools
+|    |-srilm
+|    |-boost
+|    |-mosesdecoder
 
 ```
 
