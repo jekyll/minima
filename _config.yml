@@ -112,6 +112,25 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/masonreznov/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/Zombie_Purii"
+    # - label: "Linkedin"
+    #   icon: "fab fa-fw fa-linkedin-in"
+    #   url: "https://linkedin.com/in/michael-salam-93b52074/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+Site Footer
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/masonreznov/"
@@ -121,34 +140,15 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/michael-salam-93b52074/"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Site Footer
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/Zombie_Purii"
-#     - label: "Linkedin"
-#       icon: "fab fa-fw fa-linkedin-in"
-#       url: "https://linkedin.com/in/michael-salam-93b52074/"
-#     - label: "Facebook"
-#       icon: "fab fa-fw fa-facebook-square"
-#       # url:
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/masonreznov/"
-#     - label: "GitLab"
-#       icon: "fab fa-fw fa-gitlab"
-#       # url:
-#     - label: "Bitbucket"
-#       icon: "fab fa-fw fa-bitbucket"
-#       # url:
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       # url:
+      # url:
 
 
 # Reading Files
