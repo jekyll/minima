@@ -1,4 +1,5 @@
 ---
+- title: "Installing Moses: The Statistical Machine Translation Tool"
 defaults:
   # _posts
   - scope:
@@ -6,14 +7,12 @@ defaults:
       type: posts
     values:
       layout: single
-      title: "Installing Moses: The Statistical Machine Translation Tool"
+      
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-intro: 
-  - excerpt: 'Hi, my name is Michael Salam and I am a Ph.D. candidate at National Institute of Technology, Silchar, India. My research interest is primarily on Natural Language Processing for low resource languages.'
 ---
 <!-- {% include feature_row %} -->
 
