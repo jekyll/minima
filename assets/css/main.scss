@@ -6,3 +6,9 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Type scale
+.page__lead {
+    // font-family: $global-font-family;
+    font-size: $type-size-6;
+  }

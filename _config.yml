@@ -155,6 +155,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _pages/home.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
