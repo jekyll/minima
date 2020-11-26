@@ -103,7 +103,7 @@ author:
   location         : "India"
   email            : salammichaelcse@gmail.com
   links:
-    - label: "Email"
+    - label: ""
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
@@ -131,13 +131,13 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/masonreznov/"
-    - label: "Twitter"
+    - label: ""
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Zombie_Purii"
-    - label: "Linkedin"
+    - label: ""
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/michael-salam-93b52074/"
     - label: "GitLab"
