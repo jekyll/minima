@@ -1,5 +1,5 @@
 ---
-- title: "Installing Moses: The Statistical Machine Translation Tool"
+title: "Installing Moses: The Statistical Machine Translation Tool"
 defaults:
   # _posts
   - scope:
