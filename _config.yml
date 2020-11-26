@@ -125,7 +125,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-Site Footer
+# Site Footer
 footer:
   links:
     - label: "Facebook"
