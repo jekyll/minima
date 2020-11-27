@@ -21,9 +21,9 @@ I have taken these courses throughout my bachelor's, master's, and Ph.D. combine
 ## My Research Interest
 Currently, in my Ph.D. candidature I'm focussing upon the Natural Language processing for low-resource languages and Machine Translation (MT) in particular. There exists several challenges in MT task for low-resource languages unlike high-resource languages, most importantly the availability of the parallel data. So, in my work I would like to explore the techniques and methodologies to improve the MT task for these less priviledged languages by exploiting the available data.   -->
 
-## Who-am-i
+### Whoami
 An NLP enthusiast and a Ph.D. candidate at National Institute of Technology, Silchar, India.
 
-## Research area
+### Research Interest
 I'm focussing upon the Natural Language Processing for low-resource languages and Machine Translation (MT) in particular.
 

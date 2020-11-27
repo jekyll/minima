@@ -2,12 +2,12 @@
 # title: false
 permalink: /
 hidden: false
-layout: home
+layout: splash
 classes:
   - landing
-# header:
-#   overlay_color: "#5e616c"
-#   overlay_image: /assets/images/banner.png
+header:
+  # overlay_color: "#5e616c"
+  # overlay_image: /assets/images/banner.png
   # actions:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
@@ -51,5 +51,8 @@ feature_row_left:
 
 
  <!-- <div class="twitter-wrapper">
+    <a class="twitter-timeline" data-width="220" data-height="220" data-theme="light" data-tweet-limit="3" href="https://twitter.com/Zombie_Purii?ref_src=twsrc%5Etfw">Tweets by Zombie_Purii</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div> -->
+<!-- <div class='jekyll-twitter-plugin'>
     <a class="twitter-timeline" data-width="220" data-height="220" data-theme="light" data-tweet-limit="3" href="https://twitter.com/Zombie_Purii?ref_src=twsrc%5Etfw">Tweets by Zombie_Purii</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div> -->
