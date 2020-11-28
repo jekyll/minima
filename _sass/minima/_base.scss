@@ -53,15 +53,17 @@ body {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
   margin: 0 0 0 12px;
-  padding: 4px 8px 5px;
+  padding: 4px 8px 4px 8px;
   transition: 0.2s;
   font-weight: 600;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 a:visited.tag {
   color: $text-color-darker;
   background: (255, 255, 255, 0.1);
+
 }
 
 .tag::before {
@@ -69,7 +71,7 @@ a:visited.tag {
   position: absolute;
   color: white;
   padding-right: 35px;
-  transform: translate(-50%, 40%);
+  transform: translateX(-50%);
 }
 
 .tag:hover,
