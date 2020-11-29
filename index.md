@@ -7,7 +7,8 @@ layout: home
 classes:
   - landing
 
-# header:
+# header: 
+#   image: /assets/images/banner.png
 #   title: ""
   # overlay_color: "#5e616c"
 #   overlay_image: /assets/images/banner.png

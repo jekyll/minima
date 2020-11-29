@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Publications
+# layout: default
+layout: single
 permalink: /publications/
 hidden: false
 author_profile: true
+title: ""
 ---
 
 

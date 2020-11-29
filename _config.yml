@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -103,7 +103,7 @@ author:
   location         : "India"
   email            : salammichaelcse@gmail.com
   links:
-    - label: ""
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
@@ -131,6 +131,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
+    - label: ""
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:salammichaelcse@gmail.com"
     - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/masonreznov/"
