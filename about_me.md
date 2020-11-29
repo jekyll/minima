@@ -6,9 +6,11 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
 
 permalink: /about_me/
+hidden: false
+author_profile: true
+classes: wide
 ---
 ### Whoami
 An NLP enthusiast and currently a Ph.D. candidate at National Institute of Technology, Silchar, India.

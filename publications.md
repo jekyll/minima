@@ -2,6 +2,8 @@
 layout: default
 title: Publications
 permalink: /publications/
+hidden: false
+author_profile: true
 ---
 
 
