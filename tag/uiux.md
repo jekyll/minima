@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Interaction Design Center"
-tag: idc
-description: "User interface and experience design projects."
+title: "UI/UX Projects"
+tag: uiux
+description: "User Interface and Experience design projects."
 ---
