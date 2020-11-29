@@ -53,8 +53,8 @@ h5 a:hover {
 }
 
 .post-content li::marker {
-  color: green;
   margin: 50px;
+  color: $bullet-color;
 }
 
 %vertical-rhythm,

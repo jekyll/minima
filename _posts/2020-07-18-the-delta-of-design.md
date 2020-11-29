@@ -22,10 +22,10 @@ I perhaps understand what this meant now that I have spent two years at IDC Ther
 - Do some painting and brush lettering
 - Learn to play a musical instrument
 
-Some technical skills I want to pick up
+##### Some technical skills I want to pick up
 - Learn React
 - Make a simple CRUD app connected to a database
-- Host the app on a sever
+- Host the app on a server
 
 #### COVID-19 and making plans when nothing is certain anymore
 

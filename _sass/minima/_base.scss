@@ -191,9 +191,9 @@ blockquote {
 code,
 pre {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $text-color;
+  color: $background-color;
 }
 
 code {
@@ -275,7 +275,7 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $table-alt-line-bg;
     }
   }
 
@@ -285,6 +285,7 @@ table {
   }
 
   th {
+    color: $background-color;
     background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);

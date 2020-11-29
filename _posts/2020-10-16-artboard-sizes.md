@@ -8,10 +8,10 @@ tags: misc
 ### Units
 
 ### Print resolutions
-For print documents, the concept of PPI refers to pixels per inch, or how many pixels you have in each physical pixel.
+For print documents, the concept of PPI refers to pixels per inch, or how many pixels you have in each physical inch.
 
 ### Screen resolutions
-For print documents, the concept of PPI refers to pixels per inch, or how many pixels you have in each physical pixel.
+For screen documents, the concept of DPI refers to dots per inch, or how many pixels you have in each physical inch.
 
 ### Aspect Ratios
 Up until the iPhone X, pretty much all phones had a 16:9 aspect ratio. Android phones usually had 720x1280 (HD) or 1080x1920 (Full HD) displays, and the iPhone 6/7/8 had a 750x1334 display.

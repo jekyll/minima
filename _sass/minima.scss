@@ -6,6 +6,7 @@ $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 $spacing-unit: 16px !default;
+
 $brand-color: #ff4343 !default;
 $brand-color-darker: darken($brand-color, 90%) !default;
 $brand-color-light: lighten($brand-color, 34%) !default; // $text-color:       #251938 !default;
@@ -14,14 +15,22 @@ $brand-color-light: lighten($brand-color, 34%) !default; // $text-color:       #
 $text-color: #d5c0fe;
 $text-color-darker: #a391c7;
 $text-color-light: #eadffe; // $background-color: desaturate(lighten(complement($brand-color), 34%), 60%) !default;
+
+$bullet-color: #ffffff;
+
 $background-color: #251938;
 $foreground-color: rgba(0, 0, 0, 0.3);
+
 $grey-color: lighten(desaturate($text-color, 50%), 12%) !default;
 $grey-color-light: lighten(desaturate($grey-color, 40%), 65%) !default;
 $grey-color-dark: darken($grey-color, 25%) !default;
+
 $orange-color: #f66a0a !default;
 $red-color: #f86b6b !default;
+
 $table-text-align: left !default; // Width of the content area
+$table-alt-line-bg: #3b314e;
+
 $content-width: 800px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
