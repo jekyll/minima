@@ -1,5 +1,6 @@
 ---
 title: "Installing Moses: The Statistical Machine Translation Tool"
+class: wide
 defaults:
   # _posts
   - scope:
