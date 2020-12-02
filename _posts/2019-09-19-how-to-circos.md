@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making chord diagrams with Circos Online
-tags: dataviz, idc
+tags: dataviz idc
 thumbnail: https://gyanl.com/assets/thumbs/circos.png
 ---
 
