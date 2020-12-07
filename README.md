@@ -225,11 +225,11 @@ To enable it, add the following lines to your Jekyll site:
 
 You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
-Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
+Comments are enabled by default and will only appear in production, i.e. `JEKYLL_ENV=production`
 
-If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+If you don't want to display comments for a particular post, you can disable them by adding `comments: false` to that post's YAML Front Matter.
 
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
+:warning: `url`, e.g. `https://example.com`, must be set in your config file for Disqus to work.
 
 ### Author Metadata
 
