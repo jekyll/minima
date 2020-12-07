@@ -1,6 +1,6 @@
 # minima
 
-*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
+*Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's the theme you get when you run `jekyll new`.
 
 ***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
 within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
@@ -40,7 +40,7 @@ Refers to files within the `_layouts` directory, that define the markup for your
 
 #### Home Layout
 
-`home.html` is a flexible HTML layout for the site's landing-page / home-page / index-page. <br/>
+`home.html` is a flexible HTML layout for the site's landing-page/home-page/index-page.
 
 ##### *Main Heading and Content-injection*
 
@@ -259,7 +259,7 @@ minima:
   social_links:
     twitter: jekyllrb
     github: jekyll
-    stackoverflow: "11111"
+    stackoverflow: "jekyll"
     dribbble: jekyll
     facebook: jekyll
     flickr: jekyll
@@ -319,4 +319,4 @@ To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
