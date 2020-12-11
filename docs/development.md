@@ -13,16 +13,25 @@ When creating a release:
 - Increment the version in `.gemspec` file.
 - Create a tag.
 
+## Logs
 
-## How to update logos
+The SVG icons or logos are stored in the [\_includes/logos](/_includes/logos/) directory as includes files. This is easier to manage than assets as it allows the content of the file to be inserted inline in HTML, rather than referencing a path to an asset which has to be fetched on the frontend.
 
-This will add or update logos in the [\_includes/logos](/_includes/logos/) directory.
+### How to update logos
+
+The list of supported logos in this project is maintained in [bin/install_logos.sh](/bin/install_logos.sh). More logos are available, but that covers the logos that I want to use.
+
+You can add a new logo name to that script. Then run it.
+
+Here is the shorthand.
 
 ```sh
 $ make logos
 ```
 
-Commit any changes. Then push your commits. When you rebuild a site that uses the theme, you'll get the updates.
+That will also _update_ an existing logos in version control to match the latest content in the logo provider.
+
+Then commit any changes and push your commits. When you rebuild a site that uses this theme, you'll get the updates.
 
 If you want to add a new logo from the SimpleIcons repo, add the name to the `LOGOS` variable in the script in [bin](/bin/). Then run the command above.
 
