@@ -12,18 +12,37 @@ Jekyll themes can change the appearance of a Jekyll website without impacting th
 
 [Minima Theme preview](https://jekyll.github.io/minima/)
 
-# I want to use this theme
-You are free to fork this repository and use my theme, but I wrote it for my own use so it comes with very little documentation. I will hopefully clean it up at some point (but the chances of that happening are low).
+## I want to use this theme
+You are free to fork this repository and use my theme, but I wrote it for my own use so it comes with very little documentation. I will hopefully clean it up at some point (but the chances of that happening are low). Here's some information about how the directories are set up. 
 
-Layouts
+### Layouts
 Refers to files within the _layouts directory, that define the markup for your theme.
+
+Home Layout
+home.html is a flexible HTML layout for the site's landing-page / home-page / index-page.
 
 default.html — The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says {{ content }} and are linked to this file via FrontMatter declaration layout: default.
 home.html — The layout for your landing-page / home-page / index-page. [More Info.]
 page.html — The layout for your documents that contain FrontMatter, but are not posts.
 post.html — The layout for your posts.
-Home Layout
-home.html is a flexible HTML layout for the site's landing-page / home-page / index-page.
+
+### Posts
+The blog posts go in the _posts directory. Each post is a .md file named using the yyyy-mm-dd-url-here convention. You can add some metadata like the title, subtitle, tags, custom permalink and a thumbnail. 
+
+---
+layout: post
+title: "Stats for Research Methods"
+subtitle: Research for <del>dummies</del> designers
+tags: slides
+permalink: /drm-cheatsheet
+thumbnail: https://gyanl.com/assets/thumbs/drm.png
+---
+
+### Assets
+
+### SASS
+
+
 
 ## License
 
