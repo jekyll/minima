@@ -49,11 +49,12 @@ permalink: /drm-cheatsheet
 thumbnail: https://gyanl.com/assets/thumbs/drm.png
 ---
 ```
+## SASS
+Jekyll uses [SASS](https://sass-lang.com/) to allow for some extra functionality over raw CSS, like the ability to define color variables. The SASS files gets automatically compiled to a single CSS when you run Jekyll, and get stored in the /assets/css folder.
 
-### Assets
 
-### SASS
-
+## Assets
+All your images and other assets go here.
 
 
 ## License
