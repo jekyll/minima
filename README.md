@@ -29,6 +29,7 @@ post.html — The layout for your posts.
 ### Posts
 The blog posts go in the _posts directory. Each post is a .md file named using the yyyy-mm-dd-url-here convention. You can add some metadata like the title, subtitle, tags, custom permalink and a thumbnail. 
 
+```
 ---
 layout: post
 title: "Stats for Research Methods"
@@ -37,6 +38,7 @@ tags: slides
 permalink: /drm-cheatsheet
 thumbnail: https://gyanl.com/assets/thumbs/drm.png
 ---
+```
 
 ### Assets
 
