@@ -66,3 +66,13 @@ Load fonts from Google Fonts, Typekit, Fonts.com, and Fontdeck, as well as self-
 
 [opentype.js](https://opentype.js.org/)  
 Complex web font tasks where you need to access individual glyphs as shapes can be achieved with this library.
+
+#### Drawing fonts
+
+[OH no Type School](https://ohnotype.co/blog/ohno-type-school-a)
+A series of blog posts about how to draw every latin letter from A-Z.
+
+#### Font Taxonomy
+
+[The absurdity of Typographic taxon](https://aisforfonts.com/the-absurdity-of-typographic-taxon)
+A blog post by French type designer Emilie Rigaud about type taxonomy.

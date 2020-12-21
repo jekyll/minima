@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Financial Planning
-subtitle: Money. What's up with that?
+subtitle: Some personal notes from a financial planning workshop.
 tags: misc
 ---
 
@@ -12,18 +12,18 @@ tags: misc
 - You'll get old and won't have pension (unlike previous generations)
 
 ### Ask why someone is giving you financial advice
-If a life insurance agent is offering advice, their motivation is usually their commission. 
+If a life insurance agent is offering advice, their motivation is usually their commission. Taking advice from a financial advisor who gets a flat fee is probably better.
 
 ### LIC is a scam
 
-LIC combines life insurance and investment. You do need life insurace and you should invest money, but you should 
+LIC combines life insurance and investment. You do need life insurace and you should invest money, but you should keep both of those things separate.
 
 | Insurance Plan          | Sum assured     | Annual premium |
 |-------------------------|-----------------|----------------|
 | HDFC term life (online) | 50 lakh assured | Premium 5,000  |
 | LIC Jeevan Anand        | 50 lakh assured | Premium 24,000 |
 
-LIC takes the surplus premium and invests somewhere, but the rate of returns is pretty terrible. 
+LIC takes the surplus premium and invests somewhere, but the rate of returns is pretty terrible compared to other financial instruments. 
 
 ### Real Estate
 
@@ -40,8 +40,7 @@ Second home? No, probably a bad idea. Recurring deposit usually makes you more m
 
 ### Gold
 30 year return is 10-11%, Equity is 15%. 
-Safety from government.
-Have maybe 5-10% of total assets in gold is okay. 
+Having maybe 5-10% of total assets in gold is okay. In India this tends to be much higher as a lot of people like gold. Safety from government.
 
 ### Stocks
 You won't have the time or knowledge to manage a stock portfolio. There are professional brokers in Dalal street who do this for a living, they will always beat you sitting in your home.
@@ -59,7 +58,7 @@ Large cap, mid cap, small cap.
 Least volatile, moderately volative, most volatile. 
 Indian companies are not very well regulated, so small cap is risky. Mid to large cap is a better bet.
 
-Thumb rule: 100 - your age in Equity
+Thumb rule: (100 - your age)% in Equity, rest in debt
 
 ### Debt
 No volatility, expected returns are 7-9%.
@@ -67,6 +66,7 @@ As you get older, move your assets from equity to debt so you have less volatili
 Government debt v/s. Company debt
 
 ### SIPs
+SIPs ensure that you beat market fluctuation and is a more sensible investment methodology than trying to time the market.
 
 ### Direct v/s. Regular
 Broker takes a cut in Regular mutual funds. Broker takes ~1% out of 1.25-3% expense ratio in the mutual fund. Direct funds don't have the broker cut and expense ratio is lower. 
@@ -96,9 +96,9 @@ Better to get it written up by lawyer and get it registered (2k-5k cost)
 - Motilal oswal multicap 35 fund - multicap
 - PPFAS Long term equity fund - multicap w/30% global equity
 
-###Largecap
+### Largecap
 - Motilal oswal focused 25 fund - largecap
-- Mirae Asset Hybrid Equity fund - balanced fund (equity oriented, with 15-30% debt
+- Mirae Asset Hybrid Equity fund - balanced fund (equity oriented, with 15-30% debt)
 - Mirae asset emerging bluechip fund - midcap
 - Franklin Prima fund - midcap
 
