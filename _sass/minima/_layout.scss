@@ -9,6 +9,8 @@ html {
   --accent-color-dark: #742777;
   --accent-color: #7c237f;
   --accent-color-light: rgb(223 214 236 / 50%);
+
+    --overlay-color: rgba(0, 0, 0, .04);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +25,9 @@ html {
     --accent-color-dark: #b91d1d;
     --accent-color: #ff4343;
     --accent-color-light: #ff78781a;
+
+  --overlay-color: rgba(255, 255, 255, .04);
+
 	}
 }
 
@@ -36,7 +41,7 @@ html {
 .site-header {
   min-height: 60px;
   line-height: 60px;
-  background: var(--background-color);
+  background: var(--overlay-color);
   // border-bottom: 1px solid darken($text-color-darker, 32%);
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -158,7 +163,7 @@ html {
 .site-footer {
   // border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background: var(--background-color);
+  background: var(--overlay-color);
   color: var(--text-color-light);
 }
 

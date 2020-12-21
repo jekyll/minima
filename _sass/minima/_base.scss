@@ -152,8 +152,6 @@ li {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  border-bottom: 2px solid var(--background-color);
-  transition: .2s;
 
   &:visited {
     color: var(--accent-color-dark);
@@ -162,7 +160,6 @@ a {
   &:hover {
     color: var(--accent-color-dark);
     text-decoration: none;
-    border-bottom: 2px solid var(--accent-color-light);
   }
 
   .social-media-list &:hover {
@@ -177,7 +174,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: var(--text-color-light);
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
@@ -196,14 +193,16 @@ pre {
   @include relative-font-size(0.9375);
   border-radius: 3px;
   background-color: $text-color;
-  color: var(--background-color);
+  color: var(--text-color-dark);
 }
 
 code {
   padding: 1px 5px;
+
 }
 
 pre {
+
   padding: 8px 12px;
   overflow-x: auto;
 

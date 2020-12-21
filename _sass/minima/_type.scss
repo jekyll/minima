@@ -7,7 +7,7 @@ h4,
 h5,
 h6 {
   font-weight: $base-font-weight;
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 h2 {
@@ -79,7 +79,7 @@ ul {
   @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
-  color: var(--text-color);
+  color: var(--text-color-dark);
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.25);
   }
@@ -87,6 +87,17 @@ ul {
 
 .post-content {
   // margin-bottom: $spacing-unit;
+
+  a {
+    border-bottom: 2px solid var(--background-color);
+    transition: .2s;
+  }
+
+  a:hover{
+      color: var(--accent-color);
+      border-bottom: 2px solid var(--accent-color);
+  }
+
   h2 {
     font-weight: 500;
     margin-top: 18px;
@@ -126,6 +137,10 @@ ul {
     @include relative-font-size(0.8);
     @media screen and (min-width: $on-large) {
       @include relative-font-size(0.9);
+
+      strong{
+        color: var(--text-color-dark);
+      }
     }
   }
 }
