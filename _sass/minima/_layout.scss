@@ -1,3 +1,32 @@
+html {
+  --background-color: #ffffff;
+  --foreground-color: #000000;
+
+  --text-color-dark: #000;
+  --text-color: #555;
+  --text-color-light: #999;
+
+  --accent-color-dark: #742777;
+  --accent-color: #7c237f;
+  --accent-color-light: rgb(223 214 236 / 50%);
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+    --background-color: #180303;
+    --foreground-color: rgba(0, 0, 0, 0.3);
+
+    --text-color-dark: rgba(255, 255, 255, 1);
+    --text-color: rgba(255, 255, 255, .85);
+    --text-color-light: rgba(255, 255, 255, .7);
+
+    --accent-color-dark: #b91d1d;
+    --accent-color: #ff4343;
+    --accent-color-light: #ff78781a;
+	}
+}
+
+
 .mobile-only {
   display: none;
 }
@@ -7,14 +36,14 @@
 .site-header {
   min-height: 60px;
   line-height: 60px;
-  background: $foreground-color;
+  background: var(--background-color);
   // border-bottom: 1px solid darken($text-color-darker, 32%);
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  color: white;
+  color: var(--text-color-dark);
   @include relative-font-size(1.25);
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -27,14 +56,14 @@
 
   &,
   &:visited {
-    color: white;
+  color: var(--text-color-dark);
   }
 }
 
 .site-nav {
   position: absolute;
   right: $spacing-unit / 2;
-  background-color: $background-color;
+  background-color: var(--background-color);
   border-radius: 24px;
   text-align: right;
 
@@ -51,7 +80,7 @@
     text-align: center;
 
     > svg path {
-      fill: $grey-color-dark;
+      fill: var(--accent-color-light);
     }
   }
 
@@ -75,7 +104,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: var(--text-color);
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -129,12 +158,12 @@
 .site-footer {
   // border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background: $foreground-color;
-  color: $text-color-darker;
+  background: var(--background-color);
+  color: var(--text-color-light);
 }
 
 .footer-heading {
-  color: white;
+  color: var(--text-color);
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
 }
@@ -225,7 +254,7 @@
  * Page content
  */
 .page-content {
-  background: $background-color;
+  background: var(--background-color);
   padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
@@ -252,12 +281,12 @@
 .post-meta {
   font-weight: 600;
   font-size: 12px;
-  color: $text-color-darker;
+  color: var(--text-color-light);
   margin: -4px 0 0;
 }
 
 .post-link {
-  color: white !important;
+  color: var(--text-color-dark) !important;
   display: block;
   @include relative-font-size(1);
 }
@@ -268,7 +297,6 @@
   // margin: 0 $spacing-unit/2 $spacing-unit 0;
   padding: $spacing-unit/2 0;
   transition: 0.2s;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.02);
   border-radius: 4px;
   // border: 1px solid rgba(0,0,0,0.05);
   // border-bottom: 4px solid;
@@ -324,9 +352,13 @@
       padding: 4px 0 0 4px;
     }
 
+    .svg-icon {
+      fill: var(--accent-color);
+    }
+
     &:hover .svg-icon {
-      fill: $brand-color;
-      background-color: $brand-color-light;
+      fill: var(--accent-color);
+      background-color: var(--accent-color-light);
     }
   }
 }

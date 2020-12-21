@@ -33,9 +33,9 @@ textarea:focus {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  color: var(--text-color);
+  background-color: var(--background-color);
   font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -49,8 +49,8 @@ body {
 
 .tag {
   font-size: 11px;
-  color: $text-color-darker;
-  background: rgba(255, 255, 255, 0.05);
+  color: var(--accent-color-dark);
+  background: var(--accent-color-light);
   border-radius: 4px;
   margin: 0 0 0 12px;
   padding: 4px 8px 4px 8px;
@@ -61,7 +61,7 @@ body {
 }
 
 a:visited.tag {
-  color: $text-color-darker;
+  color: var(--accent-color-dark);
   background: (255, 255, 255, 0.1);
 
 }
@@ -69,19 +69,19 @@ a:visited.tag {
 .tag::before {
   content: " • ";
   position: absolute;
-  color: white;
+  color: var(--text-color);
   padding-right: 35px;
   transform: translateX(-50%);
 }
 
 .tag:hover,
 a:visited.tag:hover {
-  color: $brand-color;
-  background-color: $brand-color-light;
+  color: var(--accent-color);
+  background-color: var(--accent-color-light);
 }
 
 .sub-title {
-  color: $text-color-light;
+  color: var(--text-color-light);
   padding-bottom: $spacing-unit/2;
 }
 /**
@@ -150,16 +150,19 @@ li {
  * Links
  */
 a {
-  color: $brand-color;
+  color: var(--accent-color);
   text-decoration: none;
+  border-bottom: 2px solid var(--background-color);
+  transition: .2s;
 
   &:visited {
-    color: lighten($brand-color, 15%);
+    color: var(--accent-color-dark);
   }
 
   &:hover {
-    color: darken($brand-color, 15%);
+    color: var(--accent-color-dark);
     text-decoration: none;
+    border-bottom: 2px solid var(--accent-color-light);
   }
 
   .social-media-list &:hover {
@@ -193,7 +196,7 @@ pre {
   @include relative-font-size(0.9375);
   border-radius: 3px;
   background-color: $text-color;
-  color: $background-color;
+  color: var(--background-color);
 }
 
 code {
@@ -269,13 +272,13 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: var(--text-color);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid var(--accent-color-light);
 
   tr {
     &:nth-child(even) {
-      background-color: $table-alt-line-bg;
+      background-color: var(--accent-color-light);
     }
   }
 
@@ -285,13 +288,13 @@ table {
   }
 
   th {
-    color: $background-color;
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
+    color: var(--background-color);
+    background-color: var(--accent-color-dark);
+    border: 1px solid var(--accent-color-light);
     border-bottom-color: darken($grey-color-light, 12%);
   }
 
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid var(--accent-color);
   }
 }

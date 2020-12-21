@@ -7,7 +7,7 @@ h4,
 h5,
 h6 {
   font-weight: $base-font-weight;
-  color: white;
+  color: var(--text-color);
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 }
 
 h5 {
-  color: white;
+  color: var(--accent-color);
   font-weight: 700;
   margin-bottom: $spacing-unit/2;
   text-transform: uppercase;
@@ -28,14 +28,15 @@ h5 {
 
 h5 a {
   transition: 0.1s;
+  color: var(--accent-color);
 }
 
 h5 a:visited {
-  color: lighten($brand-color, 5%);
+  color: var(--accent-color);
 }
 
 h5 a:hover {
-  color: $brand-color;
+  color: var(--accent-color-dark);
 }
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -78,7 +79,7 @@ ul {
   @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
-  color: white;
+  color: var(--text-color);
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.25);
   }
@@ -118,9 +119,10 @@ ul {
   h6 {
     font-weight: 400;
     margin-bottom: 2 * $spacing-unit;
-    border-left: 3px solid $brand-color;
+    border-left: 3px solid var(--accent-color);
     padding-left: 8px;
     line-height: 1.6;
+    color: var(--text-color-light);
     @include relative-font-size(0.8);
     @media screen and (min-width: $on-large) {
       @include relative-font-size(0.9);
