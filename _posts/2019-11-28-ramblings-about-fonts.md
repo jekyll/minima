@@ -2,7 +2,7 @@
 layout: post
 title: "Font Finder"
 subtitle: Find fonts using combinations of adjective.
-tags: code idc
+tags: misc
 thumbnail: https://gyanl.com/assets/thumbs/fontfinder.png
 ---
 
