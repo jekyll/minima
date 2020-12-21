@@ -3,6 +3,7 @@ layout: post
 title: "DE 629: Intro to Photography"
 subtitle: Notes from the Intro to Photography course at IDC School of Design, IIT Bombay.
 tags: idc
+thumbnail: https://gyanl.com/assets/thumbs/camera.png
 ---
 
 Intro to Photography is a 1 week course in the first semester at IDC that teaches students about the history of capturing images, how to use a camera, understand angles, lighting and creating a compositions.

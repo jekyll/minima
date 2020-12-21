@@ -3,6 +3,7 @@ layout: post
 title: The Delta of Design
 subtitle: Reflecting on two years of studying design at at IDC School of Design, IIT Bombay.
 tags: idc
+thumbnail: https://gyanl.com/assets/thumbs/delta.png
 ---
 
 This article is inspired by a similar [article written by Rohit Gupta](http://rohitg.in/2018/07/04/deltadesign/), a senior at IDC.

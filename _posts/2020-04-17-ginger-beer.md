@@ -2,6 +2,7 @@
 layout: post
 title: Ginger Beer Recipe
 tags: food
+thumbnail: https://gyanl.com/assets/thumbs/ginger.png
 ---
 
 This is my grandfather's recipe for ginger beer, finely tuned over the years.
