@@ -1,4 +1,4 @@
-# Usage
+# Installation
 > How to configure your project to use this theme
 
 Use this theme's layouts, includes files, SVG icons and dependencies by configuring this theme for your project. No forking needed.
@@ -6,7 +6,6 @@ Use this theme's layouts, includes files, SVG icons and dependencies by configur
 The approach here works on GH Pages through the Remote Theme plugin.
 
 **Warning** - this setup does not pin a tag version of the theme. You just get the latest changes that are on `master`.
-
 
 1. Setup `Gemfile`. Versions should match [GH Pages dependency versions](https://pages.github.com/versions/) but marked as dots for placeholders.
     ```ruby
@@ -40,12 +39,15 @@ The approach here works on GH Pages through the Remote Theme plugin.
     ```sh
     $ bundle install
     ```
-6. Serve your site locally with Jekyll.
-    ```sh
-    $ bundle exec jekyll server
-    ```
+    
+Now you can serve your site locally.
 
-You can push your site to GitHub and setup a deploy to GitHub Pages.
+```sh
+$ bundle exec jekyll serve
+```
+
+To deploy, just push to GitHub and configure your GitHub Pages site in your repo's Settings
+
 
 ### Note
 
