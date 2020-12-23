@@ -22,7 +22,7 @@ The approach here works on GH Pages through the Remote Theme plugin.
     ```
 2. Add a section to your `_config.yml` file. This covers theme use, plugin configs and default values. Note that you do **not** need to add `plugins` key to use Remote Theme plugin as it is already in the plugins group above.
     ```yaml
-    ### Theme boilerplate
+    ### Theme boilerplate ###
 
     remote_theme: MichaelCurrin/minima
 
@@ -39,7 +39,9 @@ The approach here works on GH Pages through the Remote Theme plugin.
     ```sh
     $ bundle install
     ```
-    
+
+You'll also have to setup your config, content and ignore file as with any Jekyll project. And use the `layout: listing` frontmatter for any index pages besides the homepage.
+
 Now you can serve your site locally.
 
 ```sh
