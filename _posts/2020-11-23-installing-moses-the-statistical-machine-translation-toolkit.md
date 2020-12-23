@@ -136,7 +136,7 @@ In the next post, we will walk through the training steps for an SMT system, rig
 3. [http://www.statmt.org/moses_steps.html](http://www.statmt.org/moses_steps.html)
 4. [http://www.speech.sri.com/projects/srilm/download.html](http://www.speech.sri.com/projects/srilm/download.html)
 
-{% if page.comments %} 
+
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -157,7 +157,6 @@ In the next post, we will walk through the training steps for an SMT system, rig
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-{% endif %}
 
 
 <!-- utterances comment snippet 
