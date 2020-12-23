@@ -13,5 +13,6 @@ build:
 logos:
 	bin/install_logos.sh
 
+
 s serve:
 	bundle exec jekyll serve --trace --livereload
