@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Copy logos from SimpleIcons repos to this project.
-# It could be possible to use a submodule instead. It would only be used locally and as this is not for build time.
-
+#
+# It could be possible to use a submodule instead. It would only be used locally and as this is not
+# for build time.
 set -e
 
 # Comments include the name on shields.io in case you use logo field there.
@@ -22,6 +23,7 @@ LOGOS=(
   go
   graphql
   html5
+  hugo
   java
   javascript
   jekyll
@@ -53,12 +55,15 @@ else
   git clone --depth 1 --single-branch -q \
     git@github.com:simple-icons/simple-icons.git
 fi
+echo
 
 for LOGO in ${LOGOS[@]}; do
+  echo $LOGO
   cp "simple-icons/icons/$LOGO.svg" _includes/logos
-  sed -i '' \
+  sed -i="" \
     "s/path/path fill=\"currentColor\"/g" \
     "_includes/logos/$LOGO.svg"
 done
+echo
 
 echo 'If there were changes, you should commit them'
