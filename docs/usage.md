@@ -12,17 +12,16 @@ The approach here works on GH Pages through the Remote Theme plugin.
     ```ruby
     source "https://rubygems.org"
 
-    gem "jekyll", "..."
-    gem "kramdown-parser-gfm", "..."
+    gem "jekyll", "~> 3.9"
+    gem "kramdown-parser-gfm", "~> 1.1.0"
 
-    # Used locally to pull in subdependencies.
     gem 'minima', git: 'https://github.com/MichaelCurrin/minima'
 
     group :jekyll_plugins do
-      gem "jekyll-remote-theme", "..."
+      gem "jekyll-remote-theme", "~> 0.4.2"
     end
     ```
-2. Setup `_config.yml` with theme, plugins and layout settings. Note that you do not need to add `plugins` key to use Remote Theme plugin.
+2. Add a section to your `_config.yml` file. This covers theme use, plugin configs and default values. Note that you do **not** need to add `plugins` key to use Remote Theme plugin as it is already in the plugins group above.
     ```yaml
     ### Theme boilerplate
 
@@ -38,8 +37,13 @@ The approach here works on GH Pages through the Remote Theme plugin.
           layout: "page"
     ```
 5. Install project dependencies with Bundle.
+    ```sh
+    $ bundle install
+    ```
 6. Serve your site locally with Jekyll.
-
+    ```sh
+    $ bundle exec jekyll server
+    ```
 
 You can push your site to GitHub and setup a deploy to GitHub Pages.
 
@@ -47,8 +51,6 @@ You can push your site to GitHub and setup a deploy to GitHub Pages.
 
 Regarding default layout:
 
-Warning - there are memory issues when using a pattern to define listing
-layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
+Warning - there are memory issues when using a pattern to define listing layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
 
-And you can only use path (and type) and not name.
-Therefore it is best to be explicit in each index file to set its layout.
+And you can use path (and type) but not name. Therefore it is best to be explicit in each index file to set its layout.
