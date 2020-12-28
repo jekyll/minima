@@ -3,12 +3,20 @@
 
 [![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/minima?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/minima/releases/)
-[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md)
 
 
 <div align="center">
     
 [![View demo - GH Pages](https://img.shields.io/badge/View_demo-GH_Pages-green?style=for-the-badge)](https://michaelcurrin.github.io/minima/)
+
 [![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 
 </div>
+
+
+## Jump to code
+
+- [logos](/_includes/logos/)
+- [list-pages.html](/_includes/list-pages.html)
+- [list-sections.html](/_includes/list-sections.html)
