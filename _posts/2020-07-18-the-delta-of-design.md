@@ -14,6 +14,8 @@ This article is inspired by a similar [article written by Rohit Gupta](http://ro
 
 The first time I came to IDC was for my interview was April 2018. I had found a friend of a friend, someone who was soon graduating from the college, and I asked him how his experience at IDC had been. He told me he had learnt a lot, but still sometimes felt like he didn't know nearly enough. I was a bit puzzled by this. I had hoped that two years of design school ought to be enough to feel reasonably confident you knew _something_.
 
+I started 2020 feeling like I was in a good place. I had spent a year and a half studying interaction design at IDC School of Design, and I had made a lot of friends and learned about 12 different answers to the question ‘What is design?’ (every professor had a different answer). Every now and then, someone would remark that it was the last time we were doing something—the last time we had a lecture in the Interaction Design studio, the last time we were giving an exam. The final semester had a lot of lasts, and I was starting to be painfully aware that my time at IDC was coming to an end. 
+
 I perhaps understand what this meant now that I have spent two years at IDC There is no end to things one can learn. There is no finish line you can reach and stop. IDC gave me the time, space and direction required to find and learn some things, but it should not be the end of this journey. I am still trying to find ways to do this.
 
 <p></p>  

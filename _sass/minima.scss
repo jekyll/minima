@@ -16,7 +16,7 @@ $text-color: #d5c0fe;
 $text-color-darker: #a391c7;
 $text-color-light: #eadffe; // $background-color: desaturate(lighten(complement($brand-color), 34%), 60%) !default;
 
-$bullet-color: #ffffff;
+$bullet-color: var(--accent-color);
 
 $background-color: #251938;
 $foreground-color: rgba(0, 0, 0, 0.3);

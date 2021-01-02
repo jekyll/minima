@@ -16,10 +16,11 @@ h2 {
 }
 
 h5 {
-  color: var(--accent-color);
+  color: var(--text-color);
   font-weight: 700;
   margin-bottom: $spacing-unit/2;
   text-transform: uppercase;
+  letter-spacing: .02em;
   @include relative-font-size(0.9);
   @media screen and (min-width: $on-large) {
     @include relative-font-size(0.9);
@@ -133,7 +134,7 @@ ul {
     border-left: 3px solid var(--accent-color);
     padding-left: 8px;
     line-height: 1.6;
-    color: var(--text-color-light);
+    color: var(--accent-color);
     @include relative-font-size(0.8);
     @media screen and (min-width: $on-large) {
       @include relative-font-size(0.9);

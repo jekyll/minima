@@ -20,6 +20,16 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+sup{
+  padding: 1px 4px;
+  background-color: var(--accent-color-light);
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 /**
  * Remove blue highlights on mobile
  */
@@ -67,11 +77,11 @@ a:visited.tag {
 }
 
 .tag::before {
-  content: " • ";
+  content: " ◆ ";
   position: absolute;
-  color: var(--text-color);
-  padding-right: 35px;
-  transform: translateX(-50%);
+  color: var(--accent-color);
+  padding-right: 33px;
+  transform: translate(-50%, -5%);
 }
 
 .tag:hover,
@@ -81,6 +91,7 @@ a:visited.tag:hover {
 }
 
 .sub-title {
+  @include relative-font-size(1.25);
   color: var(--text-color-light);
   padding-bottom: $spacing-unit/2;
 }
@@ -174,17 +185,24 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: var(--text-color-light);
+  color: var(--accent-color-dark);
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  padding: $spacing-unit/2 $spacing-unit;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  border-left: 3px solid var(--accent-color);
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit !important;
+  background-color: var(--accent-color-light);
 
   > :last-child {
     margin-bottom: 0;
   }
 }
+
+blockquote h5{
+  margin-top: -6px;
+}
+
 /**
  * Code formatting
  */

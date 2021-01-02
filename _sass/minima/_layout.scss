@@ -10,7 +10,7 @@ html {
   --accent-color: #7c237f;
   --accent-color-light: rgb(223 214 236 / 50%);
 
-    --overlay-color: rgba(0, 0, 0, .04);
+    --overlay-color: rgba(100, 0, 0, .04);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +26,7 @@ html {
     --accent-color: #ff4343;
     --accent-color-light: #ff78781a;
 
-  --overlay-color: rgba(255, 255, 255, .04);
+  --overlay-color: rgba(150, 255, 255, .04);
 
 	}
 }
@@ -286,7 +286,8 @@ html {
 .post-meta {
   font-weight: 600;
   font-size: 12px;
-  color: var(--text-color-light);
+  color: var(--accent-color);
+  opacity: .75;
   margin: -4px 0 0;
 }
 
