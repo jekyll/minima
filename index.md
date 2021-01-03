@@ -1,33 +1,10 @@
 ---
+title: Home
 layout: home
 ---
 
+Demo site for a fork of Minima.
 
-## Demo
+GitHub:
 
-### Sample logo
-
-{% raw %}
-```liquid
-{% include logo.html name='ansible' %}
-```
-{% endraw %}
-
-{% include logo.html name='ansible' %}
-
-### Flexbox
-
-<div class="flex-container">
-    <a href="#">
-        <div>
-            {% include logo.html name="python" %}
-            <span>Python</span>
-        </div>
-    </a>
-    <a href="#">
-        <div>
-            {% include logo.html name="javascript" %}
-            <span>JavaScript</span>
-        </div>
-    </a>
-</div>
+[![MichaelCurrin - minima](https://img.shields.io/static/v1?label=MichaelCurrin&message=minima&color=blue&logo=github)](https://github.com/MichaelCurrin/minima)
