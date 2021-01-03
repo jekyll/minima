@@ -3,6 +3,7 @@ layout: post
 title: "Lab Notes - PS626: AI, Data & Policy"
 subtitle: "These are my lab notes from PS:626 AI, Data & Policy, an elective offered by Prof. Anupam Guha of the Centre for Policy Studies at IIT Bombay."
 tags: idc
+thumbnail: https://gyanl.com/assets/thumbs/ai-lab.png
 permalink: nltk
 ---
 
