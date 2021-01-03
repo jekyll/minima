@@ -2,6 +2,7 @@
 layout: post
 title: How I started freelancing
 subtitle: Some advice for designers starting out
+thumbnail: https://gyanl.com/assets/thumbs/freelance.png 
 tags: misc
 ---
 
