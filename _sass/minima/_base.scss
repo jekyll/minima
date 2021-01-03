@@ -91,6 +91,9 @@ a:visited.tag:hover {
 }
 
 .sub-title {
+  font-family: $title-font-family;
+  font-style: italic;
+  font-weight: 300;
   @include relative-font-size(1.25);
   color: var(--text-color-light);
   padding-bottom: $spacing-unit/2;

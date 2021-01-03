@@ -4,8 +4,8 @@ Headings h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
+  font-family: $title-font-family;
   font-weight: $base-font-weight;
   color: var(--text-color-dark);
 }
@@ -73,6 +73,8 @@ ul {
 
 .post-content h1,
 .post-title {
+  font-family: $title-font-family;
+  font-weight: 700;
   margin-top: 0.5em;
   margin-bottom: 0.25em;
   letter-spacing: 0 !important;
