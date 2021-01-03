@@ -40,16 +40,13 @@ The approach here works on GH Pages through the Remote Theme plugin.
     $ bundle install
     ```
 
-You'll also have to setup your config, content and ignore file as with any Jekyll project. And use the `layout: listing` frontmatter for any index pages besides the homepage.
-
 Now you can serve your site locally.
 
 ```sh
 $ bundle exec jekyll serve
 ```
 
-To deploy, just push to GitHub and configure your GitHub Pages site in your repo's Settings
-
+Go to [Usage](usage.md) doc next.
 
 ### Note
 
