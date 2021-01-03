@@ -2,6 +2,7 @@
 layout: post
 title: Financial Planning
 subtitle: Some personal notes from a financial planning workshop.
+thumbnail: https://gyanl.com/assets/thumbs/money.png
 tags: misc
 ---
 
