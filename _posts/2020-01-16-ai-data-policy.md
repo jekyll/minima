@@ -74,27 +74,3 @@ Readings assigned during the course.
 ### ELIZA
 Chatbot created in the 1960s at MIT Artificial Intelligence Laboratory.   
 [Try here](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm)
-
-
-# Mid-term presentation
-
-### Create a team
-3 or 4 people. Try and not have more than 1-2 coders.
-
-### Fix a topic
-Decide what you want to work on.
-
-### Meeting with Anupam
-Mail Anupam and fix a .5hr slot for 18 Feb (Tue) or 19 Feb (Wed).
-
-### AI lens
-What sort of ML algorithms will you explore?
-
-### Social science lens
-How will you critique?
-
-### 10 minute Presentation
-(Including feedback time)
-6:30pm - 8:30pm  
-Monday, 24 Feb 2020  
-LH-101  
