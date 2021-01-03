@@ -17,6 +17,8 @@ I use this theme in these Jekyll sites, where collect and write content around c
 
 - [Installation](installation.md)
     - Start here if you want to setup and run your project using this theme.
+- [Usage](usage.md)
+    - How to adjust your project to use this theme.
 - [Background](background.md)
 - [Development](development.md)
 - [License](license.md)

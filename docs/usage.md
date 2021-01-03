@@ -1,6 +1,5 @@
 # Usage
-
-How to adjust your project to use this them.
+> How to adjust your project to use this theme
 
 You'll also have to setup your config, content and ignore file as with any Jekyll project.
 
