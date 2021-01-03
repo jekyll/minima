@@ -21,6 +21,12 @@ minima:
 titles_from_headings:
   strip_title: true
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
 exclude:
   - bin/
   - docs/
