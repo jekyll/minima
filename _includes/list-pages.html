@@ -9,8 +9,13 @@
     {% for item in site.pages %}
         {% if item.dir == page.dir and item.path != page.path %}
         <li>
+
             <a href="{{ item.url | relative_url }}">
-            {{ item.title }}
+                {% if item.logo %}
+                    {% include logo.html name=item.logo %}
+                {% endif %}
+
+                <span>{{ item.title }}</span>
             </a>
             {%- comment -%} Note that markdownify generates p tags that causes wrapping {%- endcomment -%}
             {%- if page.description %}

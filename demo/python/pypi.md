@@ -1,6 +1,7 @@
 ---
+title: PyPI
 description: The Python Package Index (PyPI) is a repository of software for the Python programming language.
+logo: python
 ---
-# PyPI
 
 Download packages from [pypi.org](https://pypi.org/).
