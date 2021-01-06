@@ -10,7 +10,7 @@
     {% assign depth = 1 %}
 {% endif %}
 
-<ul>
+<ul class="list-sections">
     {% assign pages = site.pages | sort: 'title' %}
     {% for item in pages %}
         {% assign item_crumbs = item.url | remove_first: page.dir | split: '/' %}
