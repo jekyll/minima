@@ -3,25 +3,25 @@
 
     Pages at the current level excluding the page itself.
 {% endcomment %}
-
 <ul class="list-pages">
     {% assign pages = site.pages | sort: 'title' %}
+
     {% for item in site.pages %}
         {% if item.dir == page.dir and item.path != page.path %}
-        <li>
+            <li>
 
-            <a href="{{ item.url | relative_url }}">
-                {% if item.logo %}
-                    {% include logo.html name=item.logo %}
-                {% endif %}
+                <a href="{{ item.url | relative_url }}">
+                    {% if item.logo %}
+                        {% include logo.html name=item.logo %}
+                    {% endif %}
 
-                <span>{{ item.title }}</span>
-            </a>
-            {%- comment -%} Note that markdownify generates p tags that causes wrapping {%- endcomment -%}
-            {%- if page.description %}
-                <i>{{ item.description | escape | markdownify }}</i>
-            {% endif -%}
-        </li>
+                    <span>{{ item.title }}</span>
+                </a>
+                {%- comment -%} Note that markdownify generates p tags that causes wrapping {%- endcomment -%}
+                {%- if page.description %}
+                    <i>{{ item.description | escape | markdownify }}</i>
+                {% endif -%}
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
