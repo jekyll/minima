@@ -21,6 +21,12 @@ minima:
 titles_from_headings:
   strip_title: true
 
+header_pages:
+  - index.md
+  - demo/index.md
+  - logos.md
+  - flexbox.md
+
 defaults:
   - scope:
       path: ""
