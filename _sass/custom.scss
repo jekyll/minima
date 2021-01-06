@@ -58,3 +58,13 @@ summary {
 
   box-shadow: 1px 2px 4px gray;
 }
+
+.list-pages {
+  font-size: 20px;
+
+  & i {
+    font-size: 17px;
+    // Based on blockquote.
+    color: #828282;
+  }
+}

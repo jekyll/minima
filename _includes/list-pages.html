@@ -4,7 +4,7 @@
     Pages at the current level excluding the page itself.
 {% endcomment %}
 
-<ul>
+<ul class="list-pages">
     {% assign pages = site.pages | sort: 'title' %}
     {% for item in site.pages %}
         {% if item.dir == page.dir and item.path != page.path %}
