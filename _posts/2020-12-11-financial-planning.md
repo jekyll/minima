@@ -44,22 +44,21 @@ Second home? No, probably a bad idea. Recurring deposit usually makes you more m
 Having maybe 5-10% of total assets in gold is okay. In India this tends to be much higher as a lot of people like gold. Safety from government.
 
 ### Stocks
-You won't have the time or knowledge to manage a stock portfolio. There are professional brokers in Dalal street who do this for a living, they will always beat you sitting in your home.
-
-You can buy a managed basket of stocks using mutual funds. This is preferable to buying individual stocks.
-
+If you have a full time job, you won't have the time or knowledge to manage a stock portfolio as well as professional brokers in Dalal street. It's smarter to buy a managed basket of stocks using mutual funds.
 
 ### Mutual funds
-valueresearchonline.com/funds
+Check [valueresearchonline.com/funds](https://www.valueresearchonline.com/funds).
 
 ### Equity
 Equity means stocks. Equity tends to beat every other asset class long term (even if you started right before something like the 2008 stock market crash).
-Last 10 year average returns: 16-17%. Next 10 maybe 12%. 
-Large cap, mid cap, small cap.
-Least volatile, moderately volative, most volatile. 
+Last 10 year average returns: 16-17%. Next 10 maybe 12% as returns have fallen. 
+
+| Large cap         | Mid cap               | Small cap     |
+| Least volatile    | Moderately volative   | Most volatile | 
+
 Indian companies are not very well regulated, so small cap is risky. Mid to large cap is a better bet.
 
-Thumb rule: (100 - your age)% in Equity, rest in debt
+Thumb rule: (100 - your age)% in Equity, rest in debt.
 
 ### Debt
 No volatility, expected returns are 7-9%.
@@ -76,13 +75,10 @@ Broker takes a cut in Regular mutual funds. Broker takes ~1% out of 1.25-3% expe
 Growth mutual funds reinvest your earnings back into the fund. 
 Dividends pay out earnings to your bank account. Dividentds are taxed at a higher rate than capital gains, so unless you are relying on the income growth is preferable.
 
-### Microsoft stock
-You're betting that MS stock will do better than any other type of investment. Safer idea is to sell and put money into mutual funds.
-
-You get an indexation benefit (better tax rate) if you hold foreign stocks for 3 years, so hold for at least that long. 
+### Company stock options
+Some companies will give stocks as part of compensation. If you are holding these, you're betting that your company's stock will do better than any other type of investment. Safer idea is to sell and put money into mutual funds. You get an indexation benefit (better tax rate) if you hold foreign stocks for 3 years, so hold for at least that long. 
 
 ESPP v/s. RSU stock
-
 
 ### Provident fund
 
