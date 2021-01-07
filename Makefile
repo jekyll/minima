@@ -12,12 +12,15 @@ hooks:
 	cd .git/hooks && ln -s -f ../../hooks/pre-push pre-push
 
 
-build:
-	gem build minima.gemspec
-
 logos:
 	bin/install_logos.sh
+
+gem:
+	gem build minima.gemspec
 
 
 s serve:
 	bundle exec jekyll serve --trace --livereload
+
+build:
+	JEKYLL_ENV=production bundle exec jekyll build --trace
