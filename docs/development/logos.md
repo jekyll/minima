@@ -1,4 +1,5 @@
 # Logos
+> How to add to or update logos in the project.
 
 The SVG icons or logos are stored in the [\_includes/logos](/_includes/logos/) directory as includes files. This is easier to manage than assets as it allows the content of the file to be inserted inline in HTML, rather than referencing a path to an asset which has to be fetched on the frontend.
 
@@ -10,7 +11,7 @@ The list of supported logos in this project is maintained in [bin/install_logos.
 
 You can add a new logo name to that script. Then run it.
 
-Here is the shorthand.
+Here is the shorthand:
 
 ```sh
 $ make logos
