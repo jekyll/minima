@@ -19,5 +19,5 @@
 > Jump to code
 
 - [logos](/_includes/logos/)
-- [list-pages.html](/_includes/list-pages.html)
-- [list-sections.html](/_includes/list-sections.html)
+- [sections.html](/_includes/fractal/sections.html)
+- [page-list.html](/_includes/fractal/page-list.html)

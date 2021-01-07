@@ -15,7 +15,7 @@ See Breadcrumbs in docs/development.md
             </a>
         {% else %}
             {% assign target_url = crumbs | slice: 0, i | join: '/' %}
-            {% include url-to-page-link.html target_url=target_url %}
+            {% include fractal/url-to-page-link.html target_url=target_url %}
         {% endif %}
      {% endfor %}
     </div>
