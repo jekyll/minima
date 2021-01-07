@@ -60,8 +60,8 @@ echo
 for LOGO in ${LOGOS[@]}; do
   echo $LOGO
   cp "simple-icons/icons/$LOGO.svg" _includes/logos
-  sed -i="" \
-    "s/path/path fill=\"currentColor\"/g" \
+  sed -i '' \
+    's/path/path fill="currentColor"/g' \
     "_includes/logos/$LOGO.svg"
 done
 echo
