@@ -19,20 +19,20 @@ layout: default
         {% endif %}
     </header>
 
-    {% include fractal/breadcrumbs.html %}
+    {% include structure/breadcrumbs.html %}
     <br>
 
     <div class="post-content">
         {%- comment -%} Include these H2 headings inside post-content so they look bigger, leveraging post-content from the Jekyll theme {%- endcomment -%}
         <h2>Topics</h2>
 
-        {% include fractal/sections.html %}
+        {% include structure/sections.html %}
         <br>
 
         {% unless page.path == 'cheatsheets/index.md' %}
             <h2>Pages</h2>
 
-            {% include fractal/page-list.html %}
+            {% include structure/page-list.html %}
             <br>
 
             {% assign c = content | strip %}
