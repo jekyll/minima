@@ -27,9 +27,9 @@ summary {
 }
 
 /*
-    Not too big otherwise the size of the blocks distort, unless text is also made bigger.
+  Not too big otherwise the size of the blocks distort, unless text is also made bigger.
 
-    The inline-block part
+  The inline-block part
 */
 .logo-small {
   width: 20px;
@@ -45,18 +45,19 @@ summary {
   display: inline-block;
 }
 
+// For section menu and also any other use of flexbox grid of buttons.
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 1em;
-}
 
-.flex-container div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
+  & div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
 
-  box-shadow: 1px 2px 4px gray;
+    box-shadow: 1px 2px 4px gray;
+  }
 }
 
 .page-list {
