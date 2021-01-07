@@ -40,13 +40,13 @@ The approach here works on GH Pages through the Remote Theme plugin.
     $ bundle install
     ```
 
-Now you can serve your site locally.
+Now you can serve your site locally. The flag below is for more verbose errors.
 
 ```sh
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --trace
 ```
 
-Go to [Usage](usage.md) doc next.
+Go to the [Usage](usage.md) doc next.
 
 ### Note
 

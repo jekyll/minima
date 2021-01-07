@@ -20,5 +20,5 @@ I use this theme in these Jekyll sites, where collect and write content around c
 - [Usage](usage.md)
     - How to adjust your project to use this theme.
 - [Background](background.md)
-- [Development](development.md)
+- [Development](development/)
 - [License](license.md)
