@@ -43,7 +43,7 @@ LOGOS=(
   terraform
   typescript
   visualstudiocode
-  vue-dot-js
+  vue-dot-js # vue.js
   yarn
 )
 
@@ -66,4 +66,8 @@ for LOGO in ${LOGOS[@]}; do
 done
 echo
 
+echo 'Logos directory:'
+git status --short _includes/logos
+
+echo
 echo 'If there were changes, you should commit them'
