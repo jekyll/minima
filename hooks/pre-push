@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+# On a feature branch that has no remote yet, this first part would fail.
+git pull --rebase || git pull --rebase origin master
+
+# Prevent push on failed Jekyll build.
+make build
