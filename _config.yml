@@ -1,10 +1,10 @@
 ### Site metadata ###
 
 title: Minima
-author: MichaelCurrin
-email:
-description:
+description: A customized Jekyll theme to support my sites about coding
 
+author: Michael Currin
+email:
 github_username: MichaelCurrin
 
 ### Build settings ###
@@ -13,7 +13,9 @@ url: "https://michaelcurrin.github.io"
 baseurl: "/minima"
 
 theme: minima
+
 show_excerpts: false
+
 minima:
   date_format: "%b %-d, %Y"
 
@@ -35,12 +37,12 @@ defaults:
 exclude:
   - bin/
   - docs/
+  - hooks/
   - simple-icons/
   - vendor/
-  - LICENSE
-  - README.md
   - Gemfile
-  - Gemfile.lock
+  - LICENSE
   - Makefile
   - minima.gemspec
   - "*.gem"
+  - README.md
