@@ -78,7 +78,15 @@ Dividends pay out earnings to your bank account. Dividentds are taxed at a highe
 ### Company stock options
 Some companies will give stocks as part of compensation. If you are holding these, you're betting that your company's stock will do better than any other type of investment. Safer idea is to sell and put money into mutual funds. You get an indexation benefit (better tax rate) if you hold foreign stocks for 3 years, so hold for at least that long. 
 
-ESPP v/s. RSU stock
+#### ESPP 
+- Option to purchase company stock
+- At MSFT, cuts from salary and you get 10% discount on price
+
+#### RSU
+Restricted Stock Unit
+- Part of company compensation
+- Granted on joining and/or every rewards cycle based on performance
+- Vests over 5 years
 
 ### Provident fund
 
