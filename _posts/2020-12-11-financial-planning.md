@@ -54,6 +54,7 @@ Equity means stocks. Equity tends to beat every other asset class long term (eve
 Last 10 year average returns: 16-17%. Next 10 maybe 12% as returns have fallen. 
 
 | Large cap         | Mid cap               | Small cap     |
+|-------------------|-----------------------|---------------|
 | Least volatile    | Moderately volative   | Most volatile | 
 
 Indian companies are not very well regulated, so small cap is risky. Mid to large cap is a better bet.
@@ -78,23 +79,23 @@ Dividends pay out earnings to your bank account. Dividentds are taxed at a highe
 ### Company stock options
 Some companies will give stocks as part of compensation. If you are holding these, you're betting that your company's stock will do better than any other type of investment. Safer idea is to sell and put money into mutual funds. You get an indexation benefit (better tax rate) if you hold foreign stocks for 3 years, so hold for at least that long. 
 
-#### ESPP 
-- Option to purchase company stock
-- At MSFT, cuts from salary and you get 10% discount on price
-
 #### RSU
 Restricted Stock Unit
 - Part of company compensation
 - Granted on joining and/or every rewards cycle based on performance
 - Vests over 5 years
 
-### Provident fund
+#### ESPP 
+Employee Stock Purchase Plan
+- Option to purchase company stock
+- At Microsoft, you can use up to 15% of your salary each month to buy MS Stock at 10% less than market rate. You should do this, it's a no-brainer.
 
 ### Make a will
 Write it and give it to trusted person. 
 Better to get it written up by lawyer and get it registered (2k-5k cost)
 
-# Prescription
+# Mutual Fund Recommendations 
+From [Binu Raj](https://www.linkedin.com/in/binu-raj-317a334)
 
 ### Multicap
 - Franklin India focused Equity fund - multicap
