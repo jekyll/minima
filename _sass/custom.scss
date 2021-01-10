@@ -1,5 +1,5 @@
 /**
- * Shift menu on mobile when covered by GitHub corner.
+ * Shift menu on mobile to allow for GitHub corner.
  */
 @media screen and (max-width: 900px) {
   .site-nav {
@@ -28,8 +28,6 @@ summary {
 
 /*
   Not too big otherwise the size of the blocks distort, unless text is also made bigger.
-
-  The inline-block part
 */
 .logo-small {
   width: 20px;
@@ -45,7 +43,7 @@ summary {
   display: inline-block;
 }
 
-// For section menu and also any other use of flexbox grid of buttons.
+// For section menu and also any other use of a flexbox grid of buttons.
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -61,10 +59,10 @@ summary {
 }
 
 .page-list {
-  font-size: 20px;
+  font-size: 18px;
 
   & i {
-    font-size: 17px;
+    font-size: 14px;
     // Based on blockquote.
     color: #828282;
   }
@@ -73,7 +71,6 @@ summary {
 #github-edit {
   float: right;
 }
-
 #github-add {
   float: right;
 
