@@ -5,3 +5,15 @@ logo: python
 ---
 
 Download packages from [pypi.org](https://pypi.org/).
+
+In the shell:
+
+```sh
+$ pip install foo
+```
+
+In Python:
+
+```python
+import foo
+```
