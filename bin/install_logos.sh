@@ -66,7 +66,7 @@ for LOGO in ${LOGOS[@]}; do
 done
 echo
 
-echo 'Logos directory:'
+echo 'Logos directory changes:'
 git status --short _includes/logos
 
 echo
