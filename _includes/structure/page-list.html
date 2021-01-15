@@ -7,7 +7,7 @@
 <ul class="page-list">
     {% assign pages = site.pages | sort: 'title' %}
 
-    {% for item in site.pages %}
+    {% for item in pages %}
         {% if item.dir == page.dir and item.path != page.path %}
             <li>
                 <a href="{{ item.url | relative_url }}">
