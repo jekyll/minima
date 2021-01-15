@@ -4,28 +4,28 @@
     After removing the common part of the item's path, show a directory if it is a direct descendent of the current directory.
 {% endcomment %}
 
-{% if page.url == '/' %}
+{%- if page.url == '/' %}
     {% assign depth = 2 %}
 {% else %}
     {% assign depth = 1 %}
-{% endif %}
+{% endif -%}
 
 <div class="flex-container">
     {% assign pages = site.pages | sort: 'title' %}
 
-    {% for item in pages %}
+    {%- for item in pages %}
         {% assign item_crumbs = item.url | remove_first: page.dir | split: '/' %}
 
-        {% if item_crumbs.size == depth and item.name == 'index.md' %}
+        {%- if item_crumbs.size == depth and item.name == 'index.md' %}
             <a href="{{ item.url | relative_url }}">
                 <div>
-                    {% if item.logo %}
+                    {%- if item.logo %}
                         {% include logo.html name=item.logo %}
-                    {% endif %}
+                    {% endif -%}
 
                     <span>{{ item.title }}</span>
                 </div>
             </a>
-        {% endif %}
-    {% endfor %}
+        {% endif -%}
+    {% endfor -%}
 </div>
