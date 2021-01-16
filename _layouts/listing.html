@@ -5,9 +5,9 @@ layout: default
 <article class="post">
     <header class="post-header">
         <h1 class="post-title">
-            {% if page.logo %}
+            {%- if page.logo %}
                 {% include logo.html name=page.logo _size='medium' %}
-            {% endif %}
+            {% endif -%}
 
             <span>{{ page.title | escape }}</span>
         </h1>
@@ -31,7 +31,7 @@ layout: default
 
         {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
 
-        {% if crumbs.size > 2 %}
+        {%- if crumbs.size > 2 %}
             <h2>Pages</h2>
 
             {% include structure/page-list.html %}
@@ -43,7 +43,7 @@ layout: default
 
                 {{ c }}
             {% endif %}
-        {% endif %}
+        {% endif -%}
     </div>
 
 </article>
