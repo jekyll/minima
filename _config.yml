@@ -1,6 +1,6 @@
 ### Site metadata ###
 
-title: Minima
+title: Fractal
 description: A customized Jekyll theme to support my sites about coding
 
 author: Michael Currin
@@ -10,13 +10,13 @@ github_username: MichaelCurrin
 ### Build settings ###
 
 url: "https://michaelcurrin.github.io"
-baseurl: "/minima"
+baseurl: "/fractal"
 
-theme: minima
+theme: fractal
 
 show_excerpts: false
 
-minima:
+fractal:
   date_format: "%b %-d, %Y"
 
 titles_from_headings:
@@ -43,6 +43,6 @@ exclude:
   - Gemfile
   - LICENSE
   - Makefile
-  - minima.gemspec
+  - fractal.gemspec
   - "*.gem"
   - README.md

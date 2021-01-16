@@ -37,4 +37,4 @@ $ make build
 
 That will create a file at the root like:
 
-- `minima-3.3.0.gem`
+- `fractal-3.3.0.gem`
