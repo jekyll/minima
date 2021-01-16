@@ -1,25 +1,23 @@
 # Usage
 > How to adjust your project to use this theme
 
+This section follows from the [Installation](installation.md) doc.
 
-## Configuration
 
-This Jekyll site uses this theme and is a great example of how to setup your site.
+## Start dev server
 
-[![MichaelCurrin - dev-cheatsheets](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-cheatsheets&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-cheatsheets)
+How to serve your Jekyll server locally. The flag below is for more verbose errors.
 
-Its config files are linked below:
+```sh
+$ bundle exec jekyll serve --trace
+```
 
-- [.gitignore](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/.gitignore)
-- [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile)
-- [\_config.yml](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/_config.yml)
-- [.editorconfig](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/.editorconfig) (optional)
-- [Makefile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Makefile) (optional)
-
-You can start by copying the whole `_config.yml` file to your project and then adjust it. That is preferable to using this theme's own config, which has some parts you won't need.
+To adapt your project to use this theme structure and styling properly, continue below.
 
 
 ## Nested structure
+
+To make the post of this theme, you'll want to make sure you have nested directories and  `index.md` files at each level.
 
 See this theme's own demo files for a reference on minimal content for your project.
 
@@ -49,4 +47,11 @@ For more real-world use, see Dev Cheatsheets:
 [4]: https://github.com/MichaelCurrin/dev-cheatsheets/tree/master/cheatsheets/jekyll/configuration
 [5]: https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/404.html
 
-You can keep your project content-focused. Rely on the theme - you not need any `_includes` or `_layout` files. You can always add to or overwrite them.
+
+## What you don't need
+
+You do not need to make any collections.
+
+You do not need to set the `layout` field on any pages besides your homepage as `layout: home`, since the `page` was setup in your config file.
+
+As with other Jekyll themes, the idea is to keep your project content-focused and let the theme handle the styling. You not need any `_includes` or `_layout` files. You can always add to or overwrite them.
