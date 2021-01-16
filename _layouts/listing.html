@@ -29,7 +29,9 @@ layout: default
         {% include structure/sections.html %}
         <br>
 
-        {% unless page.path == 'cheatsheets/index.md' %}
+        {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+
+        {% if crumbs.size > 2 %}
             <h2>Pages</h2>
 
             {% include structure/page-list.html %}
@@ -41,7 +43,7 @@ layout: default
 
                 {{ c }}
             {% endif %}
-        {% endunless %}
+        {% endif %}
     </div>
 
 </article>
