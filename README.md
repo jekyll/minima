@@ -1,14 +1,14 @@
 # Fractal
-> A customized Jekyll theme to support my sites about coding
+> A customized Jekyll theme to support sites about coding
 
 [![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/minima?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/minima/releases/)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/fractal?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/fractal/releases/)
 [![License - MIT](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md)
 
 
 <div align="center">
 
-[![View demo - GH Pages](https://img.shields.io/badge/View_demo-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/minima/)
+[![View demo - GH Pages](https://img.shields.io/badge/View_demo-GH_Pages-2ea44f?style=for-the-badge)](https://michaelcurrin.github.io/fractal/)
 
 [![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 

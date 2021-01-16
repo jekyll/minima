@@ -16,7 +16,7 @@ logos:
 	bin/install_logos.sh
 
 gem:
-	gem build minima.gemspec
+	gem build fractal.gemspec
 
 
 s serve:

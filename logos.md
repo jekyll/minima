@@ -6,7 +6,7 @@ They come from [SimpleIcons](https://simpleicons.org/).
 
 Find them in this projects repo in the `_includes` directory (this is safer than using `assets`).
 
-- [\_includes/logos/](https://github.com/MichaelCurrin/minima/tree/master/_includes/logos)
+- [\_includes/logos/](https://github.com/MichaelCurrin/fractal/tree/master/_includes/logos)
 
 
 Demo of how to use an SVG logo such as `ruby.svg`.
