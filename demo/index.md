@@ -1,4 +1,1 @@
----
-layout: listing
----
 # Demo group

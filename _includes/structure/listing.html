@@ -1,0 +1,21 @@
+{%- comment -%} Section and page listing menus {%- endcomment -%}
+<h2>Topics</h2>
+
+{% include structure/sections.html %}
+<br>
+
+{% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+
+{%- if crumbs.size > 2 %}
+    <h2>Pages</h2>
+
+    {% include structure/page-list.html %}
+    <br>
+
+    {% assign c = content | strip %}
+    {% if c != '' %}
+        <h2>Content</h2>
+
+        {{ c }}
+    {% endif %}
+{% endif -%}

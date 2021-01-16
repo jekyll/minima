@@ -25,6 +25,10 @@ layout: default
     <br>
 
     <div class="post-content">
-        {{ content }}
+        {% if page.name == 'index.md' %}
+            {% include structure/listing.html %}
+        {% else %}
+            {{ content }}
+        {% endif %}
     </div>
 </article>

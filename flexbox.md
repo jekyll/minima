@@ -1,8 +1,8 @@
 # Flexbox
 
-You can use the `listing.html` layout which uses the flexbox pattern already.
+You can use the [page.html](/_layouts/page.html) layout which uses the flexbox pattern already.
 
-Or you custom HTML as below, which works because of the project's CSS added to the base Minima CSS styles.
+Or use custom HTML as below, which will work because of the project's CSS added to the base Minima CSS styles.
 
 
 ## Code
