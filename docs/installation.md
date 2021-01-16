@@ -5,53 +5,37 @@ Use this theme's layouts, includes files, SVG icons and dependencies by configur
 
 The approach here works on GH Pages through the Remote Theme plugin.
 
-**Warning** - this setup does not pin a tag version of the theme. You just get the latest changes that are on `master`.
+**Warning** - this setup below does **not** pin a tag version of the theme. You just get the latest changes that are on `master`.
 
-1. Setup `Gemfile`. Versions should match [GH Pages dependency versions](https://pages.github.com/versions/) but marked as dots for placeholders.
-    ```ruby
-    source "https://rubygems.org"
 
-    gem "jekyll", "~> 3.9"
-    gem "kramdown-parser-gfm", "~> 1.1.0"
+## Config files
 
-    gem 'minima', git: 'https://github.com/MichaelCurrin/minima'
 
-    group :jekyll_plugins do
-      gem "jekyll-remote-theme", "~> 0.4.2"
-    end
-    ```
-2. Add a section to your `_config.yml` file. This covers theme use, plugin configs and default values. Note that you do **not** need to add `plugins` key to use Remote Theme plugin as it is already in the plugins group above.
-    ```yaml
-    ### Theme boilerplate ###
 
-    remote_theme: MichaelCurrin/minima
+## Configuration
 
-    titles_from_headings:
-      strip_title: true
+This Dev Cheatsheets project is my Jekyll site that uses this theme and is a great example of how to setup your site.
 
-    defaults:
-      - scope:
-          path: ""
-        values:
-          layout: "page"
-    ```
-5. Install project dependencies with Bundle.
-    ```sh
-    $ bundle install
-    ```
+[![MichaelCurrin - dev-cheatsheets](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-cheatsheets&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-cheatsheets)
 
-Now you can serve your site locally. The flag below is for more verbose errors.
+Its config files are linked below:
 
+- [.gitignore](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/.gitignore)
+- [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile)
+- [\_config.yml](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/_config.yml)
+- [.editorconfig](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/.editorconfig) (optional)
+- [Makefile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Makefile) (optional)
+
+You can start by copying the whole `_config.yml` file to your project and then adjust it. That is preferable to using this theme's own config, which has some parts you won't need.
+
+This covers theme, plugin configs and default values. Note that you do **not** need to add the `plugins` key to use Remote Theme plugin as it is already in the plugins group above and GH Pages it able to pick it up.
+
+
+## Install gems
+
+Install project dependencies with Bundle.
 ```sh
-$ bundle exec jekyll serve --trace
+$ bundle install
 ```
 
 Go to the [Usage](usage.md) doc next.
-
-### Note
-
-Regarding default layout:
-
-Warning - there are memory issues when using a pattern to define listing layout for `cheatsheets/**/index.md` or even `cheatsheets/*/index.md`.
-
-And you can use path (and type) but not name. Therefore it is best to be explicit in each index file to set its layout.
