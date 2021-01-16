@@ -18,6 +18,7 @@ theme: fractal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 show_excerpts: false
 
