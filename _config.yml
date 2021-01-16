@@ -15,7 +15,7 @@ baseurl: "/fractal"
 theme: fractal
 
 plugins:
-  - jekyll-seo
+  - jekyll-seo-tag
 
 show_excerpts: false
 
