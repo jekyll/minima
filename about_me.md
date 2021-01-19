@@ -16,7 +16,7 @@ I have taken these courses throughout my bachelor's, master's, and Ph.D. combine
 - **AI/ML:** Machine Learning (NIT, Silchar), Artifitial Intelligence (NIT, Silchar), Natural language Processing (NIT, Silchar), Coursera course on Machine Learning by Andrew Ng, Coursera course on Natural Language Processing with Sequence Model by Deeplearning.ai 
 
 ### My Research Interest
-I'm focusing upon the Natural Language processing for low-resource languages and Machine Translation (MT), particularly in my PhD candidature. There are several MT task challenges for low-resource languages unlike high-resource languages, most notably the availability of parallel data. In my work, I would like to explore the techniques and methodologies to improve the MT task for these less privileged languages by exploiting the available data. 
+I'm focusing on the Machine Translation (MT) for low-resource languages in my PhD candidature. There are several MT task challenges for low-resource languages unlike high-resource languages, most notably parallel data availability. In my work, I would like to explore the techniques and methodologies to improve the MT task for these less privileged languages by exploiting the available data.
 
 <!-- ### Whoami
 An NLP enthusiast and currently a Ph.D. candidate at National Institute of Technology, Silchar, India.
