@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Copy logos from SimpleIcons repos to this project.
 #
-# It could be possible to use a submodule instead. It would only be used locally and as this is not
-# for build time.
+# It would be possible to use a submodule instead of cloning an ignored directory.
+# But it would not be to useful, as it is only used for local use and not for the distributed
+# logos which are added to version control manually.
 set -e
 
 # Comments include the name on shields.io in case you use logo field there.
@@ -10,7 +11,6 @@ LOGOS=(
   ansible
   c
   circleci
-  cmake
   css3
   dart
   deno
@@ -55,7 +55,8 @@ else
   git clone --depth 1 --single-branch -q \
     git@github.com:simple-icons/simple-icons.git
 fi
-echo
+
+echo '------'
 
 for LOGO in ${LOGOS[@]}; do
   echo $LOGO
@@ -64,7 +65,8 @@ for LOGO in ${LOGOS[@]}; do
     's/path/path fill="currentColor"/g' \
     "_includes/logos/$LOGO.svg"
 done
-echo
+
+echo '------'
 
 echo 'Logos directory changes:'
 git status --short _includes/logos
