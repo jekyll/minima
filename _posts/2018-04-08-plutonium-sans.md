@@ -58,7 +58,7 @@ The early lowercase ‘_a_’ had a teardrop shape to it which felt a bit odd t
 
 !["asteroid"](https://gyanl.com/assets/plutonium-asteroid.png)
 
-###### I briefly considered a slight slant to the right.
+###### Double storey ‘_a_’ in an exploration for an italic weight.
 
 
 I kept trying random words and edited anything that looked off.
@@ -66,43 +66,31 @@ I kept trying random words and edited anything that looked off.
 
  & **_s_** went through a couple of explorations, and 
 
-
-
-
-![https://miro.medium.com/max/908/1\*QkUekazm1C0bIE021mbSRQ.png](https://miro.medium.com/max/908/1*QkUekazm1C0bIE021mbSRQ.png)
-
-![https://miro.medium.com/max/1270/1\*EDEg2KJlv-4mNORkIuSX3g.png](https://miro.medium.com/max/1270/1*EDEg2KJlv-4mNORkIuSX3g.png)
-
 A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I wanted the typeface to look modern and clean but not too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
 
-![https://miro.medium.com/max/60/1\*qL6UrdzuTn5Bce7d7D9klQ.png?q=20](https://miro.medium.com/max/60/1*qL6UrdzuTn5Bce7d7D9klQ.png?q=20)
+!["The quick brown fox jumps over the lazy dog."](https://gyanl.com/assets/plutonium-qbf.png)
 
-![https://miro.medium.com/max/954/1\*qL6UrdzuTn5Bce7d7D9klQ.png](https://miro.medium.com/max/954/1*qL6UrdzuTn5Bce7d7D9klQ.png)
+###### Final lowercase glyphs
 
-![https://miro.medium.com/max/60/1\*q_mnZas4uF30eLNQddLAHg.png?q=20](https://miro.medium.com/max/60/1*q_mnZas4uF30eLNQddLAHg.png?q=20)
+!["Alpine joke"](https://gyanl.com/assets/plutonium-alpine-joke.png)
 
-![https://miro.medium.com/max/1110/1\*q_mnZas4uF30eLNQddLAHg.png](https://miro.medium.com/max/1110/1*q_mnZas4uF30eLNQddLAHg.png)
+###### Alpine joke
 
-![https://miro.medium.com/max/60/1\*weoJkV8nKQ9_eILN80Myrw.png?q=20](https://miro.medium.com/max/60/1*weoJkV8nKQ9_eILN80Myrw.png?q=20)
+!["fjord"](https://gyanl.com/assets/plutonium-fjord.png)
 
-![https://miro.medium.com/max/1246/1\*weoJkV8nKQ9_eILN80Myrw.png](https://miro.medium.com/max/1246/1*weoJkV8nKQ9_eILN80Myrw.png)
+###### Fjord
 
-# **The Result**
+# **Get Plutonium**
 
 I spent a lot of time polishing Plutonium and while there’s still a long way to go, it’s at a stage where I feel comfortable sharing a preview.
 
-![https://miro.medium.com/max/60/1\*g2_nlsxepxaf8kD_GfdrkQ.png?q=20](https://miro.medium.com/max/60/1*g2_nlsxepxaf8kD_GfdrkQ.png?q=20)
+You can [download the current version here](https://www.dropbox.com/s/th77rs67prpvxh7/Plutonium-Sans-13March18.zip?dl=0).
 
-![https://miro.medium.com/max/2160/1\*g2_nlsxepxaf8kD_GfdrkQ.png](https://miro.medium.com/max/2160/1*g2_nlsxepxaf8kD_GfdrkQ.png)
+#### Before you use
 
-![https://miro.medium.com/max/60/1\*nKYlE43GZs-2OvPhyYzmXA.png?q=20](https://miro.medium.com/max/60/1*nKYlE43GZs-2OvPhyYzmXA.png?q=20)
+!["Kerning is hard."](https://gyanl.com/assets/plutonium-kerning.png)
 
-![https://miro.medium.com/max/2160/1\*nKYlE43GZs-2OvPhyYzmXA.png](https://miro.medium.com/max/2160/1*nKYlE43GZs-2OvPhyYzmXA.png)
-
-![https://miro.medium.com/max/60/1\*xWWI5HXnWGevYGzbDotfeQ.png?q=20](https://miro.medium.com/max/60/1*xWWI5HXnWGevYGzbDotfeQ.png?q=20)
-
-![https://miro.medium.com/max/2160/1\*xWWI5HXnWGevYGzbDotfeQ.png](https://miro.medium.com/max/2160/1*xWWI5HXnWGevYGzbDotfeQ.png)
-
-# **What’s next?**
-
-Plutonium still needs some work before it’s launch ready — the numerals and punctuation are a little rough, and I still haven’t fully wrapped my head around kerning. I want to eventually make Plutonium a high quality free and open source font family with Light, Regular, Medium & Bold weights, and submit it to Google Fonts.
+1. No kerning whatsoever (I still haven’t fully wrapped my head around how to do it).
+2. The numerals and punctuation are a little rough.
+3. The bold and regular weights are too close to each other.
+4. Side effects may include dizziness or nausea (not really) (but no guarantees).
