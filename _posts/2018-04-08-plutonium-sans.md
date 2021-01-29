@@ -60,18 +60,6 @@ The early lowercase ‘_a_’ had a teardrop shape to it which felt a bit odd t
 
 ###### Double storey ‘_a_’ in an exploration for an italic weight.
 
-
-I kept trying random words and edited anything that looked off.
-
-
- & **_s_** went through a couple of explorations, and 
-
-A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I wanted the typeface to look modern and clean but not too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
-
-!["The quick brown fox jumps over the lazy dog."](https://gyanl.com/assets/plutonium-qbf.png)
-
-###### Final lowercase glyphs
-
 !["Alpine joke"](https://gyanl.com/assets/plutonium-alpine-joke.png)
 
 ###### Alpine joke
@@ -80,7 +68,13 @@ A few days later I was happy with my lowercase letters, and it was time to work 
 
 ###### Fjord
 
-# **Get Plutonium**
+A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I did not want the typeface to look too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
+
+!["The quick brown fox jumps over the lazy dog."](https://gyanl.com/assets/plutonium-qbf.png)
+
+###### Final lowercase glyphs
+
+## Get Plutonium
 
 I spent a lot of time polishing Plutonium and while there’s still a long way to go, it’s at a stage where I feel comfortable sharing a preview.
 
