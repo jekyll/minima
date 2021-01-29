@@ -44,7 +44,7 @@ I used Illustrator to draw the HOno as control characters to define the look and
 
 ![Glyphs for Mac](https://gyanl.com/assets/plutonium-abc.png)
 
-###### Version 1 of the lowercase letters.
+###### Early version of the lowercase letters from a to t.
 
 ## Making words
 
@@ -52,10 +52,22 @@ I started stringing letters into words to check how they looked together. Certai
 
 !["adhesion"](https://gyanl.com/assets/plutonium-adhesion.png)
 
-###### ‘adhesion’ was one of the early words I used to test the font, and it also became my work in progress name for the font.
+###### ‘adhesion’ was one of the early words I used to test the font, and it also became my work in progress name for the font. 
+
+The early lowercase ‘_a_’ had a teardrop shape to it which felt a bit odd to me. I later tried a double storey ‘_a_’, and eventually abandoned for a more traditional geometric form.
+
+!["asteroid"](https://gyanl.com/assets/plutonium-asteroid.png)
+
+###### I briefly considered a slight slant to the right.
 
 
-The lowercase **_a_** & **_s_** went through a couple of explorations, and I briefly considered a 3 degree slant to the right. I kept trying random words and edited anything that looked off.
+I kept trying random words and edited anything that looked off.
+
+
+ & **_s_** went through a couple of explorations, and 
+
+
+
 
 ![https://miro.medium.com/max/908/1\*QkUekazm1C0bIE021mbSRQ.png](https://miro.medium.com/max/908/1*QkUekazm1C0bIE021mbSRQ.png)
 
