@@ -2,7 +2,7 @@
 layout: post
 title: Plutonium Sans
 subtitle: Designing my second typeface
-tags: misc
+tags: fonts
 thumbnail: https://gyanl.com/assets/thumbs/plutonium.png
 ---
 
@@ -24,13 +24,13 @@ A few months ago, I worked on a casual typeface based on my handwriting. I calle
 
 ### Getting started
 
-I started Lettuce Party with no previous experience or research into type design, and my ignorance of certain technicalities caused a lot of problems later in the process. This time I did my homework, and read up about starting with type design.
+I started Lettuce Party with no previous experience or research into type design, which caused a lot of technical problems later in the process. This time I did my homework, and read up about starting with type design so that I could follow best practices.
 
 ### Glyphs
 
 I had previously used Birdfont, a free & open source font editor, but had found it confusing and badly documented. I was keen to try out other font editors, and settled on Glyphs for Mac. It’s a paid software with a 30 day trial that I used, and their website has some great [tutorials](https://glyphsapp.com/tutorials) to get you started.
 
-![Glyphs for Mac](https://gyanl.com/assets/plutonium-capitals.png)
+![Glyphs for Mac](https://gyanl.com/assets/glyphs-characterset.png)
 
 ###### Glyphs for Mac
 
