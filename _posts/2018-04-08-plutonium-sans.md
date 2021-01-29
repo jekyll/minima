@@ -68,11 +68,15 @@ The early lowercase ‘_a_’ had a teardrop shape to it which felt a bit odd t
 
 ###### Fjord
 
-A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I did not want the typeface to look too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
-
 !["The quick brown fox jumps over the lazy dog."](https://gyanl.com/assets/plutonium-qbf.png)
 
 ###### Final lowercase glyphs
+
+A few days later I was happy with my lowercase letters, and it was time to work on the uppercase. I followed a similar process of trial and error, creating a few characters and then stringing them together and making any modifications that felt appropriate. I did not want the typeface to look too formal, so I allowed myself to have some fun with some of the letters. I was particularly happy with how the **_k_** and **_y_** came out.
+
+!["Upper and lower case letters"](https://gyanl.com/assets/plutonium-unlc.png)
+
+###### Upper and Lower case
 
 ## Get Plutonium
 
