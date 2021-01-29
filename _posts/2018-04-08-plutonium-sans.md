@@ -8,23 +8,29 @@ thumbnail: https://gyanl.com/assets/thumbs/plutonium.png
 
 ![Plutonium Sans](https://gyanl.com/assets/plutonium.png)
 
-A few months ago, I worked on a casual typeface based on my handwriting. I called it [Lettuce Party](/lettuce-party). It was my first foray into type design, and I came out of the experience with a lot of insights into what not to do when you are trying to design a typeface. This summer, I read [Never Use Futura](http://www.neverusefutura.com/) and decided to work on my own sans serif inspired by the geometric forms of Futura. This was the result.
+A few months ago, I worked on a script typeface based on my handwriting. I called it [Lettuce Party](/lettuce-party). It was my first foray into type design, and I came out of the experience with a lot of insights into what not to do when you are trying to design a typeface. This summer, I read [Never Use Futura](http://www.neverusefutura.com/) and decided to work on my own sans serif inspired by the geometric forms of Futura. This was the result.
 
-![Plutonium Sans](https://gyanl.com/assets/plutonium-sample.png)
+
+
+![Plutonium Sans](https://gyanl.com/assets/plutonium-weights.png)
 
 ###### Plutonium Sans
 
+![Plutonium Sans](https://gyanl.com/assets/plutonium-sample.png)
+
+###### Type sample
+
 ![Plutonium Sans](https://gyanl.com/assets/plutonium-lower.png)
 
-###### Lowercase letters
+###### Lowercase letters (bold weight)
 
 ![Plutonium Sans](https://gyanl.com/assets/plutonium-capitals.png)
 
-###### Capitals
+###### Capitals (regular weight)
 
 ### Getting started
 
-I started Lettuce Party with no previous experience or research into type design, which caused a lot of technical problems later in the process. This time I did my homework, and read up about starting with type design so that I could follow best practices.
+I started Lettuce Party with no previous experience or research into type design, which caused a lot of technical problems later in the process. This time I did my homework, and read about best practices for starting a type design project. This removed a lot of the trial and error of figuring out tools and techniques on my own, and made my workflow a lot more efficient.
 
 ### Glyphs
 
@@ -34,37 +40,24 @@ I had previously used Birdfont, a free & open source font editor, but had found 
 
 ###### Glyphs for Mac
 
-![https://miro.medium.com/max/60/1\*iJSuWVUFdoRBOgtAbkO3jQ.png?q=20](https://miro.medium.com/max/60/1*iJSuWVUFdoRBOgtAbkO3jQ.png?q=20)
-
-![https://miro.medium.com/max/2220/1\*iJSuWVUFdoRBOgtAbkO3jQ.png](https://miro.medium.com/max/2220/1*iJSuWVUFdoRBOgtAbkO3jQ.png)
-
 I used Illustrator to draw the HOno as control characters to define the look and feel of the typeface. I used Illustrator since that was what I was comfortable with, but I moved to Glyphs soon after and the pen tool quickly grew on me. Before long I had completed a first draft of the lowercase letters.
 
-![https://miro.medium.com/max/60/1\*fInhS0sjDpyoX4-A9CgMKA.png?q=20](https://miro.medium.com/max/60/1*fInhS0sjDpyoX4-A9CgMKA.png?q=20)
+![Glyphs for Mac](https://gyanl.com/assets/plutonium-abc.png)
 
-![https://miro.medium.com/max/1200/1\*fInhS0sjDpyoX4-A9CgMKA.png](https://miro.medium.com/max/1200/1*fInhS0sjDpyoX4-A9CgMKA.png)
+###### Version 1 of the lowercase letters.
 
-Version 1 of the lowercase letters.
+## Making words
 
-# **Making words**
+I started stringing letters into words to check how they looked together. Certain combinations of letters looked off, and it was helpful to compare characters side by side to see what worked and what didn’t. I tweaked things as I went along, and took screenshots of anything I liked so I could come back to ideas.
 
-I started stringing them into words to check how they looked. Certain combinations of letters looked off, and it was helpful to compare characters side by side to see what worked and what didn’t. I tweaked things as I went along, and took screenshots of anything I liked so I could come back to ideas.
+!["adhesion"](https://gyanl.com/assets/plutonium-adhesion.png)
 
-![https://miro.medium.com/max/60/1\*1A3ovBnZ0a2H8U9z0XaRsQ.png?q=20](https://miro.medium.com/max/60/1*1A3ovBnZ0a2H8U9z0XaRsQ.png?q=20)
+###### ‘adhesion’ was one of the early words I used to test the font, and it also became my work in progress name for the font.
 
-![https://miro.medium.com/max/2160/1\*1A3ovBnZ0a2H8U9z0XaRsQ.png](https://miro.medium.com/max/2160/1*1A3ovBnZ0a2H8U9z0XaRsQ.png)
-
-![https://miro.medium.com/max/60/1\*HCxqV6HKdEkj3kS8vhuqjQ.png?q=20](https://miro.medium.com/max/60/1*HCxqV6HKdEkj3kS8vhuqjQ.png?q=20)
-
-![https://miro.medium.com/max/2160/1\*HCxqV6HKdEkj3kS8vhuqjQ.png](https://miro.medium.com/max/2160/1*HCxqV6HKdEkj3kS8vhuqjQ.png)
 
 The lowercase **_a_** & **_s_** went through a couple of explorations, and I briefly considered a 3 degree slant to the right. I kept trying random words and edited anything that looked off.
 
-![https://miro.medium.com/max/60/1\*QkUekazm1C0bIE021mbSRQ.png?q=20](https://miro.medium.com/max/60/1*QkUekazm1C0bIE021mbSRQ.png?q=20)
-
 ![https://miro.medium.com/max/908/1\*QkUekazm1C0bIE021mbSRQ.png](https://miro.medium.com/max/908/1*QkUekazm1C0bIE021mbSRQ.png)
-
-![https://miro.medium.com/max/60/1\*EDEg2KJlv-4mNORkIuSX3g.png?q=20](https://miro.medium.com/max/60/1*EDEg2KJlv-4mNORkIuSX3g.png?q=20)
 
 ![https://miro.medium.com/max/1270/1\*EDEg2KJlv-4mNORkIuSX3g.png](https://miro.medium.com/max/1270/1*EDEg2KJlv-4mNORkIuSX3g.png)
 
