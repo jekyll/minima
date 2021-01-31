@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # Copy logos from SimpleIcons repos to this project.
 #
-# It would be possible to use a submodule instead of cloning an ignored directory.
-# But it would not be to useful, as it is only used for local use and not for the distributed
-# logos which are added to version control manually.
+# This is only meant to be rrun locally.
+#
+# This clones the SimpleIcons repo as an ignored directory and copies desired SVG files into this
+# theme, so they can be commited.
+#
+# It would be possible to use a submodule instead. But it would not be useful, as we do not care
+# about locking to repo commit or including the directory in our repo theme.
 set -e
 
 # Comments include the name on shields.io in case you use logo field there.
@@ -18,8 +22,8 @@ LOGOS=(
   eslint
   git
   github
-  githubactions
-  gnubash # gnu-bash
+  githubactions # github-actions
+  gnubash       # gnu-bash
   go
   graphql
   html5
@@ -38,6 +42,7 @@ LOGOS=(
   postgresql
   python
   react
+  rust
   ruby
   sqlite
   terraform
@@ -48,9 +53,7 @@ LOGOS=(
 )
 
 if [[ -d 'simple-icons' ]]; then
-  cd simple-icons
-  git pull
-  cd ..
+  (cd simple-icons && git pull -q)
 else
   git clone --depth 1 --single-branch -q \
     git@github.com:simple-icons/simple-icons.git
