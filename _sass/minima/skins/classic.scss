@@ -11,6 +11,7 @@ $text-color:            #383838 !default;
 $background-color:      #ffffff !default;
 $code-background-color: #eeeeff !default;
 $blue-color:            #14213d !default;
+$light-blue-color:      #1f4e79 !default;
 $gold-color:            #cea03b !default;
 $brown-color:           #ce6e3b !default;
 
@@ -19,8 +20,8 @@ $light-yellow-color:    #fffaeb !default;
 $site-title-color:      $text-color !default;
 
 
-$link-base-color:       $text-color !default;
-$link-visited-color:    $text-color !default;
+$link-base-color:       $light-blue-color !default;
+$link-visited-color:    $light-blue-color !default;
 $link-hover-color:      $gold-color !default;
 
 $border-color-01:       $brand-color-light !default;
