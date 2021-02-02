@@ -13,7 +13,9 @@ Recently I stumbled upon this quote:
 
 >"You don't learn cooking by reading cooking books"
 
-It made me chuckle. In the past, I spent far too much time thinking about ideas (cooking books) than on executing them (actually cooking). It would be untrue for me to say that I am completely over that phase now. I still spend too much time brainstorming. I am working to change that. Albeit it is hard and slow. I need to constantly remind myself that ideas + execution \>> ideas with no execution. Execution is where the actual magic happens. Another important thing to keep in mind is that there never is and there never will be a perfect time to start. The best time to start was yesterday and the 2nd best time is now. You can't win the race by just thinking about the finish line. You can only win the race by actually taking part in it. Start now!
+It made me chuckle. In the past, I spent far too much time thinking about ideas (cooking books) than on executing them (actually cooking). It would be untrue for me to say that I am completely over that phase now. I still spend too much time brainstorming. I am working to change that. Albeit it is hard and slow. I need to constantly remind myself that ideas + execution \>> ideas with no execution. Execution is where the actual magic happens. 
+
+Another important thing to keep in mind is that there never is and there never will be a perfect time to start. The best time to start was yesterday and the 2nd best time is now. You can't win the race by just thinking about the finish line. You can only win the race by actually taking part in it. Start now!
 
 ![Execution Focus](/assets/img/Execution focus.png)
 
@@ -68,7 +70,7 @@ Never underestimate the power of incentives.
 
 #### **6. Be enthusiastic**
 
-Kevin Kelly in his [blog post](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/){:target="_blank"} mentions that enthusiasm is worth 25 IQ points. I couldn't agree more. I have seen this work first hand. My ex-boss was one of the most enthusiastic people I have ever met. His enthusiasm was contagious. His energy and his mood had the ability to lift the spirits of the entire floor. Working with him was so much more fun because of his enthusiastic nature. Be like him.
+Kevin Kelly in his [blog post](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/){:target="_blank"} mentions that enthusiasm is worth 25 IQ points. I couldn't agree more. I have seen this work first hand. My ex-boss was one of the most enthusiastic person I have ever met. His enthusiasm was contagious. His energy and his mood had the ability to lift the spirits of the entire floor. Working with him was so much more fun because of his enthusiastic nature. Be like him.
 	
 ![Enthusiasm](/assets/img/Enthusiasm.png) 
 	
@@ -99,8 +101,4 @@ Times change. Circumstances change. Facts change. Shouldn't your mind too? The a
 There is nothing in the world, seriously nothing, more important than your health. Every dream, every opportunity, every dollar in your bank account becomes immaterial if you are unwell. Current coronavirus crisis only reinforces this belief.  I regret neglecting my health in my younger years. The good thing is that with help from my family, I am back on track and getting healthier each passing day. You need to be absolutely selfish about your health. It should be a top priority. Everything else is secondary. In the end the choice is yours — the pain of discipline or the pain of regret.
     
 ![Health](/assets/img/health.png)
-
-   
-
-*Last Updated: 20th July 2020*
 
