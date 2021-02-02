@@ -14,7 +14,9 @@ I have, and I want to share with you 3 such defining moments from my life. These
 
 ##### **The 1st one is from the year 2000.** 
 
-I was 8 years old, studying in 2nd grade in India. I was never good at sports. I had terrible handwriting. And I was on a downward spiral academically. Within months, I moved from being one of the brightest in the class to being one of the most stupid. I was unable to concentrate. My parents got worried. They tried to motivate me with toys, chocolates, and ice-creams but none of it worked. In the end, it was a doctor that came to my rescue. The doctor diagnosed that the problem was not of motivation, but it was my weak eyesight. The doctor gave me something that would then become a part of my life. Something that I would not be able to live without. My spectacles. 
+I was 8 years old, studying in 2nd grade in India. I was never good at sports. I had terrible handwriting. And I was on a downward spiral academically. Within months, I moved from being one of the brightest in the class to being an underperformer. I was unable to concentrate. My parents got worried. They tried to motivate me with toys, chocolates, and ice-creams but none of it worked.
+
+In the end, it was a doctor that came to my rescue. The doctor diagnosed that the problem was not of motivation, but it was my weak eyesight. The doctor gave me something that would then become a part of my life. Something that I would not be able to live without. My spectacles. 
 
 If not for my spectacles, it would be impossible for me to see and concentrate. My spectacles changed my appearance and my life forever.
 

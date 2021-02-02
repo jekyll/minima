@@ -13,5 +13,3 @@ Instead of wasting hours reading news, focus your time on reading something more
 ![What should you read?](/assets/img/what-should-you-read.jpg)
 
 <sup>Source: [Safal Niveshak](https://www.safalniveshak.com/reading-learning-for-investors/){:target="_blank"}</sup>
-
-*Page last updated: 16th Aug 2020* 

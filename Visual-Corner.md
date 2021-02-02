@@ -2,7 +2,7 @@
 layout: page
 title: Visual Corner
 permalink: /visual-corner/
-published: true
+published: false
 ---
 
 This page is a collection of charts, images, data points and visuals that I find interesting.

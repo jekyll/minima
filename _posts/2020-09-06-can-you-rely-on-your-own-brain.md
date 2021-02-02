@@ -8,13 +8,17 @@ permalink: /biases/
 
 The human brain is an incredible machine, capable of doing a billion-billion calculations per second. Yet can you fully trust it? Can you rely on it 100%? Can you be sure that your choice was rational?
 
-The answer is a BIG NO!! Our brain has its limitations. It makes mental errors and irrational decisions, which stop us from having the best outcome. In research, some of these limitations in judgement are termed as _cognitive biases_.
+More often than not the answer is a BIG NO!! Our brain has its limitations. It makes mental errors and irrational decisions, which stop us from having the best outcome. In research, some of these limitations in judgement are termed as _cognitive biases_.
 
 In this article, I want to walk you through the world of cognitive biases. Why do we have biases? What are these major biases? How can we overcome them?
 
 ##### **Why do we have biases?**
 
-Our view of the world is often shaped by our experiences, our beliefs, our values, and our assumptions. These hard-wired traits that can sometimes lead to illogical thinking or deviations from making a rational judgment. Also the overload of huge amounts of information does not help. In our pursuit to make decisions quickly and save us time and energy; we make a number of decisions unconsciously and they might be biased. Biased decisions can often stop us from having the best careers, the best relationships, and ultimately the best life.
+Our view of the world is often shaped by our experiences, our beliefs, our values, and our assumptions. These hard-wired traits that can sometimes lead to illogical thinking or deviations from making a rational judgment. 
+
+Also the overload of huge amounts of information does not help. In our pursuit to make decisions quickly and save us time and energy; we make a number of decisions unconsciously and they might be biased. 
+
+Biased decisions often stop us from having the best careers, the best relationships, and ultimately the best life.
 
 ##### **What are some major biases?**
 
@@ -44,6 +48,4 @@ Something that has benefited me individually and what I would recommend you is t
 
 ##### **There is no escaping**
 
-Biases are an inherent part of human life. They impact each one of us, they influence how we think and how we act. If they are not identified and compensated for, it can mean sub-optimal lives for each one of us. I understand it is difficult to overcome existing habits and let go of things we are most comfortable with. But we need to take that first step. In writing this article, I have taken the first step in my journey to identify and overcome my biases. 
-
-The question is, when will you? 
+Biases are an inherent part of human life. They impact each one of us, they influence how we think and how we act. If they are not identified and compensated for, it can mean sub-optimal lives for each one of us. I understand it is difficult to overcome existing habits and let go of things we are most comfortable with. But we all need to take that first step.

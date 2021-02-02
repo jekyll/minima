@@ -12,25 +12,22 @@ In his book, James makes the case for [tiny consistent habits](https://jamesclea
 
 ![Getting 1% better each day](/assets/img/Getting better each day.png) 
 
-Building upon that, I want to share with you a tool that will help you track your habits.  
-
-#### **A tool that can change your life**
-
-[Here is the link.](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
-
-![Excel sheet that tracks your habits](/assets/img/sample-habit-tracker.png)  
+Building upon that, I want to share with you a tool that will help you track your habits. [Here is the link.](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
 
 It is an excel sheet that you can use to track your habits. Both I and my wife have been using it for months. It has worked wonders.
+ 
+![Excel sheet that tracks your habits](/assets/img/sample-habit-tracker.png)  
 
-#### **3 features worth highlighting** 
 
-Before creating this sheet, I tried many apps to track my habits. Unfortunately, none of them worked. I really wanted my habit tracker to have these 3 features.  
+#### **Why use this sheet?** 
+
+Before creating this sheet, I tried many apps to track my habits. I really wanted my habit tracker to have the following features:  
 
 1. **Flexibility —**  Ability to keep track of daily, weekly, and monthly habits. Ability to modify, delete, or add as many habits as you want. Access to the tracker on any device at any time 
 2. **Analytics —**  Ability to analyze raw data (eg. hit ratios daily and over time)  
 3. **Notes —** Ability to add customized notes on your habits
 
-The excel sheet has all these features. 
+Unfortunately, none of the off-the shelf apps had these features. The excel sheet has them all. 
 
 #### **Get started**
 

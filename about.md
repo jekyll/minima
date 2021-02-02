@@ -38,7 +38,7 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 1. No phone for the 1st hour of the day
 2. Exercise (a short stroll counts too)
 3. Fast for 14-16 hours a day (better known as intermittent fasting) 
-4. Measure your weight (already lost 7 kgs so far in 2020) 
+4. Measure your weight (already lost 14 kgs so far in 1.5 years) 
 5. Read 20 pages of any book
 6. Spend 30 mins learning something new (e.g. design, coding, product, data landscape)
 7. Recap highlights from your books, articles, notes etc. (using [Instapaper](http://instapaper.com/){:target="_blank"} & [Readwise](https://readwise.io/){:target="_blank"})
@@ -49,20 +49,22 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 1. Reconnect with an old friend 
 2. Sharpen your mind with an [arithmetic exercise](http://arithmetic.zetamac.com/){:target="_blank"}  
 3. Declutter your digital & physical workspace (e.g. unsubscribing e-mails, cleaning your desk) 
-4. Write a blog post 
+4. Write a blog or LinkedIn post 
 
 ##### **Books I am currently reading**
 
 I tend to switch and read multiple books at a time. The ones I am currently reading are:
 
-1. Cosmos *by* Carl Sagan
+1. Black Box Thinking *by* Matthew Syed
 2. Liar's Poker *by* Michael Lewis
+3. How will you measure your life *by* Clayton Christensen
+4. User Experience *by* Cliff Kuang & Robert Fabricant
 
-You can find the full list of books that I have read and 3 key takeways for a subset of them [here](https://www.sid-jain.com/books/){:target="_blank"}.
+You can find the full list of books that I have read and 3 key takeaways for a subset of them [here](https://www.sid-jain.com/books/){:target="_blank"}.
 
 ##### **Contact**
 
-I host regular [coffee hours](https://calendly.com/jsiddharth24/coffee-hours-with-sid){:target="_blank"} if you want to chat about anything. If you would like to send an e-mail instead, reach out to me at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
+I host regular [coffee hours](https://calendly.com/jsiddharth24/coffee-hours-with-sid){:target="_blank"} if you want to chat about anything. You could also reach via e-mail at [j.siddharth24@gmail.com](mailto:j.siddharth24:gmail.com)
 
 ##### **A word of thanks**
 

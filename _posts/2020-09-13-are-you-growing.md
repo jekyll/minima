@@ -28,11 +28,8 @@ Although busy, I didn't do anything that felt like growing or learning. None of 
 
 To feel accomplished, we need to do something that feels like growing or learning. That is why, before going to bed today, I forced myself to write this blog. I forced myself into an activity (writing) that felt like growth.
 
-##### **I want to ask you** 
+##### **Here is a challenge for you** 
 
-Is there an activity that you undertake daily/weekly, which if you consistently do for a year, would change your life? Are you growing?
+Is there an activity that you can undertake daily/weekly, which if you consistently do for a year, can change your life? 
 
-If not, when will you start? If yes, what activity is it? 
-
-I would love to know. Shoot me an e-mail at j.siddharth24@gmail.com
-
+What activity is it? I would love to know.

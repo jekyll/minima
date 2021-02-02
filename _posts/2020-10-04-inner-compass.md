@@ -40,12 +40,12 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
-- **Harbour a beginner's mindset.** In the beginner's mind there are many possibilities, but in the expert's there are few 
+- **Harbour a beginner's mindset.** In the beginner's mind there are many possibilities, but in the expert's there are few. 
 
 
 #### **Business**
 
-- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks everyday. And people buy all those things too. In other industries, we don't have this idea that you have to be the only water bottle. We don't have this idea that, someone's already invested the water bottle, there can't be another one, but in software, we very often have this idea, of well, there already a social media software.  
+- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks everyday. And people buy all those things too. You always don't have to feel that for you to be succesful you have to be the only one. Don't have this idea that, someone's already invested the water bottle, there can't be another one.  
 
 
 #### **Productivity**
@@ -68,8 +68,6 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - **Don't change people.** Don't waste your time trying to change people. Set the behaviour expectation and hold that line. If they don't change, accept and move on.
 
 - **Level up your surroundings.** You are the average of the 5 people who you spend the most time with. Success in your life depends on who you chose to work with. This can be extended beyond people. What books, podcasts, videos do you consume?
-
-- **People are going always judge you.** It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it. There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it.
 
 - **Follow the golden rule.** Treat others like you would like to be treated. Be genuine above all.
 
@@ -97,11 +95,10 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Have Patience.** No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women pregnant.
 
-- **Take time to respond.** 
 
 #### **Emotions**
 
-- **Being angry is never the answer.** Control your anger. So it does not control you. Anger seldoms bring you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breath in. Let it go. Act once your anger subsides.**  
+- **Being angry is never the answer.** Control your anger. So it does not control you. Anger seldoms bring you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breathe in. Let it go. Act once your anger subsides.**  
 
 
 #### **Taking care of yourself**
@@ -112,6 +109,6 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Stay away from negative people.** Vibes are contagious. Surround yourself with people who increase your energy. Run far away from those who drain it (Vampires). 
 
-- **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter what you do, there will always be someone who finds fault in it. Criticism and negativity from difficult people is like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
+- **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it.  There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it. Criticism and negativity from difficult people is like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 
 - **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go.
