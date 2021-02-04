@@ -6,8 +6,6 @@ description: How many private billion dollar companies are there globally? Where
 permalink: /unicorn-race/
 ---
 
-*Page last updated: 23rd Aug 2020* 
-
 Globally there are 488 unicorns (private companies with a valuation of more than a billion dollars). I analysed [CB Insights](https://www.cbinsights.com/research-unicorn-companies){:target="_blank"} data and found 3 interesting insights on these unicorns: 
 
 ### **1. Almost half of all unicorns are located in the US** 
@@ -20,5 +18,7 @@ Globally there are 488 unicorns (private companies with a valuation of more than
 
 ### **3. Sequoia, Tencent & Alphabet (Google) lead the unicorn funding race** 
 ![Investors who funded most unicorns](/assets/img/Investors-who-funded-most-unicorns.png)
+
+*Page last updated: 23rd Aug 2020* 
 
 

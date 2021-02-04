@@ -27,6 +27,7 @@
   &:visited {
     color: $site-title-color;
   }
+
 }
 
 .site-nav {
@@ -250,17 +251,6 @@
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 0px;
-
-  color: $light-blue-color;
-
-  &:visited {
-    color: $light-blue-color;
-  }
-
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: underline;
-  }
 
 }
 
