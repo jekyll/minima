@@ -76,13 +76,13 @@ A few days later I was happy with my lowercase letters, and it was time to work 
 
 !["Upper and lower case letters"](https://gyanl.com/assets/plutonium-unlc.png)
 
-###### Upper and Lower case
+###### Upper and Lower case letters
 
 ## Get Plutonium
 
-I spent a lot of time polishing Plutonium and while there’s still a long way to go, it’s at a stage where I feel comfortable sharing a preview.
+I spent a lot of time polishing Plutonium and I learnt a lot in the process that I will hopefully use for my next font. While it's not perfect and I wouldn't recommend it for anything other than as a novelty display font, is at a stage where I feel comfortable sharing with people.
 
-You can [download the current version here](https://www.dropbox.com/s/th77rs67prpvxh7/Plutonium-Sans-13March18.zip?dl=0).
+Plutonium is free for use for commercial or private projects. You can [download the current version here](https://www.dropbox.com/s/th77rs67prpvxh7/Plutonium-Sans-13March18.zip?dl=0).
 
 #### Before you use
 
