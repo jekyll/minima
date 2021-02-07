@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Excel sheet to track your habits
+title: Excel sheet to track your habits (Seinfeld Strategy)
 published: true
 description: There are multiple apps that help you track your habits. But none of them offers the flexibility that this excel sheet offers.
 permalink: /habit-tracker/
@@ -12,7 +12,9 @@ In his book, James makes the case for [tiny consistent habits](https://jamesclea
 
 ![Getting 1% better each day](/assets/img/Getting better each day.png) 
 
-Building upon that, I want to share with you a tool that will help you track your habits. [Here is the link.](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
+He talks about how the [Seinfeld strategy can help you stop procrastinating](https://jamesclear.com/stop-procrastinating-seinfeld-strategy){:target="_blank"}
+
+Building upon that, I want to share with you a tool that will help you implement the Seinfeld strategy. [Here is the link.](https://docs.google.com/spreadsheets/d/1xQd2uBECCaiVJLBC5aaMa4lrMl4SHlrrGIJNXu-DYRc/edit?usp=sharing){:target="_blank"}
 
 It is an excel sheet that you can use to track your habits. Both I and my wife have been using it for months. It has worked wonders.
  
@@ -29,7 +31,7 @@ Before creating this sheet, I tried many apps to track my habits. I really wante
 
 Unfortunately, none of the off-the shelf apps had these features. The excel sheet has them all. 
 
-#### **Get started**
+#### **How to get started?**
 
 Here are 4 easy steps to get you started. 
 
@@ -37,10 +39,8 @@ Here are 4 easy steps to get you started.
 
 2. Start by listing down the habits that you want to track
 
-3. Enter the date (preferably a Monday because the sheet also tracks weekly habits) 
+3. Enter the date (preferably a Monday because the sheet tracks weekly habits as well) 
 
 4. Enter 1 if you succeeded, 0 if not 
 
-![Get started to track your habits](/assets/img/get-started-habit-tracker.png)  
-
-In case you get stuck, shoot me an e-mail at j.siddharth24@gmail.com 
+![Get started to track your habits](/assets/img/get-started-habit-tracker.png)
