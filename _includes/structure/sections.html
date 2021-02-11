@@ -19,9 +19,7 @@
         {%- if item_crumbs.size == depth and item.name == 'index.md' %}
             <a href="{{ item.url | relative_url }}">
                 <div>
-                    {%- if item.logo %}
-                        {% include logo.html name=item.logo %}
-                    {% endif -%}
+                    {% include logo.html name=item.logo %}
 
                     <span>{{ item.title }}</span>
                 </div>

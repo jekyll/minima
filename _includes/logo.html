@@ -6,15 +6,15 @@
 
     Note that the minus signs are needed for the logo to be used alone outside of tags, even if if the include is not indented.
 
-    Required args:
-        name: SVG name excluding extension. e.g. 'ansible'.
-
     Optional args:
+        name: SVG name excluding extension. e.g. 'ansible'. If this is not set, then nothing will be rendered.
         _size: 'small' or 'medium'.
 {%- endcomment -%}
-{% assign _size = include._size | default: 'small' %}
-{% assign svg_path = include.name | prepend: 'logos/' | append: '.svg' %}
+{% if include.name and include.name != '' %}
+    {% assign _size = include._size | default: 'small' %}
+    {% assign svg_path = include.name | prepend: 'logos/' | append: '.svg' %}
 
-<span class="logo-{{ _size }}">
-    {%- include {{ svg_path }} -%}
-</span>
+    <span class="logo-{{ _size }}">
+        {%- include {{ svg_path }} -%}
+    </span>
+{% endif %}
