@@ -13,7 +13,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
 
-- **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. When making a decision project yourself forward to age 80 and say, "Okay, now I'm looking back on my life. I want to minimize the number of regrets I have".  
+- **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. Remember, most failures are one-time costs. Most regrets are recurring costs. The pain of inaction stings longer than the pain of incorrect action. 
 
 - **Optimize for speed.** If a decision is reversible, the biggest risk is moving too slow. If a decision is irreversible, the biggest risk is moving too fast.
 
@@ -40,13 +40,12 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
-- **Harbour a beginner's mindset.** In the beginner's mind there are many possibilities, but in the expert's there are few. 
+- **Harbour a beginner's mindset.** In the beginner's mind there are many possibilities, but in the expert's, there are few. 
 
 
 #### **Business**
 
-- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks everyday. And people buy all those things too. You always don't have to feel that for you to be succesful you have to be the only one. Don't have this idea that, someone's already invested the water bottle, there can't be another one.  
-
+- **You do not have to be the first or only business.** Look around you. A glass, a water bottle, a table, a chair, a notebook. These products have literally thousands of competitors. Often competitors that are pretty much identical. And yet people make glasses, and people make water bottles, and people make chairs and people make notebooks every day. And people buy all those things too. You always don't have to feel that for you to be successful you have to be the only one. Don't have this idea that, someone's already invested the water bottle, there can't be another one.  
 
 #### **Productivity**
 
@@ -61,26 +60,54 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - **Associate growth with doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books. Doing something is better than doing nothing.
 
 
-#### **People**
+#### **People & Networking**
 
-- **People are oddly consistent.** If someone treats someone badly it’s only a matter of time they treat you badly. If someone screams over an enemy it is only a matter of time they scream at you.
+- **Level up your surroundings.** You are the average of the 5 people who you spend the most time with. Success in your life depends on who you chose to work with. This can be extended beyond people. What books, podcasts, videos do you consume?
+
+- **Follow up twice.** People forget. They don't think you are serious the first time. Give them the benefit of doubt. Follow-up twice. It’s amazing how often a second try works.
+
+- **Leave behind fear of other people's opinion.** People are not thinking about you. We spend most of our lives crippled with fear of what other people think of us, when in reality, those other people aren't making judgments on us, but rather, are worried about what we think of them. Do not let the fear of other people's opinion destroy your inner peace.
+
+- **Judge people on the same yardstick as you would judge yourself.**  We judge others by their behaviour. We judge ourselves by our intentions. Don't form opinions on people based on single action. People are more complex than that. Anyone can have a bad day.
+
+- **Show your work.** The most effective networking strategy has nothing to do with conferences, cocktail hours or cold emails. It is about doing interesting things & sharing them publicly. Like-minded people will come to you. 
+
+- **People are oddly consistent.** If someone treats someone badly it’s only a matter of time, they treat you badly. If someone screams over an enemy it is only a matter of time they scream at you.
 
 - **Don't change people.** Don't waste your time trying to change people. Set the behaviour expectation and hold that line. If they don't change, accept and move on.
 
-- **Level up your surroundings.** You are the average of the 5 people who you spend the most time with. Success in your life depends on who you chose to work with. This can be extended beyond people. What books, podcasts, videos do you consume?
+- **Stop being everyone’s friend.** Because you just can't. Trying to appease everyone means you appease no one. Consensus is regression to the mean. Trying to appeal to all leads to average.
 
 - **Follow the golden rule.** Treat others like you would like to be treated. Be genuine above all.
 
 
+#### **Success & Failure**
+
+- **Learn from experience**. There is really no substitute for experience. You don’t know what you don’t know. You can read stacks of books, get mentors, take courses, or make the perfect plan. You'll still yourself making mistakes. It’s only when the mistake stings you properly that you learn and don’t forget. The best and quickest way to learn is through experience. 
+
+- **Stack your skills.** If you want to be extraordinary, you have two paths: 1) Become the best at one specific thing, 2) Become very good (top 10%) at three or more things. The first strategy is difficult to the point of near impossibility. Few people will ever play in the NBA or make a platinum album. The second strategy is fairly easy. Everyone has at least a few areas in which they could be in the top 10% with some effort. At least one of the skills in your mixture should involve communication, either written or verbal. 
+
+- **Give yourself the liberty to fail.** Some failure in life is inevitable. It is impossible to live without failing at something. Unless you live so cautiously that you might as well not have lived at all - in which case you fail by default.
+
+- **Success comes at a cost.** Everything in life is a trade-off.  Do you want to spend two extra hours at work each day rather than with your kids? Do you want to put your career ahead of your marriage? Do you want to wake up early and go to the gym when you feel like sleeping in? 
+Success in one area is often tied to failure in another area, especially at the extreme end of performance. The more extreme the greatness, the longer the shadow it casts.
+
+- **Do not worry about who gets the credit.** It is amazing what can be achieved if you don't care who gets the credit.
+
+-  **Rejection is given.** It is not personal. It is about your product or your application. Carry on until luck finds you. Keep pushing forward.
+
+
 #### **Money**
 
-- **Know when is enough.** At a party given by a billionaire on Shelter Island, the late Kurt Vonnegut informs his pal, the author Joseph Heller, that their host, a hedge fund manager, had made more money in a single day than Heller had earned from his wildly popular novel *Catch 22* over its whole history. Heller responds, “Yes, but I have something he will never have . . . *Enough*.”
-
+- **Money only solves your money problems.** Not all your problems. A calm mind, a fit body and house full of love can’t be bought. They are things that need to be earned. 
 
 #### **Learning**
 
 - **It is ok to not finish a book.** Don't grind through pages and pages of books. Read what you like. There are more books published every year than you can even read in your entire lifetime. It is ok to quit on a book and move to a different one.  
 
+- **Focus on the learning.** Do not crave for seek early career success! Instead of trying to impress others with your title or your pay, focus on what you learn, who you help and what habits and skills you develop.
+
+- **Teaching is the best way of learning.** If you really want to learn a topic, then “teach” it. Write a book. Teach a class. Build a product. Start a company. The act of making something will force you to learn more deeply than reading ever will.
 
 #### **Moral Values**
 
@@ -98,17 +125,17 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Emotions**
 
-- **Being angry is never the answer.** Control your anger. So it does not control you. Anger seldoms bring you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breathe in. Let it go. Act once your anger subsides.**  
+- **Being angry is never the answer.** Control your anger. So it does not control you. Anger seldom brings you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breathe in. Let it go. Act once your anger subsides. 
 
 
 #### **Taking care of yourself**
 
 - **Make health your top priority.** There is nothing more important than your health. There is no wealth, no fame, no power without good health. Health precedes everything else.
 
-- **Be an optimist.** Optimism should be your default strategy. Pessimism is intellectually seductive and the arguments always sound smarter. But it leads you nowhere. No one is excited by pessimists. No one wants to really follow a pessimist.
+- **Be an optimist.** Optimism should be your default strategy. Pessimism is intellectually seductive and the arguments always sound smarter. But it leads you nowhere. No one is excited by pessimists. No one wants to really follow a pessimist. Over the long term, the future is decided by optimists.
 
-- **Stay away from negative people.** Vibes are contagious. Surround yourself with people who increase your energy. Run far away from those who drain it (Vampires). 
+- **Stay away from negative people.** Vibes are contagious. The impact of negativity is magnified when we talk about it, no matter what we say. Surround yourself with people who increase your energy. Run far away from those who drain it (Vampires).
 
-- **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it.  There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it. Criticism and negativity from difficult people is like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
+- **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it.  There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it. Criticism and negativity from difficult people are like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 
 - **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go.
