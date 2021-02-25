@@ -3,6 +3,8 @@ default: install
 h help:
 	@grep '^[a-z]' Makefile
 
+all: install build gem
+
 
 install:
 	bundle config set --local path vendor/bundle

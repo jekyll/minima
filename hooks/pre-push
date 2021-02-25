@@ -4,5 +4,4 @@
 # On a feature branch that has no remote yet, this first part would fail.
 git pull --rebase || git pull --rebase origin master
 
-make gem
-make build
+make all
