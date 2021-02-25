@@ -10,7 +10,8 @@
 # about locking to repo commit or including the directory in our repo theme.
 set -e
 
-# Comments include the name on shields.io in case you use logo field there.
+# Name is stored in the original repo and this repo. The notes include the name on shields.io, in
+# case you use logo field there.
 LOGOS=(
   ansible
   c
@@ -48,6 +49,7 @@ LOGOS=(
   terraform
   typescript
   visualstudiocode
+  wikipedia
   vue-dot-js # vue.js
   yarn
 )
