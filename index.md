@@ -5,7 +5,9 @@ layout: home
 
 > {{ site.description }}
 
-This is a demo site of just a few pages. Check out the [Demo group]({{ site.baseurl }}{% link demo/index.md %}) section to see use of logos and nested categories.
+This is a demo site which consists of just a few pages. Check out the [Demo group][] section to see use of logos and nested categories.
+
+[Demo group]: {{ site.baseurl }}{% link demo/index.md %}
 
 
 ## Sites that use this theme
