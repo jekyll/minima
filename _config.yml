@@ -1,7 +1,7 @@
 ### Site metadata ###
 
 title: Fractal
-description: A customized Jekyll theme to support my sites about coding
+description: A Jekyll theme based on Minima, with support for coding icons and an infinite number of nested directory levels
 
 author: Michael Currin
 email:
@@ -9,8 +9,8 @@ github_username: MichaelCurrin
 
 ### Build settings ###
 
-url: "https://michaelcurrin.github.io"
-baseurl: "/fractal"
+url: https://michaelcurrin.github.io
+baseurl: /fractal
 
 theme: fractal
 
