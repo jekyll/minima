@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-> Demo site for a fork of Jekyll Minima theme
+> Demo site for a fork of the Minima Jekyll theme
 
 Check out the [Demo group]({{ site.baseurl }}{% link demo/index.md %}) to see use of logos and nested categories.
 
