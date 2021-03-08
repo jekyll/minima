@@ -1,9 +1,10 @@
 # Fractal
-> A customized Jekyll theme to support sites about coding
+> A Jekyll theme based on Minima, with support for coding icons and an infinite number of nested directory levels
 
-[![Jekyll - 3.9](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/fractal?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/fractal/releases/)
-[![License - MIT](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md)
+[![License](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md)
+
+[![Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com)
 
 
 <div align="center">
