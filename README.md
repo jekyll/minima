@@ -269,6 +269,10 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
+    discogs: jekyll
+    letterboxd: jekyll
+    spotify: jekyll
+    bandcamp: jekyll
 
     mastodon:
      - username: jekyll
