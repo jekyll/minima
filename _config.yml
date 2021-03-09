@@ -32,6 +32,10 @@ minima:
     # googleplus: +jekyll
     # microdotblog: jekyll
     # keybase: jekyll
+    # discogs: jekyll
+    # letterboxd: jekyll
+    # spotify: jekyll
+    # bandcamp: jekyll 
 
     # Mastodon instances
     # mastodon:
