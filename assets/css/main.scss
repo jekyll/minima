@@ -7,6 +7,14 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+// global font size
+body{
+  font: 16px/1.4 $helvetica;
+}
+
+
+
 // Type scale
 .page__lead {
     // font-family: $global-font-family;
@@ -32,8 +40,8 @@
 /* Twitter Plugin */
 // .sidebar .twitter{
 //   position: relative;
-//   padding-right: 15%;
-//   left: 70%;
+//   padding-right: 70%;
+//   left: 15%;
 //   height: auto;
 //   width: auto;
 //   top: 15%;
@@ -47,3 +55,21 @@
 //   width: 100%;
 //   height: 100%;
 // }
+.twitterborder {
+  width:300px;
+  height:300px;
+  margin-top:3px;
+  margin-right:5%;
+  float:right;
+  background:#707070;
+  text-align: center;
+}
+.table{
+  display:table;
+  height: 100%;
+  width: 100%;
+}
+.table-cell{
+  display:table-cell;
+  vertical-align: middle;
+}

@@ -1,6 +1,7 @@
 ---
 title: "Installing Moses: The Statistical Machine Translation Tool"
 class: wide
+comments: true
 defaults:
   # _posts
   - scope:
@@ -136,7 +137,7 @@ In the next post, we will walk through the training steps for an SMT system, rig
 3. [http://www.statmt.org/moses_steps.html](http://www.statmt.org/moses_steps.html)
 4. [http://www.speech.sri.com/projects/srilm/download.html](http://www.speech.sri.com/projects/srilm/download.html)
 
-
+{% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -150,12 +151,13 @@ In the next post, we will walk through the training steps for an SMT system, rig
     */
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://EXAMPLE.disqus.com/embed.js';
+    s.src = 'https://https-masonreznov-github-io.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
 
 
 

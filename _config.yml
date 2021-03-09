@@ -10,12 +10,12 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 
+# minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -102,7 +102,7 @@ author:
   avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D candidate. NIT Silchar India"
   location         : "India"
-  email            : salammichaelcse@gmail.com
+  email            : salam_rs@cse.nits.ac.in
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -134,7 +134,7 @@ footer:
       # url:
     - label: ""
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:salammichaelcse@gmail.com"
+      url: "mailto:salam_rs@cse.nits.ac.in"
     - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/masonreznov/"
@@ -301,3 +301,7 @@ defaults:
 # - about_me.md
 # - publications.md
 # - contact.md
+
+
+# overriding default configs
+ignore_theme_config: true
