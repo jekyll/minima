@@ -19,6 +19,6 @@ These sites all leverage the logos and nested structure made possible by this th
 - [Dev Resources](https://michaelcurrin.github.io/dev-resources/resources/)
 
 
-## Site metadata
+## Project metadata
 
 {% include metadata.md %}
