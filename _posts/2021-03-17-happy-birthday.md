@@ -16,11 +16,12 @@ I already wrote a reflections piece [earlier in the year](/hindsight-in-2020) bu
 - Started a job at Microsoft
 - Travelled to Bangalore to meet friends, and then did a road trip from there to Pune. Took only two days off during the 2 week trip and realised my long-standing dream of working while couchsurfing.
 - Added floral masks to my floral shirt aesthetic
+- Really not that much else this year sucked
 
 #### Things I want to do at 25
-- Move out (have some some attempts in this direction)
+- Move out (have made some attempts in this direction)
 - Get vaccinated
-- Contingent on vaccine, but I have the money to spend on travelling and I still haven't done much of that with friends
+- Contingent on vaccine, but I have the money to spend on travelling and I still haven't done much of that with friends so I want that to happen
 - Fix my knees and start running again
 
 This was Gyan in 2020-21. Here's to being 25!
@@ -103,5 +104,7 @@ This was Gyan in 2017-18. Here's to being 22!
 
 I've been thinking about being 20. It started terribly. On my first day of being 20, I already had a broken heart I thought would never heal. I didn't know what I was doing with myself as an engineering student trying to do design.
 
-But things got better. I did a bunch of travelling. I made new friends. I learnt new things. I figured out a plan for my life. I worked on some cool projects with some cool people. In retrospect, it's been a pretty good year. Here's to hoping 21 is great too.
+But things got better. I did a bunch of travelling. I made new friends. I learnt new things. I figured out a plan for my life. I worked on some cool projects with some cool people. In retrospect, it's been a pretty good year.
+
+Here's to hoping 21 is great too.
 
