@@ -7,7 +7,24 @@ tags: misc
 ---
 
 ## Turning 25 (2021)
-This has been a weird year. I find myself feeling a little bit melancholic, as I often do on birthdays.
+This has been a weird year. I find myself feeling a little bit melancholic, as I often do on birthdays. This is a feeling I am used to at this point, and I know that the way to deal with it is to plan out a nice day for myself in advance. I think I will go to Lodhi Garden for a walk and eat cake.
+
+I already wrote a reflections piece [earlier in the year](/hindsight-in-2020) but for the sake of consistency, here's another list.
+
+#### Highlights of the year
+- Graduated from IDC (virtually!)
+- Started a job at Microsoft
+- Travelled to Bangalore to meet friends, and then did a road trip from there to Pune. Took only two days off during the 2 week trip and realised my long-standing dream of working while couchsurfing.
+- Added floral masks to my floral shirt aesthetic
+
+#### Things I want to do at 25
+- Move out (have some some attempts in this direction)
+- Get vaccinated
+- Contingent on vaccine, but I have the money to spend on travelling and I still haven't done much of that with friends
+- Fix my knees and start running again
+
+This was Gyan in 2020-21. Here's to being 25!
+
 
 ## Turning 24 (2020)
 I didn't write anything in 2020 because the IIT Bombay campus unexpectedly shut down due to COVID-19, and I took a flight back home the next morning. Here are some pictures from that day though.
@@ -29,6 +46,7 @@ I didn't write anything in 2020 because the IIT Bombay campus unexpectedly shut 
 Last year and the year before that I wrote a note to myself on my birthday. Here's some stuff on how it was being 22 and some things I want to do at 23.
 
 Last year's note was me talking about how it had been a slow year and how not much had happened. Being 22 was a whirlwind. I moved to Mumbai to study design at IDC, which has changed how I think about things a lot. I lived away from my family for the first time and said some really hard goodbyes, and spent a lot of time feeling sad and confused. But I made a bunch of new friends, and worked really hard, harder than I ever had before, and decided to just get shit done and try to be a better person myself.
+
 Each year on my birthday I expect some sort of grand gestures from people I love, and it never quite happens the way I want it to and I feel miserable and make people miserable because they didn't get it right. This year I decided to skip the drama and plan things out myself, and had a pretty nice weekend with friends and family.
 
 #### Highlights of the year
@@ -50,7 +68,7 @@ This was Gyan in 2018-19. Here's to being 23!
 ## Turning 22 (2018)
 
 ![Bougainvillea](https://gyanl.com/assets/bougainvillea.jpeg)
-###### bougainvillea
+###### Bougainvillea
 
 Last year I wrote a note to myself on my 21st birthday and I guess this is a thing now. These are some notes on how it was being 21 and some things I want to do at 22.
 
