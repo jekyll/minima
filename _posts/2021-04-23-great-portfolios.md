@@ -6,7 +6,7 @@ permalink: portfolios
 tags: misc
 ---
 
-A portfolio is maybe the most important thing for a designer looking for work. I talk to a lot of early career designers who have done great work, but don't adequately talk about it. This is a list of portfolio sites that I think are great to look at for inspiration.
+A portfolio is maybe the most important thing for a designer looking for work. I talk to a lot of early career designers who have done great work, but don't adequately show it on their portfolios. This is a list of sites that I think are great to look at for inspiration.
 
 ## Portfolios
 
@@ -25,8 +25,11 @@ Fedor Shkliarau has an extremely dynamic portfolio site - he uses a lot of anima
 5. <https://roman.nurik.net/projects/>
 Roman Nurik has some cool projects, and he manages to show just what they do with a couple lines of text and looping videos that are only a few seconds long. Sometimes less is more.
 
+6. <https://www.alexkaessner.de/>
+I particularly like the [iPad Main Menu concept](https://ipadmenu.study/) that Alex has on his site. 
+
 ## Blogs
-These are not necessarily design portfolios, but I like how they are written and how they present work.
+These are not necessarily design portfolios, but I like how they are written and how they present ideas.
 
 1. <https://www.arun.is/>
 Arun Venkatesan writes about longform pieces about design and technology (many about Apple products) and always has beautiful illustrations and photographs. I also love his writing style - he does a wonderful job of writing in depth about topics while keeping it crisp and easy to follow.
