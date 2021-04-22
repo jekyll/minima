@@ -17,7 +17,7 @@ An older version of my website that worked as a portfolio, and got me an interns
 Abhishek Sharma does a fantastic job of showing his work visually. The website has case studies about his projects and experiences, and also shows off his side projects and experience with code.
 
 3. <https://rishivanukuru.com/>
-My friend Rishi Vanukuru is a design researcher, and his website focuses on his academic work. Not every website needs to look the same, and this is a great example of carefully picking what you want to show front and centre according to your objectives
+My friend Rishi Vanukuru is a design researcher, and his website focuses on his academic work. Not every website needs to look the same, and this is a great example of carefully picking what you want to show front and centre according to your objectives.
 
 4. <https://fedor.design/>
 Fedor Shkliarau has an extremely dynamic portfolio site - he uses a lot of animations and videos to show his work.
@@ -33,6 +33,12 @@ Arun Venkatesan writes about longform pieces about design and technology (many a
 
 2. <https://tonsky.me/>
 A blog by Nikita Prokopov, the creator of Fira Code. He writes about code and design, and I love both his style of writing and the visual design of the website.
+
+3. <https://www.gwern.net/index>
+This website is dark magic. I don't know how else to describe it.
+
+4. <https://andymatuschak.org/>
+I find something cool each time I look at Andy Matuschak's website. He also has a really cool [notes system](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C) that I hope he open sources some day.
 
 
 ## Other
