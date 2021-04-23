@@ -26,16 +26,22 @@ Fedor Shkliarau has an extremely dynamic portfolio site - he uses a lot of anima
 Roman Nurik has some cool projects, and he manages to show just what they do with a couple lines of text and looping videos that are only a few seconds long. Sometimes less is more.
 
 6. <https://www.alexkaessner.de/>
-I particularly like the [iPad Main Menu concept](https://ipadmenu.study/) that Alex has on his site. 
+I particularly like the [iPad Main Menu concept](https://ipadmenu.study/) that Alex has on his site.
+
+7. <http://karoliskosas.com/>
+Kosas Karolis' portfolio pieces do a great job of walking you through the design process - what worked, what didn't and what the final result was.
+
+8. <https://www.arunesh.co.in/>
+Arunesh Singh optimises his website for people who don't have time (really—who does?). He uses a toggle on his portfolio pieces to let the reader switch between a quick and detailed overview.
 
 ## Blogs
 These are not necessarily design portfolios, but I like how they are written and how they present ideas.
 
 1. <https://www.arun.is/>
-Arun Venkatesan writes about longform pieces about design and technology (many about Apple products) and always has beautiful illustrations and photographs. I also love his writing style - he does a wonderful job of writing in depth about topics while keeping it crisp and easy to follow.
+Arun Venkatesan writes longform pieces about design and technology (many about Apple products) and always has beautiful illustrations and photographs. I also love his writing style - he does a wonderful job of writing in depth about topics while keeping it crisp and easy to follow.
 
 2. <https://tonsky.me/>
-A blog by Nikita Prokopov, the creator of Fira Code. He writes about code and design, and I love both his style of writing and the visual design of the website.
+A blog by Nikita Prokopov, the creator of Fira Code. He writes about code and design. I love both his style of writing and the visual simplicity of the website.
 
 3. <https://www.gwern.net/index>
 This website is dark magic. I don't know how else to describe it.
