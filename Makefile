@@ -1,6 +1,6 @@
 default: install
 
-all: hooks install build gem
+all: hooks install build build-gem
 
 h help:
 	@grep '^[a-z]' Makefile
@@ -21,7 +21,7 @@ upgrade:
 logos:
 	bin/install_logos.sh
 
-gem:
+build-gem:
 	gem build fractal.gemspec
 
 
