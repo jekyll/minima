@@ -18,7 +18,7 @@
 
 ## Preview
 
-Project homepage which demonstrates the look of the theme. The group and logo pages demonstrate more functionality.
+Project homepage which demonstrates the look of the theme.
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/fractal/">
@@ -26,6 +26,8 @@ Project homepage which demonstrates the look of the theme. The group and logo pa
     </a>
 </div>
 
+ The _Demo group_ page demonstrate more functionality and the _Logos_ page provides instructions on using a logo.
+ 
 
 ## Quick reference
 > Jump to code
