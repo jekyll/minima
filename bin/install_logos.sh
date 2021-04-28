@@ -13,6 +13,7 @@ set -e
 # Name is stored in the original repo and this repo. The notes include the name on shields.io, in
 # case you use logo field there.
 LOGOS=(
+  amazonaws
   ansible
   c
   circleci
