@@ -16,6 +16,17 @@
 </div>
 
 
+## Preview
+
+Project homepage which demonstrates the look of the theme. The group and logo pages demonstrate more functionality.
+
+<div align="center">
+    <a href="https://michaelcurrin.github.io/fractal/">
+        <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+    </a>
+</div>
+
+
 ## Quick reference
 > Jump to code
 
