@@ -1,20 +1,24 @@
 {%- comment -%}
-    Embed SVG directly on page to save a fetch of each directly.
+    Embed SVG directly on page.
+
+    This saves a fetch of each logo and also controls for the logos CDN from being slow.
 
     It is possible to put all SVGs in a single file and use IDs, but this
-    is extra work to build the pipeline esp as the SVG files have to have frontmatter to be picked up. Also this way means that a bad logo is picked up immediately, rather than looking up a possible ID in a single SVG.
+    is extra work to build the pipeline esp as the SVG files have to have frontmatter to be picked up. 
+    Also this way means that a bad logo is picked up immediately, rather than looking up a possible ID in a single SVG.
 
-    Note that the minus signs are needed for the logo to be used alone outside of tags, even if if the include is not indented.
+    Note that the minus signs are needed for the logo to be used alone outside of tags, even if the include is not indented.
+
+    The code inside `if` is not indented - otherwise the logos break and become code when used on a markdown page outside of an HTML element.
 
     Optional args:
         name: SVG name excluding extension. e.g. 'ansible'. If this is not set, then nothing will be rendered.
         _size: 'small' or 'medium'.
 {%- endcomment -%}
 {% if include.name and include.name != '' %}
-    {% assign _size = include._size | default: 'small' %}
-    {% assign svg_path = include.name | prepend: 'logos/' | append: '.svg' %}
-
-    <span class="logo-{{ _size }}">
-        {%- include {{ svg_path }} -%}
-    </span>
+{% assign _size = include._size | default: 'small' %}
+{% assign svg_path = include.name | prepend: 'logos/' | append: '.svg' %}
+<span class="logo-{{ _size }}">
+    {%- include {{ svg_path }} -%}
+</span>
 {% endif %}
