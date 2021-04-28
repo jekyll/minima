@@ -12,7 +12,7 @@ $ make build
 
 When creating a release:
 
-- Increment the version in `.gemspec` file.
+- Increment the version in the `.gemspec` file.
 - Create a tag.
 
 
@@ -32,7 +32,7 @@ _If using the Remote Theme plugin to install this theme from a GitHub URL and no
 Create a gem file for the theme to be installed from.
 
 ```sh
-$ make build
+$ make build-gem
 ```
 
 That will create a file at the root like:
