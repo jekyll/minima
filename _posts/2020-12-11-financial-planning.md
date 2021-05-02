@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Financial Planning
-subtitle: Some personal notes from a financial planning workshop.
+subtitle: Some personal notes on managing your money
 thumbnail: https://gyanl.com/assets/thumbs/money.png
 tags: misc
 ---
@@ -46,11 +46,11 @@ Having maybe 5-10% of total assets in gold is okay. In India this tends to be mu
 ### Stocks
 If you have a full time job, you won't have the time or knowledge to manage a stock portfolio as well as professional brokers in Dalal street. It's smarter to buy a managed basket of stocks using mutual funds.
 
-### Mutual funds
+## Mutual funds
 Check [valueresearchonline.com/funds](https://www.valueresearchonline.com/funds).
 
 ### Equity
-Equity means stocks. Equity tends to beat every other asset class long term (even if you started right before something like the 2008 stock market crash).
+Equity = stocks. Equity tends to beat every other asset class long term (even if you started right before something like the 2008 stock market crash).
 Last 10 year average returns: 16-17%. Next 10 maybe 12% as returns have fallen. 
 
 | Large cap         | Mid cap               | Small cap     |
@@ -62,9 +62,8 @@ Indian companies are not very well regulated, so small cap is risky. Mid to larg
 Thumb rule: (100 - your age)% in Equity, rest in debt.
 
 ### Debt
-No volatility, expected returns are 7-9%.
+Low volatility, expected returns are 7-9%.
 As you get older, move your assets from equity to debt so you have less volatility - a market crash can be a larger issue for you when you are older.
-Government debt v/s. Company debt
 
 ### SIPs
 SIPs ensure that you beat market fluctuation and is a more sensible investment methodology than trying to time the market.
@@ -90,11 +89,8 @@ Employee Stock Purchase Plan
 - Option to purchase company stock
 - At Microsoft, you can use up to 15% of your salary each month to buy MS Stock at 10% less than market rate. You should do this, it's a no-brainer.
 
-### Make a will
-Write it and give it to trusted person. 
-Better to get it written up by lawyer and get it registered (2k-5k cost)
 
-# Mutual Fund Recommendations 
+## Mutual Fund Recommendations 
 From [Binu Raj](https://www.linkedin.com/in/binu-raj-317a334)
 
 ### Multicap
@@ -113,4 +109,24 @@ From [Binu Raj](https://www.linkedin.com/in/binu-raj-317a334)
 - Motilal Oswal Nasdaq 100 - US stocks
 
 
+### Make a will
+Write it and give it to trusted person. 
+Better to get it written up by lawyer and get it registered (2k-5k cost)
 
+
+## Government savings schemes
+
+### Public Provident Fund (PPF)
+The PPF is a savings-cum-tax savings investment vehicle that enables one to build a retirement corpus while also saving on annual taxes. You can put up to 1.5 lakh into your PPF account every year, and that amount is deducted from your taxable income. The Finance Ministry sets the interest rate every year. The interest rate for the quarter 1 April 2021 to 30 June 2021 was 7.1% p.a.
+
+### Employee Provident Fund (EPF)
+The Employees' Provident Fund (EPF) is a savings tool for the workforce. 12% of every employee's salary is invested directly into their EPF account, and an equal amount is contributed by the employer. The interest rate for 2020-21 was 8.5% p.a. EPF contributions and the interest earned on them are exempt from tax. The money can be withdrawn at retirement, if you are unemployed for over two months or [certain other conditions](https://cleartax.in/s/epf-withdrawal-online#pro). 
+
+#### UAN Number
+Universal account number (UAN) is a unique 12 digit number for your EPF account. Stays the same even if you change jobs.
+
+#### PF Number
+A new PF account number is generated every time an employee joins a new organisation.
+
+### Voluntary Provident Fund (PPF)
+An employee is allowed to contribute more than the mandatory 12% towards PF in the VPF, but this amount is not matched by the employer.

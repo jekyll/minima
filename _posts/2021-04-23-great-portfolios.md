@@ -47,7 +47,7 @@ A blog by Nikita Prokopov, the creator of Fira Code. He writes about code and de
 This website is dark magic. I don't know how else to describe it.
 
 4. <https://andymatuschak.org/>
-I find something cool each time I look at Andy Matuschak's website. He also has a really cool [notes system](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C) that I hope he open sources some day.
+I find something cool each time I look at Andy Matuschak's website. He also has a really cool [evergreen notes system](https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C) that I hope he open sources some day.
 
 
 ## Other
@@ -62,4 +62,5 @@ A whimsical portfolio site that evokes a sense of tech nostalgia with bitmap fon
 This site looks almost confusingly minimal till you hit the command icon and realise you can find everything from there. Not sure I would recommend this approach as the only way to find content on your site, but I did find it cool.
 
 4. <https://www.sid.today/>
-Siddharth Jha's website is a public to-do list. I really like the idea of a public by default sites (you can see the mess of partly written thoughts I have at <https://gyanl.com/archive/>) and I hope this becomes more common. It's cool to see things in progress.
+Siddharth Jha's website is a public to-do list. Also: check out the wavy hover animation for links!
+I really like the idea of public-by-default sites (you can see the mess of partly written thoughts I have at <https://gyanl.com/archive/>) and I hope this becomes more common. It's cool to see things in progress.
