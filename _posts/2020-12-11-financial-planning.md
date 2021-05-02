@@ -117,16 +117,22 @@ Better to get it written up by lawyer and get it registered (2k-5k cost)
 ## Government savings schemes
 
 ### Public Provident Fund (PPF)
-The PPF is a savings-cum-tax savings investment vehicle that enables one to build a retirement corpus while also saving on annual taxes. You can put up to 1.5 lakh into your PPF account every year, and that amount is deducted from your taxable income. The Finance Ministry sets the interest rate every year. The interest rate for the quarter 1 April 2021 to 30 June 2021 was 7.1% p.a.
+The PPF is a savings-cum-tax savings investment vehicle that enables one to build a retirement corpus while also saving on annual taxes. You can put up to 1.5 lakh into your PPF account every year (lump-sum or monthly), and that amount is deducted from your taxable income. The Finance Ministry sets the interest rate every year. The interest rate for the quarter 1 April 2021 to 30 June 2021 was 7.1% p.a.
 
 ### Employee Provident Fund (EPF)
-The Employees' Provident Fund (EPF) is a savings tool for the workforce. 12% of every employee's salary is invested directly into their EPF account, and an equal amount is contributed by the employer. The interest rate for 2020-21 was 8.5% p.a. EPF contributions and the interest earned on them are exempt from tax. The money can be withdrawn at retirement, if you are unemployed for over two months or [certain other conditions](https://cleartax.in/s/epf-withdrawal-online#pro). 
+The Employees' Provident Fund (EPF) is a savings tool for the workforce. 12% of every employee's basic salary + dearness allowance is invested directly into their EPF account, and an equal amount is contributed by the employer. The interest rate for 2020-21 was 8.5% p.a. The money can be withdrawn at retirement, if you are unemployed for over two months or [certain other conditions](https://cleartax.in/s/epf-withdrawal-online#pro). 
+
+#### Taxation
+The employer contribution is exempt from tax, while an employee’s contribution is taxable but eligible for deduction under Section 80C of Income tax Act. The money which you initially invest in EPF, the interest you earn, and the money you withdraw after (as long as it's after 5 years) are all exempt from income tax.
 
 #### UAN Number
 Universal account number (UAN) is a unique 12 digit number for your EPF account. Stays the same even if you change jobs.
 
 #### PF Number
-A new PF account number is generated every time an employee joins a new organisation.
+A new PF account number is generated every time an employee joins a new organisation. It is recommended to transfer your EPF account when you join a new company (but you can also choose to withdraw the money).
 
-### Voluntary Provident Fund (PPF)
-An employee is allowed to contribute more than the mandatory 12% towards PF in the VPF, but this amount is not matched by the employer.
+### Voluntary Provident Fund (VPF)
+An employee is allowed to contribute more than the mandatory 12% towards PF in the VPF, but this amount is not matched by the employer and is not exempt from tax.
+
+### Employees’ Pension Scheme (EPS)
+Out of the 12%, some part goes into the pension scheme, which can be withdrawn after the age of 50 (early retirement) or 58 (regular retirement) as a montly pension.
