@@ -46,6 +46,10 @@ Having maybe 5-10% of total assets in gold is okay. In India this tends to be mu
 ### Stocks
 If you have a full time job, you won't have the time or knowledge to manage a stock portfolio as well as professional brokers in Dalal street. It's smarter to buy a managed basket of stocks using mutual funds.
 
+### Make a will
+Write it and give it to trusted person. 
+Better to get it written up by lawyer and get it registered (2k-5k cost)
+
 ## Mutual funds
 Check [valueresearchonline.com/funds](https://www.valueresearchonline.com/funds).
 
@@ -107,11 +111,6 @@ From [Binu Raj](https://www.linkedin.com/in/binu-raj-317a334)
 ### US/Global equity (to protect against Rupee depreciation)
 - ICICI Pru US bluechip - US largecaps
 - Motilal Oswal Nasdaq 100 - US stocks
-
-
-### Make a will
-Write it and give it to trusted person. 
-Better to get it written up by lawyer and get it registered (2k-5k cost)
 
 
 ## Government savings schemes
