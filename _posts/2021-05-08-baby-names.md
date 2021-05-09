@@ -6,9 +6,9 @@ description:
 permalink: /baby-names/
 ---
 
-7 interesting insights and charts from the 2020 United States (US) baby names database. 
+Here are 7 interesting insights and charts from the 3.3 million names that were given to babies in the United States (US) in 2020. 
 
-#### **1) 90% of all baby girls in the US have names ending with letters A, E, N, Y, H, or I**
+#### **1) 90% of all baby girl names in the US end with letters A, E, N, Y, H, or I**
 ---
 <iframe title="Girls - Names ending with" aria-label="Bar Chart" id="datawrapper-chart-5v8r9" src="https://datawrapper.dwcdn.net/5v8r9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="709"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 
@@ -29,7 +29,7 @@ The 5 most popular girl names ending with letters A, E, N, Y, H & I are:
 <iframe title="Probability that names ending with letter is a boy/girl" aria-label="Stacked Bars" id="datawrapper-chart-fkDy9" src="https://datawrapper.dwcdn.net/fkDy9/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="738"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 
-#### **3) Similarly, in some cases, the starting letter can be predictive of gender**
+#### **3) Similarly, in some cases, the starting letter of the babies name can be predictive of gender**
 ---
 <iframe title="Probability that names starting with letter is a boy/girl" aria-label="Stacked Bars" id="datawrapper-chart-kmsz7" src="https://datawrapper.dwcdn.net/kmsz7/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="738"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
