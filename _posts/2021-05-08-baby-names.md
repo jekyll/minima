@@ -6,7 +6,7 @@ description:
 permalink: /baby-names/
 ---
 
-Here are 7 interesting insights and charts from the 3.3 million names that were given to babies in the United States (US) in 2020. 
+Here are 7 interesting insights and charts from the 3.3 million names given to babies in the United States (US) in 2020. 
 
 #### **1) 90% of all baby girl names in the US end with letters A, E, N, Y, H, or I**
 ---
@@ -33,6 +33,7 @@ The 5 most popular girl names ending with letters A, E, N, Y, H & I are:
 ---
 <iframe title="Probability that names starting with letter is a boy/girl" aria-label="Stacked Bars" id="datawrapper-chart-kmsz7" src="https://datawrapper.dwcdn.net/kmsz7/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="738"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
+<br/>
 
 The 5 most popular girl names starting with letters V, S, & A are:
 - **V -** Victoria, Violet, Valentina, Vivian, Valerie
