@@ -50,7 +50,7 @@ The 5 most popular boy names starting with letters U, W, & J are:
 </script>
 <br/>
 
-The 5 most popular girl names ending with letters N, R & S are:
+The 5 most popular boy names ending with letters N, R & S are:
 - **N -** Benjamin, Mason, Ethan, Logan, Jackson
 - **R -** Oliver, Alexander, Asher, Carter, Christopher
 - **S -** James, Lucas, Thomas, Charles, Elias
