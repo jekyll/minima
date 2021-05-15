@@ -1,11 +1,9 @@
-title: Your awesome title
+title: Huikang's blog
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Tong Hui Kang
+  email: blog@huikang.dev
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This blog summarises some of my stories, experiences and thoughts.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,14 +14,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    # twitter: jekyllrb
+    github:  tonghuikang
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: huikang-tong
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -49,11 +47,14 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
+# header_pages:
 # - about.md
 
 # Build settings
 theme: minima
+
+# resume style
+resume-style: davewhipp
 
 plugins:
  - jekyll-feed

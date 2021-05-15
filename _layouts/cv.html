@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DW1FMKJGYB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DW1FMKJGYB');
+    /**
+    * Function that registers a click on an outbound link in Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+    * using 'navigator.sendBeacon' in browser that support it.
+    */
+    var getOutboundLink = function(label) {
+      gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': label,
+        'transport_type': 'beacon'
+      });
+    }
+  </script>
+
+  <!-- Title setup -->
+  <title>{% if page.title %} {{ page.title }} | {% endif %} Tong Hui Kang</title>
+
+  <!-- Stylesheets -->
+  <link href="media/{{ site.resume-style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="media/{{ site.resume-style }}-print.css" type="text/css" rel="stylesheet" media="print">
+
+  <!-- A screenshot of the resume as the thumbnail -->
+  <meta name="thumbnail" content="https://i.imgur.com/lHhRvK6.png" />
+
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- Codeforces rank update -->
+  <script>
+    function interpolate(low_x, high_x, low_y, high_y, given_x){
+      console.log(low_x, high_x, low_y, high_y, given_x)
+      return Math.floor(low_y + (given_x-low_x)/(high_x-low_x) * (high_y-low_y))
+    }
+
+    function rating_to_world_rank_map(rating){
+      benchmarks = {
+        1400: 24500,
+        1500: 19000,
+        1600: 15000,
+        1700: 10750,
+        1800: 7800,
+        1900: 6000,
+        2000: 4150,
+        2100: 3000,
+        2200: 1600,
+        2300: 900,
+        2400: 600
+      };
+
+      let prev_reference = 100000;
+      let prev_benchmark = 1000;
+      for (let benchmark in benchmarks){
+        benchmark = parseInt(benchmark)
+        let reference = benchmarks[benchmark];
+        if (rating <= benchmark){
+          return interpolate(prev_benchmark,benchmark,prev_reference,reference,rating)
+        }
+        prev_reference = reference;
+        prev_benchmark = benchmark;
+      }
+      return "sub-600"
+    }
+
+    function rank_to_color(rank){
+      if (rank=="expert"){
+        return "blue"
+      }
+      if (rank=="candidate master"){
+        return "purple"
+      }
+      if (rank.includes("grandmaster")){
+        return "red"
+      }
+      if (rank.includes("master")){
+        return "orange"
+      }
+      if (rank=="pupil" || rank=="specialist"){
+        return "green"
+      }
+      return "grey"
+    }
+
+    let apiUrl_codeforces = 'https://codeforces.com/api/user.info?handles=huikang';
+    fetch(apiUrl_codeforces).then(response => {
+      return response.json();
+    }).then(data => {
+      console.log("updating Codeforces data")
+      let profile = data["result"][0]
+      document.getElementById("rating").text = profile["rating"];
+      document.getElementById("placing").text = rating_to_world_rank_map(profile["rating"]);
+      document.getElementById("rank").text = profile["rank"];
+      document.getElementById("rank").style.color = rank_to_color(profile["rank"]);
+    }).catch(err => {
+      console.log(err)
+    });
+  </script>
+
+  <!-- Personal information -->
+  <script>
+    let params = (new URL(document.location)).searchParams;
+    let passcode = params.get("passcode");
+    let apiUrl_personal = 'https://tonghuikang.github.io/resume-secret/' + passcode + '/data.json';
+    fetch(apiUrl_personal).then(response => {
+      return response.json();
+    }).then(data => {
+      console.log("updating personal data")
+      console.log(data)
+      document.getElementById("sutd-gpa").text = data["sutd-gpa"];
+      document.getElementById("smu-gpa").text = data["smu-gpa"];
+
+      contacts = Array(["Singapore Citizen"])
+      if ('email' in data){
+        contacts.push(data['email'])
+      }
+      if ('phone' in data){
+        contacts.push(data['phone'])
+      }
+      document.getElementById("personal-contacts").text = contacts.join(" | ")
+
+    }).catch(err => {
+      console.log(err)
+    });
+  </script>
+
+</body>
+</html>
