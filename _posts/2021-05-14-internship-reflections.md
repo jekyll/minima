@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Internship Reflections"
-categories: technical-role
 ---
 
-I would like to share my internship experience here, and also some reflections.
+I would like to elaborate on my internship experience here, and also provide some reflections.
 
 ## My Internship Experience Explained
 
-First, I elaborate objectively on what the points meant on my resume.
+First, I elaborate on the internship experience that I have stated on my [resume](https://blog.huikang.dev/resume).
 
 **2359 Media**
 `Dec 2018 - Sep 2019`<br>
@@ -68,6 +67,8 @@ I now share some reflection on my internships, and also some advice on how to do
 
 Understand the internship expectations. Your internship may be just an extended interview where you are expected to take initiative to network widely. Your internship may require you to focus on an existing product and you are expected to write quality code and documentation that last. Your internship may be an experiment that the company needs to do, and you are expected to explore widely with rapid prototyping. Understanding what actually matters to your supervisors and the company guides you to work on the relevant areas in an effective manner.
 
+Communicate with your supervisor. Understand who your supervisor is. You should have a supervisor that suggests and reviews your work. To reduce conflict and confusion, you should also have just one supervisor at a time. I see myself contribute by offloading some work that could have been done by my supervisor. For a task that requires 30 hours of her time, she can spend 5 hours describing the work to me and review my work and spend the rest of the time on higher-level work, while I complete the assigned task in probably 60 hours with the lack of experience and the full context. When you are working on the task, do keep your supervisor updated on your progress and the blockers inhibiting your progress. When the task is complete, do ask for feedback on your performance. Sometimes we may underestimate our capabilities, or overlook our shortcomings.
+
 Understand the company. Go beyond your role and learn about the company. What is the company strategy and how are they faring against competitors? Who holds the power? How are decisions made? Analyse the company as well. What motivates the employees? Do the employees approve of the management? Think of recommendations as well. Feel free to discuss this with your colleagues if appropriate, and lunch (when it was possible) is a great time for these discussions. Having some answers to many of these questions gives you a perspective of the management.
 
-
+Many of the suggestions also apply to even a non-technical internship. I view my first role out of university as yet another internship, but with real and prolonged responsibilities. I hope my reflection provides a perspective on how to make the best out of your employment.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Competitive Programming"
-categories: competitive-programming
 ---
 
-Competitive programming is essentially about writing code to solve a well-defined problem. If there is no code involved, it is a Math Olympiad question, if the problem is not well-defined, it is a security challenge know as Capture-The-Flag.
+Competitive programming is essentially about writing code to solve a well-defined problem. Willam Lin summarises what is competitive programming in a [video](https://www.youtube.com/watch?v=ueNT-w7Oluw).
 
-Willam Lin summarises what is competitive programming in a [video](https://www.youtube.com/watch?v=ueNT-w7Oluw). In this post, I elaborate on my view and experience in competitive programming.
+In this post, I elaborate on my experience in competitive programming, and some of my advice for people starting out.
 
 
 
@@ -26,7 +25,7 @@ I also participate in programming challenges held by companies. I won a T-shirt 
 
 However, I had never represented my school in competitive programming (in competitions such as IOI or ICPC). I only started learning to code in university, and by the time I was pretty good at contests, my graduation was near.
 
-In early 2021, I participated in two hiring challenges. I got nice placings in [Indeed programming challenge](https://www.hackerrank.com/spring-2021-indeed-programming-challenge) and [Quora programming challenge](https://challenge.quora.com/Division-2-End-Final-Results). I was invited to apply and got into the interview stages. I received offers from both of them and I chose to join Quora.
+In early 2021, I participated in two hiring challenges. I got nice placings in [Indeed programming challenge](https://www.hackerrank.com/spring-2021-indeed-programming-challenge) and [Quora programming challenge](https://challenge.quora.com/Division-2-End-Final-Results). I was invited to apply and managed to advance to the final interview stages.
 
 
 
@@ -34,9 +33,9 @@ In early 2021, I participated in two hiring challenges. I got nice placings in [
 
 I hope to attain the rank of Master on Codeforces, which has a nice yellow color for the title.
 
-I have met quite several people from competitive programming. I am still in contact with two of the people I participate FBHack with. There are a few people who reached out to me through my Leetcode and Codeforces profile, and I had meaningful conversations with them.
+I have met quite several people from competitive programming. I am still in contact with two of the people I participate FBHack with. There are a few people who reached out to me through my Leetcode and Codeforces profile, and I had some meaningful conversations with them.
 
-I am proud to call competitive programming my hobby. Even after I start my first role, I will continue probably with at least the weekly Leetcode contests for a while.
+I am proud to call competitive programming my hobby. Even after I start my first role, I will continue probably with at least the weekly Leetcode contests.
 
 
 
@@ -44,9 +43,7 @@ I am proud to call competitive programming my hobby. Even after I start my first
 
 Competitive programming is like solving puzzles, but with code.
 
-Any method or theorem I have learnt in the past may be applied. While most of the questions are centred on data structures and algorithms is tested, some questions require the application of number theory, geometry, statistics and game theory.
-
-It helps me to think creatively. For the less straightforward questions, I need to extract the abstract problem statement and think of a suitable approach to the problem.
+Any method or theorem I have learnt in the past may be applied. While most of the questions are centred on data structures and algorithms, some questions require the application of number theory, geometry, statistics and game theory. At times, the challenge is see the applicable concept which may not be immediately obvious.
 
 It helps me to code rigorously. Competitive programming scores are usually all or nothing, and I need to take care of all of the corner cases. I also need to be careful with implementation especially when my approach gets more complex. Wrong submissions almost always result in a small penalty.
 
@@ -60,8 +57,8 @@ It has also help me develop a structured workflow. I wrote simple macros to make
 
 Tech interviews usually have online assessments, which is very similar to a Leetcode contest in terms of difficulty and format. Usually, a decent score is required to advance to the interviews. If you are interested in such companies, you will need to do well in the online assessments. I will like to note that competitive programming does not prepare for the upcoming technical interviews which require other skills and preparation.
 
-Regardless of your background, I do recommend starting on Leetcode, coding with Python. On Leetcode, there are various Explore cards where you can practice the basic concepts.
+Regardless of your background, I do recommend starting on Leetcode, coding with Python. On Leetcode, there are various [Explore cards](https://leetcode.com/explore/) where you can practice the basic concepts.
 
-While C++ is the overwhelmingly popular language for competitive programming, I suggest learning C++ only after you started getting hit by TLEs (time limit exceeded) on Codeforces, or when you are committed to your school in coding competitions (e.g. NOI, IOI, ICPC).
+While C++ is the overwhelmingly popular language for competitive programming, I suggest learning C++ only after you started getting hit by TLEs (time limit exceeded) on Codeforces, or when you are committed to representing your school in coding competitions (e.g. NOI, IOI, ICPC).
 
 After some exposure to competitive programming, you can determine whether are you genuinely interested in contests, or only interested in passing technical interviews, or neither. I just find coding competitions inherently fun. 
