@@ -4,6 +4,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', '{{ site.google_analytics }}');
+  var getOutboundLink = function(label) {
+      gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': label,
+        'transport_type': 'beacon'
+      });
+    }
 </script>

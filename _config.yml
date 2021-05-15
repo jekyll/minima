@@ -51,6 +51,8 @@ header_pages:
  - about.md
  - resume/index.md
 
+google_analytics: G-DW1FMKJGYB
+
 # Build settings
 theme: minima
 
