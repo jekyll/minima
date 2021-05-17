@@ -19,6 +19,13 @@ Then the earliest contests that I participated in was Leetcode, in December 2018
 
 In 2019, I participated in a few more onsite contests, at Facebook, Credit Suisse (again) and Bank of Singapore. I got the top three for each of the contests.
 
+![fb-hack-2019](/assets/fb-hack-2019.jpg)
+
+<div align="center">
+Selling a similar unopened speaker at 80% of retail price
+</div>
+<br>
+
 In the summer of 2020 during my remote internship, I started serious competitive programming practice on [Codeforces](https://codeforces.com/profile/huikang) and [AtCoder](https://atcoder.jp/users/huikang). As of summer 2021, I have done a combined total of more than 100 contests.
 
 I also participate in programming challenges held by companies. I won a T-shirt from Facebook HackerCup 2020 (which is currently my favourite T-shirt). I got into Round 2 of Google Code Jam 2020 (but I need to get into Round 3 for the shirt). I also participate in the qualifiers of [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode/) 2020 and 2021, a team challenge where you produce a submission that maximises a certain score subject to constraints.

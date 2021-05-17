@@ -12,4 +12,6 @@ categories: singapore
 Comments on meritocracy
 - What is merit - votes, test scores and past performance?
 - The conflict between nativism and meritocracy
+- Counter argument - Gerald Foo's quote
+- Exceptions and violations
 
