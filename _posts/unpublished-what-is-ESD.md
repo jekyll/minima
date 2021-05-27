@@ -66,12 +66,7 @@ ESD can be viewed as a business degree from the perspective of engineering - whi
 
 ESD and business degrees provide us methods to help us to make better quantitative decisions. In a business, the decisions can also be classified as quantitative and qualitative. Qualitative decisions are usually more important as it concerns the entire strategy of the company and decide which problem do we even solve. When the problem direction is define, the quantitative decisions come in - some of these decisions include location, price and performance.
 
-The quantitative decisions need to be backed with data and assumptions, which is what is being done in ESD. These are how the ESD concepts can help in solving business problems
-
-- Explanation. Given a phenomenon, we want to understand what For example, we observe that people report long wait time for buses. We want to understand the reasons behind the long wait for buses.
-- Prediction. Given past data and current information, what is the prediction of a certain value? In the same example, if we increase the bus frequency, how much the wait time would decrease?
-- Prescription. Given the past data and current information, what actions do we recommend for the decision-maker? Again in the same example, we can suggest the optimal bus frequency for bus operator, considering both the satisfaction of the rider and the increased operating cost.
-- Policy. Given the motivations and characteristics of each decision-maker, how can we advise the policy-maker to set up the system to achieve desirable outcomes? In the example, the policy-maker might be responsible for the regulation of bus fares, and they may be able to encourage more off-peak travel with incentives for the bus operator.
+The quantitative decisions need to be backed with data and assumptions, which is what is being done in ESD.
 
 To achieve any of these, we usually need to identify the following elements in our solution
 
@@ -79,7 +74,19 @@ To achieve any of these, we usually need to identify the following elements in o
 - Objective function. How do we measure that we have improved? We need to calculate the expected waiting time, and we can use simulation to measure the improvement in waiting time.
 - Data. We need to know that our improvement is grounded in reality. What data do we have to support our modelling? We want to ensure that our simulation makes sense. We will compare our simulations with the data collected.
 
-This is how I understand what my universities studies is about.
+These are the actionable suggestions that the ESD models can provide, and we can define and measure the performance of these suggestions with data
+
+- Prediction. Given past data and current information, what is the prediction of a certain value? In the same example, if we increase the bus frequency, how much the wait time would decrease?
+- Prescription. Given the past data and current information, what actions do we recommend for the decision-maker? Again in the same example, we can suggest the optimal bus frequency for bus operator, considering both the satisfaction of the rider and the increased operating cost.
+- Policy. Given the motivations and characteristics of each decision-maker, how can we advise the policy-maker to set up the system to achieve desirable outcomes? In the example, the policy-maker might be responsible for the regulation of bus fares, and they may be able to encourage more off-peak travel with incentives for the bus operator.
+
+The various ESD courses exposes us to different modelling tools. The modelling tools takes the context and the data and makes it abstract. For example, we can model the bus station as a queue, which a supermarket checkout counter can be modelled as too. This is how modelling techniques are measured
+
+- Performance. If we implement the suggestions we want to see measurable improvements.
+- Explainability. Given a phenomenon, we want to understand what For example, we observe that people report long wait time for buses. We want to understand the reasons behind the long wait for buses.
+- Simplicity. The model should be simple. Complex models may be able to explain more pheneomeons and have better performance, but the tradeoff has to be justify. Complex models also risk overfitting and may not be genealisable to greater concepts.
+
+This is how I understand what my universities studies is about - on how it takes business problems and improve from it.
 
 
 
