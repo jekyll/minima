@@ -102,7 +102,7 @@ $ make World
 ### Step-4: Building `boost`
 Change back to `tools/` directory. For this installation, `boost_1_64_0` version is used.
 ```
-$ wget https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.tar.gz
+$ wget https://boostorg.jfrog.io/artifactory/main/release/1.64.0/source/boost_1_64_0.tar.gz
 $ unzip the boost 
 $ cd boost_1_64_0/
 $ ./bootstrap.sh 
