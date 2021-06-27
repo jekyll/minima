@@ -4,7 +4,7 @@ this is meant to be my blog: notes on observations or, notes and observations. A
 
 I had a .shopify blog but it was caught up in significant front end gui stuff that made it take longer to deploy blogs. and it was tied to my attempt at a business site where I experimented with selling online and drop shipping.
 
-This is intended to be a personal blog which is not associated with any sort of professional apperance I might have, which you can find here https://www.linkedin.com/in/ian-dodds-945301187/
+This is intended to be a personal blog which is not associated with any sort of professional apperance I might have, which you can find here <a href= "https://www.linkedin.com/in/ian-dodds-945301187/">here</a>
 
 This will primarily be home  to poorly written write ups which are hastily posted with minimal editing. 
 
