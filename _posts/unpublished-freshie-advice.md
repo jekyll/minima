@@ -7,7 +7,7 @@ title: "Content for JC sharing session"
 
 
 
-#### Personal Introduction
+# Personal Introduction
 
 - SUTD student, Engineering Systems and Design
   - Model systems in terms of math and code, and analyse and optimise the systems
@@ -33,24 +33,34 @@ title: "Content for JC sharing session"
   - To describe the expectations of a technical career
   - To encourage more Singaporeans into software engineering
   - (To record the current stage of my life)
+- Interesting projects that I have done
+  - Timetable scheduling
+    - Given constraints, suggest a timetable for the school
+  - Game AI playing Snake
+    - Train an AI to play snake
 
+---
 
-
-#### The appeal of working in software engineering
+# The appeal of working in software engineering
 
 Here I explain my main motivation for working on software engineering. It is easy to explain how doctors, lawyers or teachers add value to society and find joy in the profession.
 
 - The power to create
-  - Accessibility. If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders.
-  - Possibility. The state of the art is easily accessible. If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model.
+  - Software engineering is very accessible. If you have your computer, you can put together a technical solution at a very low cost. You can get feedback for your creation with stakeholders.
+  - You can create anything with code. If you want to implement an essay completion algorithm, you can follow resources available online to reproduce the results, modify them for your application or improve on the model.
 - The potential to serve millions or billions
   - A small scale projects can help you and your friends
   - A large scale project (with a company) can help millions or billions
   - It is easy to build something. Getting people to use is hard. Asking people to pay is harder
+- Huge opportunity
+  - The most popular courses professions - medicine and law are increasingly using technology.
+  - Successful companies need to be able to develop and use their own technology.
+- Renumeration
+  - One of the highest paid jobs after university education is software engineering.
 
+---
 
-
-#### Workflow of a technical role
+# Workflow of a technical role
 
 It is true that the core of software engineering is coding. However, it is not about writing code all day. Here I want to give a perspective on what else goes into writing code,
 
@@ -70,9 +80,9 @@ We see that editing code is a collaborative process. There is a lot of communica
 
 We also now have some sense of what measures the success of a software engineer. The number of lines written does not indicate the productivity or effectiveness of the software engineer.
 
+---
 
-
-#### Tools used in a technical role
+# Tools used in a technical role
 
 Another perspective of software engineers I want to provide is based on the tools at the software engineer use. 
 
@@ -93,9 +103,9 @@ Another perspective of software engineers I want to provide is based on the tool
   - Other people need to understand your code
   - You need to explain what your code is doing
 
+---
 
-
-#### Software engineering specialisations
+# Software engineering specialisations
 
 - Software engineering basics is required in all specialisations
 
@@ -112,8 +122,7 @@ Another perspective of software engineers I want to provide is based on the tool
   - Data science / Machine learning / Artificial Intelligence
     - Research, design and build predictive models
     - Engineering track and Research track
-      - Usually more senior positions
-      - May require Masters / PhD
+      - Research roles usually require Masters / PhD and require reading applying research papers
   - Data engineer
     - Prepare data for analysis or operations
   - Security engineer
@@ -125,9 +134,9 @@ Another perspective of software engineers I want to provide is based on the tool
     - "Code-first" vs "Product-first"
       https://medium.com/@zachlloyd/code-first-vs-product-first-a086d982b7d0
 
+---
 
-
-#### The tech landscape in Singapore
+# The tech landscape in Singapore
 
 There is a common perception that engineering in Singapore is undervalued. I would like to provide a better insight into the following points. 
 
@@ -168,9 +177,9 @@ There is a common perception that engineering in Singapore is undervalued. I wou
   - Empirical data is hard to find
     - The only empirical data is graduate starting salaries for each course
 
+---
 
-
-#### How to prepare for a technical career
+# How to prepare for a technical career
 
 Here I provide some long-term advice on how to prepare for a technical career. I will address this from the perspective of how hiring manager and recruiters choose among candidates.
 
@@ -227,9 +236,9 @@ What I describe here probably applies to all professional roles as well.
     - There is no need to overload yourself
     - Take a break when necessary
 
+---
 
-
-#### What you (JC student) can do next
+# What you (JC student) can do next
 
 You might want to find out if coding is for you.
 
