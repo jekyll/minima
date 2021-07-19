@@ -58,15 +58,19 @@ LOGOS=(
 if [[ -d 'simple-icons' ]]; then
   (cd simple-icons && git pull -q)
 else
-  git clone --depth 1 --single-branch -q \
+  git clone \
+    --depth 1 \
+    --single-branch \
+    -q \
     git@github.com:simple-icons/simple-icons.git
 fi
 
 echo '------'
 
 for LOGO in ${LOGOS[@]}; do
-  echo $LOGO
+  echo "$LOGO"
   cp "simple-icons/icons/$LOGO.svg" _includes/logos
+
   sed -i '' \
     's/path/path fill="currentColor"/g' \
     "_includes/logos/$LOGO.svg"
