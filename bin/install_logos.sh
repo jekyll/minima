@@ -38,7 +38,7 @@ LOGOS=(
   mysql
   netlify
   nginx
-  node-dot-js # node.js
+  nodedotjs # node.js
   npm
   php
   postgresql
@@ -51,7 +51,7 @@ LOGOS=(
   typescript
   visualstudiocode
   wikipedia
-  vue-dot-js # vue.js
+  vuedotjs # vue.js
   yarn
 )
 
