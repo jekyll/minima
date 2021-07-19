@@ -19,6 +19,7 @@ LOGOS=(
   circleci
   css3
   dart
+  d3dotjs
   deno
   docker
   eslint
