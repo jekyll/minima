@@ -21,6 +21,8 @@ I have already done 2 internships in AI, my first one was in a company named E-m
 
 This blog aim's to provide some articles on my passion that will be written in English and French. 
 
+I'm also deeply active in a French Machine Learning community: Machine Learnia. 
+
 If you have any questions or you would like to connect with me don't hesitate to reach me at:
 
 adelmoumen.pro[at]gmail.com Or on [Linkedin](https://www.linkedin.com/in/adel-moumen-514b6a1ba/)/[Twitter](https://twitter.com/frhumanlearning)
