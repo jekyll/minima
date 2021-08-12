@@ -6,7 +6,7 @@ permalink: /about/
 
 Hello Wold ! 😁
 
-I'm Adel Moumen, I'm French 🇫🇷 and I study AI since my first year at university as a self-taught learner.
+I'm Adel Moumen, 19 years old, I'm French 🇫🇷 and I study AI since my first year at university as a self-taught learner.
 
 I love learning and reading books ! 
 
@@ -20,8 +20,6 @@ I have already done 2 internships in AI, my first one was in a company named E-m
  My last one was at Laboratoire Informatique d'Avignon ([LIA](https://lia.univ-avignon.fr/)) under the supervision of [Assoc. Prof Titouan Parcollet](http://www.darnault-parcollet.fr/Parcollet/) during +2 month in 2021. During this internship I have investigates different ways of making [LiGRU](https://arxiv.org/pdf/1803.10225.pdf) a mandatory alternative to LSTM/GRU for speech processing. The LiGRU suffer from a poor GPU implementation and an instability in the recurrent connection. This internship has involved to build a benchmark platform, investigates differents ways to solve this problem (Custom Op PyTorch, TorchScript, Custom Kernel...), defined the backpropagation equations and implement them in PyTorch Autograd and a custom kernel with Numba. The work that I did will be implemented into [SpeechBrain](https://speechbrain.github.io/) an open-source and all-in-one speech toolkit, designed to be simple, extremely flexible, and user-friendly. This toolkit offer a competitive and state-of-the-art performance in various domains. 
 
 This blog aim's to provide some articles on my passion that will be written in English and French. 
-
-I'm also deeply active in a French Machine Learning community: Machine Learnia. 
 
 If you have any questions or you would like to connect with me don't hesitate to reach me at:
 
