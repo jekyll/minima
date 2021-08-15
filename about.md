@@ -10,10 +10,13 @@ I'm Adel Moumen, I'm French 🇫🇷 and I study AI since my first year at unive
 
 I love learning and reading books ! 
 
-In University, I'm currently in an honour program degree ([CMI](https://reseau-figure.fr/)) in Computer Science and I'm also involved into a 2 years program in [entrepreneuriat](https://univ-avignon.fr/formations/orientation-et-insertion/l-entrepreneuriat-etudiant/l-entrepreneuriat-etudiant-15387.kjsp) at [Avignon University](https://ceri.univ-avignon.fr/formations/cursus-master-ingenierie-en-informatique/). 
+In University, I'm currently in an honour program degree ([CMI](https://reseau-figure.fr/)) in Computer Science and I'm also involved into a 2 years program in [entrepreneurship](https://univ-avignon.fr/formations/orientation-et-insertion/l-entrepreneuriat-etudiant/l-entrepreneuriat-etudiant-15387.kjsp) at [Avignon University](https://ceri.univ-avignon.fr/formations/cursus-master-ingenierie-en-informatique/). 
 
-In AI, I try to build a deep comprehension of this domain especially in Deep Learning. 
+In AI, I try to build a deep comprehension of this domain especially in Deep Learning and the application on speech/text (NLP).
+
+
 I only do machine learning applications that are in the scope of "AI for social good" and that are not too heavy if they are not usefull for the community because 🌍 matter. 
+
 
 I have already done 2 interships in AI, my first one was in a company named E-magina where I did a lot's of differents tasks as a Data Scientist (Data Extraction, Data Cleaning, Data vizualization, neural networks, system multi-agents...) in the context of the construction of an french combat sports directories during 1 month in 2020.
 
