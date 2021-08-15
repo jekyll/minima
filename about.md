@@ -12,7 +12,7 @@ I love learning and reading books !
 
 In University, I'm currently in an honour program degree ([CMI](https://reseau-figure.fr/)) in Computer Science and I'm also involved into a 2 years program in [entrepreneurship](https://univ-avignon.fr/formations/orientation-et-insertion/l-entrepreneuriat-etudiant/l-entrepreneuriat-etudiant-15387.kjsp) at [Avignon University](https://ceri.univ-avignon.fr/formations/cursus-master-ingenierie-en-informatique/). 
 
-My honour program degree is based on a bachelor's degree and a master degree (during 5 years) with 20% courses in more. (manly oriented towards research) I'm currently in my second year.
+My honour program degree is based on a bachelor's degree and a master degree (during 5 years) with 20% courses in more (manly oriented towards research) and I'm currently in third year over five.
 
 In AI, I try to build a deep comprehension of this domain especially in Deep Learning and the application on speech/text (NLP).
 
