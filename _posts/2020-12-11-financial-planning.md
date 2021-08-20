@@ -44,7 +44,12 @@ A goal without a plan _is just a wish_.
 2. Choose instruments aligning with risk appetite
 3. Invest regularly and systematically
 
-### Ask why someone is giving you financial advice
+### Monitor and maintain your portfolio
+1. Establish benchmarks
+2. Compare performance to expectations
+3. Be vigilant, update expectations/strategies
+
+## Ask why someone is giving you financial advice
 If a life insurance agent is offering advice, their motivation is usually their commission. Taking advice from a financial advisor who gets a flat fee is probably better.
 
 ### LIC is not a great investment
@@ -102,7 +107,7 @@ Low volatility, expected returns are 7-9%.
 As you get older, move your assets from equity to debt so you have less volatility - a market crash can be a larger issue for you when you are older.
 
 ### SIPs
-SIPs ensure that you beat market fluctuation and is a more sensible investment methodology than trying to time the market.
+SIPs ensure that you beat market fluctuation and is a more sensible investment methodology than trying to time the market. "Time in the market is better than timing the market." You can't time the market, don't try.
 
 ### Direct v/s. Regular
 Broker takes a cut in Regular mutual funds. Broker takes ~1% out of 1.25-3% expense ratio in the mutual fund. Direct funds don't have the broker cut and expense ratio is lower. 
@@ -133,6 +138,7 @@ From [Binu Raj](https://www.linkedin.com/in/binu-raj-317a334)
 - Franklin India focused Equity fund - multicap
 - Motilal oswal multicap 35 fund - multicap
 - PPFAS Long term equity fund - multicap w/30% global equity
+- PPFAS Flexicap
 
 ### Largecap
 - Motilal oswal focused 25 fund - largecap
@@ -167,3 +173,4 @@ An employee is allowed to contribute more than the mandatory 12% towards PF in t
 
 ### Employees’ Pension Scheme (EPS)
 Out of the 12%, some part goes into the pension scheme, which can be withdrawn after the age of 50 (early retirement) or 58 (regular retirement) as a montly pension.
+
