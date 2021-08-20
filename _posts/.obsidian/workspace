@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "bc19797c23e03a65",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef4733b3ed8194ed",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2015-01-01-about-this-blog.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "69546c28fbef0f07",
+    "type": "split",
+    "children": [
+      {
+        "id": "d934d3a3dd0426a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20a8dc275ec39c0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b3b774a7d4f6bdd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0989a60f9a877360",
+    "type": "split",
+    "children": [
+      {
+        "id": "cea3ec0689ba02a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "073bac2c362b7970",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2015-01-01-about-this-blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ef4733b3ed8194ed",
+  "lastOpenFiles": [
+    "2015-01-01-about-this-blog.md",
+    "2017-09-02-zomato.md",
+    "2020-01-16-ai-data-policy.md",
+    "2021-01-01-hindsight-in-2020.md",
+    "2019-09-23-font-resources.md",
+    "2019-09-18-contributing-to-osm.md",
+    "2018-07-18-intro-to-photography.md",
+    "2016-05-10-delhi-dribbble.md",
+    "2016-11-01-brush-lettering.md",
+    "2019-09-05-delhi-map.md"
+  ]
+}

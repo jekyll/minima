@@ -11,11 +11,43 @@ tags: misc
 - You want stuff
 - Stuff is expensive
 - You'll get old and won't have pension (unlike previous generations)
+- Best time to start saving is the day you start earning
+
+## Why invest?
+- If you leave money in the bank at interest rate lower than inflation, you'll actually lose purchasing power—what you can buy using Re. 1 keeps going down as inflation goes up. 
+
+If you had Rs. 1 Lakh in 1978 and 
+
+- Left it as cash - Would be worth Rs. 7k by 2012 in terms of Purchasing Power Parity (PPP).
+- Bought gold - Worth 37.17 lakh
+- Invested in Sensex index fund - Worth 1.88 crore
+
+### Planning for goals
+Different people have different priorities and goals. Typical goals could be
+
+- Retirement
+- Education
+- Wealth
+- Travelling the world
+- Financially independent by 45 [See r/FIREIndia](https://www.reddit.com/r/FIREIndia/)
+- Marriage
+
+A goal without a plan _is just a wish_. 
+
+### Establish your goals
+1. Identify your life goals so that you can plan towards those goals.
+2. Calculate what you need to achieve the goal. - if you want to do something 20 years from now, calculate assuming 10% inflation every year for India.
+3. Determine your risk tolerance - you need to have the stomach to see your portfolio go down 30% and not panic sell.
+
+### Make investments
+1. Allocate resources to each goal
+2. Choose instruments aligning with risk appetite
+3. Invest regularly and systematically
 
 ### Ask why someone is giving you financial advice
 If a life insurance agent is offering advice, their motivation is usually their commission. Taking advice from a financial advisor who gets a flat fee is probably better.
 
-### LIC is a scam
+### LIC is not a great investment
 
 LIC combines life insurance and investment. You do need life insurace and you should invest money, but you should keep both of those things separate.
 
