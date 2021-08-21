@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: What am I doing these days?
 subtitle: This is my /now page. See more about now pages [here](https://nownownow.com/about).
 permalink: now
