@@ -34,6 +34,7 @@ header_pages:
   - logos.md
   - flexbox.md
   - table-demo.md
+  - cli-demo.md
 
 defaults:
   - scope:
