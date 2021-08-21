@@ -33,6 +33,7 @@ header_pages:
   - demo/index.md
   - logos.md
   - flexbox.md
+  - table-demo.md
 
 defaults:
   - scope:
