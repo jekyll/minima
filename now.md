@@ -1,27 +1,31 @@
 ---
 layout: page
-title: Now
-permalink: /now/
+title: What am I doing these days?
+permalink: now
 ---
 
-<div class="intro">
-  <h5>What am I doing these days?</h5>
-</div>
+#### Work
+- 🎙 Dictation Experience on Microsoft Apps like Word, Outlook and OneNote
+- 📱 Redesign of the Word, Excel and PowerPoint apps on mobile
 
-- 💼 Designing Voice experiences at Microsoft
+#### Learning 
 - 🇫🇷 Learning French on Duolingo
-- 📓 Writing every day — I'm maintaining a journal on paper
+- 📈 Learning about personal finance
+
+#### Reading
 - 📚 Reading Tiny Habits
+- 📓 Writing every day — I'm maintaining a journal on paper
+
+#### Fun
 - 🎷 Listening to a lot of Jazz
 - 🏃🏽‍♂️ Running
-- 📈 Learning about personal finance
-- 💻 Slowly adding older projects to my website
+
+#### Website
+- 💻 Slowly adding older projects to this site
 
 
+##### What is this page?
+This is my /now page. 
+It talks about what I've been up to recently. 
+See more about now pages [here](https://nownownow.com/about).
 
-<div class="intro">
-  <h5>What is this page?</h5>
-  <p>
-    This is my /now page. It talks about what I've been up to recently. See more about now pages <a href="https://nownownow.com/about">here.</a>
-  </p>
-</div>
