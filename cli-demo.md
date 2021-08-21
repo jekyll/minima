@@ -3,15 +3,16 @@ title: CLI demo
 
 cli:
   usage: |
-     curl [OPTIONS...] URL
+    curl [OPTIONS...] URL
   flags:
-    - flag: '-I, --head'
+    - flag: |
+        `-I, --head`
       description: |
         Show headers only
 
         "Show document info only"
-      example:
-    - flag: '-v'
+    - flag: |
+        `-v`
       description: Verbose
 ---
 
