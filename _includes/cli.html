@@ -1,0 +1,14 @@
+{% assign cli = include.cli %}
+
+{% if cli.usage %}
+<h3>Usage</h3>
+
+<pre><code>
+{{ cli.usage | escape }}
+</code></pre>
+{% endif %}
+
+{% if cli.flags %}
+<h3>Flags</h3>
+{% include table.html table_rows=include.cli.flags %}
+{% endif %}
