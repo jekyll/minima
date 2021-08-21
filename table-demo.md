@@ -18,8 +18,9 @@ authors:
 
 Showcase of using Liquid to render data as an [HTML table][].
 
-[HTML table]: https://michaelcurrin.github.io/code-cookbook/recipes/jekyll/snippets/html-table.html
-
-{{ site.header_pages }}
+Here using data set in the frontmatter, but you could reference the config or a data file instead.
 
 {% include table.html table_rows = page.authors %}
+
+
+[HTML table]: https://michaelcurrin.github.io/code-cookbook/recipes/jekyll/snippets/html-table.html
