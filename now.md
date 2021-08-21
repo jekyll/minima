@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What am I doing these days?
+subtitle: This is my /now page. See more about now pages [here](https://nownownow.com/about).
 permalink: now
 ---
 
@@ -23,9 +24,4 @@ permalink: now
 #### Website
 - 💻 Slowly adding older projects to this site
 
-
-##### What is this page?
-This is my /now page. 
-It talks about what I've been up to recently. 
-See more about now pages [here](https://nownownow.com/about).
 
