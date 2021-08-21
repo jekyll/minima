@@ -1,1 +1,3 @@
-# Demo group
+---
+title: Demo group
+---

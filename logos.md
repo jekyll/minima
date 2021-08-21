@@ -1,4 +1,7 @@
-# Logos
+---
+title: Logos
+---
+
 
 Logos have been downloaded and added to the repo.
 

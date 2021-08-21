@@ -1,4 +1,6 @@
-# Flexbox
+---
+title: Flexbox
+---
 
 You can use the [page.html](/_layouts/page.html) layout which uses the flexbox pattern already.
 
