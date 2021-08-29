@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
 
@@ -13,8 +13,21 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
+    {%- include footer.html %}
 
+    <script>
+      document.getElementById("skin-switch-container").style.display = "block";
+      var metaTag = document.getElementById("stylesheet");
+      var SSHref = metaTag.href;
+      var SSName = (SSHref.substring(SSHref.lastIndexOf('/') + 1));
+
+      document.getElementById("skin-switch").value = SSName;
+
+      function changeSkin() {
+        metaTag.href = SSHref.replace(SSName, event.target.value);
+      }
+    </script>
+    {%- include custom-scripts.html -%}
   </body>
 
 </html>

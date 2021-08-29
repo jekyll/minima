@@ -32,6 +32,25 @@
       {%- include social.html -%}
     </div>
 
+    {%- comment %}
+      The assign expression below needs to be updated whenever a new skin is added.
+      Its less than ideal but since Jekyll doesn't load data files within a theme, there is no
+      better solution.
+      Additionally, the #skin-switch-container below is hidden by default (via CSS).
+      A javascript instruction in the default layout is used to disable the masking CSS to show
+      the element on page and to switch skins. Therefore, browsers with javascript disabled will
+      not show the container element.
+    {% endcomment %}
+    {%- assign skins = 'dark,solarized,solarized-dark' | split: ',' %}
+    <div id="skin-switch-container">
+      This page was rendered with the <select id="skin-switch" onchange="changeSkin()">
+        <option value="style.css">classic</option>
+        {%- for skin in skins %}
+        <option value="{{ skin }}.css">{{ skin }}</option>
+        {%- endfor %}
+      </select> skin of the Minima theme.
+    </div>
+
   </div>
 
 </footer>
