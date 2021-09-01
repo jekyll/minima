@@ -30,6 +30,8 @@ build-gem:
 	gem build fractal.gemspec
 
 
+# Demo site.
+
 s serve:
 	bundle exec jekyll serve --trace --livereload
 
