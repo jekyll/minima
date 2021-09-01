@@ -6,14 +6,13 @@
 Here are the plugins used in the `.gemspec` file. They don't have to be enabled in the config though for the theme or another project. They all work by just being installed.
 
 1. `jekyll-feed`
-2. `jekyll-seo-tag`
-3. [jekyll-optional-front-matter](https://rubygems.org/gems/jekyll-optional-front-matter)
+1. [jekyll-optional-front-matter](https://rubygems.org/gems/jekyll-optional-front-matter)
     - Process a page without frontmatter.
-4. [jekyll-title-from-headings](https://rubygems.org/gems/jekyll-titles-from-headings/versions/0.5.3)
+1. [jekyll-title-from-headings](https://rubygems.org/gems/jekyll-titles-from-headings/versions/0.5.3)
     - To turn the first line of the page into `page.title`. This is setup in the config to hide the title, as there is a layout to take care that of that already.
-5. `jekyll-sitemap`
+1. `jekyll-sitemap`
 
-The first two come from the base Minima theme.
+The first one came from the base Minima theme.
 
 The next two allow use of H1 titles without frontmatter.
 

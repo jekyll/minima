@@ -1,0 +1,47 @@
+{% comment %}
+Based on https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
+{% endcomment %}
+
+{%- if page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+{% endif -%}
+
+{%- if site.title %}
+  <meta property="og:site_name" content="{{ site.title }}" />
+{% endif -%}
+
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+
+{%- if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+{% endif -%}
+
+{% comment %}
+Prefer to set canonical manually with a hardcoded domain instead of one set in a config,
+so all forks point to the "original" domain as canonical. But that means the entire SEO
+plugin needs to be replaced here.
+{% endcomment %}
+{% assign canonical_domain = "https://michaelcurrin.github.io" %}
+{% assign canonical_url = canonical_domain | append: site.baseurl | append: page.url %}
+<link rel="canonical" href="{{ canonical_url  }}" />
+<meta property="og:url" content="{{ canonical_url }}" />
+
+{% comment %} See https://json-ld.org/ {% endcomment %}
+{% assign author = "Michael Currin" %}
+<script type="application/ld+json">
+{
+    "name":        "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "url":         "{{ page.url | absolute_url }}",
+    "headline":    "{{ page.title }}",
+    "@type":       "WebSite",
+    "@context":    "https://schema.org",
+    "author": {
+        "@type":"Person",
+        "name": "{{ author }}"
+    }
+}
+</script>

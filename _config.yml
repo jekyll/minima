@@ -15,7 +15,6 @@ baseurl: /fractal
 # Required on GH Pages to enable plugins.
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Some values below borrowed from minima theme.
