@@ -21,6 +21,11 @@ upgrade:
 logos:
 	bin/install_logos.sh
 
+logos-commit:
+	git add _includes/logos
+	git commit -m "feat: update logos"
+
+
 build-gem:
 	gem build fractal.gemspec
 
