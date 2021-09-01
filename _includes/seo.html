@@ -1,40 +1,52 @@
 {% comment %}
-Based on https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
+    Based on https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
+
+     Please do NOT update the author and canonical variables.
+
+     They are hardcoded here and kept out of a config, to retain the values when forked sites are created and the config is modified.
 {% endcomment %}
 
-{%- if page.title %}
-    <title>{{ page.title }}</title>
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
-{% endif -%}
+{% assign author = "Michael Currin" %}
+{% assign canonical_domain = "https://michaelcurrin.github.io" %}
 
 {%- if site.title %}
-  <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+{% endif -%}
+
+{%- if page.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <meta property="og:title" content="{{ page.title }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="{{ page.title }}" />
 {% endif -%}
 
 <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
-{%- if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    <meta property="og:description" content="{{ page.description }}" />
+<meta property="og:locale" content="en_US" />
+
+{% assign description = page.description | default: site.description %}
+{%- if description %}
+    <meta name="description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description }}" />
 {% endif -%}
 
+<meta name="author" content="{{ author }}" />
+
 {% comment %}
-Prefer to set canonical manually with a hardcoded domain instead of one set in a config,
-so all forks point to the "original" domain as canonical. But that means the entire SEO
-plugin needs to be replaced here.
+    Prefer to set canonical manually with a hardcoded domain, instead of one set in a config.
+    So that all forks point to the "original" domain as canonical. Though that means the entire SEO plugin had to be replaced with an includes file.
 {% endcomment %}
-{% assign canonical_domain = "https://michaelcurrin.github.io" %}
 {% assign canonical_url = canonical_domain | append: site.baseurl | append: page.url %}
 <link rel="canonical" href="{{ canonical_url  }}" />
 <meta property="og:url" content="{{ canonical_url }}" />
 
 {% comment %} See https://json-ld.org/ {% endcomment %}
-{% assign author = "Michael Currin" %}
 <script type="application/ld+json">
 {
     "name":        "{{ site.title }}",
-    "description": "{{ site.description }}",
+    "description": "{{ description }}",
     "url":         "{{ page.url | absolute_url }}",
     "headline":    "{{ page.title }}",
     "@type":       "WebSite",
