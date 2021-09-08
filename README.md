@@ -17,7 +17,11 @@ Project homepage which demonstrates the look of the theme.
     </a>
 </div>
 
-The _Demo group_ page demonstrate more functionality and the _Logos_ page provides instructions on using a logo.
+<br>
+
+The _Demo group_ page demonstrate more functionality. The _Logos_ page provides instructions on using a logo.
+ 
+<br>
  
 <div align="center">
 
