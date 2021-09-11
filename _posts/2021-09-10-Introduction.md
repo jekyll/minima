@@ -14,9 +14,7 @@ Welcome!
 
 Meet the instructors:
 
-<a href="http://phi.archi/">
-         <img alt="Qries" src="assets/20210510RSSbw.png" width="300" >
+<a href="http://phi.archi/"><img alt="Qries" src="https://raw.githubusercontent.com/KeanMGC/2021fall3yr-studio/master/assets/20210510RSSbw.png" width="300" >
 
-![R. Spencer Steenblik](assets/20210510RSSbw.png)
 
 R. Spencer Steenblik
