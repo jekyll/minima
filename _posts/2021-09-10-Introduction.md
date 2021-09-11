@@ -15,7 +15,6 @@ Welcome!
 Meet the instructors:
 
 <a href="http://phi.archi/">
-         <img alt="Qries" src="http://design.wku.edu.cn/wp-content/uploads/2019/09/mmexport1543286755425-2-806x537.jpg"
-         width=300" >
+         <img alt="Qries" src="http://design.wku.edu.cn/wp-content/uploads/2019/09/mmexport1543286755425-2-806x537.jpg" width="300" >
 
 R. Spencer Steenblik
