@@ -15,9 +15,9 @@ minima:
   skin: dark
 
 
-header_pages:
-  - about.md
+header_pages:  
   - projects.md
+  - about.md
 
   # generate social links in footer
   social_links:
