@@ -15,9 +15,6 @@ minima:
   skin: dark
 
 
-header_pages:  
-  - projects.md
-  - about.md
 
   # generate social links in footer
   social_links:
@@ -59,6 +56,10 @@ header_pages:
 
 # Build settings
 
+
+header_pages:  
+  - projects.md
+  - about.md
 
 plugins:
  - jekyll-feed
