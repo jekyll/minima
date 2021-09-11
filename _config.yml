@@ -14,6 +14,11 @@ minima:
   date_format: "%b %-d, %Y"
   skin: dark
 
+
+header_pages:
+  - about.md
+  - projects.md
+
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
