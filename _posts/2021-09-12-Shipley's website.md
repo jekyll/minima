@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Shipley's website"
+title: "Flexibility"
 categories:
 author:
 - Shipley
 meta:
 ---
-Welcome! Here is my website.
+Welcome! Here is Shipley's website.
 
 [Studio-Flexibility][2a21c033]
 
