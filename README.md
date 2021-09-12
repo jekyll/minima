@@ -6,6 +6,8 @@
 
 [![Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com "Go to Jekyll site")
 
+This theme is intended to support my own sites as covered in the docs. But you are welcome to borrow pieces of the code or use or modify this theme. The Remote Theme plugin is recommended so you can use this theme on GitHub Pages.
+
 
 ## Preview
 
