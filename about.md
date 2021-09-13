@@ -50,3 +50,12 @@ The project requires the following:
 {% include about_.html folder="/index/" %}
 
 [comment]: <> (please refer to _incluedes/about_.html to add your photo)
+  
+
+<table style="width:100%; border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="border: none;">
+        <a href="https://sunbaiqianqian.github.io/SunBaiqianqian-Portfolio/"><img alt="selfie" src="https://github.com/SunBaiqianqian/SunBaiqianqian-Portfolio/blob/master/assets/selfie.jpg?raw=true" width="300" >
+          
+  Sugar (Sun Baiqianqian) 孙柏芊芊
+  
