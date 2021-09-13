@@ -25,11 +25,6 @@ permalink: /about.md/
 
 <br><br><br><p>
 
-|   |
---|---|--
-|   |
-|   |
-
 #### Designers(students):
 
 {% include about_.html folder="/index/" %}
