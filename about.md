@@ -28,7 +28,8 @@ The project requires the following:
 [David Vardy](http://design.wku.edu.cn/)  [R. Spencer Steenblik](http://phi.archi/)
   
   
-  
+<p></p>
+Designers(students):  
   
 <a href="http://phi.archi/"><img alt="Qries" src="https://raw.githubusercontent.com/KeanMGC/2021fall3yr-studio/master/assets/20210510RSSbw.png" width="300" >
 
@@ -36,4 +37,3 @@ The project requires the following:
 
 
 
-Designers(students):
