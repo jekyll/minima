@@ -18,6 +18,6 @@ Student Name
 
 [By Grace Yixuan Lin 林祎萱](link)
 
-[comment]: <> (please refer to _incluedes/image-gallery.html to add your photo)
+[comment]: <> (please refer to _incluedes/projects_.html to add your photo)
 
 {% include projects_.html folder="/index/" %}
