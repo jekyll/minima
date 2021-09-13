@@ -10,7 +10,7 @@ permalink: /projects/
   
 #### [Home of My Ego](Link)
 
-[By Sugar Sun Baiqianqian 孙柏芊芊](link)
+[By Grace Yixuan Lin 林祎萱](link)
 
 400px x 400px Image
 Student Project Name
