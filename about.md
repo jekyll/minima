@@ -9,7 +9,7 @@ permalink: /about.md/
 {% include instructors_.html folder="/index/" %}
 
 
-<br><br><br><p>
+<br><br><br>
 
 #### Designers(students):
 
