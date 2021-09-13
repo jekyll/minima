@@ -2,8 +2,7 @@
 layout: post
 title: "Kyle"
 categories:
-author:
-- Kyle
+author: - Kyle
 meta:
 ---
 Welcome! Here is Kyle's website.

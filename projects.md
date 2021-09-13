@@ -15,14 +15,14 @@ Student Name
 <a href="http://phi.archi/"><img alt="Qries" src="https://github.com/KeanMGC/2021fall3yr-studio/blob/25ddd2c527b444af96eb69da5728de851d10b922/MME.jpg" width="300" ><br>
 
 
-  
+
 [By Grace Yixuan Lin 林祎萱](link)
 
 [comment]: <> (please refer to _incluedes/projects_.html to add your photo)
 
 {% include projects_.html folder="/index/" %}
 
-  
+
 <table style="width:100%; border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td style="border: none;">
