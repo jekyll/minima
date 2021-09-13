@@ -22,7 +22,7 @@ The project requires the following:
 
 ##### Meet the instructors:
 
-<a href="http://phi.archi/"><img alt="Qries" src="https://raw.githubusercontent.com/KeanMGC/2021fall3yr-studio/master/assets/20210510RSSbw.png" width="300" >
+<a href="http://phi.archi/"><img alt="Qries" src="https://github.com/KeanMGC/2021fall3yr-studio/blob/25ddd2c527b444af96eb69da5728de851d10b922/MME.jpg" width="300" >
 
 
 [David Vardy](http://design.wku.edu.cn/)  [R. Spencer Steenblik](http://phi.archi/)
@@ -31,7 +31,7 @@ The project requires the following:
   
 Designers(students):  
   
-<a href="http://phi.archi/"><img alt="Qries" src="https://raw.githubusercontent.com/KeanMGC/2021fall3yr-studio/master/assets/20210510RSSbw.png" width="300" >
+<a href="http://phi.archi/"><img alt="Qries" src="https://github.com/KeanMGC/2021fall3yr-studio/blob/25ddd2c527b444af96eb69da5728de851d10b922/MME.jpg" width="300" >
 
   Sugar Sun Baiqianqian 孙柏芊芊
 
