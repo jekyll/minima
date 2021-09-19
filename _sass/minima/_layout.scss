@@ -6,11 +6,11 @@ html {
   --text-color: #555;
   --text-color-light: #999;
 
-  --accent-color-dark: #742777;
-  --accent-color: #7c237f;
-  --accent-color-light: rgb(223 214 236 / 50%);
+  --accent-color-dark: #000D87;
+  --accent-color: #0016D8;
+  --accent-color-light: rgb(0 22 216 / 40%);
 
-    --overlay-color: rgba(100, 0, 0, .04);
+  --overlay-color: rgba(100, 0, 0, .04);
 }
 
 @media (prefers-color-scheme: dark) {
