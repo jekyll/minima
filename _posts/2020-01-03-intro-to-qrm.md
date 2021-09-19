@@ -2,7 +2,7 @@
 layout: post
 title: "Research Methods in HCI - Website"
 subtitle: Designing and coding a website for a course at IDC for industry professionals and academics.
-tags: code idc
+tags: website
 ---
 
 ![Screenshot of the web page"](https://gyanl.com/assets/Intro-QRM.png)
