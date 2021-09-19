@@ -8,14 +8,14 @@ html {
 
   --accent-color-dark: #000D87;
   --accent-color: #0016D8;
-  --accent-color-light: rgb(0 22 216 / 40%);
+  --accent-color-light: rgb(0 22 216 / 10%);
 
   --overlay-color: rgba(100, 0, 0, .04);
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-    --background-color: #180303;
+    --background-color: #FFF8E4;
     --foreground-color: rgba(0, 0, 0, 0.3);
 
     --text-color-dark: rgba(255, 255, 255, 1);
