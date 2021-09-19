@@ -77,7 +77,7 @@ a:visited.tag {
 }
 
 .tag::before {
-  content: " ◆ ";
+  content: " • ";
   position: absolute;
   color: var(--accent-color);
   padding-right: 33px;
