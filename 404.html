@@ -61,48 +61,25 @@ layout: default
     var vsubtitle = document.getElementById('htmlSubtitle');
     var vbody = document.getElementById('htmlBody');
 
-    function saveThisPage() {
-      set(ref(db, pageName + "/"), {
+
+
+    function updateTitle(){
+      update(ref(db, pageName + "/"), {
         title: vtitle.innerHTML,
-        subtitle: vsubtitle.innerHTML,
-        body : vbody.innerHTML
       });
     }
 
-    function updateTitle(){
-      firebase.database().ref(pageName + "/").update({
-      title: htmlTitle.innerHTML
-    }, function(error) {
-        if (error) {
-            console.log("Failed to vote Partly Fake...");
-        } else {
-            console.log("Voted Partly Fake :)");
-        }
-    });
-
     function updateSubitle(){
-      firebase.database().ref(pageName + "/").update({
-      subtitle: htmlSubtitle.innerHTML
-    }, function(error) {
-        if (error) {
-            console.log("Failed to vote Partly Fake...");
-        } else {
-            console.log("Voted Partly Fake :)");
-        }
-    });
+      update(ref(db, pageName + "/"), {
+        subtitle: vsubtitle.innerHTML,
+      });
+    }
 
     function updateBody(){
-      firebase.database().ref(pageName + "/").update({
-      body: htmlBody.innerHTML
-    }, function(error) {
-        if (error) {
-            console.log("Failed to vote Partly Fake...");
-        } else {
-            console.log("Voted Partly Fake :)");
-        }
-    });
-
-
+      update(ref(db, pageName + "/"), {
+        body: vbody.innerHTML,
+      });
+    }
 
 
     function renderPage(){
@@ -122,13 +99,18 @@ layout: default
           vtitle.innerHTML = pageName;
           vsubtitle.innerHTML = "What is this page about?";
           vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
-          saveThisPage();
+
+          // Create new log
+          set(ref(db, pageName + "/"), {
+            title: vtitle.innerHTML,
+            subtitle: vsubtitle.innerHTML,
+            body : vbody.innerHTML
+          });
         }
       });
 
 
     }
-    //saveThisPage();
     renderPage();
 
     </script>
