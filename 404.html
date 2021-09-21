@@ -73,7 +73,7 @@ layout: default
 
     function renderPage(){
 
-      const starCountRef = ref(db, pagename + '/');
+      const starCountRef = ref(db, pageName + '/');
       onValue(starCountRef, (snapshot) => {
         const gettitle = snapshot.title.val();
         const getsubtitle = snapshot.subtitle.val();
