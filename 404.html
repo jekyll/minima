@@ -75,31 +75,35 @@ layout: default
       onValue(starCountRef, (snapshot) => {
 
         // Debugging stuff
-        console.log(snapshot.val())
-        
-        // Get Title from Firebase or set it to gyanl.com/string.
-
-        if (snapshot.val().title){
-          vtitle.innerHTML = snapshot.val().title;
-        }else{
-          vtitle.innerHTML = pageName;
+        if (snapshot.exists()) {
+          console.log(snapshot.val());
+        } else {
+          console.log("No data available");
         }
 
-        // Get Subtitle from Firebase or set it to a fixed string.
+        // // Get Title from Firebase or set it to gyanl.com/string.
+        //
+        // if (snapshot.val().title){
+        //   vtitle.innerHTML = snapshot.val().title;
+        // }else{
+        //   vtitle.innerHTML = pageName;
+        // }
+        //
+        // // Get Subtitle from Firebase or set it to a fixed string.
+        //
+        // if(snapshot.val().subtitle){
+        //   vsubtitle.innerHTML = snapshot.val().subtitle;
+        // }else {
+        //   vsubtitle.innerHTML = "What is this page about?";
+        // }
+        //
+        // // Get body from Firebase or set it to string.
+        // if(snapshot.val().body){
+        //   vbody.innerHTML = snapshot.val().body;
+        // }else{
+        //     vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
+        // }
 
-        if(snapshot.val().subtitle){
-          vsubtitle.innerHTML = snapshot.val().subtitle;
-        }else {
-          vsubtitle.innerHTML = "What is this page about?";
-        }
-
-
-        if(snapshot.val().body){
-          vbody.innerHTML = snapshot.val().body;
-        }else{
-            vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
-        }
-        // Get subtitle from Firebase or set it to string.
 
       });
 
