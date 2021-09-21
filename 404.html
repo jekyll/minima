@@ -74,37 +74,20 @@ layout: default
       const starCountRef = ref(db, pageName + '/');
       onValue(starCountRef, (snapshot) => {
 
-        // Debugging stuff
+        // If snapshot exists, get the values and populate the page.
         if (snapshot.exists()) {
           console.log(snapshot.val());
-        } else {
-          console.log("No record");
-        }
-
-        // Get Title from Firebase or set it to gyanl.com/string.
-
-        if (snapshot.val().title.exists()){
           vtitle.innerHTML = snapshot.val().title;
-        }else{
+          vsubtitle.innerHTML = snapshot.val().subtitle;
+          vbody.innerHTML = snapshot.val().body;
+        } else {
+        // If no snapshot, fill values and create record.
+          console.log("Creating new record.");
           vtitle.innerHTML = pageName;
+          vsubtitle.innerHTML = "What is this page about?";
+          vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
+          saveThisPage();
         }
-
-        // // Get Subtitle from Firebase or set it to a fixed string.
-        //
-        // if(snapshot.val().subtitle){
-        //   vsubtitle.innerHTML = snapshot.val().subtitle;
-        // }else {
-        //   vsubtitle.innerHTML = "What is this page about?";
-        // }
-        //
-        // // Get body from Firebase or set it to string.
-        // if(snapshot.val().body){
-        //   vbody.innerHTML = snapshot.val().body;
-        // }else{
-        //     vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
-        // }
-
-
       });
 
 
