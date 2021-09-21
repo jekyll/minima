@@ -4,45 +4,37 @@ layout: default
 
 ---
 
-
-<main class="page-content" aria-label="Content">
-  <div class="wrapper">
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
         <h1 id="title" class="post-title p-name" itemprop="name headline">
-          <span id="htmlTitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" onblur="setSummary();this.classList.remove('comment-box')" contenteditable="true" class="">
+          <span id="htmlTitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" onblur="setSummary();this.classList.remove('comment-box')" contenteditable="true">
             Error 404
           </span>
         </h1>
 
-        <div id="htmlSubtitle" class="sub-title">Page not Found</div><span class="post-meta">
+        <div id="htmlSubtitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" onblur="setSummary();this.classList.remove('comment-box')" contenteditable="true" class="sub-title">Page not Found</div><span class="post-meta">
 <span class="dt-published" datetime="2019-07-13T00:00:00+00:00" itemprop="datePublished">Last updated Sat, 13 Jul, 2019
 </span></span>
 
       </header>
 
-      <div id="htmlBody" class="post-content e-content" itemprop="articleBody">
+      <div id="htmlBody" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" onblur="setSummary();this.classList.remove('comment-box')" contenteditable="true" class="post-content e-content" itemprop="articleBody">
 
         hello
 
       </div>
+      <button type="button" name="button" onclick="saveThisPage()">Save me</button>
     </article>
 
-  </div>
-</main>
 
 
 <script type="module">
-
 
 // Get pageName = gyanl.com/string
 
 var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
 console.log(pageName);
-
-
-
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
@@ -68,26 +60,30 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+
+
 var vtitle = document.getElementById('htmlTitle');
 var vsubtitle = document.getElementById('htmlSubtitle');
 var vbody = document.getElementById('htmlBody');
 
-function writeUserData(title, subtitle, body) {
+function saveThisPage() {
   const db = getDatabase();
   set(ref(db, pageName + "/"), {
-    title: title,
-    subtitle: subtitle,
-    body : body
+    title: vtitle.innerHTML,
+    subtitle: vsubtitle.innerHTML,
+    body : vbody.innerHTML
   });
 }
 
+
 function renderPage(){
-  vtitle.innerHTML = pageName;
+  if(vtitle.innerHTML == 'Error 404'){
+    vtitle.innerHTML = pageName;
+  }
   vsubtitle.innerHTML = "What is this page about?";
   vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
 }
 
-writeUserData("a","b","c");
 renderPage();
 
 </script>
