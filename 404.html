@@ -97,6 +97,7 @@ layout: default
         body: vbody.innerHTML
       };
       update(ref(db), updates);
+      console.log("Update sent");
     }
 
     vtitle.addEventListener("blur", updateValues());
