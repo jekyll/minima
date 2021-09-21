@@ -71,7 +71,7 @@ layout: default
 
     function updateTitle(){
       firebase.database().ref(pageName + "/").update({
-      title: htmlTitle.innerHTML;
+      title: htmlTitle.innerHTML
     }, function(error) {
         if (error) {
             console.log("Failed to vote Partly Fake...");
@@ -82,7 +82,7 @@ layout: default
 
     function updateSubitle(){
       firebase.database().ref(pageName + "/").update({
-      subtitle: htmlSubtitle.innerHTML;
+      subtitle: htmlSubtitle.innerHTML
     }, function(error) {
         if (error) {
             console.log("Failed to vote Partly Fake...");
@@ -93,7 +93,7 @@ layout: default
 
     function updateBody(){
       firebase.database().ref(pageName + "/").update({
-      body: htmlBody.innerHTML;
+      body: htmlBody.innerHTML
     }, function(error) {
         if (error) {
             console.log("Failed to vote Partly Fake...");
