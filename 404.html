@@ -19,10 +19,10 @@ layout: default
 </style>
 
 <div class="container">
-  <h1>404</h1>
+  <h1 id="htmlTitle">404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong id="htmlSubtitle">Page not found :(</strong></p>
+  <p id="htmlBody">The requested page could not be found.</p>
 </div>
 
 
@@ -61,6 +61,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+var vtitle = document.getElementById('htmlTitle');
+var vsubtitle = document.getElementById('htmlSubtitle');
+var vbody = document.getElementById('htmlBody');
 
 function writeUserData(title, subtitle, body) {
   const db = getDatabase();
@@ -71,6 +74,13 @@ function writeUserData(title, subtitle, body) {
   });
 }
 
+function renderPage(){
+  vtitle.innerHTML = "hello";
+  vsubtitle.innerHTML = "world";
+  vbody.innerHTML = "test";
+}
+
 writeUserData("a","b","c");
+renderPage();
 
 </script>
