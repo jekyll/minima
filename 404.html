@@ -75,9 +75,9 @@ layout: default
 
       const starCountRef = ref(db, pageName + '/');
       onValue(starCountRef, (snapshot) => {
-        const gettitle = snapshot.title.val();
-        const getsubtitle = snapshot.subtitle.val();
-        const getbody = snapshot.body.val();
+        const gettitle = snapshot.val().title;
+        const getsubtitle = snapshot.val().subtitle;
+        const getbody = snapshot.val().body;
         console.log("title = " + gettitle);
       });
 
