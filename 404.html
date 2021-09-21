@@ -63,22 +63,22 @@ layout: default
 
 
     vtitle.addEventListener("blur", function() {
-      update(ref(db, pageName + "/"), {
-        title: vtitle.innerHTML,
-      });
+      const updates = {};
+      updates[pageName + "/"] = {title: vtitle.innerHTML};
+      update(ref(db), updates);
     });
 
-    vsubtitle.addEventListener("blur", function() {
-      update(ref(db, pageName + "/"), {
-        subtitle: vsubtitle.innerHTML,
-      });
-    });
-
-    vbody.addEventListener("blur", function() {
-      update(ref(db, pageName + "/"), {
-        body: vbody.innerHTML,
-      });
-    });
+    // vsubtitle.addEventListener("blur", function() {
+    //   update(ref(db, pageName + "/"), {
+    //     subtitle: vsubtitle.innerHTML,
+    //   });
+    // });
+    //
+    // vbody.addEventListener("blur", function() {
+    //   update(ref(db, pageName + "/"), {
+    //     body: vbody.innerHTML,
+    //   });
+    // });
 
 
 
