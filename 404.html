@@ -82,14 +82,19 @@ layout: default
       });
 
       console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
-      if(vtitle.innerHTML == 'Error 404'){
+
+      // Get Title from Firebase or set it to gyanl.com/string.
+      if(gettitle == ''){
+        vtitle.innerHTML = gettitle;
+      }else {
         vtitle.innerHTML = pageName;
       }
+
+      // Get subtitle from Firebase or set it to string.
       if(getsubtitle == ''){
         vsubtitle.innerHTML = getsubtitle;
       }else {
         vsubtitle.innerHTML = "What is this page about?";
-
       }
       vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
     }
