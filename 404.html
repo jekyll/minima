@@ -72,17 +72,38 @@ layout: default
     function updateTitle(){
       firebase.database().ref(pageName + "/").update({
       title: htmlTitle.innerHTML;
-    }
+    }, function(error) {
+        if (error) {
+            console.log("Failed to vote Partly Fake...");
+        } else {
+            console.log("Voted Partly Fake :)");
+        }
+    });
 
     function updateSubitle(){
       firebase.database().ref(pageName + "/").update({
       subtitle: htmlSubtitle.innerHTML;
-    }
+    }, function(error) {
+        if (error) {
+            console.log("Failed to vote Partly Fake...");
+        } else {
+            console.log("Voted Partly Fake :)");
+        }
+    });
 
     function updateBody(){
       firebase.database().ref(pageName + "/").update({
       body: htmlBody.innerHTML;
-    }
+    }, function(error) {
+        if (error) {
+            console.log("Failed to vote Partly Fake...");
+        } else {
+            console.log("Voted Partly Fake :)");
+        }
+    });
+
+
+
 
     function renderPage(){
 
