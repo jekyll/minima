@@ -11,7 +11,7 @@ layout: default
           <span id="htmlTitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true">Error 404</span>
         </h1>
 
-        <div id="htmlSubtitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="sub-title">Page not Found</div><span class="post-meta">
+        <div id="htmlSubtitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="sub-title">What is this page about?</div><span class="post-meta">
 <span class="dt-published" datetime="2019-07-13T00:00:00+00:00" itemprop="datePublished">Last updated Sat, 13 Jul, 2019
 </span></span>
 
@@ -19,7 +19,7 @@ layout: default
 
       <div id="htmlBody" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="post-content e-content" itemprop="articleBody">
 
-        hello
+        There is nothing on this page right now. Maybe you should write something?
 
       </div>
     </article>
@@ -76,8 +76,6 @@ layout: default
         // If no snapshot, fill values and create record.
           console.log("Creating new record.");
           vtitle.innerHTML = pageName;
-          vsubtitle.innerHTML = "What is this page about?";
-          vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
 
     // Create new log
           set(ref(db, pageName + "/"), {
@@ -87,7 +85,6 @@ layout: default
           });
         }
       });
-
 
     function updateValues() {
       const updates = {};
@@ -99,6 +96,8 @@ layout: default
       update(ref(db), updates);
       console.log("Update sent");
     }
+
+    // Add event listeners
 
     vtitle.addEventListener("blur", updateValues);
     vsubtitle.addEventListener("blur", updateValues);
