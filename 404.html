@@ -75,9 +75,6 @@ layout: default
       onValue(starCountRef, (snapshot) => {
 
         // Debugging stuff
-
-        console.log("title = " + gettitle);
-
         console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
 
         // Get Title from Firebase or set it to gyanl.com/string.
@@ -102,9 +99,6 @@ layout: default
         }else{
             vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
         }
-
-
-
         // Get subtitle from Firebase or set it to string.
 
       });
