@@ -77,24 +77,26 @@ layout: default
         const getsubtitle = snapshot.val().subtitle;
         const getbody = snapshot.val().body;
         console.log("title = " + gettitle);
+
+        console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
+
+        // Get Title from Firebase or set it to gyanl.com/string.
+        if(gettitle == ''){
+          vtitle.innerHTML = gettitle;
+        }else {
+          vtitle.innerHTML = pageName;
+        }
+
+        // Get subtitle from Firebase or set it to string.
+        if(getsubtitle == ''){
+          vsubtitle.innerHTML = getsubtitle;
+        }else {
+          vsubtitle.innerHTML = "What is this page about?";
+        }
+        vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
       });
 
-      console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
 
-      // Get Title from Firebase or set it to gyanl.com/string.
-      if(gettitle == ''){
-        vtitle.innerHTML = gettitle;
-      }else {
-        vtitle.innerHTML = pageName;
-      }
-
-      // Get subtitle from Firebase or set it to string.
-      if(getsubtitle == ''){
-        vsubtitle.innerHTML = getsubtitle;
-      }else {
-        vsubtitle.innerHTML = "What is this page about?";
-      }
-      vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
     }
 
     renderPage();
