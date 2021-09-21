@@ -56,10 +56,37 @@ layout: default
     const analytics = getAnalytics(app);
     const db = getDatabase();
 
+    const reference = ref(db, pageName + '/');
 
     var vtitle = document.getElementById('htmlTitle');
     var vsubtitle = document.getElementById('htmlSubtitle');
     var vbody = document.getElementById('htmlBody');
+
+
+    // One time run
+      onValue(reference, (snapshot) => {
+
+    // If snapshot exists, get the values and populate the page.
+        if (snapshot.exists()) {
+          console.log(snapshot.val());
+          vtitle.innerHTML = snapshot.val().title;
+          vsubtitle.innerHTML = snapshot.val().subtitle;
+          vbody.innerHTML = snapshot.val().body;
+        } else {
+        // If no snapshot, fill values and create record.
+          console.log("Creating new record.");
+          vtitle.innerHTML = pageName;
+          vsubtitle.innerHTML = "What is this page about?";
+          vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
+
+    // Create new log
+          set(ref(db, pageName + "/"), {
+            title: vtitle.innerHTML,
+            subtitle: vsubtitle.innerHTML,
+            body : vbody.innerHTML
+          });
+        }
+      });
 
 
     function updateValues() {
@@ -75,37 +102,5 @@ layout: default
     vtitle.addEventListener("blur", updateValues());
     vsubtitle.addEventListener("blur", updateValues());
     vbody.addEventListener("blur", updateValues());
-
-
-    function renderPage(){
-
-      const starCountRef = ref(db, pageName + '/');
-      onValue(starCountRef, (snapshot) => {
-
-        // If snapshot exists, get the values and populate the page.
-        if (snapshot.exists()) {
-          console.log(snapshot.val());
-          vtitle.innerHTML = snapshot.val().title;
-          vsubtitle.innerHTML = snapshot.val().subtitle;
-          vbody.innerHTML = snapshot.val().body;
-        } else {
-        // If no snapshot, fill values and create record.
-          console.log("Creating new record.");
-          vtitle.innerHTML = pageName;
-          vsubtitle.innerHTML = "What is this page about?";
-          vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
-
-          // Create new log
-          set(ref(db, pageName + "/"), {
-            title: vtitle.innerHTML,
-            subtitle: vsubtitle.innerHTML,
-            body : vbody.innerHTML
-          });
-        }
-      });
-
-
-    }
-    renderPage();
 
     </script>
