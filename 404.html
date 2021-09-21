@@ -64,7 +64,7 @@ layout: default
 
     vtitle.addEventListener("blur", function() {
       const updates = {};
-      updates[pageName + "/"] = {title: vtitle.innerHTML};
+      updates[pageName + "/title"] = {vtitle.innerHTML};
       update(ref(db), updates);
     });
 
