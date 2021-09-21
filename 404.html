@@ -25,9 +25,55 @@ layout: default
   <p>The requested page could not be found.</p>
 </div>
 
-<<script type="text/javascript">
 
-  console.log(location.pathname.substring(location.pathname.lastIndexOf("/") + 1));
+<script type="module">
 
 
-</script>
+// Get pageName = gyanl.com/string
+
+var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+console.log(pageName);
+
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCLkh1I6haUU51EslRGSlXkXiYqOkvcCKA",
+  authDomain: "idea-cbd6c.firebaseapp.com",
+  databaseURL: "https://idea-cbd6c-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "idea-cbd6c",
+  storageBucket: "idea-cbd6c.appspot.com",
+  messagingSenderId: "965624401030",
+  appId: "1:965624401030:web:accca7b65fddd344591507",
+  measurementId: "G-CVF81V77DF"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
+
+
+const database = getDatabase();
+
+      function writeUserData(name, email, imageUrl) {
+        firebase.database().ref('posts/' + pageName).set({
+          username: "name",
+          email: "email",
+          profile_picture : "imageUrl"
+        });
+      }
+
+      writeUserData("a","b","c");
+
+    </script>
