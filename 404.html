@@ -4,26 +4,33 @@ layout: default
 
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
 
-<div class="container">
-  <h1 id="htmlTitle">404</h1>
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <p><strong id="htmlSubtitle">Page not found :(</strong></p>
-  <p id="htmlBody">The requested page could not be found.</p>
-</div>
+      <header class="post-header">
+        <h1 id="title" class="post-title p-name" itemprop="name headline">
+          <span id="htmlTitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" onblur="setSummary();this.classList.remove('comment-box')" contenteditable="true" class="">
+            Error 404
+          </span>
+        </h1>
+
+        <div id="htmlSubtitle" class="sub-title">Page not Found</div><span class="post-meta">
+<span class="dt-published" datetime="2019-07-13T00:00:00+00:00" itemprop="datePublished">Last updated Sat, 13 Jul, 2019
+</span></span>
+
+      </header>
+
+      <div id="htmlBody" class="post-content e-content" itemprop="articleBody">
+
+        hello
+
+      </div>
+    </article>
+
+  </div>
+</main>
 
 
 <script type="module">
