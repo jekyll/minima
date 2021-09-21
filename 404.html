@@ -75,8 +75,8 @@ layout: default
       onValue(starCountRef, (snapshot) => {
 
         // Debugging stuff
-        console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
-
+        console.log(snapshot.val())
+        
         // Get Title from Firebase or set it to gyanl.com/string.
 
         if (snapshot.val().title){
