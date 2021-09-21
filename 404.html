@@ -62,15 +62,14 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 
-function writeUserData(name, email, imageUrl) {
+function writeUserData(title, subtitle, body) {
   const db = getDatabase();
-  set(ref(db, 'posts/' + pageName), {
-    username: name,
-    email: email,
-    profile_picture : imageUrl
+  set(ref(db, pageName + "/"), {
+    title: title,
+    subtitle: subtitle,
+    body : body
   });
 }
-
 
 writeUserData("a","b","c");
 
