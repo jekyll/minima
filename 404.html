@@ -36,7 +36,7 @@ layout: default
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
-    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
+    import { getDatabase, ref, set, child, get, onValue } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
     // TODO: Add SDKs for Firebase products that you want to use
     // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -56,7 +56,7 @@ layout: default
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-
+    const db = getDatabase();
 
 
     var vtitle = document.getElementById('htmlTitle');
@@ -64,7 +64,6 @@ layout: default
     var vbody = document.getElementById('htmlBody');
 
     function saveThisPage() {
-      const db = getDatabase();
       set(ref(db, pageName + "/"), {
         title: vtitle.innerHTML,
         subtitle: vsubtitle.innerHTML,
@@ -73,11 +72,25 @@ layout: default
     }
 
     function renderPage(){
-      console.log("x" + vtitle.innerHTML + "x");
+
+      const starCountRef = ref(db, pagename + '/');
+      onValue(starCountRef, (snapshot) => {
+        const gettitle = snapshot.title.val();
+        const getsubtitle = snapshot.subtitle.val();
+        const getbody = snapshot.body.val();
+        console.log("title = " + gettitle);
+      });
+
+      console.log("title ka innerhtml = x" + vtitle.innerHTML + "x");
       if(vtitle.innerHTML == 'Error 404'){
         vtitle.innerHTML = pageName;
       }
-      vsubtitle.innerHTML = "What is this page about?";
+      if(getsubtitle == ''){
+        vsubtitle.innerHTML = getsubtitle;
+      }else {
+        vsubtitle.innerHTML = "What is this page about?";
+
+      }
       vbody.innerHTML = "There is nothing on this page right now. Maybe you should write something?";
     }
 
