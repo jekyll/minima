@@ -8,16 +8,16 @@ layout: default
 
       <header class="post-header">
         <h1 id="title" class="post-title p-name" itemprop="name headline">
-          <span id="htmlTitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true">Error 404</span>
+          <span id="htmlTitle" onclick="this.contentEditable = 'true'; contenteditable="true">Error 404</span>
         </h1>
 
-        <div id="htmlSubtitle" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="sub-title">What is this page about?</div><span class="post-meta">
+        <div id="htmlSubtitle" onclick="this.contentEditable = 'true'; contenteditable="true" class="sub-title">What is this page about?</div><span class="post-meta">
 <span class="dt-published" datetime="2019-07-13T00:00:00+00:00" itemprop="datePublished">Last updated Tue, 21 Sept, 2021
 </span></span>
 
       </header>
 
-      <div id="htmlBody" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="post-content e-content element" itemprop="articleBody">
+      <div id="htmlBody" onclick="this.contentEditable = 'true'; contenteditable="true" class="post-content e-content" itemprop="articleBody">
 
         There is nothing on this page right now. Maybe you should write something?
 
@@ -28,19 +28,59 @@ layout: default
 
 
 
-    <script type="module">
+    <script src="https://unpkg.com/pell"></script>
 
-      // Get TipTap editor from CDN
+    <script type="text/javascript">
 
-      import { Editor } from 'https://cdn.skypack.dev/@tiptap/core?min'
-      import StarterKit from 'https://cdn.skypack.dev/@tiptap/starter-kit?min'
-      const editor = new Editor({
-        element: document.querySelector('.element'),
-        extensions: [
-          StarterKit,
-        ],
-        content: '<p>Hello World!</p>',
-      })
+      // Initialize pell on an HTMLElement
+  pell.init({
+    // <HTMLElement>, required
+    element: document.getElementById('htmlBody'),
+
+    // <Function>, required
+    // Use the output html, triggered by element's `oninput` event
+    onChange: html => console.log(html),
+
+    // <string>, optional, default = 'div'
+    // Instructs the editor which element to inject via the return key
+    defaultParagraphSeparator: 'div',
+
+    // <boolean>, optional, default = false
+    // Outputs <span style="font-weight: bold;"></span> instead of <b></b>
+    styleWithCSS: false,
+
+    // <Array[string | Object]>, string if overwriting, object if customizing/creating
+    // action.name<string> (only required if overwriting)
+    // action.icon<string> (optional if overwriting, required if custom action)
+    // action.title<string> (optional)
+    // action.result<Function> (required)
+    // Specify the actions you specifically want (in order)
+    actions: [
+      'bold',
+      {
+        name: 'custom',
+        icon: 'C',
+        title: 'Custom Action',
+        result: () => console.log('Do something!')
+      },
+      'underline'
+    ],
+
+    // classes<Array[string]> (optional)
+    // Choose your custom class names
+    classes: {
+      actionbar: 'pell-actionbar',
+      button: 'pell-button',
+      content: 'pell-content',
+      selected: 'pell-button-selected'
+    }
+  })
+
+  // Execute a document command, see reference:
+  // https://developer.mozilla.org/en/docs/Web/API/Document/execCommand
+  // this is just `document.execCommand(command, false, value)`
+  pell.exec(command<string>, value<string>)
+
     </script>
 
     <script type="module">
