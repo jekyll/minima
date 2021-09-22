@@ -115,9 +115,9 @@ layout: default
     var vtitle = document.getElementById('htmlTitle');
     var vsubtitle = document.getElementById('htmlSubtitle');
     var vbody = document.getElementsByClassName("pell-content")[0];
-    
-    var actionbar = document.getElementsByClassName("pell-actionbar")[0];
 
+    var actionbar = document.getElementsByClassName("pell-actionbar")[0];
+    toggleActionBar();
 
     // One time run
       onValue(reference, (snapshot) => {
