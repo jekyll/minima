@@ -135,6 +135,8 @@ layout: default
         // If no snapshot, fill values and create record.
           console.log("Creating new record.");
           vtitle.innerHTML = pageName;
+          vbody.innerHTML = "Write something epic.";
+          vbody.innerHTML.style.opacity = "0.5";
 
     // Create new log
           set(ref(db, pageName + "/"), {
@@ -159,6 +161,7 @@ layout: default
 
     function showActionBar() {
         actionbar.classList.remove("hidden");
+        vbody.innerHTML.style.opacity = "1.0";
     }
 
     function hideActionBar() {
