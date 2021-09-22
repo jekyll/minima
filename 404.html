@@ -67,25 +67,25 @@ layout: default
       name: 'heading3',
       icon: 'H3',
       title: 'Heading3',
-      result: () => pell.exec(heading, H3)
+      result: () => pell.exec(formatBlock, '<h3>')
     },
     {
       name: 'heading4',
       icon: 'H4',
       title: 'Heading4',
-      result: () => pell.exec(heading, H4)
+      result: () => pell.exec(formatBlock, '<h4>')
     },
     {
       name: 'heading5',
       icon: 'H5',
       title: 'Heading5',
-      result: () => pell.exec(heading, H5)
+      result: () => pell.exec(formatBlock, '<h5>')
     },
     {
     name: 'heading6',
     icon: 'H6',
     title: 'Heading6',
-    result: () => pell.exec(heading, H6)
+    result: () => pell.exec(formatBlock, '<h6>')
     }
     ],
 
@@ -178,7 +178,7 @@ layout: default
       toggleActionBar();
     }
 
-    function toggleActionBar{
+    function toggleActionBar() {
       actionbar.classList.toggle("hidden");
     }
 
