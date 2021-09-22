@@ -6,15 +6,19 @@
   border: 0px;
   background: none;
   border-right: 1px solid #eee;
-  margin-right: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .pell-button:last-of-type {
-
+  border-right: none;
 }
 
 .pell-actionbar{
   border: 1px solid #eee;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 2px 4px 4px 4px;
 }
 
 .hidden{
