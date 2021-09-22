@@ -24,6 +24,10 @@ layout: default
         Tap on text to edit, tap anywhere else to save.
 
       </div>
+
+      <div id="pelljs">
+
+      </div>
     </article>
 
 
@@ -35,7 +39,7 @@ layout: default
       // Initialize pell on an HTMLElement
   pell.init({
     // <HTMLElement>, required
-    element: document.getElementById('htmlBody'),
+    element: document.getElementById('pelljs'),
 
     // <Function>, required
     // Use the output html, triggered by element's `oninput` event
@@ -57,13 +61,12 @@ layout: default
     // Specify the actions you specifically want (in order)
     actions: [
       'bold',
-      {
-        name: 'custom',
-        icon: 'C',
-        title: 'Custom Action',
-        result: () => console.log('Do something!')
-      },
-      'underline'
+      'italic',
+      'underline',
+      'heading1',
+      'heading2',
+      'olist',
+      'ulist'
     ],
 
     // classes<Array[string]> (optional)
