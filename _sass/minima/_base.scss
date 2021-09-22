@@ -35,9 +35,11 @@ sup{
  */
 input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+[contenteditable] {
   outline: none;
 }
+
 /**
  * Basic styling
  */
