@@ -109,14 +109,14 @@ var defaultActions = {
     }
   },
   olist: {
-    icon: '&bull;',
+    icon: '1.',
     title: 'Ordered List',
     result: function result() {
       return exec('insertOrderedList');
     }
   },
   ulist: {
-    icon: '1.',
+    icon: '&bull;',
     title: 'Unordered List',
     result: function result() {
       return exec('insertUnorderedList');
