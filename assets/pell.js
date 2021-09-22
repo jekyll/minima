@@ -51,7 +51,7 @@ var defaultActions = {
     }
   },
   underline: {
-    icon: '<u>U</u>',
+    icon: 'U',
     title: 'Underline',
     state: function state() {
       return queryCommandState('underline');
@@ -71,36 +71,31 @@ var defaultActions = {
     }
   },
   heading1: {
-    icon: '<b>H1</b>',
+    icon: 'H1',
     title: 'Heading 1',
     result: function result() {
       return exec(formatBlock, '<h1>');
     }
   },
   heading2: {
-    icon: '<b>H2</b>',
+    icon: 'H2',
     title: 'Heading 2',
     result: function result() {
       return exec(formatBlock, '<h2>');
     }
   },
   heading3: {
-    icon: '<b>H3</b>',
+    icon: 'H3',
     title: 'Heading 3',
     result: () => exec(formatBlock, '<h3>')
   },
   heading4: {
-    icon: '<b>H4</b>',
+    icon: 'H4',
     title: 'Heading 4',
     result: () => exec(formatBlock, '<h4>')
   },
-  heading5: {
-    icon: '<b>H5</b>',
-    title: 'Heading 5',
-    result: () => exec(formatBlock, '<h5>')
-  },
   paragraph: {
-    icon: '&#182;',
+    icon: 'P',
     title: 'Paragraph',
     result: function result() {
       return exec(formatBlock, '<p>');
@@ -114,14 +109,14 @@ var defaultActions = {
     }
   },
   olist: {
-    icon: '&#35;',
+    icon: '&bull;',
     title: 'Ordered List',
     result: function result() {
       return exec('insertOrderedList');
     }
   },
   ulist: {
-    icon: '&#8226;',
+    icon: '1.',
     title: 'Unordered List',
     result: function result() {
       return exec('insertUnorderedList');
