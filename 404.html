@@ -29,6 +29,8 @@ layout: default
 
     <script type="text/javascript">
 
+      var actionbar = document.getElementsByClassName("pell-actionbar")[0];
+
       // Initialize pell on an HTMLElement
   pell.init({
     // <HTMLElement>, required
@@ -173,6 +175,11 @@ layout: default
       };
       update(ref(db), updates);
       console.log("Update sent");
+      toggleActionBar();
+    }
+
+    function toggleActionBar{
+      actionbar.classList.toggle("hidden");
     }
 
     // Add event listeners
@@ -180,5 +187,6 @@ layout: default
     vtitle.addEventListener("blur", updateValues);
     vsubtitle.addEventListener("blur", updateValues);
     vbody.addEventListener("blur", updateValues);
+    vbody.addEventListener("click", toggleActionBar);
 
     </script>
