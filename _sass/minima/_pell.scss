@@ -1,21 +1,21 @@
 //CSS for Pell stuff
 
 .pell-button{
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 20px;
+  border: 0px;
+  background: none;
+  border-right: 1px solid #eee;
+  margin-right: 5px;
 }
 
-// .pell-actionbar{
-//   opacity: 100%;
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   width: 100%;
-//   overflow: auto;
-//   white-space: nowrap;
-//   transition: .2s;
-// }
+.pell-button:last-of-type {
+
+}
+
+.pell-actionbar{
+  border: 1px solid #eee;
+}
 
 .hidden{
   opacity: 0;
