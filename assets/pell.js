@@ -34,14 +34,29 @@ const defaultActions = {
     result: () => exec('strikeThrough')
   },
   heading1: {
-    icon: '<b>H<sub>1</sub></b>',
+    icon: '<b>H1</b>',
     title: 'Heading 1',
     result: () => exec(formatBlock, '<h1>')
   },
   heading2: {
-    icon: '<b>H<sub>2</sub></b>',
+    icon: '<b>H2</b>',
     title: 'Heading 2',
     result: () => exec(formatBlock, '<h2>')
+  },
+  heading3: {
+    icon: '<b>H3</b>',
+    title: 'Heading 3',
+    result: () => exec(formatBlock, '<h3>')
+  },
+  heading4: {
+    icon: '<b>H4</b>',
+    title: 'Heading 4',
+    result: () => exec(formatBlock, '<h4>')
+  },
+  heading5: {
+    icon: '<b>H5</b>',
+    title: 'Heading 5',
+    result: () => exec(formatBlock, '<h5>')
   },
   paragraph: {
     icon: '&#182;',
