@@ -17,7 +17,7 @@ layout: default
 
       </header>
 
-      <div id="htmlBody" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="post-content e-content" itemprop="articleBody">
+      <div id="htmlBody" onclick="this.contentEditable = 'true'; this.classList.add('comment-box')" this.classList.remove('comment-box')" contenteditable="true" class="post-content e-content element" itemprop="articleBody">
 
         There is nothing on this page right now. Maybe you should write something?
 
@@ -25,6 +25,23 @@ layout: default
 
       </div>
     </article>
+
+
+
+    <script type="module">
+
+      // Get TipTap editor from CDN
+
+      import { Editor } from 'https://cdn.skypack.dev/@tiptap/core?min'
+      import StarterKit from 'https://cdn.skypack.dev/@tiptap/starter-kit?min'
+      const editor = new Editor({
+        element: document.querySelector('.element'),
+        extensions: [
+          StarterKit,
+        ],
+        content: '<p>Hello World!</p>',
+      })
+    </script>
 
     <script type="module">
 
