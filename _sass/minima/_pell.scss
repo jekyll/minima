@@ -1,13 +1,13 @@
 //CSS for Pell stuff
 
 .pell-button{
-  width: 40px;
+  width: 36px;
   height: 20px;
   border: 0px;
   background: none;
   border-right: 1px solid #eee;
-  padding-right: 8px;
-  padding-left: 8px;
+  padding-right: 6px;
+  padding-left: 6px;
   color: var(--text-color);
   font-size: 1.2em;
 }
@@ -20,7 +20,7 @@
   border: 1px solid #eee;
   width: fit-content;
   border-radius: 4px;
-  padding: 2px 4px 4px 4px;
+  padding: 5px 4px 4px 4px;
   box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.05);
   -webkit-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.05);
   -moz-box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.05);
