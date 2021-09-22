@@ -117,7 +117,7 @@ layout: default
     var vbody = document.getElementsByClassName("pell-content")[0];
 
     var actionbar = document.getElementsByClassName("pell-actionbar")[0];
-    toggleActionBar();
+    hideActionBar();
 
     // One time run
       onValue(reference, (snapshot) => {
@@ -151,11 +151,15 @@ layout: default
       };
       update(ref(db), updates);
       console.log("Update sent");
-      toggleActionBar();
+      hideActionBar();
     }
 
-    function toggleActionBar() {
-      actionbar.classList.toggle("hidden");
+    function showActionBar() {
+      actionbar.classList.add("hidden");
+    }
+
+    function hideActionBar() {
+      actionbar.classList.remove("hidden");
     }
 
     // Add event listeners
@@ -163,6 +167,6 @@ layout: default
     vtitle.addEventListener("blur", updateValues);
     vsubtitle.addEventListener("blur", updateValues);
     vbody.addEventListener("blur", updateValues);
-    vbody.addEventListener("click", toggleActionBar);
+    vbody.addEventListener("focus", showActionBar);
 
     </script>

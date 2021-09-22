@@ -20,9 +20,12 @@
   width: fit-content;
   border-radius: 4px;
   padding: 2px 4px 4px 4px;
+  box-shadow: 1px 1px 8px 4px rgba(0,0,0,0.14);
+  -webkit-box-shadow: 1px 1px 8px 4px rgba(0,0,0,0.14);
+  -moz-box-shadow: 1px 1px 8px 4px rgba(0,0,0,0.14);
 }
 
 .hidden{
   opacity: 0;
-  display: none !important;
+  transform: translateY(2px);
 }
