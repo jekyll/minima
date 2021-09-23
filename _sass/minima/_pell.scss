@@ -30,3 +30,16 @@
   opacity: 0;
   height: 0px;
 }
+
+li.todo::marker {
+  color: var(--text-color-light);
+}
+
+li.todo.done{
+  text-decoration: line-through;
+  opacity: .75;
+}
+
+li.todo.done::marker{
+  color: green;
+}
