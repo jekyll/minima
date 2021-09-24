@@ -31,15 +31,34 @@
   height: 0px;
 }
 
-li.todo::marker {
-  color: var(--text-color-light);
+// Counter style at-rule
+@counter-style red-circle {
+  system: cyclic;
+  symbols: "\2B55"; // unicode code point
+  suffix: " ";
 }
 
+// Counter style at-rule
+@counter-style green-circle {
+  system: cyclic;
+  symbols: "\1F7E2"; // unicode code point
+  suffix: " ";
+}
+
+li.todo{
+  list-style-type: red-circle;
+}
+
+// li.todo::marker {
+//   color: var(--text-color-light);
+// }
+
 li.todo.done{
+  list-style-type: green-circle;
   text-decoration: line-through;
   opacity: .75;
 }
 
-li.todo.done::marker{
-  color: green;
-}
+// li.todo.done::marker{
+//   color: green;
+// }
