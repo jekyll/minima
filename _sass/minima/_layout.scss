@@ -39,12 +39,17 @@ html {
  * Site header
  */
 .site-header {
+  position: fixed;
+  right: 0;
+  left: 0;
   min-height: 60px;
   line-height: 60px;
   background: var(--overlay-color);
+  backdrop-filter: blur(10px);
   // border-bottom: 1px solid darken($text-color-darker, 32%);
   // Positioning context for the mobile navigation icon
   position: relative;
+  z-index: 10;
 }
 
 .site-title {
