@@ -1,4 +1,4 @@
 ---
 layout: post
 ---
-Welcome to my page, where i aspire to make a post every single week about something that tickles my mind. Mostly about cybersecurity or compiling my own kernel,only time will tell :) 
+Welcome to my page, where I aspire to make a post every single week(abmitious, I know, but where's the fun if the goals are realistic?) about something that intrigues my mind. Mostly about anythign and everything I may have learnt in cybersec, CTF experiences and writeups for the same(a lot of these), HTB/THM challenges and box writeups(don't worry, they're all going to be retired :)), Java microservices or React state management concepts, kernel compilation or ricing, CCNA and OSCP(in the future) prep experience or learnings - You might be thinking, "All right wazza, stop with the list already", yeah I'm done, I'm just giving you a precursor of things to come :)
