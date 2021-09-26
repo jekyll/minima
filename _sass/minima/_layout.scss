@@ -46,6 +46,7 @@ html {
   line-height: 60px;
   background: var(--overlay-color);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   // border-bottom: 1px solid darken($text-color-darker, 32%);
   // Positioning context for the mobile navigation icon
   z-index: 10;
