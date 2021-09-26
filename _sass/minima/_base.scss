@@ -57,6 +57,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  mar
 }
 
 .tag {
@@ -105,6 +106,8 @@ a:visited.tag:hover {
  */
 main {
   display: block;
+  // Some padding to avoid sticky header issue.
+  margin-top: 40px;
   /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 /**
