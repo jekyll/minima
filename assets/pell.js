@@ -122,6 +122,13 @@ var defaultActions = {
       return exec('insertUnorderedList');
     }
   },
+	todo: {
+		icon: '\2B55',
+		title: 'Todo',
+		result: function result() {
+			return exec(insertHTML, "<ul><li class='todo' ondblclick='this.classList.toggle('done')'></li></ul>");
+		}
+	},
   code: {
     icon: '&lt;/&gt;',
     title: 'Code',
@@ -153,6 +160,8 @@ var defaultActions = {
     }
   }
 };
+
+// insertHTML
 
 var defaultClasses = {
   actionbar: 'pell-actionbar',
