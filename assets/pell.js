@@ -123,7 +123,7 @@ var defaultActions = {
     }
   },
 	todo: {
-		icon: '\2B55',
+		icon: '&#11093;',
 		title: 'Todo',
 		result: function result() {
 			return exec(insertHTML, "<ul><li class='todo' ondblclick='this.classList.toggle('done')'></li></ul>");
