@@ -126,7 +126,7 @@ var defaultActions = {
 		icon: '&#11093;',
 		title: 'Todo',
 		result: function result() {
-			return exec(insertHTML, '<ul><li class='todo' ondblclick='this.classList.toggle('done')'>todo</li></ul>');
+			return exec(insertHTML, 'yolo');
 		}
 	},
   code: {
