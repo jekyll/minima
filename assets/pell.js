@@ -128,7 +128,7 @@ var defaultActions = {
 		result: function result() {
 			var mybody = document.getElementsByClassName("pell-content")[0];
 			var done = "'done'";
-			var todohtml = '<ul><li class="todo" ondblclick="this.classList.toggle(' + done + ')">todo</li></ul>';
+			var todohtml = '<h3>Todo</h3><ul><li class="todo" ondblclick="this.classList.toggle(' + done + ')">Task</li><li class="todo" ondblclick="this.classList.toggle(' + done + ')">Task</li></ul>';
 			return exec(mybody.insertAdjacentHTML('beforeend', todohtml));
 		}
 	},
