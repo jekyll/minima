@@ -126,7 +126,7 @@ var defaultActions = {
 		icon: '&#11093;',
 		title: 'Todo',
 		result: function result() {
-			return exec(insertHTML, 'yolo');
+			return exec(document.getElementById('htmlBody').insertAdjacentHTML('beforeend', yolo));
 		}
 	},
   code: {
