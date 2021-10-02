@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Musings of a nerd
 
 show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: <!--more-->
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -47,8 +48,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# header_pages:
+#  - about.md
 
 # Build settings
 theme: minima
