@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Welcome to wazza's blog, an amalgamation of everything tech related with a strong focus on writeups and articles on cybersecurity.
