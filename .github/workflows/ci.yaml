@@ -1,0 +1,21 @@
+name: "Build"
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        jekyll: ["~> 3.9", "~> 4.2"]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+      - name: 'Install dependencies'
+        run: bundle install
+        env: 
+          JEKYLL_VERSION: ${{ matrix.jekyll }}
+      - name: 'Run tests'
+        run: script/cibuild
+        env: 
+          JEKYLL_VERSION: ${{ matrix.jekyll }}
