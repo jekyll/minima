@@ -57,6 +57,7 @@
   * [chore] Normalize Travis CI builds (#480)
   * chore(deps): bump Ruby version (#510)
   * Conditionally load GFM-parser gem in CI builds (#535)
+  * Improve CI workflow configuration (#609)
 
 ## 2.5.1
 
