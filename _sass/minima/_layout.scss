@@ -10,7 +10,8 @@ html {
   --accent-color: #0016D8;
   --accent-color-light: rgb(0 22 216 / 10%);
 
-  --overlay-color: rgba(0, 0, 100, .04);
+  --overlay-color: rgba(255, 255, 255, .5);
+  --overlay-edge-color: rgba(0, 0, 0, .25);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +27,8 @@ html {
     --accent-color: #ff4343;
     --accent-color-light: #ff78781a;
 
-  --overlay-color: rgba(150, 255, 255, .04);
+    --overlay-color: rgba(150, 255, 255, .04);
+    --overlay-edge-color: rgba(255, 255, 255, .25);
 
 	}
 }
@@ -45,6 +47,7 @@ html {
   min-height: 60px;
   line-height: 60px;
   background: var(--overlay-color);
+  border-bottom: 1px solid var(--overlay-edge-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   // border-bottom: 1px solid darken($text-color-darker, 32%);
@@ -169,6 +172,7 @@ html {
   // border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   background: var(--overlay-color);
+  border-top: 1px solid var(--overlay-edge-color);
   color: var(--text-color-light);
 }
 
