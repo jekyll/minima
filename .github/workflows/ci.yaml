@@ -16,8 +16,10 @@ jobs:
     env:
       JEKYLL_VERSION: ${{ matrix.jekyll }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Set Up Ruby 2.5
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.5
           bundler-cache: true
