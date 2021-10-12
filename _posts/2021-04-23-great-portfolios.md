@@ -62,5 +62,6 @@ A whimsical portfolio site that evokes a sense of tech nostalgia with bitmap fon
 This site looks almost confusingly minimal till you hit the command icon and realise you can find everything from there. Not sure I would recommend this approach as the only way to find content on your site, but I did find it cool.
 
 4. <https://www.sid.today/>
-Siddharth Jha's website is a public to-do list. Also: check out the wavy hover animation for links!
-I really like the idea of public-by-default sites (you can see the mess of partly written thoughts I have at <https://gyanl.com/archive/>) and I hope this becomes more common. It's cool to see things in progress.
+Siddharth Jha's is a design engineer, and his website showcases some really neat touches that only happen when you are a designer who can code. Check out the cool animation on the home page, and slick hover states for links!
+
+I also really like the idea of public-by-default sites (you can see the mess of partly written thoughts I have at <https://gyanl.com/archive/>) and I hope this becomes more common. It's cool to see more raw, in-progress writing on the internet. [Siddharth writes about this here.](https://www.siddharthjha.com/blog/what-blogs-used-to-be-like)
