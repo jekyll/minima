@@ -24,9 +24,9 @@ I use this theme in my Jekyll sites where I collect and write content around cod
 
 See these links for a demo of how this theme works in one of those sites, have over 100 pages and a few nesting levels.
 
-- [![MichaelCurrin - dev-cheatsheets](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-cheatsheets&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-cheatsheets)
-- [![MichaelCurrin - code-cookbook](https://img.shields.io/static/v1?label=MichaelCurrin&message=code-cookbook&color=blue&logo=github)](https://github.com/MichaelCurrin/code-cookbook)
-- [![MichaelCurrin - dev-resources](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-resources&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-resources)
+- [![MichaelCurrin - dev-cheatsheets](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-cheatsheets&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-cheatsheets) 📑
+- [![MichaelCurrin - code-cookbook](https://img.shields.io/static/v1?label=MichaelCurrin&message=code-cookbook&color=blue&logo=github)](https://github.com/MichaelCurrin/code-cookbook) 🧑‍🍳
+- [![MichaelCurrin - dev-resources](https://img.shields.io/static/v1?label=MichaelCurrin&message=dev-resources&color=blue&logo=github)](https://github.com/MichaelCurrin/dev-resources) 🔗
 
 
 ## Contents
