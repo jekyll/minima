@@ -10,6 +10,6 @@ Most people don’t care about fonts. To them, a font is a utilitarian thing—i
 
 Some fonts make it into the cultural zeitgeist—like when [Ryan Gosling got really mad about the poster for Avatar using the Papyrus font](https://www.youtube.com/watch?v=jVhlJNJopOQ). These moments can be fun, but people on the whole tend to not think about any given font for too long. Except perhaps Comic Sans, which has been in the unenviable position of being a joke in the public eye.
 
-![None of these fonts are actually Comic Sans, but they were all influenced by it. Chalkboard is a macOS lookalike, Lettuce Party is a font I made and Comic Neue is a Kickstarter funded reimagining of the original.](https://gyanl.com/assets/comic-esque.png)
-###### None of these fonts are actually Comic Sans, but they were all influenced by it. Chalkboard is a macOS lookalike, Lettuce Party is a font I made and Comic Neue is a Kickstarter funded reimagining of the original.
+![None of these fonts are actually Comic Sans, but they were all influenced by it. Chalkboard is a macOS lookalike, Lettuce Party is a font I made, and Comic Neue is a Kickstarter funded reimagining of the original.](https://gyanl.com/assets/comic-esque.png)
+###### None of these fonts are actually Comic Sans, but they were all influenced by it. Chalkboard is a macOS lookalike, Lettuce Party is a font I made, and Comic Neue is a Kickstarter funded reimagining of the original.
 
