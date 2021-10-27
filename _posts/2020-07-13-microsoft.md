@@ -1,12 +1,15 @@
 ---
 layout: post
 title: UX Design at Microsoft
-subtitle: Starting a new job at Microsoft Noida while working from home.
+subtitle: Starting my first full time job in the pandemic and working on voice experiences.
 tags: work
 thumbnail: https://gyanl.com/assets/thumbs/microsoft.png
 ---
 
-I started my first job as a UX Designer at Microsoft soon after finishing my Master's degree in Interaction Design at IDC School of Design, IIT Bombay.
+I started my first job as a UX Designer at Microsoft soon after finishing my Master's degree in Interaction Design at IDC School of Design, IIT Bombay. I joined the Canvas Voice team in Noida, which worked on experiences like Dictation, Transcription, Read Aloud and Voice Search across Microsoft apps like Word, Outlook and OneNote.
+
+![Voice @ Microsoft](https://gyanl.com/assets/ms-voice.png)
+###### Voice @ Microsoft
 
 # How did I get here?
 
