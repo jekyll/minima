@@ -47,4 +47,4 @@ Lorem ipsum dolor set amet.
 
 
 ### References
-[^1]: Ellis-Peterson, H, (17 December 2019). "India protests: students condemn 'barbaric' police" [The Guardian](https://www.theguardian.com/world/2019/dec/17/india-protests-students-condemn-barbaric-police)
+1. [^1]: Ellis-Peterson, H, (17 December 2019). "India protests: students condemn 'barbaric' police" [The Guardian](https://www.theguardian.com/world/2019/dec/17/india-protests-students-condemn-barbaric-police)
