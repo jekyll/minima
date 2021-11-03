@@ -74,6 +74,12 @@ html {
 .mobile-only {
   display: none;
 }
+
+@media screen and (max-width: $on-palm) {
+  .mobile-only {
+    display: flex;
+  }
+}
 /**
  * Site header
  */
@@ -164,15 +170,7 @@ html {
     }
     margin-left: 20px;
   }
-  @media screen and (max-width: $on-palm) {
-    .desktop-only {
-      display: none;
-    }
 
-    .mobile-only {
-      display: flex;
-    }
-  }
   @media screen and (min-width: $on-medium) {
     position: static;
     float: right;
