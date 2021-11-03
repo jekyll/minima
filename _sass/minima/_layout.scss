@@ -79,6 +79,10 @@ html {
   .mobile-only {
     display: flex;
   }
+
+  .desktop-only {
+    display: none;
+  }
 }
 /**
  * Site header
