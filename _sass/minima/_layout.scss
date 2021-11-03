@@ -39,7 +39,11 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  border-top: 1px solid #C6C6C8;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: var(--overlay-color);
+  border-top: 1px solid var(--overlay-edge-color);
+  color: var(--text-color-light);
 }
 
 .tab{
@@ -60,7 +64,6 @@ html {
 }
 
 .tab-text{
-  font-family: Inter;
   font-weight: 600;
   font-size: 10px;
   text-align: center;
