@@ -102,6 +102,11 @@ html {
   z-index: 10;
 }
 
+@media screen and (max-width: $on-palm) {
+  .site-header {
+    position: relative;
+  }
+}
 .site-title {
   color: var(--text-color-dark);
   @include relative-font-size(1.25);
