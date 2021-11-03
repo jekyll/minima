@@ -33,6 +33,28 @@ html {
 	}
 }
 
+.tabswitcher{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tab{
+  width: 25%;
+}
+
+.tab-img{
+  height: 32px;
+  width: 32px;
+}
+
+.tab-text{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
 
 .mobile-only {
   display: none;
