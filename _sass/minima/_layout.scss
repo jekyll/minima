@@ -54,6 +54,11 @@ html {
   align-self: center;
 }
 
+.tab-img-inactive{
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
 .tab-text{
   font-family: Inter;
   font-weight: 600;
