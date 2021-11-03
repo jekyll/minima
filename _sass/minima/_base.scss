@@ -109,6 +109,16 @@ main {
   margin-top: 60px;
   /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
+
+@media screen and (max-width: $on-palm) {
+
+main {
+  margin-top: 20px;
+  /* Lesser top margin on mobile */
+}
+
+}
+
 /**
  * Images
  */
