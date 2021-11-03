@@ -34,25 +34,28 @@ html {
 }
 
 .tabswitcher{
-  position: absolute;
+  display: flex;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
 .tab{
-  width: 25%;
+display: flex;
+flex-direction: column;
 }
 
 .tab-img{
   height: 32px;
   width: 32px;
+  align-self: center;
 }
 
 .tab-text{
   font-family: Inter;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
 }
 
