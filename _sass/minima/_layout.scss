@@ -162,7 +162,7 @@ html {
     }
     margin-left: 20px;
   }
-  @media screen and (min-width: $on-palm) {
+  @media screen and (max-width: $on-palm) {
     .desktop-only {
       display: none;
     }
