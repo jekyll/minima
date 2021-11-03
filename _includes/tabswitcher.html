@@ -1,0 +1,46 @@
+<script type="text/javascript">
+
+  var pageName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+  console.log(pageName);
+  
+  if (pageName == "about" || pageName == "about.html"){
+    document.getElementById('tabimg2').classList.remove('tab-img-inactive');
+    document.getElementById('tabimg1').classList.add('tab-img-inactive');
+  }
+
+  if (pageName == "archive" || pageName == "archive.html"){
+    document.getElementById('tabimg3').classList.remove('tab-img-inactive');
+    document.getElementById('tabimg1').classList.add('tab-img-inactive');
+  }
+
+  if (pageName == "now" || pageName == "now.html"){
+    document.getElementById('tabimg4').classList.remove('tab-img-inactive');
+    document.getElementById('tabimg1').classList.add('tab-img-inactive');
+  }
+
+</script>
+
+
+<div class="tabswitcher">
+
+  <a class="tab" href="index">
+    <img id="tabimg1" class="tab-img" src="assets/work.png">
+    <p class="tab-text">Work</p>
+  </a>
+
+  <a class="tab" href="about">
+    <img id="tabimg2" class="tab-img tab-img-inactive" src="assets/about.png">
+    <p class="tab-text">About</p>
+  </a>
+
+  <a class="tab" href="archive">
+    <img id="tabimg3" class="tab-img tab-img-inactive" src="assets/writing.png">
+    <p class="tab-text">Writing</p>
+  </a>
+
+  <a class="tab" href="now">
+    <img id="tabimg4" class="tab-img tab-img-inactive" src="assets/now.png">
+    <p class="tab-text">Now</p>
+  </a>
+
+</div>
