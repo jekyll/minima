@@ -15,13 +15,6 @@ At Polyquantique, we develop the theory and computational tools underpinning the
 
 We are actively looking for undergraduate interns, graduate students and postdocs interested in the following areas
 
-* Quantum computing using photon based architectures
-* Applications of Machine Learning in designing photonic experiments
-* (Gaussian) Boson Sampling
-* Quantum metrology and spectroscopy
-* Generation of squeezed states useful for heralding applications
-* Heralded generation of non-Gaussian light
-* Polaritons and topological photonics
-* Quantum benchmarking and tomography of complex quantum states
+
 
 See openings for more information on how to apply.
