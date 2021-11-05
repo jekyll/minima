@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Openings
-permalink: /openings/
+title: Research
+permalink: /research/
 ---
 
 # Interested in joining?
