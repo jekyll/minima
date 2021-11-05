@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+---
+@import "minima";
+@import "minima";
+
+
+// Use grey background for code
+// Use grey background for code
+pre, code, .highlighter-rouge .highlight { background-color: #f8f8f8; }
+pre, code, .highlighter-rouge .highlight { background-color: #f8f8f8; }
+
+.site-title::before {
+	content: url("/alsprolog-logo.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
+}
