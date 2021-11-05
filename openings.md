@@ -4,15 +4,16 @@ title: Openings
 permalink: /openings/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Interested in joining?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Send an email with the subject: "[Name], position applicant" containing:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+A short note stating your research interests and experience (see example).
+
+Attach a CV (see example, compiler).
+
+For MSc/PhD applicants: please submit a full coverletter describing how your research interests and background align and expands on the abilities of our group and provide course transcripts.
 
 
-[jekyll-organization]: https://github.com/jekyll
+Available project areas include: Quantum computing using photon based architectures, Applications of Machine Learning in designing photonic, (Gaussian) Boson Sampling, Quantum metrology and spectroscopy, Generation of squeezed states useful for heralding applications, Heralded generation of non-Gaussian light, Polaritons and topological photonics, Quantum benchmarking and tomography of complex quantum states.
+
