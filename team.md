@@ -4,15 +4,13 @@ title: Team
 permalink: /team/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# People
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Nicolas Quesada
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Assistant Professor, Department of Engineering Physics, Polytechnique Montréal.
+MEI Chair in Quantum Photonics
 
+Areas of interest include: quantum optics, photonics, information, tomography, software, classical simulation of bosonic systems, tensor networks.
 
-[jekyll-organization]: https://github.com/jekyll
+Contact: first_name.last_name at polymtl.ca
