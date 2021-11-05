@@ -11,4 +11,4 @@ title: Quantum Photonics and Information at Polytechnique Montréal
 
 Welcome to our website!
 
-At Polyquantique, we develop the theory and computational tools underpinning the next generation of nonclassical bright light sources needed for building fault-tolerant quantum computers and quantum communication networks. We work at the intersection of quantum optics, photonics and information. Find out more about our current research in the links below. 
+At Polyquantique, we develop the theory and computational tools underpinning the next generation of nonclassical bright light sources and devices needed for building fault-tolerant quantum computers and quantum communication networks. We work at the intersection of quantum optics, photonics and information. Find out more about our current research in the links below. 
