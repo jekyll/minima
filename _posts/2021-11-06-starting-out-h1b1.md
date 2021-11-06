@@ -13,7 +13,7 @@ Pieces of information here may be useful to you. Much of the information here is
 
 
 
-#### Getting a Job Offer
+## Getting a Job Offer
 
 You need to get a job offer and accept the job offer first, before getting a visa.
 
@@ -23,7 +23,7 @@ The company would hire immigration lawyers to help you with their required paper
 
 
 
-#### Obtaining a H-1B1
+## Obtaining a H-1B1
 
 Ashley has written [a very comprehensive guide](https://ashleylim.medium.com/navigating-the-h1b1-visa-process-4c8e459c4b96) on the process of obtain a H-1B1
 
@@ -60,7 +60,7 @@ This is my timeline regarding my H-1B1 visa
 
 
 
-#### Flight and Preflight Covid testing
+## Flight and Preflight Covid testing
 
 I took Singapore Airlines direct flight from Changi Airport to San Francisco International Airport. My premium economy airfare was \$1109.30. I remember seeing options for a round trip at \$1300, but I did not bother with that.
 
@@ -74,7 +74,7 @@ You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/
 
 
 
-#### Housing
+## Housing
 
 I did not source for housing. My housemates were the ones who chose the house. The house is quite far from my office, but I do not mind because Quora is remote-first.
 
@@ -84,7 +84,7 @@ If you do not have any contacts here, you can first Airbnb for a temporary place
 
 
 
-#### Bank account
+## Bank account
 
 You need a bank account to receive your payroll, and to make payments from. Many services do not accept international debit/credit cards - I had to use my friend's US credit card for ordering items from Walmart. The only service I managed to use an international debit card for is Uber.
 
@@ -102,7 +102,7 @@ I had the following to open my bank account
 
 
 
-#### Social Security Number
+## Social Security Number
 
 The I-9 Employment Eligibility Verification form requires a social security number.
 
@@ -114,7 +114,7 @@ If you are in the US for internship or exchange, you might want to get a US bank
 
 
 
-#### Phone Number and Mobile Data
+## Phone Number and Mobile Data
 
 My peers strongly recommend Mint Mobile. The prices are much cheaper. However, Mint Mobile requires a [compatible phone](https://www.mintmobile.com/byop/). I should have bought an iPhone when I was in Singapore before moving to the US.
 
@@ -128,7 +128,7 @@ I will move on to Mint Mobile after buying an iPhone.
 
 
 
-#### Driving
+## Driving
 
 I do not have a driving license in Singapore. You need to know how to drive to get anywhere in the US. Public transport is very rudimentary.
 
@@ -138,7 +138,7 @@ You may want to get a second-hand car for a few thousand dollars. You need to bu
 
 
 
-#### Support Group
+## Support Group
 
 My Singaporean friends have helped me settle in and lent me some USD. I sought advice from my Singaporean friends for much of the content above. You can express appreciation to your friends by signing up for their referrals (Chase and Robinhood for example).
 
