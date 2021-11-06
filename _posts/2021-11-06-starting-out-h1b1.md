@@ -9,7 +9,7 @@ In summary, this is my US immigration background
 - I do not have any relatives in the US.
 - I am starting my role as a software engineer at Quora in November 2021.
 
-Pieces of information here may be useful to you. Many of the information here may be short-lived. Some information, such as the list of items needed, may be incomplete.
+Pieces of information here may be useful to you. Much of the information here is expected to be short-lived. Some information, such as the list of items needed, may be incomplete.
 
 
 
@@ -17,11 +17,9 @@ Pieces of information here may be useful to you. Many of the information here ma
 
 You need to get a job offer and accept the job offer first, before getting a visa.
 
-I got a Quora interview from a public coding competition organised by Quora back in [Feburary 2021](https://challenge.quora.com/).
+I got a Quora interview from a public coding competition organised by Quora back in [February 2021](https://challenge.quora.com/).
 
-Of course, please make sure that it is a legitimate company. You should not need to pay any agency other than the US government.
-
-The company would hire immigration lawyers to help you with their required paperwork. You need also need to do a substantial share of paperwork.
+The company would hire immigration lawyers to help you with their required paperwork. You need also need to do a substantial share of paperwork. You should not be any any adminstrative fees except to the US government.
 
 
 
@@ -49,12 +47,12 @@ Your company lawyer would prepare an application package for you. Fragomen is my
 This is my timeline regarding my H-1B1 visa
 
 - Confirmation of offer (April)
-- Scheduled embassy interview time (August)
+- Scheduled an embassy interview date (August)
 - Commencement to get graduation scroll (25 September)
 - Labor Condition Application Certified (1 October)
 - Hardcopy Visa application documents shipped (5 October)
 - Hardcopy Visa application documents received (8 October)
-- Embassy interview (13 October, 0915) 
+- Embassy interview (13 October, 0915)
 - Pickup passport with H1B1 visa (14 October)
 - Preflight Covid ART Testing (30 October)
 - Flight the US (2 November 1840)
@@ -64,7 +62,9 @@ This is my timeline regarding my H-1B1 visa
 
 #### Flight and Preflight Covid testing
 
-I took Singapore Airlines direct flight from Changi Airport to San Francisco International Airport. My airfare was \$1,109.30. I remember seeing options for a round trip at \$1300, but I did not bother with that.
+I took Singapore Airlines direct flight from Changi Airport to San Francisco International Airport. My premium economy airfare was \$1109.30. I remember seeing options for a round trip at \$1300, but I did not bother with that.
+
+You cannot do an online check-in on Singapore Airlines with the H-1B1 visa. Apparently, the option is for people who do not need a visa to travel to the US, or are on the [Visa Waiver Program](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html). I needed to check in physically. This was not indicated in the user interface and gave me a small panic.
 
 The premium economy seat allows for 2 bags of 23 kg each. I tried to check in 3 bags of 10 kg each and was rejected, but we did prepare for the scenario. 
 
@@ -86,7 +86,7 @@ If you do not have any contacts here, you can first Airbnb for a temporary place
 
 #### Bank account
 
-You need a bank account to receive your payroll.
+You need a bank account to receive your payroll, and to make payments from. Many services do not accept international debit/credit cards - I had to use my friend's US credit card for ordering items from Walmart. The only service I managed to use an international debit card for is Uber.
 
 My friend recommended me Chase Bank. You may ask someone to refer you so that they also get their referral bonus on your first payroll.
 
@@ -97,7 +97,7 @@ If you do not overdraft, the maximum fees incurred is probably \$12 per month fr
 I had the following to open my bank account
 
 - Original Passport
-- A proof of residence - a rental agreement with your name, or your company HR confirming that you live in that address, or a utility bill. I drafted an email for HR to sign. Apparently, my housemates managed to use the J1 visa as proof of residence.
+- A proof of residence - a rental agreement with your name, or your company HR confirming that you live in that address, or a utility bill. I drafted an email for HR to sign and forwarded it to the banker. Apparently, my housemates managed to use the J1 visa as proof of residence.
 - The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/landing). If the link is shared by your friend, your friend gets [\$50](https://accounts.chase.com/raf/landing).
 
 
@@ -120,7 +120,9 @@ My peers strongly recommend Mint Mobile. The prices are much cheaper. However, M
 
 My phone was incompatible, so I have to settle with using ATT. I have shipped (you need an address and you need to wait for the shipment) a SIM card and will be getting a [3-month $99 prepaid plan](https://www.att.com/support/article/wireless/KM1391956/).
 
-In Singapore, you could simply buy a prepaid SIM card from any store, and I have been surviving on that till today. In my first days, when outside of any WiFi range, I have been using my Starhub prepaid data roaming. However, I need a local phone number so that I can receive my 2FA from the bank.
+In Singapore, you could simply buy a prepaid SIM card from any phone store, and I have been surviving on that till today. I would have preferred to do this here as well.
+
+In my first days in the US, when outside of any free WiFi range, I have been using my Starhub prepaid data roaming. I still need a local phone number urgently so that I can receive my 2FA from the bank.
 
 I will move on to Mint Mobile after buying an iPhone.
 
@@ -138,7 +140,7 @@ You may want to get a second-hand car for a few thousand dollars. You need to bu
 
 #### Support Group
 
-My Singaporean friends have helped me settle in and lent me some USD. I sought advice from my Singaporean friends for much of the content above.
+My Singaporean friends have helped me settle in and lent me some USD. I sought advice from my Singaporean friends for much of the content above. You can express appreciation to your friends by signing up for their referrals (Chase and Robinhood for example).
 
 As a fresh graduate, a support group is important. You share knowledge and information with each other and grow together. If your company is mostly remote, you need to create these interactions.
 
@@ -147,3 +149,4 @@ Do not let any of these stop you from pursuing your career in the US. I think th
 
 
 I hope these helps.
+
