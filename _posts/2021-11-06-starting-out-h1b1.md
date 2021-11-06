@@ -3,8 +3,6 @@ layout: post
 title: "Starting out as an H-1B1 holder"
 ---
 
-# Starting out as an H-1B1 holder
-
 In summary, this is my US immigration background
 
 - I have never been to the US prior.
