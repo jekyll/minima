@@ -25,7 +25,6 @@ The company would hire immigration lawyers to help you with their required paper
 
 
 
-
 #### Obtaining a H-1B1
 
 Ashley has written [a very comprehensive guide](https://ashleylim.medium.com/navigating-the-h1b1-visa-process-4c8e459c4b96) on the process of obtain a H-1B1
@@ -52,6 +51,7 @@ This is my timeline regarding my H-1B1 visa
 - Confirmation of offer (April)
 - Scheduled embassy interview time (August)
 - Commencement to get graduation scroll (25 September)
+- Labor Condition Application Certified (1 October)
 - Hardcopy Visa application documents shipped (5 October)
 - Hardcopy Visa application documents received (8 October)
 - Embassy interview (13 October, 0915) 
@@ -84,7 +84,6 @@ If you do not have any contacts here, you can first Airbnb for a temporary place
 
 
 
-
 #### Bank account
 
 You need a bank account to receive your payroll.
@@ -105,13 +104,13 @@ I had the following to open my bank account
 
 #### Social Security Number
 
-The I-9 Employment Eligibility Verification requires a social security number.
+The I-9 Employment Eligibility Verification form requires a social security number.
 
 I called the [Redwood City](https://ssofficelocation.com/offices/california/redwood-city/redwood-city-social-security-office-94063/) social security office on 4 November 2021 for an appointment on 19 November 2021. I would need to bring my passport with the machine-readable H-1B1 visa and I-94.
 
 There is a [procedure](https://www.ssa.gov/ssnvisa/) for you to apply for your Social Security Number when you apply for your immigrant visa, but I have not heard of anyone doing it. 
 
-If you have been to the US before for internship or exchange, you might already have a US bank account and a social security number, which makes it easier when you are back here to work.
+If you are in the US for internship or exchange, you might want to get a US bank account and a social security number, which makes it easier when you are back here to work.
 
 
 
@@ -139,10 +138,12 @@ You may want to get a second-hand car for a few thousand dollars. You need to bu
 
 #### Support Group
 
-If you work at Facebook as a Singaporean, you will have a pretty strong support group. Elsewhere, you need to find your friends.
-
 My Singaporean friends have helped me settle in and lent me some USD. I sought advice from my Singaporean friends for much of the content above.
 
-As a fresh graduate, a support group is important. You get to share knowledge and information with each other on how to become a better professional and grow together. If your company is mostly remote, you need to create these interactions.
+As a fresh graduate, a support group is important. You share knowledge and information with each other and grow together. If your company is mostly remote, you need to create these interactions.
 
 Do not let any of these stop you from pursuing your career in the US. I think there are some good reasons that might make you reconsider moving to the US - for example, you have your significant other in Singapore, or your parents are living their last days.
+
+
+
+I hope these helps.
