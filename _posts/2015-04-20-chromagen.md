@@ -4,6 +4,7 @@ title: "Color Generator"
 subtitle: Generate colors and gradients
 permalink: /ChromaGen
 tags: code
+thumbnail: https://gyanl.com/assets/thumbs/colorgen.png
 ---
 
 ### What is it?
