@@ -6,6 +6,8 @@ permalink: /team/
 
 ## Interested in joining?
 
+Say something about the group, poly and MOntreal
+
 Send an email with the subject: "[Name], lab-position applicant" to ADD_ADDRESS containing:
 
 1. A short note stating your research interests and experience (see example).

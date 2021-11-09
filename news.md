@@ -4,15 +4,12 @@ title: News
 permalink: /news/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+* 22-10-21 Our work with Xanadu on [Fast Simulation of Bosonic Qubits via Gaussian Functions in Phase Space is published in PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.040315)
+
+* 13-10-21 Our work in collaboration with Daniel Grier, Daniel Brod, Marcos Alonso and Juan Miguel Arrazola on [The Classical Complexity of Bipartite Gaussian Boson Sampling appears on the arXiv](https://arxiv.org/abs/2110.06964)
+
+* 08-10-21 Our work in collaboration with the evangelists, Luke, Matteo, Marco and John, on life [Beyond photons pairs appears on the arXiv](https://arxiv.org/abs/2110.04340)
+
+* 04-10-21 Nous sommes a Montréal.

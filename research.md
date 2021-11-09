@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Research at Polyquantique
-
 * Quantum computing using photon based architectures
 * Applications of Machine Learning in designing photonic experiments
 * (Gaussian) Boson Sampling
