@@ -9,7 +9,7 @@ In summary, this is my US immigration background
 - I do not have any relatives in the US.
 - I am starting my role as a software engineer at Quora in November 2021.
 
-Pieces of information here may be useful to you. Much of the information here is expected to be short-lived. Some information, such as the list of items needed, may be incomplete.
+Pieces of information here may be useful to you. Much of the information here is expected to be short-lived. Some information, such as the list of items needed, may be incomplete. Some information, especially if I have not gone through the process, like getting a driving license, may be inaccurate.
 
 
 
@@ -19,7 +19,7 @@ You need to get a job offer and accept the job offer first, before getting a vis
 
 I got a Quora interview from a public coding competition organised by Quora back in [February 2021](https://challenge.quora.com/).
 
-The company would hire immigration lawyers to help you with their required paperwork. You need also need to do a substantial share of paperwork. You should not be any any adminstrative fees except to the US government.
+The company would hire immigration lawyers to help you with their required paperwork. You need also need to do a substantial share of paperwork. You should not be paying any adminstrative fees except to the US government.
 
 
 
@@ -28,7 +28,7 @@ The company would hire immigration lawyers to help you with their required paper
 Ashley has written [a very comprehensive guide](https://ashleylim.medium.com/navigating-the-h1b1-visa-process-4c8e459c4b96) on the process of obtain a H-1B1
 
 There are a few things from the article I want to highlight
-- Schedule your interview appointment early. With Covid and all, the available timeslot, with Covid and all, the availability of the timeslot can be inconsistent. Once you are confirmed that you are accepting the offer, you can complete the DS-160 early and schedule an interview timeslot. I have rescheduled the interview twice.
+- Schedule your interview appointment early. With Covid and all, the availability of the timeslot can be inconsistent. Once you are confirmed that you are accepting the offer, you can complete the DS-160 early and schedule an interview timeslot. The risk of rescheduling it early is that you might lose the deposit. I could reschedule the interview twice. 
 - I paid my MRV application fee with SAM. However, I learnt that this option has since been [unavailable](https://www.ustraveldocs.com/sg/sg-niv-paymentinfo.asp).
 
 
@@ -82,6 +82,8 @@ You can find the housing offers on [craigslist](https://sfbay.craigslist.org/) o
 
 If you do not have any contacts here, you can first Airbnb for a temporary place of residence and then find a place to rent for the long term.
 
+I will write more when I complete the whole house-hunting process.
+
 
 
 ## Bank account
@@ -132,7 +134,9 @@ I will move on to Mint Mobile after buying an iPhone.
 
 I do not have a driving license in Singapore. You need to know how to drive to get anywhere in the US. Public transport is very rudimentary.
 
-It is easier to learn how to drive in the US than in Singapore. To learn driving you first need to pass a theory test, then you may drive in the presence of a fully licensed driver. After passing the practical test, you have the full license.
+It is easier to learn how to drive in the US than in Singapore. To learn driving you first need to pass a theory test, then you may drive in the presence of a fully licensed driver. After passing the practical test, you have the full license. The process in Singapore is more complicated.
+
+However, if you have already learnt how to drive in Singapore, it would be much easier to start out here, just by passing local driving tests.
 
 You may want to get a second-hand car for a few thousand dollars. You need to buy car insurance as well.
 
@@ -144,9 +148,9 @@ My Singaporean friends have helped me settle in and lent me some USD. I sought a
 
 As a fresh graduate, a support group is important. You share knowledge and information with each other and grow together. If your company is mostly remote, you need to create these interactions.
 
-Do not let any of these stop you from pursuing your career in the US. I think there are some good reasons that might make you reconsider moving to the US - for example, you have your significant other in Singapore, or your parents are living their last days.
+Do not let any of these stop you from pursuing your career in the US. I think there are some good reasons that might make you reconsider moving to the US - for example, you could not get a job offer, you have your significant other in Singapore, or your parents are living their last days.
 
 
 
-I hope these helps.
+I hope these will help.
 
