@@ -7,6 +7,7 @@ In summary, this is my US immigration background
 
 - I have never been to the US prior.
 - I do not have any relatives in the US.
+- I am a Singapore citizen, who is eligible for H-1B1. Unlike H-1B, no lottery process is needed to apply for a H-1B1.
 - I am starting my role as a software engineer at Quora in November 2021.
 
 Pieces of information here may be useful to you. Much of the information here is expected to be short-lived. Some information, such as the list of items needed, may be incomplete. Some information, especially if I have not gone through the process, like getting a driving license, may be inaccurate.
@@ -88,19 +89,33 @@ I will write more when I complete the whole house-hunting process.
 
 ## Bank account
 
-You need a bank account to receive your payroll, and to make payments from. Many services do not accept international debit/credit cards - I had to use my friend's US credit card for ordering items from Walmart. The only service I managed to use an international debit card for is Uber.
+You need a bank account to receive your payroll, and to make payments from. Many services do not accept international debit/credit cards - I had to use my friend's US credit card for ordering items from Walmart, AT&T or T-Mobile. The only service I managed to use an international debit card for is Uber.
 
 My friend recommended me Chase Bank. You may ask someone to refer you so that they also get their referral bonus on your first payroll.
 
-The only option that I have to make when opening an account is on whether to open a savings account. There are restrictions how often can you withdraw from a savings account (because it is meant for savings).
+The only decision I have to make when opening an account is whether I want to open a savings account. There are restrictions how often can you withdraw from a savings account (because it is meant for savings).
 
 If you do not overdraft, the maximum fees incurred is probably \$12 per month from the checking account and \$5 per month from the savings account.
 
 I had the following to open my bank account
 
 - Original Passport
-- A proof of residence - a rental agreement with your name, or your company HR confirming that you live in that address, or a utility bill. I drafted an email for HR to sign and forwarded it to the banker. Apparently, my housemates managed to use the J1 visa as proof of residence.
-- The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/landing). If the link is shared by your friend, your friend gets [\$50](https://accounts.chase.com/raf/landing).
+- A proof of residence - a rental agreement with your name, or your company HR confirming that you live in that address, or a utility bill.
+  - Apparently, my housemates managed to use the J1 visa as proof of residence.
+  - I drafted an email for HR to sign and forwarded it to the banker.
+
+```
+(Company logo)
+
+To whom it may concern
+
+(name) (passport number) is an employee of (Company), working as (role) starting from (date). (pronoun) current location of residence is (address).
+
+Yours faithfully
+(Signoff)
+```
+
+- The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/landing). If the link is shared by your friend, your friend gets [\$50](https://accounts.chase.com/raf/landing) in addition.
 
 
 
