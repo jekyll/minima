@@ -20,7 +20,7 @@ You need to get a job offer and accept the job offer first, before getting a vis
 
 I got a Quora interview from a public coding competition organised by Quora back in [February 2021](https://challenge.quora.com/).
 
-The company would hire immigration lawyers to help you with their required paperwork. You need also need to do a substantial share of paperwork. You should not be paying any adminstrative fees except to the US government.
+The company would hire immigration lawyers to help the company's share of required paperwork. You also need to do your substantial share of paperwork. You should not be paying any adminstrative fees except to the US government.
 
 
 
