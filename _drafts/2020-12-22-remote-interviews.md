@@ -30,7 +30,7 @@ It is a good practice to let the user know that they have a right to decline ans
 
 "Hi! My name is Gyan, and I'm a Designer working at Banana Corp in Delhi, India. Along with me on this call are my colleagues Alice and Bob, who might have some question for you later. We're working on improving the experience of peeling bananas, and we wanted to show you some ideas we have been working on and get your feedback. We would like you to be as honest as possible with your feedback, if something is confusing or doesn't work well for you, it is helpful for us to know so we can try and fix it.
 
-You can let me know if there is any questions you would not answer, and we can move along to the next topic. We will be recording this session." 
+This call should You can let me know if there is any questions you would not answer, and we can move along to the next topic. We will be recording this session."
 
 ### Keep it informal
 
