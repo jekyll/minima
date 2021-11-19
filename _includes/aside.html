@@ -1,13 +1,34 @@
 <aside class="aside-left wrapper"> <!--Content for class "asideLeft" Goes Here-->
   <div class="aside-left-container">
-    <p>berkhan 'b' eminsoy</p>
-    <p>Architectural designer based in Istanbul and NYC. Born in Istanbul, Turkey –trained in the U.S. </p>
+    <p class="p-name">
+      {% if site.author.name -%}
+        {{ site.author.name | escape }}
+      {% endif -%}
+    </p>
+    <p markdown="1">
+      {{ site.miniBio | escape | markdownify }}
+    </p>
     <address class="asideLeft__contact">
-      <a href="mailto:beminsoy@gmail.com">Email</a>
-      <br>
-      <a href="https://twitter.com/BerkhanEminsoy" target="_blank">Twitter</a>
-      <br>
-      <a href="https://github.com/BerkhanEminsoy" target="_blank">Github</a>
+      <ul class="contact-list">
+        <li>
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">email</a></li>
+          {%- endif %}
+        </li>
+        <li class="social-links">{%- include social.html -%}</li>
+        <li><a href="https://twitter.com/BerkhanEminsoy" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/BerkhanEminsoy" target="_blank">Github</a></li>
+        <li>
+          <p class="feed-subscribe">
+            <a href="{{ 'feed.xml' | relative_url }}">
+              <span>Subscribe&ensp;</span>
+              <svg class="svg-icon orange">
+                <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+              </svg>
+            </a>
+          </p>
+        </li>
+    </ul>
     </address>
   </div>
 </aside> <!-- End Aside -->

@@ -23,11 +23,15 @@ author:
   name: berkhan 'b' eminsoy
   email: beminsoy@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:" It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  Architectural designer based in Istanbul and NYC. Born in Istanbul, Turkey –trained in the U.S.
+  berkhan eminsoy. architectural designer born in Istanbul, bred in U.S. All things architecture and ancillary.
+miniBio: > 
+  architectural designer *trained* in the **US**, *based* in **Istanbul**.
+#architectural designer **trained in the U.S.**, *based* in Istanbul.
 
 domain: berkhaneminsoy.github.io
 baseurl: "/minima" # the subpath of your site, e.g. /blog
 url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+copyright: © 2021 Berkhan Eminsoy
 port: 1000
 github: [metadata]
 
