@@ -1,19 +1,19 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-/*
-* {
-  border: 1px solid black;
-}
-*/
+// Layout
 
-.flex-wrapper {
-  display: flex;
-  gap: $spacing-unit;
+.grid {
+  display: grid;
+  //grid-gap: $spacing-unit;
+  grid-template-columns: 15% 85%;
+  grid-template-areas: "aside header"
+                       "aside home"
+                       "aside footer";
 }
 
 .aside-left {
-  flex: 20%;
+  grid-area: aside;
 }
 
 .aside-left-container {
@@ -22,7 +22,7 @@
 }
 
 .div-home {
-  flex: 80%;
+  grid-area: home;
 }
 
 .site-header, .site-footer  {
@@ -31,9 +31,48 @@
 }
 
 .site-header{
+  grid-area: header;
   top: 0;
 }
 
 .site-footer {
+  grid-area: footer;
   bottom: 0;
+}
+
+
+// Styling
+
+
+// Uncomment to display a box around each element.
+/*
+* {
+  border: 1px solid black;
+}
+*/
+
+/**
+ * Links
+ */
+ a {
+  //color: $link-base-color;
+  //text-decoration: none;
+  /*
+  &:visited {
+    color: $link-visited-color;
+  }
+  */
+  &:hover {
+    background-color: $link-hover-background-color;
+    color: $link-hover-color;
+    //text-decoration: underline;
+  }
+  /*
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }*/
 }
