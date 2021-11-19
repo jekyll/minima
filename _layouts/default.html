@@ -9,7 +9,10 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        <div class="flex-wrapper">
+          {%- include aside.html -%}
+          {{ content }}
+        </div>
       </div>
     </main>
 

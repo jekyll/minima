@@ -1,2 +1,39 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/*
+* {
+  border: 1px solid black;
+}
+*/
+
+.flex-wrapper {
+  display: flex;
+  gap: $spacing-unit;
+}
+
+.aside-left {
+  flex: 20%;
+}
+
+.aside-left-container {
+  position: sticky;
+  top: 100px;
+}
+
+.div-home {
+  flex: 80%;
+}
+
+.site-header, .site-footer  {
+  position: sticky;
+  background-color: $background-color;
+}
+
+.site-header{
+  top: 0;
+}
+
+.site-footer {
+  bottom: 0;
+}
