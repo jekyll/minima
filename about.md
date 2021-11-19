@@ -12,7 +12,7 @@ Welcome to my blog. I am Siddharth Jain. You can call me Sid.
 ##### **Here is my introduction in 3 bullets** 
 
 - I grew up in New Delhi, India and studied engineering at IIT Guwahati
-- I currently live in London and work as a product manager at J.P.Morgan
+- I currently live in London and work within the content team at [ChartMogul](https://chartmogul.com/){:target="_blank"}
 - In my spare time, I love to read, cook, write and spend time with my family
 
 You can read about the 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}. I also summarise a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. You can find more about what guides me [here](https://www.sid-jain.com/inner-compass/){:target="_blank"}. 

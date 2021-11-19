@@ -7,3 +7,5 @@ gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
 
 gem 'jekyll-paginate'
 
+
+gem "webrick", "~> 1.7"
