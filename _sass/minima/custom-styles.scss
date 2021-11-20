@@ -5,13 +5,15 @@
 
 .grid {
   display: grid;
-  //grid-gap: $spacing-unit;
+  padding: 0 $spacing-unit 0 0;
+  //grid-gap: 0 $spacing-unit;
   grid-template-columns: 15% 85%;
   grid-template-areas: "aside header"
                        "aside home"
                        "aside footer";
 
-  @media screen and (max-width: $on-medium) {
+  @media screen and (max-width: $on-xLarge) {
+    padding: 0 $spacing-unit;
     grid-template-columns: 100%;
     grid-template-areas: "header"
                           "home"
@@ -22,6 +24,11 @@
 
 .aside-left {
   grid-area: aside;
+
+  @media screen and (max-width: $on-xLarge) {
+    border-top: 2px solid $border-color-03;
+    padding: $spacing-unit/2 0;
+  }
 }
 
 .aside-left-container {
@@ -52,9 +59,7 @@
   border-top: 2px solid $border-color-03;
 }
 
-
 // Styling
-
 
 // Uncomment to display a box around each element.
 /*
@@ -63,9 +68,9 @@
 }
 */
 
-/**
- * Links
- */
+/** Links
+/* 
+/*/
  a {
   //color: $link-base-color;
   //text-decoration: none;

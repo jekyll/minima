@@ -6,7 +6,8 @@
 
 $base-font-family: "Passenger Sans";
 
-$content-width:    1200px;
+$on-desktop:    1000px;
+$on-xLarge:     $on-desktop;
 
 $link-base-color:              $text-color;
 $link-visited-color:           lighten($link-base-color, 50%);

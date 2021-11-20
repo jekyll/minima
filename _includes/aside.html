@@ -1,23 +1,27 @@
-<aside class="aside-left wrapper"> <!--Content for class "asideLeft" Goes Here-->
-  <div class="aside-left-container">
+{%- assign social = site.minima.social_links -%}
+<aside class="aside-left"> <!--Content for class "asideLeft" Goes Here-->
+  <div class="aside-left-container wrapper">
     <p class="p-name">
       {% if site.author.name -%}
         {{ site.author.name | escape }}
       {% endif -%}
     </p>
-    <p markdown="1">
+    <p>
       {{ site.miniBio | escape | markdownify }}
     </p>
     <address class="asideLeft__contact">
       <ul class="contact-list">
         <li>
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">email</a></li>
+            <li><a class="u-email" href="mailto:{{ site.author.email }}" title={{ site.author.email }}>email</a></li>
           {%- endif %}
         </li>
-        <li class="social-links">{%- include social.html -%}</li>
-        <li><a href="https://twitter.com/BerkhanEminsoy" target="_blank">Twitter</a></li>
-        <li><a href="https://github.com/BerkhanEminsoy" target="_blank">Github</a></li>
+        <li>
+          <a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}">twitter</a>
+        </li>
+        <li>
+          <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">github</a>
+        </li>
         <li>
           <p class="feed-subscribe">
             <a href="{{ 'feed.xml' | relative_url }}">
@@ -28,7 +32,7 @@
             </a>
           </p>
         </li>
-    </ul>
+      </ul>
     </address>
   </div>
 </aside> <!-- End Aside -->
