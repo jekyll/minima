@@ -31,7 +31,7 @@ miniBio: >
 domain: berkhaneminsoy.github.io
 baseurl: "/minima" # the subpath of your site, e.g. /blog
 url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-copyright: © 2021 Berkhan Eminsoy
+copyright: © 2021 Berkhan Eminsoy.
 port: 1000
 github: [metadata]
 
