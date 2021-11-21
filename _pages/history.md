@@ -1,3 +1,8 @@
+---
+layout: page
+title: version history
+permalink: /versionhistory/
+---
 ## Version History
 
 ### Documentation

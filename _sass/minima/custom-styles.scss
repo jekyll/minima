@@ -1,26 +1,42 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-// Layout
+// Base
 
-.grid {
-  display: grid;
-  padding: 0 $spacing-unit 0 0;
-  //grid-gap: 0 $spacing-unit;
-  grid-template-columns: 250px auto;
-  grid-template-areas: "aside header"
-                       "aside home"
-                       "aside footer";
-
-  @media screen and (max-width: $on-xLarge) {
-    padding: 0 $spacing-unit;
-    grid-template-columns: 100%;
-    grid-template-areas: "header"
-                          "home"
-                          "aside"
-                          "footer";
-  }
+// Uncomment to display a box around each element.
+/*
+* {
+  border: 1px solid black;
 }
+*/
+
+/** Links
+/* 
+/*/
+a {
+  //color: $link-base-color;
+  //text-decoration: none;
+  /*
+  &:visited {
+    color: $link-visited-color;
+  }
+  */
+  &:hover {
+    background-color: $link-hover-background-color;
+    color: $link-hover-color;
+    //text-decoration: underline;
+  }
+  /*
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }*/
+}
+
+// Layout
 
 .aside-left {
   grid-area: aside;
@@ -33,7 +49,7 @@
 
 .aside-left-container {
   position: sticky;
-  top: 100px;
+  top: 100px; // needs to be worked on
 }
 
 .div-home {
@@ -59,37 +75,124 @@
   border-top: 2px solid $border-color-03;
 }
 
-// Styling
+.grid {
+  display: grid;
+  padding: 0 $spacing-unit 0 0;
+  //grid-gap: 0 $spacing-unit;
+  grid-template-columns: 250px auto;
+  grid-template-areas: "aside header"
+                       "aside home"
+                       "aside footer";
 
-// Uncomment to display a box around each element.
+  @media screen and (max-width: $on-xLarge) {
+    padding: 0 $spacing-unit;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                          "home"
+                          "aside"
+                          "footer";
+  }
+}
+
+.site-title {
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
 /*
-* {
-  border: 1px solid black;
+.site-nav {
+/*
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit / 2;
+  background-color: $background-color;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  text-align: right;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+*/
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    &:hover {
+      color: $link-hover-color;
+    }
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+/*
+
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      margin-left: auto;
+    }
+  }
 }
 */
-
-/** Links
-/* 
-/*/
- a {
-  //color: $link-base-color;
-  //text-decoration: none;
-  /*
-  &:visited {
-    color: $link-visited-color;
-  }
-  */
-  &:hover {
-    background-color: $link-hover-background-color;
-    color: $link-hover-color;
-    //text-decoration: underline;
-  }
-  /*
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }*/
-}
