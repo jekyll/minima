@@ -1,6 +1,6 @@
-title: Siddharth Jain
+title: Sid Jain
 author:
-  name: Siddharth Jain
+  name: Sid Jain
   email: jsiddharth24@gmail.com
   #Write an awesome description for your new site here. You can edit this
   #line in _config.yml. It will appear in your document head meta (for
@@ -20,14 +20,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jsiddharth24
+    twitter: SidJain__
     # github:  jsiddharth24
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: jsiddharth24
+    linkedin: sidjain24
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g

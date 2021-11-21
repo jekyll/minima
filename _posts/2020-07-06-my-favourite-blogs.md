@@ -26,12 +26,11 @@ __Data visualizations:__
 
 __Technology:__
 
-1. [Stratechery](https://stratechery.com/){:target="_blank"} by Ben Thompson
-2. [Ben-Evans](https://www.ben-evans.com/){:target="_blank"} by Benedict Evans
-3. [CB Insights](https://www.cbinsights.com/newsletter){:target="_blank"} by Anand Sanwal
+1. [Ben-Evans](https://www.ben-evans.com/){:target="_blank"} by Benedict Evans
+2. [CB Insights](https://www.cbinsights.com/newsletter){:target="_blank"} by Anand Sanwal
 
 __Getting better:__
 
 1. [David Perell](https://www.perell.com/){:target="_blank"} by David Perell
 2. [James Clear](https://jamesclear.com/){:target="_blank"} by James Clear
-
+3. [Nat Eliason](https://www.nateliason.com/){:target="_blank"} by Nat Eliason

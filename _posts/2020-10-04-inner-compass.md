@@ -39,7 +39,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Self Reflection**
 
-- **Be original.** You should strive for an original relation to the universe. Not a novel relation, just your own. Being in a rat race is the worst thing you can do to yourself. Because even if you win the race, you will still be a rat. There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you. Be yourself, because everyone else is already taken. 
+- **Be authentic.** You should strive for an authentic relation to the universe. Not a novel relation, just your own. Being in a rat race is the worst thing you can do to yourself. Because even if you win the race, you will still be a rat. There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you. Be yourself, because everyone else is already taken. 
 
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
