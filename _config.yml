@@ -111,18 +111,36 @@ plugins:
 #   - vendor/ruby/
 
 # refer to; https://github.com/jekyll/jekyll/issues/920#issuecomment-63093764
-include: ["_pages"]
+include: 
+  - _pages
+#  - _collections
+
+# define collections
+#collections_dir: _collections
+collections:
+  projects:
+    output: true
+    school: N/A
+    team:
+      - Berkhan Eminsoy
 
 # set defaults for collections & other
 # refer to; https://stackoverflow.com/questions/62104684/managing-jekyll-pages-in-folders-on-github-pages
 defaults:
+
   - scope:
       path: "_pages"
       type: "pages"
     values:
       permalink: /:basename/ # make URL of pages in the folder _pages as on the root.
 
+  - scope:
+      path: "_collections"
+    values:
+      permalink: /:collection/:title/ # make URL of pages in the folder _pages as on the root.
+
 header_pages:
+  - _pages/work.md
   - _pages/log.md
   - _pages/about.md
   - _pages/history.md

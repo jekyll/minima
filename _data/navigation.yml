@@ -4,10 +4,10 @@ links:
     link: /
 
   - name: log
-    link: /log.html
+    link: /log.md
 
   - name: about
-    link: /about.html
+    link: /about.md
 
   - name: contact
-    link: /contact.html
+    link: /contact.md

@@ -13,30 +13,33 @@
 /** Links
 /* 
 /*/
+/**
+ * Links
+ */
 a {
-  //color: $link-base-color;
-  //text-decoration: none;
-  /*
+  color: $link-base-color;
+  text-decoration: none;
   &:visited {
     color: $link-visited-color;
   }
-  */
+
   &:hover {
     background-color: $link-hover-background-color;
     color: $link-hover-color;
-    //text-decoration: underline;
+    text-decoration: underline;
   }
+
   &:active {
-    background-color: $link-active-color;
+    background-color: $link-active-color
   }
-  /*
+
   .social-media-list &:hover {
     text-decoration: none;
 
     .username {
       text-decoration: underline;
     }
-  }*/
+  }
 }
 
 // Layout
@@ -158,6 +161,7 @@ a {
     &:not(:last-child) {
       margin-right: 0;
     }
+
     margin-left: 20px;
   }
 
@@ -178,6 +182,7 @@ a {
     input ~ .trigger {
       display: block;
       margin: 0 auto;
+
       & > li:not(:last-child)::after {
         content: "///";
         margin: 0 20px;
