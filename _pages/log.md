@@ -1,5 +1,5 @@
 ---
 layout: page
 title: log
-permalink: /log/
+#permalink: /log/
 ---

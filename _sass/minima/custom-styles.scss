@@ -26,6 +26,9 @@ a {
     color: $link-hover-color;
     //text-decoration: underline;
   }
+  &:active {
+    background-color: $link-active-color;
+  }
   /*
   .social-media-list &:hover {
     text-decoration: none;
@@ -100,9 +103,7 @@ a {
   }
 }
 
-/*
 .site-nav {
-/*
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
@@ -146,16 +147,12 @@ a {
     display: block;
     padding-bottom: 5px;
   }
-*/
+
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
-
-    &:hover {
-      color: $link-hover-color;
-    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -163,12 +160,10 @@ a {
     }
     margin-left: 20px;
   }
-/*
-
 
   @media screen and (min-width: $on-medium) {
     position: static;
-    float: right;
+    float: left;
     border: none;
     background-color: inherit;
 
@@ -182,17 +177,52 @@ a {
 
     input ~ .trigger {
       display: block;
+      margin: 0 auto;
+      & > li:not(:last-child)::after {
+        content: "///";
+        margin: 0 20px;
+      }
     }
 
     .page-link {
       display: inline;
       padding: 0;
-
-      &:not(:last-child) {
-        margin-right: 20px;
-      }
       margin-left: auto;
     }
   }
 }
-*/
+
+// Footer styling
+
+.footer-col {
+  margin-bottom: auto;
+
+  & > p {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $on-medium) {
+  .footer-col-wrapper {
+    display: flex
+  }
+
+  .footer-col {
+    width: calc(100% - (#{$spacing-unit} / 2));
+    padding: 0;
+
+    & > p {
+      margin-bottom: 0;
+    }
+
+    &:first-child {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}

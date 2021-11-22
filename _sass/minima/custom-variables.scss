@@ -8,8 +8,3 @@ $base-font-family: "Passenger Sans";
 
 $on-desktop:    1000px;
 $on-xLarge:     $on-desktop;
-
-$link-base-color:              $text-color;
-$link-visited-color:           lighten($link-base-color, 50%);
-$link-hover-color:             $background-color;
-$link-hover-background-color:  $text-color;

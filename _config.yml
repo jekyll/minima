@@ -41,7 +41,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-  #skin: "solarized"
+  skin: "classic_+"
 
   # generate social links in footer
   social_links:
@@ -110,4 +110,19 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# refer to; https://github.com/jekyll/jekyll/issues/920#issuecomment-63093764
 include: ["_pages"]
+
+# set defaults for collections & other
+# refer to; https://stackoverflow.com/questions/62104684/managing-jekyll-pages-in-folders-on-github-pages
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:basename/ # make URL of pages in the folder _pages as on the root.
+
+header_pages:
+  - _pages/log.md
+  - _pages/about.md
+  - _pages/history.md
