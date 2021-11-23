@@ -1,5 +1,5 @@
 ---
-layout: projectspage
+layout: projectpost
 title: work
 #permalink: /about/
 ---
