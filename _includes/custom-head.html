@@ -4,3 +4,51 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+<!-- vvv META vvv -->
+
+<!--keywords that will pop-up in search engines-->
+<meta name="keywords" content="berkhan, eminsoy, architecture, student, mimar, TMMOB, columbia, gsapp, uiuc, istanbul, nyc, gkv architects, buro happold">
+
+<!-- ^^^ META ^^^ -->
+
+<!-- vvv LINKS vvv -->
+
+<!-- link w3.css -->
+<!-- link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" -->
+<!--link rel="stylesheet" href="css/w3.css"-->
+
+<!-- Import Google Icons-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- Get Favicon Logo -->
+<link rel="icon" href="{{ site.baseurl }}/assets/img/icon.ico/favicon.ico" type="image/x-icon">
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/633b360a32.js" crossorigin="anonymous"></script>
+
+<!-- ^^^ LINKS ^^^ -->
+
+<!---vvv SCRIPTS vvv -->
+
+<!-- Call the D3 Library-->
+<!-- Method 1 -->
+<!--<script type="text/javascript" src="{{site.baseurl}}/assets/js/d3/d3.js"></script> -->
+
+<!-- Method 2 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Method 3 -->
+<!--
+<script type="module">
+import * as d3 from "https://cdn.skypack.dev/d3@7";
+const div = d3.selectAll("div");
+</script>
+-->
+
+<!--- Call external JS file -->
+<script type="text/javascript" src={{ "/assets/js/css_slider.js" | relative_url }}></script>
+<script type="text/javascript" src={{ "/assets/js/jekyll_slider.js" | relative_url }}></script>
+
+<!---^^^ SCRIPTS ^^^ -->
