@@ -1,6 +1,13 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+// Imports
+@import
+  //"minima/w3",               // Fetch w3.css
+  //"minima/custom-carousel",  // Defines carousel structure and style base on; https://jekyllcodex.org/without-plugin/slider/#
+  "minima/custom-slider"    // Defines slider based on; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2
+;
+
 // Base
 
 // Uncomment to display a box around each element.
@@ -43,6 +50,8 @@ a {
 }
 
 // Layout
+
+/* vvv Grid vvv */
 
 .aside-left {
   grid-area: aside;
@@ -99,6 +108,8 @@ a {
                           "footer";
   }
 }
+
+/* ^^^ Grid  ^^^ */
 
 .site-title {
   &:hover {
@@ -230,4 +241,10 @@ a {
       padding-left: 0;
     }
   }
+}
+
+// RSS Feed
+
+.feed-subscribe .svg-icon {
+  box-sizing: initial;
 }

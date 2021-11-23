@@ -1,0 +1,40 @@
+{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
+{% assign letters = letterstring | split: ',' %}
+
+<div class="carousel__holder">
+    <div class="carousel">
+        {% for item in site.data.carousel.images %}
+          <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+        {% endfor %}
+        {% for item in site.data.carousel.images %}
+          {% if forloop.index == forloop.length %}
+            {% assign nextindex = 0 %}
+          {% else %}
+            {% assign nextindex = forloop.index0 | plus: 1 %}
+          {% endif %}
+          {% assign nextletter = letters[nextindex] %}
+          {% if forloop.index0 == 0 %}
+            {% assign previndex = forloop.length | minus: 1 %}
+          {% else %}
+            {% assign previndex = forloop.index0 | minus: 1 %}
+          {% endif %}
+          {% assign prevletter = letters[previndex] %}
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
+              <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
+          </div>
+        {% endfor %}
+        <div class="carousel__track">
+          <ul>
+            {% for item in site.data.carousel.images %}
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="carousel__indicators">
+            {% for item in site.data.carousel.images %}
+              <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+            {% endfor %}
+        </div>
+    </div>
+</div>

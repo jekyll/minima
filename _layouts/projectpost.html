@@ -30,6 +30,21 @@ layout: default
     {{ content }}
   </div>
 
+  {% include carousel.html height="50" unit="%" duration="7" %}
+
+  <div class="post__slider"> <!-- Start Project Slider container -->
+    <div class="slider__container w3-content w3-display-container">
+      <div class="slider__slides"> <!-- slider images go here -->
+      <div class="slider__nav w3-container w3-xxxlarge w3-display-middle w3-text-gray">
+        <button class="w3-btn w3-left w3-hover-text-light-gray w3-border-0 w3-hover-none" onclick="plusDivs(-1)">❮</button>
+        <button class="w3-btn w3-right w3-hover-text-light-gray w3-border-0 w3-hover-none" onclick="plusDivs(1)">❯</button>
+      </div>
+      <div class="slider__pagination w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"><!-- slider pagination rings (put as many as images)-->
+        <!--<span class="w3-badge w3-border w3-transparent w3-hover-white navRing" onclick="currentDiv(1)"></span>-->
+      </div>
+    </div>
+  </div> <!-- End Project Slider container -->
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

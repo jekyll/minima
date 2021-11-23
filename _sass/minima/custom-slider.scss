@@ -1,0 +1,22 @@
+/* ------ */
+/* Slider */
+
+.slider__container  {
+}
+.slideIMG  {
+	display: none;
+	max-height: 625px;
+	margin: 0 auto;
+	left: 50%;
+}
+.slider__nav ,.slider__pagination  {
+	width: 100%;
+}
+.slider__pagination .w3-left, .slider__pagination .w3-right, .slider__pagination .w3-badge	{
+	cursor: pointer;
+}
+.slider__pagination .w3-badge	{
+	height: 10px;
+	width: 10px;
+	padding: 0;
+}
