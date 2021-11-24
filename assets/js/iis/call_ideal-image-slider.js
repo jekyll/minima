@@ -7,5 +7,6 @@ var slider = new IdealImageSlider.Slider({
   transitionDuration: 0,
 });
 slider.addBulletNav();
+slider.addCaptions();
 
 new IdealImageSlider.Slider('#slider');
