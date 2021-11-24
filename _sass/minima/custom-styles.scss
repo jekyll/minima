@@ -3,9 +3,9 @@
 
 // Imports
 @import
-  //"minima/w3",               // Fetch w3.css
+  "minima/w3",               // Fetch w3.css
   //"minima/custom-carousel",  // Defines carousel structure and style base on; https://jekyllcodex.org/without-plugin/slider/#
-  "minima/custom-slider"    // Defines slider based on; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2
+  "minima/custom-w3slider"    // Defines slider based on; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2
 ;
 
 // Base
@@ -116,6 +116,8 @@ a {
     color: $link-hover-color;
   }
 }
+
+// Site Nav Bar Style overrides
 
 .site-nav {
   position: absolute;
