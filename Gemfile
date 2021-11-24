@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "minima", "~> 2.5"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap", "~>1.4"
+  gem "jekyll-archives"
   gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 end
 

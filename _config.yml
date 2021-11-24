@@ -92,6 +92,7 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+  - _pages/home.md
   - _pages/work.md
   - _pages/log.md
   - _pages/about.md
@@ -103,6 +104,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-remote-theme
  - jekyll-include-cache
+ - jekyll-archives
 
 # Excludes
 # Exclude from processing.
@@ -140,17 +142,21 @@ collections:
     team:
       - Berkhan Eminsoy
 
+# Figures
+# settings for the jekyll_figure plug-in by #https://github.com/lmullen/jekyll_figure
+figures:
+  dir: assets/img
+  enumerate: true
+
 # Defaults
 # set defaults for collections & other
 # refer to; https://stackoverflow.com/questions/62104684/managing-jekyll-pages-in-folders-on-github-pages
 defaults:
-
   - scope:
       path: "_pages"
       type: "pages"
     values:
       permalink: /:basename/ # make URL of pages in the folder _pages as on the root.
-
   - scope:
       path: "_collections"
     values:

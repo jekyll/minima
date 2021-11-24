@@ -19,7 +19,6 @@
         </label>
 
         <ul class="trigger">
-          <li class="page-link"><a rel="author" href="{{ "/" | relative_url }}">home</a></li>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
