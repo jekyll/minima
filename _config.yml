@@ -19,15 +19,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+#Serving
+port: 1000
+url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/minima" # the subpath of your site, e.g. /blog
+domain: berkhaneminsoy.github.io
+
 locale: "en-US"
 title: jekyll minima master fork build
 description: > # this means to ignore newlines until "show_excerpts:" It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   berkhan eminsoy. architectural designer born in Istanbul, bred in U.S. All things architecture and ancillary.
-domain: berkhaneminsoy.github.io
-baseurl: "/minima" # the subpath of your site, e.g. /blog
-url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 copyright: © 2021 Berkhan Eminsoy.
-port: 1000
 github: [metadata]
 
 #Site Author
@@ -88,24 +90,7 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
-# Header Pages
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-  - _pages/home.md
-  - _pages/work.md
-  - _pages/log.md
-  - _pages/about.md
-  - _pages/history.md
-
-# Plugins (previously gems)
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-remote-theme
- - jekyll-include-cache
- - jekyll-archives
- - jekyll_figure
+# Handling Reading
 
 # Excludes
 # Exclude from processing.
@@ -142,6 +127,25 @@ collections:
     school: N/A
     team:
       - Berkhan Eminsoy
+
+# Header Pages
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - _pages/home.md
+  - _pages/work.md
+  - _pages/log.md
+  - _pages/about.md
+  - _pages/history.md
+
+# Plugins (previously gems)
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-remote-theme
+ - jekyll-include-cache
+ - jekyll-archives
+ - jekyll_figure
 
 # Figures
 # settings for the jekyll_figure plug-in by #https://github.com/lmullen/jekyll_figure

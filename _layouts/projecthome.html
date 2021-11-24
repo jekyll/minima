@@ -6,13 +6,11 @@ layout: default
 
   {{ content }}
 
-
   {% if site.paginate %}
     {% assign projects = paginator.site.projects %}
   {% else %}
     {% assign projects = site.projects %}
   {% endif %}
-
 
   {%- if projects.size > 0 -%}
     {%- if page.list_title -%}
@@ -56,3 +54,5 @@ layout: default
   {%- endif -%}
 
 </div>
+
+<script type="text/javascript" src={{ "/assets/js/iis/call_ideal-image-slider.js" | relative_url }}></script>
