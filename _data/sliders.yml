@@ -7,5 +7,6 @@
     - src: /assets/img/projects/losPinos/1003_Collage01_Master.png
       alt: Interior Courtyard Collage
   settings:
-    height: "auto"
-    effect: "fade"
+    height: "'auto'"
+    maxHeight: 500
+    effect: "'fade'"

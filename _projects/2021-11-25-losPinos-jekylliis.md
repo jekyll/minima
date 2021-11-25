@@ -8,7 +8,7 @@ team:
   - Goose McGoose 
 image_sliders:
   - losPinos_slider
-image_sliders_load_all: true
+#image_sliders_load_all: true
 ---
 ### slider w/ includes
 {% include slider.html selector="losPinos_slider" %}
