@@ -1,0 +1,11 @@
+# example slider
+- selector: losPinos_slider
+  captions: true
+  images:
+    - src: /assets/img/projects/losPinos/0509_LosPinosMaster@1to2000_36x36_BE.jpg
+      alt: Los Pinos - Oblique Axonometric
+    - src: /assets/img/projects/losPinos/1003_Collage01_Master.png
+      alt: Interior Courtyard Collage
+  settings:
+    height: "auto"
+    effect: "fade"

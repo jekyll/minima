@@ -16,7 +16,7 @@
 
 <!-- Start Local Links -->
 <!-- Link Favicon Logo -->
-<link rel="icon" href="{{ site.baseurl }}/assets/img/icon.ico/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ "/assets/img/icon.ico/favicon.ico" | relative_url }}" type="image/x-icon">
 
 <!-- Link local D3 Libary -->
 <!-- <script type="text/javascript" src={{ "/assets/js/d3/d3.js" | relative_url }}></script> -->
@@ -25,10 +25,13 @@
 <!-- link rel="stylesheet" href="{{ site.baseurl }}/_sass/minima/w3.scss" -->
 
 <!--- Link other local JS files -->
-
-<script type="text/javascript" src={{ "/assets/js/iis/ideal-image-slider.js" | relative_url }}></script>
+<!--
+<script type="text/javascript" src={{ "/assets/js/iis/ideal-image-slider.min.js" | relative_url }}></script>
 <script type="text/javascript" src={{ "/assets/js/iis/iis-bullet-nav.js" | relative_url }}></script>
 <script type="text/javascript" src={{ "/assets/js/iis/iis-captions.js" | relative_url }}></script>
+-->
+{%- include slider_styles.html -%}
+
 <!-- End Local Links -->
 
 <!-- Start External Links -->
