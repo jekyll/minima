@@ -3,9 +3,10 @@
 <!-- v1.8 -->
 {%- assign page_sliders = page.image_sliders | uniq -%}
 {%- assign layout_sliders = layout.image_sliders | uniq -%}
+{%- assign collection_sliders = site.collections.image_sliders | uniq -%}
 {%- assign post_sliders = site.posts.image_sliders | uniq -%}
-{%- assign collection_sliders = site.projects.image_sliders | uniq -%}
-{%- assign iis_slider_array = page_sliders | concat: layout_sliders | concat: post_sliders | concat: collection_sliders | uniq -%}
+{%- assign project_sliders = site.projects.image_sliders | uniq -%}
+{%- assign iis_slider_array = page_sliders | concat: layout_sliders | concat: collection_sliders | concat: post_sliders | concat: project_sliders | uniq -%}
 {%- if page.image_sliders_load_all == true -%}
   {%- assign site_sliders = site.data.sliders | uniq -%}
   {%- assign iis_slider_array = iis_slider_array | concat: site_sliders | uniq -%}
