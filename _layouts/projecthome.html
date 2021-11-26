@@ -1,6 +1,5 @@
 ---
 layout: default
-image_sliders_load_all: true
 ---
 
 <div class="home">
@@ -19,16 +18,16 @@ image_sliders_load_all: true
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in projects -%}
+      {%- for project in projects -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ project.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="post-link" href="{{ project.url | relative_url }}">
+            {{ project.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ project.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}

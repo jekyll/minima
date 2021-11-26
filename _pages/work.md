@@ -1,6 +1,6 @@
 ---
 layout: projecthome
-title: work
-image_sliders_load_all: true
+title: works
 #permalink: /about/
+image_sliders_load_all: true
 ---

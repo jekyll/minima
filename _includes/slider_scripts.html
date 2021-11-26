@@ -13,13 +13,16 @@
   {%- assign iis_slider_array = iis_slider_array | concat: site_sliders | uniq -%}
 {%- endif -%}
 {% if iis_slider_array != empty %}
+  <!--{{ iis_slider_array }}-->
   <script src="{{ "/assets/js/iis/ideal-image-slider.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/iis/iis-bullet-nav.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/iis/iis-captions.js" | relative_url }}"></script>
   <script>
   {% for selector in iis_slider_array -%}
+    /*{{ selector }}*/
     {%- assign slider = site.data.sliders | where: "selector", selector | first -%}
     {%- assign settings = slider.settings -%}
+    /*{{ slider }}{{ settings }}*/
     var {{ slider.selector }} = new IdealImageSlider.Slider({
       selector: '#{{ slider.selector }}',
       {% if settings.height -%}
