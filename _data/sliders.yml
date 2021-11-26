@@ -1,6 +1,7 @@
 # example slider
 - selector: losPinos_slider
   captions: true
+  bullets: true
   images:
     - src: /assets/img/projects/losPinos/0509_LosPinosMaster@1to2000_36x36_BE.jpg
       alt: Los Pinos - Oblique Axonometric
