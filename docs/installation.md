@@ -12,12 +12,21 @@ The approach here works on GH Pages through the _Remote Theme_ plugin.
 
 Set up your gems:
 
-- `Gemfile`
+- `Gemfile` for Jekyll 3 and GH Pages.
     ```ruby
     source "https://rubygems.org"
 
     gem "jekyll", "~> 3.9"
     gem "kramdown-parser-gfm", "~> 1.1.0"
+    gem "webrick", "~> 1.7"
+
+    gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
+    ```
+- `Gemfile` for Jekyll 4 and GH Actions.
+    ```ruby
+    source "https://rubygems.org"
+
+    gem "jekyll", "~> 4.2"
     gem "webrick", "~> 1.7"
 
     gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
@@ -29,7 +38,7 @@ e.g. [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemf
    
 ### Add Remote theme
 
-You can also add this if you want to use the Remote Theme plugin to match GitHub Pages.
+You can also add this if you want to use the Remote Theme plugin, to match the GitHub Pages flow closely. This step is optional, even if using Jekyll 3 and GH Pages.
 
 ```ruby
 group :jekyll_plugins do
@@ -65,13 +74,13 @@ Copy these files to your project and then adapt them as needed.
 
 Notes on config file:
 
-- Add this so that GitHub Pages will use the theme:
-    ```yaml
-    remote_theme: MichaelCurrin/fractal
-    ```
-- Locally if you want to ignore Remote Theme plugin, use this (but keep the `remote_theme` line). TODO: See if this breaks the remote set up.
+- Using Jekyll 4 and GH Actions.
     ```yaml
     theme: fractal
+    ```
+- Using Jekyll 3 and GH Pages - configure Remote Theme plugin.
+    ```yaml
+    remote_theme: MichaelCurrin/fractal
     ```
 - You do **not** need to add the `plugins` key to use Remote Theme plugin. As it is already in the plugins group in `Gemfile` and GH Pages is able to pick up that gem and the theme's gems.
 
