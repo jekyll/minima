@@ -13,3 +13,4 @@
     height: "'auto'"
     maxHeight: 500
     effect: "'fade'"
+    transitionDuration: 0
