@@ -12,16 +12,6 @@ The approach here works on GH Pages through the _Remote Theme_ plugin.
 
 Set up your gems:
 
-- `Gemfile` for Jekyll 3 and GH Pages.
-    ```ruby
-    source "https://rubygems.org"
-
-    gem "jekyll", "~> 3.9"
-    gem "kramdown-parser-gfm", "~> 1.1.0"
-    gem "webrick", "~> 1.7"
-
-    gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
-    ```
 - `Gemfile` for Jekyll 4 and GH Actions.
     ```ruby
     source "https://rubygems.org"
@@ -31,10 +21,20 @@ Set up your gems:
 
     gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
     ```
-    
+- `Gemfile` for Jekyll 3 and GH Pages.
+    ```ruby
+    source "https://rubygems.org"
+
+    gem "jekyll", "~> 3.9"
+    gem "kramdown-parser-gfm", "~> 1.1.0"
+    gem "webrick", "~> 1.7"
+
+    gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
+    ``` 
+
 **Warning** - that setup does **not** pin a tag version of the theme. You just get the latest changes that are on `master`.
    
-e.g. [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile)
+e.g. [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile) in Dev Cheatsheets.
    
 ### Add Remote theme
 
