@@ -141,7 +141,7 @@ Yours faithfully
 
 - The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/share/2989388963). If you use this link, I get a $50 bonus in addition.
 
-You do not need a social security number to open your account.
+You do not need a social security number to open your account. However, to apply for a credit card to build your credit rating, you need to link your social security number to your account.
 
 
 
@@ -173,7 +173,9 @@ I will move on to Mint Mobile after buying an iPhone. As I want to continue rece
 
 ## Driving
 
-I do not have a driving license in Singapore. You need to know how to drive to get anywhere in the US. Public transport is very rudimentary. Buses, trams and trains are infrequent, but usually on time.
+I do not have a driving license in Singapore. You need to know how to drive to get anywhere in the US.
+
+Public transport is very rudimentary. Buses, trams and trains are infrequent, but usually on time. You can find the transport map and bike map online for [various](https://www.vta.org/go/maps) [regions](https://www.samtrans.com/schedulesandmaps/maps.html) of the Bay Area.
 
 It is easier to learn how to drive in the US than in Singapore. To learn driving you first need to pass a theory test, then you may drive in the presence of a fully licensed driver. After passing the practical test, you have the full license. The process in Singapore is more complicated.
 
