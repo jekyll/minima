@@ -3,8 +3,8 @@
   captions: true
   bullets: true
   images:
-    - src: /assets/img/projects/losPinos/LosPinos-ObliqueAxon_Artboard-2.png
-      href: /assets/img/projects/losPinos/LosPinos-ObliqueAxon_Artboard-2.png
+    - src: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
+      href: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
       title: Los Pinos
       alt: Oblique Axonometric
     - src: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
