@@ -14,23 +14,23 @@ In this post, I describe my competitive programming setup. I use this set-up for
 Topcoder and Leetcode are not included in this list. You can refer to [another post](https://blog.huikang.dev/2021/05/13/competitive-programming.html) on how I got into competitive programming.
 
 I write to this repository for every contest.
-> https://github.com/tonghuikang/codecomp/ 
+> [https://github.com/tonghuikang/codecomp/](https://github.com/tonghuikang/codecomp/)
 
 
 ## Requirements
 
-These are the consideration on my choice of the competitive programming setup
+These are the consideration on my choice of the competitive programming setup.
 
 - Similar workflows. For each platform, I want to have almost the same tools to write, test and submit my code.
 - Minimal installation. I do not want to install CLI that I do not fully understand its contents.
+- Easy to use. I do not want to use a workflow just for the sake of using it.
 - Easy to set up. When I set up a new computer, I should be able to set up these tools quickly.
 
 
 ## Workflow
 
-This is my current workflow
+This is a summary of my workflow with some explanations.
 
-https://github.com/tonghuikang/codecomp
 
 #### Before the start of the contest
 
@@ -71,5 +71,4 @@ The procedures for interactive problems on Google are stated in the repository. 
 
 ## Conclusion
 
-This is my competitive programming setup and I find it pretty efficient to use. I hope this inspires your setup.
-
+This is my competitive programming setup and I find it pretty efficient to use.  I have been using this workflow for half a year. The most recent addition is the use of the Competitive Companion extension. I hope this inspires your setup.
