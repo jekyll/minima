@@ -1,6 +1,5 @@
 ---
 layout: default
-#image_sliders_load_all: true
 ---
 
 <div class="home">
@@ -28,7 +27,9 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ project.excerpt }}
+          <!-- custom excerpt definition, see; https://cjshelton.github.io/blog/2019/05/27/customising-jekyll-excerpt-start.html -->
+          {% assign excerptParts = project.excerpt | split: "<!-- excerpt-start -->" %}
+          {{ excerptParts[1] }}
         {%- endif -%}
       </li>
       {%- endfor -%}

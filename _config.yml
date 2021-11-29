@@ -50,6 +50,7 @@ theme: minima
 #remote-theme: jeklly/minima
 
 show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: <!-- excerpt-end -->
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -124,9 +125,8 @@ include:
 collections:
   projects:
     output: true
-    school: N/A
-    team:
-      - Berkhan Eminsoy
+    institution: N/A
+    time: N/A
 
 # Header Pages
 # If you want to link only specific pages in your header, uncomment

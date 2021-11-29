@@ -3,16 +3,17 @@
   captions: true
   bullets: true
   images:
-    - src: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
-      href: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
+    - src: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_progTOAA.jpg
+      href: /projects/2021-11-25-losPinos.html
       title: Los Pinos
       alt: Oblique Axonometric
-    - src: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
-      href: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
+    - src: /assets/img/projects/losPinos/InteriorCourtyardCollage_prog.jpg
+      href: /projects/2021-11-25-losPinos.html
       title: Los Pinos
       alt: Interior Courtyard Collage
   settings:
     height: "'auto'"
     maxHeight: 500
-    effect: "'fade'"
+    effect: "'slide'"
     transitionDuration: 0
+    interval: 5000

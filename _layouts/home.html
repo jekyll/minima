@@ -29,7 +29,9 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <!-- custom excerpt definition, see; https://cjshelton.github.io/blog/2019/05/27/customising-jekyll-excerpt-start.html -->
+          {% assign excerptParts = post.excerpt | split: "<!-- excerpt-start -->" %}
+          {{ excerptParts[1] }}
         {%- endif -%}
       </li>
       {%- endfor -%}
