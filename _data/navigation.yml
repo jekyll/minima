@@ -1,0 +1,13 @@
+links:
+
+  - name: home
+    link: /
+
+  - name: log
+    link: /log.md
+
+  - name: about
+    link: /about.md
+
+  - name: contact
+    link: /contact.md

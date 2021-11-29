@@ -1,1 +1,10 @@
 // Placeholder to allow overriding predefined variables smoothly.
+
+// Import custom fonts.
+@import
+  "minima/custom-fonts"; // Hook to override predefined variables.
+
+$base-font-family: "Passenger Sans";
+
+$on-desktop:    1000px;
+$on-xLarge:     $on-desktop;

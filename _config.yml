@@ -11,25 +11,43 @@
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
+
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+#Serving
+port: 1000
+url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/minima" # the subpath of your site, e.g. /blog
+domain: berkhaneminsoy.github.io
+
+locale: "en-US"
 title: jekyll minima master fork build
+description: > # this means to ignore newlines until "show_excerpts:" It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  berkhan eminsoy. architectural designer born in Istanbul, bred in U.S. All things architecture and ancillary.
+copyright: © 2021 Berkhan Eminsoy.
+github: [metadata]
+
+#Site Author
 author:
   name: berkhan 'b' eminsoy
   email: beminsoy@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:" It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  Architectural designer based in Istanbul and NYC. Born in Istanbul, Turkey –trained in the U.S.
+  avatar: 
+  location: 
+  bio: > 
+    architectural designer *trained* in the **US**, *based* in **Istanbul**.
 
-domain: berkhaneminsoy.github.io
-baseurl: "/minima" # the subpath of your site, e.g. /blog
-url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-port: 1000
-github: [metadata]
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+theme: minima
+#remote-theme: jeklly/minima
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -37,11 +55,12 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
+  skin: "classic_+"
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: BerkhanEminsoy
+    github:  BerkhanEminsoy
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -71,20 +90,9 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# Handling Reading
 
-# Build settings
-theme: minima
-
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-remote-theme
- - jekyll-include-cache
-
+# Excludes
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -105,4 +113,56 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages"]
+# Includes
+# refer to; https://github.com/jekyll/jekyll/issues/920#issuecomment-63093764
+include: 
+  - _pages
+#  - _collections
+
+# Collections
+# collections_dir: _collections
+collections:
+  projects:
+    output: true
+    school: N/A
+    team:
+      - Berkhan Eminsoy
+
+# Header Pages
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - _pages/home.md
+  - _pages/work.md
+  - _pages/log.md
+  - _pages/about.md
+  - _pages/history.md
+
+# Plugins (previously gems)
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-remote-theme
+ - jekyll-include-cache
+ - jekyll-archives
+ - jekyll_figure
+
+# Figures
+# settings for the jekyll_figure plug-in by #https://github.com/lmullen/jekyll_figure
+figures:
+  dir: assets/img
+  enumerate: true
+
+# Defaults
+# set defaults for collections & other
+# refer to; https://stackoverflow.com/questions/62104684/managing-jekyll-pages-in-folders-on-github-pages
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:basename/ # make URL of pages in the folder _pages as on the root.
+  - scope:
+      path: "_collections"
+    values:
+      permalink: /:collection/:title/ # make URL of pages in the folder _pages as on the root.

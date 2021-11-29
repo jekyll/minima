@@ -1,2 +1,258 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+//Imports
+/*
+@import
+  //"minima/w3",               // Fetch w3.css
+  //"minima/custom-carousel",  // Defines carousel structure and style base on; https://jekyllcodex.org/without-plugin/slider/#
+  //"minima/custom-slider",    // Defines slider based on; https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_dots2
+  "minima/iis/ideal-image-slider-default",
+  "minima/iis/ideal-image-slider-default_custom",
+  "minima/iis/ideal-image-slider";
+;
+*/
+
+// Base
+
+// Uncomment to display a box around each element.
+/*
+* {
+  border: 1px solid black;
+}
+*/
+
+/** Links
+/* 
+/*/
+/**
+ * Links
+ */
+a {
+  color: $link-base-color;
+  text-decoration: none;
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    background-color: $link-hover-background-color;
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+
+  &:active {
+    background-color: $link-active-color
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Layout
+
+/* vvv Grid vvv */
+
+.aside-left {
+  grid-area: aside;
+
+  @media screen and (max-width: $on-xLarge) {
+    border-top: 2px solid $border-color-03;
+    padding: $spacing-unit/2 0;
+  }
+}
+
+.aside-left-container {
+  position: sticky;
+  top: 100px; // needs to be worked on
+}
+
+.div-home {
+  grid-area: home;
+}
+
+.site-header, .site-footer  {
+  position: sticky;
+  background-color: $background-color;
+  z-index: 30;
+}
+
+.site-header{
+  grid-area: header;
+  top: 0;
+  border-top: 0px solid $border-color-03;
+  border-bottom: 2px solid $border-color-03;
+}
+
+.site-footer {
+  grid-area: footer;
+  bottom: 0;
+  padding: $spacing-unit/2 0;
+  border-top: 2px solid $border-color-03;
+}
+
+.grid {
+  display: grid;
+  padding: 0 $spacing-unit 0 0;
+  //grid-gap: 0 $spacing-unit;
+  grid-template-columns: 250px auto;
+  grid-template-areas: "aside header"
+                       "aside home"
+                       "aside footer";
+
+  @media screen and (max-width: $on-xLarge) {
+    padding: 0 $spacing-unit;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                          "home"
+                          "aside"
+                          "footer";
+  }
+}
+
+/* ^^^ Grid  ^^^ */
+
+.site-title {
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+// Site Nav Bar Style overrides
+
+.site-nav {
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit / 2;
+  background-color: $background-color;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  text-align: right;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: left;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+      margin: 0 auto;
+
+      & > li:not(:last-child)::after {
+        content: "///";
+        margin: 0 20px;
+      }
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+      margin-left: auto;
+    }
+  }
+}
+
+// Footer styling
+
+.footer-col {
+  margin-bottom: auto;
+
+  & > p {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $on-medium) {
+  .footer-col-wrapper {
+    display: flex
+  }
+
+  .footer-col {
+    width: calc(100% - (#{$spacing-unit} / 2));
+    padding: 0;
+
+    & > p {
+      margin-bottom: 0;
+    }
+
+    &:first-child {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+// RSS Feed
+
+.feed-subscribe .svg-icon {
+  box-sizing: initial;
+}

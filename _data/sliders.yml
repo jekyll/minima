@@ -1,0 +1,18 @@
+# example slider
+- selector: losPinos_slider
+  captions: true
+  bullets: true
+  images:
+    - src: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
+      href: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_TOAAInterlace.png
+      title: Los Pinos
+      alt: Oblique Axonometric
+    - src: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
+      href: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
+      title: Los Pinos
+      alt: Interior Courtyard Collage
+  settings:
+    height: "'auto'"
+    maxHeight: 500
+    effect: "'fade'"
+    transitionDuration: 0
