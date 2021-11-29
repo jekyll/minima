@@ -2,17 +2,16 @@ name: Jekyll Deploy
 
 on:   
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: 
+      - master
 
 jobs: 
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build & Deploy to GitHub Pages
-        uses: BerkhanEminsoy/minima@master
+      - uses: actions/checkout@v2
+      - name: Jekyll Actions
+        uses: helaili/jekyll-action@2.2.0
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
