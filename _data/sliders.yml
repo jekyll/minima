@@ -8,6 +8,8 @@
       title: Los Pinos
       alt: Oblique Axonometric
     - src: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
+      href: /assets/img/projects/losPinos/InteriorCourtyardCollage.png
+      title: Los Pinos
       alt: Interior Courtyard Collage
   settings:
     height: "'auto'"
