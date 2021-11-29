@@ -153,6 +153,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Google"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://scholar.google.com/citations?user=l9RkNuIAAAAJ&hl=en&authuser=1#d=gs_hdr_drw"
 
 
 # Reading Files
