@@ -19,6 +19,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-remote-theme"
   gem "minima", "~> 2.5"
   gem "jekyll-timeago", "~> 0.13.1"
   gem "jekyll-feed", "~> 0.12"
