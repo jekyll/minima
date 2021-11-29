@@ -10,7 +10,7 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: Build & Deploy to GitHub Pages
         uses: BerkhanEminsoy/minima@master
         env: 
