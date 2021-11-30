@@ -2,8 +2,7 @@ name: build_and_deploy
 
 on:
   push:
-    branches:
-      master
+    branches: [master]
 
 jobs:
   jekyll:
