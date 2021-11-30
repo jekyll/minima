@@ -22,7 +22,7 @@
 #Serving
 port: 1000
 url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/minima" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 domain: berkhaneminsoy.github.io
 
 locale: "en-US"
