@@ -1,7 +1,7 @@
 ---
 layout: projectpost
 title: "Los Pinos – La Comunidad Extendida"
-institution: columbia
+institution: Columbia GSAPP
 categories: retail
 team:
   - Berkhan Eminsoy
