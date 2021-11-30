@@ -31,8 +31,10 @@
 a {
   color: $link-base-color;
   text-decoration: none;
+
   &:visited {
-    color: $link-visited-color;
+    color: $brand-color;
+    background-color: $brand-color-light;
   }
 
   &:hover {
@@ -121,6 +123,26 @@ a {
   &:hover {
     color: $link-hover-color;
   }
+}
+
+.project-meta {
+  display: inline-block;
+  font-size: $small-font-size;
+  background-color: $link-hover-background-color;
+  color: $link-hover-color;
+  line-height: 85%;
+}
+
+.project-meta-2 {
+  display: inline-block;
+  font-size: $small-font-size;
+}
+
+.project-link {
+  display: block;
+  @include relative-font-size(1.5);
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 // Site Nav Bar Style overrides

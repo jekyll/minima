@@ -19,6 +19,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
   gem "jekyll-remote-theme"
   gem "minima", "~> 2.5"
   gem "jekyll-timeago", "~> 0.13.1"
@@ -26,7 +27,8 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~>1.4"
   gem "jekyll-archives"
   gem "jekyll_figure"
-  gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
+  gem "jemoji"
+  gem "titleize"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

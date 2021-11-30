@@ -20,12 +20,13 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for project in projects -%}
       <li>
-        <span class="post-meta">{{ project.date | date: date_format }}</span>
+        <span class="project-meta">{{ project.quarter | upcase }} /// {{ project.institution }} /// {{ project.sequence | upcase}} /// {{ project.studio_title | titleize }}</span>
         <h3>
-          <a class="post-link" href="{{ project.url | relative_url }}">
+          <a class="project-link" href="{{ project.url | relative_url }}">
             {{ project.title | escape }}
           </a>
         </h3>
+        <span class="project-meta-2">instructors: <strong>{{ project.instructors | join: " + " | titleize }}</strong><br>team: <strong>{{ project.team | join: ' + ' | titleize }}</strong></span>
         {%- if site.show_excerpts -%}
           <!-- custom excerpt definition, see; https://cjshelton.github.io/blog/2019/05/27/customising-jekyll-excerpt-start.html -->
           {% assign excerptParts = project.excerpt | split: "<!-- excerpt-start -->" %}

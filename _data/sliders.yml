@@ -4,11 +4,11 @@
   bullets: true
   images:
     - src: /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_progTOAA.jpg
-      href: /projects/losPinos.html
+      href: /projects/losPinos
       title: Los Pinos
       alt: Oblique Axonometric
     - src: /assets/img/projects/losPinos/InteriorCourtyardCollage_prog.jpg
-      href: /projects/losPinos.html
+      href: /projects/losPinos
       title: Los Pinos
       alt: Interior Courtyard Collage
   settings:
