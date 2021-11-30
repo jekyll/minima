@@ -125,8 +125,7 @@ include:
 collections:
   projects:
     output: true
-    institution: N/A
-    time: N/A
+    sort_by: institution
 
 # Header Pages
 # If you want to link only specific pages in your header, uncomment
@@ -146,6 +145,8 @@ plugins:
  - jekyll-include-cache
  - jekyll-archives
  - jekyll_figure
+ - jemoji
+ - titleize
 
 # Figures
 # settings for the jekyll_figure plug-in by #https://github.com/lmullen/jekyll_figure
@@ -166,3 +167,14 @@ defaults:
       path: "_collections"
     values:
       permalink: /:collection/:title/ # make URL of pages in the folder _pages as on the root.
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      permalink: /:collection/:title/ # make URL of pages in the folder _pages as on the root.
+      layout: projectPost
+      quarter: N/A
+      institution: N/A
+
+      studio_title: N/A
+

@@ -1,13 +1,18 @@
 ---
-layout: projectpost
 title: "Los Pinos – La Comunidad Extendida"
+quarter: sp '20
 institution: Columbia GSAPP
-categories: retail
+sequence: adv vi
+studio_title: havana micro-x
+instructors:
+  - olga aleksakova
+  - julia burdova
+  - esteban de backer
 team:
-  - Berkhan Eminsoy
-  - Goose McGoose
-institution: N/A
-time: sp '20
+  - berkhan eminsoy
+  - sirenia yookyung kim
+categories: housing
+tags: housing social-housing CUBA Habana
 image_sliders:
   - losPinos_slider
 ---
