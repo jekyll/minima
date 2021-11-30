@@ -39,7 +39,7 @@ author:
   avatar: 
   location: 
   bio: > 
-    architectural designer *trained* in the **US**, *based* in **Istanbul**.
+    architectural designer **born** in *Istanbul*, **trained** in the *US*.
 
 # Theme Settings
 #
@@ -132,11 +132,11 @@ collections:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - _pages/home.md
-  - _pages/work.md
+  - index.html
+#  - _pages/work.md
   - _pages/log.md
   - _pages/about.md
-  - _pages/history.md
+#  - _pages/history.md
 
 # Plugins (previously gems)
 plugins:

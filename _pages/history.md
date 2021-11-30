@@ -3,8 +3,6 @@ layout: page
 title: version history
 permalink: /versionhistory/
 ---
-## Version History
-
 ### Documentation
 
   * Forward port v2.5.1 release (#399)
