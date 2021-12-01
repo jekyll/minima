@@ -18,7 +18,7 @@ image_sliders:
   - losPinos_slider
 ---
 [![Los Pinos Neighborhood - Oblique Axonometric Drawing]({% link /assets/img/projects/losPinos/ObliqueAxon_Artboard-2_progTOAA.jpg %})][1]
-*Los Pinos Neighborhood - Oblique Axonometric Drawing*
+Los Pinos Neighborhood - *Oblique Axonometric Drawing*
 
 [![Interior Courtyard Collage]({% link /assets/img/projects/losPinos/InteriorCourtyardCollage_prog.jpg %})][2]
 *Interior Courtyard Collage*

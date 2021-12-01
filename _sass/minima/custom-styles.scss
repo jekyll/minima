@@ -151,25 +151,55 @@ a {
   border-bottom: 2px solid $text-color;
 
   & > li {
-    display: inline;
+    display: inline-flex;
   }
 
   & > li:not(:last-child)::after {
     content: "///";
     padding: 0 20px;
   }
+
+  @media screen and (max-width: $on-xLarge) {
+    & > li {
+      line-height: initial;
+    }
+  }
 }
 
 .project-link {
   display: inline-block;
   @include relative-font-size(1.5);
-  font-weight: bold;
+  font-family: $base-font-family-medium;
   letter-spacing: -0.5px;
 }
 
 .project-meta {
   font-size: $small-font-size;
   margin: 0 0 $spacing-unit/2 0;
+  
+  & .project-location {
+    float: right;
+  }
+
+  @media screen and (max-width: $on-large) {
+    display: block;
+
+    & .project-location {
+      display: block;
+      float: none;
+    }
+  }
+}
+
+/**
+ * Posts
+ */
+.post-title {
+  font-family: $base-font-family-medium;
+}
+
+.post-content p{
+  font-family: $text-font-family;
 }
 
 /**

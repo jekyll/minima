@@ -33,7 +33,7 @@ layout: default
         </h3>
         <div class="project-meta">
           {% if project.location %}
-            <span style="float: right;"><em>{{ project.location | titleize }}</em></span>
+          <span class="project-location"><em>{{ project.location | titleize }}</em></span>
           {% endif %}
           {% if project.instructors %}
             <span>instructors: <strong>{{ project.instructors | join: " + " | titleize }}</strong></span>
