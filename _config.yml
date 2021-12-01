@@ -1,3 +1,4 @@
+############################################################
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -14,11 +15,11 @@
 
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# These are used to personalize your new site.
+# If you look in the HTML files, you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible in the templates via {{ site.myvariable }}.
 
+############################################################
 #Serving
 port: 1000
 url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,6 +33,12 @@ description: > # this means to ignore newlines until "show_excerpts:" It will ap
 copyright: © 2021 Berkhan Eminsoy.
 github: [metadata]
 
+############################################################
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
 #Site Author
 author:
   name: berkhan 'b' eminsoy
@@ -40,11 +47,6 @@ author:
   location: 
   bio: > 
     architectural designer **born** in *Istanbul*, **trained** in the *US*.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme: minima
 #remote-theme: jeklly/minima
@@ -91,6 +93,7 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
+############################################################
 # Handling Reading
 
 # Excludes
@@ -120,6 +123,7 @@ include:
   - _pages
 #  - _collections
 
+############################################################
 # Collections
 # collections_dir: _collections
 collections:
@@ -127,6 +131,7 @@ collections:
     output: true
     sort_by: institution
 
+############################################################
 # Header Pages
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -137,6 +142,7 @@ header_pages:
   - _pages/about.md
 #  - _pages/history.md
 
+############################################################
 # Plugins (previously gems)
 plugins:
  - jekyll-feed
@@ -144,20 +150,29 @@ plugins:
  - jekyll-remote-theme
  - jekyll-include-cache
  - jekyll-archives
+ - jekyll/scholar
+ - jekyll-webp
+ - jekyll-loading-lazy
  - jekyll_figure
  - jemoji
  - titleize
 
+############################################################
 # Figures
-# settings for the jekyll_figure plug-in by #https://github.com/lmullen/jekyll_figure
+# settings for the jekyll_figure plug-in by; https://github.com/lmullen/jekyll_figure
 figures:
   dir: assets/img
   enumerate: true
 
+############################################################
 # Defaults
 # set defaults for collections & other
 # refer to; https://stackoverflow.com/questions/62104684/managing-jekyll-pages-in-folders-on-github-pages
 defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
   - scope:
       path: "_pages"
       type: "pages"
@@ -173,8 +188,49 @@ defaults:
     values:
       permalink: /:collection/:title/ # make URL of pages in the folder _pages as on the root.
       layout: projectPost
-      quarter: N/A
-      institution: N/A
+      quarter: n/a
+      institution: n/a
+      sequence: n/a
+      studioTitle: n/a
 
-      studio_title: N/A
+############################################################
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+  
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
 
+  # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/assets/img"]
+
+  # Whether to search in nested directories or not
+  nested: true
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files 
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  webp_path: nil
+
+  # List of files or directories to explicitly include 
+  # e.g. single files outside of the main image directories
+  # include: []
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: ["assets/img/icon.ico"]
+
+  # append '.webp' to filename after original extension rather than replacing it.
+  # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
+  append_ext: false
+############################################################

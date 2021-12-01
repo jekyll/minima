@@ -11,7 +11,9 @@
 .ideal-image-slider {
 	position: relative;
 	overflow: hidden;
+  margin: 30px 0; /* 30px is equal to $spacing-unit */
 }
+
 .iis-slide {
 	display: block;
 	bottom: 0;
