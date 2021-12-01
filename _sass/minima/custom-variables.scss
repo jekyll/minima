@@ -4,8 +4,9 @@
 @import
   "minima/custom-fonts"; // Hook to override predefined variables.
 
-$base-font-family: "Passenger Sans";
-$text-font-family: "newCM-10", Georgia, "Passenger Sans Light";
+$base-font-family: "Passenger Sans", Helvetica, Arial;
+$base-font-family-medium: "Passenger Sans Medium", Helvetica, Arial;
+$text-font-family: "newCM-10", "Passenger Sans Light", Georgia;
 
 $on-desktop:    1000px;
 $on-xLarge:     $on-desktop;
