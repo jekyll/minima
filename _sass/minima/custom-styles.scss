@@ -29,12 +29,13 @@
  * Links
  */
 a {
+  //background-color: $background-color;
   color: $link-base-color;
   text-decoration: none;
 
   &:visited {
     color: $brand-color;
-    background-color: $brand-color-light;
+    //background-color: $brand-color-light; //only works if 'a'.background-color is also defined
   }
 
   &:hover {
@@ -119,33 +120,61 @@ a {
 
 /* ^^^ Grid  ^^^ */
 
-.site-title {
+/**
+ * Site header
+ */
+
+ .site-title {
   &:hover {
     color: $link-hover-color;
   }
 }
+ 
+/**
+ * Page content
+ */
 
-.project-meta {
-  display: inline-block;
-  font-size: $small-font-size;
-  background-color: $link-hover-background-color;
-  color: $link-hover-color;
-  line-height: 85%;
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  & p {
+    font-family: $text-font-family;
+  }
 }
 
-.project-meta-2 {
-  display: inline-block;
+.project-meta-header {
+  list-style: none;
   font-size: $small-font-size;
+  line-height: 75%;
+  padding: 0 0 $spacing-unit/4 0;
+  margin: 0 0 $spacing-unit/2 0; //gap between project-meta-list & project-link
+  border-bottom: 2px solid $text-color;
+
+  & > li {
+    display: inline;
+  }
+
+  & > li:not(:last-child)::after {
+    content: "///";
+    padding: 0 20px;
+  }
 }
 
 .project-link {
-  display: block;
+  display: inline-block;
   @include relative-font-size(1.5);
   font-weight: bold;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
-// Site Nav Bar Style overrides
+.project-meta {
+  font-size: $small-font-size;
+  margin: 0 0 $spacing-unit/2 0;
+}
+
+/**
+ * Site Nav Bar Style overrides
+ */
 
 .site-nav {
   position: absolute;

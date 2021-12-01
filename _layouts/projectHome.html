@@ -20,13 +20,32 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for project in projects -%}
       <li>
-        <span class="project-meta">{{ project.quarter | upcase }} /// {{ project.institution }} /// {{ project.sequence | upcase}} /// {{ project.studio_title | titleize }}</span>
+        <ul class="project-meta-header">
+          <li>{{ project.quarter | upcase }}</li>
+          <li>{{ project.institution }}</li>
+          <li>{{ project.sequence | upcase}}</li>
+          <li>{{ project.studioTitle | titleize }}</li>
+        </ul>
         <h3>
           <a class="project-link" href="{{ project.url | relative_url }}">
             {{ project.title | escape }}
           </a>
         </h3>
-        <span class="project-meta-2">instructors: <strong>{{ project.instructors | join: " + " | titleize }}</strong><br>team: <strong>{{ project.team | join: ' + ' | titleize }}</strong></span>
+        <div class="project-meta">
+          {% if project.location %}
+            <span style="float: right;"><em>{{ project.location | titleize }}</em></span>
+          {% endif %}
+          {% if project.instructors %}
+            <span>instructors: <strong>{{ project.instructors | join: " + " | titleize }}</strong></span>
+          {% endif %}
+          <br>
+          {% if project.team %}
+            <span>team: <strong>{{ project.team | join: ' + ' | titleize }}</strong></span>
+          {% endif %}
+          {% if project.teachingAssistants %}
+          <span>teaching assistants: <strong>{{ project.teachingAssistants | join: ' + ' | titleize }}</strong></span>
+          {% endif %}
+        </div>
         {%- if site.show_excerpts -%}
           <!-- custom excerpt definition, see; https://cjshelton.github.io/blog/2019/05/27/customising-jekyll-excerpt-start.html -->
           {% assign excerptParts = project.excerpt | split: "<!-- excerpt-start -->" %}

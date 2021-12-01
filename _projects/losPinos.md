@@ -1,9 +1,10 @@
 ---
-title: "Los Pinos – La Comunidad Extendida"
+title: "Los Pinos –La Comunidad Extendida"
 quarter: sp '20
 institution: Columbia GSAPP
 sequence: adv vi
-studio_title: havana micro-x
+studioTitle: havana micro-x
+location: Habana, CUBA
 instructors:
   - olga aleksakova
   - julia burdova
