@@ -1,0 +1,191 @@
+\documentclass{article}
+\pagestyle{empty}
+%\usepackage{xgreek,graphicx}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{greek}
+\setotherlanguage{russian}
+
+\usepackage{fontspec}
+\usepackage{unicode-math}
+
+
+\RequirePackage{fontspec}
+\RequirePackage{unicode-math}
+\setmainfont[%
+ItalicFont=NewCM10-BookItalic.otf,%
+BoldFont=NewCM10-Bold.otf,%
+BoldItalicFont=NewCM10-BoldItalic.otf,%
+SmallCapsFeatures={Numbers=OldStyle}]{NewCM10-Book.otf}
+
+\setsansfont[%
+ItalicFont=NewCMSans10-BookOblique.otf,%
+BoldFont=NewCMSans10-Bold.otf,%
+BoldItalicFont=NewCMSans10-BoldOblique.otf,%
+SmallCapsFeatures={Numbers=OldStyle}]{NewCMSans10-Book.otf}
+
+\setmonofont[ItalicFont=NewCMMono10-BookItalic.otf,%
+BoldFont=NewCMMono10-Bold.otf,%
+BoldItalicFont=NewCMMono10-BoldOblique.otf,%
+SmallCapsFeatures={Numbers=OldStyle}]{NewCMMono10-Book.otf}
+
+\setmathfont{NewCMMath-Book.otf}
+
+\newcommand{\tttextsc}[1]{{\ttscshape#1}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{theoremg}[theorem]{Θεώρημα}
+\newtheorem{theoremr}[theorem]{теорема}
+
+\begin{document}
+
+---A
+
+\begin{theorem}[Dominated convergence of Lebesgue]
+Assume that $g$ is an
+in\-te\-grable func\-tion defined on the measurable set $E$ and that
+  $(f_n)_{n\in\mathbb N}$ is a sequence of mea\-sur\-able functions so that
+  $|f_n|\leq g$. If $f$ is a function so that $f_n\to f$ almost everywhere
+  then $$\lim_{n\to\infty}\int f_n=\int f.$$
+\end{theorem}
+\textsc{Proof}: The function $g-f_n$ is non-negative and thus from Fatou lemma
+we have that $\int(g-f)\leq\liminf\int(g-f_n)$. Since $|f|\leq g$ and
+$|f_n|\leq g$ the  functions $f$ and $f_n$ are integrable and we have
+$$\int g-\int f\leq \int g-\limsup\int f_n,$$ so
+$$\int f\geq \limsup \int f_n.$$
+
+\selectlanguage{greek}
+\begin{theoremg}[Κυριαρχημένης σύγκλισης του Lebesgue]
+  Έστω ότι
+η $g$ είναι μια ολοκληρώσιμη συνάρτηση ορισμένη στο μετρήσιμο σύνολο
+$E$ και η $(f_n)_{n\in\mathbb N}$ είναι μια ακολουθία μετρήσιμων συναρτήσεων ώστε
+$|f_n| ≤ g$. Υποθέτουμε ότι υπάρχει μια συνάρτηση $f$
+ώστε η  $(f_n)_{n\in\mathbb N}$ να
+τείνει στην $f$ σχεδόν παντού. Τότε
+$$\lim \int f_n =\int f.$$
+\end{theoremg}
+\textsc{Απόδειξη}: Η συνάρτηση $g − f_n$ είναι μη αρνητική και άρα από
+το Λήμμα του Fatou ισχύει
+$\int (f-g) ≤ \liminf \int (g-f_n)$. Επειδή
+$|f| ≤ g$ και $|f_n| ≤g$ οι $f$ και $f_n$ είναι ολοκληρώσιμες, έχουμε
+$$\int g −\int f ≤ \int g − \limsup\int f_n,$$
+άρα
+$$\int f\geq \limsup \int f_n.$$
+
+\selectlanguage{russian}
+Thanks to Сергей Мартынов for the translation to Russian:
+\begin{theoremr}
+Предположим, что $g$ является
+интегрируемой функцией, определенной на измеримом множестве $E$, и
+$(f_n)_{n\in\mathbb N}$ представляет собой последовательность измеримой функции, так что
+   $|f_n|\leq g$. Если $f$ является функцией, так что $f_n\to f$ почти везде,
+   тогда
+$$\lim \int f_n =\int f.$$
+\end{theoremr}
+
+\newpage
+
+
+\selectlanguage{english}
+\sffamily
+
+\begin{theorem}[Dominated convergence of Lebesgue]
+Assume that $g$ is an
+in\-te\-grable func\-tion defined on the measurable set $E$ and that
+  $(f_n)_{n\in\mathbb N}$ is a sequence of mea\-sur\-able functions so that
+  $|f_n|\leq g$. If $f$ is a function so that $f_n\to f$ almost everywhere
+  then $$\lim_{n\to\infty}\int f_n=\int f.$$
+\end{theorem}
+\textsc{Proof}: The function $g-f_n$ is non-negative and thus from Fatou lemma
+we have that $\int(g-f)\leq\liminf\int(g-f_n)$. Since $|f|\leq g$ and
+$|f_n|\leq g$ the  functions $f$ and $f_n$ are integrable and we have
+$$\int g-\int f\leq \int g-\limsup\int f_n,$$ so
+$$\int f\geq \limsup \int f_n.$$
+
+\selectlanguage{greek}
+
+\begin{theoremg}[Κυριαρχημένης σύγκλισης του Lebesgue]
+  Έστω ότι
+η $g$ είναι μια ολοκληρώσιμη συνάρτηση ορισμένη στο μετρήσιμο σύνολο
+$E$ και η $(f_n)_{n\in\mathbb N}$ είναι μια ακολουθία μετρήσιμων συναρτήσεων ώστε
+$|f_n| ≤ g$. Υποθέτουμε ότι υπάρχει μια συνάρτηση $f$
+ώστε η  $(f_n)_{n\in\mathbb N}$ να
+τείνει στην $f$ σχεδόν παντού. Τότε
+$$\lim \int f_n =\int f.$$
+\end{theoremg}
+\textsc{Απόδειξη}: Η συνάρτηση $g − f_n$ είναι μη αρνητική και άρα από
+το Λήμμα του Fatou ισχύει
+$\int (f-g) ≤ \liminf \int (g-f_n)$. Επειδή
+$|f| ≤ g$ και $|f_n| ≤g$ οι $f$ και $f_n$ είναι ολοκληρώσιμες, έχουμε
+$$\int g −\int f ≤ \int g − \limsup\int f_n,$$
+άρα
+$$\int f\geq \limsup \int f_n.$$
+
+\selectlanguage{russian}
+
+Thanks to Сергей Мартынов for the translation to Russian:
+\begin{theoremr}
+Предположим, что $g$ является
+интегрируемой функцией, определенной на измеримом множестве $E$, и
+$(f_n)_{n\in\mathbb N}$ представляет собой последовательность измеримой функции, так что
+   $|f_n|\leq g$. Если $f$ является функцией, так что $f_n\to f$ почти везде,
+   тогда
+$$\lim \int f_n =\int f.$$
+\end{theoremr}
+
+
+
+
+\newpage
+
+
+\selectlanguage{english}
+\ttfamily
+
+\begin{theorem}[Dominated convergence of Lebesgue]
+Assume that $g$ is an
+in\-te\-grable func\-tion defined on the measurable set $E$ and that
+  $(f_n)_{n\in\mathbb N}$ is a sequence of mea\-sur\-able functions so that
+  $|f_n|\leq g$. If $f$ is a function so that $f_n\to f$ almost everywhere
+  then $$\lim_{n\to\infty}\int f_n=\int f.$$
+\end{theorem}
+\textsc{Proof}: The function $g-f_n$ is non-negative and thus from Fatou lemma
+we have that $\int(g-f)\leq\liminf\int(g-f_n)$. Since $|f|\leq g$ and
+$|f_n|\leq g$ the  functions $f$ and $f_n$ are integrable and we have
+$$\int g-\int f\leq \int g-\limsup\int f_n,$$ so
+$$\int f\geq \limsup \int f_n.$$
+
+
+\selectlanguage{greek}
+
+\begin{theoremg}[Κυριαρχημένης σύγκλισης του Lebesgue]
+  Έστω ότι
+η $g$ είναι μια ολοκληρώσιμη συνάρτηση ορισμένη στο μετρήσιμο σύνολο
+$E$ και η $(f_n)_{n\in\mathbb N}$ είναι μια ακολουθία μετρήσιμων συναρτήσεων ώστε
+$|f_n| ≤ g$. Υποθέτουμε ότι υπάρχει μια συνάρτηση $f$
+ώστε η  $(f_n)_{n\in\mathbb N}$ να
+τείνει στην $f$ σχεδόν παντού. Τότε
+$$\lim \int f_n =\int f.$$
+\end{theoremg}
+\textsc{Απόδειξη}: Η συνάρτηση $g − f_n$ είναι μη αρνητική και άρα από
+το Λήμμα του Fatou ισχύει
+$\int (f-g) ≤ \liminf \int (g-f_n)$. Επειδή
+$|f| ≤ g$ και $|f_n| ≤g$ οι $f$ και $f_n$ είναι ολοκληρώσιμες, έχουμε
+$$\int g −\int f ≤ \int g − \limsup\int f_n,$$
+άρα
+$$\int f\geq \limsup \int f_n.$$
+
+
+\selectlanguage{russian}
+Thanks to Сергей Мартынов for the translation to Russian:
+\begin{theoremr}
+Предположим, что $g$ является
+интегрируемой функцией, определенной на измеримом множестве $E$, и
+$(f_n)_{n\in\mathbb N}$ представляет собой последовательность измеримой функции, так что
+   $|f_n|\leq g$. Если $f$ является функцией, так что $f_n\to f$ почти везде,
+   тогда
+$$\lim \int f_n =\int f.$$
+\end{theoremr}
+
+
+\end{document}

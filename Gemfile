@@ -33,6 +33,7 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
   gem "jekyll-webp"
   gem "jekyll-loading-lazy"
+#  gem "jekyll-spaceship"
   gem "jekyll_figure"
 end
 

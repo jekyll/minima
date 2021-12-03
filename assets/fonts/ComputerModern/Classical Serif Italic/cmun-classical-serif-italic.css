@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Computer Modern Classical Serif Italic';
+	src: url('cmunci.eot');
+	src: url('cmunci.eot?#iefix') format('embedded-opentype'),
+		 url('cmunci.woff') format('woff'),
+		 url('cmunci.ttf') format('truetype'),
+		 url('cmunci.svg#cmunci') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+

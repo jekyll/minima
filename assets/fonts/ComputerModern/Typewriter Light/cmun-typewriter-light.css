@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Computer Modern Typewriter Light';
+	src: url('cmunbtl.eot');
+	src: url('cmunbtl.eot?#iefix') format('embedded-opentype'),
+		 url('cmunbtl.woff') format('woff'),
+		 url('cmunbtl.ttf') format('truetype'),
+		 url('cmunbtl.svg#cmuntt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter Light';
+	src: url('cmunbto.eot');
+	src: url('cmunbto.eot?#iefix') format('embedded-opentype'),
+		 url('cmunbto.woff') format('woff'),
+		 url('cmunbto.ttf') format('truetype'),
+		 url('cmunbto.svg#cmunbto') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+

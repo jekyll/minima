@@ -1,0 +1,15 @@
+%\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{newcomputermodern}[v3.93 NewCM fonts by Antonis Tsolomitis]
+\typeout{Loading NewCM fonts by Antonis Tsolomitis}
+
+\newif\if@olddefault
+\DeclareOption{regular}{\@olddefaulttrue}
+\ProcessOptions\relax
+
+\if@olddefault
+ \RequirePackage{fspolddefault}
+ \else
+ \RequirePackage{fspdefault}
+ \fi
+\endinput
+

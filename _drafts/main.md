@@ -1,0 +1,165 @@
+---
+---
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 2.0 (6/7/2019)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default document font size
+
+\input{structure.tex} % Include the file specifying the document structure and styling
+
+% Set PDF meta-information
+\hypersetup{
+	pdftitle={Albert Einstein - Curriculum vitae},
+	pdfauthor={Albert Einstein}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+{\LARGE\bfseries Albert Einstein} % Name
+\bigskip\bigskip\medskip % Whitespace
+
+Institute for Advanced Study\\ % Address
+Einstein Drive\\ Princeton, N.J. 08540 USA
+\medskip % Whitespace
+
+Phone: 609-734-8000\\ % Phone number
+Mobile: 609-924-8399 % Mobile number
+\medskip % Whitespace
+
+Email: \href{mailto:a.einstein@ias.edu}{a.einstein@ias.edu}\\ % Email address
+\textsc{url}: \href{http://www.ias.edu/spfeatures/einstein/}{http://www.ias.edu/spfeatures/einstein/}\\ % Academic/personal website
+
+\vspace{0.06\textheight} % Whitespace between contact information and specific CV information
+
+%------------------------------------------------
+
+Born: March 12, 1879---Ulm, Germany\\ % Date of birth
+Nationality: German/American % Nationality
+
+%------------------------------------------------
+
+\section*{Current position}
+
+\emph{Emeritus Professor}, Institute for Advanced Study, Princeton % Current or most recent employment position
+
+%------------------------------------------------
+
+\section*{Areas of specialisation}
+
+Physics; Relativity Theory % Primary areas of research interest
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section*{Appointments held}
+
+\years{1903-1908}Swiss Patent Office, Bern\\
+\years{1908-1911}University of Bern\\
+\years{1911-1912}University of Zürich\\
+\years{1912-1914}Charles University of Prague\\
+\years{1914-1932}Prussian Academy of Sciences, Berlin\\
+\years{1920-1930}University of Leiden\\
+\years{1932-1955}Institute for Advanced Study, Princeton
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section*{Education}
+
+\years{1900}\textsc{MSc} in Physics, ETH Zürich\\
+\years{1900}\textsc{PhD} in Physics, ETH Zürich
+
+%----------------------------------------------------------------------------------------
+%	GRANTS, HONOURS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\end{document}\section*{Grants, honours \& awards}
+
+\years{1921}Nobel Prize in Physics, Nobel Foundation
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS AND TALKS
+%----------------------------------------------------------------------------------------
+
+\section*{Publications \& talks}
+
+\subsection*{Journal articles}
+
+\years{1901}Einstein, Albert (1901), “Folgerungen aus den Capillaritätserscheinungen (Conclusions Drawn from the Phenomena of Capillarity)", \emph{Annalen der Physik} 4: 513\\
+\years{1905a}Einstein, Albert (1905), “On a Heuristic Viewpoint Concerning the Production and Transformation of Light", \emph{Annalen der Physik} 17: 132–148.\\
+\years{1905b}Einstein, Albert (1905), A new determination of molecular dimensions. \emph{PhD dissertation}.\\
+\years{1905c}Einstein, Albert (1905), “On the Motion—Required by the Molecular Kinetic Theory of Heat—of Small Particles Suspended in a Stationary Liquid", \emph{Annalen der Physik} 17: 549–560.\\
+\years{1905d}Einstein, Albert (1905), “On the Electrodynamics of Moving Bodies", \emph{Annalen der Physik} 17: 891–921.\\
+\years{1905e}Einstein, Albert (1905), “Does the Inertia of a Body Depend Upon Its Energy Content?", \emph{Annalen der Physik} 18: 639–641.\\
+\years{1915}Einstein, Albert (1915), “Die Feldgleichungen der Gravitation (The Field Equations of Gravitation)", \emph{Koniglich Preussische Akademie der Wissenschaften}: 844–847\\
+\years{1917a}Einstein, Albert (1917), “Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie (Cosmological Considerations in the General Theory of Relativity)", \emph{Koniglich Preussische Akademie der Wissenschaften}\\
+\years{1917b}Einstein, Albert (1917), “Zur Quantentheorie der Strahlung (On the Quantum Mechanics of Radiation)", \emph{Physikalische Zeitschrift} 18: 121–128
+
+%------------------------------------------------
+
+\subsection*{Books}
+
+\years{1954}Einstein, Albert (1954), \emph{Ideas and Opinions}, New York: Random House, ISBN 0-517-00393-7
+
+%------------------------------------------------
+
+\subsection*{Newspaper articles}
+
+\years{1940}Einstein, Albert, et al. (December 4, 1948), “To the editors", \emph{New York Times}\\
+\years{1949}Einstein, Albert (May 1949), “Why Socialism?", \emph{Monthly Review}.
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section*{Teaching}
+
+\ldots
+
+%------------------------------------------------
+
+\section*{Service to the profession}
+
+\ldots
+
+\vfill % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+% Any final footer text such as a URL to the latest version of this CV, last updated date, compiled in XeTeX, etc
+\begin{center}
+	\scriptsize
+	Last updated: \today~~\raisebox{-0.5pt}{\textbullet}~~\href{https://www.LaTeXTemplates.com}{https://www.LaTeXTemplates.com}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

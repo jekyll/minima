@@ -1,0 +1,24 @@
+/**
+
+ * Font Family: diatype Programm
+ *
+ * Font Styles:
+ * 
+ *
+ *
+
+*/
+
+@font-face {
+  font-family: 'Diatype-Programm';
+  src: url('DiatypeProgrammFinal.OTF') format('opentype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Diatype-Programm-Italic';
+  src: url('DiatypeProgrammItalicFinal.OTF') format('opentype');
+  font-display: swap;
+  font-style: italic;
+}

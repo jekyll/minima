@@ -1,0 +1,73 @@
+/**
+
+ * Font Family: Swis721 BT
+ *
+ * Font Styles:
+ * Swis721 BT
+ * Swis721 Italic BT
+ * Swis721 Bold BT
+ * Swis721 Bold Italic BT
+ * Swis721 Condensed BT
+ * Swis721 Condensed Italic BT
+ * Swis721 Condensed Bold BT
+ * Swis721 Condensed Bold Italic BT
+ *
+ *
+
+*/
+
+@font-face {
+  font-family: 'Swis721-BT';
+  src: url('swiss.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swis721-Italic-BT';
+  src: url('swissi.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swis721-Bold-BT';
+  src: url('swissb.ttf') format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swis721-Bold-Italic-BT';
+  src: url('swissbi.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swis721-Cn-BT';
+  src: url('swissc.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swis721-Cn-Italic-BT';
+  src: url('swissci.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swis721-Cn-Bold-BT';
+  src: url('swisscb.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Swis721-Cn-Bold-Italic-BT';
+  src: url('swisscbi.ttf') format('truetype');
+  font-display: swap;
+  font-style: italic;
+}

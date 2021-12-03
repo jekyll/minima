@@ -27,19 +27,14 @@ url: "https://berkhaneminsoy.github.io" # the base hostname & protocol for your 
 domain: berkhaneminsoy.github.io
 
 locale: "en-US"
-title: jekyll minima master fork build
+title: berkhan 'b' eminsoy
 description: > # this means to ignore newlines until "show_excerpts:" It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  berkhan eminsoy. architectural designer born in Istanbul, bred in U.S. All things architecture and ancillary.
+  berkhan 'b' eminsoy. architectural designer **born** in *Istanbul*, **trained** in the *US*. all things architecture and ancillary.
 copyright: © 2021 Berkhan Eminsoy.
 github: [metadata]
 
 ############################################################
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-#Site Author
+# Site Info
 author:
   name: berkhan 'b' eminsoy
   email: beminsoy@gmail.com
@@ -48,8 +43,18 @@ author:
   bio: > 
     architectural designer **born** in *Istanbul*, **trained** in the *US*.
 
+############################################################
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
 theme: minima
 #remote-theme: jeklly/minima
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: <!-- excerpt-end -->
@@ -153,6 +158,7 @@ plugins:
  - jekyll/scholar
  - jekyll-webp
  - jekyll-loading-lazy
+# - jekyll-spaceship
  - jekyll_figure
  - jemoji
  - titleize
@@ -171,6 +177,10 @@ figures:
 defaults:
   - scope:
       path: "_posts"
+    values:
+      layout: post
+  - scope:
+      path: "_drafts"
     values:
       layout: post
   - scope:
