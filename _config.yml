@@ -158,7 +158,8 @@ plugins:
  - jekyll/scholar
  - jekyll-webp
  - jekyll-loading-lazy
-# - jekyll-spaceship
+#- jekyll-latex
+#- jekyll-spaceship
  - jekyll_figure
  - jemoji
  - titleize
