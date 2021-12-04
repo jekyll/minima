@@ -24,4 +24,11 @@ For research areas in the group please have a look at the [research](research) s
 ### Nicolas Quesada
 
 Assistant Professor, [Department of Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).
-MEI Chair in Quantum Photonics. [Profile in Polytechnique's Directory of Experts](https://www.polymtl.ca/expertises/en/quesada-nicolas)
+MEI Chair in Quantum Photonics. 
+
+[Profile in Polytechnique's Directory of Experts](https://www.polymtl.ca/expertises/en/quesada-nicolas)
+[Preprints on the arXiv](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=N+Quesada&terms-0-field=all&classification-physics=y&classification-physics_archives=quant-ph&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first)
+[Google Scholar profile](https://scholar.google.ca/citations?hl=en&user=dZNVjOEAAAAJ&view_op=list_works)
+[Github](https://github.com/nquesada)
+[Twitter](https://twitter.com/polyquantique)
+[Linkedin](https://www.linkedin.com/in/nicolasquesada)
