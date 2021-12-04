@@ -1,14 +1,14 @@
 ---
 layout: page
-title: 
+title: Team
 permalink: /team/
 ---
 ## Interested in joining?
 
 
-Send an email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" to <nicolas.quesada at polymtl.ca> containing:
+Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" 
 
-1. A short note stating your research interests and experience [(see example)](https://docs.google.com/document/d/1fFc_DmFd5BYf_qRN7xP8ya6e4KA152q_uFb8y8Nasgw/edit?usp=sharing).
+1. A short note stating your research interests and experience [(see example)](https://docs.google.com/document/d/1XKGL8BWPY91tZaWM2bq4c0xxt-qSp_QWR5NyHeyT-Ao/edit?usp=sharing).
 
 2. Attach a CV (see example, compiler).
 
@@ -24,8 +24,4 @@ For research areas in the group please have a look at the [research](research) s
 ### Nicolas Quesada
 
 Assistant Professor, [Department of Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).
-MEI Chair in Quantum Photonics
-
-Areas of interest include: quantum optics, photonics, information, tomography, software, classical simulation of bosonic systems, tensor networks.
-
-Contact: <nicolas.quesada at polymtl.ca>
+MEI Chair in Quantum Photonics. [Profile in Polytechnique's Directory of Experts](https://www.polymtl.ca/expertises/en/quesada-nicolas)
