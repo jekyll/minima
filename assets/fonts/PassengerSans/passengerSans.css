@@ -1,0 +1,276 @@
+/**
+
+ * Font Family: Passenger Sans
+ *
+ * Font Styles:
+ * Passenger Sans
+ * Passenger Sans Medium
+ * Passenger Sans Thin
+ * Passenger Sans Black
+ * Passenger Sans Light
+ * Passenger Sans SemiBold
+ *
+ *
+
+*/
+
+@font-face {
+    font-family: 'Passenger Sans ExBlack';
+    src: url('PassengerSans-Extrablack.eot');
+    src: local('Passenger Sans Extrablack'), local('PassengerSans-Extrablack'),
+        url('PassengerSans-Extrablack.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Extrablack.woff2') format('woff2'),
+        url('PassengerSans-Extrablack.woff') format('woff'),
+        url('PassengerSans-Extrablack.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Black Italic';
+    src: url('PassengerSans-BlackItalic.eot');
+    src: local('Passenger Sans Black Italic'), local('PassengerSans-BlackItalic'),
+        url('PassengerSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-BlackItalic.woff2') format('woff2'),
+        url('PassengerSans-BlackItalic.woff') format('woff'),
+        url('PassengerSans-BlackItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Bold';
+    src: url('PassengerSans-Bold.eot');
+    src: local('Passenger Sans Bold'), local('PassengerSans-Bold'),
+        url('PassengerSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Bold.woff2') format('woff2'),
+        url('PassengerSans-Bold.woff') format('woff'),
+        url('PassengerSans-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans ExLight Italic';
+    src: url('PassengerSans-ExtralightItalic.eot');
+    src: local('Passenger Sans Extralight Italic'), local('PassengerSans-ExtralightItalic'),
+        url('PassengerSans-ExtralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-ExtralightItalic.woff2') format('woff2'),
+        url('PassengerSans-ExtralightItalic.woff') format('woff'),
+        url('PassengerSans-ExtralightItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Italic';
+    src: url('PassengerSans-Italic.eot');
+    src: local('Passenger Sans Italic'), local('PassengerSans-Italic'),
+        url('PassengerSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Italic.woff2') format('woff2'),
+        url('PassengerSans-Italic.woff') format('woff'),
+        url('PassengerSans-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Black';
+    src: url('PassengerSans-Black.eot');
+    src: local('Passenger Sans Black'), local('PassengerSans-Black'),
+        url('PassengerSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Black.woff2') format('woff2'),
+        url('PassengerSans-Black.woff') format('woff'),
+        url('PassengerSans-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Bold Italic';
+    src: url('PassengerSans-BoldItalic.eot');
+    src: local('Passenger Sans Bold Italic'), local('PassengerSans-BoldItalic'),
+        url('PassengerSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-BoldItalic.woff2') format('woff2'),
+        url('PassengerSans-BoldItalic.woff') format('woff'),
+        url('PassengerSans-BoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans ExBlack Italic';
+    src: url('PassengerSans-ExtrablackItalic.eot');
+    src: local('Passenger Sans Extrablack Italic'), local('PassengerSans-ExtrablackItalic'),
+        url('PassengerSans-ExtrablackItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-ExtrablackItalic.woff2') format('woff2'),
+        url('PassengerSans-ExtrablackItalic.woff') format('woff'),
+        url('PassengerSans-ExtrablackItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Light';
+    src: url('PassengerSans-Light.eot');
+    src: local('Passenger Sans Light'), local('PassengerSans-Light'),
+        url('PassengerSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Light.woff2') format('woff2'),
+        url('PassengerSans-Light.woff') format('woff'),
+        url('PassengerSans-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans ExLight';
+    src: url('PassengerSans-Extralight.eot');
+    src: local('Passenger Sans Extralight'), local('PassengerSans-Extralight'),
+        url('PassengerSans-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Extralight.woff2') format('woff2'),
+        url('PassengerSans-Extralight.woff') format('woff'),
+        url('PassengerSans-Extralight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Ultra';
+    src: url('PassengerSans-Ultra.eot');
+    src: local('Passenger Sans Ultra'), local('PassengerSans-Ultra'),
+        url('PassengerSans-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Ultra.woff2') format('woff2'),
+        url('PassengerSans-Ultra.woff') format('woff'),
+        url('PassengerSans-Ultra.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Thin';
+    src: url('PassengerSans-Thin.eot');
+    src: local('Passenger Sans Thin'), local('PassengerSans-Thin'),
+        url('PassengerSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Thin.woff2') format('woff2'),
+        url('PassengerSans-Thin.woff') format('woff'),
+        url('PassengerSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Ultra Italic';
+    src: url('PassengerSans-UltraItalic.eot');
+    src: local('Passenger Sans Ultra Italic'), local('PassengerSans-UltraItalic'),
+        url('PassengerSans-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-UltraItalic.woff2') format('woff2'),
+        url('PassengerSans-UltraItalic.woff') format('woff'),
+        url('PassengerSans-UltraItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans SemiBold Italic';
+    src: url('PassengerSans-SemiboldItalic.eot');
+    src: local('Passenger Sans Semibold Italic'), local('PassengerSans-SemiboldItalic'),
+        url('PassengerSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-SemiboldItalic.woff2') format('woff2'),
+        url('PassengerSans-SemiboldItalic.woff') format('woff'),
+        url('PassengerSans-SemiboldItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Medium Italic';
+    src: url('PassengerSans-MediumItalic.eot');
+    src: local('Passenger Sans Medium Italic'), local('PassengerSans-MediumItalic'),
+        url('PassengerSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-MediumItalic.woff2') format('woff2'),
+        url('PassengerSans-MediumItalic.woff') format('woff'),
+        url('PassengerSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Medium';
+    src: url('PassengerSans-Medium.eot');
+    src: local('Passenger Sans Medium'), local('PassengerSans-Medium'),
+        url('PassengerSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Medium.woff2') format('woff2'),
+        url('PassengerSans-Medium.woff') format('woff'),
+        url('PassengerSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Light Italic';
+    src: url('PassengerSans-LightItalic.eot');
+    src: local('Passenger Sans Light Italic'), local('PassengerSans-LightItalic'),
+        url('PassengerSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-LightItalic.woff2') format('woff2'),
+        url('PassengerSans-LightItalic.woff') format('woff'),
+        url('PassengerSans-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans SemiBold';
+    src: url('PassengerSans-Semibold.eot');
+    src: local('Passenger Sans Semibold'), local('PassengerSans-Semibold'),
+        url('PassengerSans-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Semibold.woff2') format('woff2'),
+        url('PassengerSans-Semibold.woff') format('woff'),
+        url('PassengerSans-Semibold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans Thin Italic';
+    src: url('PassengerSans-ThinItalic.eot');
+    src: local('Passenger Sans Thin Italic'), local('PassengerSans-ThinItalic'),
+        url('PassengerSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-ThinItalic.woff2') format('woff2'),
+        url('PassengerSans-ThinItalic.woff') format('woff'),
+        url('PassengerSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Passenger Sans';
+    src: url('PassengerSans-Regular.eot');
+    src: local('Passenger Sans Regular'), local('PassengerSans-Regular'),
+        url('PassengerSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PassengerSans-Regular.woff2') format('woff2'),
+        url('PassengerSans-Regular.woff') format('woff'),
+        url('PassengerSans-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

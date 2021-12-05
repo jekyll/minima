@@ -1,0 +1,26 @@
+\defaultfontfeatures[NewCM10-Regular]
+   {
+    Extension = .otf ,
+    SizeFeatures={%
+                 {Size=-8, Font = NewCM08-Regular,
+      			   ItalicFont = NewCM08-Italic,%
+			   BoldFont = NewCM10-Bold,%
+      			   BoldItalicFont = NewCM10-BoldItalic,%
+      			   SlantedFont = NewCM08-Regular,%
+      			   BoldSlantedFont = NewCM10-Bold,%
+      			   SmallCapsFeatures = {Numbers=OldStyle}},
+		  {Size=8, Font = NewCM08-Regular,
+      		  	   ItalicFont = NewCM08-Italic,%
+      			   BoldFont = NewCM10-Bold,%
+      			   BoldItalicFont = NewCM10-BoldItalic,%
+      			   SlantedFont = NewCM08-Regular,%
+      			   BoldSlantedFont = NewCM10-Bold,%
+      			   SmallCapsFeatures = {Numbers=OldStyle}},
+		{Size= 9-, Font = NewCM10-Regular,
+      		       	   ItalicFont = NewCM10-Italic,%
+      			   BoldFont = NewCM10-Bold,%
+      			   BoldItalicFont = NewCM10-BoldItalic,%
+      			   SlantedFont = NewCM10-Regular,%
+      			   BoldSlantedFont = NewCM10-Bold,%
+      			   SmallCapsFeatures = {Numbers=OldStyle}}%
+	}}

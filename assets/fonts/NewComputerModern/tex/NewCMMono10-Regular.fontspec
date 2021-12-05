@@ -1,0 +1,8 @@
+\defaultfontfeatures[NewCMMono10-Regular]
+	{
+		Extension      = .otf ,
+		UprightFont    = NewCMMono10-Regular,
+		BoldFont       = NewCMMono10-Bold,
+		ItalicFont     = NewCMMono10-Italic,
+		BoldItalicFont = NewCMMono10-BoldOblique,
+	}

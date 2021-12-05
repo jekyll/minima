@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Computer Modern Sans Demi-Condensed';
+	src: url('cmunssdc.eot');
+	src: url('cmunssdc.eot?#iefix') format('embedded-opentype'),
+		 url('cmunssdc.woff') format('woff'),
+		 url('cmunssdc.ttf') format('truetype'),
+		 url('cmunssdc.svg#cmunssdc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

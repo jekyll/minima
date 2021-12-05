@@ -1,0 +1,494 @@
+%%^^A%% unimath-symbols.ltx -- part of UNICODE-MATH <wspr.io/unicode-math>
+%%^^A%% Listing of Unicode mathematics symbols using a variety of fonts.
+
+%!TEX TS-program = LuaLaTeX
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% SYMBOLS DEFINED BY UNICODE-MATH
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[final]{article}
+\makeatletter
+
+\usepackage{ragged2e,setspace,booktabs,catchfile,shortvrb,geometry,metalogo,textcomp,longtable,tabu,hyperref}
+
+\geometry{margin=3cm}
+\hypersetup{colorlinks,linkcolor=black}
+
+\def\cmd#1{\texttt{\textbackslash\expandafter\@gobble\string#1}}
+
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}%
+ [
+  Extension = .otf ,
+  UprightFont = *-regular,
+  ItalicFont = *-italic,
+  BoldFont = *-bold,
+  BoldItalicFont = *-bolditalic,
+  Ligatures=TeX,
+  Numbers={Lowercase,Monospaced},
+ ]
+\usepackage[math-style=literal,bold-style=literal]{unicode-math}
+
+\ExplSyntaxOn
+\cs_generate_variant:Nn \fontspec_set_fontface:NNnn {c}
+
+\def\FINISH{}
+\newcount\Nfonts
+\def\defmathfont#1#2#3#4{
+  \Nfonts=\numexpr\Nfonts+1\relax
+  \tl_set:cn {L#1} {#4}
+  \newcounter{#1}
+  \setcounter{#1}{-1}
+  \setmathfont[version=#1,SizeFeatures={
+      {Size=-10, Colour=999999},
+      {Size=10-, Colour=#3}}]{#2}
+  \fontspec_set_fontface:cNnn {#1} \x {ItalicFont={},BoldFont={}} {#2}
+  \tl_gput_right:Nn \FINISH {
+    \refstepcounter{#1}\label{count:#1}
+  }
+}
+\ExplSyntaxOff
+
+%\defmathfont{lm}{latinmodern-math.otf}{CC6666}{L}
+\defmathfont{lm}{NewCMMath-Regular.otf}{CC6666}{NCM}
+\defmathfont{xits}{XITSMath-Regular.otf}{6666CC}{X}
+\defmathfont{stix}{STIX2Math.otf}{66CC66}{S}
+\defmathfont{pagella}{texgyrepagella-math.otf}{AA6666}{P}
+\defmathfont{dejavu}{texgyredejavu-math.otf}{AACC66}{D}
+\defmathfont{fira}{FiraMath-Regular.otf}{AA66CC}{F}
+
+\def\INPUT{\input{unicode-math-table.tex}}
+\def\TABLE{%
+\par\noindent
+\begin{longtabu}[l]{@{}l *{\Nfonts}{c} lX[l]@{}}
+  \toprule
+  \textsc{usv} & \Llm & \Lxits & \Lstix & \Lpagella & \Ldejavu & \Lfira & Macro & Description \\
+  \midrule \endhead
+  \INPUT\\
+  \bottomrule
+\end{longtabu}
+}
+\makeatletter
+\def\USV#1{\footnotesize\scshape\MakeLowercase{u+\@gobble#1}}
+\makeatother
+\def\CMD#1{\footnotesize\cmd#1}
+\def\DESC#1{%
+  \begin{spacing}{0.5}
+    \RaggedRight\scriptsize #1%
+  \end{spacing}
+}
+
+\newcommand\SHOW[1]{%
+  \def\UnicodeMathSymbol##1##2##3##4{%
+    \def\1{#1}\def\2{##3}%
+    \ifx\1\2\PRINTLINE{##1}{##2}{##4}\fi
+  }%
+  \TABLE
+}
+\ExplSyntaxOn
+\def\PRINTLINE#1#2#3{
+    \def\tempa{
+      \USV{#1} &
+      \SYMB{#2}{lm}{#1} &
+      \SYMB{#2}{xits}{#1} &
+      \SYMB{#2}{stix}{#1} &
+      \SYMB{#2}{pagella}{#1} &
+      \SYMB{#2}{dejavu}{#1} &
+      \SYMB{#2}{fira}{#1} &
+      \CMD{#2}
+      \tl_if_in:NnT \PLAIN {#2}
+        {
+          \makebox[0pt][l]
+            { \color[gray]{0.7} \textsuperscript{\sffamily (p)} }
+        }
+      \tl_if_in:NnT \LTXSYM {#2}
+        {
+          \makebox[0pt][l]
+            { \color[gray]{0.7} \textsuperscript{\sffamily (l)} }
+        }
+      \tl_if_in:NnT \AMSSYMB {#2}
+        {
+          \makebox[0pt][l]
+            { \color[gray]{0.7} \textsuperscript{\sffamily (a)} }
+        }
+      &
+      \DESC{#3} \\
+    }%
+    \expandafter\tempa
+}
+\ExplSyntaxOff
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \refstepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle#1$%
+  \fi
+}
+
+\def\PLAIN{\alpha\beta\gamma\delta\epsilon\zeta\eta\theta\iota\kappa\lambda\mu\nu\xi\pi\rho\sigma\tau\upsilon\phi\chi\psi\omega\varepsilon\vartheta\varpi\varrho\varsigma\varphi\Gamma\Delta\Theta\Lambda\Xi\Pi\Sigma\Upsilon\Phi\Psi\Omega
+%
+\aleph\hbar\imath\jmath\ell\wp\Re\Im\partial\infty\prime\emptyset\nabla\surd\top\bot\angle\triangle\forall\exists\neg\flat\natural\sharp\clubsuit\diamondsuit\heartsuit\spadesuit
+%
+\coprod\bigvee\bigwedge\biguplus\bigcap\bigcup\int\prod\sum\bigotimes\bigoplus\bigodot\oint\bigsqcup\smallint
+%
+\triangleleft\triangleright\bigtriangleup\bigtriangledown\wedge\land\vee\lor\cap\cup\ddagger\dagger\sqcap\sqcup\uplus\amalg\diamond\bullet\wr\div\odot\oslash\otimes\ominus\oplus\mp\pm\circ\bigcirc\setminus\cdot\ast\times\star\propto\sqsubseteq\sqsupseteq\parallel\mid\dashv\vdash\nearrow\searrow\nwarrow\swarrow\Leftrightarrow\Leftarrow\Rightarrow\neq\ne\lnot\leq\le\geq\ge\succ\prec\approx\succeq\preceq\supset\subset\supseteq\subseteq\in\ni\owns\gg\ll\not\leftrightarrow\leftarrow\gets\rightarrow\to\mapstochar\mapsto\sim\simeq\perp\equiv\asymp\smile\frown\leftharpoonup\leftharpoondown\rightharpoonup\rightharpoondown
+%
+\joinrel\relbar\Relbar\lhook\hookrightarrow\rhook\hookleftarrow\bowtie\models\Longrightarrow\longrightarrow\longleftarrow\Longleftarrow\longmapsto\longleftrightarrow\Longleftrightarrow\iff
+%
+\ldotp\cdotp\colon\ldots\cdots\vdots\ddots
+%
+\acute\grave\ddot\tilde\bar\breve\check\hat\vec\dot\widetilde\widehat
+%
+\overrightarrow\overleftarrow\overbrace\underbrace\lmoustache\rmoustache\lgroup\rgroup\arrowvert\Arrowvert\bracevert\Vert\vert\uparrow\downarrow\updownarrow\Uparrow\Downarrow\Updownarrow\backslash\rangle\langle\rbrace\lbrace\rceil\lceil\rfloor\lfloor\sqrt}
+
+
+\def\LTXSYM{
+\cong
+\notin
+\rightleftharpoons
+\doteq
+\mathring
+}
+
+\def\AMSSYMB{\boxdot\boxplus\boxtimes\square\blacksquare\centerdot\lozenge\blacklozenge\circlearrowright\circlearrowleft\leftrightharpoons\boxminus\Vdash\Vvdash\vDash\twoheadrightarrow\twoheadleftarrow\leftleftarrows\rightrightarrows\upuparrows\downdownarrows\upharpoonright\restriction\downharpoonright\upharpoonleft\downharpoonleft\rightarrowtail\leftarrowtail\leftrightarrows\rightleftarrows\Lsh\Rsh\rightsquigarrow\leftrightsquigarrow\looparrowleft\looparrowright\circeq\succsim\gtrsim\gtrapprox\multimap\therefore\because\doteqdot\Doteq\triangleq\precsim\lesssim\lessapprox\eqslantless\eqslantgtr\curlyeqprec\curlyeqsucc\preccurlyeq\leqq\leqslant\lessgtr\backprime\risingdotseq\fallingdotseq\succcurlyeq\geqq\geqslant\gtrless\vartriangleright\vartriangleleft\trianglerighteq\trianglelefteq\bigstar\between\blacktriangledown\blacktriangleright\blacktriangleleft\vartriangle\blacktriangle\triangledown\eqcirc\lesseqgtr\gtreqless\lesseqqgtr\gtreqqless\Rrightarrow\Lleftarrow\veebar\barwedge\doublebarwedge\measuredangle\sphericalangle\varpropto\smallsmile\smallfrown\Subset\Supset\Cup\doublecup\Cap\doublecap\curlywedge\curlyvee\leftthreetimes\rightthreetimes\subseteqq\supseteqq\bumpeq\Bumpeq\lll\llless\ggg\gggtr\circledS\pitchfork\dotplus\backsim\backsimeq\complement\intercal\circledcirc\circledast\circleddash\lvertneqq\gvertneqq\nleq\ngeq\nless\ngtr\nprec\nsucc\lneqq\gneqq\nleqslant\ngeqslant\lneq\gneq\npreceq\nsucceq\precnsim\succnsim\lnsim\gnsim\nleqq\ngeqq\precneqq\succneqq\precnapprox\succnapprox\lnapprox\gnapprox\nsim\ncong\diagup\diagdown\varsubsetneq\varsupsetneq\nsubseteqq\nsupseteqq\subsetneqq\supsetneqq\varsubsetneqq\varsupsetneqq\subsetneq\supsetneq\nsubseteq\nsupseteq\nparallel\nmid\nshortmid\nshortparallel\nvdash\nVdash\nvDash\nVDash\ntrianglerighteq\ntrianglelefteq\ntriangleleft\ntriangleright\nleftarrow\nrightarrow\nLeftarrow\nRightarrow\nLeftrightarrow\nleftrightarrow\divideontimes\varnothing\nexists\Finv\Game\eth\eqsim\beth\gimel\daleth\lessdot\gtrdot\ltimes\rtimes\shortmid\shortparallel\smallsetminus\thicksim\thickapprox\approxeq\succapprox\precapprox\curvearrowleft\curvearrowright\digamma\varkappa\Bbbk\hslash\backepsilon}
+
+\input{unicode-math.dtx}
+
+\newfontfamily{\newcmbook}[Ligatures=TeX,SmallCapsFeatures={Numbers=OldStyle},Scale=1.2]{NewCM10-Book.otf}
+\begin{document}
+
+{\newcmbook
+  The rest of this file is the article written by Will Robertson named unimath-symbols that presents the Math symbols of different fonts but modified to present NewComputerModern (\textsc{ncm})
+  in the
+  place of \textsc{lm} fonts. Please note that \textsc{ncm}
+  covers the full Unicode Math Blocks and
+  not only the slots presented here. If a symbol is not in the pages that follow you
+  can access it using the \verb|\char| command.
+
+  \ \hfill {---}Antonis Tsolomitis, Samos, Greece \textsc{2021}.%
+}
+\thispagestyle{empty}
+
+\newpage
+
+\ \ \ \thispagestyle{empty}\setcounter{page}{0}
+
+\newpage
+
+
+
+
+
+\MakeShortVerb\|
+\title{Symbols defined by \textsf{unicode-math}}
+\author{Will Robertson}
+\maketitle
+
+This document uses the file \texttt{unicode-math-table.tex}
+to print every symbol defined by the \textsf{unicode-math}
+package.
+Use this document to find the command name or the Unicode glyph slot for a symbol that you wish to use.
+The following fonts are shown: (with approximate symbol counts)
+\begin{itemize}
+\item[\Llm] \mathversion{lm} $\mathup{New\ CM\ Math}$ (\ref{count:lm})
+\item[\Lxits] \mathversion{xits} $\mathup{XITS\ Math}$ (\ref{count:xits})
+\item[\Lstix] \mathversion{stix} $\mathup{STIX\ Math\ Two}$ (\ref{count:stix})
+\item[\Lpagella] \mathversion{pagella} $\mathup{TeX\ Gyre\ Pagella\ Math}$ (\ref{count:pagella})
+\item[\Ldejavu] \mathversion{dejavu} $\mathup{DejaVu\ Math\ TeX\ Gyre}$ (\ref{count:dejavu})
+\item[\Lfira] \mathversion{fira} $\mathup{Fira\ Math}$ (\ref{count:fira})
+\end{itemize}
+Symbols defined in Plain \TeX\ are indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (p)}} after their macro name.
+\LaTeX\ follows Plain \TeX, but defines a handful more, indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (l)}}.
+Symbols defined in \textsf{amssymb} are indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (a)}}.
+
+Note that this list of fonts is not intended to be exhaustive but I am happy to add new fonts by request if they are distributed in \TeX\ Live.\footnote{Only a single \TeX\ Gyre Math font is shown here by design as they all largely have the same symbol coverage.}
+
+\tableofcontents
+
+\clearpage
+\section{Opening symbols, \cmd\mathopen}
+\begingroup
+\def\sqrt{\sqrtsign{}}
+\def\cuberoot{\cuberootsign{}}
+\def\fourthroot{\fourthrootsign{}}
+\def\longdivision{\longdivisionsign{}}
+\SHOW\mathopen
+\endgroup
+
+\clearpage
+\section{Closing symbols, \cmd\mathclose}
+\SHOW\mathclose
+
+\clearpage
+\section{Fence symbols, \cmd\mathfence}
+\SHOW\mathfence
+
+\section{Punctuation symbols, \cmd\mathpunct}
+\SHOW\mathpunct
+
+\section{`Over' symbols, \cmd\mathover}
+\begingroup
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \refstepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle #1{\mitx+\mity}$%
+  \fi
+}
+\SHOW\mathover
+\endgroup
+
+
+\section{`Under' symbols, \cmd\mathunder}
+\begingroup
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \refstepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle #1{\mitx+\mity}$%
+  \fi
+}
+\SHOW\mathunder
+\endgroup
+
+\clearpage
+\section{Accents, \cmd\mathaccent}
+
+Note that accents will only be properly placed if used with an OpenType font with the necessary information.
+
+\begingroup
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \refstepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle#1 \mitx$%
+  \fi
+}
+\SHOW\mathaccent
+\endgroup
+
+\section{Bottom accents, \cmd\mathbotaccent}
+\begingroup
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \refstepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle#1 \mitx$%
+  \fi
+}
+\SHOW\mathbotaccent
+\endgroup
+
+\clearpage
+\section{Big operators, \cmd\mathop}
+
+Of the operators shown below, a subset need to be flagged by \textsf{unicode-math} for \cmd\nolimits\ adjustments.
+The limits behaviour as specified by \textsf{unicode-math} are shown with grey subscripts and superscripts.
+\begingroup
+\def\SYMB#1#2#3{%
+  \expandafter\iffontchar\csname#2\endcsname #3\relax
+    \stepcounter{#2}%
+    \mathversion{#2}%
+    $\displaystyle#1_0^1$%
+  \fi
+}
+\SHOW\mathop
+\endgroup
+
+\section{Binary relations, \cmd\mathbin}
+\SHOW\mathbin
+
+\clearpage
+\section{Ordinary symbols, \cmd\mathord}
+\SHOW\mathord
+
+\clearpage
+\section{Relation symbols, \cmd\mathrel}
+\SHOW\mathrel
+
+\clearpage
+\section{Alphabetical symbols, \cmd\mathalpha}
+
+% first read in all \mathalpha symbols into a variable:
+\ExplSyntaxOn
+\cs_set:Npn \UnicodeMathSymbol #1#2#3#4 {
+  \str_if_eq:nnT {\mathalpha} {#3} {
+    \exp_not:n { \UnicodeMathSymbol {#1}{#2}{#3}{#4} }
+  }
+}
+\CatchFileEdef
+  \ALPHA{unicode-math-table.tex}
+  {\char_set_catcode_space:N \ }
+
+% now each time we print an alphabet we remove the slot;
+% this ensures we won't miss anything
+
+\def\INPUT{\ALPHA}
+\cs_new:Npn \SLOTS #1#2 {
+  \cs_set:Npn \UnicodeMathSymbol ##1##2##3##4 {
+    \bool_lazy_and:nnT
+      { \int_compare_p:n {##1 >= #1} }
+      { \int_compare_p:n {##1 <= #2} }
+      {
+        \PRINTLINE{##1}{##2}{##4}
+      }
+  }
+  \TABLE
+  \cs_set:Npn \UnicodeMathSymbol ##1##2##3##4 {
+    \bool_lazy_or:nnT
+      { \int_compare_p:n {##1 > #2} }
+      { \int_compare_p:n {##1 < #1} }
+      {
+        \exp_not:n { \UnicodeMathSymbol {##1}{##2}{##3}{##4} }
+      }
+  }
+  \edef\ALPHA{\ALPHA}
+}
+
+\ExplSyntaxOff
+
+\subsection{Normal weight}
+
+\subsubsection{Upright Greek, uppercase}
+\SLOTS{"00391}{"003A9}
+
+\subsubsection{Upright Greek, lowercase}
+\SLOTS{"003B1}{"003F5}
+
+\subsubsection{Italic, Latin, uppercase}
+\SLOTS{"1D434}{"1D44D}
+
+\subsubsection{Italic, Latin, lowercase}
+\SLOTS{"1D44E}{"1D467}
+
+\subsubsection{Italic Greek, uppercase}
+\SLOTS{"1D6E2}{"1D6FA}
+
+\subsubsection{Italic Greek, lowercase}
+\SLOTS{"1D6FC}{"1D71B}
+
+\subsubsection{Script, Latin, uppercase}
+\SLOTS{"1D49C}{"1D4B5}
+
+\subsubsection{Script, Latin, lowercase}
+\SLOTS{"1D4B6}{"1D4CF}
+
+\subsubsection{Fraktur, Latin, uppercase}
+\SLOTS{"1D504}{"1D51C}
+
+\subsubsection{Fraktur, Latin, lowercase}
+\SLOTS{"1D51E}{"1D537}
+
+\subsubsection{Blackboard, Latin, uppercase}
+\SLOTS{"1D538}{"1D550}
+
+\subsubsection{Blackboard, Latin, lowercase}
+\SLOTS{"1D552}{"1D56B}
+
+\subsubsection{Sans serif, Latin, uppercase}
+\SLOTS{"1D5A0}{"1D5B9}
+
+\subsubsection{Sans serif, Latin, lowercase}
+\SLOTS{"1D5BA}{"1D5D3}
+
+\subsubsection{Italic sans serif, Latin, uppercase}
+\SLOTS{"1D608}{"1D621}
+
+\subsubsection{Italic sans serif, Latin, lowercase}
+\SLOTS{"1D622}{"1D63B}
+
+\subsubsection{Typewriter, Latin, uppercase}
+\SLOTS{"1D670}{"1D689}
+
+\subsubsection{Typewriter, Latin, lowercase}
+\SLOTS{"1D68A}{"1D6A3}
+
+\subsection{Bold}
+
+\subsubsection{Bold, Latin, uppercase}
+\SLOTS{"1D400}{"1D419}
+
+\subsubsection{Bold, Latin, lowercase}
+\SLOTS{"1D41A}{"1D433}
+
+\subsubsection{Bold Greek, uppercase}
+\SLOTS{"1D6A8}{"1D6C0}
+
+\subsubsection{Bold Greek, lowercase}
+\SLOTS{"1D6C2}{"1D6E1}
+
+\subsubsection{Bold italic, Latin, uppercase}
+\SLOTS{"1D468}{"1D481}
+
+\subsubsection{Bold italic, Latin, lowercase}
+\SLOTS{"1D482}{"1D49B}
+
+\subsubsection{Bold italic Greek, uppercase}
+\SLOTS{"1D71C}{"1D734}
+
+\subsubsection{Bold italic Greek, lowercase}
+\SLOTS{"1D736}{"1D755}
+
+\subsubsection{Bold script, Latin, uppercase}
+\SLOTS{"1D4D0}{"1D4E9}
+
+\subsubsection{Bold script, Latin, lowercase}
+\SLOTS{"1D4EA}{"1D503}
+
+\subsubsection{Bold fraktur, Latin, uppercase}
+\SLOTS{"1D56C}{"1D585}
+
+\subsubsection{Bold fraktur, Latin, lowercase}
+\SLOTS{"1D586}{"1D59F}
+
+\subsubsection{Bold sans serif, Latin, uppercase}
+\SLOTS{"1D5D4}{"1D5ED}
+
+\subsubsection{Bold sans serif, Latin, lowercase}
+\SLOTS{"1D5EE}{"1D607}
+
+\subsubsection{Bold italic sans serif, Latin, uppercase}
+\SLOTS{"1D63C}{"1D655}
+
+\subsubsection{Bold italic sans serif, Latin, lowercase}
+\SLOTS{"1D656}{"1D66F}
+
+\subsubsection{Bold sans serif Greek, uppercase}
+\SLOTS{"1D756}{"1D76E}
+
+\subsubsection{Bold sans serif Greek, lowercase}
+\SLOTS{"1D770}{"1D78F}
+
+\subsubsection{Bold italic sans serif Greek, uppercase}
+\SLOTS{"1D790}{"1D7A8}
+
+\subsubsection{Bold italic sans serif Greek, lowercase}
+\SLOTS{"1D7AA}{"1D7C9}
+
+\subsection{Miscellaneous}
+\def\UnicodeMathSymbol#1#2#3#4{\PRINTLINE{#1}{#2}{#4}}
+\TABLE
+
+\FINISH
+
+\end{document}
+
+\endinput
+
+% /©
+%
+% ------------------------------------------------
+% The UNICODE-MATH package  <wspr.io/unicode-math>
+% ------------------------------------------------
+% This package is free software and may be redistributed and/or modified under
+% the conditions of the LaTeX Project Public License, version 1.3c or higher
+% (your choice): <http://www.latex-project.org/lppl/>.
+% ------------------------------------------------
+% Copyright 2006-2019  Will Robertson, LPPL "maintainer"
+% Copyright 2010-2017  Philipp Stephani
+% Copyright 2011-2017  Joseph Wright
+% Copyright 2012-2015  Khaled Hosny
+% ------------------------------------------------
+%
+% ©/

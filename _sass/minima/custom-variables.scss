@@ -6,7 +6,8 @@
 
 $base-font-family: "Passenger Sans", Helvetica, Arial;
 $base-font-family-medium: "Passenger Sans Medium", Helvetica, Arial;
-$text-font-family: "newCM-10", "Passenger Sans Light", Georgia;
+$text-font-family: "NewComputerModern10"; //"Computer Modern Serif", "Passenger Sans Light", Georgia
+$code-font-family: "NewComputerModernMono10";//,"Computer Modern Sans"
 
 $on-desktop:    1000px;
 $on-xLarge:     $on-desktop;

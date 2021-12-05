@@ -1,0 +1,279 @@
+
+		New Computer Modern Fonts
+
+           (Package version 3.93, GustFLv1 or later)
+
+		Antonis Tsolomitis
+		Samos, Greece, 2019--2021
+
+This is a release of a new assembly of ComputerModern 
+fonts plus glyphs for non latin alphabets which are considered 
+compatible in style to CM fonts. 
+
+=======================================================================
+Use with:
+
+\usepackage[default]{fontsetup} (loads the Book weight)
+or
+\usepackage{newcomputermodern}
+
+OR
+
+\usepackage[olddefault]{fontsetup} (loads the Regular weight)
+or
+\usepackage[regular]{newcomputermodern} (loads the Regular weight)
+
+OR
+
+\usepackage{fontspec}
+\setmainfont{NewCM10-Book}
+\setsansfont{NewCMSans10-Book}
+\setmonofont{NewCMMono10-Book}
+
+and similarly for the Regular weight.
+=======================================================================
+
+The fonts contain Latin and accented latin letters and combinations,
+Greek (monotonic and polytonic), Cyrillic, Hebrew, and Cherokee.
+
+As of version 3.90 they are distributed in 10pt size in *all* families
+and series and in 8pt size in Roman (Regular Italic Book BookItalic)
+and Sans (Regular, Oblique, Book, BookOblique).
+
+The Math fonts (Regular and Book) support fully all Unicode blocks
+of Mathematics providing the widest possible Mathematical coverage.
+
+Latest additions/improvements:
+
+Version 3.93
+
+  Provides access to Russian and Greek guillemotleft and guillemotright
+using the character variant tables cv3 and cv4 respectively.
+
+  The Math fonts provide the character \varnothing, an alternative to \emptyset,
+through Character Variant cv01. The fontsetup package provides the option 
+'varnothing' to easily switch to the alternative character.
+
+
+  It also corrects the width of the character uni2800 in the Braille block.
+
+Version 3.92
+
+Fixes a naming problem of the .fontspec files.
+
+Version 3.91
+
+Fixes a problem with internal names of fonts and families.
+The family names now are
+
+NewComputerModern08
+NewComputerModern10
+NewComputerModernSans08
+NewComputerModernSans10
+NewComputerModernMono10
+NewComputerModernMath
+
+Fixes a bug with fb ligature.
+
+
+Version 3.90 introduces
+
+---the 8pt fonts.
+
+---It adds support for diacritics stacking in all Latin glyphs and Hebrew (nikud)
+in Roman (Regular, Italic, Book, and BookItalic). I thank Manuel Boni for
+the suggestion. Diacritics stacking will expand to all fonts
+of NewCM in the future but at the current state it provides
+also a working set of free fonts so that the unicode TeX engines 
+can test their support of this feature. Stacking for Greek and papyrological
+work will be added soon, as we fix bugs towards version 4.00
+
+---Cyrillic BoldSans at 10pt has been "fixed" to a true bold instead
+of being a stroke expansion, completing similar work done in previous
+versions for other scripts.
+
+---Source sfd files are now included in the distribution since there
+has been work on composite/accented glyphs to be constructed automatically
+in fontforge. This greately reduces the size of the sources and provides
+for easier maintenance. This work is not available in all of the fonts
+(not in sans yet) but it is already substantial to justify the release.
+
+
+Antonis Tsolomitis
+Professor
+University of the Aegean
+Department of Mathematics
+Samos, Greece
+atsol@aegean.gr
+
+
+History of changes follows:
+
+---------------------------------------------------
+Version 3.02 fixes a CounterMasks problem that made Acrobat
+not opening correctly documents created with the Book weight.
+---------------------------------------------------
+Version 3.00 provides full support of all Mathematics Unicode Slots
+presented in http://www.unicode.org/charts/ adding hundreds of new
+glyphs in both Math weights, Regular and Book:
+ 
+Mathematical Symbols
+    Arrows (uni2190--uni21FF)
+    Supplemental Arrows-A (uni27F0--uni27FF)
+    Supplemental Arrows-B (uni2900--uni297F)
+    Supplemental Arrows-C (u1F800--u1F8FF)
+    Additional Arrows (uni2B00--uni2BFF)
+    Miscellaneous Symbols and Arrows (uni2B00--uni2BFF))
+
+Mathematical Alphanumeric Symbols (u1D400--u1D7FF)
+    Arabic Mathematical Alphabetic Symbols (u1EE00--u1EEFF)
+    Letterlike Symbols (uni2100--uni214F)
+
+Mathematical Operators (uni2200--uni22FF)
+    Basic operators: Plus, Factorial (uni0000--uni007F)
+                     Division, Multiplication (uni0080--uni00FF)
+    Supplemental Mathematical Operators (uni2A00--uni2AFF)
+    Miscellaneous Mathematical Symbols-A (uni27C0--uni27EF)
+    Miscellaneous Mathematical Symbols-B (uni2980--uni29FF)
+    Floors and Ceilings (uni2308--uni230B)
+    Invisible Operators (uni2061--uni2064)
+
+Geometric Shapes (uni25A0--25FF)
+    Additional Shapes (uni2B00--uni2BFF)
+    Box Drawing (uni2500--uni257F)
+    Block Elements (uni2580--uni259F)
+    Geometric Shapes Extended (u1F780--u1F7FF)
+    
+
+If a slot of the above is not covered it should be considered a bug. In this 
+case please report the missing glyph/slot. It will be added as soon as possible.
+
+The included file newcm-unimath-symbols.pdf is out of date, since 
+the extra symbols can not be shown in this file as unicode-math package 
+does not provide yet commands for all these new glyphs. The user can 
+consult the Unicode charts at the above link and access the required 
+glyph with \char"# where # is the Unicode number of the
+slot the glyph belongs to. 
+For example, \char"2BDA will give the Hygeia symbol
+(uni2BDA) the Rod of Asclepius.
+---------------------------------------------------
+
+Version 2.32 adds support for Braille patterns. Both 6dot (uni2801--uni283F)
+and 8dit (uni2840--uni28FF) patters are included. They have been added 
+in two styles: for sighted persons (such as teachers) in the 
+serifed upright fonts and for blind persons in the sans upright fonts.
+
+The Math fonts (both Regular and Book weights) now include upright integrals
+in the ss02 StylisticSet. Use with 
+\setmathfont[StylisticSet=2]{NewCMMath-Book.otf}
+or
+\setmathfont[StylisticSet=2]{NewCMMath-Regular.otf}
+
+or use the upint option of the fontsetup package with
+
+\usepackage[upint,default]{fontsetup}
+
+for the Book weight, or
+
+\usepackage[upint,olddefault]{fontsetup}
+
+for the regular weight.
+
+This version fixes wrong liga tables for standard ligatures 
+(fi, ff etc) for the Sans family, thanks to Manuel Boni.
+
+It also adds a newcomputermodern.sty file.
+---------------------------------------------------
+
+Version 2.3 adds all kerning found in tipa package for the IPA symbols
+following a suggestion of Huanyu Liu. Moreover, the letters eth, eng, beta, theta and chi
+exists in IPA-style in the fonts and are accessible in the ss05 lookup table since
+they are in a different design from the Latin and Greek letters.
+You can access this lookup table using the \textipa and \textsansipa commands of the latest fontsetup
+package and the default and olddefault options or setup your own.
+---------------------------------------------------
+
+Version 2.2 adds Ancient Greek Numerals (u10140-u1018E) to all fonts 
+(except Mono & Math). The four numerals that already existed in 
+this range (that is u10144-u10147) have been altered to the new
+design matching the style of cm but also provide some Ancient Greek flair. 
+
+Commands for accessing these glyphs are provided by the fontsetup package.
+
+The Math font now provides two more symbols that correspond to the commands
+\nrightrightarrows (equivalently \not\rightrightarrows)
+\nleftleftarrows (equivalently \not\leftleftarrows)
+and supported by the defaul and olddefault options of the fontsetup package.
+These symbols are not in the Unicode Standard and so they are added in the
+Private Area of the fonts. 
+
+A modified file (newcm-unicode-symbols.pdf) based on unicode-symbols.pdf 
+by Will Robertson is also provided showing the math glyphs of the font 
+in comparison with other fonts found on ctan.
+
+---------------------------------------------------
+
+Version 2.1 fixes bugs thanks to Manuel Boni. It also introduces Old Italic
+(u10300--u1032F) in the Sans font. The Serif font now includes additional
+ligatures fb ffb ffh ffj ffk fft fh fj ft fk and the same with longs instead of f
+in the default liga table (in addition to the default fi fl ffi ffl ff).
+It also includes an alternative k (in the cv01 table) and sp ch ck ct st
+in the dlig table. Finally it also inludes "end" versions of the letters
+a, e, m, n and r in the cv02 table.
+
+--------------------------------------------------- 
+
+Version 2.0 adds hundrends of new glyphs in the Math font matching at 
+least STIX fonts in glyph coverage.
+
+The Serif fonts now support Hebrew and Cherokee.
+
+Finally, a long awaited feature, a Book weight for ComputerModern is added
+(math included). This is now the default option of the fontsetup package.
+It produces slightly heavier output suitable for book production with
+high resolution printing.
+
+--------------------------------------------------- 
+
+Version 1.1 concerns mainly a very big number of glyphs added to
+the Math font. It is now comparable in glyph coverage 
+with other free or commercial Math fonts on CTAN.
+
+Text fonts have been extended to include 
+LATIN CAPITAL LETTER SHARP S (U+1E9E)---thanks to Karl Barry.
+
+Finally thanks go to Robert Alessi for providing the fontspec files 
+included in this release.
+
+---------------------------------------
+
+Version 1.003 Several fixes in all fonts especially in polytonic regions. 
+Ypogegrammeni is the default for all characters including small caps. 
+Prosgegrammeni is offered as alt shape in ss01 lookup 
+including small caps. If you use the fontsetup package with the
+[default] option, capitals with prosgegrammeni are accessible using
+the \textprosgegrammeni{<text>} or the {\prosgegrammeni <text>}
+commands.
+
+Especially Greek Bold Sans have been considerably improved in a 
+true bold and not an extended stroke of the regular. 
+
+Math font has improved its Greek Bold Sans, and a Greek Sans is included
+in Private Area as this is not in Unicode standard. The fontsetup package
+should support access to Greek Regular Sans letters ushape and oblique
+if loaded with the [default] option.
+
+Sans Serif Regular font now provides access to 6 bce and 4 bce Greek capitals
+in ss0X lookups. The fontsetup package includes commands such as
+\textivbce{}, \ivbce, \textvibce{} and \vibce to access them if loaded
+with the [default] option.
+
+
+
+---------------------------------------
+Version 1.002 for the Mono fonts have considerable improved iota
+and all polytonic accents of Greek.
+
+Thanks to Professor Claudio Beccari for providing information 
+about the need for this improvement.
+---------------------------------------
