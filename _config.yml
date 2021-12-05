@@ -53,3 +53,5 @@ exclude:
   - fractal.gemspec
   - "*.gem"
   - README.md
+
+jekyll_3: true
