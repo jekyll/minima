@@ -144,6 +144,7 @@ header_pages:
   - index.html
 #  - _pages/work.md
   - _pages/log.md
+  - _pages/cv.md
   - _pages/about.md
 #  - _pages/history.md
 
