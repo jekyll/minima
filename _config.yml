@@ -258,6 +258,10 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: assets/img/ascii
+    imagesdir: /images
     stem: ''
     :page-layout: auto@
+    dot: C:/Program Files/Graphviz/bin/dot.exe
+    source-highlighter: pygments
+    icons: font
+    stylesdir: /assets/css/ascii

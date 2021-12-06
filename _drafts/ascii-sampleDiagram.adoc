@@ -1,11 +1,10 @@
-= Diagram
+= Non-Graphviz Diagrams
 :page-layout: page
 
 This page shows diagrams being used in a regular page.
 
-[ditaa,memory,png]
+[ditaa, memory, png]
 ....
-
       +--------+
    0  |        |  <- start
       +--------+
@@ -23,6 +22,67 @@ This page shows diagrams being used in a regular page.
       +--------+  <-+
 ....
 
-Powered by:
+[plantuml, target=diagram-classes, format=png]
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
 
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
+
+[tikz, "tıkz image", svg, preamble=true]
+----
+\usepackage{tkz-euclide}
+\usepackage{etoolbox}
+\usepackage{MnSymbol}
+% \usetkzobj{all}
+\usetikzlibrary{angles,patterns,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.7}
+
+~~~~
+\begin{tikzpicture}
+\tikzset{>=stealth}
+% draw axises and labels. We store a single coordinate to have the
+% direction of the x axis
+\draw[->] (-4,0) -- ++(8,0) coordinate (X) node[below] {$x$};
+\draw[->] (0,-4) -- ++(0,8) node[left] {$y$};
+
+\newcommand\CircleRadius{3cm}
+\draw (0,0) circle (\CircleRadius);
+% special method of noting the position of a point
+\coordinate (P) at (-495:\CircleRadius);
+
+\draw[thick]
+(0,0)
+coordinate (O) % store origin
+node[] {} % label
+--
+node[below left, pos=1] {$P(-\frac{\sqrt{2}}{2}, -\frac{\sqrt{2}}{2})$} % some labels
+node[below right, midway] {$r$}
+(P)
+--
+node[midway,left] {$y$}
+(P |- O) coordinate (Px) % projection onto horizontal line through
+                            % O, saved for later
+--
+node[midway, below] {$x$}
+cycle % closed path
+
+% pic trick is from the angles library, requires the three points of
+% the marked angle to be named
+
+pic [] {angle=X--O--P};
+\draw[->,red] (5mm, 0mm) arc (0:-495:5mm) node[midway,xshift=-4mm,yshift=3.5mm] {$-495^\circ$};
+% right angle marker
+\draw ($(Px)+(0.3, 0)$) -- ++(0, -0.3) -- ++(-0.3,0);
+\end{tikzpicture}
+----
+
+Powered by:
 image::logo-2x.png[Jekyll]
