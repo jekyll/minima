@@ -151,6 +151,8 @@ header_pages:
 ############################################################
 # Plugins (previously gems)
 plugins:
+ - asciidoctor-diagram
+ - jekyll-asciidoc
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme
@@ -246,3 +248,16 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
+# Site configuration for the Jekyll-AsciiDoc Plugin
+
+keep_files:
+  - images
+
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    imagesdir: assets/img/ascii
+    stem: ''
+    :page-layout: auto@

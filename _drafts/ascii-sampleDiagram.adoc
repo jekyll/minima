@@ -1,0 +1,28 @@
+= Diagram
+:page-layout: page
+
+This page shows diagrams being used in a regular page.
+
+[ditaa,memory,png]
+....
+
+      +--------+
+   0  |        |  <- start
+      +--------+
+   1  |        |  <- q  scans from start to end
+      +--------+
+      :  ..... |
+      +--------+
+      |        |  <- end
+      +--------+  <-+
+      |        |    |
+      +--------+    | rest of the
+      :  ..... |    | allocated memory
+      +--------+    |
+  n   |        |    |
+      +--------+  <-+
+....
+
+Powered by:
+
+image::logo-2x.png[Jekyll]
