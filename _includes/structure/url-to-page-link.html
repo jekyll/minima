@@ -1,14 +1,19 @@
 {%- comment -%}
-    Find page object from a given URL string and create a link to the page.
+    Find page object from a given URL string and create a link to that page.
+    
+    Warning: You probably want to use the `link` tag in Jekyll as that enforces a required
+    path and that the path is valid. But, maybe this includes file can be extended
+    to work across repos (i.e. domains) like for linking from Dev Resources to Dev Cheatsheets
+    for a given URL or the page's current URL or path.
 
     Required param:
         url: A page's path on the domain. e.g. "/cheatsheets/python/".
 
-    Sample data, for context:
-        "dir": "/cheatsheets/python/", # Too many match on dir. And dir and name is two passes.
+    Some sample data, for context on this includes file:
         "name": "index.md",
         "path": "cheatsheets/python/index.md",
-        "url": "/cheatsheets/python/" # Only one matches on url.
+        "dir": "/cheatsheets/python/", # Gives too many matches - you have to then filter by filenames too.
+        "url": "/cheatsheets/python/" # This is unique, so we only get one page matching.
 {%- endcomment -%}
 {%- assign target_url = include.target_url | append: '/' -%}
 {%- assign p = site.pages | where: 'url', target_url | first -%}
