@@ -9,7 +9,7 @@
 
     {%- include seo.html -%}
 
-    <link rel="stylesheet" href="{% if site.remote_theme %}{{ site.baseurl }}{% endif %}{% link assets/main.scss %}">
+    <link rel="stylesheet" href="{% if site.remote_theme and site.remote_theme != '' %}{{ site.baseurl }}{% endif %}{% link assets/main.scss %}">
 
     {%- feed_meta -%}
 
