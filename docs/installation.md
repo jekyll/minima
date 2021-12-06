@@ -19,9 +19,9 @@ Set up your gems:
     gem "jekyll", "~> 4.2"
     gem "webrick", "~> 1.7"
 
-    gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
+    gem "fractal", "~> 4", git: "https://github.com/MichaelCurrin/fractal"
     ```
-- `Gemfile` for Jekyll 3 and GH Pages.
+- `Gemfile` for Jekyll 3 and GH Pages. The theme
     ```ruby
     source "https://rubygems.org"
 
@@ -31,8 +31,8 @@ Set up your gems:
 
     gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
     ```
+    - **Warning** - that setup does **not** pin a tag version of the theme. You just get the latest changes that are on `master`. You can look the version in Gemfile but then also need to lock Remote Theme theme with `@4` or similar.
 
-**Warning** - that setup does **not** pin a tag version of the theme. You just get the latest changes that are on `master`.
 
 e.g. [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile) in Dev Cheatsheets.
 
