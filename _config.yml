@@ -135,6 +135,8 @@ collections:
   projects:
     output: true
     sort_by: institution
+  texposts:
+    output: false
 
 ############################################################
 # Header Pages
@@ -206,6 +208,10 @@ defaults:
       institution: n/a
       sequence: n/a
       studioTitle: n/a
+  - scope:
+      path: "_texposts"
+    values:
+      permalink: /:title/
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
