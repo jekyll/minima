@@ -235,7 +235,7 @@ webp:
   webp_path: nil
 
   # List of files or directories to explicitly include 
-  # e.g. single files outside of the main image directories
+  # e.g. single files outside of the main image directories 
   # include: []
 
   # List of files or directories to exclude
