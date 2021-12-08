@@ -23,7 +23,7 @@ jobs:
    - uses: xu-cheng/texlive-action/full@v1
      with:
        run: |
-         cd texposts
+         cd _texposts
          ./rebuild.sh
    # - name: Run make4ht
    #   uses: docker://ghcr.io/michal-h21/make4ht-action:latest
