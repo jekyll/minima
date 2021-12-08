@@ -1,0 +1,216 @@
+% --- LaTeX CV Template - S. Venkatraman ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, setspace}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=1in, right=1in, bottom=0.7in, top=0.7in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Document starts here ---
+
+\begin{document}
+
+% Name and date of last update to this document
+\noindent{\Huge{Your name here}
+\hfill{\it\footnotesize Updated \today}}
+
+% --- Contact information and other items ---
+
+\vspace{0.5cm} 
+\begin{center}
+\begin{tabular}{lll}
+% Line 1: Email, GitHub, office location
+\textbf{Email}: email@cornell.edu      &
+\hspace{0.55in} \textbf{GitHub}: //github-username    &
+\hspace{0.4in} 	\textbf{Office}: Your Building 101 \\
+
+% Line 2: Phone number, LinkedIn, citizenship
+\textbf{Phone}: (314) 159-2654   & 
+\hspace{0.55in} \textbf{LinkedIn}: //LinkedIn-URL   & 
+\hspace{0.4in} \textbf{Citizenship}: Country 
+\end{tabular}
+\end{center}
+
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+
+% Set the width of each column
+\begin{longtable}{p{1.3in}p{4.8in}}
+
+% --- Section: Research interests ---
+
+\nohyphens{\color{OliveGreen}{Research interests}}
+& Your favorite topic, another topic, another topic, another topic, another topic \\
+& \\
+
+% --- Section: Education ---
+
+\color{OliveGreen}{Education} 
+& \textbf{University 1} \hfill City, State \\ 
+& PhD in Subject \hfill Month Year -- Present \\
+& Mentors: Professors A, B. {\it GPA: X.YZ.}\\
+& \\
+
+& \textbf{University 2} \hfill City, State \\
+& MA in Subject \hfill Month Year -- Month Year\\
+& Mentors: Professors C, D. {\it GPA: X.YZ.}\\
+& \\
+
+& \textbf{University 3} \hfill City, State\\
+& BA in Subject 1, minor in Subject 2 \hfill Month Year -- Month Year \\
+& Mentors: Professors E, F. {\it GPA: X.YZ.}\\
+& \\
+
+% --- Uncomment the next few lines if you want to include some courses ---
+%& \textbf{Selected coursework}
+%\begin{itemize}[noitemsep,leftmargin=*]
+%\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
+%\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
+%\end{itemize} \\
+
+% --- Section: Awards, scholarships, etc. ---
+% --- Note: section title is spread over two lines ---
+
+{\color{OliveGreen}{Honors and}} 
+& Name of award 1 (Organization that gave you the award) \hfill 2020\\
+{\color{OliveGreen}{scholarships}} 
+& Name of award 2 (Organization that gave you the award)\hfill 2019 \\
+& Name of award 3 (Organization that gave you the award) \hfill 2018 \\
+& \\
+
+% --- Section: Publications ---
+\nohyphens{\color{OliveGreen}{Publications}} 
+& \textbf{Title of your most recent research paper} \\
+& First author, second author, third author, fourth author. \\
+& \textit{Journal of something or the other, 2020.}\\
+& \\
+
+& \textbf{Title of your second most recent research paper} \\
+& First author, second author, third author, fourth author. \\
+& \textit{Journal of something or the other, 2020.}\\
+& \\
+
+& \textbf{Title of your third most recent research paper} \\
+& First author, second author, third author, fourth author. \\
+& \textit{Journal of something or the other, 2020.}\\
+& \\
+
+% --- Section: Research experience ---
+
+\nohyphens{\color{OliveGreen}{Research experience}} 
+& \textbf{Title of project or lab where research was conducted} \\
+& Mentors: Professor A (University) \hfill Month Year -- Present \\
+& Description of your work. Summary of findings available \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{here}. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. Integer pretium semper justo. \\
+& \\
+
+& \textbf{Title of project or lab where research was conducted} \\
+& Mentors: Professor B (University) \hfill Month Year -- Present \\
+& This description of your work might spill onto the next page, which is fine. \hfill $\rightarrow$ \\
+& Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. Integer pretium semper justo. Proin risus. \\
+& \\
+
+% --- Section: Teaching experience ---
+
+{\color{OliveGreen}{Teaching experience}} 
+& \textbf{Teaching assistant, Department of Subject (University)} \hfill Fall 2020 \\
+& STAT 123: Name of course here \\
+& Topics and description of your responsibilities. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \\
+& \textit{Average student rating: X/5.} \\
+& \\
+
+& \textbf{Teaching assistant, Department of Subject (University)} \hfill Spring 2020 \\
+& STAT 234: Name of course here \\
+& Topics and description of your responsibilities. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \\
+& \textit{Average student rating: X/5.} \\
+& \\
+
+& \textbf{Teaching assistant, Department of Subject (University)} \hfill Spring 2020 \\
+& STAT 345: Name of course here \\
+& Topics and description of your responsibilities. Aliquam volutpat est vel massa. \\
+& \textit{Average student rating: X/5.} \\
+& \\
+
+% --- Section: Industry experience ---
+
+{\color{OliveGreen}{Industry experience}} 
+& {\textbf{Name of company,}} Division of company \hfill City, State\\
+& Title of job or internship \hfill Summer 2020 \\
+& Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque.\\
+& \\
+ 
+& {\textbf{Name of company,}} Division of company \hfill City, State\\
+& Title of job or internship \hfill Summer 2020 \\
+& Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque.\\
+& \\
+
+% --- Section: Talks and tutorials ---
+
+{\color{OliveGreen}{Talks and tutorials}} 
+& \textbf{Title of your most recent presentation} \hfill Month Year \\
+& Name of conference, workshop, seminar, venue, etc., or a description \\
+& \\
+
+& \textbf{Title of your second most recent presentation} \hfill Month Year \\
+& Name of conference, workshop, seminar, venue, etc., or a description \\
+& \\
+
+% --- Section: Various skills (programming, software, languages, etc.) ---
+
+{\color{OliveGreen}{Skills}} 
+& \textbf{Programming}\\
+& Proficient in: programming language 1, programming language 2. \\
+& Familiar with: programming language 3, programming language 4. \\
+& \\
+
+& \textbf{Languages} \\
+& Language 1 (fluent), Language 2 (advanced) \\
+& \\
+
+% --- Section: Service and outreach ---
+
+\color{OliveGreen}{Service and outreach}
+& \textbf{Title of organization you were in} \hfill Month Year -- Month Year \\
+& Description of your responsibilities. Integer pretium semper justo. Proin risus. Aliquam volutpat est vel massa. \\
+& \\
+
+% --- Section: Professional society memberships ---
+% --- Note: section title is spread over two lines ---
+
+{\color{OliveGreen}{Professional}} 
+& {\textbf{Name of professional society.}} \hfill Month Year -- Present \\
+{\color{OliveGreen}{memberships}} 
+& Some things you did or conferences you attended. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \\
+& \\
+
+% --- Section: Other interests/hobbies ---
+
+\nohyphens{\color{OliveGreen}{Other interests}} & Some of your hobbies etc.\\
+
+% --- End of CV! ---
+
+\end{longtable}
+\end{document}
