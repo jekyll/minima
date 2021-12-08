@@ -151,7 +151,12 @@ The I-9 Employment Eligibility Verification form requires a social security numb
 
 I called the [Redwood City](https://ssofficelocation.com/offices/california/redwood-city/redwood-city-social-security-office-94063/) social security office on 4 November 2021 for an appointment on 19 November 2021. It is recommended to call the office before your flight so that you can schedule the appointment as soon as after your arrivial in the US as possible.
 
-I would need to bring my passport with the machine-readable H-1B1 visa and I-94. The social security card was delivered to my address in a week.
+I would need to bring
+- my passport with the machine-readable H-1B1 visa
+- I-94 downloaded from [a DHS website](https://i94.cbp.dhs.gov/I94/#/recent-search)
+- [SS-5 form](https://www.ssa.gov/forms/ss-5.pdf)
+
+The social security card was delivered to my address in a week.
 
 The social security card is printed on security paper. When detached, it looks like a name card. Therefore, be very careful when opening the envelope when it is delivered. Record your social security number, and keep your social security card together with your passport.
 
