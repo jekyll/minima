@@ -3,4 +3,4 @@ layout: page
 title: cv
 #permalink: /about/
 ---
-[click to download my cv](../texposts/cv/beCV.pdf) 
+[click to download my cv]({% link /_texposts/cv/beCV.pdf %}) 

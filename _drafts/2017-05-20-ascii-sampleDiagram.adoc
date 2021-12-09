@@ -34,7 +34,7 @@ DiagramBlock <|-- DitaaBlock
 DiagramBlock <|-- PlantUmlBlock
 ....
 
-[tikz, "tıkz image", svg, preamble=true]
+[tikz, "tikz image", svg, preamble=true]
 ----
 \usepackage{tkz-euclide}
 \usepackage{etoolbox}
