@@ -127,7 +127,6 @@ minima:
 include: 
   - _pages
 # - _collections
-  - _texposts
 
 ############################################################
 # Collections
@@ -136,8 +135,6 @@ collections:
   projects:
     output: true
     sort_by: institution
-  texposts:
-    output: true
 
 ############################################################
 # Header Pages
@@ -209,10 +206,6 @@ defaults:
       institution: n/a
       sequence: n/a
       studioTitle: n/a
-  - scope:
-      path: "_texposts"
-    values:
-      permalink: /:title/
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
