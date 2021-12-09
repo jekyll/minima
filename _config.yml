@@ -142,17 +142,15 @@ collections:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - index.html
-#  - _pages/work.md
+# - _pages/work.md
   - _pages/log.md
   - _pages/cv.md
   - _pages/about.md
-#  - _pages/history.md
+# - _pages/history.md
 
 ############################################################
 # Plugins (previously gems)
 plugins:
- - asciidoctor-diagram
- - jekyll-asciidoc
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme

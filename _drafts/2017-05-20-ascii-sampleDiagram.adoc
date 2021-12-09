@@ -85,4 +85,4 @@ pic [] {angle=X--O--P};
 ----
 
 Powered by:
-image::logo-2x.png[Jekyll]
+Jekyll image file

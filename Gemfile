@@ -21,7 +21,7 @@ gem 'jekyll-include-cache', group: :jekyll_plugins
 group :jekyll_plugins do
   gem 'kramdown-parser-gfm' if ENV['JEKYLL_VERSION'] == '~> 3.9'
 # gem 'asciidoctor'
-  gem 'asciidoctor-diagram', '~> 2.2', '>= 2.2.1'
+  gem 'asciidoctor-diagram', '~> 2.2'
 # gem 'jekyll-asciidoc', '~> 3.0'
   gem 'jekyll-asciidoc', github: 'asciidoctor/jekyll-asciidoc'
   gem 'pygments.rb', '~> 2.2'
@@ -53,6 +53,3 @@ end
 # Performance-booster for watching directories on Windows
 gem 'wdm', '~> 0.1.1', :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
-
-#gemspec below directs to minima.gemspec (learn more how it works)
-#gemspec
