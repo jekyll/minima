@@ -127,7 +127,7 @@ minima:
 include: 
   - _pages
 # - _collections
-# - _texposts
+  - _texposts
 
 ############################################################
 # Collections
