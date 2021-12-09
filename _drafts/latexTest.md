@@ -1,6 +1,5 @@
 ---
 title: latex in md
-permalink: /latexTest
 ---
 Here, have some $$ \pi $$.
 
@@ -33,28 +32,4 @@ $$
  cell7 & cell8 & cell9    
 \end{tabular}
 \end{center}
-$$
-
-$$
-[graphviz,cyclic,svg]
-....
-digraph g {
-    a -> b
-    b -> c
-    c -> d
-    d -> a
-}
-....
-$$
-
-$$
-[graphviz,dot-example,svg]
-....
-digraph g {
-    a -> b
-    b -> c
-    c -> d
-    d -> a
-}
-....
 $$
