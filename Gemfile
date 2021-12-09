@@ -24,7 +24,6 @@ group :jekyll_plugins do
   gem 'asciidoctor-diagram', '~> 2.2'
 # gem 'jekyll-asciidoc', '~> 3.0'
   gem 'jekyll-asciidoc', github: 'asciidoctor/jekyll-asciidoc'
-  gem 'pygments.rb', '~> 2.2'
   gem 'minitest', '~> 5.14', '>= 5.14.4'
   gem 'rake', '~> 13.0', '>= 13.0.6'
   gem 'minima', '~> 2.5'
