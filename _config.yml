@@ -135,6 +135,8 @@ collections:
   projects:
     output: true
     sort_by: institution
+  texposts:
+    output: false
 
 ############################################################
 # Header Pages
@@ -151,6 +153,8 @@ header_pages:
 ############################################################
 # Plugins (previously gems)
 plugins:
+ - asciidoctor-diagram
+ - jekyll-asciidoc
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme
@@ -204,6 +208,10 @@ defaults:
       institution: n/a
       sequence: n/a
       studioTitle: n/a
+  - scope:
+      path: "_texposts"
+    values:
+      permalink: /:title/
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
@@ -246,3 +254,20 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
+# Site configuration for the Jekyll-AsciiDoc Plugin
+
+keep_files:
+  - images
+
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    imagesdir: /images
+    stem: ''
+    :page-layout: auto@
+    dot: C:/Program Files/Graphviz/bin/dot.exe
+    source-highlighter: pygments
+    icons: font
+    stylesdir: /assets/css/ascii
