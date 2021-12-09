@@ -259,7 +259,7 @@ asciidoctor:
     imagesdir: /images
     stem: ''
     :page-layout: auto@
-    dot: C:/Program Files/Graphviz/bin/dot.exe
+    #dot: C:/Program Files/Graphviz/bin/dot.exe
     source-highlighter: pygments
     icons: font
     stylesdir: /assets/css/ascii
