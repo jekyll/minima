@@ -137,7 +137,7 @@ collections:
     output: true
     sort_by: institution
   texposts:
-    output: false
+    output: true
 
 ############################################################
 # Header Pages
@@ -213,7 +213,6 @@ defaults:
       path: "_texposts"
     values:
       permalink: /:title/
-      layout: post
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
