@@ -126,7 +126,8 @@ minima:
 # refer to; https://github.com/jekyll/jekyll/issues/920#issuecomment-63093764
 include: 
   - _pages
-#  - _collections
+# - _collections
+# - _texposts
 
 ############################################################
 # Collections
@@ -212,6 +213,7 @@ defaults:
       path: "_texposts"
     values:
       permalink: /:title/
+      layout: post
 
 ############################################################
 # Site configuration for the WebP Generator Plugin
