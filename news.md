@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-
+* [08-12-21](https://twitter.com/polyquantique/status/1468772841722109953) Mr Mustard is out!
 
 * [22-10-21](https://twitter.com/PRX_Quantum/status/1451591689525731333) Our work with Xanadu on [Fast Simulation of Bosonic Qubits via Gaussian Functions in Phase Space is published in PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.040315).
 
