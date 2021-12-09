@@ -137,7 +137,7 @@ collections:
     output: true
     sort_by: institution
   texposts:
-    output: true
+    output: false
 
 ############################################################
 # Header Pages
@@ -256,14 +256,14 @@ webp:
 # Site configuration for the Jekyll-AsciiDoc Plugin
 
 keep_files:
-  - images
+  - asciiImg
 
 asciidoc: {}
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: /images
+    imagesdir: /asciiImg
     stem: ''
     :page-layout: auto@
     #dot: C:/Program Files/Graphviz/bin/dot.exe

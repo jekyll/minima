@@ -26,4 +26,4 @@ digraph g {
 
 Powered by:
 
-image::logo-2x.png[Jekyll]
+image::logo-2x.png[jekyll]
