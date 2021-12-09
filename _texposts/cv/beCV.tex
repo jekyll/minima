@@ -1,0 +1,124 @@
+%----------------------------------------------------------------------------------------
+%	PREAMBLE - PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%%!TeX program = xelatex
+
+% Set document class and font size
+\documentclass[letterpaper, 10pt]{article} % Default document font size & class (document type)
+%\input{beCV_style.tex} % Include the file specifying the document structure and styling, if necessary.
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, parskip, ragged2e, adjustbox}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[dvipsnames*, svgnames]{xcolor}
+\usepackage[most]{tcolorbox}
+
+\usepackage{kantlipsum}% to provide sample text
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[top=0.7in, right=0.5in,  bottom=0.5in, left=0.5in]{geometry}
+
+% Set paragraph settings
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+%\renewcommand{\baselinestretch}{0.0}
+
+% --- Page formatting ---
+
+% Set font
+\usepackage{eulervm}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Meta ---
+
+\title{cv}
+\author{Berkhan Eminsoy \thanks{mom \& dad}}
+\date{December 2021}
+
+%----------------------------------------------------------------------------------------
+% BODY
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+\begin{tcolorbox}[colback=gray!50, enhanced, sharp corners, frame hidden, halign=center]
+HOW CAN I DO THIS IN \LaTeX{} THE SIMPLER WAY?
+\end{tcolorbox}
+
+First document. This is a simple example, with no 
+extra parameters or packages included.
+\\ Let's see changes.
+\\ Ok it changes.
+
+\noindent Oh so this is a new paragraph. But the recommended method to create a new paragraph is to use double blank lines. Like so;
+
+What happens \textbf{now?!?} (it doesn't matter how many blank lines there are between paragraphs, it counts as a new paragraph regardless)
+
+% --- Start the three-column table storing the main content ---
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+% Set spacing between columns
+\setlength{\tabcolsep}{0.0625in}
+
+% Set the width of each column
+%\begin{longtable}{|p{1.4375in}|p{4,9375in}|}
+%\begin{longtable}{p{1.5in}p{4.125in}p{1.5in}}
+\begin{longtable}{p{1.5in}p{4.125in}r}
+
+% --- Section: work experience ---
+
+\adjustbox{right, bgcolor=black, fgcolor=white}{\MakeUppercase{\textbf{work experience}}} % margin key could be used to set a gap between content (text) and the box boundary.
+& \MakeUppercase{\textbf{can elmas architecture} $\mid$ istanbul, turkey}
+& \MakeUppercase{\textbf{june – october '21}} \\
+& \small\MakeUppercase{\textbf{role :}} Adapted an internationally prepared construction and tender set by ATP Architects \& Engineers and Erdemli Engineering \& Consulting for a 100,000 m2 meat‐processing plant to meet the local codes and materials. Coordinated the local project team to meet the bid set, project application for permit and construction permit deadlines. \hfill \\
+& \\
+
+& \textbf{job 2} \hfill MM 'YY – MM 'YY \\
+& MA in Subject \hfill \\
+& Mentors: Professors C, D. {\it GPA: X.YZ.}\\
+& \\
+
+& \textbf{job 3} \hfill MM 'YY – MM 'YY\\
+& BA in Subject 1, minor in Subject 2 \hfill \\
+& Mentors: Professors E, F. {\it GPA: X.YZ.}\\
+& \\
+
+%\section*{work experience}
+%& \subsection*{can elmas architecture} \hfill mo-yr \\
+%& \subsection*{buro happold engineering} \hfill mo-yr \\
+%& \\
+%
+%\section*{education}
+%& \subsection*{lorem} \hfill mo-yr \\
+%& \\
+%
+%\section*{volunteer}
+%& \subsection*{lorem} \hfill mo-yr \\
+%& \\
+%
+%\section*{skills}
+%& \subsection*{lorem} \hfill mo-yr \\
+%& \\
+%
+%\section*{code}
+%& \subsection*{lorem} \hfill mo-yr \\
+%& \\
+%
+%\section*{languages}
+%& \subsection*{lorem} \hfill mo-yr \\
+%& \\
+
+\end{longtable}
+
+\end{document}
