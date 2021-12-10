@@ -1,14 +1,14 @@
 <!-- the custom footer mostly loads all the necessary javascripts -->
 
-{%- include slider_scripts.html -%} <!-- checks to see if any sliders exist on the loaded page -->
-
-{%- include katex.html -%} <!-- looks for divs with type='math/tex' and parses them through KaTeX -->
-
 <!-- Fetch D3 Library-->
 <!--<script src="https://unpkg.com/d3@5.16.0/dist/d3.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
 
 {%- include graphviz.html -%}
+
+{%- include slider_scripts.html -%} <!-- checks to see if any sliders exist on the loaded page -->
+
+{%- include katex.html -%} <!-- looks for divs with type='math/tex' and parses them through KaTeX -->
 
 {% comment %}{%if page.div.class == 'mermaid' %}{% endif %}{% endcomment %}
 <script>

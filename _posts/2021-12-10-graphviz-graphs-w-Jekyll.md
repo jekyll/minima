@@ -86,7 +86,7 @@ digraph {
 
 ### II. Using [d3.js](https://github.com/d3/d3) & [d3-graphviz](https://github.com/magjac/d3-graphviz) & [hpcc-js/wasm](https://github.com/hpcc-systems/hpcc-js-wasm) libraries
 
-I've also tried to adopt [okamoto's](https://oko.io/howto/graphviz-in-markdown/) way of doing graphviz. Let's see a few examples of how the charts actually look like down 👇.
+I've also tried to adopt [okamoto's](https://oko.io/howto/graphviz-in-markdown/) way of doing graphviz. Let's see a few examples of how the charts actually look like down 👇. The issue with these is that they sink all the way to the bottom of the markdown file organization... and I don't know how to fix them now...
 
 **A graphviz chart example**
 ```dot
@@ -108,8 +108,30 @@ credit : <https://oko.io/howto/graphviz-in-markdown/>
 
 And this example is from; <https://github.com/magjac/d3-graphviz>
 
+<!--
 <div id="graph" style="text-align: center;"></div>
 <script>
 d3.graphviz("#graph")
   .renderDot('digraph {a -> b}');
 </script>
+-->
+
+### III. Using viz.js modules
+
+<!-- error : ends up, at the bottom of the page
+<script>
+var viz = new Viz();
+
+viz.renderSVGElement('digraph { a -> b; b -> c }')
+.then(function(element) {
+  document.body.appendChild(element);
+})
+.catch(error => {
+  // Create a new Viz instance (@see Caveats page for more info)
+  viz = new Viz();
+
+  // Possibly display the error
+  console.error(error);
+});
+</script>
+-->
