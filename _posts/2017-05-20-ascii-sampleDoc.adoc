@@ -1,4 +1,4 @@
-= Sample Page
+= Sample .adoc Page
 :page-layout: page
 :page-permalink: /sample/
 :url-asciidoctor: http://asciidoctor.org

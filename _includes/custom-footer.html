@@ -1,0 +1,9 @@
+
+{%- include slider_scripts.html -%} <!-- checks to see if any sliders exist on the loaded page -->
+
+{%- include katex.html -%}<!-- looks for divs with type='math/tex' and parses them through KaTeX -->
+
+{% comment %}{%if page.div.class == 'mermaid' %}{% endif %}{% endcomment %}
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
