@@ -333,7 +333,20 @@ a {
 }
 
 // RSS Feed
-
 .feed-subscribe .svg-icon {
   box-sizing: initial;
+}
+
+// Header anchor links
+.anchorjs-link:hover {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+// Graphviz graphs
+div.graphviz-svg {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0.5em 0;
 }
