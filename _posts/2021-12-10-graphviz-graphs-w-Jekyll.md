@@ -46,7 +46,7 @@ and here is the result once we tie it all together;
 
 ![complex_chart](https://quickchart.io/graphviz?graph={{ my_graph }})
 
-At this, we could also get rid of our external graphviz graph and simply capture it in a liquid variable as such;
+At this point, we could also get rid of our external graphviz graph and simply capture it in a liquid variable as such;
 
 {% highlight liquid %}
 {% raw %}

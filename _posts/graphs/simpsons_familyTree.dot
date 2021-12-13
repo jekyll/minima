@@ -1,0 +1,56 @@
+digraph {
+  edge [dir=none];
+  node [shape=box];
+  graph [bgcolor=transparent];
+
+  "Herb"      [shape=box, regular=0, color="blue"] ;
+  "Homer"     [shape=box, regular=0, color="blue"] ;
+  "Marge"     [shape=oval, regular=0, color="pink"] ;
+  "Clancy"    [shape=box, regular=0, color="blue"] ;
+  "Jackeline" [shape=oval, regular=0, color="pink"] ;
+  "Abraham"   [shape=box, regular=0, color="blue"] ;
+  "Mona"      [shape=oval, regular=0, color="pink"] ;
+  "Patty"     [shape=oval, regular=0, color="pink"] ;
+  "Selma"     [shape=oval, regular=0, color="pink"] ;
+  "Bart"      [shape=box, regular=0, color="blue"] ;
+  "Lisa"      [shape=oval, regular=0, color="pink"] ;
+  "Maggie"    [shape=oval, regular=0, color="pink"] ;
+  "Ling"      [shape=box, regular=0, color="blue"] ;
+
+  a1 [shape=circle,label="",height=0.01,width=0.01];
+  b1 [shape=circle,label="",height=0.01,width=0.01];
+  b2 [shape=circle,label="",height=0.01,width=0.01];
+  b3 [shape=circle,label="",height=0.01,width=0.01];
+  {rank=same; Abraham -> a1 -> Mona};
+  {rank=same; b1 -> b2 -> b3};
+  {rank=same; Herb; Homer};
+  a1 -> b2
+  b1 -> Herb
+  b3 -> Homer
+
+  p1 [shape=circle,label="",height=0.01,width=0.01];
+  q1 [shape=circle,label="",height=0.01,width=0.01];
+  q2 [shape=circle,label="",height=0.01,width=0.01];
+  q3 [shape=circle,label="",height=0.01,width=0.01];
+  {rank=same; Homer -> p1 -> Marge};
+  {rank=same; q1 -> q2 -> q3};
+  {rank=same; Bart; Lisa; Maggie};
+  p1 -> q2;
+  q1 -> Bart;
+  q2 -> Lisa;
+  q3 -> Maggie;
+
+  x1 [shape=circle,label="",height=0.01,width=0.01];
+  y1 [shape=circle,label="",height=0.01,width=0.01];
+  y2 [shape=circle,label="",height=0.01,width=0.01];
+  y3 [shape=circle,label="",height=0.01,width=0.01];
+  {rank=same; Clancy -> x1 -> Jackeline};
+  {rank=same; y1 -> y2 -> y3};
+  {rank=same; Marge; Patty; Selma};
+  {rank=same; Bart; Ling}
+  x1 -> y2;
+  y1 -> Marge;
+  y2 -> Patty;
+  y3 -> Selma;
+  Selma -> Ling;
+}
