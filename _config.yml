@@ -57,3 +57,5 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+google_analytics: G-5DNSJRFB7G
