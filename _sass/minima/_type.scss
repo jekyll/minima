@@ -11,7 +11,7 @@ h3,
 h4,
 h5 {
   font-family: $title-font-family;
-  font-weight: $base-font-weight;
+  font-weight: $heading-font-weight;
   color: var(--text-color-dark);
 }
 
@@ -22,7 +22,7 @@ h2 {
 
 h5 {
   color: var(--text-color);
-  font-weight: 700;
+  font-weight: $heading-font-weight;
   margin-bottom: $spacing-unit/2;
   text-transform: uppercase;
   letter-spacing: .02em;
@@ -79,11 +79,10 @@ ul {
 .post-content h1,
 .post-title {
   font-family: $title-font-family;
-  font-weight: 700;
+  font-weight: $heading-font-weight;
   margin-top: 0.5em;
   margin-bottom: 0.25em;
   letter-spacing: 0 !important;
-  font-weight: 700;
   @include relative-font-size(2.25);
   letter-spacing: -1px;
   line-height: 1;
@@ -94,7 +93,7 @@ ul {
 }
 
 .post-content {
-  // margin-bottom: $spacing-unit;
+  font-feature-settings: 'ss01' on;
 
   a {
     border-bottom: 2px solid var(--background-color);
@@ -107,7 +106,6 @@ ul {
   }
 
   h2 {
-    font-weight: 500;
     margin-top: 18px;
     @include relative-font-size(1.75);
     @media screen and (min-width: $on-large) {
@@ -116,7 +114,7 @@ ul {
   }
 
   h3 {
-    font-weight: 700;
+    font-weight: $heading-font-weight;
     margin-bottom: 4px;
     margin-top: 20px;
     @include relative-font-size(1.375);
@@ -126,7 +124,7 @@ ul {
   }
 
   h4 {
-    font-weight: 700;
+    font-weight: $heading-font-weight;
     margin-bottom: 4px;
     margin-top: 18px;
     @include relative-font-size(1.125);
@@ -136,7 +134,7 @@ ul {
   }
 
   h6 {
-    font-weight: 400;
+    font-weight: $base-font-weight;
     margin-bottom: 2 * $spacing-unit;
     border-left: 3px solid var(--accent-color);
     padding-left: 8px;
