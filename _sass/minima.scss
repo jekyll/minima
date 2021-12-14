@@ -1,9 +1,8 @@
 @charset "utf-8";
-// @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap'); // Define defaults for each variable.
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,300&display=swap'); // Define defaults for each variable.
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap'); // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
-$title-font-family: "Bitter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$base-font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$title-font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;

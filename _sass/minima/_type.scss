@@ -1,5 +1,10 @@
 // Gyan's Typography
 
+// s-alt for DM Sans
+body{
+  font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on, 'ss05' on, 'ss06' on;
+}
+
 Headings h1,
 h2,
 h3,
