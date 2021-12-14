@@ -10,7 +10,7 @@ In summary, this is my US immigration background
 - I am a Singapore citizen, who is eligible for H-1B1. Unlike H-1B, no lottery process is needed to apply for a H-1B1.
 - I am starting my role as a software engineer at Quora in November 2021.
 
-Pieces of information here may be useful to you. Much of the information here is expected to be short-lived. Some information, such as the list of items needed, may be incomplete. Some information, especially if I have not gone through the process, like getting a driving license, may be inaccurate.
+Pieces of information here may be useful to you, however shortlived and imcomplete.
 
 
 
@@ -141,7 +141,9 @@ Yours faithfully
 
 - The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/share/2989388963). If you use this link, I get a $50 bonus in addition.
 
-You do not need a social security number to open your account. However, to apply for a credit card to build your credit rating, you need to link your social security number to your account.
+You do not need a social security number to open your account. However, to apply for a credit card, you need to link your social security number to your account. You may want to apply and use your credit card to build credit rating for your future benefit.
+
+Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/free-credit-score), but I think it will only appear 30 days after you linked your bank account to your social security number.
 
 
 
