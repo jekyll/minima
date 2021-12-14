@@ -1,94 +1,166 @@
 digraph {
   edge [dir=none];
-  node [shape=box];
-  graph [bgcolor=transparent];
+  node [shape=box; color=gainsboro; style=filled];
+  graph [rankdir="TB";
+         center=true;
+         bgcolor=transparent;
+         concentrate=true;
+         /*outputMode="nodesfirst";*/
+         /*clusterrank=local;*/
+         /*sep="+10,10";*/
+         mclimit=0.1;
+         /*sep="+10,10";*/
+         /*overlap=false;*/
+         ranksep=1;
+         nodesep=0.5;];
+  
+  aa00 -> {"Ahmet" "Şaban" "Mustafa"};
 
-  aa00 [shape=point];
+  "Şaban" -> aa10 -> "Emin";
+  {rank=same; "Emin" -> aa20 -> "Sultan"};
+
+  aa20 -> aa25 -> {"Bahri" "Derviş" "Çakala" "Hasret" "Seyehat" "Yusuf" "Ziya"};
+  subgraph cluster_0 {rank=same; color=transparent; "Yusuf" -> aa30 -> "Hanife" [constraint=false]};
+
+  aa30 -> aa35 -> {"Hacer" "Muzaffer" "Münire" "Nigar" "Rahim" "Rasim"};
+  {rank=same; "Hacer" -> aa40 -> "Nevzat"};
+  {rank=same; "Muzaffer" -> ba40 -> "Münevver"};
+  {rank=same; "Nigar" -> ca40 -> "Idris"};
+  {rank=same; "Rahim" -> da40 -> "Fadime"};
+  {rank=same; "Rasim" -> ea40 -> "Aslı"};
+
+  aa40 -> aa45 -> {"Servet" "Hayriye"};
+  ba40 -> ba45 -> {"Fahamettin" "Hisamettin" "Miyase" "Naime" "Süreyya"};
+  {rank=same; "Fahamettin" -> ba50 -> "Necibe"};
+  {rank=same; "Hisamettin" -> bb50 -> "Feride"};
+  {rank=same; "Miyase" -> bc50 -> "Hesabali"};
+  {rank=same; "Naime" -> bd50 -> "Ismail"};
+  subgraph cluster_1 {rank=same; color=transparent; "Süreyya" -> be50 -> "Naciye" [constraint=false]};
+  ca40 -> ca45 -> {"Alişan" "Fadime2" "Münevver2" "Osman" "Remziye" "Sundus"};
+  da40 -> da45 -> {"Naci" "Nermin" "Şayibe" "Tahsin" "Tarık"};
+  ea40 -> ea45 -> {"Çiğdem" "Erşan" "Gülden" "Gülçen" "Hacer2" "Mihriban" "Mübeccel" "Nurdem" "Uğur"};
+
+  ba50 -> ba55 -> {"Münevver3" "Selçuk"};
+  {rank=same; "Münevver3" -> aa60 -> "Mustafa2"};
+  {rank=same; "Selçuk" -> ab60 -> "Nur"};
+  bb50 -> bb55 -> {"Ayla" "Münire2" "Seyhun" "Yusuf2"};
+  subgraph cluster_2 {rank=same; color=transparent; "Seyhun" -> ba60 -> "Emine" [constraint=false]};
+  subgraph cluster_3 {rank=same; color=transparent; "Yusuf2" -> bb60 -> "Aliye" [constraint=false]};
+  bc50 -> bc55 -> {"Ergin" "Ilter"};
+  subgraph cluster_4 {rank=same; color=transparent;"Ergin" -> ca60 -> "Münire2" [constraint=false]};
+  subgraph cluster_5 {rank=same; color=transparent; "Ilter" -> cb60 -> "Leyla" [constraint=false]};
+  be50 -> be55 -> {"Gökhan" "Hakan"};
+  {rank=same; "Gökhan" -> da60 -> "Irem"};
+  {rank=same; "Hakan" -> db60 -> "Gülberk"};
+
+  aa60 -> aa65 -> {"Can" "Özdal"};
+  {rank=same; "Can" -> aa70 -> "Lauren"};
+  {rank=same; "Özdal" -> ab70 -> "Béné"};
+  ab60 -> ab65 -> {"Elvin"};
+  {rank=same; "Elvin" -> ba70 -> "Ömer"};
+  ba60 -> ba65 -> {"Ekin"};
+  bb60 -> bb65 -> {"Tuğra"};
+  subgraph cluster_6 {rank=same; color=transparent; "Tuğra" -> ca70 -> "Pınar2" [constraint=false]};
+  ca60 -> ca65 -> {"Cem" "Pınar"};
+  {rank=same; "Pınar" -> da70 -> "Özgür"};
+  cb60 -> cb65 -> {"Burcu" "Gözde"};
+  da60 -> da65 -> {"Arhan" "Arın"};
+  db60 -> db65 -> {"Berkhan"};
+
+  aa70 -> aa75 -> {"Claire Alara" "Declan Alp"};
+  ab70 -> ab75 -> {"Joseph Can"};
+  ba70 -> ba75 -> {"Ali" "Can2"};
+  ca70 -> ca75 -> {"Elis"};
+  da70 -> da75 -> {"Mert"};
+
+  
   // jenerasyon 1
-  aa00 -> {Ahmet, Şaban, Mustafa}
-  "Ahmet" [shape=box, regular=0, color="blue"];
-  "Şaban" [shape=box, regular=0, color="blue"];
-  "Mustafa" [shape=box, regular=0, color="blue"];
+  aa00 [shape=point];
+  "Ahmet" [shape=box, regular=0, color="cornflowerblue"];
+  "Şaban" [shape=box, regular=0, color="cornflowerblue"];
+  "Mustafa" [shape=box, regular=0, color="cornflowerblue"];
+  aa10 [shape=point];
 
   // jenerasyon 2
-  Şaban -> Emin
-  "Emin" [shape=box, regular=0, color="blue"]; "Sultan" [shape=egg, regular=0, color="pink"]; aa20 [shape=point]; {rank=same; Emin -> aa20 -> Sultan};
-
-  aa25 [shape=point];
+  "Emin" [shape=box, regular=0, color="cornflowerblue"]; "Sultan" [shape=egg, regular=0, color="pink"]; aa20 [shape=point]; aa25 [shape=point];
 
   // jenerasyon 3
-  aa20 -> aa25 -> {Bahri, Derviş, Çakala, Hasret, Seyehat, Yusuf, Ziya}
-  "Bahri" [shape=box, regular=0, color="blue"];
-  "Derviş" [shape=box, regular=0, color="blue"];
-  "Çakala" [shape=box, regular=0, color="blue"];
-  "Hasret" [shape=box, regular=0, color="blue"];
+  "Bahri" [shape=box, regular=0, color="cornflowerblue"];
+  "Derviş" [shape=box, regular=0, color="cornflowerblue"];
+  "Çakala" [shape=box, regular=0, color="cornflowerblue"];
+  "Hasret" [shape=box, regular=0, color="cornflowerblue"];
   "Seyehat" [shape=egg, regular=0, color="pink"];
-  "Yusuf" [shape=box, regular=0, color="blue"]; "Hanife" [shape=egg, regular=0, color="pink"]; aa30 [shape=point]; {rank=same; Yusuf -> aa30 -> Hanife};
-  "Ziya" [shape=box, regular=0, color="blue"];
-
-  aa35 [shape=point];
+  "Yusuf" [shape=box, regular=0, color="cornflowerblue"]; "Hanife" [shape=egg, regular=0, color="pink"]; aa30 [shape=point]; aa35 [shape=point];
+  "Ziya" [shape=box, regular=0, color="cornflowerblue"];
 
   // jenerasyon 4
-  aa30 -> aa35 -> {Hacer, Muzaffer, Münire, Nigar, Rahim, Rasim}
-  "Hacer" [shape=egg, regular=0, color="pink"]; "Nevzat" [shape=box, regular=0, color="blue"]; aa40 [shape=point]; {rank=same; Hacer -> aa40 -> Nevzat};
-  "Muzaffer" [shape=box, regular=0, color="blue"]; "Münevver" [shape=egg, regular=0, color="pink"]; ba40 [shape=point]; {rank=same; Muzaffer -> ba40 -> Münevver}; 
+  "Hacer" [shape=egg, regular=0, color="pink"]; "Nevzat" [shape=box, regular=0, color="cornflowerblue"]; aa40 [shape=point]; aa45 [shape=point];
+  "Muzaffer" [shape=box, regular=0, color="cornflowerblue"]; "Münevver" [shape=egg, regular=0, color="pink"]; ba40 [shape=point]; ba45 [shape=point];
   "Münire" [shape=egg, regular=0, color="pink"];
-  "Nigar" [shape=egg, regular=0, color="pink"]; "Idris" [shape=box, regular=0, color="blue"]; ca40 [shape=point]; {rank=same; Nigar -> ca40 -> Idris};
-  "Rahim" [shape=box, regular=0, color="blue"]; "Fadime" [shape=egg, regular=0, color="pink"]; da40 [shape=point]; {rank=same; Rahim -> da40 -> Fadime};
-  "Rasim" [shape=box, regular=0, color="blue"]; "Aslı" [shape=egg, regular=0, color="pink"]; ea40 [shape=point]; {rank=same; Rasim -> ea40 -> Aslı};
-
-  aa45 [shape=point];
-  ba45 [shape=point];
-  ca45 [shape=point];
-  da45 [shape=point];
-  ea45 [shape=point];
+  "Nigar" [shape=egg, regular=0, color="pink"]; "Idris" [shape=box, regular=0, color="cornflowerblue"]; ca40 [shape=point]; ca45 [shape=point];
+  "Rahim" [shape=box, regular=0, color="cornflowerblue"]; "Fadime" [shape=egg, regular=0, color="pink"]; da40 [shape=point]; da45 [shape=point];
+  "Rasim" [shape=box, regular=0, color="cornflowerblue"]; "Aslı" [shape=egg, regular=0, color="pink"]; ea40 [shape=point]; ea45 [shape=point];
 
   // jenerasyon 5
-  aa40 -> aa45 -> {Servet, Hayriye}
-  "Servet" [shape=box, regular=0, color="blue"];
+  "Servet" [shape=box, regular=0, color="cornflowerblue"];
   "Hayriye" [shape=egg, regular=0, color="pink"];
-
-  ba40 -> ba45 -> {Fahamettin, Hisamettin, Miyase, Naime, Süreyya}
-  "Fahamettin" [shape=box, regular=0, color="blue"]; "Necibe" [shape=egg, regular=0, color="pink"]; ba50 [shape=point]; {rank=same; Fahamettin -> ba50 -> Necibe}
-  "Hisamettin" [shape=box, regular=0, color="blue"]; "Feride" [shape=egg, regular=0, color="pink"]; bb50 [shape=point]; {rank=same; Hisamettin -> bb50 -> Feride}
-  "Miyase" [shape=egg, regular=0, color="pink"]; "Hesabali" [shape=box, regular=0, color="blue"]; bc50 [shape=point]; {rank=same; Miyase -> bc50 -> Hesabali}
-  "Naime" [shape=egg, regular=0, color="pink"]; "Ismail" [shape=box, regular=0, color="blue"]; bd50 [shape=point]; {rank=same; Naime -> bd50 -> Ismail}
-  "Süreyya" [shape=box, regular=0, color="blue"]; "Naciye" [shape=egg, regular=0, color="pink"]; be50 [shape=point]; {rank=same; Süreyya -> be50 -> Naciye}
-
-  ca40 -> ca45 -> {Alişan, Fadime2, Münevver2, Osman, Remziye, Sundus}
-  "Alişan" [shape=box, regular=0, color="blue"];
+  "Fahamettin" [shape=box, regular=0, color="cornflowerblue"]; "Necibe" [shape=egg, regular=0, color="pink"]; ba50 [shape=point]; ba55 [shape=point];
+  "Hisamettin" [shape=box, regular=0, color="cornflowerblue"]; "Feride" [shape=egg, regular=0, color="pink"]; bb50 [shape=point]; bb55 [shape=point];
+  "Miyase" [shape=egg, regular=0, color="pink"]; "Hesabali" [shape=box, regular=0, color="cornflowerblue"]; bc50 [shape=point]; bc55 [shape=point];
+  "Naime" [shape=egg, regular=0, color="pink"]; "Ismail" [shape=box, regular=0, color="cornflowerblue"]; bd50 [shape=point];
+  "Süreyya" [shape=box, regular=0, color="cornflowerblue"]; "Naciye" [shape=egg, regular=0, color="pink"]; be50 [shape=point]; be55 [shape=point];
+  "Alişan" [shape=box, regular=0, color="cornflowerblue"];
   "Fadime2" [shape=egg, regular=0, color="pink", label="Fadime"];
   "Münevver2" [shape=egg, regular=0, color="pink", label="Münevver"];
-  "Osman" [shape=box, regular=0, color="blue"];
+  "Osman" [shape=box, regular=0, color="cornflowerblue"];
   "Remziye" [shape=egg, regular=0, color="pink"];
   "Sundus" [shape=egg, regular=0, color="pink"];
-
-  da40 -> da45 -> {Naci, Nermin, Şayibe, Tahsin, Tarık}
-  "Naci" [shape=box, regular=0, color="blue"];
+  "Naci" [shape=box, regular=0, color="cornflowerblue"];
   "Nermin" [shape=egg, regular=0, color="pink"];
   "Şayibe" [shape=egg, regular=0, color="pink"];
-  "Tahsin" [shape=box, regular=0, color="blue"];
-  "Tarık" [shape=box, regular=0, color="blue"];
-
-  ea40 -> ea45 -> {Çiğdem, Erşan, Gülden, Gülçen, Hacer2, Mihriban, Mübeccel, Nurdem, Uğur}
+  "Tahsin" [shape=box, regular=0, color="cornflowerblue"];
+  "Tarık" [shape=box, regular=0, color="cornflowerblue"];
   "Çiğdem" [shape=egg, regular=0, color="pink"];
-  "Erşan" [shape=box, regular=0, color="blue"];
+  "Erşan" [shape=box, regular=0, color="cornflowerblue"];
   "Gülden" [shape=egg, regular=0, color="pink"];
   "Gülçen" [shape=egg, regular=0, color="pink"];
   "Hacer2" [shape=egg, regular=0, color="pink", label="Hacer"];
   "Mihriban" [shape=egg, regular=0, color="pink"];
   "Mübeccel" [shape=egg, regular=0, color="pink"];
   "Nurdem" [shape=egg, regular=0, color="pink"];
-  "Uğur" [shape=box, regular=0, color="blue"];
-
-  ba55 [shape=point];
-  bb55 [shape=point];
-  bc55 [shape=point];
-  be55 [shape=point];
+  "Uğur" [shape=box, regular=0, color="cornflowerblue"];
 
   // jenerasyon 6
-  ba50 -> ba55 -> {Münevver3, Selçuk}
-  bb50 -> bb55 -> {Ayla, Emine, Münire2, Seyhun}
-  bc50 -> bc55 -> {Ergin, Ilter}
-  be50 -> be55 -> {Gökhan, Hakan}
+  "Münevver3" [shape=egg, regular=0, color="pink", label="Münevver"]; "Mustafa2" [shape=box, regular=0, color="cornflowerblue", label="Mustafa"]; aa60 [shape=point]; aa65 [shape=point];
+  "Selçuk" [shape=box, regular=0, color="cornflowerblue"]; "Nur" [shape=egg, regular=0, color="pink"]; ab60 [shape=point]; ab65 [shape=point];
+  "Ayla" [shape=egg, regular=0, color="pink"];
+  "Seyhun" [shape=box, regular=0, color="cornflowerblue"]; "Emine" [shape=egg, regular=0, color="pink"]; ba60 [shape=point]; ba65 [shape=point];
+  "Yusuf2" [shape=box, regular=0, color="cornflowerblue", label="Yusuf"]; "Aliye" [shape=egg, regular=0, color="pink"]; bb60 [shape=point]; bb65 [shape=point];
+  "Ergin" [shape=box, regular=0, color="cornflowerblue"]; "Münire2" [shape=egg, regular=0, color="pink", label="Münire"]; ca60 [shape=point]; ca65 [shape=point];
+  "Ilter" [shape=box, regular=0, color="cornflowerblue"]; "Leyla" [shape=egg, regular=0, color="pink"] cb60 [shape=point]; cb65 [shape=point];
+  "Gökhan" [shape=box, regular=0, color="cornflowerblue"]; "Irem" [shape=egg, regular=0, color="pink"]; da60 [shape=point]; da65 [shape=point];
+  "Hakan" [shape=box, regular=0, color="cornflowerblue"]; "Gülberk" [shape=egg, regular=0, color="pink"]; db60 [shape=point]; db65 [shape=point];
+
+  //jenerasyon 7
+  "Can" [shape=box, regular=0, color="cornflowerblue"]; "Lauren" [shape=egg, regular=0, color="pink"]; aa70 [shape=point]; aa75 [shape=point];
+  "Özdal" [shape=box, regular=0, color="cornflowerblue"]; "Béné" [shape=egg, regular=0, color="pink"]; ab70 [shape=point]; ab75 [shape=point];
+  "Elvin" [shape=egg, regular=0, color="pink"]; "Ömer" [shape=box, regular=0, color="cornflowerblue"]; ba70 [shape=point]; ba75 [shape=point];
+  "Ekin" [shape=egg, regular=0, color="pink"];
+  "Tuğra" [shape=box, regular=0, color="cornflowerblue"]; "Pınar2" [shape=egg, regular=0, color="pink", label="Pınar"]; ca70 [shape=point]; ca75 [shape=point];
+  "Cem" [shape=box, regular=0, color="cornflowerblue"];
+  "Pınar" [shape=egg, regular=0, color="pink"]; "Özgür" [shape=box, regular=0, color="cornflowerblue"]; da70 [shape=point]; da75 [shape=point];
+  "Burcu" [shape=egg, regular=0, color="pink"];
+  "Gözde" [shape=egg, regular=0, color="pink"];
+  "Arhan" [shape=box, regular=0, color="cornflowerblue"];
+  "Arın" [shape=box, regular=0, color="cornflowerblue"];
+  "Berkhan" [shape=box, regular=0, color="cornflowerblue"];
+
+  // jenerasyon 8
+  "Claire Alara" [shape=egg, regular=0, color="pink"];
+  "Declan Alp" [shape=box, regular=0, color="cornflowerblue"];
+  "Joseph Can" [shape=box, regular=0, color="cornflowerblue"];
+  "Ali" [shape=box, regular=0, color="cornflowerblue"];
+  "Can2" [shape=box, regular=0, color="cornflowerblue", label="Can"];
+  "Elis" [shape=egg, regular=0, color="pink"];
+  "Mert" [shape=box, regular=0, color="cornflowerblue"];
 }
