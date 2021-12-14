@@ -11,6 +11,9 @@ I started my first job as a UX Designer at Microsoft soon after finishing my Mas
 ![Voice @ Microsoft](https://gyanl.com/assets/ms-voice.png)
 ###### Voice @ Microsoft
 
+### Designing for voice
+https://www.speechly.com/blog/voice-application-design-guide/
+
 # How did I get here?
 
 When I was a nerdy, computer obsessed teenager in school, a few of my nerdy, computer-obsessed friends were part of the school computer club, Exun. Members could hang out in the computer lab and go for inter-school competitions, and so I desperately wanted to join the club. This lead me down the path of learning GIMP, a free and open source graphics editor like Photoshop, and later a variety of video editing softwares so I could make short films. I even dabbled in making some very strange stop-motion films, like this one:
