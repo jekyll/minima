@@ -1,9 +1,6 @@
 // Gyan's Typography
 
-// s-alt for DM Sans
-body{
-  font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on, 'ss05' on, 'ss06' on;
-}
+// s-alt for SF Pro
 
 Headings h1,
 h2,
@@ -93,7 +90,6 @@ ul {
 }
 
 .post-content {
-  font-feature-settings: 'ss01' on;
 
   a {
     border-bottom: 2px solid var(--background-color);
