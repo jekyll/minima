@@ -49,10 +49,6 @@ body {
   background-color: var(--background-color);
   -webkit-text-size-adjust: 100%;
   font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss06' on, 'ss07' on;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
