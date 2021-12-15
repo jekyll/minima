@@ -86,6 +86,15 @@ digraph {
 
 ### II. Using [d3.js](https://github.com/d3/d3) & [d3-graphviz](https://github.com/magjac/d3-graphviz) & [hpcc-js/wasm](https://github.com/hpcc-systems/hpcc-js-wasm) libraries
 
+#### a tester using magjac's bl.ocks.org example
+taken from; <https://github.com/magjac/d3-graphviz>
+
+<div id="graph" style="text-align: center;"></div>
+<script>
+d3.select("#graph").graphviz()
+  .renderDot('digraph { graph [bgcolor=transparent;] a -> b}');
+</script>
+
 I've also tried to adopt [okamoto's](https://oko.io/howto/graphviz-in-markdown/) way of doing graphviz. Let's see a few examples of how the charts actually look like down 👇. The issue with these is that they sink all the way to the bottom of the markdown file organization... and I don't know how to fix them now...
 
 **A graphviz chart example**
@@ -106,15 +115,7 @@ digraph G {
 
 credit : <https://oko.io/howto/graphviz-in-markdown/>
 
-And this example is from; <https://github.com/magjac/d3-graphviz>
 
-<!--
-<div id="graph" style="text-align: center;"></div>
-<script>
-d3.graphviz("#graph")
-  .renderDot('digraph {a -> b}');
-</script>
--->
 
 ### III. Using viz.js modules
 
@@ -135,3 +136,6 @@ viz.renderSVGElement('digraph { a -> b; b -> c }')
 });
 </script>
 -->
+
+### IV. Using Dagre?
+

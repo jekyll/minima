@@ -1,0 +1,114 @@
+season,source_names,target_names,type,source,target
+1,Bernd Doppler,Greta Doppler,Child,1,2
+1,Greta Doppler,Anatol Veliev,Married,2,3
+1,Greta Doppler - Anatol Veliev,Helge Doppler,Child,2 - 3,4
+1,Helge Doppler,Ulla Schmidt,Married,4,5
+1,Helge Doppler - Ulla Schmidt,Peter Doppler,Child,4 - 5,6
+1,Peter Doppler,Charlotte Doppler,Married,6,11
+1,Peter Doppler - Charlotte Doppler,Franziska Doppler,Child,6 - 11,12
+1,Peter Doppler - Charlotte Doppler,Elisabeth Doppler,Child,6 - 11,13
+1,Agnes Nielsen,Tronte Nielsen,Child,14,15
+1,Tronte Nielsen,Jana Nielsen,Married,15,16
+1,Tronte Nielsen - Jana Nielsen,Ulrich Nielsen,Child,15 - 16,17
+1,Tronte Nielsen - Jana Nielsen,Mads Nielsen,Child,15 - 16,18
+1,Ulrich Nielsen,Katharina Nielsen,Married,17,19
+1,Ulrich Nielsen - Katharina Nielsen,Magnus Nielsen,Child,17 - 19,20
+1,Ulrich Nielsen - Katharina Nielsen,Martha Nielsen,Child,17 - 19,21
+1,Ulrich Nielsen - Katharina Nielsen,Mikkel Nielsen / Michael Kahnwald,Child,17 - 19,22
+1,Daniel Kahnwald,Ines Kahnwald,Child,23,24
+1,Ines Kahnwald,Mikkel Nielsen / Michael Kahnwald,Adopted,24,22
+1,Hannah Kruger Kahnwald,Mikkel Nielsen / Michael Kahnwald,Married,26,22
+1,Sebastian Kruger,Hannah Kruger Kahnwald,Child,25,26
+1,Mikkel Nielsen / Michael Kahnwald - Hannah Kruger Kahnwald,Jonas Kahnwald / The Stranger,Child,22 - 26,27
+1,Egon Tiedemann,Doris Tiedemann,Married,29,28
+1,Doris Tiedemann - Egon Tiedemann,Claudia Tiedemann,Child,28 - 29,30
+3,Bernd Doppler,Claudia Tiedemann,Married,1,30
+1,Claudia Tiedemann - Bernd Doppler,Regina Tiedemann,Child,30 - 1,31
+1,Regina Tiedemann,Aleksander Kohler Tiedemann / Boris Niewald,Married,31,32
+1,Regina Tiedemann - Aleksander Kohler Tiedemann / Boris Niewald,Bartosz Tiedemann,Child,31 - 32,33
+1,Magnus Nielsen,Franziska Doppler,Dating -,20,12
+1,Jonas Kahnwald / The Stranger,Martha Nielsen,Dating -,27,21
+1,Bartosz Tiedemann,Martha Nielsen,Dating -,33,21
+1,Ulrich Nielsen,Hannah Kruger Kahnwald,Dating -,17,26
+2,H.G. Tannhaus,Charlotte Doppler,Adopted,10,11
+2,Elisabeth Doppler,Noah,Married,13,34
+3,Herman Albers - Helene Albers,Katharina Nielsen,Child,39 - 38,19
+3,Herman Albers,Helene Albers,Married,39,38
+2,Unknown 1 - Unknown 2,Agnes Nielsen,Child,35 - 36,14
+2,Unknown 1 - Unknown 2,Noah,Child,35 - 36,34
+2,Unknown 2,Unknown 1,Married,36,35
+3,Leopold Tannhaus,H.G. Tannhaus,Child,9,10
+3,Gustav Tannhaus,Leopold Tannhaus,Child,8,9
+3,Heinrich Tannhaus,Gustav Tannhaus,Child,7,8
+3,Hannah Kruger Kahnwald - Egon Tiedemann,Silja Kruger,Child,26 - 29,37
+3,Bartosz Tiedemann,Silja Kruger,Married,33,37
+3,Silja Kruger - Bartosz Tiedemann,Noah,Child,37 - 33,34
+3,Silja Kruger - Bartosz Tiedemann,Agnes Nielsen,Child,37 - 33,14
+3,Egon Tiedemann,Hannah Kruger Kahnwald,Dating,29,26
+3,Elisabeth Doppler -Noah,Charlotte Doppler,Child,13 - 34,11
+3,Bernd Doppler,Greta Doppler,Child,40,41
+3,Greta Doppler,Anatol Veliev,Married,41,42
+3,Greta Doppler - Anatol Veliev,Helge Doppler,Child,41 - 42,43
+3,Helge Doppler,Ulla Schmidt,Married,43,44
+3,Helge Doppler - Ulla Schmidt,Peter Doppler,Child,43 - 44,45
+3,Peter Doppler,Charlotte Doppler,Married,45,50
+3,Peter Doppler - Charlotte Doppler,Franziska Doppler,Child,45 - 50,51
+3,Peter Doppler - Charlotte Doppler,Elisabeth Doppler,Child,45 - 50,52
+3,Agnes Nielsen,Tronte Nielsen,Child,53,54
+3,Tronte Nielsen,Jana Nielsen,Married,54,55
+3,Tronte Nielsen - Jana Nielsen,Ulrich Nielsen,Child,54 - 55,56
+3,Tronte Nielsen - Jana Nielsen,Mads Nielsen,Child,54 - 55,57
+3,Ulrich Nielsen,Katharina Nielsen,Divorced,56,58
+3,Ulrich Nielsen - Katharina Nielsen,Magnus Nielsen,Child,56 - 58,59
+3,Ulrich Nielsen - Katharina Nielsen,Martha Nielsen,Child,56 - 58,60
+3,Ulrich Nielsen - Katharina Nielsen,Mikkel Nielsen,Child,56 - 58,61
+3,Daniel Kahnwald,Ines Kahnwald,Child,62,63
+3,Sebastian Kruger,Hannah Nielsen,Child,64,65
+3,Egon Tiedemann,Hannah Nielsen,Dating,65,67
+3,Egon Tiedemann,Doris Tiedemann,Married,67,66
+3,Doris Tiedemann - Egon Tiedemann,Claudia Tiedemann,Child,66 - 67,68
+3,Bernd Doppler,Claudia Tiedemann,Married,40,68
+3,Claudia Tiedemann - Bernd Doppler,Regina Tiedemann,Child,68 - 40,69
+3,Regina Tiedemann,Aleksander Kohler Tiedemann / Boris Niewald,Married,69,70
+3,Regina Tiedemann - Aleksander Kohler Tiedemann / Boris Niewald,Bartosz Tiedemann,Child,69 - 70,71
+3,Magnus Nielsen,Franziska Doppler,Dating -,59,51
+3,Ulrich Nielsen,Hannah Nielsen,Married,56,65
+3,H.G. Tannhaus,Charlotte Doppler,Adopted,49,50
+3,Elisabeth Doppler,Noah,Married,52,73
+3,Elisabeth Doppler - Noah,Charlotte Doppler,Child,73 - 52,50
+3,Herman Albers - Helene Albers,Katharina Nielsen,Child,75 - 74,58
+3,Herman Albers,Helene Albers,Married,75,74
+3,Leopold Tannhaus,H.G. Tannhaus,Child,48,49
+3,Gustav Tannhaus,Leopold Tannhaus,Child,47,48
+3,Heinrich Tannhaus,Gustav Tannhaus,Child,46,47
+3,Hannah Nielsen - Egon Tiedemann,Silja Kruger,Child,65 - 67,72
+3,Bartosz Tiedemann,Silja Kruger,Married,71,72
+3,Silja Kruger - Bartosz Tiedemann,Noah,Child,72 - 71,73
+3,Silja Kruger - Bartosz Tiedemann,Agnes Nielsen,Child,72 - 71,53
+3,Martha Nielsen,Jonas Kahnwald / The Stranger,Dating,60,27
+3,Jonas Kahnwald / The Stranger - Martha Nielsen,Infinite,Child,27 - 60,76
+4,Bernd Doppler,Greta Doppler,Child,77,78
+4,Greta Doppler,Anatol Veliev,Married,78,79
+4,Greta Doppler - Anatol Veliev,Helge Doppler,Child,78 - 79,80
+4,Helge Doppler,Ulla Schmidt,Married,80,81
+4,Helge Doppler - Ulla Schmidt,Peter Doppler,Child,80 - 81,82
+4,Peter Doppler,Bernadette Waller,Dating,82,105
+4,Herman Albers,Helene Albers,Married,84,83
+4,Herman Albers - Helene Albers,Katharina Albers,Child,84 - 83,85
+4,Daniel Kahnwald,Ines Kahnwald,Child,86,87
+4,Sebastian Kruger,Hannah Waller,Child,88,89
+4,Hannah Waller,Torben Waller,Married,89,104
+4,Torben Waller - Hannah Waller,Jonas Waller,Child,104 - 89,106
+4,Unknown 1,Unknown 2,Married,102,103
+4,Unknown 1 - Unknown 2,Torben Waller,Child,102 - 103,104
+4,Unknown 1 - Unknown 2,Bernadette Waller,Child,102 - 103,105
+4,Egon Tiedemann,Doris Tiedemann,Married,91,90
+4,Egon Tiedemann - Doris Tiedemann,Claudia Tiedemann,Child,91 - 90,92
+4,Bernd Doppler,Claudia Tiedemann,Married,77,92
+4,Claudia Tiedemann - Bernd Doppler,Regina Tiedemann,Child,92 - 77,94
+4,Leopold Tannhaus,H.G. Tannhaus,Child,97,98
+4,Gustav Tannhaus,Leopold Tannhaus,Child,96,97
+4,Heinrich Tannhaus,Gustav Tannhaus,Child,95,96
+4,H.G. Tannhaus,Marek Tannhaus,Child,98,99
+4,Marek Tannhaus,Sonja Tannhaus,Married,99,100
+4,Marek Tannhaus - Sonja Tannhaus,Charlotte Tannhaus,Child,99 - 100,101
