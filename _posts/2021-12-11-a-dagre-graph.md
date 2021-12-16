@@ -1,6 +1,4 @@
 ---
 ---
 
-{% include_relative /graphs/dagreGraph.html %}
-
-
+{% include /charts/dagreGraph.html %}

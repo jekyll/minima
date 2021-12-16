@@ -42,61 +42,36 @@
 
 <!--vvv START EXTERNAL LINKS vvv-->
 
+<!-- Fetch LoDash -->
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+<!-- *** Graphing/Charting/Drawing *** -->
+
 <!-- Fetch D3 Library -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <!--<script src="https://unpkg.com/d3@5.16.0/dist/d3.min.js"></script>-->
 <!--<script src="https://cdn.jsdelivr.net/npm/d3@5"></script>-->
 
-<!-- Fetch LoDash -->
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<!-- Fetch WASM -->
+<!--<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js" type="application/javascript/"></script> unpkg takes any package on the npm and serves it as a web browser --> 
+<script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
+<script>
+    var hpccWasm = window["@hpcc-js/wasm"];
+</script>
 
-<!-- Fetch D3-Graphviz & WASM -->
-<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js" type="application/javascript/"></script>
-<script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+<!-- Fetch D3-Graphviz -->
+<script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
 
-<!-- Fetch Google Icons-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Fetch raphael renderer js library -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 
-<!-- Fetch Fontawesome icon library -->
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<script src="https://kit.fontawesome.com/633b360a32.js" crossorigin="anonymous"></script>
+<!-- Fetch graphdracula js library -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/graphdracula/1.0.3/dracula.min.js"></script>
 
-<!-- Fetch Computer Modern TypeFace from; https://github.com/namn/computer-modern-web-font/tree/patch-1 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
--->
-
-<!-- Fetch MathJax from; https://github.com/mathjax/MathJax-src -->
-<!--
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
--->
-<!-- Fetch Katex -->
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
-
-<!-- The loading of KaTeX is deferred to speed up page rendering -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
-
-<!-- To automatically render math in text elements, include the auto-render extension: -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-
-<!-- Fetch W3.css -->
-<!--
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
--->
-
-<!-- Fetch Bootstrap -->
-<!--
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
--->
-
-<!-- Fetch viz.js see; https://github.com/mdaines/viz.js/wiki/Usage -->
-<!--
-<script src= {% link /assets/js/viz.js/viz.js %}></script>
-<script src= {% link /assets/js/viz.js/full.render.js %}></script>
--->
+<!-- Fetch VegaLite. see; https://vega.github.io/vega-lite/usage/embed.html -->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
 
 <!-- Fetch dagre -->
 <script>src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"</script>
@@ -112,21 +87,63 @@
 <script src="//unpkg.com/graphre/dist/graphre.js"></script>
 <script src="//unpkg.com/nomnoml/dist/nomnoml.js"></script>
 
+<!-- Fetch viz.js see; https://github.com/mdaines/viz.js/wiki/Usage -->
+<!--
+<script src= {% link /assets/js/viz.js/viz.js %}></script>
+<script src= {% link /assets/js/viz.js/full.render.js %}></script>
+-->
+
 <!-- Fetch cytoscape. see; https://js.cytoscape.org/#getting-started/including-cytoscape.js -->
 <!--
 <script>src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.20.0/cytoscape.min.js"</script>
 -->
 
-<!-- Fetch VegaLite. see; https://vega.github.io/vega-lite/usage/embed.html -->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+<!-- *** Graphing/Charting/Drawing *** -->
+
+<!-- *** Font/Style *** -->
+
+<!-- Fetch Google Icons-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- Fetch Fontawesome icon library -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/633b360a32.js" crossorigin="anonymous"></script>
+
+<!-- Fetch Computer Modern TypeFace from; https://github.com/namn/computer-modern-web-font/tree/patch-1 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
+-->
+
+<!-- *** Font/Style *** -->
+
+<!-- Fetch MathJax from; https://github.com/mathjax/MathJax-src -->
+<!--
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
+
+<!-- Fetch Katex -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
 <!-- Fetch JQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Fetch AnchorJS see; https://github.com/bryanbraun/anchorjs &/ https://www.bryanbraun.com/anchorjs/ -->
 <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+<!-- Fetch W3.css -->
+<!--
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+-->
+
+<!-- Fetch Bootstrap -->
+<!--
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+-->
 
 <!--^^^ END EXTERNAL LINKS ^^^-->
 

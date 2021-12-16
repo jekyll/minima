@@ -1,11 +1,15 @@
-<div id="eminsoy_familyTreeD3Div" style="text-align: center;"></div>
 <div id="eminsoy_familyTreeD3Div-2" style="text-align: center;"></div>
 
 <style>
-  #eminsoy_familyTreeD3Div svg {
+  /*
+  @import
+  "minima/initialize";
+  */
+
+  #eminsoy_familyTreeD3Div-2 svg {
     text-align: center;
   }
-  #eminsoy_familyTreeD3Div path {
+  #eminsoy_familyTreeD3Div-2 path {
     fill: none;
     stroke: silver;
     stroke-width: 2;
@@ -33,7 +37,7 @@
 // this is an ancestry/pedigree chart which uses cubic splines to connect nodes based on this lecture (https://www.youtube.com/watch?v=DvqeaVSe6Ko)
 
 
-var svg = d3.select("#eminsoy_familyTreeD3Div").append("svg")
+var svg = d3.select("#eminsoy_familyTreeD3Div-2").append("svg")
 .attr("width", "100%").attr("height", 600)
 .append("g").attr("transform", "translate(50,50)");
 

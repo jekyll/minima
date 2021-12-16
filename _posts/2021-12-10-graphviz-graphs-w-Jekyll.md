@@ -23,13 +23,13 @@ Here I've placed my `digraph_eg.dot` file under the `_posts>graphs` directory. U
 {% highlight liquid %}
 {% raw %}
 {% capture my_graph%}
-{% include_relative /graphs/digraph_eg.dot %}
+{% include /charts/digraph_eg.dot %}
 {% endcapture %}
 {% endraw %}
 {% endhighlight %}
 
 {% capture my_graph%}
-{% include_relative /graphs/digraph_eg.dot %}
+{% include /charts/digraph_eg.dot %}
 {% endcapture %}
 
 if I print out `my_graph` here is what I get; 

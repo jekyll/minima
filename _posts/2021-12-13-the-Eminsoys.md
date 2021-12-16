@@ -4,7 +4,7 @@ title: the Eminsoys
 a graphviz family tree of my family tree...
 
 {% capture eminsoy_familyTree %}
-{% include_relative /graphs/eminsoy_familyTree.dot %}
+{% include /charts/eminsoy_familyTree.dot %}
 {% endcapture %}
 
 <img id="eminsoy_familyTree" alt="eminsoy_familyTree" src="https://quickchart.io/graphviz?graph={{ eminsoy_familyTree | url_encode }}">

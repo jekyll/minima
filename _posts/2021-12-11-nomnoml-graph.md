@@ -2,4 +2,4 @@
 ---
 Same thing as chart.js
 
-{% include_relative graphs/nomnoml.html %}
+{% include /charts/nomnoml.html %}
