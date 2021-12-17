@@ -21,5 +21,8 @@ For research areas in the group please have a look at the [research](../research
 
 ## People
 
-![](https://www.polymtl.ca/expertises/sites/expertises2.amigow2020.polymtl.ca/files/quesada-nicolas.jpg) [Nicolas Quesada](https://www.polymtl.ca/expertises/en/quesada-nicolas).  \\ Assistant Professor, [Department of Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \\
+# Principal Investigator
+
+* [Nicolas Quesada](https://www.polymtl.ca/expertises/en/quesada-nicolas).  
+Assistant Professor, [Department of Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). 
 MEI Chair in Quantum Photonics. 
