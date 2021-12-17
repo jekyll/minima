@@ -21,7 +21,7 @@ Finally, we also investigate the possibilities and limitations offered by near-t
 We collaborate with academic colleagues at Polytechnique and beyond, across Canada and also abroad, as well as with government and industrial partners.
 
 
-We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join our please follow the instructions in the [team](../team) link.
+We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join us please follow the instructions in the [team](../team) link.
 
 
 
