@@ -16,7 +16,7 @@ Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applic
 
 4. Undergraduate/M.Sc./Ph.D. applicants please provide course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese.
 
-For research areas in the group please have a look at the [research](research) section.
+For research areas in the group please have a look at the [research](../research) section.
 
 
 ## People
