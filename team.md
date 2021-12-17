@@ -8,9 +8,9 @@ permalink: /team/
 
 Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" 
 
-1. A short note stating your research interests and experience [(see example)](https://docs.google.com/document/d/1XKGL8BWPY91tZaWM2bq4c0xxt-qSp_QWR5NyHeyT-Ao/edit?usp=sharing).
+1. A short note stating your research interests and experience.
 
-2. Attach a CV (see example, compiler).
+2. Attach a CV.
 
 3. A full coverletter describing how your research interests and background align and expands on the abilities of our group.
 
