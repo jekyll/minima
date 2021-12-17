@@ -21,7 +21,7 @@ Finally, we also investigate the possibilities and limitations offered by near-t
 We collaborate with academic colleagues at Polytechnique and beyond, across Canada and also abroad, as well as with government and industrial partners.
 
 
-Our group is young and we are looking for new students and postdocs to join us! If this research sounds interesting to you and you want to know more, please do not hesitate to contact Nicolas Quesada directly using one of the links above.
+Our group is young and we are looking for new students and postdocs to join us! If this research sounds interesting to you and you want to know more, please do not hesitate to contact Prof. Nicolas Quesada following the [team](team) link.
 
 
 
