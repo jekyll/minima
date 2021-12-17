@@ -3,9 +3,6 @@ layout: page
 title: Research
 permalink: /research/
 ---
-
-
-
 Quantum technologies offer the promise to solve practical computational problems in chemistry and material science with a level of precision and speed that is beyond the reach of any classical supercomputer. They also allow us to envision impregnable information networks for secure communication and provide us with the most precise and gentle probes to study delicate materials and biological samples.
 
 Photonics is a strong contender for building these quantum technologies: unlike other physical substrates for quantum technologies, light does not decohere at room temperature, light qubits can be easily encoded in time bins, allowing for massive scalability, and there is already very significant industrial capacity built around it.
