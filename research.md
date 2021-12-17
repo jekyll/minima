@@ -10,7 +10,7 @@ Quantum technologies offer the promise to solve practical computational problems
 
 Photonics is a strong contender for building these quantum technologies: unlike other physical substrates for quantum technologies, light does not decohere at room temperature, light qubits can be easily encoded in time bins, allowing for massive scalability, and there is already very significant industrial capacity built around it.
 
-Different states of light, can be used to encode qubits. In fact, there are many families of states of light that can be used to encode qubits, called bosonic code states, of which cat and grid (or Gottesman-Kitaev-Preskill) states are two famous examples.
+Different states of light can be used to encode qubits. In fact, there are many families of states of light that can be used to encode qubits, called bosonic code states, of which cat and grid (or Gottesman-Kitaev-Preskill) states are two famous examples.
 
 We investigate how these states can be generated in an optical setting. Their generation requires nonlinear interactions between modes of light, which can be mediated by matter in the form of nonlinear materials or by measurements on parts of an entangled (quantum-correlated) state using photon counting detectors.
 
@@ -21,7 +21,7 @@ Finally, we also investigate the possibilities and limitations offered by near-t
 We collaborate with academic colleagues at Polytechnique and beyond, across Canada and also abroad, as well as with government and industrial partners.
 
 
-Our group is young and we are looking for new students and postdocs to join us! If this research sounds interesting to you and you want to know more, please do not hesitate to contact Prof. Nicolas Quesada following the [team](../team) link.
+We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join our please follow the instructions in the [team](../team) link.
 
 
 
