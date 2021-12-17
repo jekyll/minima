@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Quantum Photonics and Information at Polytechnique Montréal
+title: Quantum Photonics and Information at Polytechnique Montréal  
 ---
 Bienvenue sur notre site web!
 
