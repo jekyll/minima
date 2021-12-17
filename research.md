@@ -4,16 +4,13 @@ title: Research
 permalink: /research/
 ---
 
-All our papers are available on the [arXiv](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=N+Quesada&terms-0-field=all&classification-physics=y&classification-physics_archives=quant-ph&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first). You can also browse them on [Google scholar](https://scholar.google.ca/citations?hl=en&user=dZNVjOEAAAAJ&view_op=list_works).
 
 
 Quantum technologies offer the promise to solve practical computational problems in chemistry and material science with a level of precision and speed that is beyond the reach of any classical supercomputer. They also allow us to envision impregnable information networks for secure communication and provide us with the most precise and gentle probes to study delicate materials and biological samples.
 
 Photonics is a strong contender for building these quantum technologies: unlike other physical substrates for quantum technologies, light does not decohere at room temperature, light qubits can be easily encoded in time bins, allowing for massive scalability, and there is already very significant industrial capacity built around it.
 
-In photonics, quantum information carriers known as qubits are traditionally encoded in the two orthogonal polarizations (horizontal and vertical) of a single photon. Single qubit logical operations, such as the NOT or Hadamard operation, can be easily implemented in the lab using waveplates. This encoding, while very natural, makes it extremely hard to perform multi qubit logical operations such as a controlled NOT, where a NOT operation on one of two qubits is performed conditional on the state of the other one.
-
-Different states of light, other than single photons, can be used to encode qubits. In fact, there are many families of states of light that can be used to encode qubits, called bosonic code states, of which cat and grid (or Gottesman-Kitaev-Preskill) states are two famous examples.
+Different states of light, can be used to encode qubits. In fact, there are many families of states of light that can be used to encode qubits, called bosonic code states, of which cat and grid (or Gottesman-Kitaev-Preskill) states are two famous examples.
 
 We investigate how these states can be generated in an optical setting. Their generation requires nonlinear interactions between modes of light, which can be mediated by matter in the form of nonlinear materials or by measurements on parts of an entangled (quantum-correlated) state using photon counting detectors.
 
@@ -26,11 +23,7 @@ We collaborate with academic colleagues at Polytechnique and beyond, across Cana
 
 Our group is young and we are looking for new students and postdocs to join us! If this research sounds interesting to you and you want to know more, please do not hesitate to contact Nicolas Quesada directly using one of the links above.
 
-* Quantum computing using photon based architectures
-* Applications of Machine Learning in designing photonic experiments
-* (Gaussian) Boson Sampling
-* Quantum metrology and spectroscopy
-* Generation of squeezed states useful for heralding applications
-* Heralded generation of non-Gaussian light
-* Polaritons and topological photonics
-* Quantum benchmarking and tomography of complex quantum states
+
+
+All our papers are available on the [arXiv](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=N+Quesada&terms-0-field=all&classification-physics=y&classification-physics_archives=quant-ph&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first). You can also browse them on [Google scholar](https://scholar.google.ca/citations?hl=en&user=dZNVjOEAAAAJ&view_op=list_works).
+
