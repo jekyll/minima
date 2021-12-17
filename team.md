@@ -16,7 +16,7 @@ Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applic
 
 For research areas in the group please have a look at the [research](../research) section.
 
-## People 
+### People 
 **Principal Investigator**  
 * [Nicolas Quesada](https://www.polymtl.ca/expertises/en/quesada-nicolas).  
 Assistant Professor, [Department of Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
