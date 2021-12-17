@@ -7,16 +7,18 @@ a graphviz family tree of my family tree...
 {% include /charts/eminsoy_familyTree.dot %}
 {% endcapture %}
 
-<img id="eminsoy_familyTree" alt="eminsoy_familyTree" src="https://quickchart.io/graphviz?graph={{ eminsoy_familyTree | url_encode }}">
+<img id="eminsoy_familyTree" alt="eminsoy_familyTree" src="https://quickchart.io/graphviz?graph={{- eminsoy_familyTree | strip_newlines | url_encode -}}"><!--liquid filters are applied left to right-->
 
+<!--
 ![complex_chart](https://quickchart.io/graphviz?graph={{ eminsoy_familyTree | url_encode }})
+-->
 
-<div id="eminsoy_familyTreeDiv" style="text-align: center;"></div>
+<div id="eminsoy_familyTreeDiv" style="text-align:center; width:100%; height:500px;"></div>
 
 <!--this method uses the d3-graphviz library
 -->
 <script type="text/javascript">
-d3.select("#eminsoy_familyTreeDiv").graphviz().renderDot('{{- eminsoy_familyTree | remove:" " | strip_newlines -}}');
+d3.select("#eminsoy_familyTreeDiv").graphviz().renderDot(`{{- eminsoy_familyTree -}}`);
 </script>
 
 does it stay in order as well?

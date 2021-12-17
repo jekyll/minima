@@ -25,9 +25,12 @@ renderer.draw();
 -->
 
 <script type="text/javascript">
+window.onload = function () {
+
 var g = new Dracula.Graph();
 
-let box = document.querySelector('#canvas');
+//let box = document.querySelector('#canvas');
+let box = document.getElementById('canvas');
 let width = canvas.clientWidth;
 let height = canvas.clientHeight;
 
@@ -93,6 +96,16 @@ var layouter = new Dracula.Layout.Spring(g);
 layouter.layout();
 
 /* draw the graph using the RaphaelJS draw implementation */
-var renderer = new Dracula.Renderer.Raphael('canvas', width, height);
+var renderer = new Dracula.Renderer.Raphael(document.getElementById('canvas'), g, width, height);
 renderer.draw();
+
+redraw = function() {
+                    layouter.layout();
+                    renderer.draw();
+                    };
+};
 </script>
+
+<div>
+  <button id="redraw" onclick="redraw();">redraw</button>
+</div>

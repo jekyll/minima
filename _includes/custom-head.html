@@ -43,7 +43,7 @@
 <!--vvv START EXTERNAL LINKS vvv-->
 
 <!-- Fetch LoDash -->
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.js"></script>
 
 <!-- *** Graphing/Charting/Drawing *** -->
 
@@ -53,11 +53,13 @@
 <!--<script src="https://cdn.jsdelivr.net/npm/d3@5"></script>-->
 
 <!-- Fetch WASM -->
-<!--<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js" type="application/javascript/"></script> unpkg takes any package on the npm and serves it as a web browser --> 
-<script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.min.js" type="javascript/worker"></script>
+<script src="https://unpkg.com/@hpcc-js/wasm@1.4.1/dist/index.min.js" type="application/javascript/"></script> <!-- unpkg takes any package on the npm and serves it as a web browser -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.js" type="javascript/worker"></script>
 <script>
     var hpccWasm = window["@hpcc-js/wasm"];
 </script>
+-->
 
 <!-- Fetch D3-Graphviz -->
 <script src="https://unpkg.com/d3-graphviz@4.0.0/build/d3-graphviz.js"></script>
@@ -81,7 +83,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <!-- Fetch Mermaid graphs -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.js"></script>
 
 <!-- Fetch nomnoml -->
 <script src="//unpkg.com/graphre/dist/graphre.js"></script>
