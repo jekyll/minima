@@ -53,7 +53,7 @@ minima:
 
 # Build settings
 theme: minima
-
+url: "https://meanmanmachineman.github.io/"
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
