@@ -1,31 +1,5 @@
 <!--
 <script type="text/javascript">
-var g = new Dracula.Graph();
-
-g.addEdge("strawberry", "cherry");
-g.addEdge("strawberry", "apple");
-g.addEdge("strawberry", "tomato");
-
-g.addEdge("tomato", "apple");
-g.addEdge("tomato", "kiwi");
-
-g.addEdge("cherry", "apple");
-g.addEdge("cherry", "kiwi");
-
-var layouter = new Dracula.Layout.Spring(g);
-layouter.layout();
-
-var renderer = new Dracula.Renderer.Raphael('canvas', g, 400, 300);
-renderer.draw();
-</script>
--->
-
-<!--
-<div id="canvas" style="text-align: center;" width="100%" height="500"></div>
--->
-
-<script type="text/javascript">
-window.onload = function () {
 
 var g = new Dracula.Graph();
 
@@ -33,6 +7,8 @@ var g = new Dracula.Graph();
 let box = document.getElementById('canvas');
 let width = canvas.clientWidth;
 let height = canvas.clientHeight;
+console.log(width);
+console.log(height);
 
 /* add a simple node */
 g.addNode('strawberry');
@@ -96,14 +72,46 @@ var layouter = new Dracula.Layout.Spring(g);
 layouter.layout();
 
 /* draw the graph using the RaphaelJS draw implementation */
-var renderer = new Dracula.Renderer.Raphael(document.getElementById('canvas'), g, width, height);
+var renderer = new Dracula.Renderer.Raphael(document.getElementById('canvas'), g, 500, 500);
 renderer.draw();
 
 redraw = function() {
                     layouter.layout();
                     renderer.draw();
                     };
-};
+</script>
+-->
+
+<script>
+  let box = document.getElementById('canvas');
+  let width = canvas.clientWidth * 0.95;
+  let height = canvas.clientHeight * 0.95;
+  console.log(width);
+  console.log(height);
+
+  var g = new Dracula.Graph();
+
+  g.addEdge("strawberry", "cherry");
+  g.addEdge("strawberry", "apple");
+  g.addEdge("strawberry", "tomato");
+
+  g.addEdge("tomato", "apple");
+  g.addEdge("tomato", "kiwi");
+
+  g.addEdge("cherry", "apple");
+  g.addEdge("cherry", "kiwi");
+
+  var layouter = new Dracula.Layout.Spring(g);
+  layouter.layout();
+
+  var renderer = new Dracula.Renderer.Raphael(document.getElementById('canvas'), g, width, height);
+  renderer.draw();
+
+  redraw = function() {
+                    layouter.layout();
+                    renderer.draw();
+                    };
+
 </script>
 
 <div>

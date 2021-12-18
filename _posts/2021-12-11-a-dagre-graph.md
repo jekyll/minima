@@ -1,4 +1,0 @@
----
----
-
-{% include /charts/dagreGraph.html %}

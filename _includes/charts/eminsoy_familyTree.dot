@@ -5,6 +5,7 @@ digraph {
          center=true;
          bgcolor=transparent;
          concentrate=true;
+         center=true;
          /*outputMode="nodesfirst";*/
          /*clusterrank=local;*/
          /*sep="+10,10";*/
@@ -12,7 +13,9 @@ digraph {
          /*sep="+10,10";*/
          /*overlap=false;*/
          ranksep=1;
-         nodesep=0.5;];
+         nodesep=0.5;
+         size=10;
+         /*scale=0.1;*/];
   
   aa00 -> {"Ahmet" "Şaban" "Mustafa"};
 

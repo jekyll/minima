@@ -15,9 +15,9 @@ It kept giving me `'connection' not defined` errors at first, but **ALAS**, afte
 Also [this SO question](https://stackoverflow.com/questions/58545014/what-can-i-do-about-this-error-with-dracula-graph-library-svg-container-not-fou) was helpful in putting the GraphDracula svg into the intended container, as well as [this codepen](https://codepen.io/mauriciom/pen/ZbXmYb?editors=1010). So I get the graph below but still broken ☹️... can't be perfect right...
 
 <!--style="text-align:center; width:100%; height:500px;"-->
-{% include /charts/draculaTest.html %}
-<div id="canvas">
+<div id="canvas" class="dracula-svg" style="height:500px;">
 </div>
+{% include /charts/draculaTest.html %}
 
 <!--
 <iframe id="canvas" style="text-align:center; width:100%; height:500px;">
@@ -27,5 +27,5 @@ Also [this SO question](https://stackoverflow.com/questions/58545014/what-can-i-
 
 <!--<div id="canvas" style="text-align: center;"></div>-->
 
-post last sentence.
+*to be continued...*
 

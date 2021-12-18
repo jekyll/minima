@@ -1,11 +1,20 @@
 ---
 title: the Eminsoys
 ---
-a graphviz family tree of my family tree...
+### The Eminsoy's in *Graphviz*
+a graphviz family tree of my family tree... 😃
 
 {% capture eminsoy_familyTree %}
 {% include /charts/eminsoy_familyTree.dot %}
 {% endcapture %}
+
+```dot
+{{- eminsoy_familyTree -}}
+```
+
+#### The Eminsoy's in Graphviz *using quickchart.io*
+Over here, trying to render it using quickchart.io...
+not working at the moment 😬
 
 <img id="eminsoy_familyTree" alt="eminsoy_familyTree" src="https://quickchart.io/graphviz?graph={{- eminsoy_familyTree | strip_newlines | url_encode -}}"><!--liquid filters are applied left to right-->
 
@@ -13,19 +22,11 @@ a graphviz family tree of my family tree...
 ![complex_chart](https://quickchart.io/graphviz?graph={{ eminsoy_familyTree | url_encode }})
 -->
 
-<div id="eminsoy_familyTreeDiv" style="text-align:center; width:100%; height:500px;"></div>
+### Using only D3
 
-<!--this method uses the d3-graphviz library
--->
-<script type="text/javascript">
-d3.select("#eminsoy_familyTreeDiv").graphviz().renderDot(`{{- eminsoy_familyTree -}}`);
-</script>
-
-does it stay in order as well?
-
-## Can we do it w/ D3? Sure must be te answer;
+Can we do it using purely D3, *without D3-Graphviz*? Sure must be the answer. The graph below is a stab at that effort with fake names but we can see how it could be scaled to bigger/real families.
 
 {% include js/eminsoyFamTreeD3.html %}
 
-last sentence in the post.
+*to be continued...*
 
