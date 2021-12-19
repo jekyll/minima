@@ -21,6 +21,16 @@ not working at the moment 😬
 <!--
 ![complex_chart](https://quickchart.io/graphviz?graph={{ eminsoy_familyTree | url_encode }})
 -->
+<!---->
+### The Eminsoy's in *Graph Dracula*
+
+<div id="canvas" class="dracula-svg" style="height:500px;">
+</div>
+<div>
+  <button id="redraw" onclick="redraw();">redraw</button>
+</div>
+{% include /charts/draculaEminsoy.html %}
+
 
 ### Using only D3
 

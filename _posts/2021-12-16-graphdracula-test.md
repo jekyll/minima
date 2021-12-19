@@ -17,6 +17,9 @@ Also [this SO question](https://stackoverflow.com/questions/58545014/what-can-i-
 <!--style="text-align:center; width:100%; height:500px;"-->
 <div id="canvas" class="dracula-svg" style="height:500px;">
 </div>
+<div>
+  <button id="redraw" onclick="redraw();">redraw</button>
+</div>
 {% include /charts/draculaTest.html %}
 
 <!--

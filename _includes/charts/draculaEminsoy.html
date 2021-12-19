@@ -8,20 +8,9 @@
 
     var g = new Dracula.Graph();
 
-    g.addNode('id35', {
-      label: 'meat\nand\ngreed' ,
-      /* filling the shape with a color makes it easier to be dragged */
-    });
-
-    g.addEdge("strawberry", "cherry", { directed : true });
-    g.addEdge("strawberry", "apple");
-    g.addEdge("strawberry", "tomato");
-
-    g.addEdge("tomato", "apple");
-    g.addEdge("tomato", "kiwi");
-
-    g.addEdge("cherry", "apple");
-    g.addEdge("cherry", "kiwi");
+    g.addEdge("patient_0", "Ahmet", { directed : true });
+    g.addEdge("patient_0", "Şaban",  { directed : true });
+    g.addEdge("patient_0", "Mustafa",  { directed : true });
 
     var layouter = new Dracula.Layout.Spring(g);
     layouter.layout();
