@@ -1,0 +1,7 @@
+---
+---
+This post will be about how oppression and fear affects us in many ways. The most important of it all, we get quiet, we turn inwards and stop speaking or talking with other people. The danger is not necessarily becoming more anti-social, but ceasing to voice our own ideas and beliefs, and start acting in a conditioned manner. All this, bars us from finding out who we truly are, where our interests and talents lie.
+
+One memory from my days in Columbia, was one of Michael J. Bell recalling and reciting his observation of how the academic faculty at Bilkent University, in Ankara, felt that they were not allowed to freely express, write and publish their studies and opinions in fear of retribution from the government or jeopardizing their careers. At the time, acting with my pre-packaged mildly nationalistic instincts, I tried to brush away his observations as **exaggerated** and create an image of Turkey as "*not being so bad as it's been told*". Now that I've spent close to two years in Turkey after graduating  in May, 2020 –*albeit online*– I've experienced first-hand the environment of terror and psychosis that people live under each day –*and I'm not sacrificed*.
+
+Victim-hood psychology must come as the second most studied subject within psychology. It is one that needs untangling by the individual.
