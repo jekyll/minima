@@ -49,6 +49,7 @@
   * Improve readability of post titles with diacritics (#449)
   * Fix a bug of incorrect parsing of page.modified_date (#455)
   * Specify the font size of the root element (#485)
+  * Fix script used for Google Analytics (#596)
 
 ### Development Fixes
 
