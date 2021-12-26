@@ -5,6 +5,7 @@
   * Forward port v2.5.1 release (#399)
   * Docs: remove Google+ (#373)
   * Update README section on adding favicons to site (#438)
+  * Fix custom-styles.scss name in README (#610)
 
 ### Minor Enhancements
 
