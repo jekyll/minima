@@ -4,7 +4,9 @@ title: News
 permalink: /news/
 ---
 
-* [08-12-21](https://twitter.com/polyquantique/status/1468772841722109953) [Mr Mustard](https://github.com/xanaduAI/Mrmustard), a library that we helped develop in collaboration with [Xanadu](https://xanadu.ai), is out. See this [Jupyter notebook](https://github.com/polyquantique/mrmustard_examples/blob/main/making_cats.ipynb) where I use it to find a heralding circuit for making a mesoscopic cat state.
+* [15-12-21] Nicolas gave a talk on [Quantum Computational Advantage via High-Dimensional Gaussian Boson Sampling](https://arxiv.org/abs/2102.12474) for Chile's [Millennium Institute for Research in Optics, MIRO](https://www.iniciativamilenio.cl/en/miro-2/).
+
+* [08-12-21](https://twitter.com/polyquantique/status/1468772841722109953) [Mr Mustard](https://github.com/xanaduAI/Mrmustard), a library that we helped develop in collaboration with [Xanadu](https://xanadu.ai), is out. See this [Jupyter notebook](https://github.com/polyquantique/mrmustard_examples/blob/main/making_cats.ipynb) where we use it to find a heralding circuit for making a mesoscopic cat state.
 
 * [22-10-21](https://twitter.com/PRX_Quantum/status/1451591689525731333) Our work with Xanadu on [Fast Simulation of Bosonic Qubits via Gaussian Functions in Phase Space is published in PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.040315).
 
