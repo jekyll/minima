@@ -5,6 +5,7 @@
   * Forward port v2.5.1 release (#399)
   * Docs: remove Google+ (#373)
   * Update README section on adding favicons to site (#438)
+  * Fix custom-styles.scss name in README (#610)
 
 ### Minor Enhancements
 
@@ -49,6 +50,7 @@
   * Improve readability of post titles with diacritics (#449)
   * Fix a bug of incorrect parsing of page.modified_date (#455)
   * Specify the font size of the root element (#485)
+  * Fix script used for Google Analytics (#596)
 
 ### Development Fixes
 
@@ -57,6 +59,7 @@
   * [chore] Normalize Travis CI builds (#480)
   * chore(deps): bump Ruby version (#510)
   * Conditionally load GFM-parser gem in CI builds (#535)
+  * Improve CI workflow configuration (#609)
 
 ## 2.5.1
 

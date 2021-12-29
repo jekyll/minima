@@ -118,7 +118,7 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 In Minima 3.0, if you only need to customize the colors of the theme, refer to the subsequent section on skins. To have your
 *CSS overrides* in sync with upstream changes released in future versions, you can collect all your overrides for the Sass
 variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
-placed at path `_sass/minima/custom.scss`.
+placed at path `_sass/minima/custom-styles.scss`.
 
 You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
 source (`assets/css/style.scss`) should contain the following:
