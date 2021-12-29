@@ -32,6 +32,7 @@ There are a few things from the article I want to highlight
 - I paid my MRV application fee with SAM. However, I learnt that this option has since been [unavailable](https://www.ustraveldocs.com/sg/sg-niv-paymentinfo.asp).
 - Schedule your interview appointment early. With Covid and all, the availability of the timeslot can be inconsistent. Once you are confirmed that you are accepting the offer, you can complete the DS-160 early and schedule an interview timeslot. The risk of rescheduling it early is that you might lose the deposit. I could reschedule the interview twice.
 - The company can only start completing the visa application after you have obtained your degree scroll. Depending on the lawyer, a letter of conferment (stating that you have completed all your requirements and you will receive your degree scroll on a certain date) may be accepted. Regardless, you can submit your information and schedule your interview before you receive your degree scroll.
+- According to an [FAQ entry](https://ustraveldocs.com/sg/sg-gen-faq.asp#qlistwork5), you may not enter the United States until 10 days prior to your employment start date.
 
 
 
@@ -72,11 +73,9 @@ The premium economy seat allows for 2 bags of 23 kg each. I tried to check in 3 
 
 As per [US Covid regulations](https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html), I needed to take a Covid test. An ART test works for entry into the United States, and I paid $30 for the test. The results of the ART test is produced within less than half an hour. PCR tests are more expensive, and the results is usually only produced the next day. You are recommended to take a test that is able to print your passport number along with it. The Singapore Airlines website lists [some testing locations](https://www.singaporeair.com/en_UK/sg/travel-info/pdt-pcr-locations/).
 
-You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items) on what you cannot bring to the US. You cannot bring most foods. My luggage was probably flagged because I brought a frying pan in that interrupted with the scanning. I got my passport locked in a transparent locker, which was unlocked after they are opened.
+You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items) on what you cannot bring to the US. Generally, you cannot bring in food except factory packaged food. After staying for a while, this is what I would have liked to bring into the US to use up my luggage allowance - milo powder, curry powder and cereal mix (and other drinks). You can buy some of such Asian foods from Ranch 99, but at slightly inflated prices.
 
-After staying for a while, this is what I would have liked to bring into the US - milo powder, curry powder and cereal mix.
-
-I only brought US$1000 into the US. I think I should have brought in more money to help with the initial deposit and expenses. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%. 
+I only brought US$1000 into the US. I should have brought in more money to help with the initial deposit and expenses. The FX fees is worth paying to help you transition. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%.
 
 
 
@@ -141,7 +140,7 @@ Yours faithfully
 
 - The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/share/2989388963). If you use this link, I get a $50 bonus in addition.
 
-You do not need a social security number to open your account. However, to apply for a credit card, you need to link your social security number to your account. You may want to apply and use your credit card to build credit rating for your future benefit.
+You do not need a social security number to open your account. However, to apply for a credit card, you need to link your social security number to your account. You may want to apply and use your credit card to build credit rating for your future benefit. Here is my credit card [referral link](https://www.referyourchasecard.com/18a/CGQF4VFXNT).
 
 Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/free-credit-score), but I think it will only appear 30 days after you linked your bank account to your social security number.
 
@@ -174,7 +173,7 @@ My phone was incompatible, so I have to settle with using ATT. I am currently us
 
 In my first days in the US, when outside of any free WiFi range, I have been using my Starhub prepaid data roaming. I still needed a local phone number urgently so that I can receive my 2FA from the bank.
 
-I will move on to Mint Mobile after buying an iPhone. As I want to continue receiving 2FA for my Singapore number also, I hope my next phone also supports [dual sim](https://support.apple.com/en-us/HT209044). 
+I will move on to Mint Mobile after buying an iPhone. As I want to continue receiving 2FA for my Singapore number also, I hope my next phone also supports [dual SIM](https://support.apple.com/en-us/HT209044).
 
 
 
