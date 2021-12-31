@@ -216,7 +216,9 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
 
-To enable it, add the following lines to your Jekyll site:
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
+
+To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
 
 ```yaml
   disqus:
@@ -228,8 +230,6 @@ You can find out more about Disqus' shortnames [here](https://help.disqus.com/in
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
-
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
 ### Author Metadata
 
