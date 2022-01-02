@@ -36,6 +36,15 @@ There are a few things from the article I want to highlight
 
 
 
+How to handle the interview questions
+
+- You will be handed a pamphlet regarding your rights, and one of the interview questions is to summarise the contents of the pamphlet. A summary like "I know my rights, I can refer to the pamphlet as well as online resources" should be sufficient.
+- The interviewer also asked whether the salary displayed on the LCA was consistent with my offer letter, in which I have shown my offer letter.
+- The other questions asked were about my school and degree, as well as what business is my company involved in.
+- Short, concise and confident answers are preferred.
+
+
+
 Your company lawyer would prepare an application package for you. Fragomen is my company immigration lawyer. For mine, it includes
 
 - Form G-28, Notice of Appearance of Attorney
@@ -44,6 +53,7 @@ Your company lawyer would prepare an application package for you. Fragomen is my
 - Copy of applicant's passport biographic page
 - Evidence of applicant's educational qualifications (some evaluator saying that my degree is legitimate)
 - Corporate documents (basically public information about Quora)
+- Signed offer letter (not prepared but was requested during the interview)
 
 
 
@@ -88,11 +98,11 @@ I think Zillow is a good search engine for housing, as it scrapes real estate we
 This is what you need to look out for in a house. The information posted on or scraped onto Zillow may be incorrect.
 
 - Distance from office and amenities.
-- How many beds and how many baths, as well as square feet and configuration. Usually, you will be sharing the apartment with your friend and you need to decide who takes which room and how to split the amount.
+- How many beds and how many baths, as well as square feet and configuration. Usually, you will be sharing the apartment with your friend and you need to decide who takes which room and how to split the rent.
 - Floors - carpeted or hardwood. Usually, the second floor and above are carpeted so that the sound does not travel downstairs. However, carpets are difficult to clean. Carpets are also a risk, as you are expected to return them to the original undamaged condition at the end of the lease. Some people are allergic to carpets too.
 - Stove (expected) and whether it has a fume hood.
 - Fridge (expected) and whether it has a water or ice dispenser
-- Dishwasher
+- Dishwasher. This saved us a lot of time from washing plates.
 - Utilities. Some rentals include water and garbage collection. Usually rental do not consider gas and electricity. Do consider this in the pricing.
 - Furnishings. Usually, year-long rentals do not include furniture, except the ones listed above.
 
