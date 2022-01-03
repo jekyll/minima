@@ -32,4 +32,19 @@ At this stage the theoretical treatment of the quantum states generated in this 
 
 **4. Boson Sampling benchmarking**
 
+One of the most appealing proposals to demonstrate quantum advantage, when a quantum processor performs calculations beyond the reach of any classical supercomputer, is Gaussian Boson Sampling. This quantum photonic architecture consists of squeezed light which is sent into an interferometer and is then measured using photon counters. 
+Unlike for random circuit sampling, another leading approach to demostrate quantum advantage, very little is known about how to certify the quantum advantage of a Gaussian Boson Sampler, and this is precisely the main goal of project. We aim to answer the question: how can one certify that a Gaussian Boson Sampler is indeed performing a task beyond the capabilities of any classical supercomputer.
+
+***Interested in joining?***  
+A significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We commit to build a diverse research group from its conception and to make sure to be attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering.
+
+Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" 
+
+1. A motivation letter describing your research interests, background and experience
+
+2. Attach a CV.
+
+3. Course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese.
+
+
 

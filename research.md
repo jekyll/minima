@@ -18,8 +18,7 @@ Finally, **we also investigate** the possibilities and limitations offered by ne
 **We collaborate with academic colleagues** at Polytechnique and beyond, across Canada and also abroad, **as well as with government and industrial partners.**
 
 
-**We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join us please follow the instructions in the [team](../team) link.**
-Please have a look at some of the possible **[projects](../projects_2022)** available. 
+**We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join us please have a look at potential projects and follow the instructions in the [Open positions](../projects_2022) link.** 
 
 
 
