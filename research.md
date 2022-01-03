@@ -19,7 +19,7 @@ Finally, **we also investigate** the possibilities and limitations offered by ne
 
 
 **We are looking for new students and postdocs to join us! If this research sounds interesting and you would like to apply to join us please follow the instructions in the [team](../team) link.**
-Please have a look at some of the possible **[projects](../projects_2022.md)** available. 
+Please have a look at some of the possible **[projects](../projects_2022)** available. 
 
 
 
