@@ -8,9 +8,10 @@ The Polyquantique research group led by Nicolás Quesada specializes in quantum 
 
 We are a theory group with a significant computational component, we write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/).  
 
-For graduate student positions, applications should be sent by February 15 / 2022 to start in the Fall of the same year.  
+For *graduate student positions, applications should be sent by February 15 / 2022 to start in the Fall of the same year*. 
+Canadian citizens and permanent residents should send their application no later than March 15.
 
-For postdocs applications, they will be reviewed until filled.  
+For *postdocs applications, they will be reviewed until filled*.  
 
 Examples of possible projects include:  
 
@@ -45,4 +46,3 @@ Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applic
 2. Attach a CV.
 
 3. Course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese.
-
