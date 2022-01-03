@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open Positions for 2022
+title: Open Positions
 permalink: /projects_2022/
 ---
 

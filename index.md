@@ -16,7 +16,7 @@ We collaborate with academic colleagues at Polytechnique Montréal and beyond, a
 
 You can find more about what we do in the [research](research) section.
 
-**We are actively looking for undergraduate interns, graduate students and postdocs.** Have a look at our [research](research) and if contributing to the development of new quantum technologies interests you, get in touch following the instructions in the [team](team) section. 
+**We are actively looking for undergraduate interns, graduate students and postdocs.** Have a look at our [research](research) and if contributing to the development of new quantum technologies interests you, get in touch following the instructions in the [Open Positions](projects_2022) section, where you can also find potential research projects. 
 
 [Polytechnique](https://www.polymtl.ca/en) offers exceptional opportunities for learning and research while living in beautiful and welcoming Montréal, a safe but never boring city that consistently ranks as the [best city in North America to be a student](https://www.montrealinternational.com/en/study/). Si vous êtes déjà Montréalais.e, venez me rencontrer! 
 
