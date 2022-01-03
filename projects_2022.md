@@ -4,13 +4,13 @@ title: Open Positions
 permalink: /projects_2022/
 ---
 
-The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for highly motivated candidates at all levels (undergraduate interns, graduate students, postdocs) with expertise or interest in quantum photonics, quantum information, quantum optics, quantum metrology, quantum error correction, topological photonics or machine learning. 
+The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for highly motivated candidates at all levels (graduate students, postdocs) with *expertise or interest* in quantum photonics, quantum information, quantum optics, quantum metrology, quantum error correction, topological photonics or machine learning. 
 
-We are a theory group with a significant computational component. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/).  
+We are a theory group with a significant computational component that collaborates closely with experimental groups and partners in government and industry. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/).  
 
-We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We commit to build a diverse research group from its conception and to make sure to be attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering.  
+We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We commit to build a diverse research group from its conception and to make sure to be attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
 
-Examples of possible projects include:  
+Below we provide a list of possible projects. **If you are a applying to be a graduate student, and you enjoyed your quantum mechanics, quantum optics, or photonics courses and liked the mathematical/computational aspects of these areas you will likely enjoy working with us in any of the projects below (which particular project can be defined at a later stage).**
 
 **1. Inverse design for pulsed squeezed light**  
 
@@ -33,12 +33,14 @@ At this stage, the theoretical treatment of the quantum states generated in thes
 One of the most appealing proposals to demonstrate quantum advantage, when a quantum processor performs calculations beyond the reach of any classical supercomputer, is Gaussian Boson Sampling. This quantum photonic architecture consists of squeezed light which is sent into an interferometer and is then measured using photon counters.
 Unlike for random circuit sampling, another leading approach to demonstrate quantum advantage, very little is known about how to certify the quantum advantage of a Gaussian Boson Sampler, and this is precisely the main goal of the project. We aim to answer the question: how can one certify that a Gaussian Boson Sampler is indeed performing a task beyond the capabilities of any classical supercomputer?
 
+
+
 ***Interested in joining?*** 
 
 In order to start in the Fall of 2022, international graduate students applicants should send their applications by **February 15 / 2022**; 
 Canadian citizens and permanent residents should send their application no later than **March 15 / 2022**. Postdoc applications will be reviewed until filled.
 
-Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" including the following information:
+Reach us by email with the subject: "[Name], Master/PhD/Postdoc Applicant" including the following information:
 
 1. A motivation letter describing your research interests, background and experience
 
