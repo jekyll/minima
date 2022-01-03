@@ -35,7 +35,7 @@ Unlike for random circuit sampling, another leading approach to demonstrate quan
 
 ***Interested in joining?*** 
 
-In order to start in the Fall of 2022, international graduate students should send their applications by **February 15 / 2022**; 
+In order to start in the Fall of 2022, international graduate students applicants should send their applications by **February 15 / 2022**; 
 Canadian citizens and permanent residents should send their application no later than **March 15 / 2022**. Postdoc applications will be reviewed until filled.
 
 Reach us by email with the subject: "[Name], Undergrad/Master/PhD/Postdoc Applicant" including the following information:
