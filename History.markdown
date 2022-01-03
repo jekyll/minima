@@ -6,6 +6,7 @@
   * Docs: remove Google+ (#373)
   * Update README section on adding favicons to site (#438)
   * Fix custom-styles.scss name in README (#610)
+  * Improve the msg to enable disqus in README (#627)
 
 ### Minor Enhancements
 
