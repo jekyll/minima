@@ -13,5 +13,4 @@ permalink: /team/
      style="float: left; margin-right: 10px;" /> [Nicolás Quesada](https://www.polymtl.ca/expertises/en/quesada-nicolas).  
 Assistant Professor, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 MEI Chair in Quantum Photonics.  
-
 Enjoys riding his bike, taking pictures of birds and eating [alfajores](https://en.wikipedia.org/wiki/Alfajor).
