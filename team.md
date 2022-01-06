@@ -14,3 +14,14 @@ permalink: /team/
 Assistant Professor, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 MEI Chair in Quantum Photonics.  
 Enjoys riding his bike, taking pictures of birds and eating [alfajores](https://en.wikipedia.org/wiki/Alfajor).
+
+**Reasearch Group**
+
+<img src="https://clerkgroup.uchicago.edu/img/MartinWebPic.jpg"
+     alt="Martin"
+     width="80" 
+     height="90"
+     style="float: left; margin-right: 10px;" /> Martin Houde.  
+Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+Ph.D Mcgill.  
+Enjoys nature hikes, animal tracking and drinking maple syrup.
