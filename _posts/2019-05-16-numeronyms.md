@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Numeronyms
-subtitle: A laundry list of features for a public note-taking experience that I wish someone built (and might try to build myself at some point if nobody else does it).
+subtitle: Number based abbreviations
 tags: misc
 ---
 
