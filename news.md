@@ -4,6 +4,10 @@ title: News
 permalink: /news/
 ---
 
+* [06-01-22](https://twitter.com/polyquantique/status/1478891012244267008) Our collaboration with colleagues in Maryland, Toronto, Berlin, Chicago and Ulm on [Quantum computational advantage via high-dimensional Gaussian boson sampling](https://www.science.org/doi/10.1126/sciadv.abi7894) appeared today in Science Advances!
+
+* [05-01-22](https://twitter.com/polyquantique/status/1479587281912614912) Martin Houde joins as the first postdoc in the group. Welcome to Polyquantique Martin! 
+
 * 15-12-21 Nicolas gave a talk on [Quantum Computational Advantage via High-Dimensional Gaussian Boson Sampling](https://arxiv.org/abs/2102.12474) for Chile's [Millennium Institute for Research in Optics, MIRO](https://www.iniciativamilenio.cl/en/miro-2/).
 
 * [08-12-21](https://twitter.com/polyquantique/status/1468772841722109953) [Mr Mustard](https://github.com/xanaduAI/Mrmustard), a library that we helped develop in collaboration with [Xanadu](https://xanadu.ai), is out. See this [Jupyter notebook](https://github.com/polyquantique/mrmustard_examples/blob/main/making_cats.ipynb) where we use it to find a heralding circuit for making a mesoscopic cat state.
