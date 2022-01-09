@@ -175,12 +175,14 @@ Minima 2.0      | Minima 3.0
 
 Skin setting    | Description
 --------------- | -----------
-classic         | Default, light mode color scheme.
-dark            | Dark mode alternative to the classic skin.
-solarized       | Based on the [solarized](https://github.com/solarized) color scheme, uses light or dark mode depending on the user's operating system or browser settings (by means of a [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) media query).
-solarized-light | Light mode solarized color scheme.
-solarized-dark  | Dark mode solarized color scheme.
+classic         | Default, light color scheme.
+dark            | Dark variant of the classic skin.
+solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
+solarized-light | Light variant of solarized color scheme.
+solarized-dark  | Dark variant of solarized color scheme.
 
+*:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
+(via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
 
 ### Customize navigation links
 
