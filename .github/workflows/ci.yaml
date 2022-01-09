@@ -18,10 +18,10 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-      - name: Set Up Ruby 2.5
+      - name: Set Up Ruby 2.7
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.5
+          ruby-version: 2.7
           bundler-cache: true
       - name: Run tests
         run: script/cibuild
