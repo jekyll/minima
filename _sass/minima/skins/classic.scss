@@ -322,6 +322,8 @@ $dm-table-border-color:    $dm-border-color-01 !default;
   $table-header-border: $dm-table-header-border;
   $table-border-color: $dm-table-border-color;
 
+  @include dm-highlight;
+
 
 } @else {
 
@@ -350,5 +352,7 @@ $dm-table-border-color:    $dm-border-color-01 !default;
   $table-header-bg-color: $lm-table-header-bg-color;
   $table-header-border: $lm-table-header-border;
   $table-border-color: $lm-table-border-color;
+
+  @include lm-highlight;
 
 }
