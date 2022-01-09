@@ -47,4 +47,4 @@ Reach us by email with the subject: "[Name], Master/PhD/Postdoc Applicant" inclu
 
 2. A curriculum vitae.
 
-3. For Master/PhD applicants, course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese. For Postdoc applicants the *names* of two people willing to provide a letter of reference.
+3. For Master/PhD applicants, course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese. For Postdoc applicants the *names* of two researchers familiar with the applicants work, and willing to provide a letter of reference.
