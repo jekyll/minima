@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open Positions
+title: Join Us
 permalink: /projects_2022/
 ---
 
@@ -10,7 +10,7 @@ We are a theory group with a significant computational component that collaborat
 
 We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We commit to build a diverse research group from its conception and to make sure to be attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
 
-Below we provide a list of possible projects. *If you are a applying to be a graduate student, and you enjoyed your quantum mechanics, quantum optics, quantum information or photonics courses and liked the mathematical/computational aspects of these areas you will likely enjoy working with us in one of the projects below (a concrete project can be defined at a later stage).*
+Below we provide a list of possible projects. **If you are a applying to be a graduate student** *, and you enjoyed your quantum mechanics, quantum optics, quantum information or photonics courses and liked the mathematical/computational aspects of these areas you will likely enjoy working with us in one of the projects below (a concrete project can be defined at a later stage).*
 
 **1. Inverse design for pulsed squeezed light**  
 
@@ -47,4 +47,4 @@ Reach us by email with the subject: "[Name], Master/PhD/Postdoc Applicant" inclu
 
 2. A curriculum vitae.
 
-3. Course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese.
+3. For Master/PhD applicants, course transcripts, when available. These can be submitted in French, English, Spanish or Portuguese. For Postdoc applicants the *names* of two people willing to provide a letter of reference.
