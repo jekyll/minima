@@ -173,11 +173,14 @@ Minima 2.0      | Minima 3.0
 
 ##### Available skins
 
-- classic
-- dark
-- solarized
-- solarized-light
-- solarized-dark
+Skin setting    | Description
+--------------- | -----------
+classic         | Default, light mode color scheme.
+dark            | Dark mode alternative to the classic skin.
+solarized       | Based on the [solarized](https://github.com/solarized) color scheme, uses light or dark mode depending on the user's preferences.
+solarized-light | Light mode solarized color scheme.
+solarized-dark  | Dark mode solarized color scheme.
+
 
 ### Customize navigation links
 
