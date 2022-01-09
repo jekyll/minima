@@ -207,6 +207,34 @@ $dm-table-border-color:    $dm-border-color-01 !default;
 // --------------
 
 
+// Always light mode
+// Assign outside of the if construct to establish global variable scope
+
+$brand-color: $lm-brand-color;
+$brand-color-light: $lm-brand-color-light;
+$brand-color-dark: $lm-brand-color-dark;
+
+$site-title-color: $lm-site-title-color;
+
+$text-color: $lm-text-color;
+$background-color: $lm-background-color;
+$code-background-color: $lm-code-background-color;
+
+$link-base-color: $lm-link-base-color;
+$link-visited-color: $lm-link-visited-color;
+$link-hover-color: $lm-link-hover-color;
+
+$border-color-01: $lm-border-color-01;
+$border-color-02: $lm-border-color-02;
+$border-color-03: $lm-border-color-03;
+
+$table-text-color: $lm-table-text-color;
+$table-zebra-color: $lm-table-zebra-color;
+$table-header-bg-color: $lm-table-header-bg-color;
+$table-header-border: $lm-table-header-border;
+$table-border-color: $lm-table-border-color;
+
+
 @if $color-scheme-auto {
 
   // Auto mode
@@ -327,32 +355,7 @@ $dm-table-border-color:    $dm-border-color-01 !default;
 
 } @else {
 
-  // Always light mode
-
-  $brand-color: $lm-brand-color;
-  $brand-color-light: $lm-brand-color-light;
-  $brand-color-dark: $lm-brand-color-dark;
-
-  $site-title-color: $lm-site-title-color;
-
-  $text-color: $lm-text-color;
-  $background-color: $lm-background-color;
-  $code-background-color: $lm-code-background-color;
-
-  $link-base-color: $lm-link-base-color;
-  $link-visited-color: $lm-link-visited-color;
-  $link-hover-color: $lm-link-hover-color;
-
-  $border-color-01: $lm-border-color-01;
-  $border-color-02: $lm-border-color-02;
-  $border-color-03: $lm-border-color-03;
-
-  $table-text-color: $lm-table-text-color;
-  $table-zebra-color: $lm-table-zebra-color;
-  $table-header-bg-color: $lm-table-header-bg-color;
-  $table-header-border: $lm-table-header-border;
-  $table-border-color: $lm-table-border-color;
-
+  // Always light syntax highlighting
   @include lm-highlight;
 
 }
