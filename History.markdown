@@ -62,6 +62,7 @@
   * chore(deps): bump Ruby version (#510)
   * Conditionally load GFM-parser gem in CI builds (#535)
   * Improve CI workflow configuration (#609)
+  * Migrate from TravisCI to GitHub Actions (#633)
 
 ## 2.5.1
 
