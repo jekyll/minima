@@ -6,9 +6,6 @@ on:
       - master
       - demo-site
 
-env:
-  RUBY_VERSION: 2.7
-
 jobs:
   deploy_demo_site:
     runs-on: "ubuntu-latest"
