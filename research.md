@@ -24,3 +24,4 @@ Finally, **we also investigate** the possibilities and limitations offered by ne
 
 All our papers are available on the [arXiv](https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=N+Quesada&terms-0-field=all&classification-physics=y&classification-physics_archives=quant-ph&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first). You can also browse them on [Google scholar](https://scholar.google.ca/citations?hl=en&user=dZNVjOEAAAAJ&view_op=list_works).
 
+You can find recordings of previous talks given by group members at [underline](https://underline.io/speakers/24953-nicolas-quesada) and [youtube](https://www.youtube.com/watch?v=FpAVJgwS9hE).

@@ -4,9 +4,11 @@ title: News
 permalink: /news/
 ---
 
-* [06-01-22](https://twitter.com/polyquantique/status/1479587281912614912) Martin Houde joins as the first postdoc in the group. Welcome to Polyquantique Martin! 
+* [11-01-22](https://twitter.com/PRX_Quantum/status/1480951141680693256) our work in collaboration with Rachel, Bryn, Raúl, Juan Miguel, Trevor and Haoyu on [speeding up the classical simulation of Gaussian Boson Sampling appeared in PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.010306)
 
-* [06-01-22](https://twitter.com/polyquantique/status/1478891012244267008) Our collaboration with colleagues in Maryland, Toronto, Berlin, Chicago and Ulm on [Quantum computational advantage via high-dimensional Gaussian boson sampling](https://www.science.org/doi/10.1126/sciadv.abi7894) appeared today in Science Advances!
+* [06-01-22](https://twitter.com/polyquantique/status/1479587281912614912) **Martin Houde joins** as the first postdoc in the group. Welcome to Polyquantique Martin! 
+
+* [06-01-22](https://twitter.com/polyquantique/status/1478891012244267008) Our collaboration with Abhinav, Arthur, Trevor, Marcel, Marios, Lars, Jonathan, Haoyu, Jens, Dominik, Bill and Ish on [Quantum computational advantage via high-dimensional Gaussian boson sampling](https://www.science.org/doi/10.1126/sciadv.abi7894) appeared today in Science Advances!
 
 * 15-12-21 Nicolas gave a talk on [Quantum Computational Advantage via High-Dimensional Gaussian Boson Sampling](https://arxiv.org/abs/2102.12474) for Chile's [Millennium Institute for Research in Optics, MIRO](https://www.iniciativamilenio.cl/en/miro-2/).
 
