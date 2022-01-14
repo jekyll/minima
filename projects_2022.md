@@ -10,7 +10,7 @@ The Polyquantique research group led by Nicolás Quesada specializes in quantum 
 
 We are a theory group with a significant computational component that collaborates closely with experimental groups and partners in government and industry. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/) (that is, making all data and code available to others to easily execute).  
 
-We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We are thus commited to building a diverse research group from its conception and to being attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
+We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We are thus committed to building a diverse research group from its conception and to being attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
 
 We are based in beautiful and welcoming Montréal, a safe but never boring city that consistently ranks as the best city in North America to be a student.
 
