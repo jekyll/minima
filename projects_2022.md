@@ -4,11 +4,22 @@ title: Join Us
 permalink: /projects_2022/
 ---
 
-The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for highly motivated candidates at all levels (graduate students, postdocs) with *expertise or interest* in quantum photonics, quantum information, quantum optics, quantum metrology, quantum error correction, topological photonics or machine learning. 
+The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for highly motivated candidates *at all levels* (graduate students, postdocs) with *expertise or interest* in quantum photonics, quantum information, quantum optics, quantum metrology, quantum error correction, topological photonics or machine learning. 
 
-We are a theory group with a significant computational component that collaborates closely with experimental groups and partners in government and industry. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/).  
+We are a theory group with a significant computational component that collaborates closely with experimental groups and partners in government and industry. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/) (that is, making all data and code available to others to easily execute).  
 
-We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We commit to build a diverse research group from its conception and to make sure to be attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
+We believe that a significant part of scientific research can be understood as collective problem solving. Not having a group that can look at problems from diverse vantage points is a wasted opportunity. We are thus commited to building a diverse research group from its conception and to being attentive to and supportive of the needs and ambitions of students and postdocs, especially those who belong to marginalized or underrepresented groups in science and engineering. 
+
+
+Quantum technologies offer the promise to solve practical problems in chemistry and material science with a level of precision and speed that is beyond the reach of any classical supercomputer. They also allow us to envision impregnable information networks for secure communication and provide us with the most precise and gentle probes to study delicate materials and biological samples.
+
+Photonics is a strong contender for building these quantum technologies: unlike other physical substrates for quantum technologies, light does not decohere at room temperature, light qubits can be easily encoded in time bins, allowing for massive scalability, and there is already very significant industrial capacity built around it.
+
+Different states of light can be used to encode qubits. In fact, there are many families of states of light that can be used to encode qubits.
+
+We investigate how these states can be generated in optical settings. Their generation requires nonlinear interactions between modes of light, which can be mediated by matter in the form of nonlinear materials or by measurements on parts of an entangled (quantum-correlated) state using photon counting detectors.
+
+We use mathematical and computational tools, including inverse design, machine learning and tensor networks, to obtain optimal designs for structures, devices and protocols needed for the generation of these states and the operation of the detectors needed to measure them. These tools are not only useful for designing states for quantum computing, but also for generating states of light with metrological applications, such as squeezed light in which vacuum noise in a quadrature of the electromagnetic field is suppressed. At the same time, bosonic-code states can provide a viable route to build a network where quantum, instead of classical, information is exchanged: a quantum internet!
 
 Below we provide a list of possible projects. **If you are a applying to be a graduate student** *, and you enjoyed your quantum mechanics, quantum optics, quantum information or photonics courses and liked the mathematical/computational aspects of these areas you will likely enjoy working with us in one of the projects below (a concrete project can be defined at a later stage).*
 
@@ -43,7 +54,7 @@ Postdoc applications will be reviewed until filled.
 
 Reach us by email with the subject: "[Name], Master/PhD/Postdoc Applicant" including the following information:
 
-1. A motivation letter describing your research interests, background and experience
+1. A motivation letter (2 pages max.) describing your research interests, background and experience. 
 
 2. A curriculum vitae.
 
