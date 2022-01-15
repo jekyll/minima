@@ -26,7 +26,7 @@ Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Po
 Graduated from McGill University in 2018 with a Ph.D. thesis on [Parametric driving as a route to topological states and quantum devices](https://escholarship.mcgill.ca/downloads/rj430699k) supervised by [A. Clerk](https://clerkgroup.uchicago.edu/).  
 Enjoys nature hikes, animal tracking and drinking maple syrup.
 
-<img src="./assets/images/yanic.jpeg"
+<img src="assets/images/yanic.jpeg"
      alt="Yanic"
      width="80" 
      height="90"
