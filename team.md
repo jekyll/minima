@@ -32,4 +32,4 @@ Enjoys nature hikes, animal tracking and drinking maple syrup.
      height="90"
      style="float: left; margin-right: 10px;" /> Yanic Cardin.  
 Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
-Quantum physics enthousiast. Enjoys meal prep and football Sundays.
+Quantum physics enthusiast. Enjoys meal prep and football Sundays.
