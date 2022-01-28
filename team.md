@@ -33,3 +33,11 @@ Enjoys nature hikes, animal tracking and drinking maple syrup.
      style="float: left; margin-right: 10px;" /> **Yanic Cardin**.  
 Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 Quantum physics enthusiast. Enjoys meal prep and football Sundays.
+
+<img src="https://avatars.githubusercontent.com/u/16817699"
+     alt="Yuan"
+     width="80" 
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Yuan Yao**.  
+Visiting PhD student, [Département Informatique et Réseaux (INFRES)](https://www.telecom-paris.fr/fr/lecole/departements-enseignement-recherche/informatique-reseaux), [Télécom Paris](https://www.telecom-paris.fr) and [IP Paris](https://www.ip-paris.fr), supervised by [Filippo Miatto](https://scholar.google.pl/citations?user=zoaxT0QAAAAJ&hl=en).  
+LEGO enthusiast.
