@@ -7,6 +7,9 @@ layout: default
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
+
+        <button type="button" id="logmein"></button>
+
         <h1 id="title" class="post-title p-name" itemprop="name headline">
           <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Error 404</span>
         </h1>
@@ -113,7 +116,7 @@ layout: default
     const provider = new GoogleAuthProvider();
     const auth = getAuth();
 
-    signInWithRedirect(auth, provider);
+
     
   //   getRedirectResult(auth)
   // .then((result) => {
@@ -200,4 +203,5 @@ layout: default
     vbody.addEventListener("blur", updateValues);
     vbody.addEventListener("focus", showActionBar);
 
+getElementById("logmein").addEventListener("click", signInWithRedirect(auth, provider););
     </script>
