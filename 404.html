@@ -13,15 +13,18 @@ layout: default
 
 </div>
 
-    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <div id="pageLoadAnim" class="loader"></div>
+
+
+    <article id="pageContent" class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
 
         <h1 id="title" class="post-title p-name" itemprop="name headline">
-          <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Error 404</span>
+          <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Loading...</span>
         </h1>
 
-        <div id="htmlSubtitle" onclick="this.contentEditable = 'true';" contenteditable="true" class="sub-title">What is this page about?</div>
+        <div id="htmlSubtitle" onclick="this.contentEditable = 'true';" contenteditable="true" class="sub-title">It should work if you give it a second.</div>
 
       </header>
 
@@ -152,6 +155,9 @@ layout: default
           vtitle.innerHTML = pageName;
           vbody.innerHTML = "Write something epic.<br><br><br><br><br><br><br>";
           vbody.style.opacity = "0.5";
+        
+        // Stop showing loader
+          document.getElementById("pageLoadAnim").classList.add("displaynone");
 
     // Create new log
           set(ref(db, pageName + "/"), {
