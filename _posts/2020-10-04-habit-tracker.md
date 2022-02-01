@@ -2,7 +2,9 @@
 layout: post
 title: Excel sheet to track your habits (Seinfeld Strategy)
 published: true
-description: There are multiple apps that help you track your habits. But none of them offers the flexibility that this excel sheet offers.
+description: >-
+  There are multiple apps that help you track your habits. But none of them
+  offers the flexibility that this excel sheet offers.
 permalink: /habit-tracker/
 ---
 
@@ -23,11 +25,11 @@ It is an excel sheet that you can use to track your habits. Both I and my wife h
 
 #### **Why use this sheet?** 
 
-Before creating this sheet, I tried many apps to track my habits. I really wanted my habit tracker to have the following features:  
+Before creating this sheet, I tried many apps to track my habits. I wanted my habit tracker to have the following features:  
 
-1. **Flexibility —**  Ability to keep track of daily, weekly, and monthly habits. Ability to modify, delete, or add as many habits as you want. Access to the tracker on any device at any time 
+1. **Flexibility —**  Ability to track daily, weekly, and monthly habits. Ability to modify, delete, or add as many habits as you want. Access to the tracker on any device at any time 
 2. **Analytics —**  Ability to analyze raw data (eg. hit ratios daily and over time)  
-3. **Notes —** Ability to add customized notes on your habits
+3. **Notes —** Ability to add customized notes to your habits
 
 Unfortunately, none of the off-the shelf apps had these features. The excel sheet has them all. 
 
