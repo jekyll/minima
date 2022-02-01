@@ -16,7 +16,7 @@ layout: default
     <div id="pageLoadAnim" class="loader"></div>
 
 
-    <article id="pageContent" class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <article id="pageContent" class="post h-entry displaynone" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
 
@@ -155,9 +155,6 @@ layout: default
           vtitle.innerHTML = pageName;
           vbody.innerHTML = "Write something epic.<br><br><br><br><br><br><br>";
           vbody.style.opacity = "0.5";
-        
-        // Stop showing loader
-          document.getElementById("pageLoadAnim").classList.add("displaynone");
 
     // Create new log
           set(ref(db, pageName + "/"), {
@@ -166,6 +163,12 @@ layout: default
             body : vbody.innerHTML
           });
         }
+
+     // Stop showing loader and show content
+        document.getElementById("pageLoadAnim").display = 'none';
+        document.getElementById("pageContent").classList.remove('displaynone');
+        
+
       });
 
       // check if logged in
