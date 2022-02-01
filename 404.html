@@ -146,6 +146,7 @@ layout: default
     var vtitle = document.getElementById('htmlTitle');
     var vsubtitle = document.getElementById('htmlSubtitle');
     var vbody = document.getElementsByClassName("pell-content")[0];
+    var vlogin = document.getElementById("logmein");
 
     var actionbar = document.getElementsByClassName("pell-actionbar")[0];
     hideActionBar();
@@ -202,6 +203,5 @@ layout: default
     vsubtitle.addEventListener("blur", updateValues);
     vbody.addEventListener("blur", updateValues);
     vbody.addEventListener("focus", showActionBar);
-
-    getElementById("logmein").addEventListener("click", signInWithRedirect(auth, provider));
+    vlogin.addEventListener("click", signInWithRedirect(auth, provider));
     </script>
