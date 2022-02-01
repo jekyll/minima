@@ -175,11 +175,12 @@ layout: default
     }
 
     function signInUser() {
-      console.log("trying to sign in")
+      console.log("Trying to sign in...")
       signInWithRedirect(auth, provider);
     }
 
     function getUserDetails() {
+      console.log("Trying to get user details...");
 
       const auth = getAuth();
 getRedirectResult(auth)
