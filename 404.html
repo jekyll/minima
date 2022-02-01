@@ -196,7 +196,8 @@ getRedirectResult(auth)
 
     // The signed-in user info.
     const user = result.user;
-    console.log("i think you are " + user);
+    console.log(user);
+    console.log("i think you are " + user.displayName);
     
   }).catch((error) => {
     // Handle Errors here.
