@@ -3,15 +3,19 @@
 layout: default
 
 ---
+<div class="logincontainer">
+<button type="button" id="logmein">Log in with Google</button>
+
+<div id="containerOfUser" class="usercontainer">
+<img width="48px" height="48px" src="" id="photoOfUser">
+<div id="nameOfUser">no name</div>
+</div>
+
+</div>
 
     <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
-
-        <button type="button" id="logmein">login button 2</button>
-
-          <img width="48px" height="48px" src="" id="photoOfUser">
-          <div id="nameOfUser">no name</div>
 
         <h1 id="title" class="post-title p-name" itemprop="name headline">
           <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Error 404</span>
@@ -188,9 +192,11 @@ layout: default
     }
 
     function showUserOnPage() {
-      console.log("showing user on page");
+
+      document.getElementById('containerOfUser').display = "block";
       document.getElementById('photoOfUser').src = vphotourl;
       document.getElementById('nameOfUser').innerHTML = vdisplayname;
+      vlogin.display="none";
     }
 
     function getUserDetails() {
@@ -212,8 +218,6 @@ getRedirectResult(auth)
     console.log("i think you are " + user.displayName);
     vdisplayname = user.displayName;
     vphotourl = user.photoURL;
-    document.getElementById('photoOfUser').src = vphotourl;
-    document.getElementById('nameOfUser').innerHTML = vdisplayname;
     showUserOnPage();
     
   }).catch((error) => {
