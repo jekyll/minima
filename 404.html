@@ -127,6 +127,9 @@ layout: default
     var vbody = document.getElementsByClassName("pell-content")[0];
     var vlogin = document.getElementById("logmein");
 
+    var vdisplayname = "";
+    var vphotourl = "";
+
     var actionbar = document.getElementsByClassName("pell-actionbar")[0];
     hideActionBar();
 
@@ -186,8 +189,8 @@ layout: default
 
     function showUserOnPage() {
       console.log("showing user on page");
-      document.getElementById(photoOfUser).src = user.photoURL;
-      document.getElementByID(nameOfUser).innerHTML = user.displayName;
+      document.getElementById('photoOfUser').src = vphotourl;
+      document.getElementById('nameOfUser').innerHTML = vdisplayname;
     }
 
     function getUserDetails() {
@@ -207,8 +210,10 @@ getRedirectResult(auth)
     const user = result.user;
     console.log(user);
     console.log("i think you are " + user.displayName);
-    document.getElementById(photoOfUser).src = user.photoURL;
-    document.getElementById(nameOfUser).innerHTML = user.displayName;
+    vdisplayname = user.displayName;
+    vphotourl = user.photoURL;
+    document.getElementById('photoOfUser').src = vphotourl;
+    document.getElementById('nameOfUser').innerHTML = vdisplayname;
     showUserOnPage();
     
   }).catch((error) => {
