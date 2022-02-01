@@ -192,6 +192,7 @@ layout: default
 
     function getUserDetails() {
       console.log("Trying to get user details...");
+      console.log("i think you are " + user.displayName);
 
       const auth = getAuth();
 getRedirectResult(auth)
@@ -205,6 +206,8 @@ getRedirectResult(auth)
 
     // The signed-in user info.
     const user = result.user;
+    console.log("i think you are " + user.displayName);
+    
   }).catch((error) => {
     // Handle Errors here.
     const errorCode = error.code;
