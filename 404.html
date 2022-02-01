@@ -11,7 +11,7 @@ layout: default
         <button type="button" id="logmein">login button 2</button>
 
           <img src="" id="photoOfUser">
-          <div id="nameOfUser"></div>
+          <div id="nameOfUser">no name</div>
 
         <h1 id="title" class="post-title p-name" itemprop="name headline">
           <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Error 404</span>
@@ -185,8 +185,9 @@ layout: default
     }
 
     function showUserOnPage() {
+      console.log("showing user on page");
       document.getElementById(photoOfUser).src = user.photoURL;
-      document.getElementByID(nameofUser).innerHTML = user.displayName;
+      document.getElementByID(nameOfUser).innerHTML = user.displayName;
     }
 
     function getUserDetails() {
@@ -206,6 +207,8 @@ getRedirectResult(auth)
     const user = result.user;
     console.log(user);
     console.log("i think you are " + user.displayName);
+    document.getElementById(photoOfUser).src = user.photoURL;
+    document.getElementByID(nameOfUser).innerHTML = user.displayName;
     showUserOnPage();
     
   }).catch((error) => {
