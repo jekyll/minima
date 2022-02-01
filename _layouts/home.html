@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="home">
@@ -29,8 +30,8 @@ layout: default
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
-            </a>
-            <div class="post-meta"> {{ post.content | truncatewords: 10 | strip_html | strip_newlines  | strip_img }}</div>
+             </a>
+            <!-- <div class="post-meta"> {{ post.content | truncatewords: 10 | strip_html | strip_newlines  | strip_img }}</div> -->
           </h3>
         </li>
       {%- endfor -%}
