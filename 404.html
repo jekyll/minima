@@ -115,7 +115,18 @@ layout: default
     const db = getDatabase();
     const provider = new GoogleAuthProvider();
     const auth = getAuth();
+    const user = auth.currentUser;
 
+    if (user) {
+
+      console.log("i think you are " + user.displayName);
+  // User is signed in, see docs for a list of available properties
+  // https://firebase.google.com/docs/reference/js/firebase.User
+  // ...
+} else {
+  console.log("nobody is signed in");
+  // No user is signed in.
+}
 
     const reference = ref(db, pageName + '/');
 
