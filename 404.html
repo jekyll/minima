@@ -117,17 +117,6 @@ layout: default
     const auth = getAuth();
     const user = auth.currentUser;
 
-    if (user) {
-
-      console.log("i think you are " + user.displayName);
-  // User is signed in, see docs for a list of available properties
-  // https://firebase.google.com/docs/reference/js/firebase.User
-  // ...
-} else {
-  console.log("nobody is signed in");
-  // No user is signed in.
-}
-
     const reference = ref(db, pageName + '/');
 
     var vtitle = document.getElementById('htmlTitle');
@@ -147,7 +136,6 @@ layout: default
           vtitle.innerHTML = snapshot.val().title;
           vsubtitle.innerHTML = snapshot.val().subtitle;
           vbody.innerHTML = snapshot.val().body;
-          getUserDetails();
         } else {
         // If no snapshot, fill values and create record.
           console.log("Creating new record.");
@@ -163,6 +151,9 @@ layout: default
           });
         }
       });
+
+      // check if logged in
+      getUserDetails();
 
     function updateValues() {
       const updates = {};
@@ -192,7 +183,6 @@ layout: default
 
     function getUserDetails() {
       console.log("Trying to get user details...");
-      console.log("i think you are " + user.displayName);
 
       const auth = getAuth();
 getRedirectResult(auth)
@@ -206,7 +196,7 @@ getRedirectResult(auth)
 
     // The signed-in user info.
     const user = result.user;
-    console.log("i think you are " + user.displayName);
+    console.log("i think you are " + user);
     
   }).catch((error) => {
     // Handle Errors here.
