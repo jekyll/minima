@@ -9,10 +9,9 @@ layout: default
       <header class="post-header">
 
         <button type="button" id="logmein">login button 2</button>
-        <div>
-          <img id="photoOfUser">
+
+          <img src="" id="photoOfUser">
           <div id="nameOfUser"></div>
-        </div>
 
         <h1 id="title" class="post-title p-name" itemprop="name headline">
           <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Error 404</span>
@@ -187,7 +186,7 @@ layout: default
 
     function showUserOnPage() {
       document.getElementById(photoOfUser).src = user.photoURL;
-      document.getElementByID(nameofUser).src = user.displayName;
+      document.getElementByID(nameofUser).innerHTML = user.displayName;
     }
 
     function getUserDetails() {
