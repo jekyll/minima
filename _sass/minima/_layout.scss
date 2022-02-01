@@ -34,17 +34,30 @@ html {
 }
 
 .usercontainer{
-  
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 36px;
+  padding 6px 20px 6px 6px;
 }
 
 .displaynone{
   display: none;
 }
 
+.username{
+  padding-left: 12px;
+}
+
 .userphoto{
-  width: 48px;
-  height: 48px;
-  border-radius: 48px;
+  width: 36px;
+  height: 36px;
+  margin: 0;;
+  border-radius: 20px;
+  border: 1px solid #333333;
+  border-radius: 36px;
 }
 
 .tabswitcher{

@@ -8,7 +8,7 @@ layout: default
 
 <div id="containerOfUser" class="usercontainer displaynone">
 <img class="userphoto" src="" id="photoOfUser">
-<div id="nameOfUser">no name</div>
+<div class="username" id="nameOfUser">no name</div>
 </div>
 
 </div>
@@ -195,7 +195,7 @@ layout: default
       document.getElementById('containerOfUser').classList.remove('displaynone');
       document.getElementById('photoOfUser').src = vphotourl;
       document.getElementById('nameOfUser').innerHTML = vdisplayname;
-      vlogin.display="none";
+      vlogin.classList.add('displaynone');
     }
 
     function getUserDetails() {
