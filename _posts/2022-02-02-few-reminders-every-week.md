@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Few things that I remind myself every week, and you should too"
+title: "Few things that I remind myself every week, and you should too..."
 published: true
 description: 
 permalink: /weekly-reminders/
