@@ -20,12 +20,13 @@ published: true
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <h3 class="post-list-heading">{{ page.list_title }}</h3>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
         <li>
+          
         <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -33,6 +34,7 @@ published: true
              </a>
             <!-- <div class="post-meta"> {{ post.content | truncatewords: 10 | strip_html | strip_newlines  | strip_img }}</div> -->
           </h3>
+        
         </li>
       {%- endfor -%}
 
