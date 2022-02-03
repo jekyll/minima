@@ -64,6 +64,8 @@ Here are a few things that I remind myself every week.
 
 #### **Reminders**
 
+- Likes ≠ money
+
 - Learn by doing
 
 - Failure is given
