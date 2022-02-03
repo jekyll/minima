@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-</div>
+
     <article id="pageContent" class="post h-entry animated fadeInUp" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
@@ -22,6 +22,7 @@ layout: default
       </div>
 
     </article>
+  </div>
 
 <script type="module">
   
@@ -70,7 +71,7 @@ layout: default
         const postKey = postSnapshot.key;
         const postData = postSnapshot.val();
 
-        var thisCode = "<div class='animated fadeInUp'>" +
+        var thisCode = "<div class='dummy animated fadeInUp'>" +
           "<h3 class='post-title'>" + "<a href='/" + postKey + "'>" + postData.title + "</a></h3>" +
           "<p class='post-subtitle'>" + postData.subtitle + "</p>" +
           "</div>";
@@ -79,7 +80,7 @@ layout: default
       numposts++;
       });
 
-      const collection = document.getElementsByClassName("fadeInUp");
+      const collection = document.getElementsByClassName("dummy");
       for (let i = 0; i < collection.length; i++) {
         collection[i].style.animationDelay = ( i * 60 ) + 'ms';
       }
