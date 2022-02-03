@@ -1,0 +1,210 @@
+---
+
+layout: default
+
+---
+<div class="logincontainer">
+<button type="button" id="logmein">Log in with Google</button>
+
+<div id="containerOfUser" class="usercontainer displaynone">
+<img class="userphoto" src="" id="photoOfUser">
+<div class="username" id="nameOfUser">no name</div>
+</div>
+
+</div>
+
+    <div id="pageLoadAnim" class="loader"></div>
+
+
+    <article id="pageContent" class="post h-entry displaynone" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="post-header">
+
+        <h1 id="title" class="post-title p-name" itemprop="name headline">
+          <span id="htmlTitle" onclick="this.contentEditable = 'true';" contenteditable="true">Loading...</span>
+        </h1>
+
+        <div id="htmlSubtitle" onclick="this.contentEditable = 'true';" contenteditable="true" class="sub-title">You can type things here.</div>
+
+      </header>
+
+      <div id="htmlBody" class="post-content e-content" itemprop="articleBody">
+
+      </div>
+
+    </article>
+
+
+
+    <script src="https://gyanl.com/assets/pell.js"></script>
+
+    <script type="text/javascript">
+    
+
+      // Initialize pell on an HTMLElement
+  pell.init({
+    // <HTMLElement>, required
+    element: document.getElementById('htmlBody'),
+
+    // <Function>, required
+    // Use the output html, triggered by element's `oninput` event
+    onChange: html => console.log(html),
+
+    // <string>, optional, default = 'div'
+    // Instructs the editor which element to inject via the return key
+    defaultParagraphSeparator: 'p',
+
+    // <boolean>, optional, default = false
+    // Outputs <span style="font-weight: bold;"></span> instead of <b></b>
+    styleWithCSS: false,
+
+    // <Array[string | Object]>, string if overwriting, object if customizing/creating
+    // action.name<string> (only required if overwriting)
+    // action.icon<string> (optional if overwriting, required if custom action)
+    // action.title<string> (optional)
+    // action.result<Function> (required)
+    // Specify the actions you specifically want (in order)
+    actions: [
+      'bold',
+      'italic',
+      'underline',
+      'heading1',
+      'heading2',
+      'heading3',
+      'heading4',
+      'paragraph',
+      'olist',
+      'ulist',
+      'todo'
+    ],
+
+    // classes<Array[string]> (optional)
+    // Choose your custom class names
+    classes: {
+      actionbar: 'pell-actionbar',
+      button: 'pell-button',
+      content: 'pell-content',
+      selected: 'pell-button-selected'
+    }
+  })
+
+    </script>
+
+<script type="module">
+  
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+  import { getDatabase, ref, set, onValue, update } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
+  import { getAuth, signInWithRedirect, getRedirectResult, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+  const firebaseConfig = {
+      apiKey: "AIzaSyCLkh1I6haUU51EslRGSlXkXiYqOkvcCKA",
+      authDomain: "idea-cbd6c.firebaseapp.com",
+      databaseURL: "https://idea-cbd6c-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "idea-cbd6c",
+      storageBucket: "idea-cbd6c.appspot.com",
+      messagingSenderId: "965624401030",
+      appId: "1:965624401030:web:accca7b65fddd344591507",
+      measurementId: "G-CVF81V77DF"
+    };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const db = getDatabase();
+  const provider = new GoogleAuthProvider();
+  const auth = getAuth();
+  const user = auth.currentUser;
+
+  const reference = ref(db, '/');
+
+  var vdisplayname = "";
+  var vphotourl = "";
+  var numposts = 0;
+
+
+  // One time run
+    onValue(reference, (snapshot) => {
+
+      snapshot.forEach((postSnapshot) => {
+        const postKey = postSnapshot.key;
+        const postData = postSnapshot.val();
+
+        var thisCode = "<div class='post-container animated fadeInUp'>" +
+          "<h3 class='post-title'>" + "<a href='/" + postKey + "'>" + postData.title + "</a></h3>" +
+          "<p class='post-subtitle'>" + postData.subtitle + "</p>" +
+          "</div>";
+
+      document.getElementById('htmlBody').innerHTML += thisCode;
+      numposts++;
+      });
+
+      const collection = document.getElementsByClassName("post-container");
+      for (let i = 0; i < collection.length; i++) {
+        collection[i].style.animationDelay = ( i * 60 ) + 'ms';
+      }
+
+
+    });
+
+
+
+    // check if logged in
+    getUserDetails();
+
+  function signInUser() {
+    console.log("Trying to sign in...")
+    signInWithRedirect(auth, provider);
+  }
+
+  function showUserOnPage() {
+    document.getElementById('containerOfUser').classList.remove('displaynone');
+    document.getElementById('photoOfUser').src = vphotourl;
+    document.getElementById('nameOfUser').innerHTML = vdisplayname;
+    vlogin.classList.add('displaynone');
+  }
+
+  function getUserDetails() {
+    console.log("Trying to get user details...");
+
+    const auth = getAuth();
+
+getRedirectResult(auth)
+.then((result) => {
+  // This gives you a Google Access Token. You can use it to access Google APIs.
+  const credential = GoogleAuthProvider.credentialFromResult(result);
+  const token = credential.accessToken;
+
+  console.log(credential);
+  console.log(token);
+
+  // The signed-in user info.
+  const user = result.user;
+  console.log(user);
+  console.log("i think you are " + user.displayName);
+  vdisplayname = user.displayName;
+  vphotourl = user.photoURL;
+  showUserOnPage();
+  
+}).catch((error) => {
+  // Handle Errors here.
+  const errorCode = error.code;
+  const errorMessage = error.message;
+  // The email of the user's account used.
+  const email = error.email;
+  // The AuthCredential type that was used.
+  const credential = GoogleAuthProvider.credentialFromError(error);
+  // ...
+});
+
+  }
+
+  </script>
+
