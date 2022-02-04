@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Few things that I remind myself every week, and you should too..."
+title: "Few things that I remind myself every week"
 published: true
 description: 
 permalink: /weekly-reminders/
@@ -87,6 +87,8 @@ Here are a few things that I remind myself every week.
 - Comparison is the thief of joy
 
 - Be yourself. Everyone else is taken 
+
+- No one died from over-communication
 
 - Always share the why. And give examples
 
