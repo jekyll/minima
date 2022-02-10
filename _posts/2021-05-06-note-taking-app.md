@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My dream notes app
+title: Public Notes Website Concept
 subtitle: A laundry list of features for a public note-taking experience that I wish someone built (and might try to build myself at some point if nobody else does it).
 tags: misc
 ---
@@ -34,3 +34,6 @@ A toggle somewhere on the page allows dark/light mode toggles as well as a theme
 
 #### HTML blocks
 Useful when you want to do something unusual in terms of formatting without messing with the universal theme.
+
+-
+P.S. If you are looking at this page and find this interesting, reach out to me @gyanl on Twitter and I'll share a code demo where I've started working on this.
