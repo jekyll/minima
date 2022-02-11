@@ -10,7 +10,7 @@ In summary, this is my US immigration background
 - I am a Singapore citizen, who is eligible for H-1B1. Unlike H-1B, no lottery process is needed to apply for a H-1B1.
 - I am starting my role as a software engineer at Quora in November 2021.
 
-Pieces of information here may be useful to you, however shortlived and imcomplete.
+Pieces of information here may be useful to you, however shortlived and incomplete.
 
 
 
@@ -24,24 +24,32 @@ The company would hire immigration lawyers to help the company's share of requir
 
 
 
-## Obtaining a H-1B1
+## Obtaining an H-1B1
 
-Ashley has written [a very comprehensive guide](https://ashleylim.medium.com/navigating-the-h1b1-visa-process-4c8e459c4b96) on the process of obtain a H-1B1
+Ashley has written [a very comprehensive guide](https://ashleylim.medium.com/navigating-the-h1b1-visa-process-4c8e459c4b96) on the process of obtain an H-1B1
 
 There are a few things from the article I want to highlight
 - I paid my MRV application fee with SAM. However, I learnt that this option has since been [unavailable](https://www.ustraveldocs.com/sg/sg-niv-paymentinfo.asp).
 - Schedule your interview appointment early. With Covid and all, the availability of the timeslot can be inconsistent. Once you are confirmed that you are accepting the offer, you can complete the DS-160 early and schedule an interview timeslot. The risk of rescheduling it early is that you might lose the deposit. I could reschedule the interview twice.
 - The company can only start completing the visa application after you have obtained your degree scroll. Depending on the lawyer, a letter of conferment (stating that you have completed all your requirements and you will receive your degree scroll on a certain date) may be accepted. Regardless, you can submit your information and schedule your interview before you receive your degree scroll.
 - According to an [FAQ entry](https://ustraveldocs.com/sg/sg-gen-faq.asp#qlistwork5), you may not enter the United States until 10 days prior to your employment start date.
+- You may need to upload your entire passport. The passport could only be one file, preferably pdf. There is a file size limit for your passport. As a software engineer, these are the commands I use to downsize and bind my passport. The inputs are png files for each scan in numerical order.
+
+```bash
+mkdir ../tmp
+find . -maxdepth 1 -iname "*.png" | xargs -L1 -I{} convert -resize 40% "{}" ../tmp/"{}"
+convert ../tmp/*.png passport.pdf
+```
 
 
 
-How to handle the interview questions
+How to handle the interview session
 
 - You will be handed a pamphlet regarding your rights, and one of the interview questions is to summarise the contents of the pamphlet. A summary like "I know my rights, I can refer to the pamphlet as well as online resources" should be sufficient.
 - The interviewer also asked whether the salary displayed on the LCA was consistent with my offer letter, in which I have shown my offer letter.
 - The other questions asked were about my school and degree, as well as what business is my company involved in.
 - Short, concise and confident answers are preferred.
+- You are recommended to wear smart casual to make yourself look and feel comfortable. For guys, T-shirt, long pants and covered shoes should be sufficient.
 
 
 
@@ -81,19 +89,19 @@ You cannot do an online check-in on Singapore Airlines with the H-1B1 visa. Appa
 
 The premium economy seat allows for 2 bags of 23 kg each. I tried to check in 3 bags of 10 kg each and was rejected, but we did prepare for the scenario. 
 
-As per [US Covid regulations](https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html), I needed to take a Covid test. An ART test works for entry into the United States, and I paid $30 for the test. The results of the ART test is produced within less than half an hour. PCR tests are more expensive, and the results is usually only produced the next day. You are recommended to take a test that is able to print your passport number along with it. The Singapore Airlines website lists [some testing locations](https://www.singaporeair.com/en_UK/sg/travel-info/pdt-pcr-locations/).
+As per [US Covid regulations](https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html), I needed to take a Covid test. An ART test works for entry into the United States, and I paid $30 for the test. The results of the ART test is produced within less than half an hour. PCR tests are more expensive, and the results is usually only produced the next day. You are recommended to take a test that can print your passport number along with it. The Singapore Airlines website lists [some testing locations](https://www.singaporeair.com/en_UK/sg/travel-info/pdt-pcr-locations/).
 
 You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items) on what you cannot bring to the US. Generally, you cannot bring in food except factory packaged food. After staying for a while, this is what I would have liked to bring into the US to use up my luggage allowance - milo powder, curry powder and cereal mix (and other drinks). You can buy some of such Asian foods from Ranch 99, but at slightly inflated prices.
 
-I only brought US$1000 into the US. I should have brought in more money to help with the initial deposit and expenses. The FX fees is worth paying to help you transition. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%.
+I only brought US$1000 into the US. I should have brought in more money to help with the initial deposit and expenses. The FX fees are worth paying to help you transition. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%.
 
 
 
 ## Housing
 
-I did not source for housing in the first two locations that I live in. I am currently sourcing for my third location with my friend so that it is much closer to the office.
+My friend and I have sourced for the housing that I am currently staying.
 
-I think Zillow is a good search engine for housing, as it scrapes real estate websites and indexes them on Zillow. However, for housing offered by non real estate agents, you probably need to use [craigslist](https://sfbay.craigslist.org/).
+I think Zillow is a good search engine for housing, as it scrapes real estate websites and indexes them on Zillow.
 
 This is what you need to look out for in a house. The information posted on or scraped onto Zillow may be incorrect.
 
@@ -106,17 +114,19 @@ This is what you need to look out for in a house. The information posted on or s
 - Utilities. Some rentals include water and garbage collection. Usually rental do not consider gas and electricity. Do consider this in the pricing.
 - Furnishings. Usually, year-long rentals do not include furniture, except the ones listed above.
 
-I strongly recommend you document the condition of the apartment before moving in and after moving out. In event of disputes, facts will help, especially as your security deposit is with the landlord. A video recording is an efficient way of documentation. Please note of these in particular 
+I strongly recommend you document the condition of the apartment before moving in and after moving out. In event of disputes, facts will help, especially as your security deposit is with the landlord. A video recording is an efficient way of documentation. If you have a suitable phone model, you can consider using poly.cam to make a [VR rendering](https://poly.cam/capture/B8E540F9-B2C1-4FEA-92B9-D4DA4B6F1A01) of your unit. Please note of these in particular 
 
 - Carpet condition - whether are there damages and stains.
 - Toilet condition - whether the toilet bowl is loose and does it flush well.
 - Cupboard linings - whether the shelf liner is peeling off.
 
-To sign a rental contract with the landlord, you need to place a security deposit and have a valid social security number with preferably some credit history. Some companies offer corporate housing for a few months for you to settle in before you rent a house on your own.
+To sign a rental contract with the landlord, you need to place a security deposit and have a valid social security number with preferably some credit history. Some companies offer corporate housing for a few months for you to settle in before you rent a house on your own. I still manage to get a rental contract without credit history, however, I would need to pay double the deposit.
 
-I am not the main tenant signing the contract for my first and second locations. If you do not have any contacts here and your company does not offer corporate housing, you can first Airbnb for a temporary place of residence and then find a place to rent for the long term. Alternatively, you can see if anyone on Craigslist is looking for housemates.
+You may be required to get rental insurance. Even if it is not required, I do recommend getting rental insurance. My housing agent administer bills via an Appfolio which has Roost Renters Insurance as a default. It was worth it to go against the default and choose Lemonade which was around \$66 per year compared the \$360 per year that we would have paid with Roost for a similar coverage. See the last section for my Lemonade referral link.
 
-I will write about the co-living arrangements and advice in a separate document.
+I am not the main tenant signing the contract for my first and second locations. If you do not have any contacts here and your company does not offer corporate housing, you can first Airbnb for a temporary place of residence and then find a place to rent for the long term. Alternatively, you can see if anyone on [Craigslist](https://sfbay.craigslist.org/) or Facebook marketplace is looking for housemates.
+
+I will write about the co-living arrangements and move-in procedures in a separate document.
 
 
 
@@ -128,14 +138,14 @@ My friend recommended me Chase Bank. You may ask someone to refer you so that th
 
 The only decision I have to make when opening an account is whether I want to open a savings account. There are restrictions on how often can you withdraw from a savings account (because it is meant for savings).
 
-If you do not overdraft, the maximum fees incurred is probably \$12 per month from the checking account and \$5 per month from the savings account.
+If you do not overdraft, the maximum fees incurred is probably \$12 per month from the checking account and \$5 per month from the savings account. I got charged the savings account fee once.
 
 I had the following to open my bank account
 
 - Original Passport
 - A proof of residence - a rental agreement with your name, or your company HR confirming that you live in that address, or a utility bill.
   - Apparently, my housemates managed to use the J1 visa as proof of residence.
-  - I drafted an email for HR to sign and forwarded it to the banker.
+  - I drafted an email for HR to sign. I forwarded the email it to the banker.
 
 ```
 (Company logo)
@@ -148,11 +158,11 @@ Yours faithfully
 (Signoff)
 ```
 
-- The coupon for a \$225 [signup bonus](https://accounts.chase.com/raf/share/2989388963). If you use this link, I get a $50 bonus in addition.
+I think you will get \$225 for signing up for a new account. If you use my referral link (listed in the last section), I get $50 in addition (and you still get your signing bonus).
 
-You do not need a social security number to open your account. However, to apply for a credit card, you need to link your social security number to your account. You may want to apply and use your credit card to build credit rating for your future benefit. Here is my credit card [referral link](https://www.referyourchasecard.com/18a/CGQF4VFXNT).
+You do not need a social security number to open your account. However, to apply for a credit card, you need to have a social security number and you need to go down to the office to link your social security number to your account. You may want to apply and use your credit card to build a credit rating. A good credit rating makes approval for housing applications easier. See the last section for my credit card referral link.
 
-Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/free-credit-score), but I think it will only appear 30 days after you linked your bank account to your social security number.
+Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/free-credit-score), powered by Experian. For me, it appeared around half a month after I made my first payment on my credit card.
 
 
 
@@ -160,16 +170,16 @@ Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/
 
 The I-9 Employment Eligibility Verification form requires a social security number.
 
-I called the [Redwood City](https://ssofficelocation.com/offices/california/redwood-city/redwood-city-social-security-office-94063/) social security office on 4 November 2021 for an appointment on 19 November 2021. It is recommended to call the office before your flight so that you can schedule the appointment as soon as after your arrivial in the US as possible.
+I called the Redwood City social security office on 4 November 2021 for an appointment on 19 November 2021. My friend called the Mountain View social security office on 2 February 2022 for an appointment on 14 March 2022. It is recommended to call the office a considerable time before your flight so that you can schedule the appointment as soon as possible after you arrive in the US. You need to call the office yourself, as the call handler rejected my call when I tried to help my friend schedule his appointment.
 
 I would need to bring
 - my passport with the machine-readable H-1B1 visa
 - I-94 downloaded from [a DHS website](https://i94.cbp.dhs.gov/I94/#/recent-search)
-- [SS-5 form](https://www.ssa.gov/forms/ss-5.pdf)
+- A filled [SS-5 form](https://www.ssa.gov/forms/ss-5.pdf)
 
 The social security card was delivered to my address in a week.
 
-The social security card is printed on security paper. When detached, it looks like a name card. Therefore, be very careful when opening the envelope when it is delivered. Record your social security number, and keep your social security card together with your passport.
+The social security card is printed on security paper. When detached, it looks like a name card. Therefore, be very careful when opening the envelope when it is delivered. Record down your social security number, and keep your social security card together with your passport.
 
 There is a [procedure](https://www.ssa.gov/ssnvisa/) for you to apply for your Social Security Number when you apply for your immigrant visa, but I have not heard of anyone doing it.
 
@@ -177,13 +187,15 @@ There is a [procedure](https://www.ssa.gov/ssnvisa/) for you to apply for your S
 
 ## Phone Number and Mobile Data
 
-My peers strongly recommend Mint Mobile. The prices are much cheaper. However, Mint Mobile requires a [compatible phone](https://www.mintmobile.com/byop/). I should have bought an iPhone when I was in Singapore before moving to the US.
+A US phone number is a necessity because you need to accept 2FA notifications via SMS for many services.
 
-My phone was incompatible, so I have to settle with using ATT. I am currently using a [3-month $99 prepaid plan](https://www.att.com/support/article/wireless/KM1391956/). I would have preferred to obtain a SIM card in store rather than shipping and waiting for it.
+My peers recommend Mint Mobile. The prices are much cheaper. However, Mint Mobile requires a [compatible phone](https://www.mintmobile.com/byop/). I should have bought an iPhone when I was in Singapore before moving to the US.
 
-In my first days in the US, when outside of any free WiFi range, I have been using my Starhub prepaid data roaming. I still needed a local phone number urgently so that I can receive my 2FA from the bank.
+My phone was incompatible, so I have to settle with using ATT for my first few months. I bought a [3-month $99 prepaid plan](https://www.att.com/support/article/wireless/KM1391956/). I would have preferred to obtain a SIM card in store rather than shipping and waiting for it.
 
-I will move on to Mint Mobile after buying an iPhone. As I want to continue receiving 2FA for my Singapore number also, I hope my next phone also supports [dual SIM](https://support.apple.com/en-us/HT209044).
+However, having experienced using both ATT and Mint Mobile, I can feel the difference in signal strength and coverage.
+
+I have moved on to Mint Mobile after buying an iPhone. I can continue to receive 2FA for my Singapore number because my iPhone supports [dual SIM](https://support.apple.com/en-us/HT209044). However, I think I need to top up $6 every two months to keep the number.
 
 
 
@@ -201,14 +213,20 @@ You may want to get a second-hand car for a few thousand dollars. You need to bu
 
 
 
-## Support Group
+## Referral links
 
-My Singaporean friends have helped me settle in and lent me some USD. I sought advice from my Singaporean friends for much of the content above. You can express appreciation to your friends by signing up for their referrals (Chase and Robinhood for example).
+If you appreicate my post, consider using these referral links.
 
-As a fresh graduate, a support group is important. You share knowledge and information with each other and grow together. If your company is mostly remote, you need to create these interactions.
-
-Do not let any of these stop you from pursuing your career in the US. I think there are still some good reasons that might make you reconsider moving to the US - for example, you could not get a job offer, you have your significant other in Singapore, or your parents are living their last days.
-
-
+- [Chase account opening](https://accounts.chase.com/raf/share/2989388963). Regardless whether you used a referral link, you will get a \$225 bonus for signing up. If you use the referral link, I will get \$50.
+- [Chase Freedom Credit Card](https://www.referyourchasecard.com/18a/H4QTPH71PE). You will need to obtain an SSN, and go to an office to link you SSN, apply for the card, wait for its approval and shipment, and spend \$500. Regardless whether you use the referral link, you will get \$200. If you registered for your card with the link, I will get \$100.
+- [Lemonade](https://www.lemonade.com/r/huikangtong). There is no additional benefit to you for using the referral link, but I get a \$10 Amazon gift card.
+- [Mint Mobile](http://fbuy.me/tiVqH). I am not sure what this referral does.
+- [Coffee Meets Bagel](https://cmb.gs/YgVv4sprynb). I am not sure what in-app benefit you will get from using my referral link, but I probably get my profile seen by one or two more girls.
+- (Not availble) Chase other credit card. I need to have the credit card first.
+- (Not available) Coinbase. My Singapore ID is rejected and I think I need to contact support but I have not have the time or motivation to. Apparenntly the referral bonus is $100.
+- (Not available) Venmo. Apparently the referral bonus is only $5 for each person, and the link expires in 14 days. I could not find the referral link on the app.
+- (Not available) Uber. I could not find the referral link on the app.
+- (Not available) Lyft. I have yet to sign up.
+- (Not available) Robinhood. I have yet to sign up.
 
 I hope this will help.
