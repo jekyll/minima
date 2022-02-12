@@ -60,6 +60,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - What is the 1 big thing that you'll get done today?
 
+- Are you a man of action or are you a man of contemplation? 
+
 - Can you do this consistently? Day after day, week after week?
 
 - If today were the last day of my life, would I be doing what I am about to do today?
@@ -77,7 +79,11 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Become a go-giver
 
+- Systems over goals
+
 - Assume positive intent
+
+- Hope is not a strategy
 
 - Health is your top priority
 
@@ -99,14 +105,24 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Everything in life happens for a good reason
 
+- You learn more from failure than from successs
+
 - Cut your losses, double down on what's working
 
 - Having a plan is important. Even if it is a bad plan
+
+- My worst day is still better than someone else's best day
+
+- If you want to get lucky, start by increasing your luck surface area
 
 - In a world full of distractions, the ability to do deep work is a superpower
 
 
 #### **Quotes**
+
+- Change happens automatically but for progress you need to work — Jess Sims
+
+- The greatest predictor of your future happiness is your happiness today. Carpe Diem — Karen Peacock
 
 - In the beginner's mind, there are many possibilities, in the expert's mind, there are a few — Shunryo Suzuki
 
@@ -120,16 +136,23 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference — Reinhold Niebuhr
 
+- Most people don’t start. Most people who start don’t continue. Most people who continue give up. Many winners are just the last ones standing — Sahil Livanga
+
 - Would you rather be the world’s greatest lover, but have everyone think you’re the world’s worst lover? Or would you rather be the world’s worst lover but have everyone think you’re the world’s greatest lover? — Warren Buffett
+
+
+#### **Poems**
+
+- Agar Aap Sochte Hain <br>
+![Agar Aap Sochte Hain](/assets/img/thinking_poem_hindi.jpeg){: height="700" } <br>
+English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/exp6/Thinking%20poem.pdf){:target="_blank"}. 
 
 
 #### **Decision making**
 
-- **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
+- **Optimize for speed.** If a decision is reversible, the biggest risk is moving too slow. If a decision is irreversible, the biggest risk is moving too fast. 
 
 - **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. 
-
-- **Optimize for speed.** If a decision is reversible, the biggest risk is moving too slow. If a decision is irreversible, the biggest risk is moving too fast. 
 
 - **Have the courage to follow your heart and intuition.** They somehow already know what you truly want to become. 
 
@@ -140,6 +163,9 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - **Make decisions.** There is nothing worse than sitting on decision that needs to made. Get better at it. Give yourself +2 for every right decision, 0 for every wrong decision, -2 for every decision that you don't make. Write down the pros and cons of the decisions and make it. The pain of inaction stings longer than the pain of incorrect action. 
 
 - **Complete it or kill it.** If something is important to you, complete it. If not, kill it. Don't be in the middle. Fill your life with goals that are worth finishing and eliminate the rest.
+
+- **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
+
 
 #### **Living life**
 
@@ -153,17 +179,19 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - **Be yourself, because everyone else is already taken.** There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you.  
 
+- **Stop seeking permission.** When you spend all your energy looking for other's permission, approval and acceptance you run out of steam for the things you actually want to do.
+
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
 - **Learn from experience**. There is really no substitute for experience. You don’t know what you don’t know. You can read stacks of books, get mentors, take courses, or make the perfect plan. You'll still yourself making mistakes. It’s only when the mistake stings you properly that you learn and don’t forget. The best and quickest way to learn is through experience. 
 
-- **Do the right thing.** No matter what don't compromise on your ethics. You would not repent it. Always do the right thing. 
+- **Do the right thing.** No matter what don't compromise on your ethics. You would not repent it.
 
 #### **Mental Models**
 
 - **Start with why.** Explain to others and yourself why is something important? What is the rationale behind your action? Give examples to bring it to life.  
 
-- **Always Invert.** Knowing what you don't want gets you closer to what you want. Each no brings you closer to a yes. A lot of success in life and business comes from knowing what you should avoid eg. bad investments, bad marriage, bad food, bad behaviour etc. Amass long-term advantage by consistently being not stupid. 
+- **Always Invert. Knowing what you don't want gets you closer to what you want.** Each no brings you closer to a yes. A lot of success in life and business comes from knowing what you should avoid eg. bad investments, bad marriage, bad food, bad behaviour etc. Amass long-term advantage by consistently being not stupid. 
 
 - **Learn by doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books.
 
@@ -222,6 +250,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it.  There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it. Criticism and negativity from difficult people are like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 
 - **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go.
+
+- **5 years people rule.** Only spend time with people who you would want to spend time with even 5 years from now. Life is too short.
 
 #### **Success & Failure**
 
