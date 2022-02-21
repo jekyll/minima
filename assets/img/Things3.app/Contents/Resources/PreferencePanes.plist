@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>general</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>GeneralPreferencesHelp</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-General</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-General</string>
+		<key>Name</key>
+		<string>General</string>
+		<key>ToolTip</key>
+		<string>General Preferences</string>
+		<key>NibName</key>
+		<string>PreferenceGeneral</string>
+		<key>Priority</key>
+		<integer>200</integer>
+		<key>Class</key>
+		<string>TXGeneralPreferencePaneController</string>
+	</dict>
+	<key>sync</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>Class</key>
+		<string>TXSyncPreferencePaneController</string>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>UpdatePreferencesHelp</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-Cloud</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-Cloud</string>
+		<key>Name</key>
+		<string>Things Cloud</string>
+		<key>ToolTip</key>
+		<string>Things Cloud Preferences</string>
+		<key>NibName</key>
+		<string>PreferenceSync</string>
+		<key>Priority</key>
+		<integer>300</integer>
+	</dict>
+	<key>quickentry</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>Class</key>
+		<string>TXQuickEntryPreferencePaneController</string>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>QuickEntryPreferencesHelp</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-QuickEntry</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-QuickEntry</string>
+		<key>Name</key>
+		<string>Quick Entry</string>
+		<key>ToolTip</key>
+		<string>Quick Entry Preferences</string>
+		<key>NibName</key>
+		<string>PreferenceQuickEntry</string>
+		<key>Priority</key>
+		<integer>400</integer>
+	</dict>
+	<key>calendarevents</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>iCalPreferencesHelp</string>
+		<key>Class</key>
+		<string>TXCalendarEventsPreferencePaneController</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-Calendars</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-Calendars</string>
+		<key>Name</key>
+		<string>Calendar Events</string>
+		<key>ToolTip</key>
+		<string>Calendar Events Preferences</string>
+		<key>NibName</key>
+		<string>PreferenceCalendarEvents</string>
+		<key>Priority</key>
+		<integer>500</integer>
+	</dict>
+	<key>reminders</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>iCalPreferencesHelp</string>
+		<key>Class</key>
+		<string>TXRemindersPreferencesPaneController</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-Reminders</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-Reminders</string>
+		<key>Name</key>
+		<string>Reminders Inbox</string>
+		<key>ToolTip</key>
+		<string>Reminders Inbox</string>
+		<key>NibName</key>
+		<string>PreferenceReminders</string>
+		<key>Priority</key>
+		<integer>600</integer>
+		<key>MaxOperatingSystemMajorVersion</key>
+		<integer>10</integer>
+        <key>MaxOperatingSystemMinorVersion</key>
+        <integer>14</integer>
+	</dict>
+	<key>remindersinbox</key>
+	<dict>
+		<key>AllowsHorizontalResizing</key>
+		<false/>
+		<key>AllowsVerticalResizing</key>
+		<false/>
+		<key>HelpAnchor</key>
+		<string>iCalPreferencesHelp</string>
+		<key>Class</key>
+		<string>TXRemindersPreferencesPaneController</string>
+		<key>IconPath</key>
+		<string>Preferences-Tab-Reminders</string>
+		<key>SelectedIconPath</key>
+		<string>Preferences-Tab-Reminders</string>
+		<key>Name</key>
+		<string>Reminders Inbox</string>
+		<key>ToolTip</key>
+		<string>Reminders Inbox</string>
+		<key>NibName</key>
+		<string>PreferenceRemindersInbox</string>
+		<key>Priority</key>
+		<integer>600</integer>
+        <key>MinOperatingSystemMajorVersion</key>
+        <integer>10</integer>
+		<key>MinOperatingSystemMinorVersion</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

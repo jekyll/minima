@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Lerne Things für Mac kennen",
+      "notes" : "Dieses Projekt zeigt dir alles, was du über Things wissen musst – spiele einfach in diesem Projekt herum und tob dich ruhig aus. Im Menü „Hilfe“ kannst du immer ein neues Tutorial-Projekt erstellen.",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Grundkenntnisse"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Doppelklicke auf diese Aufgabe",
+            "notes" : "Du siehst dir gerade eine Aufgabe an. Erledige sie, indem du auf die Checkbox klickst, die sich links neben der Aufgabe befindet. Erledigte Aufgaben werden am unteren Rand deines Projekts gesammelt."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Erstelle eine neue Aufgabe",
+            "notes" : "Du bist dran – drücke auf deiner Tastatur ⌘N."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Füge diese Aufgabe zu deiner Heute-Liste hinzu",
+            "notes" : "Klicke auf den Kalender-Button, um festzulegen, wann du diese Aufgabe bearbeiten wirst. Wähle „Heute“ aus."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Plane diese Aufgabe für später ein",
+            "notes" : "Klicke erneut auf den Kalender-Button, wähle diesmal aber ein in der Zukunft liegendes Datum aus. Die Aufgabe erscheint automatisch in der Heute-Liste, sobald das eingegebene Datum erreicht wird.\n\nGeplante Aufgaben werden am unteren Rand von Abschnitten gruppiert angezeigt."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Erstelle eine neue Überschrift",
+            "notes" : "Erstelle über „Ablage“→„Neue Überschrift“ eine neue Überschrift. Ziehe dann diese Aufgabe unter die neue Überschrift."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Erstelle ein Projekt",
+            "notes" : "Auf zu größeren Dingen! Klicke am unteren Ende der Seitenleiste auf „+ Neue Liste“, um ein eigenes Projekt hinzuzufügen."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Sorge mit Bereichen für Ordnung",
+            "notes" : "Erstelle einen Bereich für jeden Aspekt deines Lebens – Arbeit, Familie, Finanzen und so weiter. Du kannst deine Projekte diesen Bereichen zuordnen, um Ordnung zu halten.\n\nKlicke unten in der Seitenleiste auf „+ Neue Liste“, um eine anzulegen.\n\nIm Gegensatz zu Projekten werden Bereiche nie abgeschlossen."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Du bist fertig!",
+            "notes" : "Das war nun eigentlich alles, was du wissen musst. Füge nun eigene Projekte und Aufgaben hinzu.\n\nDu kannst jederzeit wieder dieses Projekt öffnen und unten mehr über die erweiterten Funktionen lernen. Wenn du mit diesem Projekt fertig bist, markiere es durch Klicken auf den obigen Fortschrittsring als erledigt.\n\nWir hoffen, dass dir Things genau so gut gefällt wie uns selbst!"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Verfeinere dein Setup"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Zeige deine Kalender-Ereignisse an",
+            "notes" : "Du kannst deine Kalender in Things integrieren und alle deine Ereignisse und Aufgaben zentral an einem Ort gesammelt überblicken. Aktiviere diese Funktion unter „Things“ → „Einstellungen“ → „Kalender-Ereignisse“."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Füge einige Widgets hinzu",
+            "notes" : "Über Widgets kannst du schnell auf Listen zugreifen, während du in anderen Apps arbeitest.\n\nDu kannst beliebig viele hinzufügen. So geht‘s:",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Öffne auf der rechten Seite des Bildschirm die Mitteilungszentrale."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Klicke unten auf die Taste zum Bearbeiten deiner Widgets."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Suche „Things“ und füge das Widget hinzu."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Rechtsklicke auf das Widget, um es zu bearbeiten und einzustellen, welche Liste es anzeigt."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Synchronisiere deine Geräte",
+            "notes" : "Things Cloud hält deine Aufgaben zwischen deinem Mac, deinem iPhone und deinem iPad synchronisiert. Erstelle unter „Things“ → „Einstellungen“ → „Things Cloud“ einen kostenlosen Account.\n\nEin Things Cloud-Account ist auch dann sinnvoll, wenn du nur ein Gerät nutzt, da du so immer ein Backup deiner Daten hast."
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Steigere deine Produktivität"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Füge von überall aus Aufgaben hinzu",
+            "notes" : "Ganz egal, in welcher App du gerade arbeitest, kannst du per Schnelleingabe Aufgaben in Things hinzufügen. Probiere es einfach aus: Ctrl+Leertaste."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Verlinke E-Mails, Dateien und Websites",
+            "notes" : "Du kannst Links zu E-Mails, Dateien und Websites setzen. Ziehe diese einfach in die Notizen einer Aufgabe.\n\nNoch praktischer ist es allerdings, dies mit der Auto-Ausfüllen-Funktion automatisch zu erledigen. Gehe zu „Things“ → „Einstellungen“ → „Schnelleingabe“."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Suche und navigiere mit der Schnellsuche",
+            "notes" : "Mit der Schnellsuche findest du Aufgaben einfach und mühelos. Schließe diese Aufgabe und beginne einfach einzutippen, wonach du suchen möchtest – den Namen einer Liste, eines Projekts, einer Aufgabe oder ein Tag."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Füge Tags zu deinen Aufgaben hinzu",
+            "notes" : "Mit Tags kannst du Arbeitsabläufe in Things persönlich gestalten.\n\nBeispielsweise kannst du …\n- Tags für Orte wie „Büro“ oder „Zuhause“ verwenden\n- Alle „Besorgungen“ mit einem Tag versehen\n- Aufgaben mit dem Tag „Wichtig“ priorisieren\n- Aufgaben, für die du zuständig bist, mit deinem Namen taggen\n- Oder eigene Tags nach Bedarf erstellen\n\nKlicke auf die Tag-Taste unten, um ein Tag hinzuzufügen. Um alle Aufgaben mit einem bestimmten Tag zu sehen, suche mit der Schnellsuche danach."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Arbeite eine Aufgabe Schritt für Schritt ab – mit Checklisten",
+            "notes" : "Teile eine Aufgabe in einzelne Schritte auf, indem du eine Checkliste hinzufügst. Das ist praktisch für eine täglich anfallende Liste von Dingen, beim Kofferpacken, beim Einkaufen und so weiter.\n\nUnd wer hätte gedacht, dass das Rezept für Erdnussbutter-Kekse so einfach ist? 😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Heize den Ofen auf 175 ºC vor."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Mische 225 g Erdnussbutter mit 225 g weißem Zucker, gib ein Ei hinzu und verknete die Zutaten mit einem Handrührgerät, bis die Masse glatt und cremig ist."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Forme auf einem Backblech kleine Kugeln und drücke sie dann mit einer Gabel platt, am besten in einem Zickzack-Muster."
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Backe die Fladen für 10 Minuten im Backofen und lasse sie dann 2 Minuten lang abkühlen."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Mit Erinnerungen vergisst du nichts mehr",
+            "notes" : "Eine gute Angewohnheit ist es, jeden Morgen die „Heute“-Liste zu überprüfen – so weißt du immer, was du über den Tag erledigen musst. Allerdings solltest du für alle Aufgaben, die du auf keinen Fall verpassen willst, eine Erinnerung einstellen. So kannst du sie nicht vergessen.\n\nKlicke unten auf den Kalender-Button und gib „Montag um 15 Uhr“ ein."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Plane deinen Abend",
+            "notes" : "Wenn du mit Things sowohl dein Arbeits- als auch dein Privatleben organisierst, wirst du einige Aufgaben auf eine spätere Uhrzeit des Tages verschieben wollen: Klicke dazu auf den Kalender-Button und wähle „Heute Abend“ aus."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Bleib konzentriert – blende die Seitenleiste aus",
+            "notes" : "Blende die Seitenleiste aus, um ablenkungsfrei zu arbeiten. Ziehe die Trennlinie einfach ganz nach links oder nutze den Kurzbefehl ⌘\/."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Nutze mehrere Fenster",
+            "notes" : "Beim Organisieren deiner Aufgaben kann es hilfreich sein, mehrere Listen nebeneinander zu legen. Klicke in der Seitenleiste einfach mit der rechten Maustaste auf eine beliebige Liste, um diese in einem neuen Fenster anzuzeigen."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Wandle eine Aufgabe in ein Projekt um",
+            "notes" : "Manchmal merkt man erst beim Eingeben einer Aufgabe, dass es sich bei ihr um ein komplexeres Projekt handeln wird. Das ist aber kein Problem: Klicke unten in der Werkzeugleiste auf ••• und wähle „In Projekt umwandeln“ aus.\n\nDiese Checklisten-Einträge werden dann zu Aufgaben in deinem neuen Projekt:",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Aufgabe #1"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Aufgabe #2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Erstelle wiederkehrende Aufgaben",
+            "notes" : "Es gibt Dinge, die man alle paar Tage, Wochen oder Monate immer wieder erledigen muss. Erstelle einfach eine wiederkehrende Aufgabe, um dich am richtigen Tag daran erinnern zu lassen. Das spart viel Zeit und hilft dir, deine Aufgaben zuverlässig und regelmäßig zu erledigen.\n\nErstelle eine unter „Ablage“ → „Neue wiederkehrende Aufgabe“."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Lerne ein paar Tastatur-Kurzbefehle",
+            "notes" : "Einen Überblick über alle Tastatur-Kurzbefehle von Things erhältst du unter „Hilfe“ → „Tastatur-Kurzbefehle“. Hier sind schon einmal die wichtigsten:\n\n⌘S: Wähle aus, wann eine Aufgabe beginnt\n⌘T: Markiere eine Aufgabe als „Heute“\n⌘⇧M: Verschiebe eine Aufgabe in eine andere Liste\n\n⌘↑: Verschiebe eine Aufgabe nach oben\n⌘↓: Verschiebe eine Aufgabe nach unten"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Strukturiere deine Notizen mit Markdown",
+            "notes" : "Things unterstützt Markdown, damit du deine Notizen strukturieren und gestalten kannst.\n\nFalls du Markdown noch nicht kennst, so funktioniert’s. Um ein Wort zu betonen, setzte einfach ein Asterisk davor und danach, nämlich so: *betont*. Wie du siehst, erkennt Things dies und stellt das Wort kursiv dar. Wenn du diese Asteriske wieder entfernst, wird die Schrift wieder normal angezeigt.\n\nHier einige weitere Beispiele:\n- Mit zwei Asterisken machst du Text **fett**\n- Mit Doppelpunkten wird Text ::hervorgehoben::\n- „#“ am Anfang einer Zeile formatiert diese als Überschrift, das sieht so aus:\n\n# Dies ist eine Überschrift\n\n---\n\nMarkdown ist etwas speziell, aber du kannst deinen Text damit direkt beim Tippen hilfreich gestalten. Du kannst auch Tastaturkurzbefehle nutzen, du findest sie unter Bearbeiten → Markdown.\n\nMehr erfährst du in unserem Markdown-Guide: culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Eines noch …"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Bleib auf dem Laufenden",
+            "notes" : "Erfahre als Erster von den neusten Entwicklungen und Funktionen. Folge uns in sozialen Medien oder melde dich bei unserem Newsletter an: culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Bewerte Things",
+            "notes" : "Gefällt dir Things? Bitte gib im App Store eine Bewertung ab – das hilft uns gewaltig!\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Hol dir Things für iPhone und iPad",
+            "notes" : "Sei auch unterwegs produktiv: Mit Things für iPhone und Apple Watch ist das ganz einfach: culturedcode.com\/things\/iphone\/appstore\/\n\nÜberprüfe und organisiere deine Aufgaben mit Things für iPad: culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Hast du Fragen? Wir helfen gerne!",
+            "notes" : "Solltest du Fragen haben, schau dich einfach in unser großen Sammlung von FAQ-Artikeln um. Natürlich kannst du uns auch gerne eine Nachricht senden – wir helfen gerne!\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]

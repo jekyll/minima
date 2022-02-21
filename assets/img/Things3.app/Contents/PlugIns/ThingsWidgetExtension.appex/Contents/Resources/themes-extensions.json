@@ -1,0 +1,1136 @@
+{
+    "systemLight": {
+        "common": {
+            "imageSuffix": ""
+        },
+        "taskView": {
+            "checkboxColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "checkboxCompletedColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "projectPieColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "projectPieSomedayColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "projectPieCompletedColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "projectPieCanceledColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "titleLoggedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "titleCompletedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "titlePlaceholderColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "titleRecessedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "secondaryTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "secondaryTextLoggedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "secondaryTextCompletedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "secondaryTextPlaceholderColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "secondaryTextRecessedColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "todayIndicatorColor": {
+                "type": "color",
+                "hex": "f6d43aff"
+            },
+            "dailyReviewIndicatorColor": {
+                "type": "color",
+                "hex": "f6d43aff"
+            },
+            "eveningIndicatorColor": {
+                "type": "color",
+                "hex": "0048ac8e"
+            },
+            "startTextColor": {
+                "type": "color",
+                "hex": "00050d95"
+            },
+            "startBackgroundColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "alarmIndicatorColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "alarmTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "repeatingBadgeForegroundColor": {
+                "type": "color",
+                "hex": "1b61c2ff"
+            },
+            "repeatingBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "cce1ffff"
+            },
+            "dueDateTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "dueDateCompletedTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "dueDateRedTextColor": {
+                "type": "color",
+                "hex": "e6004bff"
+            },
+            "notesIconColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "checklistIconColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "tagIconColor": {
+                "type": "color",
+                "hex": "000f253c"
+            }
+        },
+        "todayExtension": {
+            "todayListPressedBackgroundColor": {
+                "type": "color",
+                "hex": "00000013"
+            },
+            "actionTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "actionImageColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "messageViewTextColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "messageViewButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageViewButtonBackgroundColor": {
+                "type": "color",
+                "hex": "2482efff"
+            },
+            "messageViewButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "2175d7ff"
+            }
+        },
+        "intentsExtension": {
+            "listHeaderTitleColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "listHeaderSeparatorBackgroundColor": {
+                "type": "color",
+                "hex": "001b411c"
+            },
+            "listHeaderProjectPieColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "listHeaderProjectPieSomedayColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "listHeaderAreaColor": {
+                "type": "color",
+                "hex": "269c6ebf"
+            },
+            "listHeaderTagColor": {
+                "type": "color",
+                "hex": "000e218f"
+            }
+        },
+        "shareExtension": {
+            "dialogTheme": "slate",
+            "statusBarStyle": "darkContent",
+            "keyboardAppearance": "light",
+            "tintColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "inputViewBackgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "backgroundColor": {
+                "type": "color",
+                "hex": "c7cacfff"
+            },
+            "checkboxColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "checkboxColorWhenCompleted": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "000306ea"
+            },
+            "notesTextColor": {
+                "type": "color",
+                "hex": "000308d1"
+            },
+            "completedTextColor": {
+                "type": "color",
+                "hex": "00030869"
+            },
+            "formattingCharacterColor": {
+                "type": "color",
+                "hex": "00030869"
+            },
+            "codeSpanTextColor": {
+                "type": "color",
+                "hex": "000308a7"
+            },
+            "codeSpanBackgroundColor": {
+                "type": "color",
+                "hex": "eff1f3ff"
+            },
+            "highlightColor": {
+                "type": "color",
+                "hex": "ffbd003d"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "toolbarBackgroundColor": {
+                "type": "color",
+                "hex": "f2f4f5ff"
+            },
+            "separatorColor": {
+                "type": "color",
+                "hex": "e6e8ecff"
+            },
+            "cancelButtonColor": {
+                "type": "color",
+                "hex": "9399a3ff"
+            },
+            "cancelButtonPressedColor": {
+                "type": "color",
+                "hex": "484e57ff"
+            },
+            "moveButtonTextColor": {
+                "type": "color",
+                "hex": "000f2465"
+            },
+            "moveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "001a4121"
+            },
+            "moveButtonSelectedModeTextColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "moveButtonSelectedModeBackgroundPressedColor": {
+                "type": "color",
+                "hex": "509cff33"
+            },
+            "saveButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "saveButtonBackgroundColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "saveButtonBackgroundDisabledColor": {
+                "type": "color",
+                "hex": "509cff80"
+            },
+            "saveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "2883e2ff"
+            }
+        },
+        "widget": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "errorTextColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "tagColor": {
+                "type": "color",
+                "hex": "1b6d4dff"
+            },
+            "tagBadgeColor": {
+                "type": "color",
+                "hex": "269c6e4d"
+            },
+            "taskCountColor": {
+                "type": "color",
+                "hex": "00071271"
+            },
+            "taskCountBadgeColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "taskCountDueColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "taskCountDueBadgeColor": {
+                "type": "color",
+                "hex": "e6004bcc"
+            },
+            "headerPlaceholderIconColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "headerProjectColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "headerLaterProjectColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "headerAreaColor": {
+                "type": "color",
+                "hex": "269c6ebf"
+            },
+            "headerTagColor": {
+                "type": "color",
+                "hex": "000e218f"
+            },
+            "projectHeadingColor": {
+                "type": "color",
+                "hex": "0056abff"
+            },
+            "itemNewInTodayColor": {
+                "type": "color",
+                "hex": "f6d43aff"
+            },
+            "itemWhenTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "itemIconColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "itemIconDueColor": {
+                "type": "color",
+                "hex": "e6004bff"
+            },
+            "verticalDividerColor": {
+                "type": "color",
+                "hex": "00163513"
+            },
+            "timelineHeaderTextColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "timelineHeaderLineColor": {
+                "type": "color",
+                "hex": "00193d19"
+            }
+        }
+    },
+    "systemDark": {
+        "common": {
+            "imageSuffix": "-Dark"
+        },
+        "taskView": {
+            "checkboxColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "checkboxCompletedColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieSomedayColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "projectPieCompletedColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieCanceledColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleLoggedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titleCompletedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titlePlaceholderColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titleRecessedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextLoggedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextCompletedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextPlaceholderColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextRecessedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "todayIndicatorColor": {
+                "type": "color",
+                "hex": "ffdf62fe"
+            },
+            "dailyReviewIndicatorColor": {
+                "type": "color",
+                "hex": "ffdf62fe"
+            },
+            "eveningIndicatorColor": {
+                "type": "color",
+                "hex": "8abbffd1"
+            },
+            "startTextColor": {
+                "type": "color",
+                "hex": "f2f7ffa0"
+            },
+            "startBackgroundColor": {
+                "type": "color",
+                "hex": "d7e8ff2a"
+            },
+            "alarmIndicatorColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "alarmTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "repeatingBadgeForegroundColor": {
+                "type": "color",
+                "hex": "1b61c2ff"
+            },
+            "repeatingBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "cce1ffff"
+            },
+            "dueDateTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "dueDateCompletedTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "dueDateRedTextColor": {
+                "type": "color",
+                "hex": "ff4b67fd"
+            },
+            "notesIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            },
+            "checklistIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            },
+            "tagIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            }
+        },
+        "todayExtension": {
+            "todayListPressedBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "actionTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "actionImageColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "messageViewTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageViewButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageViewButtonBackgroundColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "messageViewButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "5394e5ff"
+            }
+        },
+        "intentsExtension": {
+            "listHeaderTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "listHeaderSeparatorBackgroundColor": {
+                "type": "color",
+                "hex": "cce2ff1f"
+            },
+            "listHeaderProjectPieColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "listHeaderProjectPieSomedayColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "listHeaderAreaColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "listHeaderTagColor": {
+                "type": "color",
+                "hex": "edf4ffc1"
+            }
+        },
+        "shareExtension": {
+            "dialogTheme": "quartz",
+            "statusBarStyle": "lightContent",
+            "keyboardAppearance": "dark",
+            "tintColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "inputViewBackgroundColor": {
+                "type": "color",
+                "hex": "252a31ff"
+            },
+            "backgroundColor": {
+                "type": "color",
+                "hex": "111418ff"
+            },
+            "checkboxColor": {
+                "type": "color",
+                "hex": "eef5ff6f"
+            },
+            "checkboxColorWhenCompleted": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "notesTextColor": {
+                "type": "color",
+                "hex": "dfe3e8ff"
+            },
+            "completedTextColor": {
+                "type": "color",
+                "hex": "dfe3e880"
+            },
+            "formattingCharacterColor": {
+                "type": "color",
+                "hex": "dfe3e880"
+            },
+            "codeSpanTextColor": {
+                "type": "color",
+                "hex": "dfe3e8cc"
+            },
+            "codeSpanBackgroundColor": {
+                "type": "color",
+                "hex": "3b4149ff"
+            },
+            "highlightColor": {
+                "type": "color",
+                "hex": "544600f9"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "dbeaff83"
+            },
+            "toolbarBackgroundColor": {
+                "type": "color",
+                "hex": "32383fff"
+            },
+            "separatorColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cancelButtonColor": {
+                "type": "color",
+                "hex": "707883ff"
+            },
+            "cancelButtonPressedColor": {
+                "type": "color",
+                "hex": "bfc7d3ff"
+            },
+            "moveButtonTextColor": {
+                "type": "color",
+                "hex": "e3eeff65"
+            },
+            "moveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "a6cdff28"
+            },
+            "moveButtonSelectedModeTextColor": {
+                "type": "color",
+                "hex": "74b2ffff"
+            },
+            "moveButtonSelectedModeBackgroundPressedColor": {
+                "type": "color",
+                "hex": "5ca5ff4d"
+            },
+            "saveButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "saveButtonBackgroundColor": {
+                "type": "color",
+                "hex": "2f88f3ff"
+            },
+            "saveButtonBackgroundDisabledColor": {
+                "type": "color",
+                "hex": "2f88f380"
+            },
+            "saveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "6ba1ffff"
+            }
+        },
+        "widget": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "1a1b1dff"
+            },
+            "errorTextColor": {
+                "type": "color",
+                "hex": "e7f1ff4b"
+            },
+            "tagColor": {
+                "type": "color",
+                "hex": "e9f5f1ff"
+            },
+            "tagBadgeColor": {
+                "type": "color",
+                "hex": "269c6e73"
+            },
+            "taskCountColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "taskCountBadgeColor": {
+                "type": "color",
+                "hex": "deecff35"
+            },
+            "taskCountDueColor": {
+                "type": "color",
+                "hex": "1a1b1dff"
+            },
+            "taskCountDueBadgeColor": {
+                "type": "color",
+                "hex": "fd4b66cc"
+            },
+            "headerPlaceholderIconColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "headerProjectColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "headerLaterProjectColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "headerAreaColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "headerTagColor": {
+                "type": "color",
+                "hex": "edf4ffc1"
+            },
+            "projectHeadingColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "itemNewInTodayColor": {
+                "type": "color",
+                "hex": "fede61ff"
+            },
+            "itemWhenTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "itemIconColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "itemIconDueColor": {
+                "type": "color",
+                "hex": "fd4b66ff"
+            },
+            "verticalDividerColor": {
+                "type": "color",
+                "hex": "cce2ff1f"
+            },
+            "timelineHeaderTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "timelineHeaderLineColor": {
+                "type": "color",
+                "hex": "d1e4ff24"
+            }
+        }
+    },
+    "systemBlack": {
+        "common": {
+            "imageSuffix": "-Dark"
+        },
+        "taskView": {
+            "checkboxColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "checkboxCompletedColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieSomedayColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "projectPieCompletedColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "projectPieCanceledColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleLoggedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titleCompletedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titlePlaceholderColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "titleRecessedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextLoggedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextCompletedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextPlaceholderColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "secondaryTextRecessedColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "todayIndicatorColor": {
+                "type": "color",
+                "hex": "ffdf62fe"
+            },
+            "dailyReviewIndicatorColor": {
+                "type": "color",
+                "hex": "ffdf62fe"
+            },
+            "eveningIndicatorColor": {
+                "type": "color",
+                "hex": "8abbffd1"
+            },
+            "startTextColor": {
+                "type": "color",
+                "hex": "f2f7ffa0"
+            },
+            "startBackgroundColor": {
+                "type": "color",
+                "hex": "d7e8ff2a"
+            },
+            "alarmIndicatorColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "alarmTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "repeatingBadgeForegroundColor": {
+                "type": "color",
+                "hex": "1b61c2ff"
+            },
+            "repeatingBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "cce1ffff"
+            },
+            "dueDateTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "dueDateCompletedTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "dueDateRedTextColor": {
+                "type": "color",
+                "hex": "ff4b67fd"
+            },
+            "notesIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            },
+            "checklistIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            },
+            "tagIconColor": {
+                "type": "color",
+                "hex": "e3efff40"
+            }
+        },
+        "todayExtension": {
+            "todayListPressedBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "actionTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "actionImageColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "messageViewTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageViewButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageViewButtonBackgroundColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "messageViewButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "5394e5ff"
+            }
+        },
+        "intentsExtension": {
+            "listHeaderTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "listHeaderSeparatorBackgroundColor": {
+                "type": "color",
+                "hex": "cce2ff1f"
+            },
+            "listHeaderProjectPieColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "listHeaderProjectPieSomedayColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "listHeaderAreaColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "listHeaderTagColor": {
+                "type": "color",
+                "hex": "edf4ffc1"
+            }
+        },
+        "shareExtension": {
+            "dialogTheme": "quartz",
+            "statusBarStyle": "lightContent",
+            "keyboardAppearance": "dark",
+            "tintColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "inputViewBackgroundColor": {
+                "type": "color",
+                "hex": "252a31ff"
+            },
+            "backgroundColor": {
+                "type": "color",
+                "hex": "111418ff"
+            },
+            "checkboxColor": {
+                "type": "color",
+                "hex": "eef5ff6f"
+            },
+            "checkboxColorWhenCompleted": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "notesTextColor": {
+                "type": "color",
+                "hex": "dfe3e8ff"
+            },
+            "completedTextColor": {
+                "type": "color",
+                "hex": "dfe3e880"
+            },
+            "formattingCharacterColor": {
+                "type": "color",
+                "hex": "dfe3e880"
+            },
+            "codeSpanTextColor": {
+                "type": "color",
+                "hex": "dfe3e8cc"
+            },
+            "codeSpanBackgroundColor": {
+                "type": "color",
+                "hex": "3b4149ff"
+            },
+            "highlightColor": {
+                "type": "color",
+                "hex": "544600f9"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "dbeaff83"
+            },
+            "toolbarBackgroundColor": {
+                "type": "color",
+                "hex": "32383fff"
+            },
+            "separatorColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cancelButtonColor": {
+                "type": "color",
+                "hex": "707883ff"
+            },
+            "cancelButtonPressedColor": {
+                "type": "color",
+                "hex": "bfc7d3ff"
+            },
+            "moveButtonTextColor": {
+                "type": "color",
+                "hex": "e3eeff65"
+            },
+            "moveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "a6cdff28"
+            },
+            "moveButtonSelectedModeTextColor": {
+                "type": "color",
+                "hex": "74b2ffff"
+            },
+            "moveButtonSelectedModeBackgroundPressedColor": {
+                "type": "color",
+                "hex": "5ca5ff4d"
+            },
+            "saveButtonTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "saveButtonBackgroundColor": {
+                "type": "color",
+                "hex": "2f88f3ff"
+            },
+            "saveButtonBackgroundDisabledColor": {
+                "type": "color",
+                "hex": "2f88f380"
+            },
+            "saveButtonBackgroundPressedColor": {
+                "type": "color",
+                "hex": "6ba1ffff"
+            }
+        },
+        "widget": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "errorTextColor": {
+                "type": "color",
+                "hex": "e7f1ff4b"
+            },
+            "tagColor": {
+                "type": "color",
+                "hex": "e9f5f1ff"
+            },
+            "tagBadgeColor": {
+                "type": "color",
+                "hex": "269c6e73"
+            },
+            "taskCountColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "taskCountBadgeColor": {
+                "type": "color",
+                "hex": "deecff35"
+            },
+            "taskCountDueColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "taskCountDueBadgeColor": {
+                "type": "color",
+                "hex": "fd4b66cc"
+            },
+            "headerPlaceholderIconColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "headerProjectColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "headerLaterProjectColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "headerAreaColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "headerTagColor": {
+                "type": "color",
+                "hex": "edf4ffc1"
+            },
+            "projectHeadingColor": {
+                "type": "color",
+                "hex": "5ca5ffff"
+            },
+            "itemNewInTodayColor": {
+                "type": "color",
+                "hex": "fede61ff"
+            },
+            "itemWhenTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "itemIconColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "itemIconDueColor": {
+                "type": "color",
+                "hex": "fd4b66ff"
+            },
+            "verticalDividerColor": {
+                "type": "color",
+                "hex": "cce2ff1f"
+            },
+            "timelineHeaderTextColor": {
+                "type": "color",
+                "hex": "ecf4ff63"
+            },
+            "timelineHeaderLineColor": {
+                "type": "color",
+                "hex": "d1e4ff24"
+            }
+        }
+    }
+}

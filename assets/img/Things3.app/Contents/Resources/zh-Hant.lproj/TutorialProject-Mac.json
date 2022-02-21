@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Things Mac 教程",
+      "notes" : "這個專案中提供了新手上路所需的一切資訊，不要遲疑，隨意動手試試，您可以隨時從幫助選單建立一個新專案。",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "瞭解基本用法"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "連續按兩次該待辦事項",
+            "notes" : "您正在查看一件待辦事項！點擊左側的複選框以完成。完成的待辦事項會集合在專案底部。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "建立新待辦事項",
+            "notes" : "輪到您了 – 只需從鍵盤按下 ⌘N。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "將此待辦事項加入「今天」清單中",
+            "notes" : "點擊底下的行事曆按鍵，以規劃何時將執行這件待辦事項。選擇今天。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "將這件待辦事項排到將來處理",
+            "notes" : "再點擊一次行事曆按鍵，但這一次，選取一個未來的日期。當那個日期來臨時，它即會自動出現在「今天」清單中。\n\n即將到來的待辦事項會集合在每個部分的下方。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "建立新標目",
+            "notes" : "前往「檔案 」→ 「新標目」以建立標目，然後將這個待辦事項拖入其中。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "建立專案",
+            "notes" : "還有更重要的功能！在側邊工具欄底部，按下「+ 新清單」即可自行添加一個新專案。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "透過領域整理",
+            "notes" : "為您的生活的每個方面建立一個領域，例如：工作、家庭、財務等等。您可以將專案拉到這些領域下，以清楚分類。\n\n從側邊欄底部點擊「+ 新清單」以建立。\n\n領域與專案不同，您永遠不會「完成」一個領域。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "好了！",
+            "notes" : "以上是您所必須知道的資訊，現在就開始添加自己的專案與待辦事項吧！\n\n您可以隨時返回這個專案以學習以下更多的進階功能。專案完成後，點擊頂端表示進度的圓圈將其標記為完成。\n\n我們希望您喜歡 Things！"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "調整您的設定"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "顯示您的行事曆事件",
+            "notes" : "您可以將行事曆與 Things 連線，並查看所有的事件與待辦事項。前往「Things」 → 「偏好設定」 → 「行事曆事件」將其打開。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "添加一些小工具",
+            "notes" : "小工具讓您可以在其他應用程式中工作時，快速瀏覽清單。\n\n您可以隨意添加，不受數量限制。添加方法如下：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "開啟螢幕右側的「通知中心」"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "從底部點擊按鈕以編輯小工具"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "搜尋 Things 並添加小工具"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "點擊右鍵以編輯小工具並選擇要顯示哪個清單"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "保持裝置同步",
+            "notes" : "Things Cloud 將您的待辦事項同步保留在 Mac、iPhone 和 iPad 上。前往Things 的「偏好設定」 →「 Things Cloud」建立免費帳戶。 \n\n即使您僅使用一台裝置，仍須建立 Things Cloud 帳戶以安全地備份資料。"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "提高工作效率"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "從任何其他地方新增待辦事項",
+            "notes" : "無論在哪個應用程式中，都可以使用「快速輸入」在 Things 中添加待辦事項。馬上利用「Ctrl+空白鍵」試試看吧 。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "連結電子郵件、檔案與網頁",
+            "notes" : "您可以將電子郵件、檔案或網頁拖曳至待辦事項的備註中，即可連結。\n\n更厲害的，您還可以利用「快速輸入」的自動填入功能自動完成。要啟用自動填入功能請前往 Things → 偏好設定 → 快速輸入。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "透過快速查找搜尋與瀏覽",
+            "notes" : "透過「快速查找」功能可以非常方便地查找內容。將待辦事項折疊收起，然後只要開始輸入清單名稱、專案、待辦事項或標籤，就可以立即呈現查找結果。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "為待辦事項添加標籤",
+            "notes" : "您可以透過標籤在 Things 中自訂工作流程。\n\n例如，您可以…\n- 使用標籤標記地點，例如：「辦公室」或「住家」。\n- 標記所有日常「雜事」。\n- 使用「重要」標籤標出優先待辦事項。\n- 標記正在和「大明」一起處理的事。\n- 或者您也可以自己發明想用的標籤。\n\n若要新增標籤，請點按下面的標籤按鈕。若要查看所有添加了特定標籤的待辦事項，請使用「快速查找」加以搜尋。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "按照檢查清單逐步操作",
+            "notes" : "透過添加檢查清單將待辦事項分成許多小步驟。可以用來追蹤日常事物、打包行李、製作購物清單等等。\n\n您萬萬沒想到製作花生醬餅乾竟是如此簡單！😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "將烤箱預熱至 350ºF (175ºC)"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "加入 1 杯花生醬、1 杯白糖和 1 顆蛋，以電動攪拌機混合攪拌均勻至光滑"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "整成小圓糰放置在烤盤上，以叉子壓成圓餅狀並壓出縱橫交錯的格子圖案"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "放入烤箱中烤 10 分鐘，接著冷卻 2 分鐘"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "設置提醒以免忘記",
+            "notes" : "每天一早查看「今天」清單以查看日程安排，是一個非常好的習慣。然而，針對那些絕對不可錯過的待辦事項，設置提醒則可以讓您高枕無憂。\n\n點按下方的行事曆按鈕並輸入「星期一下午 3 點」。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "規劃您的夜晚",
+            "notes" : "當您使用 Things 來管理工作與個人生活時，您可能會需要將一些待辦事項設置為今天稍後處理。點擊下方的行事曆按鈕並選擇「今晚」。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "隱藏側邊工具欄以專注在目前的工作上",
+            "notes" : "隱藏側邊工具欄以專心工作。只需將側邊工具欄手柄一直向左拖，或者按下 ⌘\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "開啟多個視窗",
+            "notes" : "整理待辦事項時，並排打開多個清單是非常有用的作法。於側邊工具欄任何清單按下滑鼠右鍵，即可於新視窗中開啟。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "將待辦事項轉成專案",
+            "notes" : "有時候您可能先建立了一件待辦事項，後來又發現它其實是個更複雜的專案。沒問題！從下方工具列中，點擊 ••• 並選擇「轉成專案」。\n\n這些檢查清單內的項目會自動變成新專案中的待辦事項：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "待辦事項 #1"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "待辦事項 #2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "定期重複進行待辦事項",
+            "notes" : "有些事情每隔幾天、幾星期或幾個月便得重複進行。建立重複待辦事項，Things 到時將會自動提醒您。這將會替您省下許多時間，並規律地完成事項！\n\n要建立重複待辦事項，請前往「檔案」 → 「新重複待辦事項」。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "學習一些鍵盤快捷鍵",
+            "notes" : "想要精確掌握 Things 的所有快捷鍵，前往「幫助」 → 「鍵盤快捷鍵」。以下為幾個最重要的快捷鍵：\n\n⌘S：選擇何時開始一件待辦事項\n⌘T：將待辦事項標記為今天\n⌘⇧M：將待辦事項移至另一個清單\n\n⌘↑：將待辦事項上移\n⌘↓：將待辦事項下移"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "使用 Markdown 為您的備註增添結構",
+            "notes" : "Things 可支援使用 Markdown 為您的備註增添結構和樣式。\n\n如果您不知道 Markdown，以下是其用法：若要用斜體強調某個字詞，請將該字詞兩邊加上星號，像這樣：*強調*。如您所見，Things 會偵測到這個標記，將該字詞顯示為斜體。如果移除這些星號，該字詞就會恢復正常。\n\n再舉幾個例子：\n- 使用兩個星號，會將文字設為**粗體**。\n- 使用冒號，會將文字::亮顯::。\n- 在行首插入「#」，就變成標題，像這樣：\n\n# 這是標題\n\n---\n\nMarkdown 看起來有點怪裡怪氣，卻是讓您在輸入文字時，就快速設定文字樣式的絕佳幫手。您還可以使用鍵盤快捷鍵，這些鍵盤快捷鍵到「編輯」→「Markdown」就能查到。\n\n若要瞭解詳情，請查看我們的 Markdown 指南：culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "在開始之前…"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "隨時掌握消息",
+            "notes" : "從社群網站關注我們，或者訂閱我們的電子報，率先得知本應用程式的最新功能與開發情形：culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "為應用程式評分",
+            "notes" : "如果您喜歡 Things，請在 App Store 中留下點評 – 好康逗相報！\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "取得 iPhone 與 iPad 版本的 Things",
+            "notes" : "透過 iPhone 和 Apple Watch 版的 Things 隨時保持有效率的工作與生活節奏：culturedcode.com\/things\/iphone\/appstore\/\n\n透過 iPad 版的 Things 查看並整理待辦事項：culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "有問題嗎？我們很樂意提供協助！",
+            "notes" : "如果您有任何問題，我們的網站上有許多技術支援的文章。您也可以留言給我們，我們很樂意提供任何幫助。\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -31,7 +31,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - Consistency over motivation <br>
 ![Consistency over motivation](/assets/img/consistency_over_motivation.png){: height="200" }
 
-- Don't wait for perfect <br>
+- Iterate <br>
 ![Dont wait for perfect](/assets/img/dont_wait_for_perfect.png){: height="120" }
 
 #### **Questions I ask myself often** 
@@ -50,6 +50,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Is this something that you control?
 
+- What does the end state look like?
+
 - Will this matter 30 days from now?
 
 - Is it worth doing given your hourly price?
@@ -57,6 +59,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - What if you are wrong, even a 1% probability?
 
 - Do you enjoy doing it? Does it give you energy?
+
+- Can you do this 10x better than the competition?
 
 - What is the 1 big thing that you'll get done today?
 
@@ -69,11 +73,12 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Reminders**
 
+
 - Likes ≠ money
 
-- Learn by doing
-
 - Failure is given
+
+- Checklist works
 
 - Criticism is given
 
@@ -85,6 +90,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Hope is not a strategy
 
+- Writing helps you think
+
 - Health is your top priority
 
 - Simplify, Simplify, Simplify
@@ -95,23 +102,35 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Comparison is the thief of joy
 
+- The cost of perfection is inaction
+
 - Be yourself. Everyone else is taken 
 
 - No one died from over-communication
 
+- The greatest teacher is called “doing”
+
+- Stay within your circle of competence
+
+- Create a lot of noise. Look for signal
+
 - Always share the why. And give examples
 
-- Look at what they do and not what they say 
+- Look at what they do and not what they say
 
 - Everything in life happens for a good reason
 
-- You learn more from failure than from successs
+- You learn more from failure than from successs 
 
-- Cut your losses, double down on what's working
+- Cut your losses. Double down on what's working
+
+- Look at what reality is and not what you want to be
 
 - Having a plan is important. Even if it is a bad plan
 
 - My worst day is still better than someone else's best day
+
+- No one cares what you do, they care what you can do for them
 
 - If you want to get lucky, start by increasing your luck surface area
 
@@ -119,6 +138,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 
 #### **Quotes**
+
+- The only constant in life is change — Heraclitus
 
 - Change happens automatically but for progress you need to work — Jess Sims
 
@@ -134,11 +155,16 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Yesterday is history, tomorrow is a mystery, but today is a gift that is why it is called the present — Master Oogway
 
+- No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women pregnant — Warren Buffett
+
 - God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference — Reinhold Niebuhr
 
 - Most people don’t start. Most people who start don’t continue. Most people who continue give up. Many winners are just the last ones standing — Sahil Livanga
 
+- You will not be right simply because a large number of people momentarily agree with you. You will be right, if your hypotheses are correct, your facts are correct, and your reasoning is correct — Warren Buffett
+
 - Would you rather be the world’s greatest lover, but have everyone think you’re the world’s worst lover? Or would you rather be the world’s worst lover but have everyone think you’re the world’s greatest lover? — Warren Buffett
+
 
 
 #### **Poems**
@@ -191,7 +217,7 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Start with why.** Explain to others and yourself why is something important? What is the rationale behind your action? Give examples to bring it to life.  
 
-- **Always Invert. Knowing what you don't want gets you closer to what you want.** Each no brings you closer to a yes. A lot of success in life and business comes from knowing what you should avoid eg. bad investments, bad marriage, bad food, bad behaviour etc. Amass long-term advantage by consistently being not stupid. 
+- **Knowing what you don't want gets you closer to what you want. Always Invert.** Each no brings you closer to a yes. A lot of success in life and business comes from knowing what you should avoid eg. bad investments, bad marriage, bad food, bad behaviour etc. Amass long-term advantage by consistently being not stupid. 
 
 - **Learn by doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books.
 
@@ -249,9 +275,19 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Do not hold onto negative criticism.** Critics will always be loud and clear. It doesn’t matter how you choose to live your life — whether you build a business or work a corporate job; have children or choose not to have children; travel the world or live in the same town all of your life; go to the gym 5 times a week or sit on the couch every night — whatever you do, someone will judge you for it.  There will always be haters and difficult people. For one reason or another, someone will find a reason to project their insecurities, their negativity, and their fears onto you and your life, and you’ll have to deal with it. Criticism and negativity from difficult people are like a wall. We are more likely to remember to this negative criticism than praise. And if you focus on it, it you’ll run right into it. You’ll get blocked by negative emotions, anger, and self-doubt. Your mind will go where your attention is focused.  If you're dealing with criticism, then don't let the wall keep you from seeing the road. Focus on the path ahead.   
 
+- **Hatred is a curse that does not affect the hated.** It only poisons the hater.
+
+- **When someone is nasty, rude, hateful, or mean with you, pretend they have a disease.** That makes it easier to have empathy toward them which can soften the conflict.
+
 - **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go.
 
 - **5 years people rule.** Only spend time with people who you would want to spend time with even 5 years from now. Life is too short.
+
+- **Social proof works.** When unsure how to act, people copy others, outsourcing their decisions.
+
+- **The more you give to others, the more you’ll get.** Understanding this is the beginning of wisdom.
+
+- **If you can avoid seeking approval of others, your power is limitless.**
 
 #### **Success & Failure**
 
@@ -267,6 +303,9 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Have Patience.** No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women pregnant.
 
+- **Recipe for success. Under-promise and over-deliver.**
+
+- **Don’t be the best. Be the only.**
 
 #### **Learning**
 
@@ -274,8 +313,7 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Focus on the learning.** Do not crave or seek early career success! Instead of trying to impress others with your title or your pay, focus on what you learn, who you help and what habits and skills you develop.
 
-- **Teaching is the best way of learning.** If you really want to learn a topic, then “teach” it. Write a book. Teach a class. Build a product. Start a company. The act of making something will force you to learn more deeply than reading ever will.
-
+- **Teaching is the best way of learning.** If you really want to learn a topic, then “teach” it. The best way to understand a topic is not to read about it, but write about it. Write a book. Teach a class. Build a product. Start a company. The act of making something will force you to learn more deeply than reading ever will. 
 
 <br>
 _Image credits: [Liz & Mollie](https://twitter.com/lizandmollie){:target="_blank"}, [James Clear](https://twitter.com/JamesClear){:target="_blank"} & [Visualize Value](https://twitter.com/visualizevalue){:target="_blank"}_

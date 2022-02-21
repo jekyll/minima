@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary>
+
+	<suite name="Standard Suite" code="core"
+		description="Common classes and commands for all applications.">
+
+		<cocoa name="NSCoreSuite"/>
+
+		<command name="close" code="coreclos" description="Close a window.">
+			<cocoa class="NSCloseCommand"/>
+			<direct-parameter type="specifier"
+				description="the window(s) to close."/>
+		</command>
+
+		<enumeration name="printing error handling" code="enum">
+			<enumerator name="standard" code="lwst"
+				description="Standard PostScript error handling"/>
+			<enumerator name="detailed" code="lwdt"
+				description="print a detailed report of PostScript errors"/>
+		</enumeration>
+
+		<record-type name="print settings" code="pset">
+			<property name="copies" code="lwcp" type="integer"
+				description="the number of copies of a document to be printed">
+				<cocoa key="NSCopies"/>
+			</property>
+			<property name="collating" code="lwcl" type="boolean"
+				description="Should printed copies be collated?">
+				<cocoa key="NSMustCollate"/>
+			</property>
+			<property name="starting page" code="lwfp" type="integer"
+				description="the first page of the document to be printed">
+				<cocoa key="NSFirstPage"/>
+			</property>
+			<property name="ending page" code="lwlp" type="integer"
+				description="the last page of the document to be printed">
+				<cocoa key="NSLastPage"/>
+			</property>
+			<property name="pages across" code="lwla" type="integer"
+				description="number of logical pages laid across a physical page">
+				<cocoa key="NSPagesAcross"/>
+			</property>
+			<property name="pages down" code="lwld" type="integer"
+				description="number of logical pages laid out down a physical page">
+				<cocoa key="NSPagesDown"/>
+			</property>
+			<property name="error handling" code="lweh" type="printing error handling"
+				description="how errors are handled">
+				<cocoa key="NSDetailedErrorReporting"/>
+			</property>
+			<property name="fax number" code="faxn" type="text"
+				description="for fax number">
+				<cocoa key="NSFaxNumber"/>
+			</property>
+			<property name="target printer" code="trpr" type="text"
+				description="for target printer">
+				<cocoa key="NSPrinterName"/>
+			</property>
+		</record-type>
+
+		<command name="print" code="aevtpdoc" description="Print a document.">
+			<direct-parameter
+				description="The file(s), document(s), or window(s) to be printed.">
+				<type type="file" list="yes"/>
+				<type type="specifier"/>
+			</direct-parameter>
+			<parameter name="with properties" code="prdt" type="print settings" optional="yes"
+				description="The print settings to use.">
+				<cocoa key="PrintSettings"/>
+			</parameter>
+			<parameter name="print dialog" code="pdlg" type="boolean" optional="yes"
+				description="Should the application show the print dialog?">
+				<cocoa key="ShowPrintDialog"/>
+			</parameter>
+		</command>
+
+		<command name="quit" code="aevtquit" description="Quit the application.">
+			<cocoa class="NSQuitCommand"/>
+		</command>
+
+		<command name="count" code="corecnte"
+			description="Return the number of elements of a particular class within an object.">
+			<cocoa class="NSCountCommand"/>
+			<direct-parameter type="specifier"
+				description="the object whose elements are to be counted"/>
+			<parameter name="each" code="kocl" type="type" optional="yes"
+				description="The class of objects to be counted.">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<result type="integer" description="the number of elements"/>
+		</command>
+
+		<command name="delete" code="coredelo" description="Delete an object.">
+			<cocoa class="NSDeleteCommand"/>
+			<direct-parameter type="specifier" description="the object to delete"/>
+		</command>
+
+		<command name="duplicate" code="coreclon"
+			description="Copy object(s) and put the copies at a new location.">
+			<cocoa class="NSCloneCommand"/>
+			<direct-parameter type="specifier"
+				description="the object(s) to duplicate"/>
+			<parameter name="to" code="insh" type="location specifier" optional="yes"
+				description="The location for the new object(s).">
+				<cocoa key="ToLocation"/>
+			</parameter>
+			<parameter name="with properties" code="prdt" type="record" optional="yes"
+				description="Properties to be set in the new duplicated object(s).">
+				<cocoa key="WithProperties"/>
+			</parameter>
+			<result type="specifier" description="the duplicated object(s)"/>
+		</command>
+
+		<command name="exists" code="coredoex" description="Verify if an object exists.">
+			<cocoa class="NSExistsCommand"/>
+			<direct-parameter type="any" description="the object in question"/>
+			<result type="boolean" description="true if it exists, false if not"/>
+		</command>
+
+		<command name="make" code="corecrel" description="Make a new object.">
+			<cocoa class="ASCreateCommand"/>
+			<parameter name="new" code="kocl" type="type"
+				description="The class of the new object.">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<parameter name="at" code="insh" type="location specifier" optional="yes"
+				description="The location at which to insert the object.">
+				<cocoa key="Location"/>
+			</parameter>
+			<parameter name="with properties" code="prdt" type="record" optional="yes"
+				description="The initial values for properties of the object.">
+				<cocoa key="KeyDictionary"/>
+			</parameter>
+			<result type="specifier" description="to the new object"/>
+		</command>
+
+		<class name="window" code="cwin" description="A window.">
+			<cocoa class="NSWindow"/>
+			<property name="name" code="pnam" type="text" access="r"
+				description="The full title of the window.">
+				<cocoa key="title"/>
+			</property>
+			<property name="id" code="ID  " type="integer" access="r"
+				description="The unique identifier of the window.">
+				<cocoa key="uniqueID"/>
+			</property>
+			<property name="index" code="pidx" type="integer"
+				description="The index of the window, ordered front to back.">
+				<cocoa key="orderedIndex"/>
+			</property>
+			<property name="bounds" code="pbnd" type="rectangle"
+				description="The bounding rectangle of the window.">
+				<cocoa key="boundsAsQDRect"/>
+			</property>
+			<property name="closeable" code="hclb" type="boolean" access="r"
+				description="Whether the window has a close box.">
+				<cocoa key="hasCloseBox"/>
+			</property>
+			<property name="minimizable" code="ismn" type="boolean" access="r"
+				description="Whether the window can be minimized.">
+				<cocoa key="isMiniaturizable"/>
+			</property>
+			<property name="minimized" code="pmnd" type="boolean"
+				description="Whether the window is currently minimized.">
+				<cocoa key="isMiniaturized"/>
+			</property>
+			<property name="resizable" code="prsz" type="boolean" access="r"
+				description="Whether the window can be resized.">
+				<cocoa key="isResizable"/>
+			</property>
+			<property name="visible" code="pvis" type="boolean"
+				description="Whether the window is currently visible.">
+				<cocoa key="isVisible"/>
+			</property>
+			<property name="zoomable" code="iszm" type="boolean" access="r"
+				description="Whether the window can be zoomed.">
+				<cocoa key="isZoomable"/>
+			</property>
+			<property name="zoomed" code="pzum" type="boolean"
+				description="Whether the window is currently zoomed.">
+				<cocoa key="isZoomed"/>
+			</property>
+			<responds-to name="close">
+				<cocoa method="handleCloseScriptCommand:"/>
+			</responds-to>
+			<responds-to name="print">
+				<cocoa method="handlePrintScriptCommand:"/>
+			</responds-to>
+			<responds-to name="save">
+				<cocoa method="handleSaveScriptCommand:"/>
+			</responds-to>
+		</class>
+
+	</suite>
+
+
+	<suite name="Things Suite" code="THGS" description="Things specific classes and commands.">
+
+		<class name="application" code="capp"
+			description="The application's top-level scripting object.">
+            
+			<cocoa class="NSApplication"/>
+            
+			<property name="name" code="pnam" type="text" access="r"
+				description="The name of the application."/>
+			<property name="frontmost" code="pisf" type="boolean" access="r"
+				description="Is this the frontmost (active) application?">
+				<cocoa key="isActive"/>
+			</property>
+			<property name="version" code="vers" type="text" access="r"
+				description="The version of the application."/>
+
+
+			<element type="window" access="r">
+				<cocoa key="orderedWindows"/>
+			</element>
+
+            <element type="list" access="r">
+                <cocoa key="lists"/>
+            </element>
+
+            <element type="to do" access="r">
+                <cocoa key="tasks"/>
+            </element>
+
+            <element type="project" access="r">
+                <cocoa key="projects"/>
+            </element>
+
+            <element type="area" access="r">
+                <cocoa key="areas"/>
+            </element>
+
+            <element type="contact" access="r">
+                <cocoa key="contacts"/>
+            </element>
+
+            <element type="tag" access="r">
+                <cocoa key="tags"/>
+            </element>
+
+            
+            <element type="selected to do" access="r">
+                <cocoa key="selectedTasks"/>
+            </element>
+
+
+			<responds-to name="open">
+				<cocoa method="handleOpenScriptCommand:"/>
+			</responds-to>
+			<responds-to name="print">
+				<cocoa method="handlePrintScriptCommand:"/>
+			</responds-to>
+			<responds-to name="quit">
+				<cocoa method="handleQuitScriptCommand:"/>
+			</responds-to>
+            
+		</class>
+
+
+        <class name="area" code="tsaa" inherits="list" description="Represents a Things area of responsibility.">
+        
+            <cocoa class="ASArea"/>
+
+            <property name="tag names" code="tnam" type="text" description="Tag names separated by comma">
+                <cocoa key="tagNames"/>
+            </property>
+
+            <property name="collapsed" code="colp" type="boolean" access="rw"
+                description="Is this area collapsed?">
+                <cocoa key="collapsed"/>
+            </property>
+
+            <element type="to do">
+                <cocoa key="tasks"/>
+            </element>
+            <element type="tag"/>
+
+        </class>
+
+        <class name="list" code="tsls" description="Represents a Things list.">
+        
+            <cocoa class="ASList"/>
+
+			<property name="id" code="ID  " type="text" access="r"
+				description="The unique identifier of the list.">
+				<cocoa key="uniqueID"/>
+			</property>
+
+            <property name="name" code="pnam" type="text" description="Name of the list" access="rw"/>
+                
+            <element type="to do">
+                <cocoa key="tasks"/>
+            </element>
+
+            <responds-to name="show">
+                <cocoa method="showInThings:"/>
+            </responds-to>
+
+        </class>
+
+
+        <class name="contact" inherits="list" code="tspn" description="Represents a Things contact.">
+        
+            <cocoa class="ASContact"/>
+
+            <element type="to do">
+                <cocoa key="tasks"/>
+            </element>
+
+        </class>
+
+
+        <class name="project" code="tspt" inherits="to do" description="Represents a Things project.">
+        
+            <cocoa class="ASProject"/>
+
+            <element type="to do">
+                <cocoa key="tasks"/>
+            </element>
+
+        </class>
+
+
+        <class name="tag" code="tstg" description="Represents a Things tag.">
+        
+            <cocoa class="ASTag"/>
+
+			<property name="id" code="ID  " type="text" access="r"
+				description="The unique identifier of the tag.">
+				<cocoa key="uniqueID"/>
+			</property>
+
+            <property name="name" code="pnam" type="text" description="Name of the tag"/>
+            <property name="keyboard shortcut" code="ksht" type="text" description="Keyboard shortcut for the tag">
+                <cocoa key="keyboardShortcut"/>
+            </property>
+
+            <property name="parent tag" code="ptag" type="tag" description="Parent tag">
+                <cocoa key="parentTag"/>
+            </property>
+
+            <element type="tag"/>
+            <element type="to do" access="r">
+                <cocoa key="tasks"/>
+            </element>
+
+        </class>
+
+        <class name="to do" code="tstk" description="Represents a Things to do.">
+        
+            <cocoa class="ASTask"/>
+
+			<property name="id" code="ID  " type="text" access="r"
+				description="The unique identifier of the to do.">
+				<cocoa key="uniqueID"/>
+			</property>
+
+            <property name="name" code="pnam" type="text" description="Name of the to do"/>
+
+            <property name="creation date" code="cred" type="date" description="Creation date of the to do" access="rw">
+                <cocoa key="creationDate"/>
+            </property>
+
+            <property name="modification date" code="modd" type="date" description="Modification date of the to do" access="rw">
+                <cocoa key="modificationDate"/>
+            </property>
+
+            <property name="due date" code="dued" type="date" description="Due date of the to do">
+                <cocoa key="dueDate"/>
+            </property>
+
+            <property name="activation date" code="actd" type="date" description="Activation date of the scheduled to do" access="r">
+                <cocoa key="activationDate"/>
+            </property>
+
+            <property name="completion date" code="cmpd" type="date" description="Completion date of the to do" access="rw">
+                <cocoa key="completionDate"/>
+            </property>
+
+            <property name="cancellation date" code="cncd" type="date" description="Cancellation date of the to do" access="rw">
+                <cocoa key="cancellationDate"/>
+            </property>
+
+            <property name="status" code="tdst" type="status" description="Status of the to do" access="rw"/>
+
+            <property name="tag names" code="tnam" type="text" description="Tag names separated by comma">
+                <cocoa key="tagNames"/>
+            </property>
+
+
+            <property name="notes" code="note" type="text" description="Notes of the to do"/>
+            
+            <property name="project" code="tspt" type="project" description="Project the to do belongs to"/>
+            <property name="area" code="tsaa" type="area" description="Area the to do belongs to"/>
+            <property name="contact" code="cntt" type="contact" description="Contact the to do is assigned to"/>
+                        
+            <element type="tag">
+                <cocoa key="tags"/>
+            </element>
+
+            <responds-to name="move">
+                <cocoa method="moveToList:"/>
+            </responds-to>
+
+            <responds-to name="schedule">
+                <cocoa method="scheduleTask:"/>
+            </responds-to>
+            
+            <responds-to name="show">
+                <cocoa method="showInThings:"/>
+            </responds-to>
+
+            <responds-to name="edit">
+                <cocoa method="editTask:"/>
+            </responds-to>
+
+
+        </class>
+                
+        <class name="selected to do" inherits="to do" code="tslt" description="Represents a to do selected in Things UI.">
+            <cocoa class="ASTask"/>
+        </class>
+        
+        
+        <!-- UI commands -->
+
+        <command name="show quick entry panel" code="THGSsqep" description="Show Things Quick Entry panel">
+			<cocoa class="ASShowQuickEntryPanelCommand"/>
+			<parameter name="with autofill" code="qeaf" type="boolean" optional="yes" description="Invoke autofill feature before showing the panel">
+				<cocoa key="invokeAutofill"/>
+			</parameter>
+			<parameter name="with properties" code="qepp" type="item details" optional="yes" description="Properties for new to do. Ignored if using autofill.">
+				<cocoa key="properties"/>
+			</parameter>
+		</command>
+
+   		<command name="show" code="THGSshow" description="Show Things item in the UI">
+			<direct-parameter description="Item to show">
+				<type type="specifier"/>
+			</direct-parameter>
+		</command>
+        
+        <command name="edit" code="THGSedtt" description="Edit Things to do">
+			<direct-parameter description="To do to edit">
+				<type type="to do"/>
+			</direct-parameter>
+		</command>
+
+
+        <!-- backend item commands -->
+                
+		<command name="move" code="THGSmvtl" description="Move a to do to a different list.">
+			<direct-parameter type="specifier" description="the to do(s) to move"/>
+			<parameter name="to" code="mvls" type="list"
+				description="List to use as target">
+				<cocoa key="targetList"/>
+			</parameter>
+		</command>
+        
+        <command name="schedule" code="THGSschd" description="Schedules a Things to do">
+			<direct-parameter description="To do to schedule">
+				<type type="specifier"/>
+			</direct-parameter>
+            <parameter name="for" type="date" code="sdat" optional="no" description="Date to schedule a to do for.">
+                <cocoa key="activationDate"/>
+            </parameter>
+		</command>
+
+   		<command name="log completed now" code="THGSlogc" description="Log completed items now">
+   			<cocoa class="ASLogCompletedCommand"/>
+		</command>
+
+   		<command name="empty trash" code="THGSempt" description="Empty Things trash">
+   			<cocoa class="ASEmptyTrashCommand"/>
+		</command>
+
+
+        <!-- other commands -->
+
+   		<command name="add contact named" code="THGSacab" description="Add a contact to Things">
+            <cocoa class="ASAddContactCommand"/>
+			<direct-parameter description="Name of the contact">
+				<type type="text"/>
+			</direct-parameter>
+            <result type="contact" description="New contact"/>
+		</command>
+
+   		<command name="parse quicksilver input" code="THGSadtq" description="Add new Things to do from input in Quicksilver syntax">
+			<cocoa class="ASAddTaskFromDescriptionCommand"/>
+			<direct-parameter description="To do description">
+				<type type="text"/>
+			</direct-parameter>
+            <result type="to do" description="New to do"/>
+		</command>
+
+
+        <record-type name="item details" code="idts">
+        
+            <property name="name" code="pnam" type="text" description="Name">
+                <cocoa key="name"/>
+            </property>
+
+            <property name="notes" code="note" type="text" description="Notes">
+                <cocoa key="note"/>
+            </property>
+
+            <property name="due date" code="dued" type="date" description="Due date">
+                <cocoa key="dueDate"/>
+            </property>
+
+            <property name="tag names" code="tnam" type="text" description="Tag names">
+                <cocoa key="tagNames"/>
+            </property>
+        
+        </record-type>
+
+
+        <enumeration name="status" code="tdst"> 
+            <enumerator name="open" code="tdio" description="To do is open."/> 
+            <enumerator name="completed" code="tdcm" description="To do has been completed."/> 
+            <enumerator name="canceled" code="tdcl" description="To do has been canceled."/>
+        </enumeration>
+
+	</suite>
+	
+</dictionary>

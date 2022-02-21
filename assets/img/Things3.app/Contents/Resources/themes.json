@@ -1,0 +1,5764 @@
+{
+    "light": {
+        "menu": {
+            "regular": {
+                "primaryColor": {
+                    "type": "color",
+                    "hex": "000308da"
+                },
+                "secondaryColor": {
+                    "type": "color",
+                    "hex": "00050ba6"
+                },
+                "tertiaryColor": {
+                    "type": "color",
+                    "hex": "0009165f"
+                },
+                "tertiaryColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "0009165f"
+                },
+                "quaternaryColor": {
+                    "type": "color",
+                    "hex": "001c4620"
+                },
+                "textSelectionBackgroundColor": {
+                    "type": "color",
+                    "hex": "0064fe42"
+                },
+                "textFieldBackgroundColor": {
+                    "type": "color",
+                    "hex": "00193d19"
+                },
+                "overlayColor": {
+                    "type": "color",
+                    "hex": "00163614"
+                },
+                "buttonColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "accentColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "accentColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "accentBackgroundColor": {
+                    "type": "color",
+                    "hex": "509cff54"
+                }
+            },
+            "black": {
+                "primaryColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryColor": {
+                    "type": "color",
+                    "hex": "f4f8ffc4"
+                },
+                "tertiaryColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "tertiaryColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "f4f8ffc4"
+                },
+                "quaternaryColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "textSelectionBackgroundColor": {
+                    "type": "color",
+                    "hex": "0080ff9c"
+                },
+                "textFieldBackgroundColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "overlayColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "buttonColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "accentColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "accentColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "f6f9ffe8"
+                },
+                "accentBackgroundColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                }
+            }
+        },
+        "window": {
+            "regular": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "backgroundVisualEffectViewLightness": 1,
+                "dividerColor": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "titleColor": {
+                    "type": "color",
+                    "hex": "00040ab2"
+                },
+                "titleColorWhenInactive": {
+                    "type": "color",
+                    "hex": "00060e8b"
+                },
+                "buttonTintColorWhenActive": {
+                    "type": "color",
+                    "hex": "000a1857"
+                },
+                "buttonTintColorWhenInactive": {
+                    "type": "color",
+                    "hex": "0014312e"
+                },
+                "scrollerKnobStyle": "dark"
+            },
+            "black": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.23,
+                "dividerColor": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "titleColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "titleColorWhenInactive": {
+                    "type": "color",
+                    "hex": "ecf4ff63"
+                },
+                "buttonTintColorWhenActive": {
+                    "type": "color",
+                    "hex": "ecf4ff63"
+                },
+                "buttonTintColorWhenInactive": {
+                    "type": "color",
+                    "hex": "deecff35"
+                },
+                "scrollerKnobStyle": "light"
+            }
+        },
+        "mainWindow": {
+            "sideBarBackgroundColor": {
+                "type": "color",
+                "hex": "f5f6f8ff"
+            },
+            "sideBarBackgroundColorInInactiveWindow": {
+                "type": "color",
+                "hex": "f9fafbff"
+            },
+            "sideBarBackgroundVisualEffectViewLightness": 1,
+            "sideBarBackgroundVisualEffectViewLightnessInInactiveWindow": 1,
+            "sideBarResizeButtonColor": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "sideBarResizeButtonColorWhenPressed": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "sideBarDividerColor": {
+                "type": "color",
+                "hex": "00378108"
+            },
+            "sideBarDividerColorWhenTaskExpanded": {
+                "type": "color",
+                "hex": "00224f0c"
+            },
+            "toolBarDividerColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "titleButtonTitleColor": {
+                "type": "color",
+                "hex": "0008136c"
+            },
+            "titleButtonTitleColorWhenHovered": {
+                "type": "color",
+                "hex": "0008136c"
+            },
+            "titleButtonTitleColorWhenPressed": {
+                "type": "color",
+                "hex": "0008136c"
+            },
+            "titleButtonTitleColorWhenHighlighted": {
+                "type": "color",
+                "hex": "0008136c"
+            },
+            "titleButtonTitleColorWhenDisabled": {
+                "type": "color",
+                "hex": "0008136c"
+            },
+            "titleButtonTitleColorWhenInactive": {
+                "type": "color",
+                "hex": "00112936"
+            },
+            "titleButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00173916"
+            },
+            "titleButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00173916"
+            },
+            "titleButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00112936"
+            },
+            "titleButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "titleButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "titleButtonBorderColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "openNewWindowButtonImageColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "openNewWindowButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "openNewWindowButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "3c75bfff"
+            },
+            "openNewWindowButtonImageColorWhenInactive": {
+                "type": "color",
+                "hex": "0014312e"
+            }
+        },
+        "menuBar": {
+            "imageSuffix": ""
+        },
+        "quickEntry": {
+            "windowBackgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "contentBackgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "saveButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "saveButtonFillColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "saveButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "4485d9ff"
+            },
+            "cancelButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "cancelButtonFillColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "cancelButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "moveButtonTitleColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "moveButtonImageColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "moveButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "moveButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "moveButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "moveButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "moveButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "0014312e"
+            },
+            "moveButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "moveButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "listSourceImageTintColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "popoverShadowRadius": 42,
+            "popoverShadowOffsetX": 0,
+            "popoverShadowOffsetY": 24,
+            "popoverShadowOpacity": 0.5,
+            "popoverShadowColor": {
+                "type": "color",
+                "hex": "000000ff"
+            }
+        },
+        "masterView": {
+            "sourceIconSuffix": "",
+            "sourceIconSuffixWhenSelected": "",
+            "selectionColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "inactiveSelectionColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "backgroundColorWhenDragged": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "dropTargetOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "titlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "titleLabelTextColor": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "titleLabelTextColorWhenSelected": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "titleLabelTextColorWhenEdited": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "titleLabelSelectionColor": {
+                "type": "color",
+                "hex": "0064fe42"
+            },
+            "titleLabelSelectionColorWhenInactive": {
+                "type": "color",
+                "hex": "001a3e24"
+            },
+            "countBadgeRedFillColor": {
+                "type": "color",
+                "hex": "fa1955cc"
+            },
+            "countBadgeRedTextColor": {
+                "type": "color",
+                "hex": "f5f6f8ff"
+            },
+            "countBadgeGrayTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "listSourceImageTintColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "projectStartDateLabelTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "projectPresentOrPastDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "projectFutureDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "areaArrowButtonImageColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "dropTargetRowOverlayBorderColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "contextMenuOverlayBorderColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "onboardingBackgroundColor": {
+                "type": "color",
+                "hex": "00000014"
+            },
+            "onboardingOverlayBorderColor": {
+                "type": "color",
+                "hex": "509cffff"
+            }
+        },
+        "masterViewToolbar": {
+            "popUpButtonTitleColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "popUpButtonImageColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "popUpButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "popUpButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "settingsButtonTitleColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "settingsButtonImageColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "settingsButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "settingsButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "newProjectActionMenuItemImageColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "newProjectActionMenuItemSelectedImageColor": {
+                "type": "color",
+                "hex": "97dfffff"
+            },
+            "newAreaActionMenuItemImageColor": {
+                "type": "color",
+                "hex": "7ad0a7ff"
+            },
+            "newAreaActionMenuItemSelectedImageColor": {
+                "type": "color",
+                "hex": "a4edffff"
+            }
+        },
+        "detailView": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "editingDimColor": {
+                "type": "color",
+                "hex": "001d49ff"
+            },
+            "editingDimOpacity": 0.02415704506353733,
+            "selectionColor": {
+                "type": "color",
+                "hex": "cae2ffff"
+            },
+            "inactiveSelectionColor": {
+                "type": "color",
+                "hex": "e7eaedff"
+            },
+            "dropTargetRowOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "dropTargetRowGroupOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "00183b18"
+            }
+        },
+        "detailViewToolbar": {
+            "buttonImageColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "buttonImageColorWhenDisabled": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "00050ba3"
+            },
+            "buttonTitleColorWhenDisabled": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "buttonFillColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "buttonBorderColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "dragging": {
+            "badgeTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "badgeBackgroundColor": {
+                "type": "color",
+                "hex": "ff0000ff"
+            },
+            "masterViewStackBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "detailViewStackBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "taskCellView": {
+            "imageSuffix": "",
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "backgroundVisualEffectViewLightnessWhenEdited": 1,
+            "shadowColorWhenEdited": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "shadowOpacityWhenEdited": 0.2,
+            "shadowRadiusWhenEdited": 2,
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "00112a59"
+            },
+            "stopDateLabelTextColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "newInTodayImageTintColor": {
+                "type": "color",
+                "hex": "f0c800db"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "contactNameLabelTextColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "whenTodayImageTintColor": {
+                "type": "color",
+                "hex": "f0c800db"
+            },
+            "whenTodayEveningImageTintColor": {
+                "type": "color",
+                "hex": "0048ac8e"
+            },
+            "whenDescriptionLabelTextColor": {
+                "type": "color",
+                "hex": "00050d97"
+            },
+            "whenDescriptionLabelFillColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "whenDescriptionLabelBorderColor": {
+                "type": "color",
+                "hex": "003f9407"
+            },
+            "titleLabelTextColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "titleLabelTextColorWhenSelected": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "stoppedTitleLabelTextColorInsideLogbook": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "stoppedTitleLabelTextColorOutsideOfLogbook": {
+                "type": "color",
+                "hex": "0007107c"
+            },
+            "placeholderTitleLabelTextColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "parentTitleLabelTextColor": {
+                "type": "color",
+                "hex": "0007107c"
+            },
+            "repeatingBadgeForegroundColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "repeatingBadgePausedForegroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "repeatingBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "0061ff31"
+            },
+            "repeatingBadgePausedBackgroundColor": {
+                "type": "color",
+                "hex": "999999ff"
+            },
+            "notesIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "checklistIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "alarmIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "childrenCountLabelTextColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "childrenCountLabelBorderColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "futureDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "0007107e"
+            },
+            "futureDeadlineIndicatorTintColor": {
+                "type": "color",
+                "hex": "0007107e"
+            },
+            "presentOrPastDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "presentOrPastDeadlineIndicatorTintColor": {
+                "type": "color",
+                "hex": "fa1955d9"
+            },
+            "presentOrPastDeadlineLabelTextColorWhenSelectedInActiveWindow": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "presentOrPastDeadlineIndicatorTintColorWhenSelectedInActiveWindow": {
+                "type": "color",
+                "hex": "fa1955cc"
+            },
+            "searchMatchHighlightTextColor": {
+                "type": "color",
+                "hex": "0007107c"
+            },
+            "searchMatchHighlightBackgroundColor": {
+                "type": "color",
+                "hex": "ffe692ff"
+            },
+            "actionButtonTintColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "actionButtonBackgroundColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "overlayViewGradientColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "overlayViewGradientMaskLeftEdgeOpacity": 1,
+            "overlayViewGradientMaskRightEdgeOpacity": 0.1,
+            "wormholeButtonTitleColor": {
+                "type": "color",
+                "hex": "00071271"
+            },
+            "wormholeButtonTitleColorWhenFocused": {
+                "type": "color",
+                "hex": "509cffff"
+            }
+        },
+        "reminderCellView": {
+            "shapeViewBackgroundColor": {
+                "type": "color",
+                "hex": "00306f0a"
+            },
+            "importButtonImageColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "importButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "importButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "407dccff"
+            },
+            "titleTextColor": {
+                "type": "color",
+                "hex": "000307dc"
+            },
+            "detailTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            }
+        },
+        "actionGroupCellView": {
+            "titleTextColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "titleTextColorWhenSelectedOrEdited": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "titleTextColorWhenSelectedAndWindowIsActive": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "titleTextColorWhenEditedAndWindowIsActive": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "completedTitleTextColor": {
+                "type": "color",
+                "hex": "0007107c"
+            },
+            "titlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "0062c166"
+            },
+            "completedTitlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "00071031"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "67acff49"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "ellipsisButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "001c4620"
+            }
+        },
+        "tagCellView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "placeholderTextColorWhenHighlighted": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "tagImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "disclosureButtonImageTintColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "3e679cff"
+            },
+            "backgroundColorWhenSelected": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "dropTargetBorderColor": {
+                "type": "color",
+                "hex": "509cffff"
+            }
+        },
+        "calendarSummaryCellView": {
+            "boxBackgroundColor": {
+                "type": "color",
+                "hex": "00306f0a"
+            },
+            "futureEventTextColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "pastEventTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            }
+        },
+        "repeatingTaskInstancesSummaryView": {
+            "textColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "imageSuffix": ""
+        },
+        "toggleButtonCellView": {
+            "fillColorWhenSelectedOrPressed": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "00071271"
+            }
+        },
+        "movedOutOfInboxCellView": {
+            "shapeFillColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "labelTextColor": {
+                "type": "color",
+                "hex": "00040abb"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "00040abb"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "003f9407"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "000f253c"
+            }
+        },
+        "newInTodayCellView": {
+            "shapeFillColor": {
+                "type": "color",
+                "hex": "f2d0248c"
+            },
+            "labelTextColor": {
+                "type": "color",
+                "hex": "000000bf"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "000000bf"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "00000003"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "f2d024ff"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "e3c215ff"
+            }
+        },
+        "baseHeaderCellView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "titleColorWhenHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "titleColorWhenPressed": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "arrowImageTintColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00193d19"
+            }
+        },
+        "projectHeaderCellView": {
+            "imageTintColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "inactiveImageTintColor": {
+                "type": "color",
+                "hex": "00112a59"
+            }
+        },
+        "areaHeaderCellView": {
+            "imageTintColor": {
+                "type": "color",
+                "hex": "269c6ebf"
+            }
+        },
+        "sourceHeaderCellView": {
+            "imageSuffix": "",
+            "titleColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "ellipsisButtonTitleColor": {
+                "type": "color",
+                "hex": "0008136b"
+            },
+            "ellipsisButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "calendarPartitionHeaderCellView": {
+            "dayLabelTextColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "weekdayLabelTextColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "descriptionLabelTextColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "dateRangeLabelTextColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "001c4620"
+            }
+        },
+        "remindersImportHeaderCellView": {
+            "labelTextColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "buttonImageColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "buttonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "509cff80"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "509cff33"
+            }
+        },
+        "taskDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "completedTextColor": {
+                "type": "color",
+                "hex": "00030867"
+            },
+            "formattingCharacterColor": {
+                "type": "color",
+                "hex": "00030867"
+            },
+            "codeSpanTextColor": {
+                "type": "color",
+                "hex": "000308a6"
+            },
+            "codeSpanBackgroundColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "highlightColor": {
+                "type": "color",
+                "hex": "ffbd003d"
+            },
+            "linkColor": {
+                "type": "color",
+                "hex": "0069cdff"
+            },
+            "toolbarTextColor": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "toolbarSolidFocusColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "toolbarOutlineFocusColor": {
+                "type": "color",
+                "hex": "0014312e"
+            },
+            "whenButtonTitleColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "whenButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "whenButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "whenButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "clearWhenButtonImageColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "clearWhenButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "clearWhenButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "repeatingInfoBackgroundColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "repeatingInfoTextColor": {
+                "type": "color",
+                "hex": "0003089b"
+            },
+            "repeatingInfoBadgeForegroundColor": {
+                "type": "color",
+                "hex": "1b61c2ff"
+            },
+            "repeatingInfoBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "cce1ffff"
+            },
+            "repeatingInfoButtonForegroundColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "repeatingInfoButtonBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "repeatingInfoButtonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "repeatingRuleTextColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "repeatingRuleBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "repeatingRuleBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "repeatingRuleFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "repeatingRuleFillColorWhenPressedOrHighlighted": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "repeatingRuleDatesTextColor": {
+                "type": "color",
+                "hex": "00030867"
+            },
+            "futureDeadlineTextColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "futureDeadlineImageColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "presentOrPastDeadlineTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "presentOrPastDeadlineImageColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "deadlineDescriptionTextColor": {
+                "type": "color",
+                "hex": "00030867"
+            },
+            "statusAnimationOverlayViewFillColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "statusAnimationOverlayViewShadowColor": {
+                "type": "color",
+                "hex": "00224d0d"
+            }
+        },
+        "datePickerField": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "titleColorWhenEditing": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "titleColorWhenOverdue": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "titleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0064fe42"
+            },
+            "titleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "001a3e24"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "fillColorWhenEditing": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "imageColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "imageColorWhenEditing": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "imageColorWhenOverdue": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "clearButtonImageColor": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "clearButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "clearButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "clearButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "00183b18"
+            },
+            "clearButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4620"
+            }
+        },
+        "modelObjectDetailsView": {
+            "ellipsisButtonTitleTextColor": {
+                "type": "color",
+                "hex": "0008136b"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "ellipsisButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "001c4620"
+            },
+            "ellipsisButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "projectDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "inactiveImageTintColor": {
+                "type": "color",
+                "hex": "00112a59"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00173916"
+            }
+        },
+        "areaDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "269c6ebf"
+            }
+        },
+        "tagDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            }
+        },
+        "contactDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000206ed"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            }
+        },
+        "listButtonView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "fillColorWhenPressed": {
+                "type": "color",
+                "hex": "488de5ff"
+            }
+        },
+        "popoverButtonView": {
+            "regular": {
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "titleColorWhenDisabled": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "3188e8ff"
+                },
+                "defaultStyleFillColor": {
+                    "type": "color",
+                    "hex": "4f9dffff"
+                },
+                "defaultStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "6aaeffff"
+                },
+                "destructiveStyleFillColor": {
+                    "type": "color",
+                    "hex": "fa1955cc"
+                },
+                "destructiveStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "fa1955e6"
+                }
+            },
+            "black": {
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "titleColorWhenDisabled": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "dceaff48"
+                },
+                "defaultStyleFillColor": {
+                    "type": "color",
+                    "hex": "4f9dffff"
+                },
+                "defaultStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "6aaeffff"
+                },
+                "destructiveStyleFillColor": {
+                    "type": "color",
+                    "hex": "fa1955cc"
+                },
+                "destructiveStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "fa1955e6"
+                }
+            }
+        },
+        "textView": {
+            "selectionHighlightColor": {
+                "type": "color",
+                "hex": "0064fe42"
+            },
+            "selectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "001a3e24"
+            }
+        },
+        "checklist": {
+            "checkboxColor": {
+                "type": "color",
+                "hex": "0062c1ff"
+            },
+            "titleTextColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "titleTextColorWhenCompletedOrCancelled": {
+                "type": "color",
+                "hex": "0007107c"
+            },
+            "titleSelectionTextColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "titleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0064fe42"
+            },
+            "titleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "001a3e24"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "backgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "f2f4f6ff"
+            },
+            "backgroundColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "cae2ffff"
+            },
+            "highlightBackgroundColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenEdited": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "borderColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "67acff2d"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00000012"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "dropPlaceholderColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "handleColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "handleColorWhenEdited": {
+                "type": "color",
+                "hex": "00071271"
+            },
+            "handleColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "00071271"
+            }
+        },
+        "tagEditView": {
+            "tagTitleColor": {
+                "type": "color",
+                "hex": "1e7d58ff"
+            },
+            "tagFillColor": {
+                "type": "color",
+                "hex": "269c6e4d"
+            },
+            "tagTitleColorWhenSelected": {
+                "type": "color",
+                "hex": "fffffff2"
+            },
+            "tagFillColorWhenSelected": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "tagTitleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0064fe42"
+            },
+            "tagTitleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "001a3e24"
+            }
+        },
+        "tagStackView": {
+            "cellViewTitleColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "cellViewBorderColor": {
+                "type": "color",
+                "hex": "000f253c"
+            }
+        },
+        "tagFilterView": {
+            "cellViewTitleColor": {
+                "type": "color",
+                "hex": "00071271"
+            },
+            "cellViewTitleColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "cellViewBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cellViewBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "cellViewFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cellViewFillColorWhenSelected": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "cellViewFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00193d19"
+            },
+            "cellViewFillColorWhenPressedAndSelected": {
+                "type": "color",
+                "hex": "488de5ff"
+            },
+            "allTagCellViewFillColorWhenSelected": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "allTagCellViewFillColorWhenPressedAndSelected": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "tagGroupBackgroundColor": {
+                "type": "color",
+                "hex": "00193d19"
+            }
+        },
+        "tagShortcutView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "titleColorWhenHovered": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "titleColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleColorWhenSelected": {
+                "type": "color",
+                "hex": "509cffcc"
+            },
+            "titleColorWhenSelectedAndHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "titleColorWhenPressedAndHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "titleColorWhenSelectedAndPressed": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "titleColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "borderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenSelected": {
+                "type": "color",
+                "hex": "509cffcc"
+            },
+            "borderColorWhenSelectedAndHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "borderColorWhenPressedAndHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "borderColorWhenSelectedAndPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "4d4d4dff"
+            }
+        },
+        "richBanner": {
+            "regular": {
+                "titleTextColor": {
+                    "type": "color",
+                    "hex": "00040abb"
+                },
+                "detailTextColor": {
+                    "type": "color",
+                    "hex": "00040abb"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "00306f0a"
+                },
+                "primaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "primaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "primaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "4a90ebff"
+                },
+                "secondaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "secondaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "4a90ebff"
+                }
+            },
+            "black": {
+                "titleTextColor": {
+                    "type": "color",
+                    "hex": "00040abb"
+                },
+                "detailTextColor": {
+                    "type": "color",
+                    "hex": "00040abb"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "00163513"
+                },
+                "primaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "primaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "primaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "4a90ebff"
+                },
+                "secondaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "secondaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "4a90ebff"
+                }
+            }
+        },
+        "whatsNew": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "e3edffff"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "d1e3ffff"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "000409c6"
+            },
+            "buttonTextColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "dismissColor": {
+                "type": "color",
+                "hex": "004e9cbf"
+            },
+            "dismissBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "004e9c1a"
+            }
+        },
+        "popUpMenu": {
+            "regular": {
+                "menuThemeStyle": "regular",
+                "popoverThemeStyle": "regular",
+                "searchFieldThemeStyle": "regular"
+            },
+            "black": {
+                "menuThemeStyle": "black",
+                "popoverThemeStyle": "black",
+                "searchFieldThemeStyle": "black"
+            }
+        },
+        "popover": {
+            "regular": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "f2f3f5ff"
+                },
+                "backgroundVisualEffectViewLightness": 1,
+                "cornerRadius": 8,
+                "innerBorderWidth": 0,
+                "innerBorderColor": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "outerBorderWidth": 1,
+                "outerBorderColor": {
+                    "type": "color",
+                    "hex": "0000001a"
+                },
+                "shadowColor": {
+                    "type": "color",
+                    "hex": "000000ff"
+                },
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 4,
+                "shadowOpacity": 0.25,
+                "shadowRadius": 8
+            },
+            "black": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.2,
+                "cornerRadius": 8,
+                "innerBorderWidth": 1,
+                "innerBorderColor": {
+                    "type": "color",
+                    "hex": "ffffff14"
+                },
+                "outerBorderWidth": 0.5,
+                "outerBorderColor": {
+                    "type": "color",
+                    "hex": "000000e6"
+                },
+                "shadowColor": {
+                    "type": "color",
+                    "hex": "000000ff"
+                },
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 4,
+                "shadowOpacity": 0.25,
+                "shadowRadius": 8
+            }
+        },
+        "sheet": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "backgroundVisualEffectViewLightness": 1,
+            "cornerRadius": 10,
+            "innerBorderWidth": 0,
+            "innerBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "outerBorderWidth": 1,
+            "outerBorderColor": {
+                "type": "color",
+                "hex": "0000001a"
+            },
+            "shadowColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 4,
+            "shadowOpacity": 0.25,
+            "shadowRadius": 8,
+            "dimColor": {
+                "type": "color",
+                "hex": "99999980"
+            }
+        },
+        "appledemobanner": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "2c3239ff"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            }
+        },
+        "searchField": {
+            "regular": {
+                "menuThemeStyle": "regular",
+                "clearButtonFillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "001c4620"
+                },
+                "clearButtonFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "000f253c"
+                }
+            },
+            "black": {
+                "menuThemeStyle": "black",
+                "clearButtonFillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "d2e5ff25"
+                },
+                "clearButtonFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "e3efff40"
+                }
+            }
+        },
+        "quickFindPopUpMenu": {
+            "sourceIconSuffix": "",
+            "sourceIconSuffixWhenSelected": "-Selected",
+            "defaultImageTintColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "0062c0c6"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "00112a59"
+            },
+            "repeatingProjectImageTintColor": {
+                "type": "color",
+                "hex": "00112a59"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "269c6ebf"
+            },
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "continueSearchImageTintColor": {
+                "type": "color",
+                "hex": "000409c6"
+            }
+        },
+        "taskTagsPopUpMenu": {
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "whenPopUpMenu": {
+            "sourceIconSuffix": "-Dark",
+            "sourceIconSuffixWhenSelected": "-Dark-Selected"
+        },
+        "movePopUpMenu": {
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "projectImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "97dfffff"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "dfecff8b"
+            },
+            "inactiveProjectImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "a3ceffff"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "7ad0a7ff"
+            },
+            "areaImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "a4edffff"
+            }
+        },
+        "repeatingDialog": {
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "dceaff30"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "dceaff48"
+            },
+            "boxBackgroundColor": {
+                "type": "color",
+                "hex": "e2eeff18"
+            },
+            "boxBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "e2eeff28"
+            },
+            "boxBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "e3efff60"
+            },
+            "boxClearButtonColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "boxClearButtonColorWhenHovered": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "boxClearButtonColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxDetailTextColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "boxFieldBackgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "dceaff30"
+            },
+            "boxFieldBackgroundColorWhenFocused": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBorderColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "boxFieldBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "boxFieldBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "boxFieldBorderColorWhenFocused": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "boxFieldTextColor": {
+                "type": "color",
+                "hex": "eff6ff7c"
+            },
+            "boxFieldTextColorWhenHovered": {
+                "type": "color",
+                "hex": "f4f8ffc4"
+            },
+            "boxFieldTextColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxFieldTextColorWhenFocused": {
+                "type": "color",
+                "hex": "ffffffff"
+            }
+        },
+        "datePicker": {
+            "standalone": {
+                "selectionIsProminent": true,
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.2,
+                "separatorColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "textColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "normalTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "pastTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "textColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenHighlightedAndPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "pastTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "textColorWhenSelectedAndScrolling": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "fillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "fillColorWhenHoveredAndPressed": {
+                    "type": "color",
+                    "hex": "dceaff27"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "fillColorWhenSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "fillColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "fillColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "fillColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "normalStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "pastStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "strokeColorWhenPressed": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "strokeColorWhenSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "strokeColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "strokeColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "strokeColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "headerTextColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "footerTextColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "footerArrowColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "todayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "unselectableTodayImageTintColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                }
+            },
+            "embedded": {
+                "selectionIsProminent": true,
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.2,
+                "separatorColor": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "textColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "normalTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "pastTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "textColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenHighlightedAndPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "pastTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "textColorWhenSelectedAndScrolling": {
+                    "type": "color",
+                    "hex": "2c3239ff"
+                },
+                "fillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "fillColorWhenHoveredAndPressed": {
+                    "type": "color",
+                    "hex": "dceaff27"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "fillColorWhenSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "fillColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "fillColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "fillColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "normalStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "pastStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "dceaff30"
+                },
+                "strokeColorWhenPressed": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "strokeColorWhenSelected": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "strokeColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "509cff80"
+                },
+                "strokeColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "509cffff"
+                },
+                "strokeColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "headerTextColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                },
+                "footerTextColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "footerArrowColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "todayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "unselectableTodayImageTintColor": {
+                    "type": "color",
+                    "hex": "eff6ff7c"
+                }
+            }
+        },
+        "alarmTimePicker": {
+            "clearButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "d2e5ff25"
+            },
+            "clearButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "e3efff40"
+            }
+        },
+        "toolTip": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "detailColor": {
+                "type": "color",
+                "hex": "00050ba6"
+            },
+            "keyEquivalentColor": {
+                "type": "color",
+                "hex": "00050ba6"
+            }
+        },
+        "onboarding": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "detailColor": {
+                "type": "color",
+                "hex": "00050ba6"
+            },
+            "primaryButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "primaryButtonFillColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "primaryButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "4a90ebff"
+            },
+            "secondaryButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "secondaryButtonFillColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "secondaryButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00091759"
+            }
+        },
+        "watermark": {
+            "bigIconImageTintColor": {
+                "type": "color",
+                "hex": "0013300f"
+            },
+            "bigTextColor": {
+                "type": "color",
+                "hex": "000c1d49"
+            },
+            "smallTextColor": {
+                "type": "color",
+                "hex": "000f253c"
+            }
+        },
+        "trialExpired": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "headingTextColor": {
+                "type": "color",
+                "hex": "000307e6"
+            },
+            "bodyTextColor": {
+                "type": "color",
+                "hex": "000308d1"
+            },
+            "finePrintTextColor": {
+                "type": "color",
+                "hex": "00071271"
+            },
+            "bodyTextLinkColor": {
+                "type": "color",
+                "hex": "0069cdff"
+            }
+        },
+        "trialIndicator": {
+            "registeredStatusLabelTextColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "trialOngoingStatusLabelTextColor": {
+                "type": "color",
+                "hex": "00081369"
+            },
+            "trialOngoingStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00112936"
+            },
+            "trialOngoingStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "trialOngoingStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "trialOngoingStatusButtonFillColor": {
+                "type": "color",
+                "hex": "000a1857"
+            },
+            "trialOngoingStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "trialOngoingStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "488de5ff"
+            },
+            "trialOngoingStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "0014312e"
+            },
+            "trialExpiredStatusLabelTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "trialExpiredStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "trialExpiredStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "trialExpiredStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "trialExpiredStatusButtonFillColor": {
+                "type": "color",
+                "hex": "fa195540"
+            },
+            "trialExpiredStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "fa195540"
+            },
+            "trialExpiredStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "fa195554"
+            },
+            "trialExpiredStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fa195540"
+            }
+        },
+        "preferences": {
+            "imageSuffix": "",
+            "alertGradientLeftEdgeColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "alertGradientRightEdgeColor": {
+                "type": "color",
+                "hex": "00060e8b"
+            },
+            "calendarTitleTextColor": {
+                "type": "color",
+                "hex": "000000bf"
+            },
+            "textFieldBackgroundColor": {
+                "type": "color",
+                "hex": "00000014"
+            },
+            "linkColor": {
+                "type": "color",
+                "hex": "0069cdff"
+            },
+            "linkColorWhenPressed": {
+                "type": "color",
+                "hex": "005fb8ff"
+            },
+            "linkImageTintColor": {
+                "type": "color",
+                "hex": "0069cdff"
+            },
+            "linkImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "005fb8ff"
+            },
+            "linkImageTintColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000080"
+            }
+        },
+        "alertView": {
+            "titleTextColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "messageTextColor": {
+                "type": "color",
+                "hex": "000308da"
+            }
+        },
+        "cloudIndicatorView": {
+            "statusUpdatePendingImageTintColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "statusUpdatePendingImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "statusErrorImageTintColor": {
+                "type": "color",
+                "hex": "000f253c"
+            },
+            "statusErrorImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "0009165f"
+            },
+            "statusUpdateInProgressImageTintColor": {
+                "type": "color",
+                "hex": "000f253c"
+            }
+        },
+        "todayWidget": {
+            "_primaryTextColor": {
+                "type": "color",
+                "hex": "000000f5"
+            },
+            "_secondaryTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "itemBackgroundColorWhenHighlighted": {
+                "type": "color",
+                "hex": "0000001a"
+            },
+            "taskItemTitleTextColor": {
+                "type": "color",
+                "hex": "000000f5"
+            },
+            "taskItemDetailTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "taskItemDateTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "overdueTaskItemDateTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "completedTaskItemTitleTextColor": {
+                "type": "color",
+                "hex": "000000f5"
+            },
+            "completedTaskItemDateTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "reviewImageTintColor": {
+                "type": "color",
+                "hex": "f2d024ff"
+            },
+            "eveningImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "notesIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "checklistIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "alarmIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "checkboxButtonImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "projectProgressImageTintColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "moreItemTitleTextColor": {
+                "type": "color",
+                "hex": "000000f5"
+            },
+            "moreItemIconImageTintColor": {
+                "type": "color",
+                "hex": "000000f5"
+            },
+            "emptyListImageTintColor": {
+                "type": "color",
+                "hex": "00000026"
+            },
+            "launchConfigurationItemBorderColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "launchConfigurationItemTitleTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            },
+            "launchConfigurationItemCheckboxTitleTextColor": {
+                "type": "color",
+                "hex": "00000066"
+            }
+        },
+        "findBar": {
+            "fieldBackgroundColor": {
+                "type": "color",
+                "hex": "001c4616"
+            },
+            "fieldTextColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "fieldPlaceholderColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "fieldButtonIconColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "fieldButtonBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "001c4610"
+            },
+            "fieldButtonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4619"
+            },
+            "fieldFocusRingColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "buttonTextAndIconColor": {
+                "type": "color",
+                "hex": "000308cf"
+            },
+            "buttonTextAndIconColorWhenDisabled": {
+                "type": "color",
+                "hex": "00030867"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "001c4619"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "001c4619"
+            }
+        }
+    },
+    "dark": {
+        "menu": {
+            "black": {
+                "primaryColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "tertiaryColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "tertiaryColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "quaternaryColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "textSelectionBackgroundColor": {
+                    "type": "color",
+                    "hex": "0080ff9c"
+                },
+                "textFieldBackgroundColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "overlayColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "buttonColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "accentColor": {
+                    "type": "color",
+                    "hex": "67acffff"
+                },
+                "accentColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "accentBackgroundColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                }
+            },
+            "regular": {
+                "primaryColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "tertiaryColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "tertiaryColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "quaternaryColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "textSelectionBackgroundColor": {
+                    "type": "color",
+                    "hex": "0080ff9c"
+                },
+                "textFieldBackgroundColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "overlayColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "buttonColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "accentColor": {
+                    "type": "color",
+                    "hex": "67acffff"
+                },
+                "accentColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "accentBackgroundColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                }
+            }
+        },
+        "window": {
+            "regular": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "23262aff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "dividerColor": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "titleColorWhenInactive": {
+                    "type": "color",
+                    "hex": "ffffff73"
+                },
+                "buttonTintColorWhenActive": {
+                    "type": "color",
+                    "hex": "ffffff54"
+                },
+                "buttonTintColorWhenInactive": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "scrollerKnobStyle": "light"
+            },
+            "black": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "23262aff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "dividerColor": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "titleColorWhenInactive": {
+                    "type": "color",
+                    "hex": "ffffff73"
+                },
+                "buttonTintColorWhenActive": {
+                    "type": "color",
+                    "hex": "ffffff54"
+                },
+                "buttonTintColorWhenInactive": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "scrollerKnobStyle": "light"
+            }
+        },
+        "mainWindow": {
+            "sideBarBackgroundColor": {
+                "type": "color",
+                "hex": "1c1f23ff"
+            },
+            "sideBarBackgroundColorInInactiveWindow": {
+                "type": "color",
+                "hex": "1f2225ff"
+            },
+            "sideBarBackgroundVisualEffectViewLightness": 0.11,
+            "sideBarBackgroundVisualEffectViewLightnessInInactiveWindow": 0.13,
+            "sideBarResizeButtonColor": {
+                "type": "color",
+                "hex": "ffffff2e"
+            },
+            "sideBarResizeButtonColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff78"
+            },
+            "sideBarDividerColor": {
+                "type": "color",
+                "hex": "00000033"
+            },
+            "sideBarDividerColorWhenTaskExpanded": {
+                "type": "color",
+                "hex": "00000040"
+            },
+            "toolBarDividerColor": {
+                "type": "color",
+                "hex": "00000033"
+            },
+            "titleButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleButtonTitleColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleButtonTitleColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleButtonTitleColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleButtonTitleColorWhenDisabled": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleButtonTitleColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff6b"
+            },
+            "titleButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "titleButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "titleButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "titleButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "titleButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "titleButtonBorderColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "openNewWindowButtonImageColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "openNewWindowButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "openNewWindowButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "4d81bfff"
+            },
+            "openNewWindowButtonImageColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff40"
+            }
+        },
+        "menuBar": {
+            "imageSuffix": "-Dark"
+        },
+        "quickEntry": {
+            "windowBackgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "contentBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff13"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "00000026"
+            },
+            "saveButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "saveButtonFillColor": {
+                "type": "color",
+                "hex": "2482efbf"
+            },
+            "saveButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "4e9af2c9"
+            },
+            "cancelButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "cancelButtonFillColor": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "cancelButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "moveButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "moveButtonImageColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "moveButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "moveButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "moveButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "moveButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "moveButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "moveButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "moveButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "listSourceImageTintColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "popoverShadowRadius": 42,
+            "popoverShadowOffsetX": 0,
+            "popoverShadowOffsetY": 24,
+            "popoverShadowOpacity": 0.5,
+            "popoverShadowColor": {
+                "type": "color",
+                "hex": "000000ff"
+            }
+        },
+        "masterView": {
+            "sourceIconSuffix": "-Dark",
+            "sourceIconSuffixWhenSelected": "-Dark",
+            "selectionColor": {
+                "type": "color",
+                "hex": "ffffff21"
+            },
+            "inactiveSelectionColor": {
+                "type": "color",
+                "hex": "ffffff21"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffff21"
+            },
+            "backgroundColorWhenDragged": {
+                "type": "color",
+                "hex": "3a3c3fff"
+            },
+            "dropTargetOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "titlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "titleLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "titleLabelTextColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "titleLabelTextColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "titleLabelSelectionColor": {
+                "type": "color",
+                "hex": "0080ff9c"
+            },
+            "titleLabelSelectionColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "countBadgeRedFillColor": {
+                "type": "color",
+                "hex": "fc375ecc"
+            },
+            "countBadgeRedTextColor": {
+                "type": "color",
+                "hex": "1c1f23ff"
+            },
+            "countBadgeGrayTextColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "listSourceImageTintColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "projectStartDateLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "projectPresentOrPastDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "projectFutureDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "areaArrowButtonImageColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "dropTargetRowOverlayBorderColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "contextMenuOverlayBorderColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "onboardingBackgroundColor": {
+                "type": "color",
+                "hex": "00000014"
+            },
+            "onboardingOverlayBorderColor": {
+                "type": "color",
+                "hex": "67acffff"
+            }
+        },
+        "masterViewToolbar": {
+            "popUpButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "popUpButtonImageColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "popUpButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "popUpButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "settingsButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "settingsButtonImageColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "settingsButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "settingsButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "newProjectActionMenuItemImageColor": {
+                "type": "color",
+                "hex": "6db0ffff"
+            },
+            "newProjectActionMenuItemSelectedImageColor": {
+                "type": "color",
+                "hex": "7dceffff"
+            },
+            "newAreaActionMenuItemImageColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "newAreaActionMenuItemSelectedImageColor": {
+                "type": "color",
+                "hex": "8bdae5ff"
+            }
+        },
+        "detailView": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "23262aff"
+            },
+            "editingDimColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "editingDimOpacity": 0.1,
+            "selectionColor": {
+                "type": "color",
+                "hex": "254174ff"
+            },
+            "inactiveSelectionColor": {
+                "type": "color",
+                "hex": "393c3fff"
+            },
+            "dropTargetRowOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "cce2ff1f"
+            },
+            "dropTargetRowGroupOverlayBackgroundColor": {
+                "type": "color",
+                "hex": "d7e8ff2a"
+            }
+        },
+        "detailViewToolbar": {
+            "buttonImageColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "buttonImageColorWhenDisabled": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "buttonTitleColorWhenDisabled": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "buttonFillColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "buttonBorderColorWhenDisabled": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "dragging": {
+            "badgeTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "badgeBackgroundColor": {
+                "type": "color",
+                "hex": "ff0000ff"
+            },
+            "masterViewStackBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "detailViewStackBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "taskCellView": {
+            "imageSuffix": "-Dark",
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "2d3033ff"
+            },
+            "backgroundVisualEffectViewLightnessWhenEdited": 0.185,
+            "shadowColorWhenEdited": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "shadowOpacityWhenEdited": 0.3,
+            "shadowRadiusWhenEdited": 5,
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            },
+            "stopDateLabelTextColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "newInTodayImageTintColor": {
+                "type": "color",
+                "hex": "ffdb26f2"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "contactNameLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "whenTodayImageTintColor": {
+                "type": "color",
+                "hex": "ffdb26f2"
+            },
+            "whenTodayEveningImageTintColor": {
+                "type": "color",
+                "hex": "9ac2fff7"
+            },
+            "whenDescriptionLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "whenDescriptionLabelFillColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "whenDescriptionLabelBorderColor": {
+                "type": "color",
+                "hex": "ffffff0a"
+            },
+            "titleLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleLabelTextColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "stoppedTitleLabelTextColorInsideLogbook": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "stoppedTitleLabelTextColorOutsideOfLogbook": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "placeholderTitleLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "parentTitleLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "repeatingBadgeForegroundColor": {
+                "type": "color",
+                "hex": "dfebffff"
+            },
+            "repeatingBadgePausedForegroundColor": {
+                "type": "color",
+                "hex": "dfebffff"
+            },
+            "repeatingBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "248affb1"
+            },
+            "repeatingBadgePausedBackgroundColor": {
+                "type": "color",
+                "hex": "444444ff"
+            },
+            "notesIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "checklistIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "alarmIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "childrenCountLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "childrenCountLabelBorderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "futureDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "futureDeadlineIndicatorTintColor": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "presentOrPastDeadlineLabelTextColor": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "presentOrPastDeadlineIndicatorTintColor": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "presentOrPastDeadlineLabelTextColorWhenSelectedInActiveWindow": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "presentOrPastDeadlineIndicatorTintColorWhenSelectedInActiveWindow": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "searchMatchHighlightTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "searchMatchHighlightBackgroundColor": {
+                "type": "color",
+                "hex": "6e5d01ff"
+            },
+            "actionButtonTintColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            },
+            "actionButtonBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "overlayViewGradientColor": {
+                "type": "color",
+                "hex": "64abffff"
+            },
+            "overlayViewGradientMaskLeftEdgeOpacity": 0.2,
+            "overlayViewGradientMaskRightEdgeOpacity": 0.05,
+            "wormholeButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "wormholeButtonTitleColorWhenFocused": {
+                "type": "color",
+                "hex": "67acffff"
+            }
+        },
+        "reminderCellView": {
+            "shapeViewBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff12"
+            },
+            "importButtonImageColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "importButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "importButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "85bdffff"
+            },
+            "titleTextColor": {
+                "type": "color",
+                "hex": "ffffffd9"
+            },
+            "detailTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "actionGroupCellView": {
+            "titleTextColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleTextColorWhenSelectedOrEdited": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleTextColorWhenSelectedAndWindowIsActive": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleTextColorWhenEditedAndWindowIsActive": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "completedTitleTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "titlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "67acff66"
+            },
+            "completedTitlePlaceholderTextColor": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "2974ff2d"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "67acff80"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "ellipsisButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff1a"
+            }
+        },
+        "tagCellView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "placeholderTextColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "tagImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "disclosureButtonImageTintColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "2482ef60"
+            },
+            "backgroundColorWhenSelected": {
+                "type": "color",
+                "hex": "2482efbf"
+            },
+            "dropTargetBorderColor": {
+                "type": "color",
+                "hex": "67acffff"
+            }
+        },
+        "calendarSummaryCellView": {
+            "boxBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff12"
+            },
+            "futureEventTextColor": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "pastEventTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            }
+        },
+        "repeatingTaskInstancesSummaryView": {
+            "textColor": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "imageSuffix": "-Dark"
+        },
+        "toggleButtonCellView": {
+            "fillColorWhenSelectedOrPressed": {
+                "type": "color",
+                "hex": "ffffff29"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            }
+        },
+        "movedOutOfInboxCellView": {
+            "shapeFillColor": {
+                "type": "color",
+                "hex": "ffffff29"
+            },
+            "labelTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff66"
+            }
+        },
+        "newInTodayCellView": {
+            "shapeFillColor": {
+                "type": "color",
+                "hex": "f3d12c33"
+            },
+            "labelTextColor": {
+                "type": "color",
+                "hex": "ffe692ff"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "2d2504ff"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "f3d12cff"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffe066ff"
+            }
+        },
+        "baseHeaderCellView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleColorWhenHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleColorWhenPressed": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "arrowImageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            }
+        },
+        "projectHeaderCellView": {
+            "imageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "inactiveImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            }
+        },
+        "areaHeaderCellView": {
+            "imageTintColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            }
+        },
+        "sourceHeaderCellView": {
+            "imageSuffix": "-Dark",
+            "titleColor": {
+                "type": "color",
+                "hex": "fffffffa"
+            },
+            "ellipsisButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "ellipsisButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "calendarPartitionHeaderCellView": {
+            "dayLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "weekdayLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "descriptionLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "dateRangeLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffa8"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "ffffff40"
+            }
+        },
+        "remindersImportHeaderCellView": {
+            "labelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "buttonImageColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "buttonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "67acff80"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "67acff33"
+            }
+        },
+        "taskDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "completedTextColor": {
+                "type": "color",
+                "hex": "ffffff73"
+            },
+            "formattingCharacterColor": {
+                "type": "color",
+                "hex": "ffffff73"
+            },
+            "codeSpanTextColor": {
+                "type": "color",
+                "hex": "ffffffb8"
+            },
+            "codeSpanBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff0d"
+            },
+            "highlightColor": {
+                "type": "color",
+                "hex": "ffd60353"
+            },
+            "linkColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "toolbarTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "toolbarSolidFocusColor": {
+                "type": "color",
+                "hex": "ffffff1f"
+            },
+            "toolbarOutlineFocusColor": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "whenButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "whenButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "whenButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "whenButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff1f"
+            },
+            "whenButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff1f"
+            },
+            "clearWhenButtonImageColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "clearWhenButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenHighlighted": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearWhenButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "clearWhenButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "repeatingInfoBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "repeatingInfoTextColor": {
+                "type": "color",
+                "hex": "ffffffac"
+            },
+            "repeatingInfoBadgeForegroundColor": {
+                "type": "color",
+                "hex": "1b61c2ff"
+            },
+            "repeatingInfoBadgeBackgroundColor": {
+                "type": "color",
+                "hex": "cce1ffff"
+            },
+            "repeatingInfoButtonForegroundColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "repeatingInfoButtonBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "repeatingInfoButtonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "repeatingRuleTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "repeatingRuleBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "repeatingRuleBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "repeatingRuleFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "repeatingRuleFillColorWhenPressedOrHighlighted": {
+                "type": "color",
+                "hex": "ffffff1f"
+            },
+            "repeatingRuleDatesTextColor": {
+                "type": "color",
+                "hex": "ffffff73"
+            },
+            "futureDeadlineTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "futureDeadlineImageColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "presentOrPastDeadlineTextColor": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "presentOrPastDeadlineImageColor": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "deadlineDescriptionTextColor": {
+                "type": "color",
+                "hex": "ffffff73"
+            },
+            "statusAnimationOverlayViewFillColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "statusAnimationOverlayViewShadowColor": {
+                "type": "color",
+                "hex": "ffffff17"
+            }
+        },
+        "datePickerField": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "titleColorWhenEditing": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "titleColorWhenOverdue": {
+                "type": "color",
+                "hex": "fc375eff"
+            },
+            "titleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0080ff9c"
+            },
+            "titleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "fillColorWhenEditing": {
+                "type": "color",
+                "hex": "ffffff1f"
+            },
+            "imageColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "imageColorWhenEditing": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "imageColorWhenOverdue": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "clearButtonImageColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "clearButtonImageColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "clearButtonImageColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "clearButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "clearButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "clearButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff33"
+            }
+        },
+        "modelObjectDetailsView": {
+            "ellipsisButtonTitleTextColor": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "ellipsisButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "ellipsisButtonFillColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "ellipsisButtonBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            }
+        },
+        "projectDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "inactiveImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "ffffff22"
+            }
+        },
+        "areaDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            }
+        },
+        "tagDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "contactDetailsView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "placeholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "imageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "listButtonView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "2482efbf"
+            },
+            "fillColorWhenPressed": {
+                "type": "color",
+                "hex": "4092f1c6"
+            }
+        },
+        "popoverButtonView": {
+            "regular": {
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "titleColorWhenDisabled": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffff4d"
+                },
+                "defaultStyleFillColor": {
+                    "type": "color",
+                    "hex": "4f9dffff"
+                },
+                "defaultStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "6aaeffff"
+                },
+                "destructiveStyleFillColor": {
+                    "type": "color",
+                    "hex": "fa1955cc"
+                },
+                "destructiveStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "fa1955e6"
+                }
+            },
+            "black": {
+                "titleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "titleColorWhenDisabled": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffff4d"
+                },
+                "defaultStyleFillColor": {
+                    "type": "color",
+                    "hex": "4f9dffff"
+                },
+                "defaultStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "6aaeffff"
+                },
+                "destructiveStyleFillColor": {
+                    "type": "color",
+                    "hex": "fa1955cc"
+                },
+                "destructiveStyleFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "fa1955e6"
+                }
+            }
+        },
+        "textView": {
+            "selectionHighlightColor": {
+                "type": "color",
+                "hex": "0080ff9c"
+            },
+            "selectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff33"
+            }
+        },
+        "checklist": {
+            "checkboxColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "titleTextColorWhenCompletedOrCancelled": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "titleSelectionTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "titleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0080ff9c"
+            },
+            "titleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "backgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "backgroundColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "backgroundColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "2974ff59"
+            },
+            "highlightBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "borderColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "dividerColor": {
+                "type": "color",
+                "hex": "ffffff21"
+            },
+            "fillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "dropPlaceholderColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "handleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "handleColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "handleColorWhenSelectedOrDragged": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "tagEditView": {
+            "tagTitleColor": {
+                "type": "color",
+                "hex": "e9f5f1ff"
+            },
+            "tagFillColor": {
+                "type": "color",
+                "hex": "269c6e99"
+            },
+            "tagTitleColorWhenSelected": {
+                "type": "color",
+                "hex": "fffffff2"
+            },
+            "tagFillColorWhenSelected": {
+                "type": "color",
+                "hex": "2482efbf"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "placeholderTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "tagTitleSelectionHighlightColor": {
+                "type": "color",
+                "hex": "0080ff9c"
+            },
+            "tagTitleSelectionHighlightColorWhenInactive": {
+                "type": "color",
+                "hex": "ffffff33"
+            }
+        },
+        "tagStackView": {
+            "cellViewTitleColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "cellViewBorderColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            }
+        },
+        "tagFilterView": {
+            "cellViewTitleColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "cellViewTitleColorWhenSelected": {
+                "type": "color",
+                "hex": "23262aff"
+            },
+            "cellViewBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cellViewBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "cellViewFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "cellViewFillColorWhenSelected": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "cellViewFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff2b"
+            },
+            "cellViewFillColorWhenPressedAndSelected": {
+                "type": "color",
+                "hex": "76b5ffff"
+            },
+            "allTagCellViewFillColorWhenSelected": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "allTagCellViewFillColorWhenPressedAndSelected": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "tagGroupBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            }
+        },
+        "tagShortcutView": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "titleColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "titleColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "titleColorWhenSelected": {
+                "type": "color",
+                "hex": "67acffcc"
+            },
+            "titleColorWhenSelectedAndHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleColorWhenPressedAndHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleColorWhenSelectedAndPressed": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "titleColorWhenEdited": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "borderColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "borderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "borderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "borderColorWhenSelected": {
+                "type": "color",
+                "hex": "67acffcc"
+            },
+            "borderColorWhenSelectedAndHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "borderColorWhenPressedAndHovered": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "borderColorWhenSelectedAndPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "4d4d4dff"
+            }
+        },
+        "richBanner": {
+            "regular": {
+                "titleTextColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "detailTextColor": {
+                    "type": "color",
+                    "hex": "ffffffa8"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "ffffff0f"
+                },
+                "primaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "primaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "primaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "3b8ff1c4"
+                },
+                "secondaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "secondaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "3b8ff1c4"
+                }
+            },
+            "black": {
+                "titleTextColor": {
+                    "type": "color",
+                    "hex": "ffffffbf"
+                },
+                "detailTextColor": {
+                    "type": "color",
+                    "hex": "ffffffa8"
+                },
+                "fillColor": {
+                    "type": "color",
+                    "hex": "ffffff0f"
+                },
+                "primaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "primaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "primaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "3b8ff1c4"
+                },
+                "secondaryButtonViewTitleColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "secondaryButtonViewFillColor": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "secondaryButtonViewFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "3b8ff1c4"
+                }
+            }
+        },
+        "whatsNew": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "0078e933"
+            },
+            "backgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "0078e94d"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "eaf1ffff"
+            },
+            "buttonTextColor": {
+                "type": "color",
+                "hex": "83bfffbf"
+            },
+            "dismissColor": {
+                "type": "color",
+                "hex": "83bfffbf"
+            },
+            "dismissBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "83bfff33"
+            }
+        },
+        "popUpMenu": {
+            "regular": {
+                "menuThemeStyle": "black",
+                "popoverThemeStyle": "black",
+                "searchFieldThemeStyle": "black"
+            },
+            "black": {
+                "menuThemeStyle": "black",
+                "popoverThemeStyle": "black",
+                "searchFieldThemeStyle": "black"
+            }
+        },
+        "popover": {
+            "regular": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "cornerRadius": 8,
+                "innerBorderWidth": 1,
+                "innerBorderColor": {
+                    "type": "color",
+                    "hex": "ffffff14"
+                },
+                "outerBorderWidth": 0.5,
+                "outerBorderColor": {
+                    "type": "color",
+                    "hex": "000000e6"
+                },
+                "shadowColor": {
+                    "type": "color",
+                    "hex": "000000ff"
+                },
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 8,
+                "shadowOpacity": 0.5,
+                "shadowRadius": 16
+            },
+            "black": {
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "cornerRadius": 8,
+                "innerBorderWidth": 1,
+                "innerBorderColor": {
+                    "type": "color",
+                    "hex": "ffffff14"
+                },
+                "outerBorderWidth": 0.5,
+                "outerBorderColor": {
+                    "type": "color",
+                    "hex": "000000e6"
+                },
+                "shadowColor": {
+                    "type": "color",
+                    "hex": "000000ff"
+                },
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 8,
+                "shadowOpacity": 0.5,
+                "shadowRadius": 16
+            }
+        },
+        "sheet": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "212428ff"
+            },
+            "backgroundVisualEffectViewLightness": 0.14,
+            "cornerRadius": 10,
+            "innerBorderWidth": 1,
+            "innerBorderColor": {
+                "type": "color",
+                "hex": "ffffff14"
+            },
+            "outerBorderWidth": 0.5,
+            "outerBorderColor": {
+                "type": "color",
+                "hex": "000000e6"
+            },
+            "shadowColor": {
+                "type": "color",
+                "hex": "000000ff"
+            },
+            "shadowOffsetX": 0,
+            "shadowOffsetY": 8,
+            "shadowOpacity": 0.5,
+            "shadowRadius": 16,
+            "dimColor": {
+                "type": "color",
+                "hex": "00000080"
+            }
+        },
+        "appledemobanner": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "2c3138ff"
+            },
+            "textColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            }
+        },
+        "searchField": {
+            "regular": {
+                "menuThemeStyle": "black",
+                "clearButtonFillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff21"
+                },
+                "clearButtonFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffff3b"
+                }
+            },
+            "black": {
+                "menuThemeStyle": "black",
+                "clearButtonFillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff21"
+                },
+                "clearButtonFillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffff3b"
+                }
+            }
+        },
+        "quickFindPopUpMenu": {
+            "sourceIconSuffix": "-Dark",
+            "sourceIconSuffixWhenSelected": "-Dark-Selected",
+            "defaultImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "6db0ffff"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            },
+            "repeatingProjectImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "contactImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "continueSearchImageTintColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            }
+        },
+        "taskTagsPopUpMenu": {
+            "tagImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "whenPopUpMenu": {
+            "sourceIconSuffix": "-Dark",
+            "sourceIconSuffixWhenSelected": "-Dark"
+        },
+        "movePopUpMenu": {
+            "projectImageTintColor": {
+                "type": "color",
+                "hex": "6db0ffff"
+            },
+            "projectImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "7dceffff"
+            },
+            "inactiveProjectImageTintColor": {
+                "type": "color",
+                "hex": "f0f6ff85"
+            },
+            "inactiveProjectImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "9ec9f8e1"
+            },
+            "areaImageTintColor": {
+                "type": "color",
+                "hex": "7dc4a8ff"
+            },
+            "areaImageTintColorWhenSelected": {
+                "type": "color",
+                "hex": "8bdae5ff"
+            }
+        },
+        "repeatingDialog": {
+            "buttonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "buttonFillColor": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "buttonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "boxBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff14"
+            },
+            "boxBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff21"
+            },
+            "boxBorderColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "boxClearButtonColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "boxClearButtonColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "boxClearButtonColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxLabelTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxDetailTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "boxFieldBackgroundColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff33"
+            },
+            "boxFieldBackgroundColorWhenFocused": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "boxFieldBorderColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "boxFieldBorderColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "boxFieldBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "boxFieldBorderColorWhenFocused": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "boxFieldTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "boxFieldTextColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "boxFieldTextColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "boxFieldTextColorWhenFocused": {
+                "type": "color",
+                "hex": "ffffffff"
+            }
+        },
+        "datePicker": {
+            "standalone": {
+                "selectionIsProminent": true,
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "separatorColor": {
+                    "type": "color",
+                    "hex": "565a60ff"
+                },
+                "textColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "pastTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "textColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenHighlightedAndPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "pastTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "textColorWhenSelectedAndScrolling": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "fillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "fillColorWhenHoveredAndPressed": {
+                    "type": "color",
+                    "hex": "ffffff29"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "fillColorWhenSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "fillColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "fillColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "fillColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "normalStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "pastStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "strokeColorWhenPressed": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "strokeColorWhenSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "strokeColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "strokeColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "67acffff"
+                },
+                "strokeColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "headerTextColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "footerTextColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "footerArrowColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "todayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "unselectableTodayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                }
+            },
+            "embedded": {
+                "selectionIsProminent": true,
+                "backgroundColor": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "backgroundVisualEffectViewLightness": 0.15,
+                "separatorColor": {
+                    "type": "color",
+                    "hex": "565a60ff"
+                },
+                "textColorWhenPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "pastTextColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "normalTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastTextColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "textColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "textColorWhenHighlightedAndPressed": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "pastTextColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "textColorWhenSelectedAndScrolling": {
+                    "type": "color",
+                    "hex": "2c3138ff"
+                },
+                "fillColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "fillColorWhenHoveredAndPressed": {
+                    "type": "color",
+                    "hex": "ffffff29"
+                },
+                "fillColorWhenPressed": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "fillColorWhenSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "fillColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "fillColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "00000000"
+                },
+                "fillColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "normalStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "pastStrokeColorWhenHovered": {
+                    "type": "color",
+                    "hex": "ffffff33"
+                },
+                "strokeColorWhenPressed": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "strokeColorWhenSelected": {
+                    "type": "color",
+                    "hex": "2482efbf"
+                },
+                "strokeColorWhenScrolling": {
+                    "type": "color",
+                    "hex": "2482ef60"
+                },
+                "strokeColorWhenHighlighted": {
+                    "type": "color",
+                    "hex": "67acffff"
+                },
+                "strokeColorWhenHighlightedAndSelected": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "normalOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "pastOverlayColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "headerTextColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                },
+                "footerTextColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "footerArrowColor": {
+                    "type": "color",
+                    "hex": "ffffffe6"
+                },
+                "todayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffffff"
+                },
+                "unselectableTodayImageTintColor": {
+                    "type": "color",
+                    "hex": "ffffff80"
+                }
+            }
+        },
+        "alarmTimePicker": {
+            "clearButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "d2e5ff25"
+            },
+            "clearButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "e3efff40"
+            }
+        },
+        "toolTip": {
+            "titleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "detailColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "keyEquivalentColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            }
+        },
+        "onboarding": {
+            "titleColor": {
+                "type": "color",
+                "hex": "000308da"
+            },
+            "detailColor": {
+                "type": "color",
+                "hex": "00050ba6"
+            },
+            "primaryButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "primaryButtonFillColor": {
+                "type": "color",
+                "hex": "509cffff"
+            },
+            "primaryButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "4a90ebff"
+            },
+            "secondaryButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "secondaryButtonFillColor": {
+                "type": "color",
+                "hex": "000b1a50"
+            },
+            "secondaryButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00091759"
+            }
+        },
+        "watermark": {
+            "bigIconImageTintColor": {
+                "type": "color",
+                "hex": "ffffff14"
+            },
+            "bigTextColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "smallTextColor": {
+                "type": "color",
+                "hex": "ffffff54"
+            }
+        },
+        "trialExpired": {
+            "backgroundColor": {
+                "type": "color",
+                "hex": "23262aff"
+            },
+            "headingTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "bodyTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "finePrintTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "bodyTextLinkColor": {
+                "type": "color",
+                "hex": "67acffff"
+            }
+        },
+        "trialIndicator": {
+            "registeredStatusLabelTextColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColor": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "registeredStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "trialOngoingStatusLabelTextColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "trialOngoingStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "ffffff40"
+            },
+            "trialOngoingStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "ffffffcc"
+            },
+            "trialOngoingStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "trialOngoingStatusButtonFillColor": {
+                "type": "color",
+                "hex": "ffffff40"
+            },
+            "trialOngoingStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "2482efbf"
+            },
+            "trialOngoingStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "4e9af2c9"
+            },
+            "trialOngoingStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "trialExpiredStatusLabelTextColor": {
+                "type": "color",
+                "hex": "fb3066ff"
+            },
+            "trialExpiredStatusLabelTextColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fb3066ff"
+            },
+            "trialExpiredStatusButtonTitleColor": {
+                "type": "color",
+                "hex": "fb3c6fff"
+            },
+            "trialExpiredStatusButtonTitleColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fb3c6fff"
+            },
+            "trialExpiredStatusButtonFillColor": {
+                "type": "color",
+                "hex": "fb30664d"
+            },
+            "trialExpiredStatusButtonFillColorWhenHovered": {
+                "type": "color",
+                "hex": "fb3c6f66"
+            },
+            "trialExpiredStatusButtonFillColorWhenPressed": {
+                "type": "color",
+                "hex": "fb3c6f80"
+            },
+            "trialExpiredStatusButtonFillColorWhenWindowIsInactive": {
+                "type": "color",
+                "hex": "fb30664d"
+            }
+        },
+        "preferences": {
+            "imageSuffix": "-Dark",
+            "alertGradientLeftEdgeColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "alertGradientRightEdgeColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "calendarTitleTextColor": {
+                "type": "color",
+                "hex": "ffffffbf"
+            },
+            "textFieldBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "linkColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "linkColorWhenPressed": {
+                "type": "color",
+                "hex": "76b5ffff"
+            },
+            "linkImageTintColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "linkImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "76b5ffff"
+            },
+            "linkImageTintColorWhenDisabled": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "alertView": {
+            "titleTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            },
+            "messageTextColor": {
+                "type": "color",
+                "hex": "ffffffff"
+            }
+        },
+        "cloudIndicatorView": {
+            "statusUpdatePendingImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "statusUpdatePendingImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "statusErrorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "statusErrorImageTintColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff99"
+            },
+            "statusUpdateInProgressImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            }
+        },
+        "todayWidget": {
+            "_primaryTextColor": {
+                "type": "color",
+                "hex": "fffffff5"
+            },
+            "_secondaryTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "itemBackgroundColorWhenHighlighted": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "taskItemTitleTextColor": {
+                "type": "color",
+                "hex": "fffffff5"
+            },
+            "taskItemDetailTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "taskItemDateTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "overdueTaskItemDateTextColor": {
+                "type": "color",
+                "hex": "fa1955ff"
+            },
+            "completedTaskItemTitleTextColor": {
+                "type": "color",
+                "hex": "fffffff5"
+            },
+            "completedTaskItemDateTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "reviewImageTintColor": {
+                "type": "color",
+                "hex": "f2d024ff"
+            },
+            "eveningImageTintColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "notesIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "checklistIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "alarmIndicatorImageTintColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "checkboxButtonImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "projectProgressImageTintColor": {
+                "type": "color",
+                "hex": "ffffff80"
+            },
+            "moreItemTitleTextColor": {
+                "type": "color",
+                "hex": "fffffff5"
+            },
+            "moreItemIconImageTintColor": {
+                "type": "color",
+                "hex": "fffffff5"
+            },
+            "emptyListImageTintColor": {
+                "type": "color",
+                "hex": "ffffff40"
+            },
+            "launchConfigurationItemBorderColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "launchConfigurationItemTitleTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            },
+            "launchConfigurationItemCheckboxTitleTextColor": {
+                "type": "color",
+                "hex": "ffffff4d"
+            }
+        },
+        "findBar": {
+            "fieldBackgroundColor": {
+                "type": "color",
+                "hex": "ffffff1a"
+            },
+            "fieldTextColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "fieldPlaceholderColor": {
+                "type": "color",
+                "hex": "ffffff66"
+            },
+            "fieldButtonIconColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "fieldButtonBackgroundColorWhenHovered": {
+                "type": "color",
+                "hex": "ffffff14"
+            },
+            "fieldButtonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff20"
+            },
+            "fieldFocusRingColor": {
+                "type": "color",
+                "hex": "67acffff"
+            },
+            "buttonTextAndIconColor": {
+                "type": "color",
+                "hex": "ffffffe6"
+            },
+            "buttonTextAndIconColorWhenDisabled": {
+                "type": "color",
+                "hex": "ffffff73"
+            },
+            "buttonBorderColor": {
+                "type": "color",
+                "hex": "ffffff26"
+            },
+            "buttonBorderColorWhenPressed": {
+                "type": "color",
+                "hex": "00000000"
+            },
+            "buttonBackgroundColorWhenPressed": {
+                "type": "color",
+                "hex": "ffffff26"
+            }
+        }
+    }
+}

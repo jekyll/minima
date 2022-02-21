@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>21D49</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ThingsTodayWidget</string>
+	<key>CFBundleExecutable</key>
+	<string>ThingsTodayWidget</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.culturedcode.ThingsMac.TodayWidget</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ThingsTodayWidget</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.15.12</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>31512003</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>13C100</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>12.1</string>
+	<key>DTSDKBuild</key>
+	<string>21C46</string>
+	<key>DTSDKName</key>
+	<string>macosx12.1</string>
+	<key>DTXcode</key>
+	<string>1321</string>
+	<key>DTXcodeBuild</key>
+	<string>13C100</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>NSExtensionPointVersion</key>
+			<string>3.0</string>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widget-extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>TodayWidgetViewController</string>
+		<key>com.apple.notificationcenter.widget.description</key>
+		<string>Things</string>
+	</dict>
+</dict>
+</plist>

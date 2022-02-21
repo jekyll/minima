@@ -1,0 +1,306 @@
+
+/* Class = "NSMenuItem"; title = "全部置頂"; ObjectID = "5"; */
+"5.title" = "全部置頂";
+
+/* Class = "NSMenuItem"; title = "視窗"; ObjectID = "19"; */
+"19.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "最小化"; ObjectID = "23"; */
+"23.title" = "最小化";
+
+/* Class = "NSMenu"; title = "視窗"; ObjectID = "24"; */
+"24.title" = "視窗";
+
+/* Class = "NSMenu"; title = "主選單"; ObjectID = "29"; */
+"29.title" = "主選單";
+
+/* Class = "NSMenuItem"; title = "Things"; ObjectID = "56"; */
+"56.title" = "Things";
+
+/* Class = "NSMenu"; title = "Things"; ObjectID = "57"; */
+"57.title" = "Things";
+
+/* Class = "NSMenuItem"; title = "關於 Things"; ObjectID = "58"; */
+"58.title" = "關於 Things";
+
+/* Class = "NSMenuItem"; title = "新 Things 視窗"; ObjectID = "73"; */
+"73.title" = "新 Things 視窗";
+
+/* Class = "NSMenuItem"; title = "設定頁面…"; ObjectID = "77"; */
+"77.title" = "設定頁面…";
+
+/* Class = "NSMenuItem"; title = "列印…"; ObjectID = "78"; */
+"78.title" = "列印…";
+
+/* Class = "NSMenu"; title = "檔案"; ObjectID = "81"; */
+"81.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "檔案"; ObjectID = "83"; */
+"83.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "幫助"; ObjectID = "103"; */
+"103.title" = "幫助";
+
+/* Class = "NSMenu"; title = "幫助"; ObjectID = "106"; */
+"106.title" = "幫助";
+
+/* Class = "NSMenuItem"; title = "偏好設定…"; ObjectID = "129"; */
+"129.title" = "偏好設定…";
+
+/* Class = "NSMenu"; title = "服務"; ObjectID = "130"; */
+"130.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "服務"; ObjectID = "131"; */
+"131.title" = "服務";
+
+/* Class = "NSMenuItem"; title = "隱藏 Things"; ObjectID = "134"; */
+"134.title" = "隱藏 Things";
+
+/* Class = "NSMenuItem"; title = "退出 Things"; ObjectID = "136"; */
+"136.title" = "退出 Things";
+
+/* Class = "NSMenuItem"; title = "隱藏其他"; ObjectID = "145"; */
+"145.title" = "隱藏其他";
+
+/* Class = "NSMenuItem"; title = "全部顯示"; ObjectID = "150"; */
+"150.title" = "全部顯示";
+
+/* Class = "NSMenuItem"; title = "複製"; ObjectID = "157"; */
+"157.title" = "複製";
+
+/* Class = "NSMenuItem"; title = "復原"; ObjectID = "158"; */
+"158.title" = "復原";
+
+/* Class = "NSMenuItem"; title = "剪下"; ObjectID = "160"; */
+"160.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "編輯"; ObjectID = "163"; */
+"163.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "删除"; ObjectID = "164"; */
+"164.title" = "删除";
+
+/* Class = "NSMenu"; title = "編輯"; ObjectID = "169"; */
+"169.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "貼上"; ObjectID = "171"; */
+"171.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "全選"; ObjectID = "172"; */
+"172.title" = "全選";
+
+/* Class = "NSMenuItem"; title = "拼寫…"; ObjectID = "184"; */
+"184.title" = "拼寫…";
+
+/* Class = "NSMenu"; title = "拼寫…"; ObjectID = "185"; */
+"185.title" = "拼寫…";
+
+/* Class = "NSMenuItem"; title = "拼寫…"; ObjectID = "187"; */
+"187.title" = "拼寫…";
+
+/* Class = "NSMenuItem"; title = "檢查拼寫"; ObjectID = "189"; */
+"189.title" = "檢查拼寫";
+
+/* Class = "NSMenuItem"; title = "輸入時一併檢查拼寫"; ObjectID = "191"; */
+"191.title" = "輸入時一併檢查拼寫";
+
+/* Class = "NSMenuItem"; title = "縮放"; ObjectID = "197"; */
+"197.title" = "縮放";
+
+/* Class = "NSMenuItem"; title = "標籤"; ObjectID = "345"; */
+"345.title" = "標籤";
+
+/* Class = "NSMenuItem"; title = "新待辦事項"; ObjectID = "730"; */
+"730.title" = "新待辦事項";
+
+/* Class = "NSMenuItem"; title = "項目"; ObjectID = "956"; */
+"956.title" = "項目";
+
+/* Class = "NSMenu"; title = "項目"; ObjectID = "957"; */
+"957.title" = "項目";
+
+/* Class = "NSMenuItem"; title = "清空垃圾桶…"; ObjectID = "1081"; */
+"1081.title" = "清空垃圾桶…";
+
+/* Class = "NSMenuItem"; title = "檢查更新..."; ObjectID = "1107"; */
+"1107.title" = "檢查更新...";
+
+/* Class = "NSMenuItem"; title = "查看"; ObjectID = "1250"; */
+"1250.title" = "查看";
+
+/* Class = "NSMenu"; title = "查看"; ObjectID = "1251"; */
+"1251.title" = "查看";
+
+/* Class = "NSMenuItem"; title = "顯示工具列"; ObjectID = "1263"; */
+"1263.title" = "顯示工具列";
+
+/* Class = "NSMenuItem"; title = "添加聯絡人…"; ObjectID = "1308"; */
+"1308.title" = "添加聯絡人…";
+
+/* Class = "NSMenuItem"; title = "接續行動步驟"; ObjectID = "1333"; */
+"1333.title" = "接續行動步驟";
+
+/* Class = "NSMenu"; title = "接續行動步驟"; ObjectID = "1334"; */
+"1334.title" = "接續行動步驟";
+
+/* Class = "NSMenuItem"; title = "顯示專案尚餘步驟個數"; ObjectID = "1335"; */
+"1335.title" = "顯示專案尚餘步驟個數";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "1336"; */
+"1336.title" = "1";
+
+/* Class = "NSMenuItem"; title = "3"; ObjectID = "1337"; */
+"1337.title" = "3";
+
+/* Class = "NSMenuItem"; title = "2"; ObjectID = "1340"; */
+"1340.title" = "2";
+
+/* Class = "NSMenuItem"; title = "4"; ObjectID = "1341"; */
+"1341.title" = "4";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "1342"; */
+"1342.title" = "5";
+
+/* Class = "NSMenuItem"; title = "6"; ObjectID = "1343"; */
+"1343.title" = "6";
+
+/* Class = "NSMenuItem"; title = "7"; ObjectID = "1344"; */
+"1344.title" = "7";
+
+/* Class = "NSMenuItem"; title = "8"; ObjectID = "1345"; */
+"1345.title" = "8";
+
+/* Class = "NSMenuItem"; title = "9"; ObjectID = "1346"; */
+"1346.title" = "9";
+
+/* Class = "NSMenuItem"; title = "前往"; ObjectID = "1403"; */
+"1403.title" = "前往";
+
+/* Class = "NSMenu"; title = "前往"; ObjectID = "1404"; */
+"1404.title" = "前往";
+
+/* Class = "NSMenuItem"; title = "收件箱"; ObjectID = "1405"; */
+"1405.title" = "收件箱";
+
+/* Class = "NSMenuItem"; title = "今天"; ObjectID = "1406"; */
+"1406.title" = "今天";
+
+/* Class = "NSMenuItem"; title = "任何時間"; ObjectID = "1407"; */
+"1407.title" = "任何時間";
+
+/* Class = "NSMenuItem"; title = "將來某天"; ObjectID = "1408"; */
+"1408.title" = "將來某天";
+
+/* Class = "NSMenuItem"; title = "即將到來"; ObjectID = "1409"; */
+"1409.title" = "即將到來";
+
+/* Class = "NSMenuItem"; title = "記錄簿"; ObjectID = "1412"; */
+"1412.title" = "記錄簿";
+
+/* Class = "NSMenuItem"; title = "建立教程專案"; ObjectID = "1438"; */
+"1438.title" = "建立教程專案";
+
+/* Class = "NSMenuItem"; title = "支援"; ObjectID = "1443"; */
+"1443.title" = "支援";
+
+/* Class = "NSMenuItem"; title = "複製"; ObjectID = "1517"; */
+"1517.title" = "複製";
+
+/* Class = "NSMenuItem"; title = "新重複待辦事項"; ObjectID = "1536"; */
+"1536.title" = "新重複待辦事項";
+
+/* Class = "NSMenuItem"; title = "新專案"; ObjectID = "1538"; */
+"1538.title" = "新專案";
+
+/* Class = "NSMenuItem"; title = "新領域"; ObjectID = "1539"; */
+"1539.title" = "新領域";
+
+/* Class = "NSMenuItem"; title = "購買 Things..."; ObjectID = "1727"; */
+"1727.title" = "購買 Things...";
+
+/* Class = "NSMenuItem"; title = "授權…"; ObjectID = "1728"; */
+"1728.title" = "授權…";
+
+/* Class = "NSMenuItem"; title = "鍵盤快捷鍵"; ObjectID = "1903"; */
+"1903.title" = "鍵盤快捷鍵";
+
+/* Class = "NSMenuItem"; title = "清空垃圾桶…"; ObjectID = "1940"; */
+"1940.title" = "清空垃圾桶…";
+
+/* Class = "NSMenuItem"; title = "重做"; ObjectID = "2178"; */
+"2178.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "快速輸入"; ObjectID = "2251"; */
+"2251.title" = "快速輸入";
+
+/* Class = "NSMenu"; title = "外觀"; ObjectID = "2vq-LB-AY5"; */
+"2vq-LB-AY5.title" = "外觀";
+
+/* Class = "NSMenuItem"; title = "以 Demo 資料取代資源庫"; ObjectID = "7wP-cR-ORY"; */
+"7wP-cR-ORY.title" = "以 Demo 資料取代資源庫";
+
+/* Class = "NSMenuItem"; title = "外觀"; ObjectID = "Bfg-Rx-gbi"; */
+"Bfg-Rx-gbi.title" = "外觀";
+
+/* Class = "NSMenuItem"; title = "將今天清單編組"; ObjectID = "Cs5-RI-2fd"; */
+"Cs5-RI-2fd.title" = "將今天清單編組";
+
+/* Class = "NSMenu"; title = "將今天清單編組"; ObjectID = "DDv-sM-dCu"; */
+"DDv-sM-dCu.title" = "將今天清單編組";
+
+/* Class = "NSMenuItem"; title = "快速查找…"; ObjectID = "Eg4-FV-Yzp"; */
+"Eg4-FV-Yzp.title" = "快速查找…";
+
+/* Class = "NSMenuItem"; title = "從提醒事項匯入 ..."; ObjectID = "4KO-MO-Ndu"; */
+"4KO-MO-Ndu.title" = "從提醒事項匯入 ...";
+
+/* Class = "NSMenuItem"; title = "暗色"; ObjectID = "HIn-TM-dUw"; */
+"HIn-TM-dUw.title" = "暗色";
+
+/* Class = "NSMenuItem"; title = "為 Things 評分…"; ObjectID = "MKb-Ih-JGf"; */
+"MKb-Ih-JGf.title" = "為 Things 評分…";
+
+/* Class = "NSMenuItem"; title = "自動"; ObjectID = "N7z-hs-GM8"; */
+"N7z-hs-GM8.title" = "自動";
+
+/* Class = "NSMenuItem"; title = "自訂Touch Bar…"; ObjectID = "TCI-ok-Abk"; */
+"TCI-ok-Abk.title" = "自訂Touch Bar…";
+
+/* Class = "NSMenuItem"; title = "淺色"; ObjectID = "Tpy-7o-F9X"; */
+"Tpy-7o-F9X.title" = "淺色";
+
+/* Class = "NSMenuItem"; title = "僅按領域編組"; ObjectID = "Tq2-Wl-MoI"; */
+"Tq2-Wl-MoI.title" = "僅按領域編組";
+
+/* Class = "NSMenuItem"; title = "顯示側邊工具欄"; ObjectID = "act-ci-CyV"; */
+"act-ci-CyV.title" = "顯示側邊工具欄";
+
+/* Class = "NSMenuItem"; title = "匯自"; ObjectID = "ayY-Mp-96t"; */
+"ayY-Mp-96t.title" = "匯自";
+
+/* Class = "NSMenuItem"; title = "以選取內容作為標目"; ObjectID = "iOe-MF-vbS"; */
+"iOe-MF-vbS.title" = "以選取內容作為標目";
+
+/* Class = "NSMenuItem"; title = "不要編組"; ObjectID = "kvB-H0-bbf"; */
+"kvB-H0-bbf.title" = "不要編組";
+
+/* Class = "NSMenuItem"; title = "其他應用程式..."; ObjectID = "pAc-J2-ba6"; */
+"pAc-J2-ba6.title" = "其他應用程式...";
+
+/* Class = "NSMenuItem"; title = "按專案/領域編組"; ObjectID = "tgk-bX-8v4"; */
+"tgk-bX-8v4.title" = "按專案/領域編組";
+
+/* Class = "NSMenu"; title = "匯自"; ObjectID = "tif-t3-nfd"; */
+"tif-t3-nfd.title" = "匯自";
+
+/* Class = "NSMenuItem"; title = "新標目"; ObjectID = "tqj-oC-49B"; */
+"tqj-oC-49B.title" = "新標目";
+
+/* Class = "NSMenuItem"; title = "移到這裡"; ObjectID = "uZb-Mw-fHo"; */
+"uZb-Mw-fHo.title" = "移到這裡";
+
+/* Class = "NSMenuItem"; title = "關閉"; ObjectID = "vyZ-ef-QWY"; */
+"vyZ-ef-QWY.title" = "關閉";
+
+/* Class = "NSMenuItem"; title = "從 Todoist 匯入..."; ObjectID = "yCb-v8-gEa"; */
+"yCb-v8-gEa.title" = "從 Todoist 匯入...";

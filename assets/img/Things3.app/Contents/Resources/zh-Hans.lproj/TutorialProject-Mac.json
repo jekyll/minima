@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Things Mac 概览",
+      "notes" : "此项目向您展示马上开始行动需要知道的一切信息。到处逛逛吧，不要犹豫 – 您可以从帮助菜单创建一个新项目。",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "了解基础知识"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "点按两下此待办事项",
+            "notes" : "您正在查看一个待办事项！点按左侧的复选框完成它。完成的待办事项被收集在项目的底部。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "创建新待办事项",
+            "notes" : "轮到您了 – 只需点击键盘上的 ⌘N。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "将此待办事项添加到您的今天列表中",
+            "notes" : "点按下面的日历按钮，计划您将何时完成此待办事项。选择今天。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "稍后计划此待办事项",
+            "notes" : "再次点按日历按钮，但是这次选择未来的一个日期。那天到来时，它会自动显示在“今天”列表中。\n\n计划待办事项在每部分底部群组在一起。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "创建新标题",
+            "notes" : "前往“文件“ → ”新建标题“创建标题，然后将待办事项拖入其中。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "创建项目",
+            "notes" : "更重要的功能！在侧边栏底部，轻点“+ 新建列表”可以添加自己的项目。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "组织区域",
+            "notes" : "为生活的各个不同部分创建“区域”，例如工作、家庭、理财等。您可以将项目拖入到区域中，方便进行整理。\n\n在边栏底部，点按“+ 新列表”按钮，创建一个列表。\n\n与项目不同的是，区域不会标记为完成。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "完成了！",
+            "notes" : "这是您真正需要了解的全部信息。开始添加自己的项目和待办事项吧。\n\n您可以稍后返回此项目，了解下面的高级功能。项目结束时，点按顶部的进度环，将其标记为完成。\n\n我们希望您喜欢 Things！"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "调整您的设置"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "显示您的日历事件",
+            "notes" : "您可以将日历连接至 Things，并查看所有事件和待办事项。前往 \"Things\" → \"偏好设置\" → “日历事件”将其打开。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "添加小组件",
+            "notes" : "在使用其他应用程序时，您可以使用小组件快速访问您的列表。\n\n您可以添加任意数量的小组件。操作方式如下：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "在屏幕右侧打开\"通知中心\""
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "点按底部的按钮，编辑小组件"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "搜索 Things 并添加小组件"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "右击接口编辑小组件并选择要显示的列表"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "同步您的设备",
+            "notes" : "Things Cloud 让您的待办事项在 Mac、iPhone 和 iPad 上保持同步。前往 Things → 偏好设置 → Things Cloud，创建一个免费帐户。\n\n即使只使用一台设备，也应该创建 Things Cloud 帐户 – 这能确保您的数据永远得到安全备份。"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "提高工作效率"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "从任何地方添加待办事项",
+            "notes" : "无论在哪个应用中，您都可以使用“快速录入”向 Things 添加待办事项。点击“Ctrl+空格”来尝试一下吧。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "电子邮件、文件和网页链接",
+            "notes" : "您可以链接至电子邮件、文件和网页，只需将它们拖入待办事项的备注。\n\n更好的是，您可以使用“快速录入”的自动填写功能自动完成。若要启用自动填写，前往“Things” → “偏好设置” → “快速录入”。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "通过快速查找搜索和导航",
+            "notes" : "通过\"快速查找\"功能查找内容非常方便。收缩此待办事项，然后只需输入列表、项目、待办事项或标签的名称即可，它会立即为您呈现查找结果。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "为待办事项添加标签",
+            "notes" : "通过标签，您可以在 Things 中自定义工作流程。\n\n例如，您可以…\n- 使用标签标记地点，例如“办公室”或“家庭”。\n- 标记您所有的“差旅”。\n- 使用“重要”标签区分待办事项优先级。\n- 标记您正在与“凯特”一起做的事情。\n- 或者您可以创作自己的标签。\n\n若要添加标签，点按下面的标签按钮。若要查看某标签的所有待办事项，通过“快速查找”进行搜索。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "对照检查列表逐步操作",
+            "notes" : "通过添加检查列表将待办事项分解成更小的步骤。您可以用它跟踪日常事务、收拾行李箱、制作食品清单等等。\n\n谁知道制作花生酱饼干是如此简单呢？ 😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "将烤箱预热至 350ºF (175ºC)"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "将 1 杯花生酱、1 杯白糖和 1 个鸡蛋放在电动搅拌器中搅拌，直到变得均匀细腻"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "制作出小球放在烤盘上，用叉子将其压平，压出十字图案"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "在烤箱中烘焙 10 分钟，然后冷却 2 分钟"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "设置提醒事项，这样就不会忘记了",
+            "notes" : "每天早晨查看“今天”列表，看看您的日程安排，这是一个很好的习惯。但是，对于那些不能错过的待办事项，设置提醒会让您高枕无忧。\n\n点按下方的日历按钮，输入“星期一下午 3 点”。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "计划您的晚上",
+            "notes" : "使用 Things 管理工作和个人生活时，您会发现可以轻松将部分待办事项设置为今天晚些时候处理。点按下方的日历按钮，并选择“今晚”。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "隐藏侧边栏以聚焦您的工作",
+            "notes" : "隐藏侧边栏，可以专心工作。只需将侧边栏手柄一直向左拖，或者点击 ⌘\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "打开多个窗口",
+            "notes" : "组织待办事项时，让多个列表并排打开非常有用。右键点按侧边栏中的任何列表可以在新窗口中打开。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "将待办事项转换为项目",
+            "notes" : "有时候，您可能创建一个待办事项，但是后来发现它实际上是一个更加复杂的项目。没问题！在下面的工具栏中，点按 ••• 并选择“转换为项目”。\n\n这些检查列表项将变成新项目中的待办事项：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "1 号待办事项"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "2 号待办事项"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "让您的待办事项重复",
+            "notes" : "有些事情您每几天、几周或几个月就会做一次。创建一个重复的待办事项，Things 到时候将自动提醒您。这会节省许多时间，让您始终如一！\n\n若要创建重复的待办事项，前往\"文件\" → \"新建重复的待办事项\"。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "学习一些键盘快捷键",
+            "notes" : "若要掌握 Things 的所有快捷键，前往“帮助” → “键盘快捷键”。下面是几个最重要快捷键：\n\n⌘S：选择何时开始待办事项\n⌘T：将待办事项标记为今天\n⌘⇧M：将待办事项移到另一个列表\n\n⌘↑：向上移动待办事项\n⌘↓：向下移动待办事项"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "使用“”标记为备注添加结构",
+            "notes" : "Things 支持使用“标记”来为备注添加结构和样式。\n\n如果您不了解“标记”功能，可以看看下面的使用说明。如果要突出强调一个词，可以为其加星号，就像*强调*。您可以看到，Things 可以检测到这种用法，并将这个词显示为斜体。 如果您删除星号，这个词将恢复为正常字体。\n\n以下是一些示例：\n- 使用两个星号可以将文字**加粗**。\n- 使用冒号可以::高亮显示::文字。\n- 在一行的开头插入 “#”，可以将其设置为标题，例如：\n\n# 这就是标题\n\n---\n\n“标记”看起来可能有点奇怪，不过它可以帮助您在输入过程中快速添加文字的样式。我们也提供了键盘快捷键，您可以在“编辑” → “标记”中找到相应的快捷键。\n\n如需了解更多信息，请查看我们的“标记指南”：culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "在您离开之前…"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "继续关注我们",
+            "notes" : "率先了解此应用的最新功能和开发情况。在社交网络上关注我们，或者注册接收我们的时事通讯：culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "为这款应用程序评分",
+            "notes" : "如果您喜欢 Things，请在 App Store 中为它评分吧 – 这能让它与众不同！\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "获取 Things for iPhone and iPad",
+            "notes" : "通过 Things for iPhone and Apple Watch 保持高效节奏：culturedcode.com\/things\/iphone\/appstore\/\n\n通过 Things for iPad 查看和组织待办事项：culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "任何问题？我们随时为您解答！",
+            "notes" : "如果您有任何问题，我们的网站上有许多技术支持文章。您也可以向我们发送信息，我们很乐意提供帮助！\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]
