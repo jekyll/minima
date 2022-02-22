@@ -154,7 +154,7 @@ Describe the various hyperparameters and the tradeoffs involve
 
 
 
-Describe the various optimisers
+Describe the various optimisers and their differences
 
 - Stochastic gradient descent - update weights in proportion to gradient
 - Momentum - gradient updates includes an expoential weighted average of past gradient updates
@@ -236,6 +236,8 @@ What does a Graph Neural Network do, and was it trained, and how does it work?
 
 - Reference: [0](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
 
+
+
 What are some applications of Graph Neural Networks?
 
 - Traffic prediction at [Google](https://deepmind.com/blog/article/traffic-prediction-with-advanced-graph-neural-networks)
@@ -250,7 +252,9 @@ What does a Generative Adversial Network do, and was it trained, and how does it
 - TBC
 
 
+What are the challenges training a Generative Adversial Network?
 
+- TBC
 
 
 #### Natural Langauge Processing
@@ -262,13 +266,6 @@ Describe the differences between various word vector embeddings.
 - TBC
 
 
-
-What is the difference between GPT, BERT and XLNet?
-
-- TBC
-
-
-
 What is the attention mechanism?
 
 - TBC
@@ -276,6 +273,12 @@ What is the attention mechanism?
 
 
 What are transformers?
+
+- TBC
+
+
+
+What is the difference between GPT, BERT and XLNet?
 
 - TBC
 
@@ -293,7 +296,7 @@ What are transformers?
 
 [SUTD 50.035 Computer Vision](https://istd.sutd.edu.sg/undergraduate/courses/50035-computer-vision)
 
-What is the difference between (the historical and latest CNNs, e.g. MobileNet)?
+What is the difference between (the historical significant and latest CNNs)?
 
 - VGG - multiple blocks, each block has multiple layers of CNN and max pool to downsample
 - ResNet - Residual connections and batch normalisation
@@ -303,12 +306,7 @@ What is the difference between (the historical and latest CNNs, e.g. MobileNet)?
 
 
 
-Bounding boxes and bounding shapes, and how is the objective trained  
-
-
-
-
-
-
 
 ## Unclassified
+
+(hold)
