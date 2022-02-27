@@ -23,16 +23,19 @@ If you are actively looking for jobs, also keep an updated copy of your resume o
 
 #### Estimate your available time
 
-If you aren't freelancing full time, make sure you actually have the time to work on the projects you are taking up. Account for time spent finding new projects, managing finances, personal chores, entertainment, etc.
+If you aren't freelancing full time, make sure you actually have the time to work on the projects you are taking up. Account for time spent studying, finding new projects, managing finances, personal chores, entertainment, etc.
 
 ### Getting projects
-I built up a steady flow of projects by constantly reaching out to new potential clients, and delivering great value to existing clients who often referred me to people they knew. These are two things that worked for finding new clients.
+I built up a steady flow of projects by constantly reaching out to new potential clients, and These are two things that worked for finding new clients.
 
 #### Cold messaging
-Follow people and join communities of people who create things. This could be online on Twitter/Instagram/Discord/Facebook or offline at meetups/events. When you see someone talking about a project that sounds interesting, show them your portfolio and ask if you could help them with it. Some people will not be interested, but others might show interest and some of those will lead to projects.
+Follow people and join communities of people who create things. This could be online on Twitter/Instagram/Discord/Facebook or offline at meetups/events. When you see someone talking about a project that sounds interesting, show them your portfolio and ask if you could help them with their project. Some people will not be interested, but others might show interest and some of those will lead to projects.
 
 #### Offer a freebie
 This is more time intensive but also tends to get more responses. When you see someone posting about their product, do a quick critique and show them what a better way to handle it could be. Make sure to be polite about this—not everyone is happy about a random person pointing out problems with something this made. If you feel they are appreciative, offer to help them further improve their product as a paid project.
+
+#### Referrals 
+If you deliver great value to clients, they will often refer you to other people they knew. Stick to timelines, be communicative about delays or other problems, and mention that you are open to more work when you are closing the project.
 
 ### "The Deal"
 What are you going to do, and for how much money?
@@ -44,13 +47,13 @@ When you first talk to a client, do your best to understand the scope of the pro
 Write down the scope of work, how much time you estimate it will take you to do it, and the expected payment schedule for each deliverable. I have a template for this [here](https://docs.google.com/document/d/1Jrae9rlAyUL9MEh5eNnzCmaF8S6W489sYz6-Kj2NI-M/edit?usp=sharing). Share this with the client over email—this gives them some context into where the money will go, and also makes sure you are both on the same page about what you will deliver.
 
 #### Insist on an advance
-Ask for 10-25% of the project cost up front as an advance. Do not start any work on the project till the advance clears. If a client is unwilling to pay a token amount to get the work started, they will likely not be willing to pay you the full amount once you deliver the work. I have learnt this the hard way. 
+Ask for 10-25% of the project cost up front as an advance. Do not start any work on the project till the advance is in your bank account. If a client is unwilling to pay a token amount to get the work started, they will likely not be willing to pay you the full amount once you deliver the work. I have learnt this the hard way.
 
-#### Keep slack in your estimates
+#### Estimating for unclear scope
 
 When giving an estimate for a project with an unclear scope, give an estimate for the worst case scenario. Let the client know that it's an estimate and that you will charge them for the time it actually takes, but in no case will it be more than the estimate.
 
-For eg. if your hourly rate is $25, and you think a project might take about 10 hours, quote $300 instead of $25. Be honest with your billing, and if it took less time, your client will feel like they got a good deal. If it actually does take longer (which it often does, things can always go wrong or just be more complicated than expected) you will have a little bit of breathing room in your estimate.
+For eg. if your hourly rate is $25, and you think a project might take about 10 hours, quote $300-$350 instead of $250. Be honest with your billing, and if it took less time, your client will feel like they got a good deal. If it actually does take longer (which it often does, things can always go wrong or just be more complicated than expected) you will have a little bit of breathing room in your estimate.
 
 #### Underpromise, Over-deliver
 
@@ -76,4 +79,4 @@ When you are your own boss, you set your own work hours. Don't like getting up e
 
 #### Keep learning
 
-If you get very good at one thing, it's easy to keep doing the same thing because you understand it better and get faster at it. However, it is also very easy to stagnate in such a situation. It is crucial to keep trying new things and keep yourself from stagnating. Set aside time to do this.
+If you get very good at one thing, it's easy to keep doing the same thing because you understand it better and get faster at it. However, it is also very easy to stagnate in such a situation. It is crucial to keep trying new things and keep yourself from stagnating. Challenge yourself to try new things in your work, or set aside time for learning.
