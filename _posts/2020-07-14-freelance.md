@@ -59,6 +59,9 @@ For eg. if your hourly rate is $25, and you think a project might take about 10 
 
 Give the client just a little bit more than you promised them. If you charged for a logo, throw in some business cards. If you're designing an app for a new startup, create some social media banners for them. Figure out what your client could use, and if it doesn't take too much effort, do it. This is also a good way to get referred to new clients-people tend to remember and appreciate things like this.
 
+#### Track your time
+
+Use a time-tracking app like [Toggl](https://toggl.com/) to track how much time you spend on projects. This helps you get better at estimating how much time tasks actually take you, and where your time is going.
 
 ### Once you have a few projects
 Freelancing in the long term
