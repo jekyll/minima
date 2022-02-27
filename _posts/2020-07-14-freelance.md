@@ -6,41 +6,30 @@ thumbnail: https://gyanl.com/assets/thumbs/freelance.png
 tags: misc
 ---
 
-I started my first job as a UX Designer at Microsoft soon after finishing my Master's degree in Interaction Design at IDC School of Design, IIT Bombay.
+### Before starting
 
-# How did I get here?
+#### Show your work
 
-When I was a nerdy, computer obsessed teenager in school, a few of my nerdy, computer-obsessed friends were part of the school computer club, Exun. Members could hang out in the computer lab and go for inter-school competitions, and so I desperately wanted to join the club. This lead me down the path of learning GIMP, a free and open source graphics editor like Photoshop, and later a variety of video editing softwares so I could make short films. I even dabbled in making some very odd stop-motion films, like this one:
-
-<iframe class="embed" width="720" height="405" src="https://www.youtube.com/embed/uN1Rtzk_TMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-###### I like to think this is not bad, just avant-garde.
-
-### Get a work website and an email
-
-“Looking” professional can help by having indicators
-A potential client needs reasons to trust you.
-
-### Show your work
-
-Create a place to show your work. This can include projects, reviews from clients, and
+Create a place to show your work. This could be a portfolio on a site like Behance, Vimeo, Medium, or your own website.
 
 If you are actively looking for jobs, also keep an updated copy of your resume on your website. Here are some [tips for making a great resume](https://gumroad.com/l/resumeguide).
 
+#### Get a work website and an email
+
+“Looking” professional can help a potential client to trust you with their project. Once you buy a domain, setting up a custom email can be done for free using tools like Zoho. Your website can also feature reviews from clients.
+
 ### Accurately estimate your available time
 
-### Offer a freebie
+If you aren't freelancing full time, make sure you actually have the time to work on the project you are taking up. Account for time spent finding new projects, managing finances, personal chores, entertainment, etc.
 
-### Insist on an advance
 
-### Insist on an advance
+### Write down the scope of work and expected payment schedule
 
 ### Keep slack in your estimates
 
 When giving an estimate for a project with an unclear scope, give an estimate for the worst case scenario. Let the client know that it's an estimate and that you will charge them for the time it actually takes, but in no case will it be more than the estimate.
 
 For eg. if your hourly rate is $25, and you think a project might take about 10 hours, quote $300 instead of $25. Be honest with your billing, and if it took less time, your client will feel like they got a good deal. If it actually does take longer (which it often does, things can always go wrong or just be more complicated than expected) you will have a little bit of breathing room in your estimate.
-
-### Write down the scope of work and expected payment schedule
 
 ### Underpromise, Over-deliver
 
@@ -54,7 +43,7 @@ Unlike a job where there is usually a consistent flow of work and a consistent i
 
 The flip side of not having work is having too much work. There are only so many hours in the day, and if you take on too much work at once, you may be unable to deliver work on time.
 
- I've kept in touch with a network of people who do similiar work, and instead of taking on too much work and then being unable to deliver or
+I've kept in touch with a network of people who do similiar work, and instead of taking on too much work and then being unable to deliver or
 
 ### Set some boundaries
 
@@ -67,3 +56,12 @@ This was okay for a while—I enjoyed the work, and my clients were always happy
 If you get very good at one thing, it's easy to keep doing the same thing because you understand it better and get faster at it. However, it is also very easy to stagnate in such a situation. It is crucial
 
 When you are your own boss, you can pick your own work hours.
+
+
+### Getting projects
+
+### Offer a freebie
+
+### Insist on an advance
+
+### Insist on an advance
