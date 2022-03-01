@@ -11,24 +11,18 @@ I started my first job as a UX Designer at Microsoft soon after finishing my Mas
 ![Voice @ Microsoft](https://gyanl.com/assets/ms-voice.png)
 ###### Voice @ Microsoft
 
-### Designing for voice
-https://www.speechly.com/blog/voice-application-design-guide/
+## Projects at Microsoft
+#### Rethinking Read Aloud for mobile
+Read Aloud is a text to speech feature in Microsoft Word. It was first introduced on Desktop, where it is frequently used to proof-read documents for tone and typos. Word on mobile devices is used more for consuming documents, and our hypothesis was that Read Aloud would be used differently on mobile devices. I conducted user studies to find out more about how mobile users consume information with voice, and proposed mobile-specific design improvements for Read Aloud. 
 
-# How did I get here?
+#### Presenter Coach for PowerPoint Mobile
+Presenter Coach helps users rehearse their presentations with AI-powered live feedback about things like using too many filler words, repeating phrases, reading off the slides, etc. Coach also generates a report at the end of the session with additional details. The limited space on mobile devices created further contraints for what it was possible to show to users during a rehearsal, and I prototyped a number of possible visual treatments and tested with users to find what users found most helpful. 
 
-When I was a nerdy, computer obsessed teenager in school, a few of my nerdy, computer-obsessed friends were part of the school computer club, Exun. Members could hang out in the computer lab and go for inter-school competitions, and so I desperately wanted to join the club. This lead me down the path of learning GIMP, a free and open source graphics editor like Photoshop, and later a variety of video editing softwares so I could make short films. I even dabbled in making some very strange stop-motion films, like this one:
+#### Dictation for OneNote mobile
+OneNote on mobile devices has a sticky notes for quickly capturing information, as well as fully fledged OneNote notebooks to capture and organise ideas. I conducted user studies to find out how people use voice technologies to capture thoughts - from people using recorded memos as reminders, to students recording lectures in classes. I worked with the OneNote team to introduce voice as a new input method for both sticky notes and Onenote notebooks.
 
-<iframe class="embed" width="720" height="405" src="https://www.youtube.com/embed/uN1Rtzk_TMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-###### I like to think this is not bad, just avant-garde.
+#### Transcription in Microsoft Word
+Transcription converts audio recordings into a text transcript, with timestamped sections separated by speaker. Snippets from the transcript can then be used in the Word document. I was responsible for using user feedback to improve support for multiple recordings, adding dark mode support, and extending the feature to Windows.
 
-As I spent more time trying to see what I could create with computers, I become something of a go-to guy for designing posters, magazines, or videos. I remained convinced that this was a hobby and once I finished school I went on to study IT Engineering. I wasn't bad at it—my grades were decent, but I found myself stifled by the rigid environment and continued to want avenues to do more interesting things. I kept an eye out for hackathons like [HackIndia](https://gyanl.com/hackindia) (for which I designed the brand identity and social media posts), competitions, and open days by companies like Zomato.
-
-However, I wasn't a programmer or a web designer or a graphic designer, and the yearly
-
-the coolest thing you could do was be
-
- A few of my friends were members
-
- been interested in creating things with computers
-
-In my undergraduate days, I was studying IT Engineering
+#### I can't talk about this one yet
+Working on a mobile app that is yet to be launched
