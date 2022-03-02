@@ -24,5 +24,8 @@ OneNote on mobile devices has a sticky notes for quickly capturing information, 
 #### Transcription in Microsoft Word
 Transcription converts audio recordings into a text transcript, with timestamped sections separated by speaker. Snippets from the transcript can then be used in the Word document. I was responsible for using user feedback to improve support for multiple recordings, adding dark mode support, and extending the feature to Windows.
 
+#### Mobile refresh for Word, Excel & PowerPoint
+You can do a lot with the Office suite of apps, and for years the apps have used the *Ribbon menu* on desktop to organise all the commands. When the WXP Apps were first launched on mobile, they borrowed the structure of the Ribbon to maintain familiarity, with adaptations to the still-new paradigms of mobile apps. I was part of a team that rethought the aging mobile interface, and created new unified design patterns for commanding and navigation across Word, Excel and PowerPoint.
+
 #### I can't talk about this one yet
 Working on a mobile app that is yet to be launched
