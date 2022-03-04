@@ -188,9 +188,7 @@ html {
 .site-title {
   color: var(--text-color-dark);
   @include relative-font-size(1.25);
-  font-family: $title-font-family;  
   font-weight: 800;
-  letter-spacing: -0.02em;
   margin-bottom: 0;
   float: left;
   vertical-align: middle;

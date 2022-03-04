@@ -12,6 +12,7 @@ I started my first job as a UX Designer at Microsoft soon after finishing my Mas
 ###### Voice @ Microsoft
 
 ## Projects at Microsoft
+
 #### Rethinking Read Aloud for mobile
 Read Aloud is a text to speech feature in Microsoft Word. It was first introduced on Desktop, where it is frequently used to proof-read documents for tone and typos. Word on mobile devices is used more for consuming documents, and our hypothesis was that Read Aloud would be used differently on mobile devices. I conducted user studies to find out more about how mobile users consume information with voice, and proposed mobile-specific design improvements for Read Aloud. 
 
