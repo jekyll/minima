@@ -7,6 +7,9 @@ permalink: /about
 
 Hello, my name is Gyan Lakhwani. I am a designer and a nerd, and this website is a place for me to document my thoughts and try out experiments with code. If you find something broken (which is likely because I keep trying out things), please tweet at me [@gyanl](https://twitter.com/gyanl).
 
+![A photo of me wearing a cap, trees in the background](https://gyanl.com/assets/shimla-gyan.jpg)
+###### A photo of me
+
 #### Work
 I'm currently working on voice experiences at Microsoft. I have also previously worked on digital products with names like Google and Zomato, as well as a number of smaller startups.
 
