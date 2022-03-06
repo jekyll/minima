@@ -6,9 +6,9 @@ html {
   --text-color: #555;
   --text-color-light: #999;
 
-  --accent-color-dark: #000D87;
-  --accent-color: #0016D8;
-  --accent-color-light: rgb(0 22 216 / 10%);
+  --accent-color-dark: hsl(258, 95%, 25%);
+  --accent-color: hsl(258, 100%, 50%);
+  --accent-color-light: hsla(258, 100%, 75%, 0.12);
 
   --overlay-color: rgba(255, 255, 255, .8);
   --overlay-edge-color: rgba(0, 0, 0, .08);
