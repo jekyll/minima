@@ -2,7 +2,7 @@ title: Gyan Lakhwani
 author: Gyan Lakhwani
 email: hello@gyanl.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Made with <3 in Mumbai, India
+  Made with <3 in New Delhi, India
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -11,7 +11,7 @@ permalink: /:title
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%a, %d %b, %Y"
+  date_format: "%d %B, %Y"
 
   # generate social links in footer
   social_links:
