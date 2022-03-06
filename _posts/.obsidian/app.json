@@ -12,6 +12,8 @@
     "open-with-default-app": true,
     "file-recovery": true
   },
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
   "legacyEditor": false,
   "livePreview": true
 }

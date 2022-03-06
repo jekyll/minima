@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-smart-typography",
+	"name": "Smart Typography",
+	"version": "1.0.1",
+	"minAppVersion": "0.11.13",
+	"description": "Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses",
+	"author": "mgmeyers",
+	"authorUrl": "https://github.com/mgmeyers/obsidian-smart-typography",
+	"isDesktopOnly": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "markdown-prettifier",
+  "name": "Markdown prettifier",
+  "description": "Tries to fix and reformat ugly Markdown and adds things like 'modified date' etc.",
+  "isDesktopOnly": false,
+  "author": "Cristian",
+  "authorUrl": "https://github.com/cristianvasquez",
+  "js": "main.js",
+  "version": "0.1.3"
+}

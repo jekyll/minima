@@ -1,0 +1,693 @@
+.theme-light
+{
+  --background-inline-code: rgb(240, 240, 240);
+  --background-nav-alt: rgb(58, 62, 63);
+  --background-nav-file-tag: rgb(203, 77, 73);
+  --background-nav-selected: rgb(203, 77, 73);
+  --background-nav: rgb(41, 44, 46);
+  --background-primary: rgb(250, 250, 250);
+  --background-tag: #b5b5b5;
+  --border-inline-code: rgb(215, 215, 215);
+  --code-block-background: #ffffff;
+  --code-block-border: #92a1a17a;
+  --font-family-editor: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --font-family-preview: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --interactive-accent: rgb(203, 77, 73);
+  --interactive-accent-hover: rgb(151, 46, 43);
+  --text-accent: rgb(203, 77, 73);
+  --text-faint: rgb(150, 150, 150);
+  --text-header: rgb(44, 44, 44);
+  --text-highlight-bg: #b4ff0066;
+  --text-inline-code: rgb(45, 45, 45);
+  --text-nav-selected: rgb(255, 255, 255);
+  --text-nav: rgb(190, 190, 190);
+  --text-normal: rgb(44, 44, 44);
+  --text-normal-opposite: rgb(216, 216, 216);
+}
+
+.theme-dark {
+  --background-inline-code: rgb(41, 44, 46);
+  --background-nav-alt: rgb(58, 62, 63);
+  --background-nav-file-tag: rgb(116, 190, 247);
+  --background-nav-selected: rgb(73, 73, 73);
+  --background-nav: rgb(41, 44, 46);
+  --background-primary: rgb(28, 30, 32);
+  --background-tag: rgb(111, 112, 116);
+  --border-inline-code: rgb(76, 76, 76);
+  --code-block-background: rgb(32, 32, 32);
+  --code-block-border: rgb(77, 77, 77);
+  --font-family-editor: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --font-family-preview: Avenir, "Avenir Next", "Avenir Next Cyr", 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+  --interactive-accent: rgb(116, 190, 247);
+  --interactive-accent-hover: rgb(24, 147, 242);
+  --text-accent: rgb(116, 190, 247);
+  --text-faint: rgb(150, 150, 150);
+  --text-header: rgb(198, 213, 224);
+  --text-highlight-bg: rgb(64, 73, 181);
+  --text-inline-code: rgb(230, 230, 230);
+  --text-nav-selected: rgb(255, 255, 255);
+  --text-nav: rgb(190, 190, 190);
+  --text-normal: rgb(216, 216, 216);
+  --text-normal-oppsite: rgb(44, 44, 44);
+}
+
+/* header colors */
+.cm-header, 
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--text-header);
+}
+
+/* Changing size/color of the header hashtags ## */
+.cm-formatting-header {
+	color: var(--text-faint);
+  font-size: 0.6em;
+}
+
+/* Backlinks header colors - thanks @a-star-wave! */
+.side-dock-collapsible-section-header {
+  color: var(--text-nav);
+}
+
+/* Headers in editor - hide the #'s */
+/* .cm-formatting-header-1, .cm-formatting-header-2, .cm-formatting-header-3, .cm-formatting-header-4, .cm-formatting-header-5, .cm-formatting-header-6, .cm-formatting-header-7 {
+  visibility: hidden; 
+  position: relative; 
+  width: 20px; 
+  display: inline-block;
+} */
+
+/* Headers in editor - show custom content - common */
+/* .cm-formatting-header-1:after, .cm-formatting-header-2:after, .cm-formatting-header-3:after, .cm-formatting-header-4:after, .cm-formatting-header-5:after, .cm-formatting-header-6:after, .cm-formatting-header-7:after {
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+} */
+
+/* Headers in editor - show custom content - specifics */
+/* .cm-formatting-header-1:after { bottom:  2px; content: "H1"; }
+.cm-formatting-header-2:after { bottom:  0px; content: "H2"; }
+.cm-formatting-header-3:after { bottom:  0px; content: "H3"; }
+.cm-formatting-header-4:after { bottom: -1px; content: "H4"; }
+.cm-formatting-header-5:after { bottom: -1px; content: "H5"; }
+.cm-formatting-header-6:after { bottom: -1px; content: "H6"; }
+.cm-formatting-header-7:after { bottom: -1px; content: "H7"; } */
+
+.cm-s-obsidian span.cm-url {
+  color: var(--text-accent);
+}
+
+.markdown-preview-view mark {
+  color: var(--text-normal);
+  padding: 0px 4px;
+}
+
+.cm-formatting-em.cm-em {
+  color: var(--text-faint);
+  font-weight: 100;
+  font-size: 0.6em;
+}
+.cm-formatting-strong.cm-strong {
+  color: var(--text-faint);
+  font-weight: 100;
+  font-size: 0.6em;
+}
+
+
+
+
+
+
+
+/* Wrap long nav text */
+.nav-file-title, .nav-folder-title {
+  white-space: normal;
+}
+
+/* Indent wrapped nav text */
+.nav-file-title-content {
+  margin-left: 10px;
+  text-indent: -10px;
+}
+
+/* Horizontal rule between Icons and vault in left nav */
+.nav-buttons-container {
+  border-bottom: 1px solid var(--background-nav-alt);
+}
+
+/* The name of the vault */
+.nav-folder.mod-root > .nav-file-title, .nav-folder.mod-root > .nav-folder-title {
+  color: var(--text-nav);
+}
+
+/* Color of left nav tree text */
+.nav-file-title, .nav-folder-title {
+  color: var(--text-nav);
+}
+
+
+/* New top tabs */
+.workspace-tabs {
+  background-color: var(--background-nav-alt);
+}
+
+.workspace-tab-header-container {
+  background-color: var(--background-nav-alt);
+}
+
+/* Color of the curve of the top tabs */
+.workspace-tab-container-before.is-before-active,
+.workspace-tab-container-after.is-after-active,
+.workspace-tab-header.is-before-active,
+.workspace-tab-header.is-after-active {
+  background-color: var(--background-nav);
+}
+
+/* Background color of unselected tabs */
+.workspace-tab-container-before.is-before-active .workspace-tab-header-inner, 
+.workspace-tab-container-after.is-after-active .workspace-tab-header-inner, 
+.workspace-tab-header.is-before-active .workspace-tab-header-inner, 
+.workspace-tab-header.is-after-active .workspace-tab-header-inner {
+  background-color: var(--background-nav-alt);
+}
+
+/* Background color of selected tab */
+.workspace-tab-header.is-active {
+  background-color: var(--background-nav);
+}
+
+/* resize handle coloring */
+.workspace-leaf-resize-handle {
+  background-color: transparent;
+}
+
+/* Set the left nav background to same color as ribbon so we can make a curved corner that matches */
+.workspace-tabs .workspace-leaf {
+  background-color: var(--background-nav-alt);
+}
+
+/* Set the left nav background to different color from ribbon, and give a curved corner with statusbar */
+.mod-left-split .workspace-tabs .workspace-leaf .workspace-leaf-content {
+  background-color: var(--background-nav);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+/* Set the right nav background to different color from ribbon, and give a curved corner with statusbar */
+.mod-right-split .workspace-tabs .workspace-leaf .workspace-leaf-content {
+  background-color: var(--background-nav);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.side-dock.mod-right {
+  border-left: 0px;
+}
+
+/* Left nav ribbon background color */
+.side-dock-ribbon {
+  background-color: var(--background-nav-alt);
+}
+
+/* Left nav ribbon background-color */
+.side-dock-ribbon-before.is-before-active, 
+.side-dock-ribbon-after.is-after-active, 
+.side-dock-ribbon-tab.is-before-active, 
+.side-dock-ribbon-tab.is-after-active {
+  background-color: var(--background-nav);
+}
+
+/* Left nav ribbon background-color */
+.side-dock-ribbon-before.is-before-active .side-dock-ribbon-tab-inner, 
+.side-dock-ribbon-after.is-after-active .side-dock-ribbon-tab-inner, 
+.side-dock-ribbon-tab.is-before-active .side-dock-ribbon-tab-inner, 
+.side-dock-ribbon-tab.is-after-active .side-dock-ribbon-tab-inner {
+  background-color: var(--background-nav-alt);
+}
+
+/* Left nav ribbon active background-color */
+.side-dock-ribbon-tab.is-active {
+  background-color: var(--background-nav);
+}
+
+/* Left nav ribbon active hover text color (icon color) */
+.side-dock-ribbon-tab.is-active:hover {
+  color: var(--text-accent);
+}
+
+/* Left nav ribbon inactive hover text color (icon color) */
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover {
+  color: var(--text-accent);
+}
+
+/* Background and text color of selected item in left nav tree */
+.nav-file.is-active > .nav-file-title, 
+.nav-file.is-active > .nav-folder-title, 
+.nav-file.is-active > .nav-folder-collapse-indicator, 
+.nav-folder.is-active > .nav-file-title, 
+.nav-folder.is-active > .nav-folder-title, 
+.nav-folder.is-active > .nav-folder-collapse-indicator {
+  background-color: var(--background-nav-selected);
+  color: var(--text-nav-selected);
+}
+
+/* Background and text color of selected item in left nav tree - when hovering */
+.nav-file.is-active > .nav-file-title:hover, 
+.nav-file.is-active > .nav-folder-title:hover, 
+.nav-file.is-active > .nav-folder-collapse-indicator:hover, 
+.nav-folder.is-active > .nav-file-title:hover, 
+.nav-folder.is-active > .nav-folder-title:hover, 
+.nav-folder.is-active > .nav-folder-collapse-indicator:hover {
+  background-color: var(--text-accent);
+  color: var(--text-nav-selected);
+}
+
+/* Background and text color of hovered item in left nav tree */
+body:not(.is-grabbing) .nav-file-title:hover, 
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--background-secondary-alt);
+  color: var(--text-nav-selected);
+}
+
+/* Background and text color of hovered collapse indicator in left nav tree */
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
+  background-color: var(--background-secondary-alt);
+  color: var(--text-nav-selected);
+}
+
+/* Left Nav menu item - hover background color */
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--background-nav-alt);
+}
+
+/* Left Nav menu item - hover background color of the collapse/expand arrow */
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator, 
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
+  background-color: var(--background-nav-alt);
+}
+
+/* Left side dock */
+.side-dock.mod-left {
+  border-right: 1px solid var(--background-secondary-border);
+}
+
+/* Font adjustments for pane headers */
+.view-header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Status bar ... duh? :) */
+.status-bar {
+  background-color: var(--background-nav-alt);
+  border-top: 0px solid var(--background-nav-alt);
+  color: var(--text-nav);
+}
+
+/* Testing a gradient design for statusbar */
+/* .status-bar {
+  border-top: 0px;
+  background-color: var(--background-nav-alt);
+  background: linear-gradient(90deg, rgba(255,0,0,0) 5%, var(--background-nav-alt) 20%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  color: var(--text-nav);
+} */
+
+/* Context menu hover item */
+.menu-item:hover {
+  background-color: var(--background-secondary-alt);
+  color: var(--text-accent);
+}
+
+
+/* Font for the markdown source panel */
+div.markdown-source-view {
+	font-family: var(--font-family-editor);
+}
+
+/* Font for the markdown preview panel */
+div.markdown-preview-view {
+	font-family: var(--font-family-preview);
+}
+
+/* Coloring the list bullets/numbers */
+.cm-s-obsidian span.cm-formatting-list {
+	color: var(--text-accent);
+  font-size: 0.85em;
+  font-weight: 500;
+  font-family: var(--font-monospace);
+}
+
+/* Editor view - task list, color and veritcal align */
+.cm-s-obsidian span.cm-formatting-task {
+  color: var(--text-accent);
+  font-size: 0.85em;
+  font-weight: 500;
+  position: relative;
+  top: -0.12em;
+}
+
+/* Preview Checkboxes don't seem to align correctly */
+.markdown-preview-view .task-list-item-checkbox {
+  /* width: 15px; */
+  /* height: 15px; */
+  /* position: relative; */
+  /* top: 3px; */
+}
+
+/* Resetting the default hue-rotate(42deg) */
+.markdown-preview-view .task-list-item-checkbox {
+  /* filter: hue-rotate(42deg); -- DEFAULT */
+  filter: none;
+}
+
+.CodeMirror .cm-math {
+  color: var(--text-inline-code);
+}
+
+/* color of inline code ticks */
+.cm-s-obsidian span.cm-inline-code.cm-formatting-code {
+  color: var(--text-faint);
+}
+
+/* color of inline code */
+.cm-s-obsidian span.cm-inline-code {
+  color: var(--text-inline-code);
+}
+
+/* color and border of inline code (between the ticks) */
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code),
+.markdown-preview-section code {
+  background-color: var(--background-inline-code);
+  border: 0px solid var(--border-inline-code);
+  font-weight: 600;
+  color: var(--text-inline-code);
+}
+
+/* Preview code block background */
+.markdown-preview-view pre {
+  padding: 1em;
+  background-color: var(--code-block-background);
+  border-radius: 4px;
+  border: 1px solid var(--code-block-border);
+  white-space: pre-wrap;
+  line-height: 1.0em;
+}
+
+/* Unset the background and font weight from where we set it for inline code */
+.markdown-preview-view pre code {
+  background-color: transparent;
+  font-weight: normal;
+}
+
+/* Code block border color */
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+	border-top: 1px solid var(--code-block-border);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/* Code block border color */
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+	border-bottom: 1px solid var(--code-block-border);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+/* Code block background color */
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+  background-color: var(--code-block-background);
+}
+
+/* Code block left and right padding */
+.cm-s-obsidian pre.HyperMD-codeblock {
+  padding: 0px 10px 0px 10px;
+  color: var(--text-inline-code);
+}
+
+/* Code block top padding */
+.cm-s-obsidian pre.HyperMD-codeblock-begin {
+	padding-top: 10px;
+}
+
+/* Code block bottom padding */
+.cm-s-obsidian pre.HyperMD-codeblock-end {
+	padding-top: 10px;
+}
+
+/* Code block left and right border colors */
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+	border-left: 1px solid var(--code-block-border);
+	border-right: 1px solid var(--code-block-border);
+}
+
+/* Enable wrapping of code blocks in the preview panel */
+.theme-light code[class*="language-"], .theme-light pre[class*="language-"],
+.theme-dark code[class*="language-"], .theme-dark pre[class*="language-"] {
+  white-space: pre-wrap;
+  background-color: var(--code-block-background);
+}
+
+/* Add some spacing when a #hashtag is used */
+/* .cm-hashtag, .markdown-preview-section .tag {
+  line-height: 1.9em;
+} */
+
+/* Tag pillbox - common settings for editor left, editor right and preview */
+.cm-s-obsidian span.cm-hashtag-begin, 
+.cm-s-obsidian span.cm-hashtag-end,
+a.tag {
+  background-color: var(--background-tag);
+  color: var(--text-nav-selected);
+  padding-bottom: 2px;
+  padding-top: 2px;
+	text-decoration: none;
+  font-family: var(--font-family-editor);
+  font-size: 0.9em;
+}
+
+/* Tag editor left side pillbox */
+.cm-s-obsidian span.cm-hashtag-begin {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	padding-left: 8px;
+}
+
+/* Tag editor right side pillbox */
+.cm-s-obsidian span.cm-hashtag-end {
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-right: 10px;
+}
+
+/* Tag preview pillbox */
+a.tag {
+	border-top-left-radius: 250px;
+	border-top-right-radius: 250px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	padding-left: 10px;
+	padding-right: 12px;
+}
+
+/* Add a tiny bit of padding to the link brackets and parenthesis */
+.cm-s-obsidian span.cm-formatting-link,
+.cm-s-obsidian span.cm-formatting-link-string {
+  padding: 0 1px 0 1px;
+  /* font-weight: 500; */
+}
+
+/* Additional left/right padding for tag pane so hover background has some room */
+.tag-pane-tags {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+/* Color the hover background like we do the selected left nav */
+.tag-pane-tag:hover {
+  background-color: var(--background-nav-alt);
+  color: var(--text-nav-selected);
+}
+
+/* Style the tag pane tag count with the bear red coloring used in selected item from left nav */
+.tag-pane-tag-count {
+  background-color: var(--text-accent);
+  color: var(--text-nav-selected);
+}
+
+/* Backlinks title match hover */
+.search-result-file-title:hover {
+  background-color: var(--background-nav-alt);
+}
+
+/* Backlinks content match hover */
+.search-result-file-match:hover {
+  background-color: var(--background-nav-alt);
+}
+
+/* Backlink titles for matches */
+.search-result-file-title {
+  color: var(--text-nav);
+}
+
+/* Backlink highlighted [[links]] */
+.search-result-file-matched-text {
+  color: var(--text-nav-selected);
+  background-color: var(--text-accent);
+  padding: 2px;
+  border-radius: 4px;
+}
+
+/* Add button hovers to the the Update internal links modal (and possibly others) */
+.modal-button-container button:not(.mod-cta):not(.mod-warning):hover {
+  background-color: var(--text-accent);
+  color: var(--text-nav-selected);
+}
+
+/* Background color of rename inputs */
+.nav-file-title-content.is-being-renamed,
+.nav-folder-title-content.is-being-renamed {
+  cursor: text;
+  border-color: var(--interactive-accent);
+  background-color: var(--background-nav);
+  padding-left: 15px;
+}
+
+/* Background color of file tags, like "png" */
+.nav-file-tag {
+  background-color: var(--background-nav-file-tag);
+  color: var(--text-nav-selected);
+}
+
+/* Remove the border, padding, and margin for the transcludes/embeds */
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+  border: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hide the title of the embeds */
+.markdown-embed-title {
+  display: none;
+}
+
+/* Allow a full embed, not a partial, scrolling embed */
+.markdown-preview-view .markdown-embed-content {
+  max-height: unset;
+  overflow-y: unset;
+  padding-right: unset;
+}
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
+  max-height: unset;
+}
+
+/* Add support for [Calendar plugin](https://github.com/liamcain/obsidian-calendar-plugin) */
+#calendar-container {
+  --color-background-heading: transparent;
+
+  --color-background-day: transparent;
+  --color-background-day-empty: transparent;
+  --color-background-day-active: var(--background-nav-selected);
+  --color-background-day-hover: var(--background-nav-alt);
+
+  --color-dot: var(--text-nav);
+  --color-arrow: var(--text-nav);
+
+  --color-text-title: var(--text-faint);
+  --color-text-heading: var(--text-faint);
+  --color-text-day: var(--text-nav);
+  --color-text-today: var(--text-nav-selected);
+}
+
+/* fix graph controls */
+.workspace-split.mod-right-split .graph-controls,
+.workspace-split.mod-right-split .graph-control-section-header {
+  color: var(--text-normal-oppsite);
+  background-color: var(--background-nav);
+  --background-secondary-alt: var(--background-nav-alt);
+  --background-modifier-border: var(--background-nav-alt);
+}
+
+/* fix graph text */
+.theme-light .graph-view {
+  --text-normal:  rgb(127, 127, 127);
+}
+.theme-dark .graph-view {
+  --text-normal: rgb(127, 127, 127);
+}
+
+
+/* 
+Try to support content in the navs... this is difficult because this theme is a 
+split of dark and light. So content in the main pane should be light mode, while content
+in the left pane should be dark mode
+*/
+/* .workspace-tabs .view-content {
+  color: var(--text-nav);
+} */
+
+
+
+/* input[type=checkbox] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--text-faint);
+  padding: 0;
+}
+input[type=checkbox]:focus{
+outline:0;
+}
+input[type=checkbox]:checked {
+  background-color: var(--text-accent-hover);
+  border: 1px solid var(--text-accent-hover);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+} */
+
+
+/* ======================================================== */
+/* Checkbox stuff,  */
+/* ======================================================== */
+/* .markdown-preview-view .task-list-item-checkbox { height: 19px; } */
+/* .task-list-item input { visibility: hidden; } */
+
+/*
+  Potential emoji:
+  🗹☑️✅✔️🗸🗆◼️◻️▪️▫️🔵🟢🔴⚫⚪⭕❌🔘🔳⬛🔲🆗🟩🟧🟨🟪🟥🟦⬜🟫
+*/
+
+/* Unchecked, set the emoji icon to light grayscale */
+/* .task-list-item input:not([checked=true])::after {
+  content: "✅";
+  opacity: 0.25;
+  visibility: visible;
+  cursor: pointer;
+  filter: grayscale(1);
+} */
+
+/* 
+  Checked, set emoji icon to red to match red graphite accent
+  Note: 
+    hue-rotate makes ✅ a red checkbox, but depends on source color,
+    so you can't just swap in another emojie icon and have it be red
+*/
+/* .task-list-item input[checked=true]::after {
+  content: "✅";
+  visibility: visible;
+  cursor: pointer;
+  filter: hue-rotate(250deg);
+} */

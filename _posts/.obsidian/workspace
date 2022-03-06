@@ -1,16 +1,17 @@
 {
   "main": {
-    "id": "bc19797c23e03a65",
+    "id": "3b405ff6c9b3a96f",
     "type": "split",
     "children": [
       {
-        "id": "ef4733b3ed8194ed",
+        "id": "1ce0c2008bd4d63f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2020-07-13-microsoft.md",
-            "mode": "source"
+            "file": "2020-06-20-misinformation.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -18,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "69546c28fbef0f07",
+    "id": "8dcc3bed6cbbf29e",
     "type": "split",
     "children": [
       {
-        "id": "d934d3a3dd0426a2",
+        "id": "45e63adaac523130",
         "type": "tabs",
         "children": [
           {
-            "id": "20a8dc275ec39c0f",
+            "id": "1a23adcbd3bd4b43",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +35,12 @@
             }
           },
           {
-            "id": "b3b774a7d4f6bdd9",
+            "id": "1bc2776a07689a40",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "portfolio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "0989a60f9a877360",
+    "id": "0ccec1e44f2f1da9",
     "type": "split",
     "children": [
       {
-        "id": "cea3ec0689ba02a2",
+        "id": "dd519c17aad6abd4",
         "type": "tabs",
         "children": [
           {
-            "id": "073bac2c362b7970",
+            "id": "eb7edc0962151795",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2020-07-13-microsoft.md",
+                "file": "2020-06-20-misinformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +77,29 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "241eccb5c49435d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Color Generator.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e7a9e6772aece66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -86,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ef4733b3ed8194ed",
+  "active": "1ce0c2008bd4d63f",
   "lastOpenFiles": [
-    "2020-07-13-microsoft.md",
-    "2017-09-02-zomato.md",
-    "2016-05-10-hackindia.md",
-    "2017-03-17-turning-21.md",
-    "2015-01-01-about-this-blog.md",
-    "2020-01-16-ai-data-policy.md",
-    "2021-01-01-hindsight-in-2020.md",
-    "2019-09-23-font-resources.md",
-    "2019-09-18-contributing-to-osm.md",
-    "2018-07-18-intro-to-photography.md"
+    "2020-06-20-misinformation.md",
+    "2022-02-21-feedback.md",
+    "2022-03-06-webdev-resources.md",
+    "2022-03-08-digital-garden.md",
+    "2022-03-17-turning-26.md",
+    "2021-03-17-turning-25.md",
+    "2020-03-17-turning-24.md",
+    "2019-03-17-turning-23.md",
+    "2018-03-17-turning-22.md",
+    "2017-03-17-turning-21.md"
   ]
 }
