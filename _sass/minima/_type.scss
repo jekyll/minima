@@ -91,6 +91,8 @@ ul {
 
 .post-content {
 
+  padding-bottom: 6*$spacing-unit;
+
   a {
     border-bottom: 2px solid var(--background-color);
     transition: .2s;

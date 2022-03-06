@@ -6,6 +6,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+    <img src="{{ post.thumbnail | escape }}">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
     {%- if page.subtitle -%}
