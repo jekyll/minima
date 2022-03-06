@@ -1,8 +1,9 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,700;1,300&display=swap'); // Define defaults for each variable.
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@700&family=IBM+Plex+Serif:ital,wght@1,300&display=swap'); // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
-$title-font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$title-font-family: "Besley", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$subtitle-font-family: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $heading-font-weight: 700 !default;
@@ -11,12 +12,6 @@ $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 $spacing-unit: 16px !default;
 
-$brand-color: #4350ff !default;
-$brand-color-darker: darken($brand-color, 90%) !default;
-$brand-color-light: lighten($brand-color, 34%) !default; 
-// $text-color:       #251938 !default;
-// $text-color-light: desaturate(lighten($text-color, 20%), 10%) !default;
-// $text-color-darker:desaturate(darken($text-color, 20%), 30%) !default;
 $text-color: #d5c0fe;
 $text-color-darker: #a391c7;
 $text-color-light: #eadffe; // $background-color: desaturate(lighten(complement($brand-color), 34%), 60%) !default;

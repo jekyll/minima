@@ -89,12 +89,12 @@ a:visited.tag:hover {
 }
 
 .sub-title {
-  font-family: $title-font-family;
+  font-family: $subtitle-font-family;
   font-style: italic;
   font-weight: 300;
-  @include relative-font-size(1.25);
+  @include relative-font-size(1.5);
   color: var(--text-color-light);
-  padding-bottom: $spacing-unit/2;
+  padding: $spacing-unit/2 0 $spacing-unit 0;
 }
 /**
  * `main` element

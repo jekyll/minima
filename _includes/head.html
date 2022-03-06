@@ -4,7 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="https://indestructible​type.com​/fonts/Besley.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
@@ -14,5 +13,21 @@
   {% if site.tags != "" %}
     {% include collecttags.html %}
   {% endif %}
+  <script>
+    // Set random color theme
+    var r = document.querySelector(':root');
+    var rs = getComputedStyle(r);
+    var randomHue = Math.floor(Math.random() * 359) + 1;
 
+    console.log("The value of --accent-color is: " + rs.getPropertyValue('--accent-color'));
+
+    var genAccent = "hsl(" + randomHue + ", 80%, 40%)";
+    var genAccentDark = "hsl(" + randomHue + ", 100%, 35%)";
+    var genAccentLight = "hsla(" + randomHue + ", 100%, 85%, 25%)";
+
+    r.style.setProperty('--accent-color', genAccent);
+    r.style.setProperty('--accent-color-light', genAccentLight);
+    r.style.setProperty('--accent-color-dark', genAccentDark);
+
+    </script>
 </head>

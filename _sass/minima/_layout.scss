@@ -1,4 +1,4 @@
-html {
+:root {
   --background-color: #ffffff;
   --foreground-color: #000000;
 
@@ -15,7 +15,7 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-	html {
+	:root {
     --background-color: #0c0b1c;
     --foreground-color: rgba(0, 0, 0, 0.3);
 
@@ -416,7 +416,7 @@ html {
 .post-meta {
   font-weight: 600;
   font-size: 12px;
-  color: var(--accent-color);
+  color: var(--accent-color-dark);
   opacity: .75;
   margin: -4px 0 0;
 }
