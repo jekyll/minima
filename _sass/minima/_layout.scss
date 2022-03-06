@@ -464,8 +464,16 @@ html {
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  text-align: center;
+  padding: 6*$spacing-unit 0;
+  margin: $spacing-unit 0; 
+  border-radius: 8px;
+
+h1{
+  font-size: 48px;
 }
+}
+
 
 .social-media-list {
   display: table;
