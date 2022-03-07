@@ -9,7 +9,7 @@ date modified: 07-03-2022
 
 ### Personal Motto
 
-I made these wallpapers as a reminder to plan out what I want to do, do one thing at a time, and try new things. They have now become a personal meme of sorts. Watch me ruthlessly prioritize getting Biryani twice a week and eat it with singular focus.
+I made these wallpapers as a reminder to plan out what I want to do, do one thing at a time, and try new things. They have now become a personal meme of sorts. Watch me ruthlessly prioritize getting Biryani twice a week and eat it with singular focus. Typeset in Space Grotesk, one of my current favorite fonts.
 
 ![Ruthless Prioritization](https://gyanl.com/assets/ruthless.png)
 ###### [Download](https://gyanl.com/assets/ruthless.png?download=true&filename=ruthless.png)
