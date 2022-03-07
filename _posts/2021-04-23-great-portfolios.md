@@ -6,7 +6,9 @@ permalink: portfolios
 tags: misc
 ---
 
-A portfolio is maybe the most important thing for a designer looking for work. I talk to a lot of early career designers who have done great work, but don't adequately show it on their portfolios. This is a list of sites that I think are great to look at for inspiration.
+A portfolio is maybe the most important thing for a designer looking for work. I talk to a lot of early career designers who have done great work, but don't adequately show it on their portfolios. Recruiters are also curious about your personality—what drives you? Your side projects or hobbies—something you do for yourself or your community could be what speaks the most about you as a person. 
+
+This is a list of sites that I think are great to look at for inspiration.
 
 ## Portfolios
 

@@ -4,11 +4,13 @@ title: Getting started with freelancing
 subtitle: Some advice for designers starting out
 thumbnail: https://gyanl.com/assets/thumbs/freelance.png 
 tags: misc
+date modified: 27-02-2022
 ---
 
 I worked as a freelance graphic and UI/UX designer for many years before switching to a full-time position at Microsoft. Freelancing can be challenging to get started with—and it's not for everyone, but the freedom to pick your projects, working hours,  location and working style can be appealing reasons to try it.
 
 ### Before starting
+
 Creating a portfolio and getting ready to accept projects
 
 #### Show your work
@@ -26,27 +28,35 @@ If you are actively looking for jobs, also keep an updated copy of your resume o
 If you aren't freelancing full time, make sure you actually have the time to work on the projects you are taking up. Account for time spent studying, finding new projects, managing finances, personal chores, entertainment, etc.
 
 ### Getting projects
+
 I built up a steady flow of projects by constantly reaching out to new potential clients, and These are two things that worked for finding new clients.
 
 #### Cold messaging
+
 Follow people and join communities of people who create things. This could be online on Twitter/Instagram/Discord/Facebook or offline at meetups/events. When you see someone talking about a project that sounds interesting, show them your portfolio and ask if you could help them with their project. Some people will not be interested, but others might show interest and some of those will lead to projects.
 
 #### Offer a freebie
+
 This is more time intensive but also tends to get more responses. When you see someone posting about their product, do a quick critique and show them what a better way to handle it could be. Make sure to be polite about this—not everyone is happy about a random person pointing out problems with something this made. If you feel they are appreciative, offer to help them further improve their product as a paid project.
 
 #### Referrals 
+
 If you deliver great value to clients, they will often refer you to other people they knew. Stick to timelines, be communicative about delays or other problems, and mention that you are open to more work when you are closing the project.
 
 ### "The Deal"
+
 What are you going to do, and for how much money?
 
 #### First conversation
+
 When you first talk to a client, do your best to understand the scope of the project and the exact deliverables. You can check if there is a budget in mind, but do not immediately quote a number. Say you will follow up with an estimate.
 
 #### Follow up
+
 Write down the scope of work, how much time you estimate it will take you to do it, and the expected payment schedule for each deliverable. I have a template for this [here](https://docs.google.com/document/d/1Jrae9rlAyUL9MEh5eNnzCmaF8S6W489sYz6-Kj2NI-M/edit?usp=sharing). Share this with the client over email—this gives them some context into where the money will go, and also makes sure you are both on the same page about what you will deliver.
 
 #### Insist on an advance
+
 Ask for 10-25% of the project cost up front as an advance. Do not start any work on the project till the advance is in your bank account. If a client is unwilling to pay a token amount to get the work started, they will likely not be willing to pay you the full amount once you deliver the work. I have learnt this the hard way.
 
 #### Estimating for unclear scope
@@ -64,6 +74,7 @@ Give the client just a little bit more than you promised them. If you charged fo
 Use a time-tracking app like [Toggl](https://toggl.com/) to track how much time you spend on projects. This helps you get better at estimating how much time tasks actually take you, and where your time is going.
 
 ### Once you have a few projects
+
 Freelancing in the long term
 
 #### Plan for stretches of no work
