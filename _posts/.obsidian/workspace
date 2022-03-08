@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2019-11-29-wallpapers.md",
+            "file": "2020-04-17-ginger-beer.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2019-11-29-wallpapers.md",
+                "file": "2020-04-17-ginger-beer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +112,15 @@
   },
   "active": "1ce0c2008bd4d63f",
   "lastOpenFiles": [
+    "2020-04-17-ginger-beer.md",
+    "2020-06-20-misinformation.md",
+    "2021-01-01-hindsight-in-2020.md",
+    "whiteboard.md",
+    "2019-05-27-unbox-1.md",
     "2019-11-29-wallpapers.md",
     "2021-12-15-s-alt.md",
     "2019-11-28-pairings.md",
     "2021-03-17-turning-25.md",
-    "2021-01-01-hindsight-in-2020.md",
-    "2020-07-13-microsoft.md",
-    "2021-10-21-quotes.md",
-    "2015-01-01-colophon.md",
-    "2022-03-08-digital-garden.md",
-    "2021-11-01-chaos.md"
+    "2020-07-13-microsoft.md"
   ]
 }

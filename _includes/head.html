@@ -14,12 +14,14 @@
     {% include collecttags.html %}
   {% endif %}
   <script>
+
+    var currentDate = new Date();
+    var minute = currentDate.getMinutes();
+
     // Set random color theme
     var r = document.querySelector(':root');
     var rs = getComputedStyle(r);
-    var randomHue = Math.floor(Math.random() * 359) + 1;
-
-    console.log("The value of --accent-color is: " + rs.getPropertyValue('--accent-color'));
+    var randomHue = minute * 6;
 
     var genAccent = "hsl(" + randomHue + ", 80%, 40%)";
     var genAccentDark = "hsl(" + randomHue + ", 100%, 35%)";

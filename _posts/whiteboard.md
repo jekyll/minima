@@ -36,3 +36,7 @@ Read about unrelated things. Philosophy. Society. Culture. Read about the world 
 - if this was a book/movie, how will you keep audience hooked till the end? 
 - surprise, twists?
 
+
+[@dburka](https://twitter.com/dburka)
+
+reminds us of this beautiful [#quote](https://twitter.com/hashtag/quote?src=hashtag_click) at [http://designup.school](https://t.co/NR7V0ji6Su) grad-day: “Don't make something unless it is both necessary and useful; but if it is both, don't hesitate to make it beautiful.”
