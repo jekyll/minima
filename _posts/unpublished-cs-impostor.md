@@ -36,17 +36,23 @@ Please message me somehow, if you are interested.
 - To show your experience and make your answer unique, you may want to elaborate with an example on how you applied the concepts in question.
 
 
+### How to ask questions
+
+- (Good to understand how thoughtful interview processes are designed)
+- Whether are knowledge questions good - considering that it can be memorised
+- What questions are better - those that are more conceptual for example, rather than facts
+- How to follow up
+- How to assess - commuication skills (how simple can you explain it), conceptual correctness, experience in applying the concept
+
+
 ### What should this contain
 
 - No opinions. While we should have opinions (on ethics, predictions, controversies), you have to figure them out and justify them yourself.
 - References. This will serve as attribution, and also further reading material to understand the topic.
 - Good questions. This should contain questions that can be asked in a technical interview. It should not be a history quiz or a numbers trivia.
+- Short answers. Here we prepare short questions that can be reasonably be presented as an answer.
+- We would not cover all aspects of computer science, or even everything that is taught in school. This is meant to answer interview questions, not your course examinations.
 
-
-
-### Scope of Coverage
-
-We would not cover all aspects of computer science, or even everything that is taught in school. We want questions that are actually asked in interviews.
 
 #### Relevant roles
 
@@ -94,6 +100,8 @@ We want interview questions that are immediately relevant to a software engineer
 - Past Interview questions. Some past interviewees share their interviewing experience on online platforms such as [Glassdoor](https://www.glassdoor.sg/Interview), [LeetCode](https://leetcode.com/discuss/interview-experience), [BinarySearch](https://binarysearch.com/). Many of the questions here are adapted from these. 
 - Past Successes. Companies are likely to hire based on experience with previous hires. You can search up previous year's hires on LinkedIn and use them as a standard to estimate your chances of success. Regardless, do not be discouraged to submit your resume as long as you are sincerely interested in the role.
 - https://blog.hackerrank.com/developer-skills-list/
+- Bytedance interivew questions https://osjobs.net/topk/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/
+
 
 # Computer Science Topics
 

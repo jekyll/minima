@@ -1,3 +1,14 @@
+# Foreword
+
+The main purpose of this blog make my interactions more efficient.
+
+For example, if someone asks me for my internship experience, I would share my blog entry on my internships. This way I can give the same preliminary introduction to anyone who is interested - and I can improve on this introduction with feedback. If we exchange messages or meet up, we can have a more meaningful and productive conversations.
+
+These blogposts serve as living documents - they will continue to be published beyond the date that is annotated on the article.
+
+The following continues with the README from the original repository. 
+
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.

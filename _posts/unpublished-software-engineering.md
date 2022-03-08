@@ -6,6 +6,12 @@ title: "Content for JC sharing session"
 [TOC]
 
 
+- Summarize from https://github.com/tonghuikang/swe-sharing
+- What is the appeal
+- Why is it going to be indispensable
+- To what extent should everyone learn - like how we learn math?
+
+
 
 # Personal Introduction
 

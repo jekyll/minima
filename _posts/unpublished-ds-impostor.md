@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "What am I studying in university"
+title: "How do be a DS/ML impostor"
 ---
 
-# How to be a DS impostor
-
-After failing multiple technical interviews for being clueless on many machine learning concepts, I realised that I needed to be better impostor.
+I started this document after after failing a technical interview for being clueless on many machine learning concepts. This was before taking the deep learning course.
 
 This document compiles answers optimised for data science interviews. Refer to the other document for computer science topics.
+
+Where to get machine learning experience - ML course projects, as well as TBC.
 
 
 * auto-gen TOC:
@@ -16,9 +16,13 @@ This document compiles answers optimised for data science interviews. Refer to t
 
 (I need to redefine what is data science here)
 
+# Sections copied from swe-impostor
 
-
-Please refer to the main document on how to use this document, and what should this document contain.
+- What is this about
+- How to answer questions
+- How to ask questions
+- What should this contain
+- (Please refer to the swe-impostor on how to use this document, and what should this document contain)
 
 
 ### Useful resources
@@ -30,10 +34,13 @@ Please refer to the main document on how to use this document, and what should t
 - Towards Data Science Medium Blogs
 - Question compilations [0](https://github.com/resumejob/interview-questions)
 - ML technical debt https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+- https://developers.google.com/machine-learning/guides/rules-of-ml
+- https://arxiv.org/abs/2201.00650
 
 
 
-# Data Science Topics
+
+# Machine Learning / Data Science Topics
 
 (Should be ordered in some reasonable order)
 
