@@ -160,11 +160,15 @@ Yours faithfully
 (Signoff)
 ```
 
-I think you will get \$225 for signing up for a new account. If you use my referral link (listed in the last section), I get $50 in addition (and you still get your signing bonus).
+I think you will get \$225 for signing up for a new account, in around week after your first paycheck. If you use my referral link (listed in the last section), I get $50 in addition (and you still get your signing bonus).
 
 You do not need a social security number to open your account. However, to apply for a credit card, you need to have a social security number and you need to go down to the office to link your social security number to your account. You may want to apply and use your credit card to build a credit rating. A good credit rating makes approval for housing applications easier. See the last section for my credit card referral link.
 
 Chase offers a [credit score check](https://www.chase.com/personal/credit-cards/free-credit-score), powered by Experian. For me, it appeared around half a month after I made my first payment on my credit card.
+
+Generally, Chase has been fine. They do send me promotions that I need to opt out of. The biggest issue I have with the service is fraud reporting, which is [not 24/7](https://www.chase.com/digital/resources/privacy-security/security/report-fraud).
+
+When you are first sending a large amount of cash to someone, you may trigger a fraud prevention measure and your account will be locked. You can resolve this my calling Chase (with phone number listed on the debit card) with the details you used to sign up your account with.
 
 
 
