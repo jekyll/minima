@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [15-03-22](https://twitter.com/polyquantique/status/1503499889778569221) Jake Bulmer dropped by for an admitedly too short visit.
+
 * [28-01-22](https://twitter.com/IF_UNAM/status/1487138409982439430) Nicolás is giving the [Manuel Sandoval Vallarta](https://en.wikipedia.org/wiki/Manuel_Sandoval_Vallarta) seminar at the Instituto de Física, UNAM on Quantum Computational Advantage via Gaussian Boson Sampling.
 
 * [11-01-22](https://twitter.com/PRX_Quantum/status/1480951141680693256) our work in collaboration with Rachel, Bryn, Raúl, Juan Miguel, Trevor and Haoyu on [speeding up the classical simulation of Gaussian Boson Sampling appeared in PRX Quantum](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.010306).
