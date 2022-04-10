@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "2022-03-16-turning-26.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "2022-03-16-turning-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +113,15 @@
   },
   "active": "1ce0c2008bd4d63f",
   "lastOpenFiles": [
+    "2022-03-16-turning-26.md",
     "Untitled.md",
-    "2022-03-17-turning-26.md",
     "2020-04-17-ginger-beer.md",
-    "2020-05-15-drs-reflections.md",
-    "2020-07-13-microsoft.md",
-    "2020-07-14-freelance.md",
-    "2020-07-18-ceed-idc.md",
-    "2020-07-19-ui-design-tricks.md",
-    "2020-12-11-financial-planning.md",
-    "2021-01-01-hindsight-in-2020.md"
+    "2020-06-20-misinformation.md",
+    "2021-01-01-hindsight-in-2020.md",
+    "whiteboard.md",
+    "2019-05-27-unbox-1.md",
+    "2019-11-29-wallpapers.md",
+    "2021-12-15-s-alt.md",
+    "2019-11-28-pairings.md"
   ]
 }
