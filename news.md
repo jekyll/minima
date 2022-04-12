@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* [11-04-22] Our discovery grant will be funded by NSERC 🎉🎉🎉.
+* [11-04-22] Our Discovery Grant will be funded by NSERC 🎉🎉🎉.
 
 * [15-03-22](https://twitter.com/polyquantique/status/1503499889778569221) Jake Bulmer dropped by for an admitedly too short visit.
 
