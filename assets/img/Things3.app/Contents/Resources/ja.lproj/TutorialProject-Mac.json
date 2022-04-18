@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Things for Macをご紹介しましょう",
+      "notes" : "このプロジェクトにはThingsを使い始めるために必要なすべての情報が含まれています。どうぞご自由に試してください。いつでも新しいものをヘルプメニューから作成できます。",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "基本を学ぶ"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "このTo-Doをダブルクリック",
+            "notes" : "今見ているのはTo-Doです！左のチェックボックスをクリックして完了してください。完了済みのTo-Doがプロジェクトの下に集められます。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "新規To-Doを作成",
+            "notes" : "あなたの番です。キーボードで“⌘N”を押してください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "このTo-Doを“今日”のリストに追加",
+            "notes" : "下のカレンダーボタンをクリックして、このTo-Doをいつするか計画しましょう。“今日”を選択してみてください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "このTo-Doを後でするよう計画する",
+            "notes" : "もう1度カレンダーボタンをクリックしてください。今度はこの先の日付を選択してください。その日になると、“今日”のリストに自動的に表示されます。\n\nこの先に予定されているTo-Doはそれぞれのセクションの下にまとめてグループ化されます。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "新規の見出しを作成",
+            "notes" : "ファイル → 新規見出しと進み、見出しを作成し、それからその下にこのTo-Doをドラッグしてください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "プロジェクトを作成",
+            "notes" : "挑戦して！サイドバーの下の“+ 新規リスト”をクリックして、新しいプロジェクトを追加してみましょう。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "エリアで整理",
+            "notes" : "あなたの生活のそれぞれの分野に“仕事”、“家族”、“ファイナンス”など、“エリア”を作成しましょう。作成したプロジェクトをそれらのエリア別に分類しておくと整理が簡単になります。\n\nサイドバーの一番下にある、“+ 新規リスト”をタップして、作成してみましょう。\n\nプロジェクトとは違って、エリアは完了することがありません。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "完了です！",
+            "notes" : "これで基本的な機能についての説明を終了します。どうぞプロジェクトやTo-Doを自由に追加してください。\n\n以下の高度な機能についてご覧になりたい時は、いつでもこのプロジェクトに戻ってきてください。プロジェクトを終了する時、上の進行状況リングをクリックすると、完了としてマークできます。\n\nThingsを楽しくご利用くださいね！"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "設定を調整する"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "カレンダーイベントを表示",
+            "notes" : "カレンダーをThingsに接続して、すべてのイベントとTo-Doを一緒に表示することができます。Things → 環境設定 → カレンダーイベントと進み、オンにしてください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "ウィジェットを追加する",
+            "notes" : "ウィジェットを使うと、他のAppで作業中も自分のリストにすばやくアクセスできます。\n\nいくつでも好きなだけ追加できます。以下の手順に従ってください：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "画面右側の通知センターを開きます"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "一番下から、ボタンをクリックしてウィジェットを編集します"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Thingsを検索してウイジェットを追加"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "右クリックしてウィジェットを編集し、表示したいリストを選択してください"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "デバイスを同期",
+            "notes" : "Things CloudはTo-DoをMac、iPhone、およびiPad間で同期します。Things → 環境設定 → Things Cloudと進み、無料のアカウントを作成してください。\n\nお使いのデバイスが１台だけの場合でも、Things Cloudアカウントを作成することをお勧めします。こうすることでデータを常に安全にバックアップしておけます。"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "仕事効率を上げる"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "To-Doをどこからでも追加",
+            "notes" : "どのアプリケーションからでも、クイック入力を使ってThingsにTo-Doを追加できます。今すぐCtrl キー + Spaceキーを使って試してみましょう。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "メール、ファイル、ウェブページにリンクする",
+            "notes" : "メール、ファイル、ウェブページをTo-Doのメモ欄にドラッグするだけで、それらをリンクにすることができます。\n\nさらに、クイック入力の自動入力機能を使用すれば、自動的にその操作を実行できます。自動入力を有効にするには：Things → 環境設定 → クイック入力と進んでください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "“クイック検索”を使った検索と移動",
+            "notes" : "“クイック検索”を使うと、なんでも超簡単に見つけられます。このTo-Doを閉じてから何か、例えば、リスト、プロジェクト、To-Do、タグなどの名前をタイプし始めると、すぐにその場所に移動できます。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "To-Doをタグ",
+            "notes" : "タグを使用して、Thingsのワークフローをカスタマイズしましょう。\n\n例えば…\n- “仕事”、“プライベート”などシーンに応じてタグを使用できます\n- さまざまな“用事”をタグしておけます\n- “重要”のタグをつけて優先したいTo-Doを区別できます\n- “ケイトさん”とタグして、共同作業している項目をタグできます\n- または、自由に自分だけのタグを作成してください\n\nタグを追加するには、下のタグボタンをクリックしてください。特定のタグを付けたTo-Doをすべて表示するには、“クイック検索”を使って検索してください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "チェックリストを使ってステップごとに進む",
+            "notes" : "To-Doを小さなステップに分けて、チェックリストを追加してみましょう。毎日の日課、スーツケースを詰める、買い物リストなど、さまざまな進行状況を追っていくのに便利です。\n\nピーナツバタークッキーがこんなに簡単に作れるってご存じでしたか？😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "オーブンを350ºF（175ºC）に予熱します"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "ピーナツバター1カップ、白砂糖1カップ、卵1つを電動ミキサーで滑らかなクリーム状になるまでよく混ぜます"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "小さなボール状にしてベーキングシートに並べたら、フォークで平らにして十文字の模様を入れてください"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "オーブンで10分焼いてから、2分冷まします"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "リマインダーを設定して忘れないようにする",
+            "notes" : "毎朝予定を確認するために今日のリストをチェックするのはいい習慣ですね。しかし、絶対に忘れてはいけないTo-Doにはリマインダーを設定しておけばもっと安心です。\n\n下のカレンダーボタンをクリックして、“月曜日3pm”と入力してみましょう。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "アフター5を計画",
+            "notes" : "仕事とプライベートの両方を管理するためにThingsを使用する場合、何件かのTo-Doを後でするように設定しておくと便利なことがあるでしょう。下のカレンダーボタンをクリックして、“今夜”を選択してください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "サイドバーを隠して作業に集中する",
+            "notes" : "集中して作業を進めたい時にはサイドバーを隠すことができます。サイドバーのハンドルを左端までドラッグするか、“⌘\/”を使用してください"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "複数のウインドウを開く",
+            "notes" : "To-Doを整理する際、複数のリストを並べて開くと、とても便利です。サイドバーのリストを右クリックすると、新規ウインドウで開くことができます。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "To-Doをプロジェクトに変換",
+            "notes" : "To-Doを作成した後に、そのTo-Doが実際はもっと複雑なプロジェクトであることに気づくことがありませんか。ご心配なく！下のツールバーから•••をクリックして、“プロジェクトに変換”を選択してください。\n\nこれらのチェックリスト項目は新規プロジェクトでTo-Doになります：",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "To-Do #1"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "To-Do #2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "To-Doを繰り返しにする",
+            "notes" : "日、週、月単位で定期的に実行することがありますね。繰り返しTo-Doを作成すると、Thingsは自動的に正しい日にリマインドします。時間節約や継続に便利です。\n\n作成するには、“ファイル” → “新規繰り返しTo-Do”と進んでください。"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "キーボードショートカットについて",
+            "notes" : "Thingsのすべてのショートカットを表示するには、ヘルプ → キーボードショートカットと進んでください。以下は最も重要なものです：\n\n⌘S：To-Doの開始日を選択\n⌘T：To-Doを“今日”としてマーク\n⌘⇧M：To-Doを別のリストに移動\n\n⌘↑：To-Doを上に移動\n⌘↓：To-Doを下に移動"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "マークダウンを使ってメモを構成",
+            "notes" : "Thingsはメモに構成とスタイルを追加するマークダウンをサポートします。\n\nマークダウンの使用方法: 語句を強調するには、前後にアスタリスクを追加します。例: *強調*。ご覧のように、Thingsはこれを検出して、語句をイタリックで表示します。これらのアスタリスクを削除すると、普通に戻ります。\n\nその他の例を紹介します:\n- アスタリスクを2つ続けて使用すると **ボールド** になります\n- コロンを使うと ::テキストをハイライト:: できます\n- 行の初めに “#” を挿入すると、見出しが作成されます。例:\n\n# これは見出しです\n\n---\n\nマークダウンは、ちょっと変わった、しかしタイプ入力しながら、すばやくテキストをスタイルするのに最適です。また、キーボードショートカットも使用できます。“編集 → マークダウン”から利用してください。\n\n詳細は以下のマークダウンのガイドを参照してください: culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "最後に…"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "最新ニュースをどうぞ",
+            "notes" : "最新機能や開発情報などを一足先にお受け取りください。SNSでフォローしたり、以下からニュースレターにサインアップしてください：culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Appを評価",
+            "notes" : "Thingsを気に入っていただけたら、ぜひApp Storeで評価してください。今後の製品の機能向上に役立てます！\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Things for iPhoneとThings for iPadを入手する",
+            "notes" : "Things for iPhoneとApple Watchで外出先でも仕事効率を高めましょう: culturedcode.com\/things\/iphone\/appstore\/\n\nThings for iPadでTo-Doを確認してオーガナイズしましょう: culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "ご質問ですか。お手伝いします！",
+            "notes" : "ご質問がある場合、弊社ウェブサイトから豊富なサポート記事を参照してください。また、以下のリンクからお問い合わせいただけば、喜んでお手伝いします！\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]

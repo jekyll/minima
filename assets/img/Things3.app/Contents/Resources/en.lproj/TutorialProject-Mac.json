@@ -1,0 +1,297 @@
+[
+  {
+    "type": "project",
+    "attributes": {
+      "title": "Meet Things for Mac",
+      "notes": "This project shows you everything you need to know to hit the ground running. Don’t hesitate to play around in it – you can always create a new one from the Help menu.",
+      "items": [
+        {
+          "type": "heading",
+          "attributes": {
+            "title": "Learn the basics"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Double-click this to-do",
+            "notes": "You’re looking at a to-do! Complete it by clicking the checkbox on the left. Completed to-dos are collected at the bottom of your project."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Create a new to-do",
+            "notes": "Your turn – just hit ⌘N on your keyboard."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Add this to-do to your Today list",
+            "notes": "Click the calendar button below to plan when you’ll do this to-do. Choose Today."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Plan this to-do for later",
+            "notes": "Click the calendar button again, but this time, choose a date in the future. It will automatically appear in your Today list when the date comes.\n\nUpcoming to-dos are grouped together at the bottom of each section."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Create a new heading",
+            "notes": "Go to File → New Heading to create a heading, then drag this to-do under it."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Create a project",
+            "notes": "On to bigger things! At the bottom of the sidebar, click “+ New List” to add a project of your own."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Organize with areas",
+            "notes": "Create an area for each sphere of your life, such as Work, Family, Finance, and so on. You can drop your projects into them to stay organized.\n\nAt the bottom of the sidebar, click “+ New List” to create one.\n\nUnlike projects, areas are never completed."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "You’re done!",
+            "notes": "That’s all you really need to know. Feel free to start adding your own projects and to-dos.\n\nYou can come back to this project later to learn the advanced features below. When you’re done with the project, click the progress ring at the top to mark it complete.\n\nWe hope you’ll enjoy using Things!"
+          }
+        },
+        {
+          "type": "heading",
+          "attributes": {
+            "title": "Tune your setup"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Show your calendar events",
+            "notes": "You can connect your calendars to Things and see all of your events and to-dos together. Go to Things → Preferences → Calendar Events to turn it on."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Add some widgets",
+            "notes": "Widgets let you quickly access to your lists while working in other apps.\n\nYou can add as many as you like. Here’s how:",
+            "checklist-items": [
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Open the Notification Center on the right side of your screen"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "At the bottom, click the button to edit your widgets"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Search for Things and add the widget"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Right-click to edit the widget and choose which list it shows"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Sync your devices",
+            "notes": "Things Cloud keeps your to-dos in sync across your Mac, iPhone, and iPad. Go to Things → Preferences → Things Cloud to create a free account.\n\nEven if you only use one device, you should still create a Things Cloud account – this ensures your data is always safely backed up."
+          }
+        },
+        {
+          "type": "heading",
+          "attributes": {
+            "title": "Boost your productivity"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Add to-dos from anywhere",
+            "notes": "No matter which app you’re in, you can use Quick Entry to add to-dos to Things. Try it now by hitting Ctrl+Space."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Link to emails, files, and web pages",
+            "notes": "You can link to emails, files, and web pages by simply dragging them into the notes of a to-do.\n\nEven better, you can use Quick Entry’s Autofill feature to do it automatically. To enable Autofill, go to Things → Preferences → Quick Entry."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Search and navigate with Quick Find",
+            "notes": "Finding things is super easy with Quick Find. Collapse this to-do, and then just start typing – the name of a list, project, to-do, or tag – and be taken there instantly."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Tag your to-dos",
+            "notes": "Tags allow you to customize your workflow in Things.\n\nFor example, you can…\n- Use tags for places like “Office” or “Home”.\n- Tag all your “Errands”.\n- Prioritize to-dos with an “Important” tag.\n- Tag the things you’re working on with “Kate”.\n- Or you can invent your own tags.\n\nTo add a tag, click the tag button below. To see all to-dos with a given tag, use Quick Find to search for it."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Go step by step with checklists",
+            "notes": "Break a to-do down into smaller steps by adding a checklist. You could use it to track a daily routine, pack a suitcase, make a grocery list, and so on.\n\nAnd who knew it was so easy to make peanut butter cookies? 😃",
+            "checklist-items": [
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Preheat the oven to 350ºF (175ºC)"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Mix 1 cup of peanut butter, 1 cup of white sugar, and 1 egg with an electric mixer until it’s smooth and creamy"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Arrange small balls on a baking sheet and flatten them with a fork, making a criss-cross pattern"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "Bake in the oven for 10 minutes, then cool for 2 minutes"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Set a reminder so you won’t forget",
+            "notes": "It’s a great habit to check your Today list every morning to see what’s on your plate. But for those to-dos you absolutely cannot miss, setting reminders will give you peace of mind.\n\nClick the calendar button below and type “Monday 3pm”."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Plan your evening",
+            "notes": "As you use Things to manage both your work and personal life, you’ll find it convenient to set some of your to-dos aside for later in the day. Click the calendar button below and choose “This Evening”."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Hide the sidebar to focus on your work",
+            "notes": "Work without any distractions by hiding your sidebar. Just drag the sidebar handle all the way to the left, or hit ⌘/"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Open multiple windows",
+            "notes": "As you organize your to-dos, it can be very helpful to have multiple lists open side by side. Right-click any list in the sidebar to open it in a new window."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Convert a to-do into a project",
+            "notes": "Sometimes you might create a to-do, but realize later that it’s actually a more complex project. No problem! In the toolbar below, click ••• and choose Convert to Project.\n\nThese checklist items will become to-dos inside your new project:",
+            "checklist-items": [
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "To-do #1"
+                }
+              },
+              {
+                "type": "checklist-item",
+                "attributes": {
+                  "title": "To-do #2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Make your to-dos repeat",
+            "notes": "There are some things you do every few days, weeks, or months. Create a repeating to-do and Things will automatically remind you on the right day. It’s a great time-saver, and makes you consistent!\n\nTo create one, go to File → New Repeating To-Do."
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Learn some keyboard shortcuts",
+            "notes": "To explore all of Things’ shortcuts, go to Help → Keyboard Shortcuts. Here are the most important ones:\n\n⌘S: choose when to start a to-do\n⌘T: mark a to-do as Today\n⌘⇧M: move a to-do to another list\n\n⌘↑: move a to-do up\n⌘↓: move a to-do down"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Structure your notes with Markdown",
+            "notes": "Things supports Markdown for adding structure and style to your notes.\n\nIf you don’t know Markdown, here’s how it works. To emphasize a word, simply surround it with asterisks, like so: *emphasized*. As you can see, Things detects this and displays the word in italics. If you remove those asterisks, it will go back to normal.\n\nHere are a few more examples:\n- Use two asterisks to make text **bold**\n- Use colons to ::highlight text::\n- Insert “#” at the beginning of a line to make a heading, like so:\n\n# This is a heading\n\n---\n\nMarkdown is a bit quirky, but it’s great for quickly styling your text while you type. You can also use keyboard shortcuts, which you can find in Edit → Markdown.\n\nTo learn more, check out our Markdown Guide: culturedcode.com/things/help/markdown/"
+          }
+        },
+        {
+          "type": "heading",
+          "attributes": {
+            "title": "Before you go…"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Stay in the loop",
+            "notes": "Be the first to know about the latest features and developments. Follow us on social networks or sign up for our newsletter: culturedcode.com/follow/"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Rate the app",
+            "notes": "If you like Things, please rate it in the App Store – this makes a huge difference!\n\nculturedcode.com/things/mac/rate/"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Get Things for iPhone and iPad",
+            "notes": "Stay productive on the go with Things for iPhone and Apple Watch: culturedcode.com/things/iphone/appstore/\n\nReview and organize your to-dos with Things for iPad: culturedcode.com/things/ipad/appstore/"
+          }
+        },
+        {
+          "type": "to-do",
+          "attributes": {
+            "title": "Any questions? We’re here to help!",
+            "notes": "If you have any questions, we have a great collection of support articles on our website. You can also send us a message and we’ll be glad to help!\n\nculturedcode.com/support/"
+          }
+        }
+      ]
+    }
+  }
+]

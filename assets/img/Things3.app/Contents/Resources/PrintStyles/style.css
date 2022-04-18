@@ -1,0 +1,505 @@
+
+/* -------------------------------- 
+General 
+-------------------------------- */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body {
+	font-size: 10pt;
+	line-height: 1.5em;
+	background-color: #fff;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	clear: both;
+}
+
+
+
+
+/* -------------------------------- 
+Page Breaks 
+-------------------------------- */
+
+h1, h2, h3, h4, h5 {
+	page-break-after: avoid;
+}
+
+
+
+
+/* -------------------------------- 
+Font-Family 
+-------------------------------- */
+
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, sans-serif;
+}
+
+.note {
+	/*font-family: Georgia, 'Lucida Grande', sans-serif;*/
+}
+
+
+
+
+/* -------------------------------- 
+Header 
+-------------------------------- */
+
+h1 {
+	font-size: 1.333em;
+	line-height: 1.125em; /* 1.5em / 1.25 = 1.125em */
+	padding: 0.5em 0em;
+	margin: 0.25em 0em 0.5em 0em;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	font-weight: normal;
+}
+
+h1.project,
+h1.area {
+	position: relative;
+	padding: 0.5em 1.5em; /* 2.0 / 1.333 = 1.5 */
+}
+
+h1.project img.checkbox,
+h1.area img.checkbox {
+	left: 0.0em;
+	top: 0.5em;
+}
+
+h1 .meta {
+	display: block;
+}
+
+h1.project .meta {
+	margin-bottom: 0em;
+	margin-top: 0.3em;
+	margin-left: -0.3em;
+	/*margin-right: -2.5em;*/
+	font-size: 0.75em; /* 1.0 / 1.333 = 0.8 */
+	font-weight: normal;
+}
+h1.area .meta {
+	display: none;
+}
+
+h1.view {
+}
+
+h1.tag {
+}
+
+
+
+
+/* -------------------------------- 
+Headline 
+-------------------------------- */
+
+h2 {
+	padding: 0.7em 0em 0.1em 0em;
+	/*margin-top: 1.0em;*/
+	position: relative;
+	text-align: center;
+}
+
+h2.project,
+h2.area {
+	font-weight: bold;
+}
+
+h2.info {
+	font-weight: normal;
+}
+
+h2 .meta {
+	display: block;
+}
+
+/* Meta: Negative margin. */
+h2.project .meta,
+h2.area .meta,
+h2.info .meta {
+	font-weight: normal;
+	margin-top: -1.5em;
+	margin-left: 75%;
+	min-height: 1.5em;
+}
+h2 span.title {
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+/* Meta: Absolute. Works, but collides with headline if .meta is long.
+h2.project .meta,
+h2.area .meta,
+h2.info .meta {
+	text-align: right;
+	position: absolute;
+	font-weight: normal;
+	top: 0.5em;
+	right: 0.0em;
+}
+*/
+
+/* Meat: Floating. Works, but headline can't be centered.
+h2.project .meta,
+h2.area .meta,
+h2.info .meta {
+	text-align: right;
+	float: right;
+	font-weight: normal;
+}
+*/
+
+
+
+/* -------------------------------- 
+Items 
+-------------------------------- */
+
+ul {
+	list-style: none;
+}
+
+li.todo, li.project, li.area, li.info {
+	position: relative;
+	clear: both;
+	min-height: 1.5em;
+	padding: 0.0em 0.0em 0.0em 2.0em;
+}
+
+
+/* ---- To Dos ---- */
+
+li.todo {
+
+}
+
+
+/* ---- Info ---- */
+
+li.info {
+	padding-left: 0em;
+}
+
+li.info .title {
+	float: none;
+	font-size: 0.7em;
+	line-height: 2.143em; /* 1.5em / 0.7 = 2.143em */
+	padding-left: 0.3em;
+}
+
+
+
+
+/* ---- Projects & Areas ---- */
+
+li.project, 
+li.area {
+	/*padding-left: 5.8em;*/
+}
+
+li.project .title,
+li.area .title {
+	font-weight: bold;
+}
+
+
+
+/* ---- Logged / Someday / Postponed / Repeating ---- */
+
+li.someday {
+}
+
+li.logged {
+	padding-left: 7.1em;
+}
+
+li.postponed,
+li.repeating {
+	padding-left: 8em;
+}
+
+
+
+
+
+
+/* -------------------------------- 
+Checkbox 
+-------------------------------- */
+
+img.checkbox {
+	display: block;
+	width: 1.2em;
+	height: 1.2em;
+	position: absolute;
+	top: 0.15em;
+	left: 0em;
+}
+
+li.postponed img.checkbox,
+li.repeating img.checkbox {
+	left: 6em;
+}
+
+li.project img.checkbox,
+li.area img.checkbox {
+
+}
+
+
+
+
+/* -------------------------------- 
+Title 
+-------------------------------- */
+
+.title {
+	display: block;
+	float: left;
+	max-width: 80%;
+}
+
+h1 .title,
+h2 .title {
+	max-width: 100%;
+	display: inline;
+	float: none;
+	text-align: center;
+}
+
+h1.project .title {
+	display: block;
+	text-align: left;
+}
+
+
+/* -------------------------------- 
+Meta 
+-------------------------------- */
+
+.meta {
+	text-align: right;
+	/*margin-left: 50%;*/
+}
+
+h1.project .meta {
+	text-align: left;
+}
+
+
+
+/* -------------------------------- 
+Tags 
+-------------------------------- */
+
+.meta .tag {
+	display: inline-block;
+	font-size: 0.7em; 
+	line-height: 1em; /* 0.7em / 0.7 = 1em */
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	margin: 0.2em 0em 0.0em 0.3em;
+	-webkit-border-radius: 1em; -moz-border-radius: 1em;
+	border: 1px solid #888;
+	color: #000;
+}
+
+
+
+
+/* -------------------------------- 
+Due Date 
+-------------------------------- */
+
+.duedate {
+	display: inline-block;
+	font-size: 0.7em;
+	line-height: 2.14em; /*2.14em;*/ /* 1.5 / 0.7 = 2.14 */
+	text-align: right;
+	margin: 0em 0em 0em 0.5em;
+}
+
+
+
+
+/* -------------------------------- 
+Note 
+-------------------------------- */
+
+.note {
+	font-size: 0.8em;
+	line-height: 1.333em; /* 1.2em / 0.9 = 1.333em */
+	display: block;
+	clear: both;
+	overflow: hidden;
+	padding: 0em 10% 0em 0em;
+	margin-bottom: 0.3em;
+	position: relative;
+	white-space: pre-wrap;
+}
+
+.note .truncationWarning {
+	display: none;
+	position: absolute; 
+	top: 0em; 
+	left: 0em; 
+	width: 100%;
+}
+
+.note .truncationWarning span {
+	display: block;
+	background: white;
+	width: 100%; height: 2em;
+}
+
+h1 .note {
+	font-size: 0.6em; /* 0.8 / 1.333 = 0.6 */
+	text-align: left;
+}
+
+
+/* -------------------------------- 
+Teammate 
+-------------------------------- */
+
+.teammate {
+	display: inline-block;
+	margin-left: 0.2em;
+	font-size: 0.7em;
+	line-height: 2.143em; /* 1.5em / 0.7 = 2.143em */
+}
+
+.teammate img { 
+	width: 1.2em;
+	height: 1.2em;
+	margin: 0.0em 0.3em 0em 0em;
+}
+
+
+
+
+/* -------------------------------- 
+Meta Left Side
+-------------------------------- */
+
+.logdate,
+.postponeddate,
+.repeatingpattern {
+	display: block;
+	width: 7.8em;
+	height: 2.143em; /* one line */
+	position: absolute;
+	top: 0.2em;
+	font-size: 0.7em;
+	line-height: 2.143em; /* 1.5em / 0.7 = 2.143em */
+	overflow: hidden;
+}
+
+
+
+
+/* -------------------------------- 
+Logged Date & Postponed Date & Repeating Pattern 
+-------------------------------- */
+
+.postponeddate,
+.repeatingpattern {
+	left: 0em;
+	text-align: right;
+}
+
+
+
+
+/* -------------------------------- 
+Logged Date 
+-------------------------------- */
+
+.logdate {
+	left: 2.857em; /* 2.0em / 0.7 = 2.857em */
+	text-align: left;
+	width: 7em;
+}
+
+
+
+
+/* -------------------------------- 
+Children 
+-------------------------------- */
+
+.children:before {
+	content: "(";
+}
+.children:after {
+	content: ")";
+}
+
+.children {
+	float: left;
+	line-height: 1em;
+	padding-left: 0.5em;
+	margin-top: 0.75em;
+	font-weight: normal;
+	font-size: 0.7em;
+}
+
+
+
+
+/* -------------------------------- 
+Options
+-------------------------------- */
+
+/* ---- Black ---- */
+
+.note {
+	color: #000;
+}
+.meta span.tag {
+	color: #000;
+}
+
+
+/* ---- Grayscale ---- */
+/*
+.note {
+	color: #666;
+}
+.meta span.tag {
+	color: #666;
+}
+*/
+
+
+/* ---- Color ---- */
+/*
+.note {
+	color: #666;
+}
+.meta span.tag {
+	color: #2b2f33;
+	background-color: #e5f2ff;
+	border-color: #a1bff3;
+}
+*/
+
+
+
+
+

@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Découvrez Things pour Mac",
+      "notes" : "Ce projet contient toutes les informations à connaître pour utiliser correctement Things. N'hésitez pas à le modifier : vous pouvez toujours le recréer à partir du menu Aide.",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Découvrir les principes de base"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Double-cliquer sur cette tâche",
+            "notes" : "Vous regardez une tâche ! Terminez-la en cliquant sur la case à cocher à gauche. Les tâches effectuées sont rassemblées en bas de votre projet."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Créer une tâche",
+            "notes" : "À vous : tapez simplement ⌘N sur votre clavier."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Ajouter cette tâche à votre liste Aujourd'hui",
+            "notes" : "Cliquez ci-dessous sur le bouton du calendrier pour planifier cette tâche. Choisissez Aujourd'hui."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Remettre cette tâche à plus tard",
+            "notes" : "Cliquez de nouveau sur le bouton représentant un calendrier, mais choisissez cette fois-ci une date ultérieure. La tâche apparaîtra automatiquement dans votre liste Aujourd'hui à la date en question.\n\nLes tâches à venir sont regroupées au bas de chaque section."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Créer un en-tête",
+            "notes" : "Allez dans Fichier → Nouvel en-tête pour créer un en-tête, puis glissez-déposez cette tâche en dessous."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Créer un projet",
+            "notes" : "Passons maintenant à la vitesse supérieure ! Au bas de la barre latérale, cliquez sur « + Nouvelle liste » pour ajouter votre propre projet."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "S’organiser grâce aux domaines",
+            "notes" : "Créez un domaine pour chaque sphère de votre vie : Travail, Famille, Argent, etc. Vous pourrez ensuite glisser-déposer des projets dans ces domaines pour vous organiser.\n\nEn bas de la barre latérale, cliquez sur « + Nouvelle liste » pour créer un domaine.\n\nContrairement aux projets, les domaines ne sont jamais terminés."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Et voilà !",
+            "notes" : "Vous savez tout, alors commencez à ajouter des projets et des tâches en fonction de vos besoins.\n\nVous pouvez à tout moment rouvrir ce projet pour découvrir les fonctionnalités avancées ci-dessous. Une fois le projet consulté en entier, cliquez sur l’anneau de progression qui se trouve en haut pour le marquer comme terminé.\n\nNous espérons que Things vous plaira !"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Ajuster votre configuration"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Afficher vos événements de calendrier",
+            "notes" : "Vous pouvez connecter vos calendriers sur Things et visualiser tous vos événements et tâches ensemble. Pour activer ceci, allez sur Things → Préférences → Événements de calendrier."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Ajouter des widgets",
+            "notes" : "Les widgets permettent d’accéder à vos listes tout en travaillant dans d’autres apps.\n\nVous pouvez en ajouter autant que vous le souhaitez. Voici la marche à suivre :",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Ouvrez le centre de notifications sur la partie droite de votre écran"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Au bas de l'écran, cliquez sur le bouton pour modifier vos widgets"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Recherchez Things et ajoutez le widget"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Cliquez avec le bouton droit de la souris pour modifier le widget et choisir la liste à afficher"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Synchroniser vos appareils",
+            "notes" : "Things Cloud assure la synchronisation de vos tâches sur votre Mac, votre iPhone et votre iPad. Pour créer un compte gratuit, cliquez sur Things → Préférences → Things Cloud.\n\nMême si vous n'utilisez qu'un seul appareil, vous pouvez créer un compte Things Cloud : vos données seront ainsi sauvegardées en lieu sûr."
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Améliorer votre productivité"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Ajouter des tâches où que vous soyez",
+            "notes" : "Quelle que soit l’app active, vous pouvez utiliser la saisie rapide pour ajouter des tâches dans Things. Pour essayer cette fonctionnalité, appuyez maintenant sur Ctrl+Espace."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Créer des liens vers des messages, des fichiers et des pages Web",
+            "notes" : "Vous pouvez créer des liens vers des messages, fichiers et pages web simplement en les tirant dans les notes d'une tâche.\n\nMieux encore, vous pouvez utiliser la fonction de saisie automatique pour que cela se fasse tout seul. Pour activer la saisie automatique, allez dans Things → Préférences → Saisie rapide."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Rechercher et naviguer avec la recherche rapide",
+            "notes" : "Grâce à la fonctionnalité de recherche rapide, vous trouvez facilement ce que vous cherchez. Réduisez cette tâche, puis saisissez du texte (le nom d'une liste, d'un projet ou d'une tâche, ou un mot-clé, par exemple) pour y accéder instantanément."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Associer des mots-clés à vos tâches",
+            "notes" : "Les mots-clés vous permettent de personnaliser votre utilisation de Things.\n\nVous pouvez par exemple…\n- Utiliser des mots-clés pour des lieux tels que Bureau ou Maison\n- Ajouter le mot-clé Courses à tous les articles d'une liste de courses\n- Associer le mot-clé Important aux tâches qui sont prioritaires\n- Ajouter au mot-clé Catherine aux tâches sur lesquelles vous travaillez actuellement\n- Créer vos propres mots-clés\n\nPour ajouter un mot-clé, cliquez sur le bouton de mot-clé ci-dessous. Pour afficher toutes les tâches associées à un mot-clé donné, utilisez la fonction de recherche rapide pour les retrouver."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Avancer pas à pas grâce à des listes de pointage",
+            "notes" : "Décomposez une tâche en plusieurs étapes en ajoutant une liste de pointage. Vous pouvez vous en servir pour suivre des habitudes quotidiennes, faire vos valises, dresser une liste de courses, etc.\n\nPlutôt faciles, les cookies au beurre de cacahuètes, non ? 😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Préchauffer le four à 175 °C"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Mélanger 1 cup de beurre de cacahuètes, 1 cup de sucre blanc et 1 œuf au batteur électrique jusqu'à ce que le mélange soit homogène et crémeux"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Former de petites boules sur une plaque à pâtisserie et les aplatir avec une fourchette pour dessiner des croisillons"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Cuire au four pendant 10 minutes, puis laisser refroidir 2 minutes"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Configurer un rappel pour éviter les oublis",
+            "notes" : "Prenez l'habitude de consulter chaque matin la liste Aujourd'hui pour voir ce que vous avez à faire. Et pour les tâches importantes, configurez un rappel pour plus de tranquillité d'esprit.\n\nCliquez sur le bouton du calendrier ci-dessous, puis ajoutez un rappel lundi à 03:00."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Planifier votre soirée",
+            "notes" : "Si vous utilisez Things pour gérer à la fois votre travail et votre vie personnelle, vous voudrez sûrement mettre de côté certaines tâches pour plus tard au cours de la journée. Cliquez sur le bouton ci-dessous représentant un calendrier, puis choisissez Ce soir."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Masquer la barre latérale si elle vous dérange",
+            "notes" : "Travaillez sans aucune distraction en masquant votre barre latérale. Tirez simplement la poignée de la barre latérale jusqu’au bout vers la gauche, ou bien tapez ⌘\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Ouvrir plusieurs fenêtres",
+            "notes" : "Quand vous organisez vos tâches, il est parfois très utile d'afficher plusieurs listes côte à côte. Cliquez dans la barre latérale avec le bouton droit sur une liste pour l'ouvrir dans une nouvelle fenêtre."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Convertir une tâche en projet",
+            "notes" : "Vous avez créé une tâche, mais vous réalisez qu'elle s'inscrit dans un projet plus complexe ? Pas de problème ! Dans la barre d'outils ci-dessous, cliquez sur ••• et choisissez Convertir en projet.\n\nCes éléments de la liste de pointage seront transformés en tâches dans votre nouveau projet :",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Tâche n° 1"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Tâche n° 2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Créer des tâches récurrentes",
+            "notes" : "Il y a certaines choses que vous faites tous les deux ou trois jours, ou semaines, ou mois. Créez une tâche récurrente, et Things vous la rappellera le jour qu'il faut. Cela fait gagner beaucoup de gagner et de méthode !\n\nPour en créer une, aller sur Fichier → Nouvelle tâche récurrente."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Apprendre quelques raccourcis clavier",
+            "notes" : "Pour explorer tous les raccourcis de Things, allez dans Aide → Raccourcis clavier. Voici les plus importants :\n\n⌘S: choisir quand commencer une tâche\n⌘T: marquer une tâche en Aujourd'hui\n⌘⇧M: déplacer une tâche vers une autre liste\n\n⌘↑: déplacer une tâche vers le haut\n⌘↓: déplacer une tâche vers le bas"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Structurer vos notes grâce au Markdown",
+            "notes" : "Things gère le Markdown et vous permet ainsi de structurer et mettre en forme vos notes.\n\nVous ne connaissez pas le Markdown ? Voici comment ça fonctionne : pour mettre en évidence un mot, entourez-le d'astérisques, par exemple *important*. Comme vous pouvez le constater, Things détecte les astérisques et affiche le mot en italique. Si vous supprimez ces astérisques, le texte s'affiche normalement.\n\nVoici d'autres exemples :\n- Utilisez deux astérisques pour mettre du texte en **gras**.\n- Utilisez le signe deux-points pour ::surligner du texte::.\n- Insérez un signe # en début de ligne pour créer un en-tête, par exemple :\n\n# Ceci est un en-tête\n\n---\n\nLe Markdown peut vous sembler un peu étrange, mais c'est une fantastique solution pour mettre en forme rapidement votre texte pendant que vous le saisissez. Vous pouvez également utiliser des raccourcis clavier, visibles dans Édition → Markdown.\n\nPour en savoir plus, consultez notre guide consacré au Markdown : culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Avant que vous ne partiez…"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Être informé de notre actualité",
+            "notes" : "Découvrez en avant-première les dernières fonctionnalités et nouveautés. Suivez-nous sur les réseaux sociaux ou abonnez-vous à notre newsletter : culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Noter l’app",
+            "notes" : "Si vous aimez Things, laissez votre avis sur l'App Store : vos avis comptent beaucoup pour nous !\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Installer Things pour iPhone et iPad",
+            "notes" : "Préservez votre productivité dans tous vos déplacements avec Things pour iPhone et l’Apple Watch : culturedcode.com\/things\/iphone\/appstore\/\n\nExaminez et organisez vos tâches avec Things pour iPad : culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Des questions ? Nous sommes à votre service !",
+            "notes" : "Si vous avez la moindre question, consultez notre site Web, sur lequel figurent de nombreux articles d'assistance. N'hésitez pas à nous envoyer un message, nous sommes à votre service !\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]

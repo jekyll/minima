@@ -1,0 +1,340 @@
+[
+  {
+    "type" : "project",
+    "operation" : "create",
+    "attributes" : {
+      "title" : "Descubra Things Mac",
+      "notes" : "Este proyecto muestra todo lo que necesita saber para empezar a usar ya mismo la aplicación. No dude en experimentar; siempre puede crear una nueva desde el menú Ayuda.",
+      "items" : [
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Aprendiendo lo esencial"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Haga doble clic en esta tarea",
+            "notes" : "Lo que está viendo es una tarea. Para finalizarla, marque la casilla de la izquierda. Las tareas finalizadas se recopilan en la parte inferior del proyecto."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Cree una nueva tarea",
+            "notes" : "Su turno: pulse ⌘N en el teclado."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Añada esta tarea a la lista Hoy",
+            "notes" : "Pulse el botón de calendario que hay debajo para planificar cuándo hará esta tarea. Seleccione Hoy."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Planifique esta tarea para más tarde",
+            "notes" : "Vuelva a pulsar el botón del calendario, pero esta vez escoja una fecha futura. Aparecerá automáticamente en su lista Hoy cuando llegue el día.\n\nLas tareas programadas quedan agrupadas en la parte inferior de cada apartado."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Cree un nuevo encabezamiento",
+            "notes" : "Vaya a Archivo → Nuevo encabezamiento para crear un encabezamiento, y a continuación arrastre esta tarea debajo de él."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Crear un proyecto",
+            "notes" : "Pasemos a cosas de mayor importancia. En la parte inferior de la barra lateral, pulse “+ Nueva lista” para añadir su propio proyecto."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Organizarse con las áreas",
+            "notes" : "Cree un área para cada ámbito de su vida; por ejemplo, Trabajo, Familia, Dinero, etc. Puede arrastrar los proyectos a las distintas áreas para organizarse.\n\nEn la parte inferior de la barra lateral, pulse “+ Nueva lista” para crear una.\n\nA diferencia de los proyectos, las áreas no se finalizan."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "¡Ya ha terminado!",
+            "notes" : "Y eso es todo lo que necesita saber. Ya puede añadir sus propios proyectos y tareas.\n\nPuede regresar a este proyecto más adelante para aprender a usar las funciones avanzadas enumeradas debajo. Cuando haya terminado con el proyecto, pulse el anillo de progreso que hay en la parte superior para marcarlo como finalizado.\n\n¡Disfrute usando Things!"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Opciones a su medida"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Muestre los eventos de su calendario",
+            "notes" : "Puede conectar sus calendarios a Things y ver todos sus eventos y tareas juntos. Vaya a Things → Preferencias → Eventos de Calendario para activarlo."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Añada varios widgets",
+            "notes" : "Los widgets permiten acceder rápidamente a sus listas mientras trabaja en otras apps.\n\nPuede añadir todos los que quiera. Esta es la forma de hacerlo:",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Abra el Centro de Notificaciones a la derecha de la pantalla"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "En la parte inferior, pulse el botón para editar sus widgets"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Busque Things y añada el widget"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Haga clic en el widget con el botón secundario del ratón para editarlo y seleccionar qué lista debe mostrar"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Sincronice todos sus dispositivos",
+            "notes" : "Things Cloud mantiene sus tareas sincronizadas entre su Mac, su iPhone y su iPad. Vaya a Things → Preferencias → Things Cloud para crear una cuenta gratuita.\n\nAunque solo use un dispositivo, le recomendamos que cree una cuenta de Things Cloud: esto garantiza que siempre tendrá una copia de seguridad de sus datos."
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Aumente su productividad"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Añada tareas desde cualquier lugar",
+            "notes" : "Da igual en qué aplicación se encuentre: puede usar Entrada rápida para añadir tareas a Things. Pruébelo pulsando Ctrl+Espacio."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Enlace correos, archivos y páginas web",
+            "notes" : "Puede enlazar mensajes de correo, notas, archivos y páginas web con solo arrastrarlas a las notas de una tarea.\n\nLo que es mejor: puede usar la función Autorrelleno de Entrada rápida para hacerlo automáticamente. Para activar Autorrelleno, vaya a Things → Preferencias → Entrada rápida."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Busque y navegue con Búsqueda rápida",
+            "notes" : "Buscar cosas es facilísimo con la Búsqueda rápida. Repliegue esta tarea y empiece a escribir el nombre de una lista, proyecto, tarea o etiqueta: irá allí al momento."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Etiquete sus tareas",
+            "notes" : "Las etiquetas le permiten personalizar su proceso de trabajo en Things.\n\nPor ejemplo, puede…\n- Usar etiquetas para lugares como “Oficina” o “Casa”.\n- Etiquetar todos sus “Recados”.\n- Dar prioridad a las tareas con la etiqueta “Importante”.\n- Etiquetar las cosas en las que trabaja con una compañera llamada “Nuria”.\n- O puede inventarse sus propias etiquetas.\n\nPara añadir una etiqueta, toque el botón de la etiqueta que hay abajo. Para ver todas las tareas con cierta etiqueta, use la Búsqueda rápida para encontrarlas."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Vaya paso a paso con las listas de verificación",
+            "notes" : "Descomponga una tarea en pasos más pequeños añadiendo una lista de verificación. Puede usarla para llevar el control de una rutina diaria, para hacer el equipaje, para la lista de la compra, etc.\n\n¿Y quién se iba a imaginar que sería tan fácil hacer galletas de mantequilla de cacahuete? 😃",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Precalentar el horno a 175 °C (350 °F)"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Mezclar con la batidora eléctrica 1 taza de mantequilla de cacahuete, 1 taza de azúcar refinado y 1 huevo hasta que quede suave y cremoso"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Ponerlo como bolitas sobre papel de horno y aplastarlas con un tenedor, formando un dibujo entrecruzado"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Hornear durante 10 minutos y dejar enfriar 2 minutos"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Cree un recordatorio para no olvidarlo",
+            "notes" : "Es muy buena costumbre comprobar la lista Hoy cada mañana para ver qué tiene que hacer. Pero para esas tareas que no puede pasar por alto bajo ningún concepto, crear recordatorios le permitirá ir sobre seguro.\n\nPulse el botón del calendario que hay abajo y escriba “lunes 15:00”."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Planifique la noche",
+            "notes" : "A medida que use Things para gestionar su vida personal y su trabajo, verá que resulta cómodo posponer algunas tareas para otro momento del día. Pulse el botón del calendario que hay abajo y seleccione “Esta noche”."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Oculte la barra lateral para centrarse en el trabajo",
+            "notes" : "Trabaje sin distracciones ocultando la barra lateral. Solo tiene que arrastrar el tirador hasta la izquierda o pulsar ⌘\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Abra varias ventanas",
+            "notes" : "A medida que organice sus tareas, puede resultar muy útil tener varias listas abiertas una junto a la otra. Pulse con el botón secundario cualquier lista de la barra lateral para abrirla en una nueva ventana."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Convierta una tarea en un proyecto",
+            "notes" : "Puede que a veces cree una tarea pero luego vea que se trata de un proyecto más complejo. No hay problema. En la barra de herramientas que hay abajo, pulse ••• y seleccione Convertir en proyecto.\n\nEstos elementos de la lista de verificación se convertirán en tareas dentro del nuevo proyecto:",
+            "checklist-items" : [
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Tarea n.º 1"
+                }
+              },
+              {
+                "type" : "checklist-item",
+                "operation" : "create",
+                "attributes" : {
+                  "title" : "Tarea n.º 2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Haga que sus tareas se repitan",
+            "notes" : "Hay ciertas cosas que hace cada pocos días, semanas o meses. Cree una tarea recurrente y Things se lo recordará automáticamente el día indicado. Permite ahorrar mucho tiempo y evitar olvidos.\n\nPara crear una, vaya a Archivo → Nueva tarea recurrente."
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Conozca algunos atajos de teclado",
+            "notes" : "Para explorar todos los atajos de teclado de Things, vaya a Ayuda → Atajos de teclado. Estos son los más importantes:\n\n⌘S: seleccionar cuándo iniciar una tarea\n⌘T: marcar una tarea para realizar Hoy\n⌘⇧M: trasladar una tarea a otra lista\n\n⌘↑: subir una tarea\n⌘↓: bajar una tarea"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Estructura para las notas con Markdown",
+            "notes" : "Things permite usar Markdown para añadir estructura y estilo a las notas. \n\nSi conoce Markdown, funciona así. Para dar énfasis a una palabra, añada asteriscos antes y después: *con énfasis*. Como puede ver, Things lo detecta y muestra la palabra en cursiva. Si borra los asteriscos, volverá a mostrarse de forma normal. \n\nAquí hay algunos ejemplos más: \n- Use dos asteriscos para que un texto esté en **negrita**\n- Use los dos puntos para ::resaltar texto::\n- Inserte “#” al principio de una línea para crear un encabezamiento: \n\n# Esto es un encabezamiento\n\n---\n\nMarkdown tiene sus rarezas, pero es estupendo para dar estilo al texto rápidamente mientras se escribe. También puede usar atajos de teclado, que encontrará en Edición → Markdown. \n\nPara obtener más información, consulte nuestra Guía sobre Markdown: culturedcode.com\/things\/help\/markdown\/"
+          }
+        },
+        {
+          "type" : "heading",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Antes de que se vaya…"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Esté al tanto de todo",
+            "notes" : "Entérese antes que nadie de las últimas prestaciones y novedades. Síganos en redes sociales o suscríbase a nuestro boletín: culturedcode.com\/follow\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Valorar la app",
+            "notes" : "Si le gusta Things, por favor valórelo en el App Store. Nos ayudaría enormemente.\n\nculturedcode.com\/things\/mac\/rate\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "Consiga Things para iPhone y iPad",
+            "notes" : "Mantenga su productividad en cualquier lugar con Things para iPhone y para Apple Watch: culturedcode.com\/things\/iphone\/appstore\/\n\nRepase y organice sus tareas con Things para iPad: culturedcode.com\/things\/ipad\/appstore\/"
+          }
+        },
+        {
+          "type" : "to-do",
+          "operation" : "create",
+          "attributes" : {
+            "title" : "¿Alguna pregunta? ¡Estamos para ayudar!",
+            "notes" : "Si tiene alguna duda, tenemos una gran colección de artículos de ayuda en nuestra web. También puede enviarnos un mensaje; estaremos encantados de echarle una mano.\n\nculturedcode.com\/support\/"
+          }
+        }
+      ]
+    }
+  }
+]

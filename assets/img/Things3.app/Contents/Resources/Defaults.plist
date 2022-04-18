@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DetailViewToolbarVisible</key>
+	<true/>
+	<key>NumberOfNextActionStepsShown</key>
+	<integer>3</integer>
+	<key>QuickEntryEnabled</key>
+	<true/>
+	<key>QuickEntryHotkeyEmpty</key>
+	<dict>
+		<key>characters</key>
+		<string>⌃Space</string>
+		<key>keyModifiers</key>
+		<integer>4096</integer>
+		<key>keyCode</key>
+		<integer>49</integer>
+	</dict>
+	<key>QuickEntryHotkeyAutofill</key>
+	<dict>
+		<key>characters</key>
+		<string>⌃⌥Space</string>
+		<key>keyModifiers</key>
+		<integer>6144</integer>
+		<key>keyCode</key>
+		<integer>49</integer>
+	</dict>
+	<key>QuickEntryDefaultDestination</key>
+	<integer>0</integer>
+	<key>CCIncompleteChildrenDefaultAction</key>
+	<integer>1</integer>
+	<key>CCDockCountType</key>
+	<integer>2</integer>
+	<key>PreferredTheme</key>
+	<integer>0</integer>
+	<key>NSShouldActivateForServiceRequest</key>
+	<false/>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+	<key>SUAllowsAutomaticUpdates</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUEnableSystemProfiling</key>
+	<true/>
+	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>PreserveWindowWidthWhenResizingSidebar</key>
+	<false/>
+</dict>
+</plist>
