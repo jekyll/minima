@@ -11,11 +11,13 @@ I am Sid.
 
 ##### **Here is my introduction in 3 bullets:** 
 
-- I grew up in New Delhi, India and studied engineering at IIT Guwahati
-- I currently live in London and work for [ChartMogul](https://chartmogul.com/){:target="_blank"} within their content team
+- I currently live in London and work as a senior analyst at [ChartMogul](https://chartmogul.com/){:target="_blank"}
+- I am passionate about data & charts
 - In my spare time, I love to read, cook, walk, write and spend time with my family
 
-You can read about what guides me [here](https://www.sid-jain.com/inner-compass/){:target="_blank"}, 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}, and a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. 
+My most recent work can be found [here](https://www.sid-jain.com/recent-work/){:target="_blank"}.
+
+You can read more about what guides me [here](https://www.sid-jain.com/inner-compass/){:target="_blank"}, 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}, and a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. 
 
 I list down all of my favourite books [here](https://www.sid-jain.com/books-i-like/){:target="_blank"} and some of my favourite blogs and newsletters [here](https://www.sid-jain.com/my-favourite-blogs/){:target="_blank"}. 
 
@@ -39,7 +41,7 @@ Like me, if you are somewhat interested in writing, I would recommend reading th
 
 I believe in the power of habits. I believe in tiny 1% gains each day that become exponential gains over time. Here are a few habits that I am trying to inculcate in my daily routine: 
 
-1. **No phone for the first 2 hours of the day —** cutting out distractions helps me to be more intentional with my most productive time i.e. mornings. 
+1. **No digital devices for the first and the last hour of the day —** cutting out digital devices helps me to be more intentional with my time and help reduce eye fatigue
 2. **Daily exercise —** even a short stroll counts. Health is my number 1 priority. Apart from helping me stay healthy, exercise also acts as a feedback loop for me to eat better.  
 3. **Intermittent Fasting —** fast for 16 hours a day. This helps improve my body's metabolism. 
 5. **Read 20 pages of a book —** this helps me focus my reading on content that has a longer shelf life. I wrote about it [here](http://localhost:4000/do-not-read-news/){:target="_blank"}. It also gives me a break from digital screens.
@@ -47,11 +49,11 @@ I believe in the power of habits. I believe in tiny 1% gains each day that becom
 
 ##### **A word of thanks**
 
-I would like to thank my mother, Sapna and my wife, Shubha for their unwavering support and help in reviewing and editing my posts. 
+I would like to thank my mother, Sapna and my wife, Shubha for their support and help in reviewing and editing my posts. 
 
 ##### **Get in touch**
 
-I host regular [coffee hours](https://calendly.com/jsiddharth24/coffee-hours-with-sid){:target="_blank"} if you want to chat about anything. You could also reach out to me via [LinkedIn](www.linkedin.com/in/sidjain24){:target="_blank"} or [Twitter](https://twitter.com/SidJain__){:target="_blank"}. 
+I host regular [coffee hours](https://calendly.com/jsiddharth24/coffee-hours-with-sid){:target="_blank"} if you want to chat about anything. You could also reach out to me via [LinkedIn](www.linkedin.com/in/heysidjain){:target="_blank"} or [Twitter](https://twitter.com/heysidjain){:target="_blank"}.
 
 ##### **Disclaimer** 
 

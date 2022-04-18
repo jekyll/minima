@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most Popular Languages of the world
+title: Popular Languages of the world
 published: true
 description: 
 permalink: /most-popular-languages/

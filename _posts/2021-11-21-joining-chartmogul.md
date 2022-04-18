@@ -7,7 +7,7 @@ permalink: /joining-chartmogul/
 ---
 
 
-After 7 years at J.P.Morgan, I have decided to pursue a new career opportunity. I’ll be joining ChartMogul, a subscription analytics startup within its content team. 
+After 7 years at J.P.Morgan, I have decided to pursue a new career opportunity. I’ll be joining ChartMogul, a subscription analytics startup as a senior analyst. 
 
 For those of you who don’t know [ChartMogul](https://chartmogul.com/){:target="_blank"}, it helps SaaS (software as a service) companies measure, understand, and grow their recurring revenue. It integrates with multiple payment/billing systems (eg. Stripe, Paypal) on behalf of the SaaS companies, imports and centralizes their data, and provides SaaS analytics such as [MRR, ARR, Churn](https://www.youtube.com/watch?v=DceOkRXHqf8){:target="_blank"}, etc. 
 
@@ -27,7 +27,7 @@ Over time, a pattern emerged. I realized that I wasn’t as energized by some of
 
 Instead, I was most energized by tasks that presented an intellectual challenge such as analyzing data, writing a research report, crafting presentations, carrying out market research, UI/UX, and blogging.
 
-I wanted to be intentional about my career and move into a role that gave me energy and I enjoyed. My new content role at ChartMogul is a step in that direction.
+I wanted to be intentional about my career and move into a role that gave me energy and I enjoyed. My senior analyst role at ChartMogul is a step in that direction.
 
 #### **I wanted to work for a start-up**
 
@@ -47,7 +47,7 @@ While exploring new opportunities, I had 3 high-level priorities in mind:
 - **Healthy work environment** — I highly value high integrity & transparency within a working environment. In addition, work becomes more fun when you have a good manager and colleagues to work with. 
 - **Growing firm** — A growing firm provides a lot of opportunities. Growth is also the answer to a lot of problems. 
 
-For me, ChartMogul ticked those priorities. Content is a role that intellectually stimulates, people I interacted with were transparent and super nice, and the business is growing fast. To add to it, customers love ChartMogul. It felt like the perfect opportunity. 
+For me, ChartMogul ticked all those priorities. The role is intellectually stimulating, people I interacted with were transparent and super nice, and the business is growing fast. To add to it, customers love ChartMogul. It felt like the perfect opportunity. 
 
 #### **Making the final decision**
 
