@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 title: "Recent Work"
 published: true
 description: 
 permalink: /recent-work/
 ---
 
-Here is a list of my most recent work which is published elsewhere on the web:
+Here is a list of my recent work published elsewhere on the web:
 
 ##### **ChartMogul**
 
@@ -21,7 +21,7 @@ Here is a list of my most recent work which is published elsewhere on the web:
 - [ChartMogul 2021: Year in Review](https://chartmogul.com/blog/2021-in-review/){:target="_blank"}
 
 
-##### **Data Related**
+##### **Data Insights**
 
 - [How Does Google (Alphabet) Make Money?](https://www.linkedin.com/posts/heysidjain_how-does-google-make-money-activity-6885839580738682880-RoBG?utm_source=linkedin_share&utm_medium=member_desktop_web){:target="_blank"}
 
