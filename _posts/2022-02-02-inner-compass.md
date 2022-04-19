@@ -6,7 +6,7 @@ description:
 permalink: /inner-compass/
 ---
 
-Inner compass is a list of ideas that guide me. It is a collection of quotes, summaries, experiences, book excerpts and learnings over time. When I am feeling low, stressed out, in doubt, or have a decision to make I come to this for guidance. The goal is to not to remember everything. The goal is for this document to act as my compass in life. 
+Inner compass is a list of ideas that guide me. It is a collection of quotes, summaries, experiences, book excerpts and learnings over time. When I am feeling low, stressed out, in doubt, or have a decision to make I come to this for guidance. The goal is not to remember everything. The goal is for this document to act as my compass in life. 
 
 Most ideas listed in this internal compass are not mine. They have been borrowed from many authors. I am truly grateful for their work.  This post is work in progress and continues to evolve with my thoughts.
 
