@@ -20,6 +20,8 @@ Here is a list of my recent work published elsewhere on the web:
 
 - [ChartMogul 2021: Year in Review](https://chartmogul.com/blog/2021-in-review/){:target="_blank"}
 
+- [Weekly SaaS Roundup](https://chartmogul.com/resources/saas-roundup/){:target="_blank"}
+
 
 ##### **Data Insights**
 
