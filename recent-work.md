@@ -10,6 +10,12 @@ Here is a list of my recent work published elsewhere on the web:
 
 ##### **ChartMogul**
 
+- [Study up on churn rate basics to set customer and revenue benchmarks](https://techcrunch.com/2022/04/20/study-up-on-churn-rate-basics-to-set-customer-and-revenue-benchmarks/){:target="_blank"} _(on TechCrunch)_ 
+
+- [What is Churn? How Can It Be Negative? And What’s a Good Monthly Churn Rate?](https://chartmogul.com/blog/churn-basics-and-benchmarks/){:target="_blank"}
+
+- [9 Startup Lessons From Phil Knight, Creator of NIKE](https://chartmogul.com/blog/startup-lessons-from-nike/){:target="_blank"}
+
 - [Understanding and Benchmarking Your MRR Movements](https://chartmogul.com/blog/understanding-mrr-movements/){:target="_blank"}
 
 - [What Is a Good Customer Churn Rate?](https://chartmogul.com/blog/good-customer-churn-rate/){:target="_blank"}
@@ -19,6 +25,9 @@ Here is a list of my recent work published elsewhere on the web:
 - [4 Ways to Add MRR Progress Bars to Your Twitter Profile](https://chartmogul.com/blog/twitter-mrr-bars/){:target="_blank"}
 
 - [ChartMogul 2021: Year in Review](https://chartmogul.com/blog/2021-in-review/){:target="_blank"}
+
+##### **Newsletter**
+
 
 - [Weekly SaaS Roundup](https://chartmogul.com/resources/saas-roundup/){:target="_blank"}
 
