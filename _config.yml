@@ -1,11 +1,11 @@
-title: Your awesome title
+title: KOSPI Monthly Forecast 
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: lbk
+  email: lbk209@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A new post will be created when KOSPI is predicted to rise next month.
+  The Prediction is made by a gradient boosting machine fit on historical data
+  such as KOSPI, commodities and interest rates.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,8 +16,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    github:  lbk209
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
