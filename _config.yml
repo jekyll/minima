@@ -49,8 +49,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - about.md
 
 # Build settings
 theme: minima
@@ -58,3 +58,5 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+gem "github-pages", "~> 225", group: :jekyll_plugins
