@@ -49,7 +49,7 @@
 </symbol>
   
 <symbol id="blogger" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-  <path d="M 0.00,0.00
+  <path transform="scale(0.5)" d="M 0.00,0.00
            C 0.00,0.00 32.00,0.00 32.00,0.00
              32.00,0.00 32.00,32.00 32.00,32.00
              32.00,32.00 0.00,32.00 0.00,32.00
