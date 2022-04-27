@@ -48,7 +48,7 @@
   <path d="M104 706l792 1015-868-630q-18-13-25-34.5t0-42.5l101-308zm462 0h660l-330 1015zm-198-612l198 612h-462l198-612q8-23 33-23t33 23zm1320 612l101 308q7 21 0 42.5t-25 34.5l-868 630 792-1015zm0 0h-462l198-612q8-23 33-23t33 23z"/>
 </symbol>
   
-<symbol id="blogger" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+<symbol id="blogger" fill-rule="nonzero" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
   <path transform="scale(0.8)" d="M 13.11,9.74
            C 16.61,8.85 21.55,8.30 24.59,10.74
              29.38,14.58 34.98,26.79 26.89,30.26
