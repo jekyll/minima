@@ -82,6 +82,9 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  
+  <symbol id="blogger" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
@@ -113,4 +116,7 @@
          id="path4166" />
     </g>
   </g>
+    
+  </symbol>
+    
 </svg>
