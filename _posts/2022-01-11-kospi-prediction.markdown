@@ -2,10 +2,10 @@
 layout: post
 title:  "Forecast for KOSPI on Feb 11, 2022"
 date:   2022-01-11
-categories: kospi monthly
+categories: kospi forecasting
 ---
 
-### Forecast
+### Forecasting
 KOSPI 
 2022-01-18: 2,864.24 
 2022-02-18: rise expected. => 2,744.52
