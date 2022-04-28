@@ -13,4 +13,4 @@ categories: kospi monthly
 Precision for rise prediction: 0.702
 
 ### Information Coefficient
-![ic rolling](/assets/kospi_ic.png)
+![ic rolling]({{ site.baseurl }}/assets/kospi_ic.png)
