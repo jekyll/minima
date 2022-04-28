@@ -59,3 +59,6 @@ plugins:
  - jekyll-seo-tag
 
 gem "github-pages", "~> 225", group: :jekyll_plugins
+
+url: https://lbk209.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /kospi      # place folder name if the site is served in a subfolder
