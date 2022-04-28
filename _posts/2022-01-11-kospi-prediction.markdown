@@ -6,6 +6,7 @@ categories: kospi monthly
 ---
 
 ### Forecast
+KOSPI 
 2022-01-18: 2,864.24 
 2022-02-18: rise expected. => 2,744.52
 
