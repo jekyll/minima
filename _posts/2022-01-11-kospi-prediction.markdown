@@ -6,7 +6,7 @@ categories: kospi forecast
 ---
 
 ### Forecasting
-KOSPI on Feb 11, 2022 will be higher than that on Jan 11, 2022
+KOSPI on Feb 11, 2022 will be HIGHER than that on Jan 11, 2022
 
 ### Performance
 Precision for rise prediction: 0.702
