@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* 09-05-22 **Yanic Cardin joins** as a summer intern with an NSERC Undergraduate Student Research Award! Congrats and Welcome Yanic!
+* 09-05-22 **Yanic Cardin joins** as a summer intern funded by an NSERC Undergraduate Student Research Award! Congrats and Welcome Yanic!
 
 * 09-05-22 **Jiaqi Zhao joins** as the first MSc student in the group. Great to have you as part of the crew Jiaqi!
 
