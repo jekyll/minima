@@ -42,3 +42,11 @@ Enjoys meal prep and football Sundays.
      style="float: left; margin-right: 10px;" /> **Yuan Yao**.  
 Visiting PhD student, [Département Informatique et Réseaux (INFRES)](https://www.telecom-paris.fr/fr/lecole/departements-enseignement-recherche/informatique-reseaux), [Télécom Paris](https://www.telecom-paris.fr) and [IP Paris](https://www.ip-paris.fr), supervised by [Filippo Miatto](https://scholar.google.pl/citations?user=zoaxT0QAAAAJ&hl=en).  
 LEGO enthusiast.
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/jiaqi.jpg"
+     alt="Jiaqi"
+     width="80" 
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Jiaqi Zhao**.  
+Master of science student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+Likes carrots.
