@@ -4,11 +4,11 @@ title: News
 permalink: /news/
 ---
 
-* [09-05-22] **Yanic Cardin joins** as a summer intern with an NSERC Undergraduate Student Research Award! Congrats and Welcome Yanic!
+* 09-05-22 **Yanic Cardin joins** as a summer intern with an NSERC Undergraduate Student Research Award! Congrats and Welcome Yanic!
 
-* [09-05-22] **Jiaqi Zhao joins** as the first postdoc in MSc student in the group. Great to have you as part of the crew Jiaqi!
+* 09-05-22 **Jiaqi Zhao joins** as the first MSc student in the group. Great to have you as part of the crew Jiaqi!
 
-* Nicolás' work on [Efficient sampling from shallow Gaussian quantum-optical circuits with local interactions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.052412) is an Editors' Suggestion in Physical Review A.
+* 06-05-22 Nicolás' work on [Efficient sampling from shallow Gaussian quantum-optical circuits with local interactions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.052412) is an Editors' Suggestion in Physical Review A.
 
 * 11-04-22 Our Discovery Grant will be funded by NSERC 🎉🎉🎉.
 
