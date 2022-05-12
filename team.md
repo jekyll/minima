@@ -48,5 +48,5 @@ LEGO enthusiast.
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Jiaqi Zhao**.  
-Master of science student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 Likes carrots.
