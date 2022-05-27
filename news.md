@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* 26-05-22 Nicolás gave a talk at the [Rencontre printanière 2022 de l'INTRIQ](https://www.intriq.org/events/rencontre-printaniere-2022-de-lintriq).
+
 * [19-05-22](https://twitter.com/polyquantique/status/1527440814028251138) [Stephan De Bièvre](http://math.univ-lille1.fr/~debievre/) from U. de Lille visited Polytechnique today and told us about his work on "Optical nonclassicality, (de)coherence and entanglement for multi-mode optical states".
 
 * 09-05-22 **Yanic Cardin joins** as a summer intern funded by an NSERC Undergraduate Student Research Award! Congrats and Welcome Yanic!
