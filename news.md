@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* 01-06-22 [Quantum computational advantage with a programmable photonic processor appears on Nature](https://www.nature.com/articles/s41586-022-04725-x). The article is being covered by media in English [1](https://www.newscientist.com/article/2322807-advanced-quantum-computer-made-available-to-the-public-for-first-time/?utm_medium=social&utm_campaign=echobox&utm_source=Twitter#Echobox=1654096015), [2](https://www.theglobeandmail.com/business/article-canadian-company-xanadu-achieves-big-leap-forward-in-quantum-computer/) and Italian [1](https://www.ansa.it/canale_scienza_tecnica/notizie/fisica_matematica/2022/06/01/risolto-in-36-microsecondi-un-problema-da-9.000-anni-_df3a2af9-2317-443d-8b93-912e7e7f1469.html).
+
 * 26-05-22 Nicolás gave a talk at the [Rencontre printanière 2022 de l'INTRIQ](https://www.intriq.org/events/rencontre-printaniere-2022-de-lintriq).
 
 * [19-05-22](https://twitter.com/polyquantique/status/1527440814028251138) [Stephan De Bièvre](http://math.univ-lille1.fr/~debievre/) from U. de Lille visited Polytechnique today and told us about his work on "Optical nonclassicality, (de)coherence and entanglement for multi-mode optical states".
@@ -12,7 +14,7 @@ permalink: /news/
 
 * 09-05-22 **Jiaqi Zhao joins** as the first MSc student in the group. Great to have you as part of the crew Jiaqi!
 
-* 06-05-22 Nicolás' work on [Efficient sampling from shallow Gaussian quantum-optical circuits with local interactions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.052412) is an Editors' Suggestion in Physical Review A.
+* [06-05-22](https://twitter.com/PhysRevA/status/1526193502022995969) Nicolás' work on [Efficient sampling from shallow Gaussian quantum-optical circuits with local interactions](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.105.052412) is an Editors' Suggestion in Physical Review A.
 
 * 11-04-22 Our Discovery Grant will be funded by NSERC 🎉🎉🎉.
 
