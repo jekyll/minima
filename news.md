@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* 15-06-22 Nicolás gave a tutorial on [Quantum Sampling from Continuous-Variable States of Light](https://www.optica.org/en-us/events/topical_meetings/quantum/schedule/post_session/?sessionid=431301) at Optica's Quantum 2.0 Conference.
+
 * 06-06-22 Nicolás gave the Q-Awareness seminar at the University of New Brunswick.
 
 * [01-06-22](https://twitter.com/polyquantique/status/1532025233506549760) [Quantum computational advantage with a programmable photonic processor appears on Nature](https://www.nature.com/articles/s41586-022-04725-x). The article is being covered by media in English [1](https://www.newscientist.com/article/2322807-advanced-quantum-computer-made-available-to-the-public-for-first-time/?utm_medium=social&utm_campaign=echobox&utm_source=Twitter#Echobox=1654096015), [2](https://www.theglobeandmail.com/business/article-canadian-company-xanadu-achieves-big-leap-forward-in-quantum-computer/), [3](https://arstechnica.com/science/2022/06/manipulating-photons-for-microseconds-tops-9000-years-on-a-supercomputer/?comments=1), Italian [1](https://www.ansa.it/canale_scienza_tecnica/notizie/fisica_matematica/2022/06/01/risolto-in-36-microsecondi-un-problema-da-9.000-anni-_df3a2af9-2317-443d-8b93-912e7e7f1469.html), [2](https://www.lescienze.it/news/2022/06/03/news/computer_quantistici_supremazia_fotoni_programmabile_temperatura-9513740/) and Spanish [1](https://www.agenciasinc.es/Noticias/Nuevo-procesador-fotonico-para-avanzar-hacia-la-computacion-cuantica), [2](https://www.elespectador.com/ciencia/un-colombiano-en-otro-gran-paso-de-la-computacion-cuantica/).
