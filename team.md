@@ -56,6 +56,6 @@ Likes carrots.
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Salvador Poveda Hospital**.  
-Visiting MSc student, [Universitat Politècnica de Catalunya](https://www.upc.edu).  
-Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter).
+Visiting MSc student, [Universitat Politècnica de Catalunya](https://www.upc.edu). \ 
+Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter). \
 F1 enthusiast.
