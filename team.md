@@ -49,13 +49,13 @@ LEGO enthusiast.
      height="90"
      style="float: left; margin-right: 10px;" /> **Jiaqi Zhao**.  
 MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
-Likes carrots.
+Likes carrots. \
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.jpg"
      alt="Salvador"
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Salvador Poveda Hospital**.  
-Visiting MSc student, [Universitat Politècnica de Catalunya](https://www.upc.edu). \ 
+Visiting MSc student, [Universitat Politècnica de Catalunya](https://www.upc.edu). \
 Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter). \
 F1 enthusiast.
