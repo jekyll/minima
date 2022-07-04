@@ -51,7 +51,7 @@ LEGO enthusiast.
 MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 Likes carrots.
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.png"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.jpg"
      alt="Salvador"
      width="80" 
      height="90"
