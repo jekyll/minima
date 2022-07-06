@@ -4,9 +4,9 @@ title: News
 permalink: /news/
 ---
 
-* [06-07-22] [Beyond photon pairs](https://opg.optica.org/aop/fulltext.cfm?uri=aop-14-3-291&id=477855) appears in Advances in Optics and Photonics!
+* 06-07-22 [Beyond photon pairs](https://opg.optica.org/aop/fulltext.cfm?uri=aop-14-3-291&id=477855) appears in Advances in Optics and Photonics!
 
-* [06-07-22](https://twitter.com/polyquantique/status/1544666688599298048) *Salvador*'s work on [Custom nonlinearity profile for integrated quantum light sources](https://arxiv.org/abs/2207.01714) is on the arXiv!
+* [06-07-22](https://twitter.com/polyquantique/status/1544666688599298048) **Salvador**'s work on [Custom nonlinearity profile for integrated quantum light sources](https://arxiv.org/abs/2207.01714) is on the arXiv!
 
 * 15-06-22 Nicolás gave a tutorial on [Quantum Sampling from Continuous-Variable States of Light](https://www.optica.org/en-us/events/topical_meetings/quantum/schedule/post_session/?sessionid=431301) at Optica's Quantum 2.0 Conference.
 
