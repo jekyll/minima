@@ -4,8 +4,6 @@ title: Team
 permalink: /team/
 ---
 
-**Research Group**
-
 <img src="https://www.polymtl.ca/expertises/sites/expertises2.amigow2020.polymtl.ca/files/quesada-nicolas.jpg"
      alt="Nico"
      width="80" 
