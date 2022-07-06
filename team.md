@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 ---
 
-**Principal Investigator**  
+**Research Group**
 
 <img src="https://www.polymtl.ca/expertises/sites/expertises2.amigow2020.polymtl.ca/files/quesada-nicolas.jpg"
      alt="Nico"
@@ -14,8 +14,6 @@ permalink: /team/
 Assistant Professor, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 MEI Chair in Quantum Photonics.  
 Editor of [Quantum](https://quantum-journal.org/), the open journal for quantum science. 
-
-**Research Group**
 
 <img src="https://clerkgroup.uchicago.edu/img/MartinWebPic.jpg"
      alt="Martin"
