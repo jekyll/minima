@@ -7,6 +7,7 @@
   * Update README section on adding favicons to site (#438)
   * Fix custom-styles.scss name in README (#610)
   * Improve the msg to enable disqus in README (#627)
+  * Make docs consistent with code (#657)
 
 ### Minor Enhancements
 
