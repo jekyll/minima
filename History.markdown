@@ -7,6 +7,7 @@
   * Update README section on adding favicons to site (#438)
   * Fix custom-styles.scss name in README (#610)
   * Improve the msg to enable disqus in README (#627)
+  * Make docs consistent with code (#657)
 
 ### Minor Enhancements
 
@@ -53,6 +54,7 @@
   * Specify the font size of the root element (#485)
   * Fix script used for Google Analytics (#596)
   * Open social links in new tabs (#625)
+  * change base-font-family sequence (#654)
 
 ### Development Fixes
 
