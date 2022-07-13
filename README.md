@@ -4,7 +4,7 @@
 
 ***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
 within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
-version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
+version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*
 *Running `bundle show minima` will provide you with the local path to your current theme version.*
 
 
@@ -174,10 +174,16 @@ Minima 2.0      | Minima 3.0
 
 ##### Available skins
 
-- classic
-- dark
-- solarized
-- solarized-dark
+Skin setting    | Description
+--------------- | -----------
+classic         | Default, light color scheme.
+dark            | Dark variant of the classic skin.
+solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
+solarized-light | Light variant of solarized color scheme.
+solarized-dark  | Dark variant of solarized color scheme.
+
+*:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
+(via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
 
 ### Customize navigation links
 
