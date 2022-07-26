@@ -133,8 +133,9 @@ Therefore, your `assets/css/style.scss` should contain the following at minimum:
 ---
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 ```
 
 #### Skins
@@ -175,15 +176,15 @@ Minima 2.0      | Minima 3.0
 
 Skin setting    | Description
 --------------- | -----------
-classic         | Default light mode skin.
-dark            | Default dark mode skin.
-auto            | Default light or dark skin depending on user settings.
-solarized       | Skin based on the [solarized](https://github.com/solarized) color scheme.
-solarized-light | Light mode solarized color scheme.
-solarized-dark  | Dark mode solarized color scheme.
+classic         | Default, light color scheme.
+dark            | Dark variant of the classic skin.
+auto            | *Adaptive skin* based on the default classic and dark skins.
+solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
+solarized-light | Light variant of solarized color scheme.
+solarized-dark  | Dark variant of solarized color scheme.
 
-The `auto` and `solarized` skins render in light or dark mode depending on the user's operating system or browser settings (by means of a [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) media query).
-
+*:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
+(via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
 
 ### Customize navigation links
 
