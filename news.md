@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [2-08-22](https://twitter.com/polyquantique/status/1554236660401033217) Nicolás gave a talk at the 'GBS' day of the [NSF Workshop on Quantum Advantage and Next Steps](https://chicagoquantum.org/events/nsf-workshop-quantum-advantage-and-next-steps) on Quantum computational advantage with a programmable photonic processor
+
 * 21-07-22 **Javier**'s work showing that [Classical models are a better explanation of the Jiuzhang Gaussian Boson Samplers
 than their targeted squeezed light models](https://arxiv.org/abs/2207.10058) is on the arXiv!
 
