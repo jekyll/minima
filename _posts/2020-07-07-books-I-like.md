@@ -6,13 +6,14 @@ description: List of books that I have enjoyed reading and would recommend you t
 permalink: /books-i-like/
 ---
 
-I picked up my book reading habit only in the last 2.5 years. I am still catching-up for all the lost years during which I read almost no books. 
+I picked up my book reading habit only in the last 3-4 years. I am still catching-up for all the lost years during which I read almost no books. 
 
 I list down below some of my favourite books. I have also compiled a list of books that didn't make it into my favourite book's category but I like and would highly recommend. 
 
 #### **My favourite books**
 
 - **Black Box Thinking —** _by Matthew Syed_
+- **Boron Letters —** _by Gary Halbert_
 - **Influence —** _by Robert B. Cialdini_
 - **Refactoring UI —** _by Adam Wathan & Steve Schoger_
 - **Richer, Wiser, Happier —** _by William Green_
@@ -23,6 +24,7 @@ I list down below some of my favourite books. I have also compiled a list of boo
 - **The Difficulty of Being Good —** _by Gurcharan Das_
 - **The Almanack of Naval Ravikant —** _by Eric Jorgenson_
 - **Traction —** _by Gabriel Weinberg & Justin Mares_
+- **When Breath Becomes Air —** _by Paul Kalanithi_
 
 #### **Other books that I like**
 
@@ -34,6 +36,7 @@ I list down below some of my favourite books. I have also compiled a list of boo
 - **Never Split the Difference —** _by Chris Voss & Tahl Raz_
 - **Of Long Term Value And Wealth Creation —** _by Bharat Shah_
 - **Sprint —** _by Jake Knapp_
+- **Surely You're Joking, Mr. Feynman! —** _by Richard P. Feynman_
 - **Tuesdays with Mori —** _by Mitch Albom_
 - **The Go-Giver —** _by Bob Burg & John David Mann_
 - **The Man Who Solved the Market —** _by Gregory Zuckerman_

@@ -11,15 +11,18 @@ I am Sid.
 
 ##### **Here is my introduction in 3 bullets:** 
 
-- I currently live in London and work as a senior analyst at [ChartMogul](https://chartmogul.com/){:target="_blank"}
-- I am passionate about data & charts
+- I currently live in London and work as a senior analyst at ChartMogul
+- I am passionate about data & charts. In case you are interested, I share one small actionable [data storytelling](https://datadino.substack.com/){:target="_blank"} tip every week. 
 - In my spare time, I love to read, cook, walk, write and spend time with my family
-
-My most recent work can be found [here](https://www.sid-jain.com/recent-work/){:target="_blank"}.
 
 You can read more about what guides me [here](https://www.sid-jain.com/inner-compass/){:target="_blank"}, 3 defining moments from my life [here](https://www.sid-jain.com/3-defining-moments/){:target="_blank"}, and a few lessons from my life [here](https://www.sid-jain.com/life-lessons/){:target="_blank"}. 
 
 I list down all of my favourite books [here](https://www.sid-jain.com/books-i-like/){:target="_blank"} and some of my favourite blogs and newsletters [here](https://www.sid-jain.com/my-favourite-blogs/){:target="_blank"}. 
+
+
+##### **Recent Work** 
+
+My most recent work can be found [here](https://www.sid-jain.com/recent-work/){:target="_blank"} (including a feature on [TechCrunch](https://techcrunch.com/2022/04/20/study-up-on-churn-rate-basics-to-set-customer-and-revenue-benchmarks/){:target="_blank"}).
 
 
 ##### **Why did I start this blog?**
