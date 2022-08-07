@@ -33,7 +33,7 @@ There are a few things from the article I want to highlight
 - Schedule your interview appointment early. With Covid and all, the availability of the timeslot can be inconsistent. Once you are confirmed that you are accepting the offer, you can complete the DS-160 early and schedule an interview timeslot. The risk of rescheduling it early is that you might lose the deposit. I could reschedule the interview twice.
 - The company can only start completing the visa application after you have obtained your degree scroll. Depending on the lawyer, a letter of conferment (stating that you have completed all your requirements and you will receive your degree scroll on a certain date) may be accepted. Regardless, you can submit your information and schedule your interview before you receive your degree scroll.
 - According to an [FAQ entry](https://ustraveldocs.com/sg/sg-gen-faq.asp#qlistwork5), you may not enter the United States until 10 days prior to your employment start date.
-- You may need to upload your entire passport. The passport could only be one file, preferably pdf. There is a file size limit for your passport. As a software engineer, these are the commands I use to downsize and bind my passport. The inputs are png files for each scan in numerical order.
+- You may need to upload your entire passport. The passport could only be one file, preferably pdf. There is a file size limit for your passport. As a software engineer, these are the commands I use to downsize and bind my passport into a pdf file from png images. The inputs are png files for each scan in numerical order.
 
 ```bash
 mkdir ../tmp
@@ -91,9 +91,9 @@ The premium economy seat allows for 2 bags of 23 kg each. I tried to check in 3 
 
 As per [US Covid regulations](https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html), I needed to take a Covid test. An ART test works for entry into the United States, and I paid $30 for the test. The results of the ART test is produced within less than half an hour. PCR tests are more expensive, and the results is usually only produced the next day. You are recommended to take a test that can print your passport number along with it. The Singapore Airlines website lists [some testing locations](https://www.singaporeair.com/en_UK/sg/travel-info/pdt-pcr-locations/).
 
-You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items) on what you cannot bring to the US. Generally, you cannot bring in food except factory packaged food. After staying for a while, this is what I would have liked to bring into the US to use up my luggage allowance - milo powder, curry powder and cereal mix (and other drinks). You can buy some of such Asian foods from Ranch 99, but at slightly inflated prices.
+You should [research](https://www.cbp.gov/travel/us-citizens/know-before-you-go/prohibited-and-restricted-items) on what you cannot bring to the US. Generally, you cannot bring in food except factory packaged food. After staying for a while, this is what I would have liked to bring into the US to use up my luggage allowance - curry powder and cereal mix (and other drinks). You can buy some of such Asian foods from Ranch 99, but at slightly inflated prices.
 
-I only brought US$1000 into the US. I should have brought in more money to help with the initial deposit and expenses. The FX fees are worth paying to help you transition. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%.
+I only brought US$1000 into the US. I should have brought in more money to help with the initial deposit and expenses. The FX fees are worth paying to help you transition. You can estimate the FX fees by comparing the difference between the buy and sell value. The exchange in Bishan has a ratio is 2.2%, whereas exchanges in the airport have a ratio of more than 5%. If you use Transferwise, the fee is approximately 0.8% for transferring US$1000, but you will need a US bank account for that.
 
 
 
@@ -211,28 +211,11 @@ I do not have a driving license in Singapore. You need to know how to drive to g
 
 Public transport is very rudimentary. Buses, trams and trains are infrequent, but usually on time. You can find the transport map and bike map online for [various](https://www.vta.org/go/maps) [regions](https://www.samtrans.com/schedulesandmaps/maps.html) of the Bay Area.
 
-It is easier to learn how to drive in the US than in Singapore. To learn driving you first need to pass a theory test, then you may drive in the presence of a fully licensed driver. After passing the practical test, you have the full license. The process in Singapore is more complicated.
+It is easier to learn how to drive in the US than in Singapore. To learn driving in California you first need to pass a California permit test. With the permit, you may drive in the presence of a fully licensed driver, who might a driving instructor. After passing the practical test at the DMV, you have the full license. The process in Singapore is more complicated.
 
 If you already have a driving license from Singapore, I think you may be exempted from obtaining a license for a few months (citation needed).
 
-You may want to get a second-hand car for a few thousand dollars. You need to buy car insurance as well, and there are some charges involved in registering the transfer of ownership with the DMV.
+You may want to get a second-hand car for a few thousand dollars. You need to buy car insurance as well, and there are some charges and sales tax involved in registering the transfer of ownership with the DMV.
 
-
-
-## Referral links
-
-If you appreicate my post, consider using these referral links.
-
-- [Chase account opening](https://accounts.chase.com/raf/share/2989388963). Regardless whether you used a referral link, you will get a \$225 bonus for signing up. If you use the referral link, I will get \$50.
-- [Chase Freedom Credit Card](https://www.referyourchasecard.com/18a/H4QTPH71PE). You will need to obtain an SSN, and go to an office to link you SSN, apply for the card, wait for its approval and shipment, and spend \$500. Regardless whether you use the referral link, you will get \$200. If you registered for your card with the link, I will get \$100.
-- [Lemonade](https://www.lemonade.com/r/huikangtong). There is no additional benefit to you for using the referral link, but I get a \$10 Amazon gift card.
-- [Mint Mobile](http://fbuy.me/tiVqH). I am not sure what this referral does.
-- [Coffee Meets Bagel](https://cmb.gs/YgVv4sprynb). I am not sure what in-app benefit you will get from using my referral link, but I probably get my profile seen by one or two more girls.
-- (Not availble) Chase other credit card. I need to have the credit card first.
-- (Not available) Coinbase. My Singapore ID is rejected and I think I need to contact support but I have not have the time or motivation to. Apparenntly the referral bonus is $100.
-- (Not available) Venmo. Apparently the referral bonus is only $5 for each person, and the link expires in 14 days. I could not find the referral link on the app.
-- (Not available) Uber. I could not find the referral link on the app.
-- (Not available) Lyft. I have yet to sign up.
-- (Not available) Robinhood. I have yet to sign up.
 
 I hope this will help.

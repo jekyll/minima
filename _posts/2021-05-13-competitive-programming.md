@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Competitive Programming"
+title: "How I got started in Competitive Programming"
 ---
 
 Competitive programming is essentially about writing code to solve a well-defined problem. Willam Lin summarises what is competitive programming in a [video](https://www.youtube.com/watch?v=ueNT-w7Oluw).
@@ -21,11 +21,6 @@ In 2019, I participated in a few more onsite contests, at Facebook, Credit Suiss
 
 ![fb-hack-2019](/assets/fb-hack-2019.jpg)
 
-<div align="center">
-Selling a similar unopened speaker at 80% of retail price
-</div>
-<br>
-
 In the summer of 2020 during my remote internship, I started serious competitive programming practice on [Codeforces](https://codeforces.com/profile/huikang) and [AtCoder](https://atcoder.jp/users/huikang). As of summer 2021, I have done a combined total of more than 100 contests.
 
 I also participate in programming challenges held by companies. I won a T-shirt from Facebook HackerCup 2020 (which is currently my favourite T-shirt). I got into Round 2 of Google Code Jam 2020 (but I need to get into Round 3 for the shirt). I also participate in the qualifiers of [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode/) 2020 and 2021, a team challenge where you produce a submission that maximises a certain score subject to constraints.
@@ -38,7 +33,7 @@ In early 2021, I participated in two hiring challenges. I got nice placings in [
 
 ## Goals and Reflections
 
-I hope to attain the rank of Master on Codeforces, which has a nice yellow color for the title.
+I hope to attain the rank of Master on Codeforces, which has a nice yellow color for the title (which I did).
 
 I have met quite several people from competitive programming. I am still in contact with two of the people I participate FBHack with. There are a few people who reached out to me through my Leetcode and Codeforces profile, and I had some meaningful conversations with them.
 
@@ -68,4 +63,4 @@ Regardless of your background, I do recommend starting on Leetcode, coding with 
 
 While C++ is the overwhelmingly popular language for competitive programming, I suggest learning C++ only after you started getting hit by TLEs (time limit exceeded) on Codeforces, or when you are committed to representing your school in coding competitions (e.g. NOI, IOI, ICPC).
 
-After some exposure to competitive programming, you can determine whether are you genuinely interested in contests, or only interested in passing technical interviews, or neither. I just find coding competitions inherently fun. 
+After some exposure to competitive programming, you can determine whether are you genuinely interested in contests, or only interested in passing technical interviews, or neither. I just find coding competitions inherently fun.
