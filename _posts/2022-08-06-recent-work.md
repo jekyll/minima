@@ -6,7 +6,7 @@ description:
 permalink: /recent-work/
 ---
 
-Here is a summary of my recent work published elsewhere on the web.
+Hola! Welcome to the blog. Here is a quick summary of my recent work published elsewhere on the web.
 
 #### **1. TechCrunch**
 
