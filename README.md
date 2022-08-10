@@ -181,6 +181,7 @@ dark            | Dark variant of the classic skin.
 solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
 solarized-light | Light variant of solarized color scheme.
 solarized-dark  | Dark variant of solarized color scheme.
+github-dark     | Github-colored variant of the classic dark skin.
 
 *:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
 (via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
