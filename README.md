@@ -4,7 +4,7 @@
 
 ***Disclaimer:** The information here may vary depending on the version you're using. Please refer to the `README.md` bundled
 within the theme-gem for information specific to your version or by pointing your browser to the Git tag corresponding to your
-version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*  
+version. e.g. https://github.com/jekyll/minima/blob/v2.5.0/README.md*
 *Running `bundle show minima` will provide you with the local path to your current theme version.*
 
 
@@ -118,7 +118,7 @@ The site's default CSS has now moved to a new place within the gem itself, [`ass
 In Minima 3.0, if you only need to customize the colors of the theme, refer to the subsequent section on skins. To have your
 *CSS overrides* in sync with upstream changes released in future versions, you can collect all your overrides for the Sass
 variables and mixins inside a sass file placed at `_sass/minima/custom-variables.scss` and all other overrides inside a sass file
-placed at path `_sass/minima/custom.scss`.
+placed at path `_sass/minima/custom-styles.scss`.
 
 You need not maintain entire partial(s) at the site's source just to override a few styles. However, your stylesheet's primary
 source (`assets/css/style.scss`) should contain the following:
@@ -133,8 +133,9 @@ Therefore, your `assets/css/style.scss` should contain the following at minimum:
 ---
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 ```
 
 #### Skins
@@ -173,10 +174,16 @@ Minima 2.0      | Minima 3.0
 
 ##### Available skins
 
-- classic
-- dark
-- solarized
-- solarized-dark
+Skin setting    | Description
+--------------- | -----------
+classic         | Default, light color scheme.
+dark            | Dark variant of the classic skin.
+solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
+solarized-light | Light variant of solarized color scheme.
+solarized-dark  | Dark variant of solarized color scheme.
+
+*:bulb: Adaptive skins switch between the "light" and "dark" variants based on the user's operating system setting or browser setting
+(via CSS Media Query [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)).*
 
 ### Customize navigation links
 
@@ -216,7 +223,9 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 
 Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
 
-To enable it, add the following lines to your Jekyll site:
+:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
+
+To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
 
 ```yaml
   disqus:
@@ -228,8 +237,6 @@ You can find out more about Disqus' shortnames [here](https://help.disqus.com/in
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
-
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
 ### Author Metadata
 
