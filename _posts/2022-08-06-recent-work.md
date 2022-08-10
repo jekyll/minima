@@ -6,7 +6,7 @@ description:
 permalink: /recent-work/
 ---
 
-I haven't written a new post on this site in a while. No, it's not because I've given up blogging. It's just that I've just been publishing content elsewhere on the web. Find the summary below.
+Here is a summary of my recent work published elsewhere on the web.
 
 #### **1. TechCrunch**
 
