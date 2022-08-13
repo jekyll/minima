@@ -13,9 +13,6 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Ideas in images** 
 
-- Do things that compound <br>
-![Do things that compound](/assets/img/do_things_that_compound.jpeg){: height="250" }
-
 - Take a break <br>
 ![Take a break](/assets/img/take_a_break.jpeg){: height="200" }
 
@@ -75,7 +72,7 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Failure is given
 
-- Checklist works
+- Checklists works
 
 - Criticism is given
 
@@ -105,7 +102,13 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Reflection > Reading New Content
 
+- Action is the antidote to anxiety
+
+- Enthusiasm is worth 25 IQ points
+
 - Create a lot of noise. Look for signal
+
+- Don’t be the best. Be the only (Porter).
 
 - Stay within your circle of competence
 
@@ -139,11 +142,19 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Every action you take is a vote in the direction of the person you want to become
 
+- People don't back people who are right or wrong. They back people who have a backbone. 
+
 #### **Quotes**
 
 - The only constant in life is change — Heraclitus
 
+- What you do speaks so loudly, I can’t hear what you’re saying — Ralph Waldo Emerson
+
 - Change happens automatically but for progress you need to work — Jess Sims
+
+- Go as far as you can see; when you get there, you'll be able to see further — J.P.Morgan
+
+- Worrying is like a rocking chair, it gives you something to do, but it gets you nowhere. — Erma Bombeck
 
 - The greatest predictor of your future happiness is your happiness today. Carpe Diem — Karen Peacock
 
@@ -180,7 +191,7 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Optimize for speed.** If a decision is reversible, the biggest risk is moving too slow. If a decision is irreversible, the biggest risk is moving too fast. 
 
-- **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. 
+- **Minimize long term regret.** One way to differentiate stuff that matters vs that doesn't matter is to ask yourself if you'll care about it in the future? Fake stuff that matters usually has a sharp peak of seeming to matter in the near term but actually does not matter in the future. One day your life will flash before your eyes. Make sure it's worth watching. 
 
 - **Have the courage to follow your heart and intuition.** They somehow already know what you truly want to become. 
 
@@ -190,8 +201,7 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Complete it or kill it.** If something is important to you, complete it. If not, kill it. Don't be in the middle. Fill your life with goals that are worth finishing and eliminate the rest.
 
-- **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.  
-
+- **It is ok to change your mind.** Ability to change your mind based on existing or new information is a super power. Don't stick on to a bad decision.
 
 #### **Living life**
 
@@ -209,9 +219,19 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
 
-- **Learn from experience**. There is really no substitute for experience. You don’t know what you don’t know. You can read stacks of books, get mentors, take courses, or make the perfect plan. You'll still yourself making mistakes. It’s only when the mistake stings you properly that you learn and don’t forget. The best and quickest way to learn is through experience. 
+- **Learn from experience**. There is really no substitute for experience. You don’t know what you don’t know. You can read stacks of books, get mentors, take courses, or make the perfect plan. You'll still yourself making mistakes. It’s only when the mistake stings you properly that you learn and don’t forget. The best and quickest way to learn is through experience. There is a difference between seeing a picture of a snake and having a live snake thrown on your lap. It is not that you can't learn from other people's experience. It is just that you learn best from your own experience.
 
 - **Do the right thing.** No matter what don't compromise on your ethics. You would not repent it.
+
+- **Do what's good for you.** If Coinbase can rescind offers for hundreds of people after explicitly saying that they wouldn’t, despite having $6 billion in cash reserves, and Tesla can lay off 10% of it’s workforce. while giving Elon Musk a $23 billion bonus, then you can change your mind after you accept an offer to do what’s best for you. Especially if that means accepting a better role. Companies take care of themselves. You take care of you. 
+
+- **How to find what you love?** Step 1 - Explore widely. Find out what is possible. Step 2 - Test cheaply. Run small, quick experiments. Sample things. Step 3 - Edit ruthlessly. Dive into your favorites. Cut everything else. Step 4 - Repeat.
+
+- **Be nice & kind.** Before you are old, attend as many funerals as you can bear, and listen. Nobody talks about the departed’s achievements. The only thing people will remember is what kind of person you were while you were achieving. Also it is hard to cheat an honest & kind man.
+
+- **Take risks.** The most meaningful things in life come with some level of risk, and if you are always in survival mode, you won’t take them. The stakes will seem too high, even if the downside to that risk is capped.
+
+- **Buy experiences.** Acquiring things will rarely bring you deep satisfaction. But acquiring experiences will.
 
 #### **Mental Models**
 
@@ -221,7 +241,7 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Learn by doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books.
 
-- **Try it out before you go all in.** The only sure way to know that you are going to like or not like something is to try it out. Don't go all in from the very start. For new things, buy a 1 month subscriptions instead of locking in 36 months from day 1.
+- **Try it out before you go all in.** The only sure way to know that you are going to like or not like something is to try it out. Don't go all in from the very start. For new things, buy a 1 month subscriptions instead of locking in 36 months from day 1. Examples — Webflow, Squarespace, HabitTracker
 
 - **Think long-term.** In a world focused on being short term being long term is a competitive advantage. Remember, most benefits of compounding come in the later stages.
 
@@ -231,15 +251,31 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Control your anger. So it does not control you.** Anger seldom brings you anything good. It obstructs your rational thought process. Don't respond or act when you are angry.  Breathe in. Let it go. Act once your anger subsides.
 
+- **Envy is a great leveller, and it levels all downwards.** Instead of motivating one to better performance, as my father thought it could, envy prefers to see the other person fall. The envious person is willing to see both sides lose.
+
+- **Accept the compliment.** When you receive a compliment, say thank you. We often ruin compliments by devaluing the statement or acting overly humble. Internally, you might think this prevents you from appearing arrogant or smug. The problem is that by deflecting the praise of a genuine compliment, you don't acknowledge the person who was nice enough to say something. Simply saying “Thank You” fully acknowledges the person who made the compliment and allows you to enjoy the moment as well.
+
+- **Speak up.** There is some immorality in silence. The immorality to remain silent when there is evil afoot. If you are seeing someone being suffered. When honest people fail in their duty to speak up they wound the dharma. 
+
+- **Mould your Identity .** Identities are more important than rules/goals. eg. I am a healthy person. Everytime you see food. You don't have to make a decision as it is already a part of your identity.
+
 #### **Productivity**
 
-- **Done > Perfect.** Perfection is the enemy of good. Progress > perfection. Make a choice and move on. Just ship.   
+- **Done > Perfect.** Perfection is the enemy of good. Progress > perfection. Make a choice and move on. Just ship.
+
+- **Ask yourself and others a deadline.** A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
+
+- **Reduce distractions.** Nearly every habit is initiated by a trigger or cue. One of the quickest ways to reduce the power of the Diderot Effect is to avoid the habit triggersthat cause it in the first place. Unsubscribe from commercial emails. Call the magazines that send you catalogs and opt out of their mailings. Meet friends at the park rather than the mall. Block your favorite shopping websites using tools like Freedom.
+
+- **What We Measure, We Improve.** Measure what matters. The things we measure are the things we improve. It is only through numbers and clear tracking that we have any idea if we are getting better or worse. Our lives are shaped by how we choose to spend our time and energy each day. Measuring can help us spend that time in better ways, more consistently. Measure what matters. 
 
 - **Look out for 80/20 solutions.** Get to the 80% output quick. Look for a way in which you can accomplish 80% of what you want with only 20% of the work/effort/time. An 80% solution to a real customer problem which is available right away, is much better than a 100% solution that takes ages to build. 
 
 - **Be consistent.** You need consistency more than you need intensity. Consistency makes for progress. Your 1st blog post will be bad, but your 100th will be great. Your 1st workout will be weak, but your 100th will be strong. Put in your reps. Luck also favours the consistent.
 
 - **Don't overdo productivity.** Don't bleed every last piece of productivity from every second you have to spare. Look around you, all the people who you love will be gone one day, especially the ones who spent their whole lives looking after you, yes you. Think about that once in a while. Spend your time, love, energy, and emotions accordingly.
+
+- **Opt-Out vs. Opt-In.** There is a famous organ donation study that revealed how multiple European countries skyrocketed their organ donation rates: they required citizens to opt-out of donating rather than opt-in to donating. You can do something similar in your life by opting your future self into better habits ahead of time. For example, you could schedule your yoga session for next week while you are feeling motivated today. When your workout rolls around, you have to justify opting-out rather than motivating yourself to opt-in.
 
 #### **Money**
 
@@ -269,7 +305,9 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Search goodness.** In life you often don’t get what you want, you get what you expect. Go looking for trouble and that’s what you’ll find. Go looking for conflict and you’ll find it. Go looking for people take advantage of you and they generally will. See the world as a dog-eat-dog place, and you’ll always find a bigger dog looking at you as if you’re his next meal. Go looking for the best in people, and you’ll be amazed at how much talent, ingenuity, empathy and goodwill you will find. Ultimately the world treats you more or less the way you expect to be treated. You’d be amazed at how much you have to do with happens to you.
 
-- **Show your work.** The most effective networking strategy has nothing to do with conferences, cocktail hours or cold emails. It is about doing interesting things & sharing them publicly. Like-minded people will come to you. 
+- **Show your work.** The most effective networking strategy has nothing to do with conferences, cocktail hours or cold emails. It is about doing interesting things & sharing them publicly. Like-minded people will come to you.
+
+- **Praise people.** You’ll get 10x better results by elevating good behaviour rather than punishing bad behaviour, especially in children and animals.
 
 - **Stay away from negative people.** Vibes are contagious. The impact of negativity is magnified when we talk about it, no matter what we say. Surround yourself with people who increase your energy. Run far away from those who drain it (Vampires).
 
@@ -279,15 +317,19 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **When someone is nasty, rude, hateful, or mean with you, pretend they have a disease.** That makes it easier to have empathy toward them which can soften the conflict.
 
-- **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go.
+- **Do not hold grudges.** If you do, it is only going to make your life bitter. Life becomes much easier when you learn to accept an apology you never get. When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy towards them which can soften the conflict. Sometimes good people act badly. You continue to do what is right. Release the grudge as if it was a poison. Let it go. 
+
+- **Forgive.** When you forgive others, they may not notice, but you will heal. Forgiveness is not something we do for others; it is a gift to ourselves.
 
 - **5 years people rule.** Only spend time with people who you would want to spend time with even 5 years from now. Life is too short.
 
 - **Social proof works.** When unsure how to act, people copy others, outsourcing their decisions.
 
-- **The more you give to others, the more you’ll get.** Understanding this is the beginning of wisdom.
+- **The more you give to others, the more you’ll get.** Perhaps the most counter-intuitive truth of the universe is that the more you give to others, the more you’ll get. Understanding this is the beginning of wisdom.
 
-- **If you can avoid seeking approval of others, your power is limitless.**
+- **If you can avoid seeking approval of others, your power is limitless.** The ability to walk away from a deal is what gives you power.
+
+- **Choose wisely.** 90% of happiness in life comes from who you decide to partner with (marry etc). The other 10% is your boss.
 
 #### **Success & Failure**
 
@@ -305,9 +347,31 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 - **Recipe for success. Under-promise and over-deliver.**
 
-- **Don’t be the best. Be the only.**
-
 - **Secret to success.** Every morning write down the list of things that need to be done that day. Do them.
+
+- **Nobody cares if you fail. Your biggest critic is yourself.** Stop worrying about what other people think—the truth is that they mostly don’t think anything about your successes and failures. They’re too busy thinking about themselves. It may seem depressing, but it’s actually freeing. You’re free to try, experiment, fail, try again—nobody cares anyway, so have fun!
+
+
+#### **Business**
+
+- **Don't try to sell what you wouldn't buy.** Potential customer will know if you believe in what you're selling. 
+
+- **Get the incentives right.** It’s the most important thing in management. You get what you reward. Align incentives.
+
+- **Always humans first.** Money is replicable, humans are not.
+
+
+#### **Cool Hacks**
+
+
+- **Mirror.** To get people around you comfortable.
+
+- **Power pose.** Before an important meeting to boost you.
+
+- **Heavy Breathe.** To signal your brain that you are ok.
+
+- **I can't change the past but we can work together on the future.** I can’t change what happened to you in the past but together we may be able to use your experience to protect other people.
+
 
 #### **Learning**
 
