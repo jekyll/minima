@@ -74,6 +74,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Checklists works
 
+- Embrace iteration
+
 - Criticism is given
 
 - Become a go-giver
@@ -174,6 +176,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Most people don’t start. Most people who start don’t continue. Most people who continue give up. Many winners are just the last ones standing — Sahil Livanga
 
+- Most people overestimate what they can do in one year and underestimate what they can do in ten years. — Bill Gates
+
 - You will not be right simply because a large number of people momentarily agree with you. You will be right, if your hypotheses are correct, your facts are correct, and your reasoning is correct — Warren Buffett
 
 - Would you rather be the world’s greatest lover, but have everyone think you’re the world’s worst lover? Or would you rather be the world’s worst lover but have everyone think you’re the world’s greatest lover? — Warren Buffett
@@ -261,7 +265,9 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 #### **Productivity**
 
-- **Done > Perfect.** Perfection is the enemy of good. Progress > perfection. Make a choice and move on. Just ship.
+- **Done > Perfect.** Don't let perfect be the enemy of good. Progress > perfection. Make a choice and move on. Just ship.
+
+- **Embrace iteration.** Anything you do you get better with iteration. Without iteration you just don't know so many things.
 
 - **Ask yourself and others a deadline.** A deadline weeds out the extraneous and the ordinary. It prevents you from trying to make it perfect, so you have to make it different. Different is better.
 
