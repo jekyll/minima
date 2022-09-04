@@ -31,6 +31,7 @@
   * Improve the readablility of blockquotes (#481)
   * Extract more color rules into skins (#452)
   * Introduce &#34;Dark Minima&#34; skin (#335)
+  * Reduce spacing in the three largest headers (#538)
 
 ### Major Enhancements
 
