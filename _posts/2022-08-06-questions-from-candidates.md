@@ -5,16 +5,17 @@ categories: quora, interview
 ---
 
 
-Usually, we reserve 5 minutes for interviewees to ask questions to the interviewer. Here are some common questions.
+Usually, we reserve 5 minutes for interviewees to ask questions to the interviewer. Here are some common questions, with my standard replies copied.
 
 How is the remote culture like at Quora?
-- I think it is as good as remote-first can bring.
+- Working remotely provides great flexibility. You do not need to commute, wake up on time, as long as you attend meetings and contribute.
 - We have all-hands most of the weeks, which includes a Q&A where you can ask any questions. The question will definitely be addressed if it has a few upvotes.
-- Admittedly, socially it is not very engaging to work remotely. I guess most engineers have their own family and social life.
+- Admittedly, socially it is not very engaging to work remotely. I guess most engineers have their own family and social life already.
+- However, as a new grad who do not have much friends here, you might want more in-person social interaction, and the office do provide that.
 - Regarding the office
     - Personally I go to the office every day to avoid preparing lunch.
     - Ever since I started going to the office after moving to Mountain View, I have never seen the CEO.
-    - The engineer headcount is slightly more than a hundred, the average daily engineer attendance in the office is 10.
+    - The engineer headcount is slightly more than a hundred, the average daily engineer attendance in the office is 12.
     - Half of the engineers who come to the office often graduated from college less than 3 years ago. We are also from different teams.
 
 
