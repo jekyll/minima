@@ -178,6 +178,7 @@ Skin setting    | Description
 --------------- | -----------
 classic         | Default, light color scheme.
 dark            | Dark variant of the classic skin.
+auto            | *Adaptive skin* based on the default classic and dark skins.
 solarized       | *Adaptive skin* for [solarized](https://github.com/solarized) color scheme skins.
 solarized-light | Light variant of solarized color scheme.
 solarized-dark  | Dark variant of solarized color scheme.
