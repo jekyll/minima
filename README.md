@@ -277,6 +277,7 @@ minima:
     telegram: jekyll
     microdotblog: jekyll
     keybase: jekyll
+    discord_invite_code: WaxFQChw
 
     mastodon:
      - username: jekyll
