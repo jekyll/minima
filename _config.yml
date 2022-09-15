@@ -1,13 +1,13 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
+title: Hannah Wang
+author: Hannah(Mubei) Wang
+  name: hannahwangmb
+  email: hannahwangmb@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
