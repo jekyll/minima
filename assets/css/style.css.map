@@ -3,12 +3,12 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/skins/classic.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/skins/auto.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/initialize.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/custom-variables.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/_base.scss",
-		"../../../../../tmp/jekyll-remote-theme-20220916-1788-fuo146/_sass/minima/_layout.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/skins/classic.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/skins/auto.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/initialize.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/custom-variables.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/_base.scss",
+		"../../../../../tmp/jekyll-remote-theme-20220916-1792-jtalcj/_sass/minima/_layout.scss",
 		"_sass/minima/custom-styles.scss"
 	],
 	"sourcesContent": [
