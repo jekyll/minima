@@ -59,6 +59,7 @@
   * Fix script used for Google Analytics (#596)
   * Open social links in new tabs (#625)
   * change base-font-family sequence (#654)
+  * Fix responsiveness of social SVG sprites (#677)
 
 ### Development Fixes
 
