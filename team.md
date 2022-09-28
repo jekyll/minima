@@ -66,4 +66,15 @@ F1 enthusiast.
 PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Coffee addict. Enjoys movies.
 
+<img src="https://user-images.githubusercontent.com/95931266/177825256-34d87df1-e38e-4f7e-84cc-c729bcf2caa4.jpg"
+     alt="Karthik"
+     width="80" 
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Karthik Chinni**. \
+Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+Graduated from University of New Mexico in 2022 with a Ph.D. thesis on [Reliability of Quantum Simulation on NISQ-era Devices
+](https://digitalrepository.unm.edu/phyc_etds/246/) supervised by [I. Deutsch](https://cquic.unm.edu/research/research-groups/deutsch-research-group/index.html).  
+Enjoys nature hikes and running.
+
+
 
