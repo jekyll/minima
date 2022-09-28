@@ -4,7 +4,9 @@ title: News
 permalink: /news/
 ---
 
-* [13-09-22](https://twitter.com/polyquantique/status/1572242798719676420) *Yuan*'s work on the recursive representation of Gaussian quantum mechanics appeared in the [arXiv](https://arxiv.org/abs/2209.06069).
+* [19-09-22] **Karthik** joins as a postdoctoral research fellow. Welcome Karthik!
+
+* [13-09-22](https://twitter.com/polyquantique/status/1572242798719676420) **Yuan**'s work on the recursive representation of Gaussian quantum mechanics appeared in the [arXiv](https://arxiv.org/abs/2209.06069).
 
 * [31-08-22](https://twitter.com/Ruqulab/status/1565069192642142208) Nicolás gave a talk on Quantum computational advantage with a programmable photonic processor and Javier presented our work on [Classical models are a better explanation of the Jiuzhang 1.0 Gaussian Boson Sampler than its targeted squeezed light model](https://arxiv.org/abs/2207.10058v3) at [CQIQC-IX](http://www.fields.utoronto.ca/activities/22-23/CQIQC-IX).
 
