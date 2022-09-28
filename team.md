@@ -65,8 +65,9 @@ F1 enthusiast.
      style="float: left; margin-right: 10px;" /> **Javier Martínez Cifuentes**. \
 PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Coffee addict. Enjoys movies.
+.<br><br>
 
-<img src="https://user-images.githubusercontent.com/95931266/177825256-34d87df1-e38e-4f7e-84cc-c729bcf2caa4.jpg"
+<img src="https://github.com/polyquantique/polyquantique.github.io/blob/fc977e24571778db587b91e2912385a14d8753b6/assets/images/karthik.jpg"
      alt="Karthik"
      width="80" 
      height="90"
