@@ -67,7 +67,7 @@ PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique
 Coffee addict. Enjoys movies.
 .<br><br>
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/blob/fc977e24571778db587b91e2912385a14d8753b6/assets/images/karthik.jpg"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/karthik.jpg"
      alt="Karthik"
      width="80" 
      height="90"
