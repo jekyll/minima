@@ -6,6 +6,8 @@ permalink: /news/
 
 * 04-10-22 Nicolás was invited [to comment in El Espectador](https://www.elespectador.com/ciencia/nobel-de-fisica-2022-de-la-incredulidad-de-einstein-al-sueno-de-la-computacion-cuantica/) on the wonderful news of John Clauser, Anton Zeilinger and Alain Aspect being awarded the Nobel prize in physics for work in Quantum Optics and Quantum Information.
 
+* [27-09-22](https://twitter.com/Quantum_137/status/1576721763160899584) Martin's work on Waveguided sources of consistent, single-temporal-mode squeezed light: the good, the bad, and the ugly [appears on the arXiv](https://arxiv.org/abs/2209.13491)
+
 * 19-09-22 **Karthik** joins as a postdoctoral research fellow. Welcome Karthik!
 
 * [13-09-22](https://twitter.com/polyquantique/status/1572242798719676420) **Yuan**'s work on the recursive representation of Gaussian quantum mechanics appeared in the [arXiv](https://arxiv.org/abs/2209.06069).
