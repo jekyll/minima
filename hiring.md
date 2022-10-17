@@ -18,7 +18,7 @@ We are based in beautiful and welcoming Montréal, a safe but never boring city 
 
 We are starting a research program into ultrafast quantum sensing and metrology. We are in particular looking for candidates with a background in quantum and nonlinear optics/quantum sensing/quantum metrology.
 The project aims to develop ultrafast probe states for doing sensing in regions of the electromagnetic spectrum beyond the visible/near-visible band.
-Besides theory, the candidate will develop software for optimization of ultrafast parametric sources with colleagues in Montréal and will interact with experimentalists both locally and abroad as part of the [MIRAQLS](https://twitter.com/project_MIRAQLS) [project](https://www.polymtl.ca/carrefour-actualite/nouvelles/un-regroupement-international-multidisciplinaire-pilote-par-le-professeur-denis-seletskiy-de)  jointly funded by Canada's NSERC and the European Comission. 
+The selected candidate will also be jointly advised by [Prof. J.E. Sipe](https://www.physics.utoronto.ca/~sipegroup/) from the University of Toronto. Besides theory, the candidate will develop software for optimization of ultrafast parametric sources with colleagues in Montréal and will interact with experimentalists both locally and abroad as part of the [MIRAQLS](https://twitter.com/project_MIRAQLS) [project](https://www.polymtl.ca/carrefour-actualite/nouvelles/un-regroupement-international-multidisciplinaire-pilote-par-le-professeur-denis-seletskiy-de)  jointly funded by Canada's NSERC and the European Comission. 
 
 
 ## Interested in joining?
