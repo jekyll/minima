@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [17-10-22](https://twitter.com/BosonBulmer/status/1582010611591806981) Our work with Jake, Stefano and Rachel on [Threshold detection statistics of bosonic states appeared in Phys. Rev. A.](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.043712) Congrats everyone!
+
 * 04-10-22 Nicolás was invited [to comment in El Espectador](https://www.elespectador.com/ciencia/nobel-de-fisica-2022-de-la-incredulidad-de-einstein-al-sueno-de-la-computacion-cuantica/) on the wonderful news of John Clauser, Anton Zeilinger and Alain Aspect being awarded the Nobel prize in physics for work in Quantum Optics and Quantum Information.
 
 * [27-09-22](https://twitter.com/Quantum_137/status/1576721763160899584) Martin's work on Waveguided sources of consistent, single-temporal-mode squeezed light: the good, the bad, and the ugly [appears on the arXiv](https://arxiv.org/abs/2209.13491)
