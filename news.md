@@ -24,6 +24,10 @@ permalink: /news/
 
 * [06-07-22](https://twitter.com/polyquantique/status/1544666688599298048) **Salvador**'s work on [Custom nonlinearity profile for integrated quantum light sources](https://arxiv.org/abs/2207.01714) is on the arXiv!
 
+* 29-06-22 Nicolás and Polytechnique colleague [Clara Santato](https://www.polymtl.ca/expertises/en/santato-clara) become [senior members of Optica](https://www.optica.org/en-us/about/newsroom/news_releases/2022/june/optica_announces_2022_class_of_senior_members/).
+
+* 22-06-22 Nicolás served as jury for the [BIG quantum Hackathon](https://quebec-quantique.ca/en/bighackathon/) organized by Quebec Quantique. 
+
 * 15-06-22 Nicolás gave a tutorial on [Quantum Sampling from Continuous-Variable States of Light](https://www.optica.org/en-us/events/topical_meetings/quantum/schedule/post_session/?sessionid=431301) at Optica's Quantum 2.0 Conference.
 
 * 06-06-22 Nicolás gave the Q-Awareness seminar at the University of New Brunswick.
