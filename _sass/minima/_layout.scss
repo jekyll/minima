@@ -255,8 +255,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h1, h2, h3 { margin-top: $spacing-unit * 2 }
-  h4, h5, h6 { margin-top: $spacing-unit }
+  h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
     @include relative-font-size(1.75);
@@ -296,7 +295,7 @@
     &:last-of-type { margin-right: 0 }
     a {
       display: block;
-      padding: $spacing-unit / 4;
+      padding: 10px 12px;
       border: 1px solid $border-color-01;
       &:hover { border-color: $border-color-02 }
     }
