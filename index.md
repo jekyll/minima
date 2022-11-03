@@ -14,7 +14,7 @@ title: Quantum Photonics and Information at Polytechnique Montréal
      alt="Group Members November 2022"
      width="700" 
      height="500"
-     style="float: left; margin-right: 10px;" />
+     style="float: center;" />
 
 Bienvenue sur notre site web!
 
