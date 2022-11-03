@@ -8,6 +8,14 @@
 layout: home
 title: Quantum Photonics and Information at Polytechnique Montréal  
 ---
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/group_nov_2022.jpg"
+     alt="Group Members November 2022"
+     width="1080" 
+     height="1500"
+     style="float: left; margin-right: 10px;" />
+
 Bienvenue sur notre site web!
 
 At Polyquantique we work at the intersection of quantum photonics and information. We develop the theory and computational tools underpinning the next generation of nonclassical bright light sources and devices needed for building fault-tolerant quantum computers, quantum communication networks and quantum sensors. These new technologies will allow us to solve practical computational problems in chemistry and material science with unprecedented speed, build impregnable information networks and provide us with the most precise and gentle probes to study delicate materials and biological samples.
