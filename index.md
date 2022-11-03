@@ -12,8 +12,8 @@ title: Quantum Photonics and Information at Polytechnique Montréal
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/group_nov_2022.jpg"
      alt="Group Members November 2022"
-     width="660" 
-     height="517"
+     width="700" 
+     height="500"
      style="float: left; margin-right: 10px;" />
 
 Bienvenue sur notre site web!
