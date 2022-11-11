@@ -16,37 +16,21 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-    # google_scholar_id: qc6CJjYAAAAJ
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+    - { platform: devto,          user_url: "https://dev.to/jekyll" }
+    - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+    - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+    - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+    - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+    - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+    - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+    - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+    - { platform: telegram,       user_url: "https://t.me/jekyll" }
+    - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
