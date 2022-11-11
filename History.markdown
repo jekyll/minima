@@ -41,6 +41,7 @@
   * Drop support for scalar &#39;author&#39; configuration (#384)
   * Place skins in `minima/skins` to clarify purpose (#479)
   * Add adaptive skin: `solarized` (#594)
+  * Generate social iconsheet during build (#686)
 
 ### Bug Fixes
 
