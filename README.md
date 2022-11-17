@@ -325,10 +325,10 @@ For example, to render a link to an account of user `john.doe` at platform `devi
 To enable Google Analytics, add the following lines to your Jekyll site:
 
 ```yaml
-  google_analytics: UA-NNNNNNNN-N
+  google_analytics: G-NNNNNNNNNN
 ```
 
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`. The legacy Universal Analytics format also works with the `gtag.js` snippet, in the format `UA-NNNNNNNN-N`, but the [Universal Analytics format will stop processing data July 1, 2023](https://support.google.com/analytics/answer/11583528?hl=en#:~:text=Until%20July%201%2C%202023%2C%20you,for%20at%20least%20six%20months). For more information, see the [Google Analytics 4 tracking ID support guide](https://support.google.com/analytics/answer/9539598?hl=en).
 
 ### Enabling Excerpts on the Home Page
 
