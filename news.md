@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* [12-12-22] Yanic's work on [photon-number moments and cumulants of Gaussian states](https://arxiv.org/abs/2212.06067) appears on the arXiv.
+* 12-12-22 Yanic's work on [photon-number moments and cumulants of Gaussian states](https://arxiv.org/abs/2212.06067) appears on the arXiv.
 
 * [17-10-22](https://twitter.com/BosonBulmer/status/1582010611591806981) Our work with Jake, Stefano and Rachel on [Threshold detection statistics of bosonic states appeared in Phys. Rev. A.](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.043712) Congrats everyone!
 
