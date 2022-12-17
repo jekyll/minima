@@ -16,6 +16,12 @@ layout: default
         <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
           {{ mdate | date: date_format }}
         </time>
+      {%- elsif page.last_modified_at -%}
+        ~
+        {%- assign mdate = page.last_modified_at | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
       {%- endif -%}
       {%- if page.author -%}
         • {% for author in page.author %}
