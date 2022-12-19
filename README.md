@@ -1,6 +1,6 @@
 # Fractal
 > A Jekyll theme forked from Minima, with support for coding icons and an infinite number of nested directory levels
-
+ 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/fractal?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/fractal/releases/ "Go to releases on GitHub")
 [![License](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md "View license file")
 
