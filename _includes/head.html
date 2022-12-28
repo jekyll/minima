@@ -1,6 +1,5 @@
 {% comment %}
-    Based on Minima. If using remote theme, assuming using Jekyll 3.
-    Otherwise using Jekyll 4, where baseurl is built into link tag.
+    Based on Minima.
 {% endcomment %}
 <head>
     <meta charset="utf-8">
@@ -9,7 +8,7 @@
 
     {%- include seo.html -%}
 
-    <link rel="stylesheet" href="{% if site.remote_theme and site.remote_theme != '' %}{{ site.baseurl }}{% endif %}{% link assets/main.scss %}">
+    <link rel="stylesheet" href="{% link assets/main.scss %}">
 
     {%- feed_meta -%}
 
