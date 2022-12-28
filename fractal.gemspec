@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
     f.match(%r!^(assets|_(includes|layouts|sass)/|LICENSE|LICENSE-source|README.md)!i)
   end
 
-  spec.add_runtime_dependency "jekyll", ">= 3.9", "< 5.0"
+  spec.add_runtime_dependency "jekyll", ">= 4.2", "< 5.0"
 
   # Match GH Pages locked versions.
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
