@@ -1,0 +1,38 @@
+name: GH Pages Deploy
+
+on:
+  push:
+    branches: master
+    paths-ignore:
+      - README.md
+
+  pull_request:
+    branches: master
+    paths-ignore:
+      - README.md
+
+jobs:
+  build-deploy:
+    name: Build and deploy
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3"
+          bundler-cache: true
+
+      - name: Build 🏗
+        run: make build
+
+      - name: Deploy to GH Pages 🚀
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
