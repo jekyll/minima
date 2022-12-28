@@ -21,34 +21,9 @@ Set up your gems:
 
     gem "fractal", "~> 4", git: "https://github.com/MichaelCurrin/fractal"
     ```
-- `Gemfile` for Jekyll 3 and GH Pages. The theme
-    ```ruby
-    source "https://rubygems.org"
-
-    gem "jekyll", "~> 3.9"
-    gem "kramdown-parser-gfm", "~> 1.1.0"
-    gem "webrick", "~> 1.7"
-
-    gem "fractal", git: "https://github.com/MichaelCurrin/fractal"
-    ```
-    - **Warning** - that setup does **not** pin a tag version of the theme. You just get the latest changes that are on `master`. You can look the version in Gemfile but then also need to lock Remote Theme theme with `@4` or similar.
 
 
 e.g. [Gemfile](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/Gemfile) in Dev Cheatsheets.
-
-### Add Remote theme
-
-You can also add this if you want to use the Remote Theme plugin, to match the GitHub Pages flow closely. This step is optional, even if using Jekyll 3 and GH Pages.
-
-```ruby
-group :jekyll_plugins do
-  gem "jekyll-remote-theme", "~> 0.4.3"
-end
-```
-
-But you'll still want to keep the `fractal` line above to get the theme's dependencies (Remote Theme does not do that).
-
-Note GitHub Pages ignores the contents of your Gemfile and uses locked depenencies.
 
 ### Install with Bundler
 
