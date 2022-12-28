@@ -4,9 +4,9 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/fractal?include_prereleases&sort=semver)](https://github.com/MichaelCurrin/fractal/releases/ "Go to releases on GitHub")
 [![License](https://img.shields.io/badge/License-MIT-blue)](/docs/license.md "View license file")
 
-[![Jekyll](https://img.shields.io/badge/Jekyll-3.9-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com "Go to Jekyll site")
+[![Jekyll](https://img.shields.io/badge/Jekyll-4-blue?logo=jekyll&logoColor=white)](https://jekyllrb.com "Go to Jekyll site")
 
-This theme is intended to support my own sites as covered in the docs. But you are welcome to borrow pieces of the code or use or modify this theme. The Remote Theme plugin is recommended so you can use this theme on GitHub Pages.
+This theme is intended to support my own sites as covered in the docs. But you are welcome to borrow pieces of the code or use or modify this theme.
  
 
 ## Preview
