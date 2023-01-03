@@ -231,6 +231,10 @@ If you want to add comment system for your site,add the following code to the `R
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
   provider:	# choice your comment system
+ 
+ #Disqus
+ disqus:
+  shortname: my_disqus_shortname
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
@@ -256,7 +260,7 @@ giscus:
   lang:                "your_language"
  ```
  
- :warning.First,you need to enter the name of your comment system into the `provider` option.Second,enter the configurations of your comment system.
+ :warning: First,you need to enter the name of your comment system into the `provider` option(`giscus`,`utterances` or `disqus`).Second,enter the configurations of your comment system.
 
 ### Author Metadata
 
