@@ -987,8 +987,6 @@ table td {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: var(--minima-background-color);
-  background: var(--minima-brand-color);
 }
 .sub-footer:before {
   position: absolute;
@@ -1004,8 +1002,7 @@ table td {
 
 #skin-switch-container {
   display: none;
-  max-width: 800px;
-  margin: 0 auto;
+  margin-left: -4px;
   padding: 15px 0;
   text-align: center;
   font-size: 0.9375rem;
@@ -1014,13 +1011,19 @@ table td {
   margin: 0 2px;
   padding: 5px 2px;
   text-align: center;
-  color: var(--minima-background-color);
-  background: var(--minima-brand-color);
-  border-color: var(--minima-background-color);
   border-radius: 5px;
 }
 #skin-switch-container select:focus-visible {
   outline: none;
+}
+
+.sub-footer, .sub-footer select {
+  --nightshade: #002129;
+  color: #78929b;
+  background: var(--nightshade);
+}
+.sub-footer::before, .sub-footer select::before {
+  border-color: transparent transparent var(--nightshade);
 }
 
 /*# sourceMappingURL=auto.css.map */
