@@ -783,6 +783,7 @@ table td {
   position: absolute;
   display: table;
   margin: -60px auto;
+  top: 1px;
   left: 0;
   right: 0;
   content: "";
@@ -796,12 +797,13 @@ table td {
   margin-left: -4px;
   padding: 15px 0;
   text-align: center;
-  font-size: 0.9375rem;
+  font-size: 0.8rem;
 }
 #skin-switch-container select {
   margin: 0 2px;
   padding: 5px 2px;
   text-align: center;
+  font-size: 0.8rem;
   border-radius: 5px;
 }
 #skin-switch-container select:focus-visible {
@@ -809,12 +811,11 @@ table td {
 }
 
 .sub-footer, .sub-footer select {
-  --nightshade: #002129;
-  color: #78929b;
-  background: var(--nightshade);
+  color: var(--solarized-mono00);
+  background: var(--solarized-mono2);
 }
 .sub-footer::before, .sub-footer select::before {
-  border-color: transparent transparent var(--nightshade);
+  border-color: transparent transparent var(--solarized-mono2);
 }
 
 /*# sourceMappingURL=solarized.css.map */
