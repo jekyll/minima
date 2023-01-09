@@ -260,7 +260,7 @@ giscus:
   lang:                "your_language"
  ```
  
- :warning: First,you need to enter the name of your comment system into the `provider` option(`giscus`,`utterances` or `disqus`).Second,enter the configurations of your comment system.
+ :warning: First, you need to enter the name of your comment system into the `provider` option (`giscus`, `utterances` or `disqus`). Second, enter the configurations of your comment system.
 
 ### Author Metadata
 
