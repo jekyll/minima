@@ -74,6 +74,7 @@
   * Improve CI workflow configuration (#609)
   * Migrate from TravisCI to GitHub Actions (#633)
   * Build and deploy demo site via GH Action workflow (#636)
+  * Improve readability of config file (#703)
 
 ## 2.5.1
 
