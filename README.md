@@ -222,7 +222,7 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
 
 
-### Enabling comments (via Disqus,Utterances,Giscus)
+### Enabling comments (via Disqus, Utterances, Giscus)
 
 If you want to add comment system for your site,add the following code to the `README.md` file.If not,skip this part.
 
