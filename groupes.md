@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Mini cours en theorie de groupes
+title: Mini cours en theorie de groupes et applications
 permalink: /groupes/
 ---
 
-## Mini Cours en Theorie de Groupes et applications.
-Par: Prof. Hubert de Guise, Dept. de Physique, U. Lakehead
+Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Universite Lakehead](https://www.lakeheadu.ca/)
 
 ## Contents of the course
 
