@@ -6,6 +6,13 @@ permalink: /groupes/
 
 Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Universite Lakehead](https://www.lakeheadu.ca/)
 
+## Motivation
+
+Various physical systems, such as crystals and the hydrogen atom, and three of the four known fundamental forces in the universe, may be modelled by symmetry groups. Thus group theory and the closely related representation theory have many important applications in physics, chemistry, and materials science. Group theory is also central to public key cryptography [Taken from https://en.wikipedia.org/wiki/Group_theory].
+
+This course aims to introduce important an useful results in group and representation theory requiring a minimal background of elementary linear algebra. Applications of these ideas are presented in the context of optical interferometry of indistinguishable particles.
+Finally, the ideas developed in the course are used to introduce the Weingarten calculus for calculation moments of the unitary  group, which finds application in different areas of physics including condensed matter, quantum optics and high energy physics.
+
 ## Contents of the course
 
 ### Premier cours: Introduction et notions de bases
@@ -37,6 +44,6 @@ Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Ph
 
 ### Cinquième cours: Application à l'interférence de particules partiellement distinguables.
 
-### Sixième cours: le calcul de Wiengarten [à venir].
+### Sixième cours: La mesure Haar et le calcul de Wiengarten [à venir].
 
 Event financiee pour [l'Acfas](https://www.acfas.ca/)
