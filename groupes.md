@@ -4,14 +4,14 @@ title: Mini cours en theorie de groupes et applications
 permalink: /groupes/
 ---
 
-Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Universite Lakehead](https://www.lakeheadu.ca/)
+Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
 
 ## Motivation
 
-Various physical systems, such as crystals and the hydrogen atom, and three of the four known fundamental forces in the universe, may be modelled by symmetry groups. Thus group theory and the closely related representation theory have many important applications in physics, chemistry, and materials science. Group theory is also central to public key cryptography [Taken from https://en.wikipedia.org/wiki/Group_theory].
+Divers systèmes physiques, tels que les cristaux et l'atome d'hydrogène, ainsi que trois des quatre forces fondamentales connues dans l'univers, peuvent être modélisés par des groupes de symétrie. Ainsi, la théorie des groupes et la théorie des représentations, qui lui est étroitement liée, ont de nombreuses applications importantes en physique, en chimie et en science des matériaux. La théorie des groupes est également au cœur de la cryptographie à clé publique.
 
-This course aims to introduce important an useful results in group and representation theory requiring a minimal background of elementary linear algebra. Applications of these ideas are presented in the context of optical interferometry of indistinguishable particles.
-Finally, the ideas developed in the course are used to introduce the Weingarten calculus for calculation moments of the unitary  group, which finds application in different areas of physics including condensed matter, quantum optics and high energy physics.
+Ce cours a pour but d'introduire des résultats importants et utiles en théorie des groupes et des représentations nécessitant un minimum de connaissances en algèbre linéaire élémentaire. Des applications de ces idées sont présentées dans le contexte de l'interférométrie optique de particules indiscernables.
+Enfin, les idées développées dans le cours sont utilisées pour introduire le calcul de Weingarten pour obtenir des moments du groupe unitaire, qui trouve des applications dans différents domaines de la physique, notamment la matière condensée, l'optique quantique et la physique des hautes énergies.
 
 ## Contents of the course
 
