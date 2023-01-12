@@ -24,7 +24,8 @@ We collaborate with academic colleagues at Polytechnique Montréal and beyond, a
 
 You can find more about what we do in the [research](research) section.
 
-[**We are looking for a postdoc to join our group!**](metrology_postdoc)
+To learn more about what is going on in our group visit the [news](news) section.
+
 
 [Polytechnique](https://www.polymtl.ca/en) offers exceptional opportunities for learning and research while living in beautiful and welcoming Montréal, a safe but never boring city that consistently ranks as the [best city in North America to be a student](https://www.montrealinternational.com/en/study/). Si vous êtes déjà Montréalais.e, venez me rencontrer! 
 

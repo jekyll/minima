@@ -35,3 +35,16 @@ Research in our group is funded by
      width="170" 
      height="170"
      style="float: left; margin-right: 10px;" /> Polytechnique Montréal through the PIED program.
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
+     alt="l'Acfas"
+     width="170" 
+     height="170"
+     style="float: left; margin-right: 10px;" /> l'Acfas through the Programme de coopération en recherche dans la francophonie canadienne.
