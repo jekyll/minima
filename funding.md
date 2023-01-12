@@ -4,7 +4,7 @@ title: Funding
 permalink: /funding/
 ---
 
-Research in our group is funded by
+Research in our group is financially supported by
 
 <br>
 <br>
