@@ -20,37 +20,52 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 ## Contenu du cours
 
+
 ### Premier cours: Introduction et notions de bases
-1. Introduction et idées de base: - Pourquoi les symétries?  Les symétries forment un groupe.
-2. Notions élémentaires pour groupe finis - Qu'est-ce qu'un groupe?  Qu'est-ce qu'un sous-groupe?  Éléments conjugués et classes de conjugaison.
-3. Représentations - Qu'est-ce qu'une représentation?  Exemples.  Représentations réductibles, indécomposables, irréductibles.
+1. Introduction et idees de base: - Pourquoi les symetries?  Les symmetries forment un groupe.
+2. Notions elementaires pour groupe finis - Qu'est-ce qu'un groupe?  Qu'est-ce qu'un sous-groupe?  Elements conjugués et classes de conjugaison.
+3. Representations - Qu'est-ce qu'une representation?  Examples.  Représentations réductibles, indécomposables, irréductibles.
 4. Représentations unitaires et unitarisation.
-5. Nombre de représentations irréductibles.  Un théorème d'orthogonalité.  Le lemme de Schur.
+5. Nombre de représentations irreductibles.  Un théorème d'orthogonalité.  Le lemme de Schur.
+6. Les groupes de Pauli
 
 ### Deuxième cours: les caractères.
-6. Les groupes de Pauli comme sous-groupe.
 7. Orthogonalité des caractères.
 8. Applications: critère d'irréductibilité.  Décomposition des représentations réductibles.
-9. La structure des groupes symétriques (ou de permutations)
-10. Caractères  d'un groupe de permutation- La méthode de Frobenius.  La méthode de Murnaghan-Nakayama
-11. Représentations du groupe de permutation a N objets- Les opérateurs de Young.  La méthode de Yamanouchi.  La base des tabloïdes de Young.
+9 . La structure des groupes symétriques (ou de permutations)
+9. Produits directs
+10. Classes des groupes de permutation; diagrammes de Young
+11. Caractères  d'un groupe de permutation- La méthode de Frobenius.  La méthode de Murnaghan-Nakayama
+12. Représentations du groupe de permutation de N objets- Dimensions et la formule du crochet. Les opérateurs de Young.  La méthode de Yamanouchi.  La bases des tabloïdes the Young.
 
-### Troisième cours: Les groupes unitaires (continus), l'oscillateur harmonique, et les bosons
-12. Le groupe SU2 et ses représentations - fonctions D de Wigner
-13. Le groupe SU3 et ses représentations (par polynômes)
-14. Factorisation et mesures invariantes
+### Troisieme cours: Les groupes unitaires (continus), l'oscillateur harmonique, et les bosons
+13. Les groupes unitaires et l'oscillateur harmonique
+ Le groupe SU2 et ses représentations;
+14.  Parametrisation
+15. Connection avec le moment angulaire
+16. Realisation par polynomes et par operateurs de creation et destruction
+17. Connections avec les diagrammes de Young
+18. Les fonctions D de Wigner
+19. Mesure invariante
+20. Application en interferometrie
 
-### Quatrième cours: La dualité Schur-Weyl
-15. Exemples: 2 particules de spin-1/2, n représentations fondamentales de U(m).
-16. Dualité des caractères the U(m) et du groupe symétrique.  Fonctions de Schur.  La formule de Weyl.
-17. La règle de Littlewood-Richardson et la décomposition de produits tensoriels
-18. Les fonctions de Schur et les coefficients de Littlewood-Richardson
-19. Le pléthysme et les produits symétrisés
 
-### Cinquième cours: Application à l'interférence de particules partiellement distinguables.
+### Quatrieme course:  Le groupe SU3 et ses représentations; SU(n)
+21. Parametrization et factorization
+L'algebre su(3)
+22. Poids et racines
+23. representations
+24. Mesure invariante pour le groupe SU(3)
+25. Parametrization et factorization de SU(4): representation graphique
 
-### Sixième cours: La mesure de Haar et le calcul de Wiengarten [à venir].
+### Cinquieme cours: La dualite Schur-Weyl
+26. Examples: 2 particles de spin-1/2, n representations fondamentales de U(m).
+27. Dualité des caractères the U(m) et du groupe symétrique.  Fonctions de Schur.  La formule de Weyl.
+28. La règle de Littlewood-Richardson et la décomposition de produits tensoriels
+29. Les functions de Schur et les coefficients de Littlewood-Richardson
+30. Le pléthysme et les produits symétrisés
 
+### Sixième cours: le calcul de Wiengarten
 
 
 <br>
