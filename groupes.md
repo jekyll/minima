@@ -65,7 +65,7 @@ L'algebre su(3)
 29. Les functions de Schur et les coefficients de Littlewood-Richardson
 30. Le pléthysme et les produits symétrisés
 
-### Sixième cours: le calcul de Wiengarten
+### Sixième cours: Le calcul de Wiengarten
 
 
 <br>
