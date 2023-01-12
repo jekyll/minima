@@ -64,7 +64,7 @@ Nous remercions le soutien financier de
      alt="Quebec"
      width="300" 
      height="67"
-     style="float: right; margin-right: 10px;"/>.
+     />
 
 <br>
 <br>
