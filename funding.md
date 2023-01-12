@@ -42,6 +42,11 @@ Research in our group is funded by
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
      alt="l'Acfas"
