@@ -59,8 +59,8 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 **Nous remercions l'**  
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
-     alt="Quebec"
-     width="70" 
+     alt="Acfas"
+     width="67" 
      height="67"
      /> **pour son soutien financier**
 
