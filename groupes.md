@@ -10,14 +10,14 @@ permalink: /groupes/
 
 ## Motivation
 
-Divers systèmes physiques, tels que les cristaux et l'atome d'hydrogène, ainsi que trois des quatre forces fondamentales connues dans l'univers, peuvent être modélisés par des groupes de symétrie. Ainsi, la théorie des groupes et la théorie des représentations, qui lui est étroitement liée, ont de nombreuses applications importantes en physique, en chimie et en science des matériaux. La théorie des groupes est également au cœur de la cryptographie à clé publique.
+Divers systèmes physiques, tels que les cristaux et l'atome d'hydrogène, ainsi que trois des quatre forces fondamentales connues dans l'univers, peuvent être modélisés par des groupes de symétrie. Ainsi, la théorie des groupes et la théorie des représentations, qui lui est étroitement liée, ont de nombreuses applications importantes en physique, en chimie et en science des matériaux. 
 
 Ce cours a pour but d'introduire des résultats importants et utiles en théorie des groupes et des représentations nécessitant un minimum de connaissances en algèbre linéaire élémentaire. Des applications de ces idées sont présentées dans le contexte de l'interférométrie optique de particules indiscernables.
 Les idées développées dans le cours sont utilisées pour introduire le calcul de Weingarten pour obtenir des moments du groupe unitaire, qui trouve des applications dans différents domaines de la physique, notamment la matière condensée, l'optique quantique et la physique des hautes énergies.
 
-**Où:** Le cours aura lieu dans la salle J-3078 du [Pavillon J.-Armand Bombardier](https://goo.gl/maps/1S9a2QX2gMcuWtEd7) de Polytechnique Montréal.
+### **Où:** Le cours aura lieu dans la salle J-3078 du [Pavillon J.-Armand Bombardier](https://goo.gl/maps/1S9a2QX2gMcuWtEd7) de Polytechnique Montréal.
 
-**Quand:** Les quatre premières sessions auront lieu les mercredis 18 et 25 et les vendredis 20 et 27 janvier de 11h00 à 12h30.  
+### **Quand:** Les quatre premières sessions auront lieu les mercredis 18 et 25 et les vendredis 20 et 27 janvier de 11h00 à 12h30.  
 
 
 ## Contenu du cours
@@ -58,7 +58,7 @@ Nous remercions le soutien financier de
      alt="Quebec"
      width="300" 
      height="67"
-     style="float: left; margin-right: 10px;" /> l'Acfas.
+     style="float: right; margin-right: 10px;" /> l'Acfas.
 
 <br>
 <br>
