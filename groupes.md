@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Mini cours en theorie de groupes et applications
+title: Mini cours en théorie des groupes et applications
 permalink: /groupes/
 ---
 
 ### Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/)
 
-[Departement de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
-
-## Motivation
+[Département de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
 
 Divers systèmes physiques, tels que les cristaux et l'atome d'hydrogène, ainsi que trois des quatre forces fondamentales connues dans l'univers, peuvent être modélisés par des groupes de symétrie. Ainsi, la théorie des groupes et la théorie des représentations, qui lui est étroitement liée, ont de nombreuses applications importantes en physique, en chimie et en science des matériaux. 
 
@@ -59,12 +57,12 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 <br>
 
 
-**Nous remercions le soutien financier de **
+**Nous remercions l'** 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
      alt="Quebec"
      width="67" 
      height="67"
-     />
+     /> **pour son soutien financier**
 
 <br>
 <br>
