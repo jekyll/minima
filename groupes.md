@@ -53,12 +53,18 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 ### Sixième cours: La mesure de Haar et le calcul de Wiengarten [à venir].
 
+
+
+<br>
+<br>
+
+
 Nous remercions le soutien financier de 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
      alt="Quebec"
      width="300" 
      height="67"
-     style="float: right; margin-right: 10px;" /> l'Acfas.
+     style="float: right; margin-right: 10px;"/>.
 
 <br>
 <br>
