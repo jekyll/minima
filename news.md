@@ -8,4 +8,4 @@ permalink: /news/
 Great to have you on board **Gisell** and **Ari**!
 
 For an archive of previous years follow the links below
-* [2022](2022) [funding](funding)
+* [2022](https://polyquantique.github.io/2022/) 
