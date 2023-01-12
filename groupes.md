@@ -59,10 +59,10 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 <br>
 
 
-Nous remercions le soutien financier de 
+**Nous remercions le soutien financier de **
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/acfas.svg"
      alt="Quebec"
-     width="300" 
+     width="67" 
      height="67"
      />
 
