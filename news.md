@@ -8,4 +8,4 @@ permalink: /news/
 Great to have you on board **Gisell** and **Ari**!
 
 For an archive of previous years follow the links below
-* [2022](./2022)
+* [2022](2022)

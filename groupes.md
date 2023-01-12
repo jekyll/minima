@@ -4,7 +4,7 @@ title: Mini cours en theorie de groupes et applications
 permalink: /groupes/
 ---
 
-Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
+## Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/), [Departement de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
 
 ## Motivation
 
@@ -13,7 +13,12 @@ Divers systèmes physiques, tels que les cristaux et l'atome d'hydrogène, ainsi
 Ce cours a pour but d'introduire des résultats importants et utiles en théorie des groupes et des représentations nécessitant un minimum de connaissances en algèbre linéaire élémentaire. Des applications de ces idées sont présentées dans le contexte de l'interférométrie optique de particules indiscernables.
 Enfin, les idées développées dans le cours sont utilisées pour introduire le calcul de Weingarten pour obtenir des moments du groupe unitaire, qui trouve des applications dans différents domaines de la physique, notamment la matière condensée, l'optique quantique et la physique des hautes énergies.
 
-## Contents of the course
+**Où:** Le cours aura lieu dans la salle J-3078 du [Pavillon J.-Armand Bombardier](https://goo.gl/maps/1S9a2QX2gMcuWtEd7) de Polytechnique Montréal.
+
+**Quand:** Les quatre premières sessions auront lieu les mercredis 18 et 25 et les vendredis 20 et 27 janvier de 11h00 à 12h30.  
+
+
+## Contenu du cours
 
 ### Premier cours: Introduction et notions de bases
 1. Introduction et idées de base: - Pourquoi les symétries?  Les symétries forment un groupe.
@@ -44,6 +49,6 @@ Enfin, les idées développées dans le cours sont utilisées pour introduire le
 
 ### Cinquième cours: Application à l'interférence de particules partiellement distinguables.
 
-### Sixième cours: La mesure Haar et le calcul de Wiengarten [à venir].
+### Sixième cours: La mesure de Haar et le calcul de Wiengarten [à venir].
 
-Event financiee pour [l'Acfas](https://www.acfas.ca/)
+Nous remercions le soutien financier de [l'Acfas](https://www.acfas.ca/)
