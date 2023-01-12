@@ -4,7 +4,7 @@ title: Mini cours en theorie de groupes et applications
 permalink: /groupes/
 ---
 
-**Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/)**
+### Par: [Prof. Hubert de Guise](https://hdeguise.lakeheadu.ca/)
 
 [Departement de Physique](http://physics.lakeheadu.ca/), [Université Lakehead](https://www.lakeheadu.ca/)
 
