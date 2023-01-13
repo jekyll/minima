@@ -15,7 +15,7 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 ### **Où**: Le cours aura lieu dans la salle J-1035 du [Pavillon J.-Armand Bombardier](https://goo.gl/maps/1S9a2QX2gMcuWtEd7) de Polytechnique Montréal.
 
-### **Quand**: Les deux premières sessions auront lieu le mercredi 18 et le vendredi 20 de 11h00 à 12h30.  
+### **Quand**: Les deux premières sessions auront lieu les mercredis 18 et 25 et les vendredis 20 et 27 janvier de 11h00 à 12h30.  
 
 
 ### **Inscription**: Nous vous remercions de bien vouloir remplir [ce formulaire](https://forms.gle/JiLQ1SmaD1yDwogz5) si vous comptez participer au cours. Cela nous aidera à savoir combien de personnes nous devons attendre.
