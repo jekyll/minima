@@ -15,10 +15,10 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 ### **Où et Quand**: 
 
-18 Janvier a la salle J-1035
-20 Janvier a la salle C-632
-25 Janvier (a venir)
-27 Janvier (a venir)
+18 Janvier a la salle J-1035 <br>
+20 Janvier a la salle C-632 <br>
+25 Janvier (a venir) <br>
+27 Janvier (a venir) <br>
 
 ### **Inscription**: Nous vous remercions de bien vouloir remplir [ce formulaire](https://forms.gle/JiLQ1SmaD1yDwogz5) si vous comptez participer au cours. Cela nous aidera à savoir combien de personnes nous devons attendre.
 
