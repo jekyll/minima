@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* 03-02-23 Nicolás will be giving the physics [colloquim at McGill](https://www.physics.mcgill.ca/seminars/PSC_quesada.html).
+* 03-02-23 Nicolás will be giving the physics [colloquium at McGill](https://www.physics.mcgill.ca/seminars/PSC_quesada.html).
 
 * 01-02-23 Our work in collaboration with Changhun Oh and Liang Jiang from Chicago on [Quantum-inspired classical algorithm for graph problems by Gaussian boson sampling](https://arxiv.org/abs/2302.00536) appears on the arXiv.
 
