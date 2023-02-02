@@ -17,7 +17,7 @@ Les idées développées dans le cours sont utilisées pour introduire le calcul
 
 11:00-12:30, 18 Janvier a la salle J-1035 <br>
 14:00-15:30, 20 Janvier a la salle C-632 <br>
-11:00-12:30, 25 Janvier a la salle B-405 <br>
+11:00-12:30, 25 Janvier a la salle B-406 <br>
 11:00-12:30, 27 Janvier a la salle B-405 <br>
 
 ### **Inscription**: Nous vous remercions de bien vouloir remplir [ce formulaire](https://forms.gle/JiLQ1SmaD1yDwogz5) si vous comptez participer au cours. Cela nous aidera à savoir combien de personnes nous devons attendre.
