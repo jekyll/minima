@@ -6,7 +6,7 @@ permalink: /team/
 
 <img src="https://www.polymtl.ca/expertises/sites/expertises2.amigow2020.polymtl.ca/files/quesada-nicolas.jpg"
      alt="Nico"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> [**Nicolás Quesada**](https://www.polymtl.ca/expertises/en/quesada-nicolas).  
 Assistant Professor, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
@@ -15,7 +15,7 @@ Editor of [Quantum](https://quantum-journal.org/), the open journal for quantum 
 
 <img src="https://clerkgroup.uchicago.edu/img/MartinWebPic.jpg"
      alt="Martin"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Martin Houde**.  
 Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
@@ -24,7 +24,7 @@ Enjoys nature hikes, animal tracking and drinking maple syrup.
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/yanic.jpeg"
      alt="Yanic"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Yanic Cardin**.  
 Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
@@ -33,7 +33,7 @@ Enjoys meal prep and football Sundays.
 
 <img src="https://avatars.githubusercontent.com/u/16817699"
      alt="Yuan"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Yuan Yao**.  
 Visiting PhD student, [Département Informatique et Réseaux (INFRES)](https://www.telecom-paris.fr/fr/lecole/departements-enseignement-recherche/informatique-reseaux), [Télécom Paris](https://www.telecom-paris.fr) and [IP Paris](https://www.ip-paris.fr), supervised by [Filippo Miatto](https://scholar.google.pl/citations?user=zoaxT0QAAAAJ&hl=en).  
@@ -41,11 +41,11 @@ LEGO enthusiast.
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/jiaqi.jpg"
      alt="Jiaqi"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Jiaqi Zhao**.  
 MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
-Likes carrots. 
+Likes carrots.
 .<br><br>
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.jpg"
@@ -60,7 +60,7 @@ F1 enthusiast.
 
 <img src="https://user-images.githubusercontent.com/95931266/177825256-34d87df1-e38e-4f7e-84cc-c729bcf2caa4.jpg"
      alt="Javier"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Javier Martínez Cifuentes**. \
 PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
@@ -69,7 +69,7 @@ Coffee addict. Enjoys movies.
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/karthik.jpg"
      alt="Karthik"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Karthik Chinni**. \
 Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
@@ -81,7 +81,7 @@ Enjoys nature hikes and running.
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/gisell.jpg"
      alt="Gisell"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Gisell Lorena Osorio**. \
 PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
@@ -92,9 +92,19 @@ Enjoys performing arts and nature.
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/ari.jpg"
      alt="Ari"
-     width="80" 
+     width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Ari Boon**. \
 PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Runs a radio show and likes to write.
+<br><br>
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/juan-aristizabal.jpeg"
+     alt="Juanes"
+     width="80"
+     height="80"
+     style="float: left; margin-right: 10px;" /> **Juan E. Aristizabal-Zuluaga**. \
+M.Sc. student, Physics, [Universidad de Antioquia](https://www.udea.edu.co). \
+Visiting M.Sc. Student
 <br><br>
