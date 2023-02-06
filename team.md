@@ -89,17 +89,6 @@ Enjoys performing arts and nature.
 .<br><br>
 
 
-
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/ari.jpg"
-     alt="Ari"
-     width="80"
-     height="90"
-     style="float: left; margin-right: 10px;" /> **Ari Boon**. \
-PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Runs a radio show and likes to write.
-<br><br>
-
-
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/juan-aristizabal.jpeg"
      alt="Juanes"
      width="80"
