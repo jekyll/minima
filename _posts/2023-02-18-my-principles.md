@@ -1,14 +1,152 @@
 ---
 layout: post
-title: "Inner Compass"
+title: "My Principles"
 published: true
 description: 
-permalink: /inner-compass/
+permalink: /principles/
 ---
 
-Inner compass is a list of ideas that guide me. It is a collection of quotes, summaries, experiences, book excerpts and learnings over time. When I am feeling low, stressed out, in doubt, or have a decision to make I come to this for guidance. The goal is not to remember everything. The goal is for this document to act as my compass in life. 
+Here are some princiles I live by:
 
-Most ideas listed in this internal compass are not mine. They have been borrowed from many authors. I am truly grateful for their work.  This post is work in progress and continues to evolve with my thoughts.
+
+#### **1. Live simply**
+> **Ask yourself:**
+- How can you simplify it further?
+
+
+#### **2. Do unto others as you would have them do unto you**
+> **Ask yourself:**
+- What if I am wrong, even a 1% probability?
+
+
+- **Be kind.** <br>
+![Be kind](/assets/img/be_kind.png){: height="200" }
+
+- **Don't ask, Don't get.** <br>
+![Dont ask dont get](/assets/img/dont_ask_dont_get.png){: height="200" }
+
+- **Have empathy.**
+
+- **Be honest.** Be honest with others and be honest with yourself. 
+
+- **Give attention to people 100%.** When you are talking to someone, talk to someone. When you are going for lunch with someone, go for lunch with someone. Don't multi-task, the ability to focus and concentrate on one single task will get you ahead in life. That is something that you have to do.
+
+- **Assume positive intent.** Nearly all people have a positive intent towards you. Remember it is not personal. Incentives drive behaviour. 
+
+- **If you are angry, do not respond for 1 day**
+
+- **Become a go-giver.** Help people as much as you can because you feel good. Don't expect anything in return though there is a strong reciprocation tendencity.
+        
+
+
+
+#### **3. Think long term**
+
+> **Ask yourself:**
+- Can I win this game?
+- Can I do this for every day for the rest of my life?
+- Will it move the needle if done well?
+- Will the person who I am trying to become do this?
+- Will this matter 30 days from now?
+- What's the highest leverage task that you can do right now?
+- Can this be your superpower? Can you do this 10x better than the competition? Can you win this game?
+- Is it worth doing given your hourly price?
+
+
+
+
+- **Focus on asymmetric upsides.** Focus on things that have a huge upside (unlimited) if they go right and very low upside if they were to go down.
+
+- **Top 10%.** Don't work in a job or develop a skill in which you don't believe that you can be in the Top 10% of the people. Why? Becuase all benefit accrues to the best.
+
+- **Short term loss is ok.** Optimize for the long term even if that means you lose in the short term.
+
+- **Vote with actions.**Every action you take is a vote in a direction of the purpose you want to become. 
+
+- **Focus on things that raise your energy.** Avoid things that bring down your energy. If you do this you'll be able to do things for longer.
+
+- **Do things that compound.** All the gains in life come from compounding so focus more on compounding
+
+- **5 years people rule.** Life is too short to spend time with people who you would not want to spend time in 5 years as well.
+
+- **Do things that you can do consistently.**If you can't do something for long consistently there is no point in doing that. You are better off spending time on something else
+
+- **Focus on your strengths.** Focus on what you are good at as you'll be able to do this for the long term. Look at the animal kingdom — Cheetah focus on its running, Dogs use their smell, they all use their strengths to their advantage to overcome predators. That is what you have to do as well.
+
+- **Deep over shallow.** Deep connections, Deep Knowledge. Planck Knowledge vs Chauffer Knowledge.
+
+- **Think big.** What can you achieve in the next 10 years?
+
+- **Stay within your circle of competence.** Size of the circle is not relevant but being inside the circle of competence is important.
+
+
+
+
+
+
+#### **4. Carpe Diem.**
+> **Ask yourself:**
+- Is this something that you control?
+- Will this matter 30 days from now?
+- Does it help reduce your digital time?
+- If today were the last day of my life, would I be doing what I am about to do today?
+- Do you enjoy doing it? Does it give you energy? Can you do this consistently? Day after day, week after week?
+
+
+- **Take a break.** <br>
+![Take a break](/assets/img/take_a_break.jpeg){: height="200" }
+
+- **Be in the moment.**
+
+- **Focus on having a good day.** Do what you enjoy because that way your daily life is good. A day makes a month, month makes a year and then a year makes a life. 
+
+- **Focus on what you can control.** There is no point worrying about things that you can't control. It will only cause anxiety. Focus on what you can and leave the rest to God.
+        
+- **Focus on doing the best in that point in time.** Don't think about the future or the past. 
+
+- **Reduce digital time and being more outdoors.** Everytime I increase my digital time my eyes feel tired and I am unable to concentrate. The tiredness induces me to eat sugar and then I fall into a loop of increased stress. Generally I want to take decisions that will help me reduce digital time.
+
+
+
+
+#### **5. Live by an inner scorecard**
+
+> **Ask yourself:**
+- Were my intentions clear?
+
+- **Be genuine.** I like people who are genuine and say what they mean and mean what they say.
+
+- **Be authentic.** Be yourself. Everyone else is taken. This is the only way to escape competition. What might work for someone might not work for you. Different strategies work for different people - chose one that works for you. Don't worry about being original - it is overrated but be authentic. Always credit the original though. You add value to people's material and usually people are happy. Examples, Rory sutherland always calling out names of people in his podcast. Sapiens from Yuva Noval Harrari. The body by Bill Bryson was a collection of many things. 
+- Would you rather be the world's greatest lover, but have everyone think you're the world's worst lover? Or would you rather be the world's worst lover but have everyone think you're the world's greatest lover? - Warren Buffett
+
+- **Be honest with yourself.** If you don't accept the reality, who will? The moment you recognise your own weakness you can start to do something about it. But if you don't even recognize it you are smoke.
+
+
+
+
+
+
+#### **6. Learn by Doing**
+
+> **Ask yourself:**
+- What can you do to get quick feedback?
+- Is it good enough?
+- What is the 1 big thing that you'll get done today?
+- Are you a man of action or are you a man of contemplation?
+- Am I 80% there already?
+
+- **Learn by Doing.** <br>
+![Learn by Doing](/assets/img/learn_by_doing.png){: height="200" }
+
+- **Practice.** <br>
+![Dont wait for perfect](/assets/img/dont_wait_for_perfect.png){: height="120" }
+
+- **Believe in power of cloning.** If you see someone doing something smart, just do something similar and copy it. Clone it. I feel no shame it. Just credit the original creator. 
+
+- **Creating is the best way to learn.** Spend atleast 50% of your time you consume each weak into creating too.
+
+- Embrace iteration
+
 
 
 #### **Reminders**
@@ -18,6 +156,24 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - Checklists works
 
+- Embrace iteration
+
+- Criticism is given
+
+- Become a go-giver
+
+- Systems over goals
+
+- Hope is not a strategy
+
+- Writing helps you think
+
+- Health is your top priority
+
+- Simplify, Simplify, Simplify
+
+- Live by an inner scorecard
+
 - It is ok to change your mind
 
 - Comparison is the thief of joy
@@ -25,6 +181,8 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - Assume positive intent always
 
 - The cost of perfection is inaction
+
+- Be yourself. Everyone else is taken 
 
 - Reflection > Reading New Content
 
@@ -60,7 +218,9 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 - No one cares what you do, they care what you can do for them
 
-- If you want to get lucky, start by increasing your luck surface area 
+- If you want to get lucky, start by increasing your luck surface area
+
+- Likes ≠ money. Being famous on Instagram is like being rich in monopoly 
 
 - In a world full of distractions, the ability to do deep work is a superpower
 
