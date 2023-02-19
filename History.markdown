@@ -61,6 +61,8 @@
   * Open social links in new tabs (#625)
   * change base-font-family sequence (#654)
   * Fix responsiveness of social SVG sprites (#677)
+  * Improve &#34;Subscribe&#34; link in footer (#698)
+  * Fix deprecation warnings from Dart Sass (#700)
 
 ### Development Fixes
 
@@ -72,6 +74,7 @@
   * Improve CI workflow configuration (#609)
   * Migrate from TravisCI to GitHub Actions (#633)
   * Build and deploy demo site via GH Action workflow (#636)
+  * Improve readability of config file (#703)
 
 ## 2.5.1
 
