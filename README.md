@@ -33,10 +33,33 @@ Minima has been scaffolded by the `jekyll new-theme` command and therefore has a
 
 Refers to files within the `_layouts` directory, that define the markup for your theme.
 
-  - `default.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says ` {{ content }} ` and are linked to this file via [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: default`.
+  - `base.html` &mdash; The base layout that lays the foundation for subsequent layouts. The derived layouts inject their
+    contents into this file at the line that says ` {{ content }} ` and are linked to this file via
+    [FrontMatter](https://jekyllrb.com/docs/frontmatter/) declaration `layout: base`.
   - `home.html` &mdash; The layout for your landing-page / home-page / index-page. [[More Info.](#home-layout)]
   - `page.html` &mdash; The layout for your documents that contain FrontMatter, but are not posts.
   - `post.html` &mdash; The layout for your posts.
+
+#### Base Layout
+
+From Minima v3 onwards, the base layout is named **`base.html`** instead of `default.html` to avoid confusing new users into
+assuming that name holds special status.
+
+Users migrating from older versions with customized `_layouts/default.html` are advised to rename their copy to
+`_layouts/base.html`. Migrating users with additional customized layouts may either update front matter references to former
+`default.html` layout or create a new `default.html` layout referencing the current `base.html`, whichever route being the
+easiest:
+
+```
+---
+# new `_layouts/default.html` for backwards-compatibility when multiple
+# layouts have been customized.
+
+layout: base
+---
+
+{{ content }}
+```
 
 #### Home Layout
 
