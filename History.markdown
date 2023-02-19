@@ -42,6 +42,7 @@
   * Place skins in `minima/skins` to clarify purpose (#479)
   * Add adaptive skin: `solarized` (#594)
   * Generate social iconsheet during build (#686)
+  * Rename `default` layout to `base` (#690)
 
 ### Bug Fixes
 
