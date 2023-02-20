@@ -77,6 +77,7 @@
   * Migrate from TravisCI to GitHub Actions (#633)
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
+  * Trigger demo-site build manually (#714)
 
 ## 2.5.1
 
