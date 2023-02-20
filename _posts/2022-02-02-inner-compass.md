@@ -13,44 +13,18 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 
 #### **Reminders**
 
-
 - Failure is given
 
-- Checklists works
-
-- It is ok to change your mind
-
-- Comparison is the thief of joy
-
-- Assume positive intent always
-
-- The cost of perfection is inaction
-
-- Reflection > Reading New Content
-
-- Action is the antidote to anxiety
-
-- Enthusiasm is worth 25 IQ points
 
 - Create a lot of noise. Look for signal
 
 - Don’t be the best. Be the only (Porter).
-
-- Stay within your circle of competence
 
 - No one died from over-communication
 
 - Always share the why. And give examples
 
 - Look at what they do and not what they say
-
-- Everything in life happens for a good reason
-
-- The two best teachers — experience & doing
-
-- You learn more from failure than from successs 
-
-- Cut your losses. Double down on what's working
 
 - Having a plan is important. Even if it is a bad plan
 
@@ -61,56 +35,6 @@ Most ideas listed in this internal compass are not mine. They have been borrowed
 - No one cares what you do, they care what you can do for them
 
 - If you want to get lucky, start by increasing your luck surface area 
-
-- In a world full of distractions, the ability to do deep work is a superpower
-
-- Every action you take is a vote in the direction of the person you want to become
-
-- People don't back people who are right or wrong. They back people who have a backbone. 
-
-#### **Quotes**
-
-- The only constant in life is change — Heraclitus
-
-- What you do speaks so loudly, I can’t hear what you’re saying — Ralph Waldo Emerson
-
-- Change happens automatically but for progress you need to work — Jess Sims
-
-- Go as far as you can see; when you get there, you'll be able to see further — J.P.Morgan
-
-- Worrying is like a rocking chair, it gives you something to do, but it gets you nowhere. — Erma Bombeck
-
-- The greatest predictor of your future happiness is your happiness today. Carpe Diem — Karen Peacock
-
-- In the beginner's mind, there are many possibilities, in the expert's mind, there are a few — Shunryo Suzuki
-
-- The man who asks a question is a fool for a minute, but the man who does not ask is a fool for life — Confucius
-
-- Never, ever, think about something else when you should be thinking about the power of incentives — Charlie Munger
-
-- The more you create, the more powerful you become. The more you consume, the more powerful others become — James Clear 
-
-- Yesterday is history, tomorrow is a mystery, but today is a gift that is why it is called the present — Master Oogway
-
-- No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women pregnant — Warren Buffett
-
-- God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference — Reinhold Niebuhr
-
-- Most people don’t start. Most people who start don’t continue. Most people who continue give up. Many winners are just the last ones standing — Sahil Livanga
-
-- Most people overestimate what they can do in one year and underestimate what they can do in ten years. — Bill Gates
-
-- You will not be right simply because a large number of people momentarily agree with you. You will be right, if your hypotheses are correct, your facts are correct, and your reasoning is correct — Warren Buffett
-
-- Would you rather be the world’s greatest lover, but have everyone think you’re the world’s worst lover? Or would you rather be the world’s worst lover but have everyone think you’re the world’s greatest lover? — Warren Buffett
-
-
-
-#### **Poems**
-
-- Agar Aap Sochte Hain <br>
-![Agar Aap Sochte Hain](/assets/img/thinking_poem_hindi.jpeg){: height="700" } <br>
-English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/exp6/Thinking%20poem.pdf){:target="_blank"}. 
 
 
 #### **Decision making**
@@ -131,29 +55,9 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 
 #### **Living life**
 
-- **Health is your top priority.** There is nothing more important than your health. There is no wealth, no fame, no power without good health. Health precedes everything else.
-
 - **Be an optimist.** Optimism should be your default strategy. Pessimism is intellectually seductive and the arguments always sound smarter. But it leads you nowhere. No one is excited by pessimists. No one wants to follow a pessimist. Over the long term, the future is decided by optimists.
 
-- **Set the agenda.** Or someone else will. If you don’t decide what you want for yourself someone else will. Don’t waste your time living someone else’s life. You need to be proactive with what you want. You are more likely to get it. If you don’t know what you want, you end up with a lot that you don’t. Own your career and your life.
-
-- **Do what interests you.** We get more out of what interests us. The sad reality is that many people don’t enjoy their jobs, nor do they learn much from them. If you combine this with the fact that we spend over a third of our lives working, you have a situation where money is the only reason you are waking up each morning for a long long time. 
-
-- **Be yourself, because everyone else is already taken.** There is no one out there that shares your same genetic makeup let alone your life experiences. Escape the competition through authenticity. No one can compete with you on being you.  
-
-- **Stop seeking permission.** When you spend all your energy looking for other's permission, approval and acceptance you run out of steam for the things you actually want to do.
-
-- **Accept First.** The first step towards getting somewhere is to accept where you are. Next is deciding that you are not going to stay where you are. After that comes the plan.
-
-- **Learn from experience**. There is really no substitute for experience. You don’t know what you don’t know. You can read stacks of books, get mentors, take courses, or make the perfect plan. You'll still yourself making mistakes. It’s only when the mistake stings you properly that you learn and don’t forget. The best and quickest way to learn is through experience. There is a difference between seeing a picture of a snake and having a live snake thrown on your lap. It is not that you can't learn from other people's experience. It is just that you learn best from your own experience.
-
 - **Do the right thing.** No matter what don't compromise on your ethics. You would not repent it.
-
-- **Do what's good for you.** If Coinbase can rescind offers for hundreds of people after explicitly saying that they wouldn’t, despite having $6 billion in cash reserves, and Tesla can lay off 10% of it’s workforce. while giving Elon Musk a $23 billion bonus, then you can change your mind after you accept an offer to do what’s best for you. Especially if that means accepting a better role. Companies take care of themselves. You take care of you. 
-
-- **How to find what you love?** Step 1 - Explore widely. Find out what is possible. Step 2 - Test cheaply. Run small, quick experiments. Sample things. Step 3 - Edit ruthlessly. Dive into your favorites. Cut everything else. Step 4 - Repeat.
-
-- **Be nice & kind.** Before you are old, attend as many funerals as you can bear, and listen. Nobody talks about the departed’s achievements. The only thing people will remember is what kind of person you were while you were achieving. Also it is hard to cheat an honest & kind man.
 
 - **Take risks.** The most meaningful things in life come with some level of risk, and if you are always in survival mode, you won’t take them. The stakes will seem too high, even if the downside to that risk is capped.
 
@@ -164,8 +68,6 @@ English version [here](http://www.greatexpectations.org/wp-content/uploads/pdf/e
 - **Start with why.** Explain to others and yourself why is something important? What is the rationale behind your action? Give examples to bring it to life.  
 
 - **Knowing what you don't want gets you closer to what you want. Always Invert.** Each no brings you closer to a yes. A lot of success in life and business comes from knowing what you should avoid eg. bad investments, bad marriage, bad food, bad behaviour etc. Amass long-term advantage by consistently being not stupid. 
-
-- **Learn by doing.** Not reading/watching/listening. Don’t over study and under execute. You don't learn cooking by reading cooking books.
 
 - **Try it out before you go all in.** The only sure way to know that you are going to like or not like something is to try it out. Don't go all in from the very start. For new things, buy a 1 month subscriptions instead of locking in 36 months from day 1. Examples — Webflow, Squarespace, HabitTracker
 
