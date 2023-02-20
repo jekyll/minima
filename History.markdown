@@ -64,6 +64,7 @@
   * Fix responsiveness of social SVG sprites (#677)
   * Improve &#34;Subscribe&#34; link in footer (#698)
   * Fix deprecation warnings from Dart Sass (#700)
+  * Fix reference to base layout in `404.html` (#713)
 
 ### Development Fixes
 
