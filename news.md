@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* 23-02-23 Yuan defended her PhD thesis on "Automated design of Photonics Circuits" at Télécom Paris 🎉. Congrats Dr. Yao 👩‍🎓. Looking forward to future collaborations!  
+* 23-02-23 Yuan defended her PhD thesis on "Automated design of photonic quantum circuits" at Télécom Paris 🎉. Many many congrats Dr. Yao 👩‍🎓.   
 
 * 21-02-23 [Nicolás presented a talk](https://twitter.com/QuantumAephraim/status/1628076281056178200) at the [2023 Physics Siposium](https://siposium2023.physics.utoronto.ca/program/) celebrating 50 years of John Sipe at the University of Toronto.
 
