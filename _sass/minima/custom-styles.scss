@@ -1,0 +1,45 @@
+.site-footer {
+  padding-bottom: 120px
+}
+.sub-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  &:before {
+    position: absolute;
+    display: table;
+    margin: -60px auto;
+    top: 1px;
+    left: 0;
+    right: 0;
+    content: "";
+    border: 30px solid;
+    cursor: pointer;
+    border-color: transparent transparent $brand-color;
+  }
+}
+#skin-switch-container {
+  display: none;
+  margin-left: -4px;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  select {
+    margin: 0 2px;
+    padding: 5px 2px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
+
+.sub-footer, .sub-footer select {
+  color: $table-text-color;
+  background: $table-header-bg-color;
+  &::before {
+    border-color: transparent transparent $table-header-bg-color;
+  }
+}

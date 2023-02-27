@@ -1,0 +1,23 @@
+name: Build and Deploy Demo Site
+
+on:
+  push:
+    branches:
+      - master
+      - demo-site
+
+jobs:
+  deploy_demo_site:
+    runs-on: "ubuntu-latest"
+    env:
+      BUNDLE_JOBS: 4
+      BUNDLE_RETRY: 3
+    steps:
+      - name: Build and Deploy Demo Site
+        uses: ashmaroli/deploy-jekyll-build@ruby-ver
+        with:
+          ruby_version: 2.7
+          cache_bundle: true
+          build_opts: |
+            verbose: true
+            profile: true
