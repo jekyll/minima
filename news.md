@@ -4,6 +4,9 @@ title: News
 permalink: /news/
 ---
 
+* 22-02-23 Nicolás presented some of the work done by the group in the [Photonique Quantique Québec](https://www.intriq.org/events/le-quebec-accelere-son-virage-en-photonique-quantique) symposium.
+It was a great opportunity to show the recent work done by [Yuan](https://arxiv.org/abs/2209.06069), [Martin](https://arxiv.org/abs/2209.13491), [Javier](https://arxiv.org/abs/2207.10058) and [Salvador](https://arxiv.org/abs/2207.01714). We also got to learn about the work from the other MEIE chairs in the île de Montréal, [Philippe St-Jean](https://psjlab.ca/) and [Kai Wang](https://wkai.org/).
+
 * 23-02-23 [Yuan defended her PhD thesis](https://twitter.com/polyquantique/status/1628816114640723968) on "Automated design of photonic quantum circuits" at Télécom Paris 🎉. Many many congrats Dr. Yao 👩‍🎓.   
 
 * 21-02-23 [Nicolás presented a talk](https://twitter.com/QuantumAephraim/status/1628076281056178200) at the [2023 Physics Siposium](https://siposium2023.physics.utoronto.ca/program/) celebrating 50 years of John Sipe at the University of Toronto.
