@@ -4,7 +4,9 @@ title: News
 permalink: /news/
 ---
 
-* 22-02-23 Nicolás presented some of the work done by the group in the [Photonique Quantique Québec](https://www.intriq.org/events/le-quebec-accelere-son-virage-en-photonique-quantique) symposium.
+* [22-04-12](https://twitter.com/QuantumAephraim/status/1646156193964883969) Nicolás talked about photonic quantum computational advantage at the CIFAR Quantum Information Science meeting in Boston.
+
+* 22-02-23 Nicolás presented some of the work done by the group in the [Photonique Quantique Québec](https://www.polymtl.ca/carrefour-actualite/nouvelles/photonique-quantique-une-premiere-rencontre-fructueuse-polytechnique-montreal-pour-la-communaute-de) symposium.
 It was a great opportunity to show the recent work done by [Yuan](https://arxiv.org/abs/2209.06069), [Martin](https://arxiv.org/abs/2209.13491), [Javier](https://arxiv.org/abs/2207.10058) and [Salvador](https://arxiv.org/abs/2207.01714). We also got to learn about the work from the other MEIE chairs in the île de Montréal, [Philippe St-Jean](https://psjlab.ca/) and [Kai Wang](https://wkai.org/).
 
 * 23-02-23 [Yuan defended her PhD thesis](https://twitter.com/polyquantique/status/1628816114640723968) on "Automated design of photonic quantum circuits" at Télécom Paris 🎉. Many many congrats Dr. Yao 👩‍🎓.   
