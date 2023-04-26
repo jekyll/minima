@@ -19,8 +19,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "jekyll", "~> 3.9"
   s.add_runtime_dependency "jekyll-feed", "~> 0.9"
   s.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
-  s.add_development_dependency "bundler", "~> 2.1"
-  s.add_development_dependency "rake", "~> 13.0"
   
   s.add_development_dependency "bundler"
 end
