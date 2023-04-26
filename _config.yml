@@ -1,7 +1,7 @@
-title: Your awesome title
+title: luxu0812 pages
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: luxu0812
+  email: zh.luxu1986@outlook.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -12,7 +12,7 @@ description: >
 
 # Build settings
 
-theme: minima
+theme: luxu0812_pages
 
 plugins:
   - jekyll-feed
@@ -20,7 +20,7 @@ plugins:
 
 # Theme-specific settings
 
-minima:
+luxu0812_pages:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
