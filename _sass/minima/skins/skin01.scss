@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+// Creative Delicate DarkGold skin
+// ================================
+
+// Color scheme
+$darkgold-bg:      #1c1c1c;
+$darkgold-stripe:  #8c6d22;
+$darkgold-text:    #c9b49c;
+
+$accent-blue:      #4477aa;
+$accent-red:       #cc4444;
+$accent-green:     #77aa44;
+$accent-purple:    #7b6c86;
+
+// Typography
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Roboto Slab", Georgia, Times, "Times New Roman", serif !default;
+$font-family-monospace: "Fira Code", "Courier New", Courier, monospace !default;
+
+$base-font-size: 18px !default;
+$base-line-height: 1.5 !default;
+
+// Minima color variables
+$brand-color:           $darkgold-stripe !default;
+$brand-color-light:     darken($darkgold-stripe, 10%) !default;
+$brand-color-dark:      $darkgold-text !default;
+
+$site-title-color:      $darkgold-text !default;
+
+$text-color:            $darkgold-text !default;
+$background-color:      $darkgold-bg !default;
+$code-background-color: darken($darkgold-bg, 5%) !default;
+
+$link-base-color:       $accent-blue !default;
+$link-visited-color:    darken($accent-blue, 10%) !default;
+$link-hover-color:      $accent-red !default;
+
+$border-color-01:       $brand-color-light !default;
+$border-color-02:       darken($darkgold-bg, 7%) !default;
+$border-color-03:       $darkgold-text !default;
+
+$table-text-color:      $darkgold-text !default;
+$table-zebra-color:     darken($darkgold-bg, 5%) !default;
+$table-header-bg-color: darken($darkgold-bg, 10%) !default;
+$table-header-border:   $border-color-02 !default;
+$table-border-color:    $border-color-02 !default;
+
+// Custom styles for Creative Delicate DarkGold
+body {
+  font-family: $font-family-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  color: $accent-purple;
+}
+
+code {
+  font-family: $font-family-monospace;
+  background-color: $code-background-color;
+  color: $accent-green;
+}
+
+pre {
+  border-color: $border-color-02;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  th {
+    background-color: $table-header-bg-color;
+  }
+  td, th {
+    border-color: $table-border-color;
+  }
+}
+
+hr {
+  border-top-color: $border-color-03;
+}
+
