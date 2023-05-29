@@ -89,16 +89,6 @@ Enjoys performing arts and nature.
 .<br><br>
 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/juan-aristizabal.jpeg"
-     alt="Juanes"
-     width="80"
-     height="80"
-     style="float: left; margin-right: 10px;" /> **Juan E. Aristizabal-Zuluaga**. \
-M.Sc. student, Physics, [Universidad de Antioquia](https://www.udea.edu.co). \
-Visiting M.Sc. Student
-<br><br>
-
-
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/nicolas-dalbec.jpg"
     alt="Nicolas"
      width="80"
