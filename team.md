@@ -97,3 +97,12 @@ Enjoys performing arts and nature.
 M.Sc. student, Physics, [Universidad de Antioquia](https://www.udea.edu.co). \
 Visiting M.Sc. Student
 <br><br>
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/nicolas-dalbec.jpg"
+    alt="Nicolas"
+     width="80"
+     height="80"
+     style="float: left; margin-right: 10px;" /> **Nicolas Dalbec-Constant**. \
+M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+<br><br>
