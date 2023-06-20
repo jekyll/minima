@@ -4,13 +4,15 @@ title: News
 permalink: /news/
 ---
 
-* 22-06-20 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
+* 20-06-23 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
 
-* 22-06-12 Jiaqi and Nicolás presented a poster and talk at Photonics North in Montréal both on optimal design of squeezed light source in waveguides.
+* 12-06-23 Jiaqi and Nicolás presented a poster and talk at Photonics North in Montréal both on optimal design of squeezed light source in waveguides.
 
-* [22-05-12](https://twitter.com/polyquantique/status/1655566089999327232) Martin presented our Quantum Optics spaguetti western on waveguides at CLEO!
+* [12-05-23](https://twitter.com/polyquantique/status/1655566089999327232) Martin presented our Quantum Optics spaguetti western on waveguides at CLEO!
 
-* [22-04-12](https://twitter.com/QuantumAephraim/status/1646156193964883969) Nicolás talked about photonic quantum computational advantage at the CIFAR Quantum Information Science meeting in Boston.
+* [10-05-23](https://twitter.com/RQMP6/status/1659279238124511232) Salvador's work, in collaboration with our colleague Yves-Alain Peter is published in Phys. Rev. Applied.
+
+* [12-04-23](https://twitter.com/QuantumAephraim/status/1646156193964883969) Nicolás talked about photonic quantum computational advantage at the CIFAR Quantum Information Science meeting in Boston.
 
 * 22-02-23 Nicolás presented some of the work done by the group in the [Photonique Quantique Québec](https://www.polymtl.ca/carrefour-actualite/nouvelles/photonique-quantique-une-premiere-rencontre-fructueuse-polytechnique-montreal-pour-la-communaute-de) symposium.
 It was a great opportunity to show the recent work done by [Yuan](https://arxiv.org/abs/2209.06069), [Martin](https://arxiv.org/abs/2209.13491), [Javier](https://arxiv.org/abs/2207.10058) and [Salvador](https://arxiv.org/abs/2207.01714). We also got to learn about the work from the other MEIE chairs in the île de Montréal, [Philippe St-Jean](https://psjlab.ca/) and [Kai Wang](https://wkai.org/).
