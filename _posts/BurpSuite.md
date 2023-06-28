@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Documenting My Learning Process: The Trials and Tribulations of Burp Suite"
-categories: junk
+
 author:
 - Nancy Uddin
 meta: "BurpSuite"
