@@ -1,4 +1,3 @@
----
 layout: base
 ---
 
@@ -21,7 +20,14 @@ layout: base
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-       </span>
+    <ul class="post-list">
+      {%- for post in posts -%}
+      <li class="post-item">
+        <span class="post-meta">
+          {%- if site.show_date -%}
+          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          {%- endif -%}
+        </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
