@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<p align="center"><img width="100" alt="Screenshot 2023-06-28 at 1 57 09 PM" src="https://github.com/nancyuddin/nancyuddin.github.io/assets/119987538/6e852ab3-8616-4ead-9f22-98f3091183ba">
-<p align="center">
+
 
 <p align="left">
 
