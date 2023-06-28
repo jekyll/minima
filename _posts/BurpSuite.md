@@ -5,6 +5,7 @@ title: "Documenting My Learning Process: The Trials and Tribulations of Burp Sui
 author:
 - Nancy Uddin
 meta: "BurpSuite"
+permalink: /BurpSuite/
 ---
 
 
