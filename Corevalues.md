@@ -1,9 +1,9 @@
-
 ---
 layout: page
 title: Core Values
-permalink: /header/
+permalink: /Corevalues/
 ---
+
 
 <h1 align="left">My Core Values</h1> 
 
