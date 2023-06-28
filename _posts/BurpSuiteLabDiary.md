@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Burp Suite Lab Diary
 permalink: /BurpSuiteLabDiary/
 ---
 
