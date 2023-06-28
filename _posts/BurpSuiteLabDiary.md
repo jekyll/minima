@@ -1,6 +1,9 @@
 ---
 layout: post
+permalink: /BurpSuiteLabDiary/
 ---
+
+
 ## Documenting My Learning Process: The Trials and Tribulations of Burp Suite
 
 Burp Suite is a set of web application security testing tools developed by PortSwigger used for to identify vulnerabilities. My initial encounter with Burp Suite proved challenging, as I encountered difficulties with the Burp Browser functionality. Despite trying it on multiple platforms such as Ubuntu, Mac, and Windows, and even downloading an updated Java version, the issue persisted. Frustrated, I sought assistance from a peer and we still could not figure it out after performing a Browser Health Check. I stepped away from Burp Suite and returned the next day and eventually realized that I had accidentally enabled the "Intercept" feature, which was causing the problem. Turning off intercept resolved the issue, and I was able to resume my experimentation and learning. This experience served as a microcosm of my broader cybersecurity learning journey, where troubleshooting is an inherent part of the process. While challenges initially make everything seem difficult, the journey becomes easier and more fulfilling as knowledge and skills are gained. Creating a site map of my personal website using Burp Suite was an accomplishment that further ignited my excitement to explore other security tools and continue navigating the learning curve.
