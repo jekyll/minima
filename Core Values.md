@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Core Values
+permalink: /corevalues/
+---
+
 <h1 align="left">My Core Values</h1> 
 
  
