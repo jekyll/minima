@@ -7,7 +7,7 @@ permalink: /about/
 
 <p align="left">
 
-Nancy Uddin is a thought leader, researcher, and lifelong learner currently working on cloud platform fundamentals and cyber defense. <img align="right" img width="200" src="pathto/myimage.png" alt="Screenshot 2023-06-28 at 1 57 09 PM" src="https://github.com/nancyuddin/nancyuddin.github.io/assets/119987538/6e852ab3-8616-4ead-9f22-98f3091183ba"> With over six years of experience in technical writing, creative, and production roles, she has collaborated with renowned stakeholders such as Vogue, HuffPost, and Medium, reaching an audience of over 8 million worldwide. 
+Nancy Uddin is a thought leader, researcher, and lifelong learner currently working on cloud platform fundamentals and cyber defense. <img align="right" img width="160" src="pathto/myimage.png" alt="Screenshot 2023-06-28 at 1 57 09 PM" src="https://github.com/nancyuddin/nancyuddin.github.io/assets/119987538/6e852ab3-8616-4ead-9f22-98f3091183ba"> With over six years of experience in technical writing, creative, and production roles, she has collaborated with renowned stakeholders such as Vogue, HuffPost, and Medium, reaching an audience of over 8 million worldwide. 
 
 
 She is a cybersecurity specialist seeking to lead high-impact business and cyber defense strategies to cultivate a secure and equitable cyber experience for everyone, including those harmed by digital poverty. Nancy is part of a larger mission to close the tech gap to promote a competitive landscape in technological growth and innovation. 
