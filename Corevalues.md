@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Core Values
+title: My Core Values
 permalink: /Corevalues/
 ---
 
 
-<h1 align="left">My Core Values</h1> 
+
 
  
 
