@@ -98,7 +98,7 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
 <br><br>
 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marie.jpg"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marie.jpeg"
     alt="Marie"
      width="80"
      height="80"
