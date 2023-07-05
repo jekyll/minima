@@ -98,10 +98,10 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
 <br><br>
 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marie.jpeg"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/marie/assets/images/marie.jpeg"
     alt="Marie"
      width="80"
-     height="80"
+     height="85"
      style="float: left; margin-right: 10px;" /> **Marie Lafontaine**. \
 Undergraduate student student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 <br><br>
