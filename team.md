@@ -103,5 +103,6 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
      width="80"
      height="85"
      style="float: left; margin-right: 10px;" /> **Marie Lafontaine**. \
-Undergraduate student student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Enjoys crochet and cafés 
 <br><br>
