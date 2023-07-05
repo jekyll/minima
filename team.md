@@ -96,3 +96,12 @@ Enjoys performing arts and nature.
      style="float: left; margin-right: 10px;" /> **Nicolas Dalbec-Constant**. \
 M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 <br><br>
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marie.jpg"
+    alt="Marie"
+     width="80"
+     height="80"
+     style="float: left; margin-right: 10px;" /> **Marie Lafontaine**. \
+Undergraduate student student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+<br><br>
