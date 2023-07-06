@@ -103,5 +103,15 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
      width="80"
      height="85"
      style="float: left; margin-right: 10px;" /> **Marie Lafontaine**. \
-Undergraduate student student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Enjoys crochet and cafés 
+<br><br>
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/marie/assets/images/jaehee.JPG"
+    alt="Jaehee"
+     width="80"
+     height="85"
+     style="float: left; margin-right: 10px;" /> **Jaehee Kim**. \
+PhD student, [Nano Science and Technology](https://saint.skku.edu/saint/index.do), [Sungkyunkwan University](https://www.skku.edu/eng/). \
 <br><br>
