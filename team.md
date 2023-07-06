@@ -107,7 +107,7 @@ Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Pol
 Enjoys crochet and cafés 
 <br><br>
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/assets/images/jaehee.JPG"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/jaehee/assets/images/jaehee.png"
     alt="Jaehee"
      width="80"
      height="85"
