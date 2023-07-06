@@ -107,11 +107,3 @@ Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Pol
 Enjoys crochet and cafés 
 <br><br>
 
-
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/marie/assets/images/jaehee.JPG"
-    alt="Jaehee"
-     width="80"
-     height="85"
-     style="float: left; margin-right: 10px;" /> **Jaehee Kim**. \
-PhD student, [Nano Science and Technology](https://saint.skku.edu/saint/index.do), [Sungkyunkwan University](https://www.skku.edu/eng/). \
-<br><br>
