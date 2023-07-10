@@ -1,9 +1,13 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
+title : Without continual growth and progress, such words as improvement, achievement, and success have no meaning. Benjamin Franklin.
+---
+## PYTHON
+I will present here my learning journey as well as tips / struggles towards learning Python. Hopefully it will be useful not only for me, but also for other learners.
+
+### ABOUT
+1. app support transforming towards *devops*
+2. current goal is to learn **python**
+
+   ![My doggo](https://www.akc.org/wp-content/uploads/2017/11/Vizsla-MP.jpg)
 layout: home
 ---
