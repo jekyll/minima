@@ -11,7 +11,7 @@ description: >
 # Build settings
 
 minima:
-  skin: solarized dark
+  skin: dark
 
 plugins:
   - jekyll-feed
@@ -22,7 +22,6 @@ plugins:
 minima:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  skin: solarized dark
   # date_format: "%b %-d, %Y"
   # Generate social links in footer.
   #
@@ -46,9 +45,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
- header_pages:
-    - about.md
-    - History.markdown
+# header_pages:
+ #   - about.md
+  #  - History.markdown
 
 # Set to `true` to show excerpts on the homepage.
 #
