@@ -2,9 +2,8 @@
 layout: home
 title : My Journey
 ---
-> *"Without continual growth and progress, such words as improvement, achievement, and success have no meaning."*
-> 
-> - Benjamin Franklin
+> *"Without continual growth and progress, such words as improvement, achievement, and success have no meaning."* 
+> ~ Benjamin Franklin
 
 ---
 ## Welcome to My Python Journey!
