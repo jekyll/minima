@@ -10,8 +10,6 @@ description: >
 
 # Build settings
 
-theme: minima
-
 minima:
   skin: dark
 
@@ -26,6 +24,7 @@ minima:
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   # date_format: "%b %-d, %Y"
   # Generate social links in footer.
+  skin: dark
    social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
