@@ -43,11 +43,11 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
- header_pages:
-  - History.markdown
-  - about.md
-  - Insta.md
-  - index.md
+ #header_pages:
+ # - History.markdown
+  #- about.md
+  # -Insta.md
+  #- index.md
 
 # Set to `true` to show excerpts on the homepage.
 #
