@@ -11,7 +11,7 @@ description: >
 # Build settings
 
 minima:
-  skin: solarized
+  skin: solarized-light
 
 plugins:
   - jekyll-feed
@@ -20,7 +20,7 @@ plugins:
 # Theme-specific settings
 
 minima:
-  skin: solarized
+  skin: solarized-light
 
 minima:
   # Minima date format.
