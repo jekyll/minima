@@ -12,9 +12,6 @@ description: >
 
 theme: minima
 
-minima:
-  skin: dark
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -22,14 +19,16 @@ plugins:
 # Theme-specific settings
 
 minima:
+  skin: dark
+
+minima:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
   # date_format: "%b %-d, %Y"
-
   # Generate social links in footer.
   #
-  # social_links:
+  social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
