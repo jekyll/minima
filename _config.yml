@@ -12,7 +12,7 @@ description: >
 # Build settings
 
 minima:
-  skin: dark
+  skin: solarized dark
 
 plugins:
   - jekyll-feed
@@ -23,7 +23,7 @@ plugins:
 minima:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  skin: dark
+  skin: solarized dark
   # date_format: "%b %-d, %Y"
   # Generate social links in footer.
   #
