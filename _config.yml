@@ -9,15 +9,17 @@ description: >
  Tech Trek with Przemek: Unleashing the Power of Code and Wanderlust 
 
 # Build settings
-minima:
-  skin: dark
 
+theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
+
+minima:
+  skin: dark
 
 minima:
   # Minima date format.
