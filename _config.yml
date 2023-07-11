@@ -10,18 +10,16 @@ description: >
 
 # Build settings
 theme: minima 
-minima:
-  skin: solarized-light
+
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
-minima:
-  skin: solarized-light
 
 minima:
+  skin: dark
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   # date_format: "%b %-d, %Y"
