@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Ways of DevSecOps"
-date: 2023-07-11
+date: 2023-07-09
 categories: [devops, devsecops]
 tags: [devops, devsecops, IT]
 ---
