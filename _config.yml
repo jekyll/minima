@@ -11,13 +11,16 @@ description: >
 # Build settings
 
 minima:
-  skin: dark
+  skin: solarized
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
+
+minima:
+  skin: solarized
 
 minima:
   # Minima date format.
