@@ -9,8 +9,9 @@ description: >
  Tech Trek with Przemek: Unleashing the Power of Code and Wanderlust 
 
 # Build settings
-
-theme: minima
+theme: minima 
+minima:
+  skin: solarized-light
 
 plugins:
   - jekyll-feed
