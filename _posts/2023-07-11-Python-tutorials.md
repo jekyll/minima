@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how Am I going to learn Python?"
+title: "How Am I going to learn Python?"
 date: 2023-07-11
 categories: [Python, programming, tutorials]
 tags: [Python, programming, tutorials]
