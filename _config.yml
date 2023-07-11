@@ -2,8 +2,7 @@ title: Tech Trek with Przem
 author:
   name: Przemek
   email: pjunak7@gmail.com
-  social_links:
-    - { platform: instagram,      user_url: "https://www.instagram.com/pjunakphotos" }
+  
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
@@ -27,14 +26,14 @@ minima:
   # date_format: "%b %-d, %Y"
   # Generate social links in footer.
   #
-  # social_links:
+   social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
   #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
   #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/pjunakphotos" }
+     - { platform: instagram,      user_url: "https://www.instagram.com/pjunakphotos" }
   #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
   #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
@@ -47,8 +46,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
-# header_pages:
-#   - about.md
+ header_pages:
+    - about.md
+    - History.markdown
 
 # Set to `true` to show excerpts on the homepage.
 #
