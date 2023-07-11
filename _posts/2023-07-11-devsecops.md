@@ -1,5 +1,9 @@
 ---
 layout: post
+title: "3 Ways of DevSecOps"
+date: 2023-07-11
+categories: [devops, devsecops]
+tags: [devops, devsecops, IT]
 ---
 
 DevSecOps, which stands for Development, Security, and Operations, is an approach that integrates security practices into the DevOps (Development and Operations) process. Here are three ways to implement DevSecOps:
