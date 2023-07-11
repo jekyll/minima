@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code Snippets
-permalink: /history/
+permalink: /snippets/
 ---
 
 ## Code Showcase: Exploring the Depths of Programming
