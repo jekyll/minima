@@ -1,0 +1,27 @@
+name: Check Outdated Links
+
+on:
+  push:
+    branches:
+      - main  # Modify this branch name if needed
+
+jobs:
+  check_links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'  # Modify the Ruby version if needed
+
+      - name: Install dependencies
+        run: |
+          gem install awesome_bot
+
+      - name: Check links
+        run: |
+          awesome_bot --allow-ssl --allow-dupe --white-list "github.com,google.com" --skip-save-results --skip-save-missing README.md
