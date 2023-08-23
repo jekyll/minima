@@ -53,3 +53,10 @@ Research in our group is financially supported by
      width="170" 
      height="170"
      style="float: left; margin-right: 10px;" /> l'Acfas through the Programme de coopération en recherche dans la francophonie canadienne.
+
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/intriq.svg"
+     alt="INTRIQ"
+     width="257" 
+     height="106"
+     style="float: left; margin-right: 10px;" /> Institut transdisciplinaire d'information quantique.
