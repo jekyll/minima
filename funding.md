@@ -77,4 +77,4 @@ Research in our group is financially supported by
      alt="INTRIQ"
      width="318" 
      height="200"
-     style="float: left; margin-right: 10px;" /> Photonique Quantique Quebec.
+     style="float: left; margin-right: 10px;" /> Photonique Quantique Québec.
