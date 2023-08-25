@@ -65,3 +65,16 @@ Research in our group is financially supported by
      width="257" 
      height="106"
      style="float: left; margin-right: 10px;" /> l'Institut transdisciplinaire d'information quantique.
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/pq2.svg"
+     alt="INTRIQ"
+     width="318" 
+     height="200"
+     style="float: left; margin-right: 10px;" /> Photonique Quantique Quebec.
