@@ -33,8 +33,8 @@ minima:
 
     # Mastodon instances
    mastodon:
-     - username: polyquantique
-       instance: fediscience.org
+    # - username: polyquantique
+    #   instance: fediscience.org
     # - username: jekyll2
     #   instance: example.com
 
