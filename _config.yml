@@ -32,9 +32,9 @@ minima:
     # keybase: jekyll
 
     # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
+    mastodon:
+      - username: polyquantique
+        instance: fediscience.org
     # - username: jekyll2
     #   instance: example.com
 
