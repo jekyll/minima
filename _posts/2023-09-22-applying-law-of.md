@@ -15,7 +15,7 @@ The Law of Accelerating Returns is the most fundamental aspect of technology tha
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image1.png){: height="350" style="text-align: center;"}
 
-Why is wood still used?
+###### Why is wood still used?
 
 We need to use more energy. Energy consumption is closely linked to quality of life and life expectancy. Using more energy saves and improves lives.
 
@@ -31,13 +31,13 @@ Climate Change will not kill us. The rapidly advancing paradigms of clean energy
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image2.png){: height="350" style="text-align: center;"}
 
-The long tail of life expectancy is not ideal. Hopefully, we’ll start living longer soon.
+###### The long tail of life expectancy is not ideal. Hopefully, we’ll start living longer soon.
 
 I have seen no particularly eloquent and condensed definitions of the Law of Accelerating Returns in my Google search of the definition. This is my definition: The growth rate of technology is exponentially increasing. S-curves are getting faster. Our kids will grow up in a drastically different world than our own. Better have them quickly!
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image3.png){: height="350" style="text-align: center;"}
 
-MIPS per dollar, Log Scale. Moore’s law isn’t dead. Strangely, it hasn’t accelerated.
+###### MIPS per dollar, Log Scale. Moore’s law isn’t dead. Strangely, it hasn’t accelerated.
 
 The accelerating growth of humanity and the accelerating pace of S-curves are certainties in my mind. Fundamentally, for a new and improved paradigm to take hold the legacy paradigm must come to an end. Energy is the prime example.
 
@@ -51,15 +51,15 @@ Crypto is excellent for regulatory arbitrage and fighting authoritarianism. Take
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image4.png){: height="350" style="text-align: center;"}
 
-Solar ftw, retail cost explains BC Hydro graph below.
+###### Solar ftw, retail cost explains BC Hydro graph below.
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image5.png){: height="350" style="text-align: center;"}
 
-BC Hydro is increasing energy prices. We will put them out of business with solar. Only evil people increase the price of energy.
+###### BC Hydro is increasing energy prices. We will put them out of business with solar. Only evil people increase the price of energy.
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image6.png){: height="350" style="text-align: center;"}
 
-Anything above the line should be disrupted. Housing too. Buy Tesla stock, not real estate.
+###### Anything above the line should be disrupted. Housing too. Buy Tesla stock, not real estate.
 
 Now, AI.
 
@@ -75,7 +75,7 @@ Workers will become more efficient. This is usually put into one of two categori
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image7.png){: height="350" style="text-align: center;"}
 
-Increasing worker efficiency is not a new thing.
+###### Increasing worker efficiency is not a new thing.
 
 There is agreement between George Hotz and Elon Musk that Kurzweil is right in his 2029 prediction of a functional simulation of the human brain. The Singularity. I will use this 2029 date.
 
@@ -97,7 +97,7 @@ If this is too abstract for you, read The Final Question by Issac Asimov.
 
 ![Image description]({{site.url}}/assets/images/2023-09-22/image8.png){: height="350" style="text-align: center;"}
 
-Epoch 6 is the important one for meeting God.
+###### Epoch 6 is the important one for meeting God.
 
 Aside from a Yudkowsky-style Authoritarian halt to AI progress or a Butlerian Jihad I see no way to stop AI. The advancement of technology has never been stopped in the history of humanity, it has only been briefly delayed.
 
