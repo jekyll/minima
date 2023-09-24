@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Geohot made a blog. 
+  Geohot made a blog.
 
 # Build settings
 
@@ -51,4 +51,4 @@ minima:
 
 # Set to `true` to show excerpts on the homepage.
 #
-# show_excerpts: false
+ show_excerpts: false
