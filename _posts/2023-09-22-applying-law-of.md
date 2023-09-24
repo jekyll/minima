@@ -13,7 +13,7 @@ I do not solely aim to spend my life predicting what others build, but before yo
 
 The Law of Accelerating Returns is the most fundamental aspect of technology that everyone needs to understand. I have seen friends say “we won’t have electric trucks for 20 years” or “AI cannot take over the world”. These points fundamentally misunderstand the exponential growth of new paradigms, the S-curve. Furthermore, these points miss the exponentially increasing growth rate of humanity, see the energy chart. Humans are bad at understanding exponentials.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image1.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image1.png){: height="350"}{style="text-align: center"}
 
 ###### Why is wood still used?
 
@@ -29,13 +29,13 @@ A note on climate change: I don’t care if some Pacific island nations get floo
 
 Climate Change will not kill us. The rapidly advancing paradigms of clean energy will take over the world and save us from climate change for a simple reason: they’re cheaper. Installing new solar is cheaper than coal. EVs are cheaper than ICE. My prediction for EV new car market share is 50% in 2026 and 90% in 2030. S-curves are easy to project into the future.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image2.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image2.png){: height="350"}{: .align-center}
 
 ###### The long tail of life expectancy is not ideal. Hopefully, we’ll start living longer soon.
 
 I have seen no particularly eloquent and condensed definitions of the Law of Accelerating Returns in my Google search of the definition. This is my definition: The growth rate of technology is exponentially increasing. S-curves are getting faster. Our kids will grow up in a drastically different world than our own. Better have them quickly!
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image3.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image3.png){: height="350"}{style="text-align: center"}
 
 ###### MIPS per dollar, Log Scale. Moore’s law isn’t dead. Strangely, it hasn’t accelerated.
 
@@ -49,15 +49,15 @@ Other stagnant fields ripe for disruption are Internal Combustion Engine Vehicle
 
 Crypto is excellent for regulatory arbitrage and fighting authoritarianism. Take the power of printing money away from the government and give it to no one.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image4.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image4.png){: height="350"}{style="text-align: center"}
 
 ###### Solar ftw, retail cost explains BC Hydro graph below.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image5.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image5.png){: height="350"}{style="text-align: center"}
 
 ###### BC Hydro is increasing energy prices. We will put them out of business with solar. Only evil people increase the price of energy.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image6.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image6.png){: height="350"}{style="text-align: center"}
 
 ###### Anything above the line should be disrupted. Housing too. Buy Tesla stock, not real estate.
 
@@ -73,7 +73,7 @@ The current paradigm of using AI systems as tools is fairly easy to broadly pred
 
 Workers will become more efficient. This is usually put into one of two categories: companies will need fewer workers and fire those not needed or the productivity increase will allow for more work to be done. One of these scenarios increases the size of the economy, the other does not. I lean towards the scenario that increases the economy being more true than the alternative.
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image7.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image7.png){: height="350"}{style="text-align: center"}
 
 ###### Increasing worker efficiency is not a new thing.
 
@@ -95,7 +95,7 @@ This is the extent of my predictions on the future of AI. At the moment, I do no
 
 If this is too abstract for you, read The Final Question by Issac Asimov. 
 
-![Image description]({{site.url}}/assets/images/2023-09-22/image8.png){: height="350" style="text-align: center;"}
+![Image description]({{site.url}}/assets/images/2023-09-22/image8.png){: height="350"}{style="text-align: center"}
 
 ###### Epoch 6 is the important one for meeting God.
 
