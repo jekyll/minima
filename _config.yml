@@ -41,6 +41,7 @@ minima:
   #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
      - { platform: twitter,        user_url: "https://twitter.com/ckalitin" }
+     - { platform: x,              user_url: "https://x.com/ckalitin" }
      - { platform: youtube,        user_url: "https://www.youtube.com/@CKalitin" }
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
