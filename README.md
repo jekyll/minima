@@ -242,24 +242,45 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 2. [Customize](#customization) default `_includes/custom-head.html` in your source directory and insert the given code snippet.
 
 
-### Enabling comments (via Disqus)
+### Enabling comments (via Disqus, Utterances, Giscus)
 
-Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
+If you want to add comment system for your site,add the following code to the `README.md` file.If not,skip this part.
 
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
-
-To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
-
-```yaml
-  disqus:
-    shortname: my_disqus_shortname
 ```
+# Set which comment system to use
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider:	# choice your comment system
+ 
+ #Disqus
+ disqus:
+  shortname: my_disqus_shortname
 
-You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
+# You must install utterances github app before use.(https://github.com/apps/utterances)
+# Make sure all variables are set properly. Check below link for detail.
+# https://utteranc.es/
+utterances:
+  repo:                "username/username.github.io"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "your_theme"
 
-Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
-
-If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+# You must install giscus github app before use.(https://github.com/apps/giscus)
+# Make sure all variables are set properly. Check below link for detail.
+# https://giscus.app/
+giscus:
+  repo:                "username/username.github.io"
+  repo-id:             "your_repo_id"
+  category:            "your_category"
+  category-id:         "your_category_id"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  theme:               "your_theme"
+  crossorigin:         "your_crossorigin"
+  lang:                "your_language"
+ ```
+ 
+ :warning: First, you need to enter the name of your comment system into the `provider` option (`giscus`, `utterances` or `disqus`). Second, enter the configurations of your comment system.
 
 ### Author Metadata
 
