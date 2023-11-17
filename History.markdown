@@ -9,6 +9,7 @@
   * Improve the msg to enable disqus in README (#627)
   * Make docs consistent with code (#657)
   * Highlight that the base branch is v3 (#719)
+  * Improve documentation for config options (#760)
 
 ### Minor Enhancements
 
