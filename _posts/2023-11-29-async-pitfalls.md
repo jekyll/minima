@@ -1,4 +1,4 @@
-# The Issue
+## The Issue
 
 - Arose during testing of hundreds of asset creations at once meaning lots of repository method calls.
 - During debugging the code would break immediately after an exception was thrown in the repository layer method.
@@ -53,7 +53,7 @@ public async Task<Asset> CreateAssetAsync(Asset asset)
 }
 ```
 
-# The Resolution
+## The Resolution
 
 Luckily, a collegue spotted I had fallen into the `async void` pitfall and noticed I was making a synchronous call to an asynchronous
 method.
@@ -87,7 +87,7 @@ private async Task FinaliseAssetCreation(asset...)
 }
 ```
 
-# The Conclusion
+## The Conclusion
 
 The repository was throwing an exception, but since the method calling it was running syncronously it had already exited. Hence, the error message stating the exception was being unhandled even though there was a try catch around the method call.
 
