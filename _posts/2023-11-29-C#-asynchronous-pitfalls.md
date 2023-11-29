@@ -111,4 +111,4 @@ Here is ChatGPT's response to my prompt asking if the `async void` method above 
 
 _Asynchronous Void Method: Using async void is generally discouraged for methods other than event handlers because it can make error handling more challenging. It's better to use async Task instead of async void so that you can await the method and handle exceptions._
 
-This shows the potential of ChatGPT and AI as a tool as it managed to pick up on something that I, as the developer, missed during implementation. I am not sure how powerful GitHub Co-Pilot is at the moment, but if it's any similar I would have expected it to flag this as a concern and save me a few hours debugging the issue described above.
+This shows the potential of ChatGPT and AI as a tool as it managed to pick up on something that I, as the developer, missed during implementation. I am not sure how powerful GitHub Co-Pilot is at the moment, but if it's any similar I would have expected it to flag this as a concern and save me a few hours debugging the issue above.
