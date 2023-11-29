@@ -91,7 +91,7 @@ private async Task FinaliseAssetCreation(asset...)
 
 The repository was throwing an exception, but since the method calling it was running syncronously it had already exited. Hence, the error message stating the exception was being unhandled even though there was a try catch around the method call.
 
-I believe I fell into this trap as I did not expect to receive anything back from the `FinaliseAssetCreation` so I was happy setting the return as `void`. However, the Task return type was necessary to enable proper error handling and signal completion.
+I believe I fell into this trap as I did not expect to receive anything back from the `FinaliseAssetCreation` method, so I was happy setting the return as `void`. However, the Task return type was necessary to enable proper error handling and signal completion.
 
 The IDE did not give me any warnings and allowed me to syncronously run a asynchronous method with a `void` return type. I should have clocked on at this point and realised that I should be awaiting any calls to an `async` method.
 
