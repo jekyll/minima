@@ -306,6 +306,7 @@ The theme ships with an icon for `rss` and icons of select social-media platform
 - `instagram`
 - `keybase`
 - `linkedin`
+- `mastodon`
 - `microdotblog`
 - `pinterest`
 - `stackoverflow`
