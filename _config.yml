@@ -62,6 +62,7 @@ minima:
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
   #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #  - { platform: mastodon,       user_url: "https://mastodon.social/@jekyll" }
   #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
