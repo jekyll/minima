@@ -13,7 +13,7 @@ title: Quantum Photonics and Information at Polytechnique Montréal
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/group_aug_2023.jpg"
      alt="Group Members August 2023"
      width="1000" 
-     height="500"
+     height="300"
      style="float: center;" />
 
 Bienvenue sur notre site web!
