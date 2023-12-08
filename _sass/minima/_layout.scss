@@ -71,6 +71,31 @@
   input:checked ~ .trigger {
     display: block;
     padding-bottom: 5px;
+
+    position: fixed;
+    top: 50px;
+    right: 15px;
+  }
+
+  // Following fills viewport with pseudo-element that
+  //  on-click, trips the checkbox to un-checked state.
+  //  Stacking list elements is handled above by
+  //  the position fixed and stuff...
+  input:checked + label[for="nav-trigger"]::after {
+    content: '';
+    background-color: lightgray;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+
+    width: 100%;
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    cursor: default;
   }
 
   .page-link {
