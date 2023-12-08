@@ -2,9 +2,14 @@
 
   <div id="disqus_thread"></div>
   <script>
+    var  disqus_url = document.URL;
+    if ('{{ site.url }}') {
+      disqus_url = '{{page.url | absolute_url}}';
+    }
+
     var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
+      this.page.url = disqus_url;
+      this.page.identifier = '{{ page.url }}';
     };
 
     (function() {
