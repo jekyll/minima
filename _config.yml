@@ -55,6 +55,7 @@ minima:
   #social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #  - { platform: email,          user_url: "mailto:minima@jekyll.com" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
   #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
