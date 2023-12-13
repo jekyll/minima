@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* [01-07-23](https://qubit-social.xyz/@quantumjournal@mathstodon.xyz/110854400651291599) Javier's work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
+* [01-07-23](https://mathstodon.xyz/@quantumjournal/110854399250268864) Javier's work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
 
 * 20-06-23 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
 
