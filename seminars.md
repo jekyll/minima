@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Seminars 
-permalink: /news/
+permalink: /seminars/
 ---
 
 Montréal Quantum Photonics Seminar Series  
