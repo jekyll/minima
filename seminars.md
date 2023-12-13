@@ -4,9 +4,8 @@ title: Seminars
 permalink: /seminars/
 ---
 
-Montréal Quantum Photonics Seminar Series  
 
-For the 2023-2024 academic year, I am co-organizing with [Philippe St.-Jean from Université de Montréal](https://psjlab.ca/), the Montréal Quantum Photonics Seminar Series. As of 2024 this seminars are generously supported by [INTRIQ](https://www.intriq.org/).
+For the 2023-2024 academic year, I am co-organizing with [Philippe St.-Jean from Université de Montréal](https://psjlab.ca/), the **Montréal Quantum Photonics Seminar Series**. As of 2024 this seminars are generously supported by [INTRIQ](https://www.intriq.org/).
 
 Seminars
 
