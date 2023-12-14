@@ -13,7 +13,7 @@ Seminars
 2. 25-09-23: [*Electro-optic spectral shaping of single-photon pulses*](seminars/01.md), Filip Sośnicki, U. of Warsaw.
 3. 19-10-23: [*Generation, manipulation and detection of single photons*](seminars/02.md), Val Zwiller, KTH, Stockholm.
 4. 15-01-24: [To be announced], Jeff Lundeen, U. of Ottawa.
-5. YY-02-24: [To be announced], Tim Thomay, SUNY Buffalo.
+5. DD-02-24: [To be announced], Tim Thomay, SUNY Buffalo.
 6. 11-03-24: [To be announced], Nir Rotenberg, Queen's University.
 
 
