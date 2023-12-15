@@ -4,11 +4,16 @@ title: News
 permalink: /news/
 ---
 
+
 * [01-07-23](https://mathstodon.xyz/@quantumjournal/110854399250268864) Javier's work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
+
+* 28/06-23 *Jaehee* joins from as a [Qcenter](https://qcenter.kr/en/index.php) fellow. He will be spending the rest of the academic year with us.
 
 * 20-06-23 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
 
 * 12-06-23 Jiaqi and Nicolás presented a poster and talk at Photonics North in Montréal both on optimal design of squeezed light source in waveguides.
+
+* 15-05-23 *Marie* joins us a summer intern. Welcome Marie!
 
 * [12-05-23](https://twitter.com/polyquantique/status/1655566089999327232) Martin presented our Quantum Optics spaguetti western on waveguides at CLEO!
 
