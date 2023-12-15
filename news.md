@@ -9,7 +9,7 @@ permalink: /news/
 
 * [01-07-23](https://mathstodon.xyz/@quantumjournal/110854399250268864) **Javier**'s work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
 
-* 28/06-23 **Jaehee** joins from as a [Qcenter](https://qcenter.kr/en/index.php) fellow. He will be spending the rest of the academic year with us.
+* 28/06-23 **Jaehee** joins from [Sungkyunkwan University](https://www.skku.edu/eng/) as a [Qcenter](https://qcenter.kr/en/index.php) fellow. He will be spending the rest of the academic year with us.
 
 * 20-06-23 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
 
