@@ -14,7 +14,7 @@ Seminars
 3. 19-10-23: [*Generation, manipulation and detection of single photons*](seminars/02.md), Val Zwiller, KTH, Stockholm.
 4. 15-01-24: [To be announced], Jeff Lundeen, U. of Ottawa.
 4. 12-02-24: [To be announced], Tim Thomay, SUNY Buffalo.
-5. 22-02-24: [To be announced], Marco Liscidini, U. of Pavia (This seminar is, unusually, on a Thursday)
+5. 22-02-24: [To be announced], Marco Liscidini, U. of Pavia (Note the date: It is Thursday not a Monday)
 6. 11-03-24: [To be announced], Nir Rotenberg, Queen's University.
 
 
