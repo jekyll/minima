@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [14-12-23] Karthik work on Beyond the parametric approximation in down-conversion [appears on the arXiv](https://arxiv.org/abs/2312.09239).
+
 
 * [01-07-23](https://mathstodon.xyz/@quantumjournal/110854399250268864) Javier's work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
 
