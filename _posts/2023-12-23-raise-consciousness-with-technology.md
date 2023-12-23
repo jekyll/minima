@@ -2,9 +2,10 @@
 layout: post
 title: "How to use electrical technologies to raise human consciousness"
 ---
-### TL;DR
 
-We want to create the **resources, communities, and example implementations** that will help accelerate humanity's use of electrical technologies to raise their consciousness.
+🤔💡 + 🤔🛠️ + 🤔📱 = 🧘⬆️
+
+Humanity deserves the **📚resources, 🤝communities, 🧩🧱building blocks and 🛒products** that will help accelerate its use of 🔌electrical 📱technologies to ⬆️raise its 🧘consciousness.
 
 "Raising consciousness" could simply be though of as coming to a state where one is able to do and feel however one deeply, truly wants.
 
