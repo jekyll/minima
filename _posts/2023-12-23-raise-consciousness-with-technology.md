@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "How to use electrical technologies to raise human consciousness"
+title: "How to use electrical technologies to raise human consciousness. Or 🤔 + 🛠️🔌 = 🧘⬆️"
 ---
 
 🤔💡 + 🤔🛠️ + 🤔📱 = 🧘⬆️
 
-Humanity deserves the **📚resources, 🤝communities, 🧩🧱building blocks and 🛒products** that will help accelerate its use of 🔌electrical 📱technologies to ⬆️raise its 🧘consciousness.
+Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building blocks and 🛒products** that will accelerate its use of 🔌electrical 📱technologies to ⬆️raise its 🧘consciousness.
 
-"Raising consciousness" could simply be though of as coming to a state where one is able to do and feel however one deeply, truly wants.
+"⬆️Raising 🧘consciousness" could be though of as coming to a state where one is able to 🔨do whatever and ❤️feel however one deeply, truly wants.
 
-People are already creating technologies taking into account certain requirements, like so:
+People are already creating technologies taking into account certain requirements, like so: ![](/assets/imag.png)
 
 Some specific examples could be the following:
 
