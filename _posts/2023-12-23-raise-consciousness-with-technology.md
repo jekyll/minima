@@ -26,5 +26,6 @@ And finally, existing technologies can be modified to help increase consciousnes
 
 ### Long version:
 
-Large Markdown file found here:
+Large Markdown file found here: https://www.icloud.com/iclouddrive/0ebC_HBpcBhfMsapJQr1Fo3gA#use_electrical_technologies_to_expand_consciousness
+
 Best viewed in a Markdown editor or viewer, as it is heavily nested
