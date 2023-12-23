@@ -1,11 +1,18 @@
 ---
 layout: post
-title: "Let's Raise Human Consciousness with Electrical Technologies"
+title: "How to use electrical technologies to raise human consciousness"
 ---
+TL;DR:
+
+We want to create the resources, communities, and example implementations that will help accelerate humanity's use of electrical technologies to raise their consciousness.
+
+
+
+Long version:
 
 %%This document can be read, organized, and written by thinking about it like a tree, where the main idea is presented first (trunk), it is expanded upon/explained through other sentences (branches), which make it easy to come up with actionable ideas (leaves)%%
 Goal
-	To accelerate humanity’s use of electrical technologies to increase their consciousness
+	To accelerate humanity's use of electrical technologies to increase their consciousness
 	Why
 		- Because people already want this, but they have been going about it in an indirect manner
 			- Why do we need help when trying to increase consciousness? Because there's too much information and not enough guidance.
@@ -83,7 +90,7 @@ Goal
 								A game is a situation in which rules are placed so that actions need to be taken in a certain way to achieve an objective. You may know common “games” but consider that any single action can be done playfully. You can make walking into a game. In fact, many kids play the game of avoiding lines in the pavement, without being taught such a game. They are naturally playful. While playing, the execution of actions keeps getting refined over and over until the objective is attained. This refinement is achieved by noticing the goal, acting to achieve it, receiving feedback about whether the goal was achieved, and trying again. If players align their body, mind, emotions and energy to be in a state that is conducive to increase their consciousness, this loop leaves them fundamentally transformed, and when they try again, they are in a different state than they were at the beginning of the previous loop. This transformation happens via the energy received with the feedback. The feedback can be something very directly linked to the game like pieces or messages, but it can be from anything, as the definition of game we have used does not constrain what is part of the game. The feedback could be whether your breathing was as desired after a series of actions, or whether you feel loving towards something. As you get closer to the objective you’ve chosen, you get a subtle reward in your system, which lights you up to understand yourself better to then align even more with how reality is. The objective chosen should be reachable with the consciousness available, otherwise it will be too hard to achieve and therefore transformation will not be reached. The objective chosen should be attainable with the upper edge of what consciousness is available, otherwise it will be too easy and, if achieved, it would have gone over alignment that is already properly established, which would provide very little transformation. Operating in the upper edge of available consciousness is what psychologists call being in a flow state. All parts of the process of interacting with games can be designed to be done more consciously: designing, choosing, playing, life "beyond" games. They could be considered separately but a common base from which to derive the designs should be considered to make the process more scalable.
 							Designing games
 								How can the task of designing games be designed in a way that increases consciousness?
-									It’s been said that creating videogames is one of the hardest tasks that exists. Several factors can be attributed to it, like the fact that many skills are needed, how consumer demand pushes the art, and the complexity of the technical task	
+									It’s been said that creating videogames is one of the hardest tasks that exists. Several factors can be attributed to it, like the fact that many skills are needed, how consumer demand pushes the art, and the complexity of the technical task
 										- A video game requires many different skills and knowledge. Game design, music composition, animation, storytelling, specialized knowledge (depending on the topic), computer programming, marketing, community building.
 										- Consumer demand seems to push creators to create massive projects to remain competitive
 										- More broadly, video games can be considered simulations of a reality. As the simulation becomes more complex, better programming practices are required to keep the projects maintainable and scalable, which may not be available in people who were focusing too much on the monetary compensation of technology related job opportunities instead of the enjoyment that thinking clearly brings
