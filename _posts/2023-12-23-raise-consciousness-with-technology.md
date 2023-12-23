@@ -10,23 +10,26 @@ Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building
 "⬆️Raising 🧘consciousness" could be though of as coming to a state where one is able to 🔨do whatever and ❤️feel however one deeply, truly wants.
 
 People are already creating technologies taking into account certain requirements, like so:
+
 ![](/assets/typical design.png)
 
 Some specific examples could be the following:
+
 ![](/assets/design requirements example.png)
 
 Considering how to provide a solution that increases consciousness would just require considering one more variable when designing:
+
 ![](/assets/design with consciousness.png)
 
 More broadly, all phases of the lifecycle of the technology can be designed to increase consiousness, like:
 
-- Defining requirements
-- Designing solutions
-- Building
-- Testing
-- The experience of using the technology
-- The experience when not using the technology directly
-- End of life
+- 📔Defining requirements
+- 📐Designing solutions
+- 🏗️Building
+- ✅Testing
+- 🧠The experience of using the technology
+- 🚶The experience when not using the technology directly
+- 💀End of life
 
 And finally, existing technologies can be modified to help increase consciousness, with new features or configuration options.
 
