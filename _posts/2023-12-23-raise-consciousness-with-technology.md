@@ -6,6 +6,8 @@ title: "How to use electrical technologies to raise human consciousness"
 
 We want to create the **resources, communities, and example implementations** that will help accelerate humanity's use of electrical technologies to raise their consciousness.
 
+"Raising consciousness" could simply be though of as coming to a state where one is able to do and feel however one deeply, truly wants.
+
 People are already creating technologies taking into account certain requirements, like so:
 
 Some specific examples could be the following:
