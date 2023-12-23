@@ -9,11 +9,11 @@ Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building
 
 "⬆️Raising 🧘consciousness" could be though of as coming to a state where one is able to 🔨do whatever and ❤️feel however one deeply, truly wants.
 
-People are already creating technologies taking into account certain requirements, like so: ![](/assets/imag.png)
+People are already creating technologies taking into account certain requirements, like so: ![](/assets/typical design.png)
 
-Some specific examples could be the following:
+Some specific examples could be the following: ![](/assets/design requirements example.png)
 
-Considering how to provide a solution that increases consciousness would just require considering one more variable when designing:
+Considering how to provide a solution that increases consciousness would just require considering one more variable when designing: ![](/assets/design with consciousness.png)
 
 More broadly, all phases of the lifecycle of the technology can be designed to increase consiousness, like:
 
