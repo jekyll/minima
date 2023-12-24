@@ -11,7 +11,7 @@ Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building
 
 People are already creating technologies taking into account certain requirements, like so:
 
-![](/assets/typical design.png)
+![A Venn diagran visualizing that when providing a tool, designers have to contend with diverse requirements, which can be though of a overlapping circles. Any point in the whole area of the diagram would represent a potential solution. The truly desired solution would lie somewhere in the area where all circles overlap each other ](/assets/typical design.png)
 
 Some specific example could be the following:
 
@@ -33,10 +33,10 @@ More broadly, all phases of the lifecycle of the technology can be designed to i
 
 And finally, existing technologies can be modified to help increase consciousness, with new features or configuration options.
 
-### Deeper and wider explanation and plans
+### Deeper explanation and plans
 
 Large Markdown file found [here](https://www.icloud.com/iclouddrive/0ebC_HBpcBhfMsapJQr1Fo3gA#use_electrical_technologies_to_expand_consciousness). Best viewed in a Markdown editor or viewer, as it is _heavily_ nested
 
-### Convinced? Join us!
+### Join us!
 
 Project Github [here](https://github.com/fernandoaestrella/raise-consciousnes-with-technology)
