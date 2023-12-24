@@ -11,11 +11,11 @@ Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building
 
 People are already creating technologies taking into account certain requirements, like so:
 
-![A Venn diagran visualizing that when providing a tool, designers have to contend with diverse requirements, which can be though of a overlapping circles. Any point in the whole area of the diagram would represent a potential solution. The truly desired solution would lie somewhere in the area where all circles overlap each other ](/assets/typical design.png)
+![Venn diagram representing requirements for a design as overlapping circles. Desired solution is where all circles overlap](/assets/typical design.png)
 
 Some specific example could be the following:
 
-![A specific example visualizing that when creating a solution, three possibly desired requirements may be a given eefectivity or capacity to perform a given task, a given efficiency and a given aesthetic quality](/assets/design requirements example.png)
+![Venn diagram exemplifying that when creating a solution, requirements may be a given effectivity, efficiency and aesthetic](/assets/design requirements example.png)
 
 Considering how to provide a solution that increases consciousness would just require considering one more variable when designing:
 
