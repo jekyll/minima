@@ -1,13 +1,25 @@
 ---
 layout: post
-title: "How to design electrical technologies to raise human consciousness.\nOr 🤔 + 🛠️🔌 = 🧘⬆️"
+title: "How to design electrical technologies to raise human consciousness"
 ---
 
-🤔💡 + 🤔🛠️ + 🤔📱 = 🧘⬆️
+<!-- 
+🤔 + 🛠️🔌 = 🧘⬆️
+🤔💡 + 🤔🛠️ + 🤔📱 = 🧘⬆️ -->
 
-Humanity deserves the **📚resources, 🤝 🏘️communities, 🧩🧱building blocks and 🛒products** that will accelerate its use of 🔌electrical 📱technologies to ⬆️raise its 🧘consciousness.
+Humanity deserves the
+- content (visual, auditory, written),
+- standards,
+- assets,
+- discussions,
+- 📚resources,
+- 🤝🏘️communities,
+- 🧩🧱building blocks,
+- experiences,
+- and 🛒products
+that will accelerate its use of 🔌electrical 📱technologies to ⬆️raise its 🧘consciousness.
 
-"⬆️Raising 🧘consciousness" could be though of as coming to a state where one is able to 🔨do whatever and ❤️feel however one deeply, truly wants. But it may be best to not depend only on logic when deciding how to deal with it.
+"Raising consciousness" could be though of as coming to a state where one is able to do whatever and feel however one deeply, truly wants. But it may be best to not depend only on logic when deciding how to deal with it.
 
 People are already creating technologies taking into account certain requirements, like so:
 
