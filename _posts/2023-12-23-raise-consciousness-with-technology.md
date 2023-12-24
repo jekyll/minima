@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use electrical technologies to raise human consciousness. Or 🤔 + 🛠️🔌 = 🧘⬆️"
+title: "How to use electrical technologies to raise human consciousness.\nOr 🤔 + 🛠️🔌 = 🧘⬆️"
 ---
 
 🤔💡 + 🤔🛠️ + 🤔📱 = 🧘⬆️
@@ -13,7 +13,7 @@ People are already creating technologies taking into account certain requirement
 
 ![](/assets/typical design.png)
 
-Some specific examples could be the following:
+Some specific example could be the following:
 
 ![](/assets/design requirements example.png)
 
@@ -33,8 +33,8 @@ More broadly, all phases of the lifecycle of the technology can be designed to i
 
 And finally, existing technologies can be modified to help increase consciousness, with new features or configuration options.
 
-### Long version:
+### Deeper and wider explanation and plans:
 
 Large Markdown file found here: https://www.icloud.com/iclouddrive/0ebC_HBpcBhfMsapJQr1Fo3gA#use_electrical_technologies_to_expand_consciousness
 
-Best viewed in a Markdown editor or viewer, as it is heavily nested
+Best viewed in a Markdown editor or viewer, as it is _heavily_ nested
