@@ -23,13 +23,13 @@ Considering how to provide a solution that increases consciousness would just re
 
 More broadly, all phases of the lifecycle of the technology can be designed to increase consciousness, like:
 
-- [📔] Defining requirements
-- [📐] Designing solutions
-- [🏗️] Building
-- [✅] Testing
-- 🧠 The experience of using the technology
-- 🚶 The experience when not using the technology directly
-- 💀 End of life
+- Defining requirements
+- Designing solutions
+- Building
+- Testing
+- The experience of using the technology
+- The experience when not using the technology directly
+- End of life
 
 And finally, existing technologies can be modified to help increase consciousness, with new features or configuration options.
 
