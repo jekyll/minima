@@ -19,7 +19,7 @@ Some specific example could be the following:
 
 Considering how to provide a solution that increases consciousness would just require considering one more variable when designing:
 
-![this is alt text](/assets/design with consciousness.png)
+![Diagram representing that to design technology consciously, add consciousness to the list of requirements to consider](/assets/design with consciousness.png)
 
 More broadly, all phases of the lifecycle of the technology can be designed to increase consiousness, like:
 
@@ -35,8 +35,8 @@ And finally, existing technologies can be modified to help increase consciousnes
 
 ### Deeper explanation and plans
 
-Large Markdown file found [here](https://www.icloud.com/iclouddrive/0ebC_HBpcBhfMsapJQr1Fo3gA#use_electrical_technologies_to_expand_consciousness). Best viewed in a Markdown editor or viewer, as it is _heavily_ nested
+Large Markdown file found [linked here](https://www.icloud.com/iclouddrive/0ebC_HBpcBhfMsapJQr1Fo3gA#use_electrical_technologies_to_expand_consciousness). Best viewed in a Markdown editor or viewer, as it is _heavily_ nested
 
 ### Join us!
 
-Project Github [here](https://github.com/fernandoaestrella/raise-consciousnes-with-technology)
+Project Github [linked here](https://github.com/fernandoaestrella/raise-consciousnes-with-technology)
