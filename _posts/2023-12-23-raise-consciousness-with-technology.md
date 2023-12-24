@@ -15,11 +15,11 @@ People are already creating technologies taking into account certain requirement
 
 Some specific example could be the following:
 
-![](/assets/design requirements example.png)
+![A specific example visualizing that when creating a solution, three possibly desired requirements may be a given eefectivity or capacity to perform a given task, a given efficiency and a given aesthetic quality](/assets/design requirements example.png)
 
 Considering how to provide a solution that increases consciousness would just require considering one more variable when designing:
 
-![](/assets/design with consciousness.png)
+![this is alt text](/assets/design with consciousness.png)
 
 More broadly, all phases of the lifecycle of the technology can be designed to increase consiousness, like:
 
