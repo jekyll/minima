@@ -15,7 +15,7 @@ Seminars
 4. 15-01-24: [*Manipulating photons via their momentum to create general optical transformations*](seminars/03.md), Jeff Lundeen, U. of Ottawa.
 5. 05-02-24: [To be announced], Milica Banic, NRC Ottawa.
 6. 12-02-24: [To be announced], Tim Thomay, SUNY Buffalo.
-7. 22-02-24: [To be announced], Marco Liscidini, U. of Pavia (Note the date: It is Thursday not a Monday)
+7. 22-02-24: [*Generation and characterization of high-dimensional quantum states*](seminars/06.md), Marco Liscidini, U. of Pavia (Note the date: Thursday not Monday)
 8. 11-03-24: [To be announced], Nir Rotenberg, Queen's University.
 
 
