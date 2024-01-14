@@ -283,6 +283,15 @@
   h6 {
     @include relative-font-size(1.0625);
   }
+
+  .footnotes li:target {
+    background-color: $grey-color-light;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
 
