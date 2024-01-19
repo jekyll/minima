@@ -4,6 +4,11 @@ title: News
 permalink: /news/
 ---
 
+
+* 19-01-24 **Martin**'s work on Perfect pulsed inline twin-beam squeezers [appears on the arXiv](https://arxiv.org/abs/2401.10197).
+
+
+
 * 14-12-23 **Karthik**'s work on Beyond the parametric approximation in down-conversion [appears on the arXiv](https://arxiv.org/abs/2312.09239).
 
 
