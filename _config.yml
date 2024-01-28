@@ -1,7 +1,7 @@
-title: Your awesome title
+title: "Jihye Sofia Seo's blog"
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Jihye Sofia Seo
+  email: my_fullname@some_domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -44,7 +44,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: auto
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
