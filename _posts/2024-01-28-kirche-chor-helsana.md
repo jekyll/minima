@@ -1,7 +1,5 @@
 ---
 layout: post
-title: "Some articles are just so short that we have to make the footer stick"
-categories: misc
 ---
 
 Attended a German mass by a Polish priest who usually gives English masses. I recognized him by his voice. I was able to understand most of his German homily. I was very happy that the church is near my home, and I felt at home thanks to our friendly choir director. He was happy with music books from South Korea and Romania.
@@ -20,7 +18,7 @@ Wir waren eine kleine Gruppe. 5 Leute zusammen gesungen 5-Stimmig Chorstück. Je
 Did beginner's exercise using the [Helsana Coach app](https://www.helsana.ch/en/individuals/services/apps/helsana-coach.html). I had this app for 2 years, and noticed many exercises, but for the first time today, I did exercises using the app. I haven't lifted weights 
 recently, so I took a humble approach and started with beginners' mat exercises. I want to lose weight and learn to better control myself.
 
-Ich hatte Helsana Coach App seit zwei Jahren. Heute habe ich erstmals mit diesem App geübt. Es gibt viele schöne Sachen, die man machen kann. Sehr oft fehlt die Motivation dazu. Heute war ich motiviert. Ich bin normalerweise sehr geizig, aber heute war ich konservativ. Ich habe mit Anfangers Niveau angefangen. Ich werde ganz langsam aufsteigen. Ich möchte im Frühling draußen joggen. Ich möchte mich fit halten und mich besser kontrollieren (geistlich, emotional, auch physisch). 
+Ich hatte [Helsana Coach App](https://www.helsana.ch/en/individuals/services/apps/helsana-coach.html) seit zwei Jahren. Heute habe ich erstmals mit diesem App geübt. Es gibt viele schöne Sachen, die man machen kann. Sehr oft fehlt die Motivation dazu. Heute war ich motiviert. Ich bin normalerweise sehr geizig, aber heute war ich konservativ. Ich habe mit Anfangers Niveau angefangen. Ich werde ganz langsam aufsteigen. Ich möchte im Frühling draußen joggen. Ich möchte mich fit halten und mich besser kontrollieren (geistlich, emotional, auch physisch). 
  
 의료보험회사에서 만든 운동앱이 있어. 2년 넘게 알고 있었지만 오늘 처음으로 그 앱으로 운동을 했다. 하면 좋다는 게 세상에 참 많지. 운동하면 정신건강에도 좋고 집중력도 높아지고 건강 및 예뻐진다는데. 게을러서 의욕이 없어서 못하는 경우가 많잖아? 그런데 오늘은 갑자기 하고 싶더라. 나 평소엔 좀 욕심이 많아서 뭐든지 좀 무리하게 하는 편인데, 다치지 않으려면, 그리고 정말 건강을 잘 지키려면 서서히 조금씩 해야 할 것 같아. 초보자 레벨 운동부터 차근차근 시작했어. 몸 만들어서 봄이나 여름에는 야외에서 조깅할 수 있으면 좋겠어. 가민 스마트 워치가 울고 있어. 먼지가 쌓이고 있어. 
 
