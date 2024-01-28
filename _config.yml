@@ -1,14 +1,13 @@
 title: "Jihye Sofia Seo's blog"
 author:
   name: Jihye Sofia Seo
-  email: my_fullname@some_domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  I will write three blessings per day. 
+  Jeden Tag entdecke und schreibe ich drei schöne Dinge in meinem Alltags. 
+  매일 세가지 좋은 일을 생각하기. 
 
 # Build settings
 
