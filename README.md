@@ -1,3 +1,5 @@
+### [Jihye Sofia Seo's blog](https://jihyeseo.github.io)
+
 Here I will write three blessings per day, as recommended by Martin Seligman et al. Check [Positive Psychology website](https://positivepsychology.com/positive-psychology-theory/) for more information. I learned of this concept via Coursera Specialization [Foundations of Positive Psychology Specialization](https://www.coursera.org/specializations/positivepsychology).
 I will in English (fluent), Korean (native), and German (intermediate). I am learning German these days, I am trying to reach C1 level. 
 
