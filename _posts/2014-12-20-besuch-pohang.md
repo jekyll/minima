@@ -1,0 +1,1 @@
+Mein Ehemann (damals Freund) und ich sind erstmal zusammen nach Korea geflogen. Wir haben Familie zusammen besucht. Meine Schwester hat gerade ein Baby geboren, und sie brauchte viel Ruhe. Deswegen konnte sie meinen Mann nicht treffen. Ich hatte viele Angst mit diesem wichtigen Treffen. Zum Glück ist alles gut gegangen. Nach einigen Monaten sind wir verheiratet. 

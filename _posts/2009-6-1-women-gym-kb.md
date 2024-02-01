@@ -1,0 +1,3 @@
+Wir hatten freien Zugang zu den Fitnessstudios der Universität. Damals wollte ich mehr Luxus und zahlte extra, um in einem anderen privaten Fitnessstudio zu trainieren. Es war ein Fitnessstudio nur für Frauen. Es kostet 90 Dollar pro Monat.
+
+Ich weiß nicht, was ich gedacht habe. Aber ich hatte einen schlechten Sinn für Wirtschaftlichkeit. Ich habe viel Geld ausgegeben. Ich habe auch viel Personal Training gemacht und Pilates Reformer und Kettlebell gelernt. Mein Trainer sagte mir, dass der Herzmuskel der wichtigste Muskel in unserem Körper sei und dass wir viel Cardiotraining machen sollten, um das Herz zu trainieren.
