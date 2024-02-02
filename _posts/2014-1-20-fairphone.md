@@ -1,0 +1,3 @@
+Als ich in Hamburg lebte, hatte ich zu Hause kein Internet. Ich hatte kein Smartphone. Aber ich habe beschlossen, mich zu modernisieren. Ich habe ein [Fairphone](https://www.fairphone.com/) gekauft. Aber ich wollte trotzdem nicht für den Datentarif bezahlen. Also musste ich WLAN bekommen, um das Telefon richtig nutzen zu können. Irgendwann wurde mir das Telefon im Zug gestohlen, weil ich eingeschlafen war. Ich habe 2020 ein Smartphone bekommen und erst 2022 einen Datentarif. 
+
+Ich habe kein Spotify-Konto. Bis 2022 ging ich immer in die Bibliothek und lieh mir CDs aus, um Musik zu hören. Jetzt habe ich kein Bibliothek-Abo (oder Ausweis). Ich benutze Youtube.

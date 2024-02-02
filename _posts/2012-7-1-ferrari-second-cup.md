@@ -1,0 +1,3 @@
+Bei vielen Themen war ich ignorant, aber dennoch war ich immer zuversichtlich. Vielleicht war ich arrogant. Besonders unwissend bin ich, wenn es um Mode und Markennamen geht. Eines Tages zeigte mir meine Freundin ihre neue Handtasche. Sie sagte, es sei von einer sehr bekannten Marke in Italien. Ich konnte einige Buchstaben aus dem Logo lesen. Es waren F, E, R, R usw. Ich war sehr froh, dass ich die Marke erkannte. Also sagte ich: Ja, ich kenne Ferrari! Aber die Handtasche war von Ferragamo. In gewisser Weise habe ich ihr ein schlechtes Gewissen gemacht, weil ihre Handtasche nicht so teuer ist wie Ferrari-Autos. Entschuldigung!
+
+Als ich in Kanada lebte, hatte ich zu Hause kein Internet. Ich hatte kein Smartphone. Um meine E-Mails abzurufen, ging ich in ein Café.
