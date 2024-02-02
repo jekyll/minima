@@ -1,0 +1,1 @@
+In meinem dritten Jahr an der Universität hatte ich Schlafstörungen. Ich war immer launisch. Ich hatte schlechte Laune. Ich war auch sehr gierig in Bezug auf mein Studium und meine Noten. Ich war süchtig nach dem Lernen. Viel Dopamin kam vom Lernen und der Anerkennung.
