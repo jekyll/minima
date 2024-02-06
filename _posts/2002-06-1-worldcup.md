@@ -1,0 +1,1 @@
+Weltmeisterschaftsspiele haben in Korea und Japan stattgefunden. Die Physikabteilung unserer Universität organisierte eine Konferenz, um Fußballfans anzulocken. Viele Leute waren interessiert, aber ich habe mir kein Spiel angeschaut. Ich lebe in meiner eigenen Welt und habe kein Interesse.
