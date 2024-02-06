@@ -1,0 +1,1 @@
+Am 15. August feiern wir das Hochfest Mariä Himmelfahrt. Heute ist es auch für Liebfrauen Patrozinium. Wir haben eine Festgottesdienst am Abend besucht. Anschliessend sind wir zum Apero gegangen. Wir haben mit Priestern auf Englisch über ihre Lebensgeschichte gesprochen. Sie waren freundlich, offen und einladend. Wir sind sehr dankbar, um integriert zu fühlen. 
