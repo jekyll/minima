@@ -1,0 +1,3 @@
+Während ich Popcorn mit einer Freundin esse, war plötzlich ein Zahn ausgefallen. Letzten Sommer war ich gerade in Südkorea, dort hatte ich schon einen Kontrolltermin beim Zahnarzt. Ich möchte ein Röntgenbild, aber der Zahnarzt hat gesagt, dass es nicht nötig ist. Und jetzt fand ich große Probleme mit meinem Zahn. Ich kannte eine Freundin, mit der ich Tennis gespielt habe. Sie kennt einen sehr guten Zahnarzt, mit dem sie Ski gefahren ist. Er hat mich untersucht. 
+
+Ich bin nach Berkeley geflogen. Zwei Wochen lang habe ich mit Mitarbeiter und Mitarbeiterin gearbeitet. Ich habe auch eine Freundin getroffen. Sie hat ein iPhone als Geschenk bekommen. 
