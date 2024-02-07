@@ -1,0 +1,1 @@
+Meine beste Freundin aus dem Gymnasium kommt in die Niederlande. Ich bin eine Woche bei ihr geblieben. Sie hat zwei Kinder, mit denen ich auch gespielt habe. Wir sind zusammen einkaufen gegangen. Ich habe mit ihrer Mutter bis spät in die Nacht gesprochen. 
