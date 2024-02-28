@@ -34,6 +34,25 @@ Anstrengungen unternehmen
 Anstoß nehmen an
 
 
+auf jmdn., auf jmds. Wohl, Gesundheit anstoßen
+
+etw.
+etwas
+ befällt jmdn.
+Beispiel:
+Ein kaltes Fieber stieß ihn an
+
+jmdm. durch einen Stoß ein Zeichen geben
+Grammatik: Perfektbildung mit Hilfsverb ‘haben’
+Beispiele:
+jmdn., sich, einander bedeutungsvoll, lachend, sacht, leise, heimlich, verstohlen anstoßen
+jmdn., sich mit dem Ellbogen, Knie, Fuß, unterm Tisch anstoßen
+
+
+er geht gebückt, um nirgends anzustoßen
+er ist an einen Balken angestoßen
+Vorsicht! Nicht anstoßen!
+
 einen Antrag stellen
 
 
@@ -87,14 +106,27 @@ Berücksichtigung finden
 
 einen Beschluss fassen
 
+das Parlament hat (mit Stimmenmehrheit) die Abschaffung der Todesstrafe, wirksame Maßnahmen, neue Gesetze beschlossen
+
+er beschloss, Arzt zu werden
 
 Beschwerde einlegen/erheben gegen
 
 
-etwas in Betracht 
+etwas in Betracht ziehen 
 
+⟨in Betracht kommen (= in Frage kommen)⟩
 
-ziehen in Bewegung geraten/kommen
+⟨etw. in Betracht ziehen (= etw. berücksichtigen)⟩
+Beispiele:
+alle Schwierigkeiten, Umstände, Ursachen in Betracht ziehen
+bei der Beurteilung der Schülerin muss auch der Klassendurchschnitt in Betracht gezogen werden
+wenn man alles in Betracht zieht, so …
+⟨außer Betracht bleiben (= unberücksichtigt bleiben)⟩
+Beispiel:
+diese Frage bleibt hier außer Betracht
+
+in Bewegung geraten/kommen
 
 
 unter Beweis stellen/einen
@@ -105,6 +137,17 @@ Beweis erbringen/führen
 
 Bezug nehmen auf
 
+
+etw. auf, über etw. ziehen, spannen
+Beispiele:
+einen Schirm, ein Möbelstück mit Stoff, eine Geige mit (neuen) Saiten beziehen
+die Betten neu, frisch beziehen
+sich beziehen
+
+⟨auf etw., jmdn. Bezug nehmen⟩ sich auf etw., jmdn. beziehen, berufen
+
+der Bezug der Romanhandlung auf die Wirklichkeit
+einen Bezug zur Gegenwart herstellen
 
 Bilanz ziehen
 
@@ -171,6 +214,14 @@ in Erstaunen versetzen
 
 in Erwägung ziehen
 
+etw. im Hinblick auf die möglichen Konsequenzen prüfen, überlegen
+Beispiele:
+etw. reiflich, gründlich, ernstlich, wohlwollend erwägen
+eine Möglichkeit, einen Plan, ein Projekt, eine Frage (nach allen Seiten) erwägen
+er erwog, ob er seinen Beruf wechseln sollte
+es bleibt zu erwägen, ob …
+er erwägt, seine Stellung aufzugeben, die Stadt zu verlassen
+die Chancen, seine Vorteile, Nachteile bei (einer Sache) erwägen
 
 einen Fehler begehen/machen
 
