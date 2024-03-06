@@ -336,3 +336,29 @@ a) fest umgrenzter Landesteil, der in einigen Staaten, besonders in den USA, der
 b) fest umgrenzter Landesteil, in dem die Natur und ihr Wildbestand besonders geschützt sind
 
 [bis zum seite 33]
+
+Schlemmer der : 
+schlemmen : bei gutem und reichlichem Essen und Trinken üppig leben, prassen
+
+Ihr Angebotspaket „Verwöhn- und Kuschelwochenende zu zweit" finden wir interessant und möchten dieses
+Angebot für das letzte Novemberwochenende gerne nutzen. seite 34
+
+Diätkost, die : bei einer Diät eingenommene oder verabreichte Kost
+
+das Ungeziefer : Sammelbezeichnung für bestimmte schädliche, schmarotzende Tiere, besonders Insekten oder bestimmte Nagetiere
+
+vieles bringend, bietend
+Beispiele:
+eine reichhaltige Mahlzeit
+ein reichhaltiges Programm
+eine reichhaltige Sammlung
+ein reichhaltiges Lager, Sortiment, Angebot
+
+Nichtinanspruchnahme die: 
+
+Inanspruchnahme, die : 
+1. Anforderung, Beanspruchung einer Person
+2. das Beanspruchen und Nutzen einer Sache
+
+
+[fertig bis K6]
