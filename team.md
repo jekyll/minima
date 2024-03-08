@@ -13,7 +13,7 @@ Assistant Professor, [Engineering Physics](https://www.polymtl.ca/phys/), [Polyt
 MEI Chair in Quantum Photonics.  
 Editor of [Quantum](https://quantum-journal.org/), the open journal for quantum science. 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/martin.jpeg"
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/martin.jpg"
      alt="Martin"
      width="80"
      height="90"
