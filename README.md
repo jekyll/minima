@@ -283,13 +283,13 @@ Minima 2.x    | Minima 3.0
 
 You can add links to the accounts you have on other sites, with respective icon as an SVG graphic, via the config file.
 From `Minima-3.0` onwards, the social media data is sourced from config key `minima.social_links`. It is a list of key-value pairs, each entry
-corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and twitter account, one should have:
+corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and X account, one should have:
 
 ```yaml
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
+    - { platform: x, user_url: "https://x.com/jekyllrb" }
 ```
 
 Apart from the necessary keys illustrated above, `title` may also be defined to render a custom link-title. By default, the title is the same
@@ -311,6 +311,7 @@ The theme ships with an icon for `rss` and icons of select social-media platform
 - `stackoverflow`
 - `telegram`
 - `twitter`
+- `x`
 - `youtube`
 
 To render a link to a platform not listed above, one should first create a file at path `_includes/social-icons/<PLATFORM>.svg` comprised of
