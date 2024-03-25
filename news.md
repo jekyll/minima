@@ -6,6 +6,9 @@ permalink: /news/
 
 * 25-03-24 **Javier**'s work in collaboration with [**Hubert de Guise** from Lakehead](https://hdeguise.lakeheadu.ca/) on verification of quantum advantage in Gaussian Boson Sampling is [out on the arXiv](https://arxiv.org/abs/2403.15339).
 
+
+* 08-03-24 We visited our colleagues at NRC in Sussex Drive.
+
 * [07-03-24](https://twitter.com/polyquantique/status/1765939012651348231) Our tutorial in collaboration with Will McCutcheon from Heriot-Watt on Matrix Decompositions in Quantum Optics [appears on the arXiv](https://arxiv.org/abs/2403.04596).
 
 * 19-01-24 **Martin**'s work on Perfect pulsed inline twin-beam squeezers [appears on the arXiv](https://arxiv.org/abs/2401.10197).
