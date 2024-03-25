@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* [25-03-24] **Javier**'s work in collaboration with [**Hubert de Guise** from Lakehead](https://hdeguise.lakeheadu.ca/) on verification of quantum advantage in Gaussian Boson Sampling is [out on the arXiv](https://arxiv.org/abs/2403.15339).
+* 25-03-24 **Javier**'s work in collaboration with [**Hubert de Guise** from Lakehead](https://hdeguise.lakeheadu.ca/) on verification of quantum advantage in Gaussian Boson Sampling is [out on the arXiv](https://arxiv.org/abs/2403.15339).
 
 * [07-03-24](https://twitter.com/polyquantique/status/1765939012651348231) Our tutorial in collaboration with Will McCutcheon from Heriot-Watt on Matrix Decompositions in Quantum Optics [appears on the arXiv](https://arxiv.org/abs/2403.04596).
 
@@ -14,7 +14,7 @@ permalink: /news/
 
 * [01-07-23](https://mathstodon.xyz/@quantumjournal/110854399250268864) **Javier**'s work on alternative hypotheses for photonic quantum computational advantage appears in  [Quantum](https://quantum-journal.org/papers/q-2023-08-08-1076/). Congrats Javier!
 
-* 28/06-23 **Jaehee** joins from [Sungkyunkwan University](https://www.skku.edu/eng/) as a [Qcenter](https://qcenter.kr/en/index.php) fellow. He will be spending the rest of the academic year with us.
+* 28-06-23 **Jaehee** joins from [Sungkyunkwan University](https://www.skku.edu/eng/) as a [Qcenter](https://qcenter.kr/en/index.php) fellow. He will be spending the rest of the academic year with us.
 
 * 20-06-23 Nicolás gave a tutorial talk on photonic quantum advantage at the Conference of the Canadian Association of Physicists in Fredericton, NB.
 
