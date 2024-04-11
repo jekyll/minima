@@ -53,7 +53,7 @@ Likes carrots.
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Salvador Poveda Hospital**.  
-PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter). \
 F1 enthusiast.
 
