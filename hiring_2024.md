@@ -6,7 +6,7 @@ permalink: /quantamole/
 
 ## About the group
 
-The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for a highly motivated candidates at the *PhD* and *postdoctoral* levels with interestexpertise in quantum optics.
+The Polyquantique research group led by Nicolás Quesada specializes in quantum photonics and quantum information. The group is looking for a highly motivated candidates at the *PhD* and *postdoctoral* levels with interest/expertise in quantum optics.
 
 We are a theory group with a significant computational component that collaborates closely with experimental groups and partners in government and industry. We write [open source code](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-research-software-and-open-source) and do [reproducible science](https://blogs.egu.eu/divisions/gd/2018/09/19/reproducible-computational-science/) (that is, making all data and code available to others to easily execute).  
 
