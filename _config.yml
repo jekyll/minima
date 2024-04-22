@@ -49,7 +49,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
 # - projects_2022.md
-# - hiring.md
+ - hiring_2024.md
  - news.md
  - team.md
  - research.md

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Join Us
-permalink: /quantamole/
+permalink: /joinus/
 ---
 
 ## About the group
