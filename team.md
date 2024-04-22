@@ -31,14 +31,6 @@ Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Pol
 Quantum physics enthusiast. \
 Enjoys meal prep and football Sundays. 
 
-<img src="https://avatars.githubusercontent.com/u/16817699"
-     alt="Yuan"
-     width="80"
-     height="90"
-     style="float: left; margin-right: 10px;" /> **Yuan Yao**.  
-Visiting PhD student, [Département Informatique et Réseaux (INFRES)](https://www.telecom-paris.fr/fr/lecole/departements-enseignement-recherche/informatique-reseaux), [Télécom Paris](https://www.telecom-paris.fr) and [IP Paris](https://www.ip-paris.fr), supervised by [Filippo Miatto](https://scholar.google.pl/citations?user=zoaxT0QAAAAJ&hl=en).  
-LEGO enthusiast.
-
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/jiaqi.jpg"
      alt="Jiaqi"
      width="80"
@@ -98,21 +90,8 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
 <br><br>
 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marie.jpeg"
-    alt="Marie"
-     width="80"
-     height="85"
-     style="float: left; margin-right: 10px;" /> **Marie Lafontaine**. \
-Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Enjoys crochet and cafés 
-<br><br>
-
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/jaehee.jpeg"
-    alt="Jaehee"
-     width="80"
-     height="85"
-     style="float: left; margin-right: 10px;" /> **Jaehee Kim**. \
-PhD student, [Nano Science and Technology](https://saint.skku.edu/saint/index.do), [Sungkyunkwan University](https://www.skku.edu/eng/). \
-<br><br>
 
 ### Ancien.nes polyquanticien.nes
+* Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
+* Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
+* Marie Lafontaine was a summer and UPIR intern and is now continuing to her M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
