@@ -22,7 +22,7 @@ Research in our group is financially supported by
      alt="NSERC"
      width="300" 
      height="128"
-     style="float: left; margin-right: 10px;" /> Natural Sciences and Engineering Research Council of Canada through the Discovery Grants program, Joint EU/Canada quantum research projects MIRAQLS and the Alliance Consortia Quantum grant QuantaMole.
+     style="float: left; margin-right: 10px;" /> Natural Sciences and Engineering Research Council of Canada through the Discovery Grants program, the Joint EU/Canada quantum research project MIRAQLS and the Alliance Consortia Quantum grant QuantaMole.
 
 <br>
 <br>
