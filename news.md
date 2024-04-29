@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* 29-04-24 Martin and Nicolás  will be presenting at the [Quantum Information Science and Technology Workshop 2024](https://www.umass.edu/engineering/events/workshop)
+
 * 23-04-24 Most of the group will be heading to the [INTRIQ](https://www.intriq.org/events/rencontre-printaniere-2024-de-lintriq) conference. Javier and Karthik will be presenting talks about their recent work!
 
 * 25-03-24 **Javier**'s work in collaboration with [**Hubert de Guise** from Lakehead](https://hdeguise.lakeheadu.ca/) on verification of quantum advantage in Gaussian Boson Sampling is [out on the arXiv](https://arxiv.org/abs/2403.15339).
