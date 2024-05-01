@@ -76,7 +76,7 @@ Enjoys nature hikes and running.
      width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Gisell Lorena Osorio**. \
-PhD student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Enjoys performing arts and nature.
 .<br><br>
 
