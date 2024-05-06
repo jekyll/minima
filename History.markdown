@@ -37,6 +37,7 @@
   * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
   * Add google scholar. (#673)
   * Add `x` social icon (#756)
+  * Add Codeberg icon and update list of supported social links (#788)
 
 ### Major Enhancements
 
