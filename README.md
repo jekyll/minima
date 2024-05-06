@@ -314,6 +314,7 @@ The theme ships with an icon for `rss` and icons of select social-media platform
 - `stackoverflow`
 - `telegram`
 - `twitter`
+- `whatsapp`
 - `youtube`
 
 To render a link to a platform not listed above, one should first create a file at path `_includes/social-icons/<PLATFORM>.svg` comprised of
