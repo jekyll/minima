@@ -38,6 +38,7 @@
   * Add google scholar. (#673)
   * Add `x` social icon (#756)
   * Add Codeberg icon and update list of supported social links (#788)
+  * Added whatsapp social icon. (#781)
 
 ### Major Enhancements
 
