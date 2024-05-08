@@ -37,6 +37,9 @@
   * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
   * Add google scholar. (#673)
   * Add `x` social icon (#756)
+  * Add Codeberg icon and update list of supported social links (#788)
+  * Added whatsapp social icon. (#781)
+  * Update GitLab icon (#765)
 
 ### Major Enhancements
 
@@ -68,6 +71,7 @@
   * Improve &#34;Subscribe&#34; link in footer (#698)
   * Fix deprecation warnings from Dart Sass (#700)
   * Fix reference to base layout in `404.html` (#713)
+  * Minimal fixes for Disqus (#775)
 
 ### Development Fixes
 

@@ -297,20 +297,24 @@ as `platform`. The `platform` key corresponds to the SVG id of the sprite in the
 
 The theme ships with an icon for `rss` and icons of select social-media platforms:
 
+- `codeberg`
 - `devto`
 - `dribbble`
 - `facebook`
 - `flickr`
 - `github`
+- `gitlab`
 - `google_scholar`
 - `instagram`
 - `keybase`
 - `linkedin`
+- `mastodon`
 - `microdotblog`
 - `pinterest`
 - `stackoverflow`
 - `telegram`
 - `twitter`
+- `whatsapp`
 - `x`
 - `youtube`
 
