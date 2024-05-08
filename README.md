@@ -289,7 +289,7 @@ corresponding to a link rendered in the footer. For example, to render links to 
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-    - { platform: x, user_url: "https://x.com/jekyllrb" }
+    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
 ```
 
 Apart from the necessary keys illustrated above, `title` may also be defined to render a custom link-title. By default, the title is the same
