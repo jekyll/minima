@@ -344,6 +344,13 @@ For example, to render a link to an account of user `john.doe` at platform `devi
 - The `user_url` is rendered as given without handling any special characters within.
 
 
+### Hiding parts from the footer
+
+- You can hide the feed part from the footer by setting `site.minima.hide_feed_from_footer` to `true` in `_config.yml`.
+- You can hide the author part from the footer by setting `site.minima.hide_author_from_footer` to `true` in `_config.yml`.
+- You can hide the description part from the footer by setting `site.minima.hide_description_from_footer` to `true` in `_config.yml`.
+
+
 ### Enabling Google Analytics
 
 To enable Google Analytics, add the following lines to your Jekyll site:

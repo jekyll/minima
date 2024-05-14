@@ -15,8 +15,8 @@ description: >
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
 
-# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
-# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and
 # add a line comment on "theme: minima" above.
 #remote_theme: jekyll/minima
 
@@ -45,9 +45,9 @@ minima:
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: classic
-  
+
   # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #date_format: "%b-%d-%Y"
 
@@ -71,4 +71,7 @@ minima:
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
-
+  # Hide parts from footer.
+  # hide_feed_from_footer: true
+  # hide_author_from_footer: true
+  # hide_description_from_footer: true

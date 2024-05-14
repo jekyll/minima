@@ -7,7 +7,7 @@
       <div class="footer-col">
       {%- assign feed_path = site.feed.path | default: 'feed.xml' %}
       {%- assign found_feed_paths = site.pages | where: 'path', feed_path %}
-      {%- if found_feed_paths.size > 0 %}
+      {%- if found_feed_paths.size > 0 and site.minima.hide_feed_from_footer != true %}
         <p class="feed-subscribe">
           <a href="{{ feed_path | absolute_url }}">
             <svg class="svg-icon orange">
@@ -16,7 +16,7 @@
           </a>
         </p>
       {%- endif %}
-      {%- if site.author %}
+      {%- if site.author and site.minima.hide_author_from_footer != true %}
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -27,7 +27,7 @@
         </ul>
       {%- endif %}
       </div>
-      {%- if site.description %}
+      {%- if site.description and site.minima.hide_description_from_footer != true %}
         <div class="footer-col">
           <p>{{ site.description | escape }}</p>
         </div>
