@@ -27,9 +27,11 @@
         </ul>
       {%- endif %}
       </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
+      {%- if site.description %}
+        <div class="footer-col">
+          <p>{{ site.description | escape }}</p>
+        </div>
+      {%- endif }
     </div>
 
     <div class="social-links">
