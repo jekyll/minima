@@ -5,13 +5,17 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+      {%- assign feed_path = site.feed.path | default: 'feed.xml' %}
+      {%- assign found_feed_paths = site.pages | where: 'path', feed_path %}
+      {%- if found_feed_paths.size > 0 %}
         <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+          <a href="{{ feed_path | absolute_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
             </svg><span>Subscribe</span>
           </a>
         </p>
+      {%- endif %}
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
