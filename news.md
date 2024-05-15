@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* [13-05-24](https://twitter.com/polyquantique/status/1639323557023891461) New experimental collaboration with Guillaume, Duncan, Philip, Frédéric and Ben from NRC. Our friends at Ottawa [measured a gain-induced group delay, a tell-tale sign of time-ordering corrections in SPDC](https://scirate.com/arxiv/2405.07909). In collaboration with them, Martin developed theory in excellent agreement with their experiments.
+* [13-05-24](https://twitter.com/polyquantique/status/1790387509030965316) New experimental collaboration with Guillaume, Duncan, Philip, Frédéric and Ben from NRC. Our friends at Ottawa [measured a gain-induced group delay, a tell-tale sign of time-ordering corrections in SPDC](https://scirate.com/arxiv/2405.07909). In collaboration with them, Martin developed theory in excellent agreement with their experiments.
 
 * 29-04-24 Martin and Nicolás  will be presenting at the [Quantum Information Science and Technology Workshop 2024](https://www.umass.edu/engineering/events/workshop) and also at CLEO.
 
