@@ -90,6 +90,15 @@ M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechniq
 <br><br>
 
 
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/germain.jpeg"
+    alt="Germain"
+     width="80"
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Germain Desloges**. \
+Undergrad student intern, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Board game geek. Year-round cyclist.
+<br><br>
+
 
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
