@@ -10,6 +10,7 @@
   * Make docs consistent with code (#657)
   * Highlight that the base branch is v3 (#719)
   * Improve documentation for config options (#760)
+  * Add platform X supporting in README (#780)
 
 ### Minor Enhancements
 
