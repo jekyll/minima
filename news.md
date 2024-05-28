@@ -3,8 +3,13 @@ layout: page
 title: News  
 permalink: /news/
 ---
+* 01-02-23 Our work in collaboration with Changhun Oh, Liang Jiang and Bill Fefferman from Chicago on [Quantum-inspired classical algorithm for graph problems by Gaussian boson sampling](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.020341) appears on PRX Quantum.
+
 
 * [13-05-24](https://twitter.com/polyquantique/status/1790387509030965316) New experimental collaboration with **Guillaume, Duncan, Philip, Frédéric** and **Ben** from NRC. Our friends in Ottawa [measured a gain-induced group delay, a tell-tale sign of time-ordering corrections in SPDC](https://scirate.com/arxiv/2405.07909). In collaboration with them, **Martin** developed theory in excellent agreement with their experiments.
+
+
+* 06-05-24 Welcome **Germain** who is joining as an NSERC USRA student for the summer!
 
 * 29-04-24 Martin and Nicolás  will be presenting at the [Quantum Information Science and Technology Workshop 2024](https://www.umass.edu/engineering/events/workshop) and also at CLEO.
 
