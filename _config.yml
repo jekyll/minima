@@ -1,14 +1,12 @@
-title: Your awesome title
+title: Personal blog
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Jair MG
+  #email: your-email@domain.com  //#warning("email")
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  🎷🐛
 
 # Build settings
 
@@ -30,6 +28,7 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
+  - tech articles.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
@@ -52,9 +51,9 @@ minima:
   #date_format: "%b-%d-%Y"
 
   # Generate social links in footer.
-  #social_links:
-  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  social_links:
+   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
   #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
