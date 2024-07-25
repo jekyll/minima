@@ -4,7 +4,9 @@ title: News
 permalink: /news/
 ---
 
-* 14-06-24 Today we publicly release [haarpy](https://github.com/polyquantique/haarpy), our library to perform averages over the Haar measure using Weingarten functions. This work was led by undegrad extraordinaire *Yanic Cardin* in collaboration with our friend Hubert de Guise from Lakehead University.
+* 25-07-24 **Karthik**'s work on Beyond the parametric approximation [appears in Phys. Rev. A as an editors' suggestion](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013712). Congrats Karthik!
+
+* 14-06-24 Today we publicly release [haarpy](https://github.com/polyquantique/haarpy), our library to perform averages over the Haar measure using Weingarten functions. This work was led by undegrad extraordinaire **Yanic Cardin** in collaboration with our friend Hubert de Guise from Lakehead University.
 
 * 05-06-24 **Martin**'s work on perfect pulsed inline twin-beam squeezers is [published in AVS Quantum Science](https://pubs.aip.org/avs/aqs/article-abstract/6/2/021402/3296397/Perfect-pulsed-inline-twin-beam-squeezers?redirectedFrom=fulltext).
 
