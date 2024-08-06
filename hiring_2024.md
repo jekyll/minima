@@ -19,7 +19,7 @@ that ["Single-photon Kerr nonlinearities do not help quantum computation"](https
 
 ## Interested in joining?
 
-We hope the selected candidates will join the group towards the end of 2024/early 2025. Please submit your application by email (using the email address at the bottom) with the subject line: "Quantamole Applicant: [Name]", and include the following information:
+We hope the selected candidates will join the group towards the end of 2024/early 2025. To be considered the applicant **must** hold a masters degree or be in the process of obtaining one. Please submit your application by email (using the email address at the bottom) with the subject line: "Quantamole Applicant: [Name]", and include the following information:
 
 1. A motivation letter (2 pages max.) describing your research interests, background and experience. 
 
