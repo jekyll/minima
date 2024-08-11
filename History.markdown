@@ -73,6 +73,7 @@
   * Fix deprecation warnings from Dart Sass (#700)
   * Fix reference to base layout in `404.html` (#713)
   * Minimal fixes for Disqus (#775)
+  * Fix deprecation warnings (#796) (#797)
 
 ### Development Fixes
 
