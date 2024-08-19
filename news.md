@@ -18,6 +18,8 @@ permalink: /news/
 
 * 06-05-24 Welcome **Germain** who is joining as an NSERC USRA student for the summer!
 
+* 01-05-24 Congrats to **Karthik** who has been awarded a [Bourses d’excellence pour étudiants(es) étrangers(ères) (PBEEE)](https://frq.gouv.qc.ca/programme/bourses-dexcellence-pour-etudiants-etrangers-pbeee-2024-2025/) 🎉🎉🎉 .
+
 * 29-04-24 Martin and Nicolás  will be presenting at the [Quantum Information Science and Technology Workshop 2024](https://www.umass.edu/engineering/events/workshop) and also at CLEO.
 
 * 23-04-24 Most of the group will be heading to the [INTRIQ](https://www.intriq.org/events/rencontre-printaniere-2024-de-lintriq) conference. Javier and Karthik will be presenting talks about their recent work!
