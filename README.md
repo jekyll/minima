@@ -297,6 +297,7 @@ as `platform`. The `platform` key corresponds to the SVG id of the sprite in the
 
 The theme ships with an icon for `rss` and icons of select social-media platforms:
 
+- `bluesky`
 - `codeberg`
 - `devto`
 - `dribbble`
