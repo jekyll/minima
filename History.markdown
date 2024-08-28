@@ -41,6 +41,7 @@
   * Add Codeberg icon and update list of supported social links (#788)
   * Added whatsapp social icon. (#781)
   * Update GitLab icon (#765)
+  * Add Bluesky to social media platforms (#799)
 
 ### Major Enhancements
 
