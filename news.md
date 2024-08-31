@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* 29-08-24 **Javier**, **Karthik** and **Nicolás** presented posters and an invited talk at [CQICQ-X](http://www.fields.utoronto.ca/activities/24-25/CQIQC) in Toronto.
+
 * 25-07-24 **Karthik**'s work on Beyond the parametric approximation [appears in Phys. Rev. A as an editors' suggestion](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013712). Congrats Karthik!
 
 * 14-06-24 Today we publicly release [haarpy](https://github.com/polyquantique/haarpy), our library to perform averages over the Haar measure using Weingarten functions. This work was led by undegrad extraordinaire **Yanic Cardin** in collaboration with our friend Hubert de Guise from Lakehead University.
