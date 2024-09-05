@@ -88,6 +88,7 @@
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
+  * Set up CI for `2.5-stable` branch (#800)
 
 ## 2.5.1
 
