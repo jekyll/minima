@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [05-09-24](https://x.com/polyquantique/status/1831401152732393634) Our tutorial on Matrix decompositions in Quantum Optics appears is [published in Canadian Journal of Physics](https://cdnsciencepub.com/doi/full/10.1139/cjp-2024-0070).
+
 * 29-08-24 **Javier**, **Karthik** and **Nicolás** presented posters and an invited talk at [CQICQ-X](http://www.fields.utoronto.ca/activities/24-25/CQIQC) in Toronto.
 
 * 25-07-24 **Karthik**'s work on Beyond the parametric approximation [appears in Phys. Rev. A as an editors' suggestion](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013712). Congrats Karthik!
