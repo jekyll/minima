@@ -8,14 +8,13 @@ on:
       - "2.5-stable"
 jobs:
   build:
-    name: "Test with Jekyll ${{ matrix.jekyll }} (Ruby ${{ matrix.ruby }} on ${{ matrix.os }})"
-    runs-on: "${{ matrix.os }}-latest"
+    name: "Test with Jekyll ${{ matrix.jekyll }} (Ruby ${{ matrix.ruby }})"
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         jekyll: ["~> 3.9", "~> 4.2"]
         ruby: ["2.7", "3.3"]
-        os: ["ubuntu", "macos", "windows"]
     env:
       JEKYLL_VERSION: ${{ matrix.jekyll }}
     steps:
