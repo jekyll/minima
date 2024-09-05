@@ -11,6 +11,7 @@ jobs:
     name: "Test with Jekyll ${{ matrix.jekyll }} (Ruby ${{ matrix.ruby }} on ${{ matrix.os }})"
     runs-on: "${{ matrix.os }}-latest"
     strategy:
+      fail-fast: false
       matrix:
         jekyll: ["~> 3.9", "~> 4.2"]
         ruby: ["2.7", "3.3"]
