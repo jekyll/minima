@@ -88,6 +88,7 @@
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
+  * Update History document for v2.5.2 (#803)
 
 ## 2.5.2
 
