@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require_relative "theme_version"
+
 Gem::Specification.new do |spec|
   spec.name          = "minima"
-  spec.version       = "2.5.1"
+  spec.version       = Minima::VERSION
   spec.authors       = ["Joel Glovier"]
   spec.email         = ["jglovier@github.com"]
 
@@ -19,5 +21,4 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
-  spec.add_development_dependency "bundler", ">= 1.15"
 end
