@@ -1,3 +1,14 @@
+## 2.5.2
+
+### Bug Fixes
+
+  * Fix deprecation warnings from Dart Sass (#801)
+
+### Development Fixes
+
+  * Set up CI for `2.5-stable` branch (#800)
+  * Release gem from 2.5-stable via GitHub Actions (#802)
+
 ## 2.5.1
 
 ### Minor Enhancements
