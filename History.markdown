@@ -90,6 +90,7 @@
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
   * Set up CI for `2.5-stable` branch (#800)
+  * Release gem from 2.5-stable via GitHub Actions (#802)
 
 ## 2.5.1
 
