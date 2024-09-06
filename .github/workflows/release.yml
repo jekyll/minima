@@ -1,0 +1,32 @@
+name: Release Gem
+
+on:
+  push:
+    branches:
+      - "2.5-stable"
+    paths:
+      - "theme_version.rb"
+
+jobs:
+  release:
+    if: "github.repository_owner == 'jekyll'"
+    name: "Release Gem (Ruby ${{ matrix.ruby_version }})"
+    runs-on: "ubuntu-latest"
+    strategy:
+      fail-fast: true
+      matrix:
+        ruby_version: [ "3.3" ]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: "Set up Ruby ${{ matrix.ruby_version }}"
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby_version }}
+          bundler-cache: true
+      - name: Build and Publish Gem
+        uses: ashmaroli/release-gem@dist
+        with:
+          gemspec_name: minima
+        env:
+          GEM_HOST_API_KEY: ${{ secrets.RUBYGEMS_GEM_PUSH_API_KEY }}
