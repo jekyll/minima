@@ -75,7 +75,6 @@
   * Fix reference to base layout in `404.html` (#713)
   * Minimal fixes for Disqus (#775)
   * Fix deprecation warnings (#796) (#797)
-  * Fix deprecation warnings from Dart Sass (#801)
 
 ### Development Fixes
 
@@ -89,6 +88,15 @@
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
+
+## 2.5.2
+
+### Bug Fixes
+
+  * Fix deprecation warnings from Dart Sass (#801)
+
+### Development Fixes
+
   * Set up CI for `2.5-stable` branch (#800)
   * Release gem from 2.5-stable via GitHub Actions (#802)
 
