@@ -233,6 +233,9 @@ minima:
   date_format: "%b %-d, %Y"
 ```
 
+### Add links to previous and next post
+
+in `_config.yml`: `links_to_prev_next: true` (default is `false`)
 
 ### Extending the `<head />`
 
