@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, I’m Samagra, the founder of Tensorfuse, a YC startup focused on making AI experimentation easier and more scalable. With a Computer Science background from IIT Roorkee, I've spent my career developing and improving technology infrastructures at Adobe Research, UCSB Systems and Networking Lab, and Aerotime.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Aside from my professional work, I have a strong interest in mathematics, reading, and the classical language of Sanskrit, which provide both mental stimulation and cultural enrichment. As a devout Hindu, I draw inspiration and guidance from the stories of Hanuman and Krishna, whose tales of strength and wisdom form the foundation of my beliefs.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+During my free time, I relish the strategic challenges of chess, keep active at the gym, and pursue my love for cooking, particularly traditional Indian cuisine. Through my blog, I share insights from the tech industry, talk about my hobbies, and explore how technology intersects with daily life.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I am always open to meaningful discussions and potential partnerships. Whether you're keen on AI technologies or looking to swap recipes, feel free to reach out!
