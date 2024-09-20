@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 ---
 
+* [18-09-24](https://x.com/polyquantique/status/1836542122511778016) Our work with Yuan and Filippo on [Riemannian optimization of photonic quantum circuits in phase and Fock space](https://scipost.org/SciPostPhys.17.3.082) is finally published on SciPost Physics.
+
 * [05-09-24](https://twitter.com/polyquantique/status/1831401152732393634) Our tutorial on Matrix decompositions in Quantum Optics  [appears in Canadian Journal of Physics](https://cdnsciencepub.com/doi/full/10.1139/cjp-2024-0070).
 
 * 29-08-24 **Javier**, **Karthik** and **Nicolás** presented posters and an invited talk at [CQICQ-X](http://www.fields.utoronto.ca/activities/24-25/CQIQC) in Toronto.
