@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  I am the founder and CEO of Tensorfuse Inc. At Tensorfuse, I am building the container technology for the GPU era.
+  I am the founder and CEO of Tensorfuse Inc. At Tensorfuse, we are building the container technology for the GPU era.
 
 # Build settings
 
@@ -35,6 +35,8 @@ show_excerpts: true
 
 disqus:
   shortname: samagra14
+
+google_analytics: G-LVV697V0CN
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:

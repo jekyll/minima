@@ -2,6 +2,7 @@
 layout: post
 title: "WTF is Kubernetes Autoscaling?"
 categories: K8s
+author: Samagra Sharma
 ---
 
 ### Pods and Nodes in Kubernetes

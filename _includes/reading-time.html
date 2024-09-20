@@ -1,0 +1,3 @@
+{% assign words = content | number_of_words %}
+{% assign reading_time = words | divided_by: 180 | plus: 1 %}
+Estimated reading time: {% if reading_time <= 1 %}1 minute{% else %}{{ reading_time }} minutes{% endif %}
