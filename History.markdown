@@ -75,6 +75,7 @@
   * Fix reference to base layout in `404.html` (#713)
   * Minimal fixes for Disqus (#775)
   * Fix deprecation warnings (#796) (#797)
+  * Avoid clipping responsive social SVG icons (#808)
 
 ### Development Fixes
 
