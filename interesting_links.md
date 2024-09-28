@@ -13,3 +13,4 @@ This page contains a list of interesting links that I have come across. I will k
 * [Chris Olah](https://colah.github.io/about.html)
 * [Phil Schmid](https://www.philschmid.de/)
 * [Eugene Yan's blog](https://eugeneyan.com/)
+* [Nicky Case Blog](https://blog.ncase.me/30/)
