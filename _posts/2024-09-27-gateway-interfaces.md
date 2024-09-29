@@ -6,7 +6,7 @@ author: Samagra Sharma
 ---
 
 
-I've been working on Python-based backend development for about three years now in various forms. I primarily use Django and FastAPI, although I initially started with Flask. However, during my backend work, I frequently encountered the terms ASGI and WSGI. For example, one of my Django deployment scripts included references to `asgi_app` and `wsgi_app`, and used gunicorn to deploy these apps. Although I initially dismissed these terms as implementation details, I now find myself needing to support both ASGI and WSGI apps for my company [tensorfuse](tensorfuse.io). As a result, I believe it's important to explain ASGI and WSGI to a wider audience.
+I've been working on Python-based backend development for about three years now in various forms. I primarily use Django and FastAPI, although I initially started with Flask. However, during my backend work, I frequently encountered the terms ASGI and WSGI. For example, one of my Django deployment scripts included references to `asgi_app` and `wsgi_app`, and used gunicorn to deploy these apps. Although I initially dismissed these terms as implementation details, I now find myself needing to support both ASGI and WSGI apps for my company [tensorfuse](https://www.tensorfuse.io). As a result, I believe it's important to explain ASGI and WSGI to a wider audience.
 
 ![](/assets/images/gateway_interface.png)
 ### Life cycle of a request?
