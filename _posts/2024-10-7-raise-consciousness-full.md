@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sandbox Mode"
+title: "Raise consciousness"
 ---
 
 %%This document can be read, organized, and written by thinking about it like a tree, where the main idea is presented first (trunk), it is expanded upon/explained through other sentences (branches), which make it easy to come up with actionable ideas (leaves)%%
@@ -40,7 +40,7 @@ Goal
 		Anywhere in the universe where electricity can be manipulated
 	Who
 		Every human being who is or could be influenced by electrical technologies %%Initially. This scope could be widened in the future e.g. to animals, other sentient beings%%
-	How
+	<!-- How
 		- By being aware that logical though has to be balanced with devotion to life (which can find expression though emotional response to situations one lives)
 		- By only providing what each person is ready for
 		- By continuing our own practices
@@ -340,4 +340,4 @@ Afterword
 	please let me know at fernandoaestrella@gmail.com.
 	That being said, currently the goal of this project is to have minimal discussions of aspects that are hard to prove to intellect and logic alone, like whether machines can achieve consciousness, and so on, and rather to make measurable contributions to raising human consciousness. This is where aiming to raise our own consciousness as we go along can guide us.
 	Thanks! 
-	#savesoil
+	#savesoil -->
