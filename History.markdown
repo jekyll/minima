@@ -10,6 +10,8 @@
   * Make docs consistent with code (#657)
   * Highlight that the base branch is v3 (#719)
   * Improve documentation for config options (#760)
+  * Add platform X supporting in README (#780)
+  * Update readme_banner.svg to support dark mode (#813)
 
 ### Minor Enhancements
 
@@ -37,6 +39,10 @@
   * Add `auto` skin which honors the `prefers-color-scheme` media query (#634)
   * Add google scholar. (#673)
   * Add `x` social icon (#756)
+  * Add Codeberg icon and update list of supported social links (#788)
+  * Added whatsapp social icon. (#781)
+  * Update GitLab icon (#765)
+  * Add Bluesky to social media platforms (#799)
 
 ### Major Enhancements
 
@@ -68,6 +74,9 @@
   * Improve &#34;Subscribe&#34; link in footer (#698)
   * Fix deprecation warnings from Dart Sass (#700)
   * Fix reference to base layout in `404.html` (#713)
+  * Minimal fixes for Disqus (#775)
+  * Fix deprecation warnings (#796) (#797)
+  * Avoid clipping responsive social SVG icons (#808)
 
 ### Development Fixes
 
@@ -81,6 +90,18 @@
   * Build and deploy demo site via GH Action workflow (#636)
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
+  * Update History document for v2.5.2 (#803)
+
+## 2.5.2
+
+### Bug Fixes
+
+  * Fix deprecation warnings from Dart Sass (#801)
+
+### Development Fixes
+
+  * Set up CI for `2.5-stable` branch (#800)
+  * Release gem from 2.5-stable via GitHub Actions (#802)
 
 ## 2.5.1
 
