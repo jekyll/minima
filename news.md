@@ -4,11 +4,17 @@ title: News
 permalink: /news/
 ---
 
+* 14-11-24 Congrats to Martin and our wonderful collaborators at NRC. Our work on [Gain-induced group delay in spontaneous parametric down-conversion](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.203601) appears in Phys. Rev. Lett. today. Moreover, Ryan Wilkinson wrote a nice [synopsis of our work for Physics](https://physics.aps.org/articles/v17/s130).
+
+* 13-11-24 Congrats to Yanic whose paper on the photon-number moments and cumulants of Gaussian states [appears today on the Quantum](https://quantum-journal.org/papers/q-2024-11-13-1521/). This is the first paper from an undergraduate in the group!
+
 * [18-09-24](https://x.com/polyquantique/status/1836542122511778016) Our work with **Yuan** and **Filippo** on [Riemannian optimization of photonic quantum circuits in phase and Fock space](https://scipost.org/SciPostPhys.17.3.082) is finally published on SciPost Physics.
 
 * [05-09-24](https://twitter.com/polyquantique/status/1831401152732393634) Our tutorial on Matrix decompositions in Quantum Optics  [appears in Canadian Journal of Physics](https://cdnsciencepub.com/doi/full/10.1139/cjp-2024-0070).
 
 * 29-08-24 **Javier**, **Karthik** and **Nicolás** presented posters and an invited talk at [CQICQ-X](http://www.fields.utoronto.ca/activities/24-25/CQIQC) in Toronto.
+
+* 21-08-24 Congrats to **Jiaqi** who presented his mémoire and is now a master <s>of the dark arts</s> en sciences appliquées.
 
 * 25-07-24 **Karthik**'s work on Beyond the parametric approximation [appears in Phys. Rev. A as an editors' suggestion](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013712). Congrats Karthik!
 
