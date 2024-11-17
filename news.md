@@ -6,7 +6,7 @@ permalink: /news/
 
 * 14-11-24 Congrats to **Martin** and our wonderful collaborators at NRC, Guillaume, Duncan, Philip, Frédéric and Ben. Our work on [Gain-induced group delay in spontaneous parametric down-conversion](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.203601) appears in Phys. Rev. Lett. today. Moreover, Ryan Wilkinson wrote a nice [synopsis of our work for Physics](https://physics.aps.org/articles/v17/s130).
 
-* 13-11-24 Congrats to **Yanic** whose paper on the photon-number moments and cumulants of Gaussian states [appears today on the Quantum](https://quantum-journal.org/papers/q-2024-11-13-1521/). This is the first paper from an undergraduate in the group!
+* 13-11-24 Congrats to **Yanic** whose paper on the photon-number moments and cumulants of Gaussian states [appears today on Quantum](https://quantum-journal.org/papers/q-2024-11-13-1521/). This is the first paper from an undergraduate in the group!
 
 * [18-09-24](https://x.com/polyquantique/status/1836542122511778016) Our work with **Yuan** and **Filippo** on [Riemannian optimization of photonic quantum circuits in phase and Fock space](https://scipost.org/SciPostPhys.17.3.082) is finally published on SciPost Physics.
 
