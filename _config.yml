@@ -1,4 +1,4 @@
-title: Your awesome title
+title: mnvl
 author:
   name: GitHub User
   email: your-email@domain.com
@@ -6,9 +6,13 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Ut lobortis lorem a risus dictum, et maximus urna pellentesque.
+ Nunc mollis enim massa, non faucibus odio consequat a.
+ Cras vitae turpis consequat, consequat odio sed, suscipit quam.
+ Mauris tortor nibh, convallis vitae porta at, pretium eget est.
+ Donec ultricies vulputate diam nec euismod. Donec id justo sem.
+ Suspendisse mi arcu, semper ac sem at, fermentum hendrerit turpis.
 
 # Build settings
 
