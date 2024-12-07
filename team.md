@@ -81,26 +81,10 @@ Enjoys performing arts and nature.
 .<br><br>
 
 
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/nicolas-dalbec.jpg"
-    alt="Nicolas"
-     width="80"
-     height="80"
-     style="float: left; margin-right: 10px;" /> **Nicolas Dalbec-Constant**. \
-M.Sc. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-<br><br>
-
-
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/germain.jpeg"
-    alt="Germain"
-     width="80"
-     height="90"
-     style="float: left; margin-right: 10px;" /> **Germain Desloges**. \
-Undergrad student intern, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Board game geek. Year-round cyclist.
-<br><br>
-
-
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
 * Marie Lafontaine was a summer and UPIR intern and is now continuing to her M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
+* Germain Desloges was a summer intern and is continuing his undergrad at Polytechnique.
+* Nicolas Dalbec-Constant was a master student in our group. After completing his degree he is continuing to a Ph.D. at the University of Ottawa.
+
