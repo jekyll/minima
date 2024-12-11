@@ -10,3 +10,11 @@ Might you have an include in your theme? Why not try it here!
 {% endcomment %}
 
 No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
+
+Inline math: \( E = mc^2 \)
+
+Block math:
+\[
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\]
+
