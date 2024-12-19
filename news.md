@@ -4,6 +4,10 @@ title: News
 permalink: /news/
 ---
 
+* 19-12-24 Congrats to **Nicolas** who presented his mémoire and now holds a Maîtrise  és sciences appliquées. Best of luck in your PhD at UOttawa!
+
+* 08-11-24 **Nicolas'** work on Accurate Unsupervised Photon Counting from Transition Edge Sensor Signals appears on the [arXiv](https://arxiv.org/pdf/2411.05737).
+
 * 14-11-24 Congrats to **Martin** and our wonderful collaborators at NRC, Guillaume, Duncan, Philip, Frédéric and Ben. Our work on [Gain-induced group delay in spontaneous parametric down-conversion](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.203601) appears in Phys. Rev. Lett. today. Moreover, Ryan Wilkinson wrote a nice [synopsis of our work for Physics](https://physics.aps.org/articles/v17/s130) and so did Ingrid Fedeli for [phys.org](https://phys.org/news/2024-12-gain-group-delay-multiphoton-pulses.html).
 
 * 13-11-24 Congrats to **Yanic** whose paper on the photon-number moments and cumulants of Gaussian states [appears today on Quantum](https://quantum-journal.org/papers/q-2024-11-13-1521/). This is the first paper from an undergraduate in the group!

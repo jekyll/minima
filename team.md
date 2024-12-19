@@ -27,18 +27,9 @@ Enjoys nature hikes, animal tracking and drinking maple syrup.
      width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Yanic Cardin**.  
-Undergraduate student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 Quantum physics enthusiast. \
 Enjoys meal prep and football Sundays. 
-
-<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/jiaqi.jpg"
-     alt="Jiaqi"
-     width="80"
-     height="90"
-     style="float: left; margin-right: 10px;" /> **Jiaqi Zhao**.  
-MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
-Likes carrots.
-.<br><br>
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.jpg"
      alt="Salvador"
@@ -84,7 +75,7 @@ Enjoys performing arts and nature.
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
-* Marie Lafontaine was a summer and UPIR intern and is now continuing to her M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
+* Marie Lafontaine was a summer and UPIR intern 2023. She is now continuing to an M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
+* Jiaqi Zhao completed his masters in our group in 2024.
 * Germain Desloges was a summer intern and is continuing his undergrad at Polytechnique.
-* Nicolas Dalbec-Constant was a master student in our group. After completing his degree he is continuing to a Ph.D. at the University of Ottawa.
-
+* Nicolas Dalbec-Constant completed his masters in our group in 2024. He is continuing to a Ph.D. at the [University of Ottawa](https://uottawa.ca).
