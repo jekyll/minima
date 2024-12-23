@@ -282,6 +282,9 @@ Minima 2.x    | Minima 3.0
 ### Social networks
 
 You can add links to the accounts you have on other sites, with respective icon as an SVG graphic, via the config file.
+
+To enable social media icons add the `assets/minima-social-icons.liquid` file from this repository to your repository `assets/` folder.
+
 From `Minima-3.0` onwards, the social media data is sourced from config key `minima.social_links`. It is a list of key-value pairs, each entry
 corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and Twitter account, one should have:
 
