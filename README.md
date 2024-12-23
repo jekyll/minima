@@ -176,6 +176,13 @@ A skin is a Sass file placed in the directory `_sass/minima/skins` and it define
 aspect of the theme. It also embeds the Sass rules related to syntax-highlighting since that is primarily related to color and
 has to be adjusted in harmony with the current skin.
 
+To enable skins apply the following changes to your `_config.yml`:
+
+```diff
+- theme: minima
++ remote_theme: jekyll/minima
+```
+
 The default color palette for Minima is defined within `_sass/minima/skins/classic.scss`. To switch to another available skin,
 simply declare it in the site's config file. For example, to activate `_sass/minima/skins/dark.scss` as the skin, the setting
 would be:
