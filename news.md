@@ -8,6 +8,7 @@ permalink: /news/
 	- [Ultrashort-pulse-pumped, single-mode type-0 squeezers in lithium niobate nanophotonics](https://arxiv.org/abs/2412.17708) in collaboration with the group of Raj Nehra and led by our own Martin Houde.
 	- [Simulating lossy and partially distinguishable  quantum optical circuits: theory, algorithms and applications to  experiment validation and state preparation](https://arxiv.org/abs/2412.17742) in collaboration with Jake Bulmer and Bryn Bell and co-led by our own Javier Martínez-Cifuentes.
 
+
 * 19-12-24 Congrats to **Nicolas** who presented his mémoire and now holds a Maîtrise  és sciences appliquées. Best of luck in your PhD at UOttawa!
 
 * 08-11-24 **Nicolas'** work on Accurate Unsupervised Photon Counting from Transition Edge Sensor Signals appears on the [arXiv](https://arxiv.org/pdf/2411.05737).

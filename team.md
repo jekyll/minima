@@ -69,7 +69,7 @@ Enjoys nature hikes and running.
      style="float: left; margin-right: 10px;" /> **Gisell Lorena Osorio**. \
 PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Enjoys performing arts and nature.
-.<br><br>
+<br><br>
 
 
 ### Ancien.nes polyquanticien.nes
