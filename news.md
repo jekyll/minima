@@ -5,8 +5,8 @@ permalink: /news/
 ---
 
 * [24-12-24](https://x.com/polyquantique/status/1871400149282619662) We end 2024 with not one but two papers on the arXiv! 
-- Ultrashort-pulse-pumped, single-mode type-0 squeezers in lithium niobate nanophotonics https://arxiv.org/abs/2412.17708 in collaboration with the group of Raj Nehra and led by our own Martin Houde.
-- Simulating lossy and partially distinguishable  quantum optical circuits: theory, algorithms and applications to  experiment validation and state preparation https://arxiv.org/abs/2412.17742 in collaboration with Jake Bulmer and Bryn Bell and co-led by our own Javier Martínez-Cifuentes.
+	- [Ultrashort-pulse-pumped, single-mode type-0 squeezers in lithium niobate nanophotonics](https://arxiv.org/abs/2412.17708) in collaboration with the group of Raj Nehra and led by our own Martin Houde.
+	- [Simulating lossy and partially distinguishable  quantum optical circuits: theory, algorithms and applications to  experiment validation and state preparation](https://arxiv.org/abs/2412.17742) in collaboration with Jake Bulmer and Bryn Bell and co-led by our own Javier Martínez-Cifuentes.
 
 * 19-12-24 Congrats to **Nicolas** who presented his mémoire and now holds a Maîtrise  és sciences appliquées. Best of luck in your PhD at UOttawa!
 
