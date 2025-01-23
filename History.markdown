@@ -77,6 +77,7 @@
   * Minimal fixes for Disqus (#775)
   * Fix deprecation warnings (#796) (#797)
   * Avoid clipping responsive social SVG icons (#808)
+  * Update google-analytics.html (#824)
 
 ### Development Fixes
 
