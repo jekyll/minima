@@ -49,6 +49,7 @@ F1 enthusiast.
      height="90"
      style="float: left; margin-right: 10px;" /> **Javier Martínez Cifuentes**. \
 Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Graduated from Universidad Nacional de Colombia (Bogotá, Colombia) with an M.Sc. in Physics. \
 Coffee addict. Enjoys movies.
 
 
