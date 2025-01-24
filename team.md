@@ -72,6 +72,16 @@ Enjoys performing arts and nature.
 <br><br>
 
 
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/ari.jpg"
+     alt="Ari"
+     width="80" 
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Ari John Boon**.  
+PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Graduated from Queen's University at Kingston with a master's in physics. \
+Runs a radio show on CJLO. Likes local music.
+
+
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
