@@ -22,21 +22,23 @@ Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Po
 Graduated from McGill University in 2018 with a Ph.D. thesis on [Parametric driving as a route to topological states and quantum devices](https://escholarship.mcgill.ca/downloads/rj430699k) supervised by [A. Clerk](https://clerkgroup.uchicago.edu/).  
 Enjoys nature hikes, animal tracking and drinking maple syrup.
 
+
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/yanic.jpeg"
      alt="Yanic"
      width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Yanic Cardin**.  
-MSc student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+M.Sc.A. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
 Quantum physics enthusiast. \
 Enjoys meal prep and football Sundays. 
+
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/salvador.jpg"
      alt="Salvador"
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Salvador Poveda Hospital**.  
-PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter). \
 F1 enthusiast.
 
@@ -46,9 +48,9 @@ F1 enthusiast.
      width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Javier Martínez Cifuentes**. \
-PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Coffee addict. Enjoys movies.
-<br><br>
+
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/karthik.jpg"
      alt="Karthik"
@@ -61,15 +63,13 @@ Graduated from University of New Mexico in 2022 with a Ph.D. thesis on [Reliabil
 Enjoys nature hikes and running.
 
 
-
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/gisell.jpg"
      alt="Gisell"
      width="80"
      height="90"
      style="float: left; margin-right: 10px;" /> **Gisell Lorena Osorio**. \
-PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Enjoys performing arts and nature.
-<br><br>
 
 
 <img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/ari.jpg"
@@ -77,8 +77,9 @@ Enjoys performing arts and nature.
      width="80" 
      height="90"
      style="float: left; margin-right: 10px;" /> **Ari John Boon**.  
-PhD candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Graduated from Queen's University at Kingston with a master's in physics. \
+Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
+Jointly supervised with [Olivier Landon-Cardinal](https://www.etsmtl.ca/etudier-a-lets/corps-enseignant/olcardinal). \
+Graduated from Queen's University at Kingston with an M.Sc. in physics. \
 Runs a radio show on CJLO. Likes local music.
 
 
@@ -86,6 +87,6 @@ Runs a radio show on CJLO. Likes local music.
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
 * Marie Lafontaine was a summer and UPIR intern 2023. She is now continuing to an M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
-* Jiaqi Zhao completed his masters in our group in 2024.
+* Jiaqi Zhao completed his M.Sc.A. in our group in 2024.
 * Germain Desloges was a summer intern and is continuing his undergrad at Polytechnique.
-* Nicolas Dalbec-Constant completed his masters in our group in 2024. He is continuing to a Ph.D. at the [University of Ottawa](https://uottawa.ca).
+* Nicolas Dalbec-Constant completed his M.Sc.A. in our group in 2024. He is continuing to a Ph.D. at the [University of Ottawa](https://uottawa.ca).
