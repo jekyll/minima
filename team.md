@@ -49,7 +49,7 @@ F1 enthusiast.
      height="90"
      style="float: left; margin-right: 10px;" /> **Javier Martínez Cifuentes**. \
 Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Graduated from Universidad Nacional de Colombia (Bogotá, Colombia) with an M.Sc. in Physics. \
+Graduated from Universidad Nacional de Colombia sede Bogotá with an M.Sc. in Physics. \
 Coffee addict. Enjoys movies.
 
 
@@ -70,7 +70,7 @@ Enjoys nature hikes and running.
      height="90"
      style="float: left; margin-right: 10px;" /> **Gisell Lorena Osorio**. \
 Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
-Graduated from the Ensenada Center for Scientific Research and Higher Education (CICESE, Mexico) with an M.Sc. in optics. 
+Graduated from the Centro de Investigación Científica y de Educación Superior de Ensenada, CICESE with an M.Sc. in optics. 
 Enjoys performing arts and nature.
 
 
