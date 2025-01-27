@@ -311,6 +311,7 @@ The theme ships with an icon for `rss` and icons of select social-media platform
 - `linkedin`
 - `mastodon`
 - `microdotblog`
+- `odysee`
 - `pinterest`
 - `stackoverflow`
 - `telegram`
