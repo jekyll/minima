@@ -40,6 +40,7 @@ Enjoys meal prep and football Sundays.
      style="float: left; margin-right: 10px;" /> **Salvador Poveda Hospital**.  
 Ph.D. candidate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca). \
 Jointly supervised with [Yves-Alain Peter](https://www.polymtl.ca/phys/en/yves-alain-peter). \
+Graduated from Polytechnic University of Catalonia with an M.Sc.A in Electronics. \
 F1 enthusiast.
 
 
