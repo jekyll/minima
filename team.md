@@ -87,9 +87,9 @@ Runs a radio show on CJLO. Likes local music.
 
 
 ### Ancien.nes polyquanticien.nes
-* Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
-* Jaehee Kim was a Qcenter fellow and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
-* Marie Lafontaine was a summer and UPIR intern 2023. She is now continuing to an M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
+* Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) in 2022 and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
+* Jaehee Kim was a Qcenter fellow in 2023 and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
+* Marie Lafontaine was a summer and UPIR intern in 2023. She is now continuing to an M.Sc. at [Université de Sherbrooke](https://www.usherbrooke.ca).
 * Jiaqi Zhao completed his M.Sc.A. in our group in 2024.
-* Germain Desloges was a summer intern and is continuing his undergrad at Polytechnique.
+* Germain Desloges was a summer intern in 2024 and is continuing his undergrad at Polytechnique.
 * Nicolas Dalbec-Constant completed his M.Sc.A. in our group in 2024. He is continuing to a Ph.D. at the [University of Ottawa](https://uottawa.ca).

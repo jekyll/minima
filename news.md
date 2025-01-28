@@ -6,6 +6,8 @@ permalink: /news/
 
 * 21-01-25 We have been awarded an NSERC [Alliance Quantum Catalyst grant](https://www.polymtl.ca/carrefour-actualite/nouvelles/6-millions-de-dollars-pour-des-projets-en-quantique-polytechnique-montreal) to study the classical simulation of near-term photonic quantum computers. Javier will be leading this project in collaboration with Raúl García-Patrón from University of Edinburgh.
 
+* 08-01-25 **Yanic** starts his masters with us. Welcome aboard!
+
 * [24-12-24](https://x.com/polyquantique/status/1871400149282619662) We end 2024 with not one but two papers on the arXiv! 
 	- [Ultrashort-pulse-pumped, single-mode type-0 squeezers in lithium niobate nanophotonics](https://arxiv.org/abs/2412.17708) in collaboration with the group of Raj Nehra and led by our own Martin Houde.
 	- [Simulating lossy and partially distinguishable  quantum optical circuits: theory, algorithms and applications to  experiment validation and state preparation](https://arxiv.org/abs/2412.17742) in collaboration with Jake Bulmer and Bryn Bell and co-led by our own Javier Martínez-Cifuentes.
