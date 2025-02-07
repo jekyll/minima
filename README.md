@@ -94,19 +94,22 @@ The title for this section is `Posts` by default and rendered with an `<h2>` tag
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.
 e.g., to override the [`_includes/head.html `](_includes/head.html) file to specify a custom style path, create an `_includes` directory, copy `_includes/head.html` from minima gem folder to `<yoursite>/_includes` and start editing that file.
 
-The site's default CSS has now moved to a new place within the gem itself, [`assets/main.scss`](assets/main.scss). To **override the default CSS**, the file has to exist at your site source. Do either of the following:
-- Create a new instance of `main.scss` at site source.
-  - Create a new file `main.scss` at `<your-site>/assets/`
-  - Add the frontmatter dashes, and
-  - Add `@import "minima";`, to `<your-site>/assets/main.scss`
-  - Add your custom CSS.
-- Download the file from this repo
-  - Create  a new file `main.scss` at `<your-site>/assets/`
-  - Copy the contents at [assets/main.scss](assets/main.scss) onto the `main.scss` you just created, and edit away!
-- Copy directly from Minima 2.0 gem
-  - Go to your local minima gem installation directory ( run `bundle show minima` to get the path to it ).
-  - Copy the `assets/` folder from there into the root of `<your-site>`
-  - Change whatever values you want, inside `<your-site>/assets/main.scss`
+The site's default CSS has now moved to a new place within the gem itself, [`assets/main.scss`](assets/main.scss). To **override the default CSS**, the file has to exist at your site source. Create a new file at `assets/main.scss` in your site source with the following content:
+
+```scss
+---
+# empty front matter
+---
+
+// Override any SCSS variables here.
+// $background-color: #fdfdfd;
+// $brand-color: #2a7ae2;
+@import "minima";
+// Need more than just color changes? Fill out the _sass/minima/custom-styles.scss file.
+// @import "minima/custom-styles";
+```
+
+More complex CSS overrides can be applied by creating a file named `_sass/minima/custom-styles.scss` and placing your styles in there. Make sure to uncomment the line in `main.scss` if you do.
 
 --
 
