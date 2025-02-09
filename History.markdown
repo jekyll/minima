@@ -80,6 +80,7 @@
   * Avoid clipping responsive social SVG icons (#808)
   * Update google-analytics.html (#824)
   * Fix Google Analytics script (#825)
+  * Use single-quotes when nested within double-quoted attributes (#840)
 
 ### Development Fixes
 
