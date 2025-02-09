@@ -31,9 +31,6 @@ plugins:
 header_pages:
   - about.md
 
-# Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
-
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
@@ -45,7 +42,10 @@ minima:
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: classic
-  
+
+  # Set to `true` to show excerpts on the homepage.
+  #show_excerpts: false
+
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
