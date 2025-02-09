@@ -52,6 +52,7 @@
   * Add adaptive skin: `solarized` (#594)
   * Generate social iconsheet during build (#686)
   * Rename `default` layout to `base` (#690)
+  * Render social platform icons via Font Awesome library (#839)
 
 ### Bug Fixes
 
