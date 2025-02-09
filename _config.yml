@@ -14,7 +14,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: polyquantique
+    #twitter:
     github:  polyquantique
     # devto: jekyll
     # dribbble: jekyll
