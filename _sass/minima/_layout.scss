@@ -291,6 +291,9 @@
   margin: 0 auto;
   li {
     float: left;
+    min-width: 45px;
+    min-height: 45px;
+    text-align: center;
     margin: 5px 10px 5px 0;
     &:last-of-type { margin-right: 0 }
     a {

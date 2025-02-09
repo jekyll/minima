@@ -86,9 +86,8 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
-  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file.
-  - `social-item.html` &mdash; Template to render individual list-item containing graphic link to configured social-profile.
-  - `social-links/*.svg` &mdash; SVG markup components of supported social-icons.
+  - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file using
+    the latest version of Font Awesome Free webfonts via remote CDN.
 
 
 ### Sass
@@ -283,67 +282,25 @@ Minima 2.x    | Minima 3.0
 
 You can add links to the accounts you have on other sites, with respective icon as an SVG graphic, via the config file.
 From `Minima-3.0` onwards, the social media data is sourced from config key `minima.social_links`. It is a list of key-value pairs, each entry
-corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and Twitter account, one should have:
+corresponding to a link rendered in the footer. For example, to render links to Jekyll GitHub repository and Twitter account (now X), one
+should have:
 
 ```yaml
 minima:
   social_links:
-    - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
+    - title: Jekyll repository at GitHub
+      icon: github
+      url: "https://github.com/jekyll/jekyll"
+    - title: Jekyll at X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/jekyllrb"
 ```
 
-Apart from the necessary keys illustrated above, `title` may also be defined to render a custom link-title. By default, the title is the same
-as `platform`. The `platform` key corresponds to the SVG id of the sprite in the composite file at URL `/assets/minima-social-icons.svg`.
+where `title` corresponds to the link-title displayed when a visitor hovers mouse-pointer over url / icon and
+`icon` refers to the Font Awesome icon id. e.g. `github` corresponds to `fa-github`.
 
-The theme ships with an icon for `rss` and icons of select social-media platforms:
-
-- `bluesky`
-- `codeberg`
-- `devto`
-- `dribbble`
-- `facebook`
-- `flickr`
-- `github`
-- `gitlab`
-- `google_scholar`
-- `instagram`
-- `keybase`
-- `linkedin`
-- `mastodon`
-- `microdotblog`
-- `pinterest`
-- `stackoverflow`
-- `telegram`
-- `twitter`
-- `whatsapp`
-- `x`
-- `youtube`
-
-To render a link to a platform not listed above, one should first create a file at path `_includes/social-icons/<PLATFORM>.svg` comprised of
-graphic markup **without the top-level `<svg></svg>`**. The icon is expected to be centered within a viewbox of `"0 0 16 16"`. Then, make an
-entry under key `minima.social_links`.
-
-For example, to render a link to an account of user `john.doe` at platform `deviantart.com`, the steps to follow would be:
-  - Get DeviantArt logo in SVG format.
-  - Using a text-editor, open the downloaded file to inspect if the `viewBox` attribute is defined on the `<svg>` element and is set
-    as `"0 0 16 16" (or similar "square" dimension)`.
-  - If the `viewBox` attribute is non-square or undefined, the graphic *may optionally need* to be edited in a vector graphic editor such as
-    *Inkscape* or *Adobe Illustrator* for properly aligned render on page.
-  - Edit the SVG file in text-editor to delete everything **except** what is contained between `<svg></svg>` and save it into the Jekyll
-    project at path `_includes/social-icons/deviantart.svg`.
-  - Finally, edit the Jekyll config file to enable loading of new icon graphic with:
-    ```yaml
-    minima:
-      social_links:
-        - platform: deviantart  # same as SVG filename.
-          user_url: "https://www.deviantart.com/john.doe"  # URL of profile page.
-          title:  My profile at DeviantArt.com  # Optional. Text displayed on hovering over link.
-    ```
-
-**Notes:**
-- The list of social-links is declarative. List-items are rendered in the order declared in the downstream configuration file and not merged
-  with entries from upstream config file(s) such as theme-config-file or prior local config files.
-- The `user_url` is rendered as given without handling any special characters within.
+Social platform icons are rendered using the latest version of Font Awesome Free webfonts sourced via remote CDN.
+The full list of available social icons can be found at https://fontawesome.com/search?ic=brands
 
 
 ### Enabling Google Analytics
