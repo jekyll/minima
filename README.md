@@ -294,10 +294,16 @@ minima:
     - title: Jekyll at X (formerly Twitter)
       icon: x-twitter
       url: "https://x.com/jekyllrb"
+    - title: Email Jekyll
+      icon: envelope
+      fa_icon_pack: regular
+      url: "mailto:jekyll@example.com"
 ```
-
-where `title` corresponds to the link-title displayed when a visitor hovers mouse-pointer over url / icon and
-`icon` refers to the Font Awesome icon id. e.g. `github` corresponds to `fa-github`.
+Properties:
+- `title` corresponds to the link-title displayed when a visitor hovers mouse-pointer over url / icon
+- `icon` refers to the Font Awesome icon id, e.g. `github` corresponds to `fa-github`
+- `fa_icon_pack` (optional) defines the Font Awesome icon pack. Default value is `brands`, which corresponds to `fa-brands`
+- `url` url of the social link
 
 Social platform icons are rendered using the latest version of Font Awesome Free webfonts sourced via remote CDN.
 The full list of available social icons can be found at https://fontawesome.com/search?ic=brands

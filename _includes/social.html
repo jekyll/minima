@@ -2,7 +2,7 @@
 {%- for entry in site.minima.social_links -%}
   <li>
     <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">
-      <span class="grey fa-brands fa-{{ entry.icon }} fa-lg"></span>
+      <span class="grey fa-{{ entry.fa_icon_pack | default: "brands" }} fa-{{ entry.icon }} fa-lg"></span>
     </a>
   </li>
 {%- endfor -%}
