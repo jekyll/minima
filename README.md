@@ -53,6 +53,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
 Refers to `.scss` files within the `_sass` directory that define the theme's styles.
 
   - `minima.scss` &mdash; The core file imported by preprocessed `main.scss`, it defines the variable defaults for the theme and also further imports sass partials to supplement itself.
+  - `minima/_common.scss` &mdash; Common styling and mixins leveraged throughout the minima theme.
   - `minima/_base.scss` &mdash; Resets and defines base styles for various HTML elements.
   - `minima/_layout.scss` &mdash; Defines the visual style for various layouts.
   - `minima/_syntax-highlighting.scss` &mdash; Defines the styles for syntax-highlighting.
