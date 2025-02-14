@@ -1,9 +1,6 @@
 @charset "utf-8";
 
 // Import partials.
-@import
-  "minima/common",
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
-;
+@use "minima/base" as *;
+@use "minima/layout" as *;
+@use "minima/syntax-highlighting" as *;
