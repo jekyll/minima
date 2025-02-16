@@ -1,14 +1,40 @@
 <ul class="social-media-list">
-  {%- if site.dribbble_username -%}<li>{%- include icon-dribbble.html username = site.dribbble_username -%}</li>{%- endif -%}
-  {%- if site.facebook_username -%}<li>{%- include icon-facebook.html username = site.facebook_username -%}</li>{%- endif -%}
-  {%- if site.flickr_username -%}<li>{%- include icon-flickr.html username = site.flickr_username -%}</li>{%- endif -%}
-  {%- if site.github_username -%}<li>{%- include icon-github.html username = site.github_username -%}</li>{%- endif -%}
-  {%- if site.instagram_username -%}<li>{%- include icon-instagram.html username = site.instagram_username -%}</li>{%- endif -%}
-  {%- if site.linkedin_username -%}<li>{%- include icon-linkedin.html username = site.linkedin_username -%}</li>{%- endif -%}
-  {%- if site.pinterest_username -%}<li>{%- include icon-pinterest.html username = site.pinterest_username -%}</li>{%- endif -%}
-  {%- for mastodon in site.mastodon -%}{%- if mastodon.username and mastodon.instance -%}<li>{%- include icon-mastodon.html username = mastodon.username instance = mastodon.instance -%}</li>{%- endif -%}{%- endfor -%}
-  {%- if site.twitter_username -%}<li>{%- include icon-twitter.html username = site.twitter_username -%}</li>{%- endif -%}
-  {%- if site.youtube_username -%}<li>{%- include icon-youtube.html username = site.youtube_username -%}</li>{%- endif -%}
-  {%- if site.googleplus_username -%}<li>{%- include icon-googleplus.html username = site.googleplus_username -%}</li>{%- endif -%}
-  {%- if site.rss -%}<li>{%- assign rss_feed = '/feed.xml' | relative_url -%}{%- include icon-rss.html display_name = site.rss feed = rss_feed -%}</li>{%- endif -%}
+  {%- for account in site.social -%}
+  {%- if account.type -%}
+  {%- if account.type == "rss" -%}
+  {%- if account.display_name and account.feed -%}
+  <li>{%- include icon-rss.html display_name = account.display_name feed = account.feed -%}</li>
+  {%- endif -%}
+  {%- elsif account.username -%}
+  {%- if account.type == "mastodon" -%}
+  {%- if account.instance -%}
+  <li>{%- include icon-mastodon.html username = account.username instance = account.instance -%}</li>
+  {%- endif -%}
+  {%- elsif account.type == "dribbble" -%}
+  <li>{%- include icon-dribbble.html username = account.username -%}</li>
+  {%- elsif account.type == "facebook" -%}
+  <li>{%- include icon-facebook.html username = account.username -%}</li>
+  {%- elsif account.type == "flickr" -%}
+  <li>{%- include icon-flickr.html username = account.username -%}</li>
+  {%- elsif account.type == "github" -%}
+  <li>{%- include icon-github.html username = account.username -%}</li>
+  {%- elsif account.type == "instagram" -%}
+  <li>{%- include icon-instagram.html username = account.username -%}</li>
+  {%- elsif account.type == "linkedin" -%}
+  <li>{%- include icon-linkedin.html username = account.username -%}</li>
+  {%- elsif account.type == "pinterest" -%}
+  <li>{%- include icon-pinterest.html username = account.username -%}</li>
+  {%- elsif account.type == "twitter" -%}
+  <li>{%- include icon-twitter.html username = account.username -%}</li>
+  {%- elsif account.type == "youtube" -%}
+  <li>{%- include icon-youtube.html username = account.username -%}</li>
+  {%- elsif account.type == "googleplus" -%}
+  <li>{%- include icon-googleplus.html username = account.username -%}</li>
+  {%- endif -%}
+  {%- endif -%}
+  {%- endif -%}
+  {%- endfor -%}
+  {%- if site.rss -%}
+  <li>{%- assign rss_feed = '/feed.xml' | relative_url -%}{%- include icon-rss.html display_name = site.rss feed = rss_feed -%}</li>
+  {%- endif -%}
 </ul>

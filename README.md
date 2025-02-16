@@ -162,23 +162,39 @@ If you don't want to display comments for a particular post you can disable them
 You can add links to the accounts you have on other sites, with respective icon, by adding one or more of the following options in your config:
 
 ```yaml
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-rss: rss
+social:
+  - type: dribbble
+    username: jekyll
+  - type: facebook
+    username: jekyll
+  - type: flickr
+    username: jekyll
+  - type: github
+    username:  jekyll
+  - type: instagram
+    username: jekyll
+  - type: linkedin
+    username: jekyll
+  - type:  pinterest
+    username: jekyll
+  # Mastodon instances
+  - type: mastodon
+    username: jekyll
+    instance: example.com
+  - type: mastodon
+    username: jekyll2
+    instance: example.com
+  - type: twitter
+    username: jekyllrb
+  - type: youtube
+    username: jekyll
+  - type: googleplus
+    username: +jekyll
+  - type: rss
+    display_name: rss
+    feed: /feed.xml
 
-mastodon:
- - username: jekyll
-   instance: example.com
- - username: jekyll2
-   instance: example.com
+rss: rss
 ```
 
 --

@@ -7,24 +7,39 @@ description: > # this means to ignore newlines until "twitter_username:"
   Google search results) and in your feed.xml site description.
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
-rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+social:
+  # - type: dribbble
+  #   username: jekyll
+  # - type: facebook
+  #   username: jekyll
+  # - type: flickr
+  #   username: jekyll
+  - type: github
+    username:  jekyll
+  # - type: instagram
+  #   username: jekyll
+  # - type: linkedin
+  #   username: jekyll
+  # - type:  pinterest
+  #   username: jekyll
+  # Mastodon instances
+  # - type: mastodon
+  #   username: jekyll
+  #   instance: example.com
+  # - type: mastodon
+  #   username: jekyll2
+  #   instance: example.com
+  - type: twitter
+    username: jekyllrb
+  # - type: youtube
+  #   username: jekyll
+  # - type: googleplus
+  #   username: +jekyll
+  # - type: rss
+  #   display_name: rss
+  #   feed: /feed.xml
 
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
+rss: rss
 
 
 show_excerpts: false # set to true to show excerpts on the homepage
