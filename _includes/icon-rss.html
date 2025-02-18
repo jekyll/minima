@@ -1,1 +1,3 @@
-<a href="{{ include.feed }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ include.display_name | escape }}</span></a>
+{%- assign rss_url = include.feed -%}
+{%- assign rss_icon = '/assets/minima-social-icons.svg#rss' | relative_url -%}
+{%- include base-social-icon.html username=include.display_name icon=rss_icon target=rss_url -%}
