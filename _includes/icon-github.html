@@ -1,1 +1,3 @@
-<a href="https://github.com/{{ include.username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ include.username| escape }}</span></a>
+{%- capture github_url -%}https://github.com/{{ include.username| cgi_escape | escape }}{%- endcapture -%}
+{%- assign github_icon = '/assets/minima-social-icons.svg#github' | relative_url -%}
+{%- include base-social-icon.html username=include.username icon=github_icon target=github_url -%}
