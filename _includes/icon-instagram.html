@@ -1,1 +1,3 @@
-<a href="https://instagram.com/{{ include.username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ include.username| escape }}</span></a>
+{%- capture instagram_url -%}https://instagram.com/{{ include.username| cgi_escape | escape }}{%- endcapture -%}
+{%- assign instagram_icon = '/assets/minima-social-icons.svg#instagram' | relative_url -%}
+{%- include base-social-icon.html username=include.username icon=instagram_icon target=instagram_url -%}
