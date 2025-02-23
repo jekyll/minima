@@ -54,6 +54,7 @@
   * Rename `default` layout to `base` (#690)
   * Render social platform icons via Font Awesome library (#839)
   * Move `show_excerpts` setting to be under `minima` namespace (#841)
+  * Simplify `.wrapper` style definition (#852)
 
 ### Bug Fixes
 
