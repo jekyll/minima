@@ -43,6 +43,7 @@
   * Added whatsapp social icon. (#781)
   * Update GitLab icon (#765)
   * Add Bluesky to social media platforms (#799)
+  * Simplify inserting markup before closing body tag (#854)
 
 ### Major Enhancements
 
