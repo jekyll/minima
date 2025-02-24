@@ -88,6 +88,7 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
   - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file using
     the latest version of Font Awesome Free webfonts via remote CDN.
+  - `sub-footer.html` &mdash; Placeholder to allow inserting markup (e.g. deferred scripts) before the `</body>` tag.
 
 
 ### Sass
