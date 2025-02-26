@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Welcome To Jekyll | Your awesome title</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Welcome To Jekyll" />
 <meta name="author" content="GitHub User" />
 <meta property="og:locale" content="en_US" />
@@ -18,7 +18,8 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"GitHub User"},"dateModified":"2016-05-20T00:00:00+00:00","datePublished":"2016-05-20T00:00:00+00:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","headline":"Welcome To Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"/minima/2016/05/20/welcome-to-jekyll.html"},"url":"/minima/2016/05/20/welcome-to-jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link id="stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Your awesome title" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+  <link id="stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Your awesome title" />
 </head>
 <body><header class="site-header">
 
@@ -53,11 +54,32 @@
 
 <p>Jekyll also offers powerful support for code snippets:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="cm">=begin
+  Dummy class nested inside a dummy module
+  Private API
+=end</span>
+<span class="k">module</span> <span class="nn">Foo</span>
+  <span class="k">class</span> <span class="nc">Bar</span>
+    <span class="no">LIPSUM</span> <span class="o">=</span> <span class="s2">"lorem ipsum dolor sit"</span>
+
+    <span class="nb">attr_reader</span> <span class="ss">:layout</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span>
+      <span class="vi">@layout</span> <span class="o">=</span> <span class="no">Layout</span><span class="p">.</span><span class="nf">new</span>
+    <span class="k">end</span>
+
+    <span class="c1"># instance method</span>
+    <span class="k">def</span> <span class="nf">profile</span>
+      <span class="n">measure_time</span> <span class="k">do</span>
+        <span class="n">compile</span> <span class="n">layout</span>
+        <span class="n">layout</span><span class="p">.</span><span class="nf">render_with</span> <span class="no">Bar</span><span class="o">::</span><span class="no">LIPSUM</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
 <span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<span class="c1"># Execute code</span>
+<span class="no">Foo</span><span class="o">::</span><span class="no">Bar</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">profile</span></code></pre></figure>
 
 <p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
@@ -76,7 +98,11 @@
         <p class="feed-subscribe">
           <a href="/minima/feed.xml">
             <svg class="svg-icon orange">
-              <use xlink:href="/minima/assets/minima-social-icons.svg#rss"></use>
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
             </svg><span>Subscribe</span>
           </a>
         </p>
@@ -92,147 +118,52 @@
     </div>
 
     <div class="social-links"><ul class="social-media-list"><li>
-  <a rel="me" href="https://dev.to/jekyll" target="_blank" title="devto">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#devto"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://dribbble.com/jekyll" target="_blank" title="dribbble">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#dribbble"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.facebook.com/jekyll" target="_blank" title="facebook">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#facebook"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.flickr.com/photos/jekyll" target="_blank" title="flickr">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#flickr"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://github.com/jekyll/minima" target="_blank" title="github">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#github"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" target="_blank" title="google_scholar">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#google_scholar"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.instagram.com/jekyll" target="_blank" title="instagram">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#instagram"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://keybase.io/jekyll" target="_blank" title="keybase">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#keybase"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.linkedin.com/in/jekyll" target="_blank" title="linkedin">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#linkedin"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://micro.blog/jekyll" target="_blank" title="microdotblog">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#microdotblog"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.pinterest.com/jekyll" target="_blank" title="pinterest">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#pinterest"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://stackoverflow.com/users/1234567/jekyll" target="_blank" title="stackoverflow">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#stackoverflow"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://t.me/jekyll" target="_blank" title="telegram">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#telegram"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://twitter.com/jekyllrb" target="_blank" title="twitter">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#twitter"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a rel="me" href="https://www.youtube.com/jekyll" target="_blank" title="youtube">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#youtube"></use>
-    </svg>
-  </a>
-</li>
-<li>
-  <a href="https://jekyll.github.io/minima/feed.xml" target="_blank" title="rss">
-    <svg class="svg-icon grey">
-      <use xlink:href="/minima/assets/minima-social-icons.svg#rss"></use>
-    </svg>
-  </a>
-</li>
-</ul>
+    <a rel="me" href="https://github.com/jekyll/minima" target="_blank" title="Minima Theme repository at GitHub">
+      <span class="grey fa-brands fa-github fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://x.com/jekyllrb" target="_blank" title="Jekyll profile at X (formerly Twitter)">
+      <span class="grey fa-brands fa-x-twitter fa-lg"></span>
+    </a>
+  </li></ul>
 </div>
 
   </div>
 
 </footer>
-
 <div class="sub-footer">
   <div id="skin-switch-container">
     Page rendered with the <select id="skin-switch" onchange="changeSkin()">
-      <option value="dark.css">dark</option>
-      <option value="style.css">classic</option>
-      <option value="solarized-dark.css">solarized-dark</option>
       <option value="solarized-light.css">solarized-light</option>
       <option value="auto.css">auto</option>
+      <option value="dark.css">dark</option>
+      <option value="solarized-dark.css">solarized-dark</option>
+      <option value="style.css">classic</option>
       <option value="solarized.css">solarized</option>
     </select> skin of Minima theme.
+    <div><small>Theme-switcher is not a part of Minima</small></div>
   </div>
 </div>
 
 <script>
   document.getElementById("skin-switch-container").style.display = "block";
   var metaTag = document.getElementById("stylesheet");
+  var skinSwitcher = document.getElementById("skin-switch");
   var SSHref = metaTag.href;
-  var SSName = (SSHref.substring(SSHref.lastIndexOf('/') + 1));
+  var SSName = SSHref.substring(SSHref.lastIndexOf('/') + 1);
+  var prevSkin = localStorage.getItem("minima-ss");
 
-  document.getElementById("skin-switch").value = SSName;
+  if (prevSkin) {
+    metaTag.href = SSHref.replace(SSName, prevSkin);
+    skinSwitcher.value = prevSkin;
+  } else {
+    skinSwitcher.value = SSName;
+  }
 
   function changeSkin() {
-    metaTag.href = SSHref.replace(SSName, event.target.value);
+    _ssName = event.target.value;
+    metaTag.href = SSHref.replace(SSName, _ssName);
+    localStorage.setItem("minima-ss", _ssName);
   }
 </script>
 </body>
