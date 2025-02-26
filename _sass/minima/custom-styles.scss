@@ -1,11 +1,11 @@
 .site-footer {
-  padding-bottom: 120px
+  padding-bottom: 110px;
 }
 .sub-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  &:before {
+  &::before {
     position: absolute;
     display: table;
     margin: -60px auto;
@@ -15,13 +15,12 @@
     content: "";
     border: 30px solid;
     cursor: pointer;
-    border-color: transparent transparent $brand-color;
   }
 }
 #skin-switch-container {
   display: none;
   margin-left: -4px;
-  padding: 15px 0;
+  padding: 15px;
   text-align: center;
   font-size: 0.8rem;
   select {
@@ -30,6 +29,7 @@
     text-align: center;
     font-size: 0.8rem;
     border-radius: 5px;
+    border-color: #3a3d42;
     &:focus-visible {
       outline: none;
     }
@@ -37,9 +37,9 @@
 }
 
 .sub-footer, .sub-footer select {
-  color: $table-text-color;
-  background: $table-header-bg-color;
+  color: #999999;
+  background: #2a2d30;
   &::before {
-    border-color: transparent transparent $table-header-bg-color;
+    border-color: transparent transparent #2a2d30;
   }
 }

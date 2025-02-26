@@ -8,11 +8,32 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+=begin
+  Dummy class nested inside a dummy module
+  Private API
+=end
+module Foo
+  class Bar
+    LIPSUM = "lorem ipsum dolor sit"
+
+    attr_reader :layout
+
+    def initialize
+      @layout = Layout.new
+    end
+
+    # instance method
+    def profile
+      measure_time do
+        compile layout
+        layout.render_with Bar::LIPSUM
+      end
+    end
+  end
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+
+# Execute code
+Foo::Bar.new.profile
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].

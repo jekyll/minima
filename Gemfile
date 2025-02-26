@@ -4,5 +4,6 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2"
 gem "jekyll-feed"
-gem "jekyll-remote-theme"
 gem "jekyll-seo-tag"
+gem "minima", github: "jekyll/minima"
+gem "wdm" if Gem.win_platform?
