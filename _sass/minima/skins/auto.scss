@@ -1,4 +1,5 @@
 @charset "utf-8";
+@use "sass:color";
 
 // Default color scheme settings
 // These are overridden in classic.css and dark.scss
@@ -11,8 +12,8 @@ $color-scheme-dark: false !default;
 // ----------
 
 $lm-brand-color:           #828282 !default;
-$lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
-$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+$lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 40%) !default;
+$lm-brand-color-dark:      color.adjust($lm-brand-color, $lightness: -25%) !default;
 
 $lm-site-title-color:      $lm-brand-color-dark !default;
 
@@ -21,17 +22,17 @@ $lm-background-color:      #fdfdfd !default;
 $lm-code-background-color: #eeeeff !default;
 
 $lm-link-base-color:       #2a7ae2 !default;
-$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
+$lm-link-visited-color:    color.adjust($lm-link-base-color, $lightness: -15%) !default;
 $lm-link-hover-color:      $lm-text-color !default;
 
 $lm-border-color-01:       $lm-brand-color-light !default;
-$lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
+$lm-border-color-02:       color.adjust($lm-brand-color, $lightness: 35%) !default;
 $lm-border-color-03:       $lm-brand-color-dark !default;
 
-$lm-table-text-color:      lighten($lm-text-color, 18%) !default;
-$lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
-$lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
-$lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
+$lm-table-text-color:      color.adjust($lm-text-color, $lightness: 18%) !default;
+$lm-table-zebra-color:     color.adjust($lm-brand-color, $lightness: 46%) !default;
+$lm-table-header-bg-color: color.adjust($lm-brand-color, $lightness: 43%) !default;
+$lm-table-header-border:   color.adjust($lm-brand-color, $lightness: 37%) !default;
 $lm-table-border-color:    $lm-border-color-01 !default;
 
 
@@ -107,8 +108,8 @@ $lm-table-border-color:    $lm-border-color-01 !default;
 // ---------
 
 $dm-brand-color:           #999999 !default;
-$dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
-$dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
+$dm-brand-color-light:     color.adjust($dm-brand-color, $lightness: 5%) !default;
+$dm-brand-color-dark:      color.adjust($dm-brand-color, $lightness: -35%) !default;
 
 $dm-site-title-color:      $dm-brand-color-light !default;
 
@@ -125,9 +126,9 @@ $dm-border-color-02:       $dm-brand-color-light !default;
 $dm-border-color-03:       $dm-brand-color !default;
 
 $dm-table-text-color:      $dm-text-color !default;
-$dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
-$dm-table-header-bg-color: lighten($dm-background-color, 10%) !default;
-$dm-table-header-border:   lighten($dm-background-color, 21%) !default;
+$dm-table-zebra-color:     color.adjust($dm-background-color, $lightness: 4%) !default;
+$dm-table-header-bg-color: color.adjust($dm-background-color, $lightness: 10%) !default;
+$dm-table-header-border:   color.adjust($dm-background-color, $lightness: 21%) !default;
 $dm-table-border-color:    $dm-border-color-01 !default;
 
 
