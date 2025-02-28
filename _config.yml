@@ -16,9 +16,10 @@ minima:
 
 # Build settings
 baseurl: /minima
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
 
 sass:
