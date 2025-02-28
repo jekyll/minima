@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .highlight .c {
   color: #93a1a1;
   font-style: italic;
@@ -643,10 +644,31 @@ table td {
  */
 .post-header {
   margin-bottom: 30px;
+  padding-bottom: 18px;
+  text-align: center;
+  border-bottom: 1px solid #c8ccc2;
+}
+
+.post-meta .bullet-divider {
+  padding-inline: 15px;
+}
+.post-meta .meta-label {
+  font-weight: 600;
+}
+.post-meta .force-inline {
+  display: inline;
+}
+.post-meta .force-inline::before {
+  content: "•";
+  padding-inline: 5px;
+}
+.post-meta .post-authors {
+  margin-top: 3px;
 }
 
 .post-title,
 .post-content h1 {
+  margin-bottom: 10px;
   font-size: 2.625rem;
   letter-spacing: -1px;
   line-height: 1.15;

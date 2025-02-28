@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --solarized-mono3: #fdf6e3;
   --solarized-mono2: #eee8d5;
@@ -666,10 +667,31 @@ table td {
  */
 .post-header {
   margin-bottom: 30px;
+  padding-bottom: 18px;
+  text-align: center;
+  border-bottom: 1px solid var(--solarized-mix1);
+}
+
+.post-meta .bullet-divider {
+  padding-inline: 15px;
+}
+.post-meta .meta-label {
+  font-weight: 600;
+}
+.post-meta .force-inline {
+  display: inline;
+}
+.post-meta .force-inline::before {
+  content: "•";
+  padding-inline: 5px;
+}
+.post-meta .post-authors {
+  margin-top: 3px;
 }
 
 .post-title,
 .post-content h1 {
+  margin-bottom: 10px;
   font-size: 2.625rem;
   letter-spacing: -1px;
   line-height: 1.15;
