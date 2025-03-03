@@ -86,6 +86,7 @@
   * Fix Google Analytics script (#825)
   * Use single-quotes when nested within double-quoted attributes (#840)
   * Improve rendering of post header (#855)
+  * Improve link underline styling (#857)
 
 ### Development Fixes
 
