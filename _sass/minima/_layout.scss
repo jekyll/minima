@@ -2,13 +2,13 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  position: fixed;
+  width: 100%;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  background-color: $background-color;
+  border-top: 5px solid $border-color-03;
+  border-bottom: 1px solid $border-color-01;
 }
 
 .site-title {
@@ -37,7 +37,7 @@
   border-radius: 5px;
   text-align: right;
 
-  .nav-trigger {
+  .nav-trigger, .slab {
     display: none;
   }
 
@@ -46,7 +46,7 @@
     width: 36px;
     height: 26px;
     line-height: 0;
-    padding-top: 10px;
+    padding-top: 18px;
     text-align: center;
 
     > svg path {
@@ -63,27 +63,39 @@
     cursor: pointer;
   }
 
-  input ~ .trigger {
+  #nav-trigger ~ .drawer-container {
+    position: absolute;
+    top: 47px;
+    right: -16px;
     clear: both;
-    display: none;
+    width: 0;
+    height: calc(100vh - 60px);
+    transition: width 1s;
+    overflow: hidden;
+    background-color: $background-color;
+    border-left: 1px solid;
+    border-left-color: transparent;
+    .drawer { opacity: 0 }
   }
 
-  input:checked ~ .trigger {
-    display: block;
+  #nav-trigger:checked ~ .drawer-container {
+    width: 180px;
     padding-bottom: 5px;
+    transition: width 1s;
+    overflow: auto;
+    border-left-color: $border-color-01;
+    .drawer {
+      padding: $spacing-unit * 0.5;
+      opacity: 1;
+      transition: opacity 2s;
+    }
   }
 
-  .page-link {
+  .nav-item {
+    display: block;
+    padding: 5px 0;
     color: $text-color;
     line-height: $base-line-height;
-    display: block;
-    padding: 5px 10px;
-    margin-left: 20px;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 0;
-    }
   }
 
   @media screen and (min-width: $on-medium) {
@@ -92,25 +104,24 @@
     border: none;
     background-color: inherit;
 
+    .drawer-container,
+    .menu-icon,
     label[for="nav-trigger"] {
       display: none;
     }
 
-    .menu-icon {
-      display: none;
-    }
-
-    input ~ .trigger {
+    .slab {
       display: block;
+      padding-top: 1px;
     }
 
-    .page-link {
+    .nav-item {
       display: inline;
       padding: 0;
       margin-left: auto;
 
       &:not(:last-child) {
-        margin-right: 20px;
+        margin-right: $spacing-unit * 0.5;
       }
     }
   }
@@ -201,7 +212,9 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  padding-top: 60px + $spacing-unit;
+  padding-inline: 0;
+  padding-bottom: $spacing-unit;
   flex: 1 0 auto;
 }
 
