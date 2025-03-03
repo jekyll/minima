@@ -3,10 +3,10 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    {%- assign page_titles = site.pages | map: 'title' | compact %}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
-    {%- if titles_size > 0 -%}
+    {%- unless page_titles == empty %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -15,13 +15,13 @@
 
         <div class="drawer-container">
           <div class="drawer">
-            {%- include nav-items.html %}
+            {%- include nav-items.html paths = page_paths %}
           </div>
         </div>
         <div class="slab">
-          {%- include nav-items.html %}
+          {%- include nav-items.html paths = page_paths %}
         </div>
       </nav>
-    {%- endif -%}
+    {%- endunless %}
   </div>
 </header>
