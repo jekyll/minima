@@ -15,21 +15,11 @@
 
         <div class="drawer-container">
           <div class="drawer">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor %}
+            {%- include nav-items.html %}
           </div>
         </div>
         <div class="slab">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-        {%- endfor %}
+          {%- include nav-items.html %}
         </div>
       </nav>
     {%- endif -%}
