@@ -121,7 +121,8 @@ a {
 
   &:hover {
     color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration: underline $brand-color;
+    text-underline-offset: 3px;
   }
 
   .social-media-list &:hover {
