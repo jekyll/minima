@@ -10,7 +10,7 @@ layout: base
       {% assign pdate = page.date | date_to_xmlschema %}
       {%- if page.modified_date %}<span class="meta-label">Published:</span>{% endif %}
       <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
-        {{ page.date | date: date_format }}
+        {{ pdate | date: date_format }}
       </time>
       {%- if page.modified_date -%}
         <span class="bullet-divider">•</span>
