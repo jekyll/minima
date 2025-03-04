@@ -87,6 +87,7 @@
   * Use single-quotes when nested within double-quoted attributes (#840)
   * Improve rendering of post header (#855)
   * Improve link underline styling (#857)
+  * Replace `page.date` with `pdate` consistently in `post` layout (#859)
 
 ### Development Fixes
 
