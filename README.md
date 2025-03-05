@@ -85,9 +85,11 @@ Refers to snippets of code within the `_includes` directory that can be inserted
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
   - `custom-head.html` &mdash; Placeholder to allow users to add more metadata to `<head />`.
-  - `header.html` &mdash; Defines the site's main header section. By default, pages with a defined `title` attribute will have links displayed here.
+  - `header.html` &mdash; Defines the site's main header section that consists of the site's *title* and *navigation*.
+  - `nav-items.html` &mdash; Contains the logic and markup to render individual link items for the site's navigation.
   - `social.html` &mdash; Renders social-media icons based on the `minima:social_links` data in the config file using
     the latest version of Font Awesome Free webfonts via remote CDN.
+  - `sub-footer.html` &mdash; Placeholder to allow inserting markup (e.g. deferred scripts) before the `</body>` tag.
 
 
 ### Sass
@@ -214,10 +216,13 @@ This allows you to set which pages you want to appear in the navigation area and
 For instance, to only link to the `about` and the `portfolio` page, add the following to your `_config.yml`:
 
 ```yaml
-header_pages:
-  - about.md
-  - portfolio.md
+minima:
+  nav_pages:
+    - about.md
+    - portfolio.md
 ```
+> [!WARNING]
+> Please note that **`site.header_pages`** is **`site.minima.nav_pages`** in Minima 3.0
 
 
 ### Change default date format

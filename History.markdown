@@ -43,6 +43,7 @@
   * Added whatsapp social icon. (#781)
   * Update GitLab icon (#765)
   * Add Bluesky to social media platforms (#799)
+  * Simplify inserting markup before closing body tag (#854)
 
 ### Major Enhancements
 
@@ -55,6 +56,7 @@
   * Render social platform icons via Font Awesome library (#839)
   * Move `show_excerpts` setting to be under `minima` namespace (#841)
   * Simplify `.wrapper` style definition (#852)
+  * Improve navigation styling and experience (#856)
 
 ### Bug Fixes
 
@@ -83,6 +85,9 @@
   * Update google-analytics.html (#824)
   * Fix Google Analytics script (#825)
   * Use single-quotes when nested within double-quoted attributes (#840)
+  * Improve rendering of post header (#855)
+  * Improve link underline styling (#857)
+  * Replace `page.date` with `pdate` consistently in `post` layout (#859)
 
 ### Development Fixes
 
