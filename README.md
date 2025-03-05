@@ -1,3 +1,27 @@
+> [!WARNING]
+> **The `master` branch is under active development towards a semver-major release with non-backwards-compatible changes.**
+> 
+> While you may use this theme in the current state either via the `jekyll-remote-theme` plugin or via a Gemfile, it is
+> recommended to point to a particular git ref that does not break your site's existing render and gradually update to a
+> newer git ref via a pull request.
+>
+> **Pointing directly to the `HEAD` commit of the `master` branch is risky and may contain changes that break your site.** 
+>
+> Example of pointing to a particular git ref via `jekyll-remote-theme` plugin:
+> ```yaml
+> # _config.yml
+>
+> remote_theme: "jekyll/minima@1e8a445"
+> ```
+> Example of pointing to a particular git ref via `Gemfile` (with `theme: minima` in `_config.yml`)
+> ```ruby
+> # Gemfile
+>
+> gem "minima", github: "jekyll/minima", ref: "1e8a445"
+> ```
+
+<br/><br/>
+
 <div align="center">
   <p><em><strong>Disclaimer:</strong> The information here may vary depending on the version you're using.<br/>
   Please refer to the <code>README.md</code> bundled within the theme-gem for information specific to your version or by pointing
