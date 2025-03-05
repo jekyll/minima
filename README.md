@@ -276,7 +276,7 @@ Optionally, if you have a Disqus account, you can tell Jekyll to use it to show 
 
 :warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
 
-To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
+To enable it, after setting the url field, you need to add the following lines to your `_config.yml`:
 
 ```yaml
   disqus:
@@ -334,10 +334,10 @@ The full list of available social icons can be found at https://fontawesome.com/
 
 ### Enabling Google Analytics
 
-To enable Google Analytics, add the following lines to your Jekyll site:
+To enable Google Analytics, after you set up your account there, add your measurement id the to your `_config.yml`:
 
 ```yaml
-  google_analytics: UA-NNNNNNNN-N
+google_analytics: G-NNNNNNNNNN
 ```
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
