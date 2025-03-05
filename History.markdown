@@ -12,6 +12,7 @@
   * Improve documentation for config options (#760)
   * Add platform X supporting in README (#780)
   * Update readme_banner.svg to support dark mode (#813)
+  * Add a warning regarding HEAD commit of `master` (#861)
 
 ### Minor Enhancements
 
