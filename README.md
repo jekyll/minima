@@ -3,7 +3,7 @@
 > 
 > While you may use this theme in the current state either via the `jekyll-remote-theme` plugin or via a Gemfile, it is
 > recommended to point to a particular git ref that does not break your site's existing render and gradually update to a
-> newer git ref via a pull request.
+> newer git ref via a pull request after consulting this repository's commit-log and README.
 >
 > **Pointing directly to the `HEAD` commit of the `master` branch is risky and may contain changes that break your site.** 
 >
