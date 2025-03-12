@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-* 21-01-25 We have been awarded an NSERC [Alliance Quantum Catalyst grant](https://www.polymtl.ca/carrefour-actualite/nouvelles/6-millions-de-dollars-pour-des-projets-en-quantique-polytechnique-montreal) to study the classical simulation of near-term photonic quantum computers. Javier will be leading this project in collaboration with Raúl García-Patrón from University of Edinburgh.
+* 21-01-25 We have been awarded an NSERC [Alliance Quantum Catalyst grant](https://www.polymtl.ca/carrefour-actualite/nouvelles/6-millions-de-dollars-pour-des-projets-en-quantique-polytechnique-montreal) to study the classical simulation of near-term photonic quantum computers. **Javier** will be leading this project in collaboration with Raúl García-Patrón from University of Edinburgh.
 
 * 08-01-25 **Yanic** starts his masters with us. Welcome aboard!
 
@@ -15,7 +15,7 @@ permalink: /news/
 
 * 19-12-24 Congrats to **Nicolas** who presented his mémoire and now holds a Maîtrise  és sciences appliquées. Best of luck in your PhD at UOttawa!
 
-* 12-12-24 Nicolás has been awarded the inaugural 2024 IEEE Montréal IEEE Photonics Society Chapter Young Professional Award.
+* 12-12-24 **Nicolás** has been awarded the inaugural 2024 IEEE Montréal IEEE Photonics Society Chapter Young Professional Award.
 
 * 08-11-24 **Nicolas'** work on Accurate Unsupervised Photon Counting from Transition Edge Sensor Signals appears on the [arXiv](https://arxiv.org/pdf/2411.05737).
 
