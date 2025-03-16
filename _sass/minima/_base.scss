@@ -203,6 +203,11 @@ pre {
   margin: 0 auto;
   padding: 0 $spacing-unit;
   @extend %clearfix;
+
+  @media screen and (max-width: $on-medium) {
+    padding-right: $spacing-unit * 0.6;
+    padding-left: $spacing-unit * 0.6;
+  }
 }
 
 
