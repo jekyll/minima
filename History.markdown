@@ -90,6 +90,7 @@
   * Improve link underline styling (#857)
   * Replace `page.date` with `pdate` consistently in `post` layout (#859)
   * Reduce wrapper padding on small screens (#865)
+  * Adjust the font size of blockquotes (#492)
 
 ### Development Fixes
 
