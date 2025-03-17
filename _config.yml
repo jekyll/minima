@@ -2,59 +2,65 @@ title: Your awesome title
 author:
   name: GitHub User
   email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 
-show_excerpts: false # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
 # Build settings
+
+# If you clone the Minima repo and build locally, use this setting.
 theme: minima
 
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
+
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+
+  # If you want to link only specific pages in the site-navigation, use this and list
+  # the `path` property (as represented via Liquid) of the pages in the order they should
+  # be rendered.
+  nav_pages:
+    - about.md
+
+  # Set to `true` to show excerpts on the homepage.
+  #show_excerpts: false
+
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+
+  # Social Media Links
+  # Renders icons via Font Awesome Free webfonts CDN, based on ordered list of entries.
+  #
+  # Entry keys:
+  # * title    Tooltip rendered on hovering over icon.
+  # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  # * url      Full URL of social profile.
+  #social_links:
+  #  - title: Minima Theme repository at GitHub
+  #    icon: github
+  #    url: "https://github.com/jekyll/minima"
+  #  - title: Jekyll at X (formerly Twitter)
+  #    icon: x-twitter
+  #    url: "https://x.com/jekyllrb"

@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit * .5;
 }
 
 hr {
@@ -120,8 +120,9 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $link-hover-color;
+    text-decoration: underline $brand-color;
+    text-underline-offset: 3px;
   }
 
   .social-media-list &:hover {
@@ -139,8 +140,8 @@ a {
  */
 blockquote {
   color: $brand-color;
-  border-left: 4px solid $brand-color-light;
-  padding-left: $spacing-unit / 2;
+  border-left: 4px solid $border-color-01;
+  padding-left: $spacing-unit * .5;
   @include relative-font-size(1.05);
   font-style: italic;
 
@@ -162,7 +163,7 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $brand-color-light;
+  border: 1px solid $border-color-01;
   border-radius: 3px;
   background-color: $code-background-color;
 }
@@ -198,17 +199,14 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: calc(#{$content-width} - (#{$spacing-unit}));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
   @extend %clearfix;
 
-  @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+  @media screen and (max-width: $on-medium) {
+    padding-right: $spacing-unit * 0.6;
+    padding-left: $spacing-unit * 0.6;
   }
 }
 
@@ -238,12 +236,12 @@ pre {
 }
 
 .svg-icon {
-  width: 16px;
-  height: 16px;
+  width: 1.25em;
+  height: 1.25em;
   display: inline-block;
   fill: currentColor;
-  padding: 5px 3px 2px 5px;
   vertical-align: text-bottom;
+  overflow: visible;
 }
 
 
@@ -263,7 +261,7 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: ($spacing-unit * 33.3333333333 * .01) ($spacing-unit * .5);
   }
   th {
     background-color: $table-header-bg-color;
