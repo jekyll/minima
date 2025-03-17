@@ -142,7 +142,7 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.05);
   font-style: italic;
 
   > :last-child {
