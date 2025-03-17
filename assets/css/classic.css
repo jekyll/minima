@@ -211,7 +211,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
-  color: #111111;
+  color: #414141;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -282,6 +282,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: #111111;
   font-weight: 400;
 }
 
@@ -296,8 +297,8 @@ a:visited {
   color: #1756a9;
 }
 a:hover {
-  color: #111111;
-  text-decoration: underline #828282;
+  color: #414141;
+  text-decoration: underline #818181;
   text-underline-offset: 3px;
 }
 .social-media-list a:hover, .pagination a:hover {
@@ -311,10 +312,10 @@ a:hover {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #818181;
+  border-left: 4px solid #e7e7e7;
   padding-left: 15px;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-style: italic;
 }
 blockquote > :last-child {
@@ -331,7 +332,7 @@ pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
   font-size: 0.9375em;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e7e7e7;
   border-radius: 3px;
   background-color: #eeeeff;
 }
@@ -409,22 +410,22 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #3f3f3f;
+  color: #6f6f6f;
   border-collapse: collapse;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e7e7e7;
 }
 table tr:nth-child(even) {
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
 }
 table th, table td {
   padding: 10px 15px;
 }
 table th {
-  background-color: #f0f0f0;
-  border: 1px solid #e0e0e0;
+  background-color: #efefef;
+  border: 1px solid #dfdfdf;
 }
 table td {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e7e7e7;
 }
 @media screen and (max-width: 800px) {
   table {
@@ -444,8 +445,8 @@ table td {
   min-height: 55.95px;
   line-height: 54px;
   background-color: #fdfdfd;
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #414141;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .site-title {
@@ -461,7 +462,7 @@ table td {
   }
 }
 .site-title, .site-title:visited {
-  color: #424242;
+  color: #414141;
 }
 
 .site-nav {
@@ -469,7 +470,7 @@ table td {
   top: 9px;
   right: 18px;
   background-color: #fdfdfd;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e7e7e7;
   border-radius: 5px;
   text-align: right;
 }
@@ -485,7 +486,7 @@ table td {
   text-align: center;
 }
 .site-nav .menu-icon > svg path {
-  fill: #424242;
+  fill: #414141;
 }
 .site-nav label[for=nav-trigger] {
   display: block;
@@ -516,7 +517,7 @@ table td {
   padding-bottom: 5px;
   transition: width 1s;
   overflow: auto;
-  border-left-color: #e8e8e8;
+  border-left-color: #e7e7e7;
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
@@ -526,7 +527,7 @@ table td {
 .site-nav .nav-item {
   display: block;
   padding: 5px 0;
-  color: #111111;
+  color: #414141;
   line-height: 1.5;
 }
 @media screen and (min-width: 600px) {
@@ -559,7 +560,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #e7e7e7;
   padding: 30px 0;
 }
 
@@ -582,7 +583,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: #828282;
+  color: #818181;
 }
 
 .footer-col {
@@ -654,7 +655,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: #828282;
+  color: #818181;
 }
 
 .post-link {
@@ -669,7 +670,7 @@ table td {
   margin-bottom: 30px;
   padding-bottom: 18px;
   text-align: center;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .post-meta .bullet-divider {
@@ -752,10 +753,10 @@ table td {
 .social-media-list li a, .pagination li a {
   display: block;
   padding: 10px 12px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e7e7e7;
 }
 .social-media-list li a:hover, .pagination li a:hover {
-  border-color: #dbdbdb;
+  border-color: #dadada;
 }
 
 /**
@@ -775,7 +776,7 @@ table td {
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
-  color: #e8e8e8;
+  color: #e7e7e7;
   border: 1px dashed;
 }
 

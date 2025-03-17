@@ -212,7 +212,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
-  color: #bbbbbb;
+  color: #959595;
   background-color: #181818;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -283,6 +283,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: #bbbbbb;
   font-weight: 400;
 }
 
@@ -297,7 +298,7 @@ a:visited {
   color: #79b8ff;
 }
 a:hover {
-  color: #bbbbbb;
+  color: #959595;
   text-decoration: underline #999999;
   text-underline-offset: 3px;
 }
@@ -315,7 +316,7 @@ blockquote {
   color: #999999;
   border-left: 4px solid #404040;
   padding-left: 15px;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-style: italic;
 }
 blockquote > :last-child {
@@ -410,7 +411,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #bbbbbb;
+  color: #959595;
   border-collapse: collapse;
   border: 1px solid #404040;
 }
@@ -527,7 +528,7 @@ table td {
 .site-nav .nav-item {
   display: block;
   padding: 5px 0;
-  color: #bbbbbb;
+  color: #959595;
   line-height: 1.5;
 }
 @media screen and (min-width: 600px) {

@@ -1,23 +1,24 @@
 @charset "UTF-8";
 :root {
-  --minima-brand-color: #828282;
-  --minima-brand-color-light: #e8e8e8;
-  --minima-brand-color-dark: #424242;
-  --minima-site-title-color: #424242;
-  --minima-text-color: #111111;
+  --minima-brand-color: #818181;
+  --minima-brand-color-light: #e7e7e7;
+  --minima-brand-color-dark: #414141;
+  --minima-site-title-color: #414141;
+  --minima-heading-color: #111111;
+  --minima-text-color: #414141;
   --minima-background-color: #fdfdfd;
   --minima-code-background-color: #eeeeff;
   --minima-link-base-color: #2a7ae2;
   --minima-link-visited-color: #1756a9;
-  --minima-link-hover-color: #111111;
-  --minima-border-color-01: #e8e8e8;
-  --minima-border-color-02: #dbdbdb;
-  --minima-border-color-03: #424242;
-  --minima-table-text-color: #3f3f3f;
-  --minima-table-zebra-color: #f7f7f7;
-  --minima-table-header-bg-color: #f0f0f0;
-  --minima-table-header-border: #e0e0e0;
-  --minima-table-border-color: #e8e8e8;
+  --minima-link-hover-color: #414141;
+  --minima-border-color-01: #e7e7e7;
+  --minima-border-color-02: #dadada;
+  --minima-border-color-03: #414141;
+  --minima-table-text-color: #6f6f6f;
+  --minima-table-zebra-color: #f6f6f6;
+  --minima-table-header-bg-color: #efefef;
+  --minima-table-header-border: #dfdfdf;
+  --minima-table-border-color: #e7e7e7;
 }
 
 .highlight .c {
@@ -219,16 +220,17 @@
     --minima-brand-color-light: #a6a6a6;
     --minima-brand-color-dark: #404040;
     --minima-site-title-color: #a6a6a6;
-    --minima-text-color: #bbbbbb;
+    --minima-heading-color: #bbbbbb;
+    --minima-text-color: #959595;
     --minima-background-color: #181818;
     --minima-code-background-color: #212121;
     --minima-link-base-color: #79b8ff;
     --minima-link-visited-color: #79b8ff;
-    --minima-link-hover-color: #bbbbbb;
+    --minima-link-hover-color: #959595;
     --minima-border-color-01: #404040;
     --minima-border-color-02: #a6a6a6;
     --minima-border-color-03: #999999;
-    --minima-table-text-color: #bbbbbb;
+    --minima-table-text-color: #959595;
     --minima-table-zebra-color: #222222;
     --minima-table-header-bg-color: #323232;
     --minima-table-header-border: #4e4e4e;
@@ -518,6 +520,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: var(--minima-heading-color);
   font-weight: 400;
 }
 
@@ -550,7 +553,7 @@ blockquote {
   color: var(--minima-brand-color);
   border-left: 4px solid var(--minima-border-color-01);
   padding-left: 15px;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-style: italic;
 }
 blockquote > :last-child {
