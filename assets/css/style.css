@@ -366,6 +366,12 @@ pre > code {
   margin: 0 auto;
   padding: 0 30px;
 }
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+}
 
 /**
  * Clearfix
@@ -461,7 +467,7 @@ table td {
 .site-nav {
   position: absolute;
   top: 9px;
-  right: 15px;
+  right: 18px;
   background-color: #fdfdfd;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
