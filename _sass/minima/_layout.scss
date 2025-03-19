@@ -276,6 +276,7 @@
 .post-content h1 {
   margin-bottom: 10px;
   @include relative-font-size(2.625);
+  font-weight: $base-font-weight;
   letter-spacing: -1px;
   line-height: 1.15;
 
