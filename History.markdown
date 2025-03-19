@@ -93,6 +93,7 @@
   * Replace `page.date` with `pdate` consistently in `post` layout (#859)
   * Reduce wrapper padding on small screens (#865)
   * Adjust the font size of blockquotes (#492)
+  * Adjust table-text color based on heading-color (#869)
 
 ### Development Fixes
 
