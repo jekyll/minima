@@ -29,7 +29,7 @@ $lm-border-color-01:       $lm-brand-color-light !default;
 $lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
 $lm-border-color-03:       $lm-brand-color-dark !default;
 
-$lm-table-text-color:      lighten($lm-text-color, 18%) !default;
+$lm-table-text-color:      lighten($lm-heading-color, 18%) !default;
 $lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
 $lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
 $lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
