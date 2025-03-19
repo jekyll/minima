@@ -283,7 +283,7 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   color: #111111;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /**
@@ -410,7 +410,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #6f6f6f;
+  color: #3f3f3f;
   border-collapse: collapse;
   border: 1px solid #e7e7e7;
 }
@@ -694,6 +694,7 @@ table td {
 .post-content h1 {
   margin-bottom: 10px;
   font-size: 2.625rem;
+  font-weight: 400;
   letter-spacing: -1px;
   line-height: 1.15;
 }

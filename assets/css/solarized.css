@@ -310,7 +310,7 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   color: var(--solarized-mono01);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /**
@@ -721,6 +721,7 @@ table td {
 .post-content h1 {
   margin-bottom: 10px;
   font-size: 2.625rem;
+  font-weight: 400;
   letter-spacing: -1px;
   line-height: 1.15;
 }
