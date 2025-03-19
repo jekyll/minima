@@ -59,6 +59,7 @@
   * Move `show_excerpts` setting to be under `minima` namespace (#841)
   * Simplify `.wrapper` style definition (#852)
   * Improve navigation styling and experience (#856)
+  * Set default `font-weight` of headings to `500` (#868)
 
 ### Bug Fixes
 
