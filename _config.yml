@@ -38,7 +38,7 @@ minima:
   # the `path` property (as represented via Liquid) of the pages in the order they should
   # be rendered.
   nav_pages:
-    - about.md
+    - index.md
     - publications.md
     - awards.md
     
