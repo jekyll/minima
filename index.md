@@ -1,13 +1,30 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+title: 
+description: 
+---
 
-# Maryam Mirzakhani: A Mathematical Pioneer
+<div style="display: flex; align-items: center; width: 100%;">
+    <img src="images/maryam.jpg" alt="Maryam Mirzakhani" style="width: 400px; height: auto; margin-right: 30px; flex-shrink: 0;">
 
-Maryam Mirzakhani (1977–2017) was an Iranian mathematician known for her groundbreaking work in the fields of geometry and dynamical systems. She made history as the first woman to win the **Fields Medal**, the most prestigious award in mathematics.
+    <div style="max-width: 1000px; font-size: 18px; line-height: 1.6; flex-grow: 1;">
+        <!-- Title is left-aligned -->
+        <p style="margin: 0; text-align: left; font-size: 24px; font-weight: bold;">
+            Maryam Mirzakhani:  Mathematical Pioneer
+        </p>
+
+        <p style="margin: 10px 0 0 0; text-align: justify;">
+            Maryam Mirzakhani (1977–2017) was an Iranian mathematician known for her groundbreaking work in the fields 
+            of geometry and dynamical systems. She made history as the first woman to win the 
+            <strong>Fields Medal</strong>, the most prestigious award in mathematics. Her research focused on the 
+            dynamics and geometry of Riemann surfaces and their moduli spaces, making significant contributions 
+            to hyperbolic geometry, Teichmüller theory, and ergodic theory. Her insights reshaped the field 
+            and inspired a new generation of mathematicians.
+        </p>
+    </div>
+</div>
+
+<br><br>
 
 ## Early Life & Education
 
@@ -42,16 +59,3 @@ Her **Fields Medal-winning work (2014)** involved the dynamics of simple closed 
 ## Quotes
 
 > "The beauty of mathematics only shows itself to more patient followers."
-
-> "You have to spend some energy and effort to see the beauty of math."
-
-## Conclusion
-
-Maryam Mirzakhani’s contributions to mathematics continue to shape modern research in geometry and topology. Her legacy as a pioneering mathematician and an inspiration to women in science remains unparalleled.
-
----
-
-**[Learn More About Maryam Mirzakhani](https://en.wikipedia.org/wiki/Maryam_Mirzakhani)**
-
-layout: home
----

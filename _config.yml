@@ -1,14 +1,12 @@
-title: Your awesome title
+title: Maryam Mirzakhani
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Maryam MirzaKhani
+  # email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  This website, created by Hossein Kamyab, serves as a showcase for designing academic websites,demonstrating how to present research and professional achievements effectively.It was developed in honor of Maryam Mirzakhani, the renowned Persian mathematician and Fields Medalist, to highlight best practices in academic web design while celebrating her lasting contributions to mathematics
 
 # Build settings
 
@@ -41,6 +39,9 @@ minima:
   # be rendered.
   nav_pages:
     - about.md
+    - publications.md
+    - awards.md
+    
 
   # Set to `true` to show excerpts on the homepage.
   #show_excerpts: false
