@@ -45,6 +45,7 @@
   * Update GitLab icon (#765)
   * Add Bluesky to social media platforms (#799)
   * Simplify inserting markup before closing body tag (#854)
+  * Render headings and text in different colors (#866)
 
 ### Major Enhancements
 
@@ -58,6 +59,7 @@
   * Move `show_excerpts` setting to be under `minima` namespace (#841)
   * Simplify `.wrapper` style definition (#852)
   * Improve navigation styling and experience (#856)
+  * Set default `font-weight` of headings to `500` (#868)
 
 ### Bug Fixes
 
@@ -89,6 +91,9 @@
   * Improve rendering of post header (#855)
   * Improve link underline styling (#857)
   * Replace `page.date` with `pdate` consistently in `post` layout (#859)
+  * Reduce wrapper padding on small screens (#865)
+  * Adjust the font size of blockquotes (#492)
+  * Adjust table-text color based on heading-color (#869)
 
 ### Development Fixes
 

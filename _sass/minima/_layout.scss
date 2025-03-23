@@ -31,7 +31,7 @@
 .site-nav {
   position: absolute;
   top: 9px;
-  right: $spacing-unit * .5;
+  right: $spacing-unit * 0.6;
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
@@ -276,6 +276,7 @@
 .post-content h1 {
   margin-bottom: 10px;
   @include relative-font-size(2.625);
+  font-weight: $base-font-weight;
   letter-spacing: -1px;
   line-height: 1.15;
 

@@ -103,7 +103,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  color: $heading-color;
+  font-weight: 500;
 }
 
 
@@ -142,7 +143,7 @@ blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.05);
   font-style: italic;
 
   > :last-child {
@@ -203,6 +204,11 @@ pre {
   margin: 0 auto;
   padding: 0 $spacing-unit;
   @extend %clearfix;
+
+  @media screen and (max-width: $on-medium) {
+    padding-right: $spacing-unit * 0.6;
+    padding-left: $spacing-unit * 0.6;
+  }
 }
 
 
