@@ -109,7 +109,7 @@ $lm-table-border-color:    $lm-border-color-01 !default;
 
 $dm-brand-color:           #999999 !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
-$dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
+$dm-brand-color-dark:      darken($dm-brand-color, 39%) !default;
 
 $dm-site-title-color:      $dm-brand-color-light !default;
 
@@ -129,7 +129,7 @@ $dm-border-color-03:       $dm-brand-color !default;
 $dm-table-text-color:      $dm-text-color !default;
 $dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
 $dm-table-header-bg-color: lighten($dm-background-color, 10%) !default;
-$dm-table-header-border:   lighten($dm-background-color, 21%) !default;
+$dm-table-header-border:   lighten($dm-background-color, 15%) !default;
 $dm-table-border-color:    $dm-border-color-01 !default;
 
 
