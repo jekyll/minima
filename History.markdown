@@ -94,6 +94,7 @@
   * Reduce wrapper padding on small screens (#865)
   * Adjust the font size of blockquotes (#492)
   * Adjust table-text color based on heading-color (#869)
+  * Adjust table border contrast (#872)
 
 ### Development Fixes
 
