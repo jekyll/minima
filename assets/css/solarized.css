@@ -439,7 +439,7 @@ table {
   text-align: left;
   color: var(--solarized-mono00);
   border-collapse: collapse;
-  border: 1px solid var(--solarized-mono1);
+  border: 1px solid var(--solarized-mix1);
 }
 table tr:nth-child(even) {
   background-color: var(--solarized-mix3);
@@ -449,10 +449,10 @@ table th, table td {
 }
 table th {
   background-color: var(--solarized-mono2);
-  border: 1px solid var(--solarized-mono1);
+  border: 1px solid var(--solarized-mix1);
 }
 table td {
-  border: 1px solid var(--solarized-mono1);
+  border: 1px solid var(--solarized-mix1);
 }
 @media screen and (max-width: 800px) {
   table {

@@ -416,7 +416,7 @@ table {
   text-align: left;
   color: #839496;
   border-collapse: collapse;
-  border: 1px solid #586e75;
+  border: 1px solid #2c4d56;
 }
 table tr:nth-child(even) {
   background-color: #04313c;
@@ -426,10 +426,10 @@ table th, table td {
 }
 table th {
   background-color: #073642;
-  border: 1px solid #586e75;
+  border: 1px solid #2c4d56;
 }
 table td {
-  border: 1px solid #586e75;
+  border: 1px solid #2c4d56;
 }
 @media screen and (max-width: 800px) {
   table {

@@ -314,7 +314,7 @@ a:hover {
  */
 blockquote {
   color: #999999;
-  border-left: 4px solid #404040;
+  border-left: 4px solid #363636;
   padding-left: 15px;
   font-size: 1.05rem;
   font-style: italic;
@@ -333,7 +333,7 @@ pre,
 code {
   font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
   font-size: 0.9375em;
-  border: 1px solid #404040;
+  border: 1px solid #363636;
   border-radius: 3px;
   background-color: #212121;
 }
@@ -413,7 +413,7 @@ table {
   text-align: left;
   color: #959595;
   border-collapse: collapse;
-  border: 1px solid #404040;
+  border: 1px solid #363636;
 }
 table tr:nth-child(even) {
   background-color: #222222;
@@ -423,10 +423,10 @@ table th, table td {
 }
 table th {
   background-color: #323232;
-  border: 1px solid #4e4e4e;
+  border: 1px solid #3e3e3e;
 }
 table td {
-  border: 1px solid #404040;
+  border: 1px solid #363636;
 }
 @media screen and (max-width: 800px) {
   table {
@@ -447,7 +447,7 @@ table td {
   line-height: 54px;
   background-color: #181818;
   border-top: 5px solid #999999;
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid #363636;
 }
 
 .site-title {
@@ -471,7 +471,7 @@ table td {
   top: 9px;
   right: 18px;
   background-color: #181818;
-  border: 1px solid #404040;
+  border: 1px solid #363636;
   border-radius: 5px;
   text-align: right;
 }
@@ -518,7 +518,7 @@ table td {
   padding-bottom: 5px;
   transition: width 1s;
   overflow: auto;
-  border-left-color: #404040;
+  border-left-color: #363636;
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
@@ -561,7 +561,7 @@ table td {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #404040;
+  border-top: 1px solid #363636;
   padding: 30px 0;
 }
 
@@ -671,7 +671,7 @@ table td {
   margin-bottom: 30px;
   padding-bottom: 18px;
   text-align: center;
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid #363636;
 }
 
 .post-meta .bullet-divider {
@@ -755,7 +755,7 @@ table td {
 .social-media-list li a, .pagination li a {
   display: block;
   padding: 10px 12px;
-  border: 1px solid #404040;
+  border: 1px solid #363636;
 }
 .social-media-list li a:hover, .pagination li a:hover {
   border-color: #a6a6a6;
@@ -778,7 +778,7 @@ table td {
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
-  color: #404040;
+  color: #363636;
   border: 1px dashed;
 }
 

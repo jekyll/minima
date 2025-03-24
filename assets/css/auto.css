@@ -218,7 +218,7 @@
   :root {
     --minima-brand-color: #999999;
     --minima-brand-color-light: #a6a6a6;
-    --minima-brand-color-dark: #404040;
+    --minima-brand-color-dark: #363636;
     --minima-site-title-color: #a6a6a6;
     --minima-heading-color: #bbbbbb;
     --minima-text-color: #959595;
@@ -227,14 +227,14 @@
     --minima-link-base-color: #79b8ff;
     --minima-link-visited-color: #79b8ff;
     --minima-link-hover-color: #959595;
-    --minima-border-color-01: #404040;
+    --minima-border-color-01: #363636;
     --minima-border-color-02: #a6a6a6;
     --minima-border-color-03: #999999;
     --minima-table-text-color: #959595;
     --minima-table-zebra-color: #222222;
     --minima-table-header-bg-color: #323232;
-    --minima-table-header-border: #4e4e4e;
-    --minima-table-border-color: #404040;
+    --minima-table-header-border: #3e3e3e;
+    --minima-table-border-color: #363636;
   }
   .highlight .c {
     color: #545454;
