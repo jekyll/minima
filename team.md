@@ -86,6 +86,16 @@ Graduated from Queen's University at Kingston with an M.Sc. in physics. \
 Runs a radio show on CJLO. Likes local music.
 
 
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/vincent.jpg"
+     alt="Vincent"
+     width="80"
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Vincent Girouard**.  
+Undergraduate Student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+2025 summer intern. \
+Enjoys climbing, music and physics.
+
+
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) in 2022 and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow in 2023 and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
