@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/minima/feed.xml" rel="self" type="application/atom+xml" /><link href="/minima/" rel="alternate" type="text/html" /><updated>2025-03-24T15:16:51+00:00</updated><id>/minima/feed.xml</id><title type="html">Minima Demo Site</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/minima/feed.xml" rel="self" type="application/atom+xml" /><link href="/minima/" rel="alternate" type="text/html" /><updated>2025-03-26T15:10:24+00:00</updated><id>/minima/feed.xml</id><title type="html">Minima Demo Site</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>GitHub User</name><email>your-email@domain.com</email></author><entry><title type="html">My Example Post</title><link href="/minima/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>/minima/2016/05/20/my-example-post</id><content type="html" xml:base="/minima/2016/05/20/my-example-post.html"><![CDATA[<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
 
 <p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>]]></content><author><name>John Doe</name></author><summary type="html"><![CDATA[Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/minima/misc/2016/05/20/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2016-05-20T00:00:00+00:00</published><updated>2016-05-20T00:00:00+00:00</updated><id>/minima/misc/2016/05/20/super-long-article</id><content type="html" xml:base="/minima/misc/2016/05/20/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
@@ -203,4 +203,97 @@
 <span class="c1"># Execute code</span>
 <span class="no">Foo</span><span class="o">::</span><span class="no">Bar</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">profile</span></code></pre></figure>
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Some articles are just so short that we have to make the footer stick</title><link href="/minima/misc/2016/05/19/super-short-article.html" rel="alternate" type="text/html" title="Some articles are just so short that we have to make the footer stick" /><published>2016-05-19T00:00:00+00:00</published><updated>2016-05-19T00:00:00+00:00</updated><id>/minima/misc/2016/05/19/super-short-article</id><content type="html" xml:base="/minima/misc/2016/05/19/super-short-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry></feed>
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Codeblocks Ahoy</title><link href="/minima/2016/05/19/codeblocks-ahoy.html" rel="alternate" type="text/html" title="Codeblocks Ahoy" /><published>2016-05-19T00:00:00+00:00</published><updated>2016-05-19T00:00:00+00:00</updated><id>/minima/2016/05/19/codeblocks-ahoy</id><content type="html" xml:base="/minima/2016/05/19/codeblocks-ahoy.html"><![CDATA[<p>An article with various blocks of highlighted code snippets.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">=begin
+  Dummy class nested inside a dummy module
+  Private API
+=end</span>
+</code></pre></div></div>
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gd">- This line is redacted
+- This line has been deleted
+</span><span class="gi">+ This line is visible
++ This line has been inserted
+</span><span class="p">This line has not been changed
+</span></code></pre></div></div>
+<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s">"base"</span>
+
+<span class="nc">.card</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span>
+
+  <span class="k">&amp;</span><span class="nd">:hover</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="mh">#ab45ef</span><span class="err">;</span>
+</code></pre></div></div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">21</span> <span class="o">+</span> <span class="mi">54</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">foo</span> <span class="o">||=</span> <span class="n">bar</span>
+<span class="n">foo</span> <span class="o">/</span> <span class="n">bar</span>
+
+<span class="mi">24</span>
+<span class="mf">45.75</span>
+<span class="mh">0x2C716</span>
+<span class="p">\</span><span class="n">x0A</span>
+<span class="mo">01010</span>
+
+<span class="sr">/ya?ml/</span>
+<span class="s2">"yaml"</span>
+</code></pre></div></div>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kp">include</span> <span class="no">Enumerable</span>
+
+<span class="k">module</span> <span class="nn">Foo</span>
+  <span class="k">class</span> <span class="nc">Bar</span>
+    <span class="no">LIPSUM</span> <span class="o">=</span> <span class="s2">"lorem ipsum dolor sit"</span>
+
+    <span class="nb">attr_reader</span> <span class="ss">:layout</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span>
+      <span class="vi">@layout</span> <span class="o">=</span> <span class="no">Layout</span><span class="p">.</span><span class="nf">new</span>
+    <span class="k">end</span>
+
+    <span class="c1"># instance method</span>
+    <span class="k">def</span> <span class="nf">profile</span>
+      <span class="n">measure_time</span> <span class="k">do</span>
+        <span class="n">compile</span> <span class="n">layout</span>
+        <span class="n">layout</span><span class="p">.</span><span class="nf">render_with</span> <span class="no">Bar</span><span class="o">::</span><span class="no">LIPSUM</span>
+      <span class="k">end</span>
+    <span class="k">rescue</span> <span class="no">ArgumentError</span>
+      <span class="kp">false</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Execute code</span>
+<span class="no">Foo</span><span class="o">::</span><span class="no">Bar</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">profile</span>
+</code></pre></div></div>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">foo</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">bar</span><span class="p">:</span><span class="w"> </span><span class="s1">'baz'</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{{</span><span class="w"> </span><span class="nv">foo</span><span class="w"> </span><span class="cp">}}</span>
+</code></pre></div></div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">author</span><span class="pi">:</span>
+  <span class="na">admin</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">John Doe</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">johndoe@example.com</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="m">75636474</span>
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="code"><pre><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello World<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[An article with various blocks of highlighted code snippets.]]></summary></entry><entry><title type="html">Some articles are just so short that we have to make the footer stick</title><link href="/minima/misc/2016/05/19/super-short-article.html" rel="alternate" type="text/html" title="Some articles are just so short that we have to make the footer stick" /><published>2016-05-19T00:00:00+00:00</published><updated>2016-05-19T00:00:00+00:00</updated><id>/minima/misc/2016/05/19/super-short-article</id><content type="html" xml:base="/minima/misc/2016/05/19/super-short-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry></feed>
