@@ -95,6 +95,15 @@ Undergraduate Student, [Engineering Physics](https://www.polymtl.ca/phys/), [Pol
 2025 summer intern. \
 Enjoys climbing, music and physics.
 
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/marius.jpg"
+     alt="Marius"
+     width="80"
+     height="90"
+     style="float: left; margin-right: 10px;" /> **Marius Trudeau**.  
+M.Sc.A. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+Quantum Physics Enthousiast. \
+Enjoys tennis, frisbee, Nordic skiing, and a wide range of sports, as well as exploring the flavors of various beverages, including beer, wine, scotch, rum, and even coffee.
+
 
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) in 2022 and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
