@@ -46,6 +46,7 @@
   * Add Bluesky to social media platforms (#799)
   * Simplify inserting markup before closing body tag (#854)
   * Render headings and text in different colors (#866)
+  * Refresh styling of highlighted code snippet blocks (#875)
 
 ### Major Enhancements
 
