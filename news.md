@@ -15,3 +15,5 @@ For an archive of previous years follow the links below
 * [2024](https://polyquantique.github.io/2024/) 
 * [2023](https://polyquantique.github.io/2023/) 
 * [2022](https://polyquantique.github.io/2022/) 
+* [2021](https://polyquantique.github.io/2021/) 
+
