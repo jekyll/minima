@@ -410,6 +410,10 @@ table td {
   padding-top: 18px;
   text-align: center;
 }
+.site-nav .menu-icon::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
 .site-nav .menu-icon > svg path {
   fill: #999999;
 }
@@ -421,6 +425,10 @@ table td {
   z-index: 2;
   cursor: pointer;
 }
+.site-nav #nav-trigger ~ label[for=nav-trigger] .menu-icon::before {
+  content: "\f0c9";
+  font-size: 1.25em;
+}
 .site-nav #nav-trigger ~ .drawer-container {
   position: absolute;
   top: 47px;
@@ -428,7 +436,7 @@ table td {
   clear: both;
   width: 0;
   height: calc(100vh - 60px);
-  transition: width 1s;
+  transition: width 0.5s;
   overflow: hidden;
   background-color: #181818;
   border-left: 1px solid;
@@ -437,17 +445,21 @@ table td {
 .site-nav #nav-trigger ~ .drawer-container .drawer {
   opacity: 0;
 }
+.site-nav #nav-trigger:checked ~ label[for=nav-trigger] .menu-icon::before {
+  content: "\f00d";
+  font-size: 1.5em;
+}
 .site-nav #nav-trigger:checked ~ .drawer-container {
   width: 180px;
   padding-bottom: 5px;
-  transition: width 1s;
+  transition: width 0.5s;
   overflow: auto;
   border-left-color: #2b2b2b;
 }
 .site-nav #nav-trigger:checked ~ .drawer-container .drawer {
   padding: 15px;
   opacity: 1;
-  transition: opacity 2s;
+  transition: opacity 1.5s;
 }
 .site-nav .nav-item {
   display: block;
