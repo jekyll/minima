@@ -111,6 +111,7 @@
   * Improve readability of config file (#703)
   * Trigger demo-site build manually (#714)
   * Update History document for v2.5.2 (#803)
+  * Move development config to a separate config file (#879)
 
 ## 2.5.2
 
