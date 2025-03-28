@@ -49,6 +49,11 @@
     padding-top: 18px;
     text-align: center;
 
+    &::before {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+    }
+
     > svg path {
       fill: $border-color-03;
     }
@@ -63,31 +68,46 @@
     cursor: pointer;
   }
 
-  #nav-trigger ~ .drawer-container {
-    position: absolute;
-    top: 47px;
-    right: -16px;
-    clear: both;
-    width: 0;
-    height: calc(100vh - 60px);
-    transition: width 1s;
-    overflow: hidden;
-    background-color: $background-color;
-    border-left: 1px solid;
-    border-left-color: transparent;
-    .drawer { opacity: 0 }
-  }
-
-  #nav-trigger:checked ~ .drawer-container {
-    width: 180px;
-    padding-bottom: 5px;
-    transition: width 1s;
-    overflow: auto;
-    border-left-color: $border-color-01;
-    .drawer {
-      padding: $spacing-unit * 0.5;
-      opacity: 1;
-      transition: opacity 2s;
+  #nav-trigger {
+    ~ label[for=nav-trigger] .menu-icon {
+      &::before {
+        content: "\f0c9";
+        font-size: 1.25em;
+      }
+    }
+    ~ .drawer-container {
+      position: absolute;
+      top: 47px;
+      right: -16px;
+      clear: both;
+      width: 0;
+      height: calc(100vh - 60px);
+      transition: width 0.5s;
+      overflow: hidden;
+      background-color: $background-color;
+      border-left: 1px solid;
+      border-left-color: transparent;
+      .drawer { opacity: 0 }
+    }
+    &:checked {
+    ~ label[for=nav-trigger] .menu-icon {
+      &::before {
+        content: "\f00d";
+        font-size: 1.5em;
+      }
+    }
+      ~ .drawer-container {
+        width: 180px;
+        padding-bottom: 5px;
+        transition: width 0.5s;
+        overflow: auto;
+        border-left-color: $border-color-01;
+        .drawer {
+          padding: $spacing-unit * 0.5;
+          opacity: 1;
+          transition: opacity 1.5s;
+        }
+      }
     }
   }
 
