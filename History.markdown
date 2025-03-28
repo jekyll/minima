@@ -96,6 +96,7 @@
   * Adjust the font size of blockquotes (#492)
   * Adjust table-text color based on heading-color (#869)
   * Adjust table border contrast (#872)
+  * Toggle icons based on `#nav-trigger` state (#878)
 
 ### Development Fixes
 
