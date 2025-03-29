@@ -101,7 +101,7 @@ Enjoys climbing, music and physics.
      height="90"
      style="float: left; margin-right: 10px;" /> **Marius Trudeau**.  
 M.Sc.A. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
-Quantum Physics Enthousiast. \
+Quantum Physics Enthusiast. \
 Enjoys tennis, frisbee, Nordic skiing, and a wide range of sports, as well as exploring the flavors of various beverages, including beer, wine, scotch, rum, and even coffee.
 
 ### Ancien.nes polyquanticien.nes
