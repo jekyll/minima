@@ -97,6 +97,7 @@
   * Adjust table-text color based on heading-color (#869)
   * Adjust table border contrast (#872)
   * Toggle icons based on `#nav-trigger` state (#878)
+  * Re-establish compatibility with legacy Sass engine (#880)
 
 ### Development Fixes
 
