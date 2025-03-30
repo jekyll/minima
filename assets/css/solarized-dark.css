@@ -3,10 +3,20 @@
   color: #fefeec;
   background-color: #dc322f;
 }
-.highlight .lineno, .highlight .gl, .highlight .cs, .highlight .cp, .highlight .cm, .highlight .c1, .highlight .c {
+.highlight .c {
   color: #586e75;
 }
-.highlight .ge, .highlight .cs {
+.highlight .c1 {
+  color: #586e75;
+}
+.highlight .cm {
+  color: #586e75;
+}
+.highlight .cp {
+  color: #586e75;
+}
+.highlight .cs {
+  color: #586e75;
   font-style: italic;
 }
 .highlight .gd {
@@ -17,6 +27,7 @@
 }
 .highlight .ge {
   color: #839496;
+  font-style: italic;
 }
 .highlight .gh {
   color: #586e75;
@@ -46,14 +57,23 @@
 .highlight .gu {
   color: #586e75;
 }
-.highlight .kr, .highlight .kp, .highlight .kd, .highlight .kc, .highlight .k {
+.highlight .k {
+  color: #cb4b16;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .kp {
+  color: #cb4b16;
+}
+.highlight .kr {
   color: #cb4b16;
 }
 .highlight .kt {
   color: #6c71c4;
-}
-.highlight .vi, .highlight .vg, .highlight .vc, .highlight .nv {
-  color: #2aa198;
 }
 .highlight .na {
   color: #2aa198;
@@ -85,16 +105,67 @@
 .highlight .nt {
   color: #cb4b16;
 }
+.highlight .nv {
+  color: #2aa198;
+}
+.highlight .vc {
+  color: #2aa198;
+}
+.highlight .vg {
+  color: #2aa198;
+}
+.highlight .vi {
+  color: #2aa198;
+}
 .highlight .o {
   color: #859900;
 }
 .highlight .ow {
   color: #859900;
 }
-.highlight .mo, .highlight .il, .highlight .mi, .highlight .mh, .highlight .mf, .highlight .m {
+.highlight .m {
   color: #6c71c4;
 }
-.highlight .sx, .highlight .si, .highlight .sh, .highlight .se, .highlight .sd, .highlight .sc, .highlight .sb, .highlight .s2, .highlight .s1, .highlight .s {
+.highlight .mf {
+  color: #6c71c4;
+}
+.highlight .mh {
+  color: #6c71c4;
+}
+.highlight .mi {
+  color: #6c71c4;
+}
+.highlight .il {
+  color: #6c71c4;
+}
+.highlight .mo {
+  color: #6c71c4;
+}
+.highlight .s {
+  color: #d33682;
+}
+.highlight .s1 {
+  color: #d33682;
+}
+.highlight .s2 {
+  color: #d33682;
+}
+.highlight .sb {
+  color: #d33682;
+}
+.highlight .sc {
+  color: #d33682;
+}
+.highlight .sd {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .sh {
+  color: #d33682;
+}
+.highlight .si {
   color: #d33682;
 }
 .highlight .sr {
@@ -103,9 +174,16 @@
 .highlight .ss {
   color: #d33682;
 }
+.highlight .sx {
+  color: #d33682;
+}
 .highlight .w {
   color: #586e75;
 }
+.highlight .lineno, .highlight .gl {
+  color: #586e75;
+}
+
 html {
   font-size: 16px;
 }
