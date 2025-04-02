@@ -388,6 +388,42 @@
 
 
 /**
+ * Task-lists
+ */
+
+.task-list {
+  margin-left: 0;
+  padding-left: $spacing-unit * 0.6;
+}
+
+.task-list-item {
+  list-style-type: none;
+  &-checkbox {
+    position: relative;
+    margin-right: $spacing-unit * 0.3;
+    margin-left: -$spacing-unit * 0.5;
+    appearance: none;
+    border: 8px solid $border-color-01;
+    vertical-align: text-top;
+    z-index: -1;
+    &::after {
+      position: absolute;
+      top: -8px;
+      left: -3px;
+      width: 4px;
+      height: 10px;
+      content: "";
+      border: solid transparent;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    &:checked::after { border-color: $border-color-03 }
+  }
+}
+
+
+
+/**
  * Grid helpers
  */
 @media screen and (min-width: $on-large) {
