@@ -47,6 +47,7 @@
   * Simplify inserting markup before closing body tag (#854)
   * Render headings and text in different colors (#866)
   * Refresh styling of highlighted code snippet blocks (#875)
+  * Adapt styles for GFM task-lists (#882)
 
 ### Major Enhancements
 
