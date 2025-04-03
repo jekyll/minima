@@ -70,6 +70,14 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
+### Whaaat, a checklist??
+
+- [ ] Milk
+- [x] Cookies
+  - [x] Classic Choco-chip
+  - [x] Sourdough Choco-chip
+- [ ] Chee-ee-eeee-zzze!!!!
+
 ### Oh hai, an unordered list!!
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
@@ -78,6 +86,10 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 - Second item, dawg
 - Third item, what what?!
 - Fourth item, fo sheezy my neezy
+- Fifth item, nested!
+  - So la ti do
+  - Ba-da-bing!
+  - Ba-da-boom!
 
 ### Oh hai, an ordered list!!
 
@@ -87,8 +99,10 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 2. Second item, dawg
 3. Third item, what what?!
 4. Fourth item, fo sheezy my neezy
-
-
+5. Fifth item, nested!
+  - So la ti do
+  - Ba-da-bing!
+  - Ba-da-boom!
 
 ## Headings are cool! (h2)
 
