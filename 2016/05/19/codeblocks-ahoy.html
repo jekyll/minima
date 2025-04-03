@@ -18,8 +18,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"GitHub User"},"dateModified":"2016-05-19T00:00:00+00:00","datePublished":"2016-05-19T00:00:00+00:00","description":"An article with various blocks of highlighted code snippets.","headline":"Codeblocks Ahoy","mainEntityOfPage":{"@type":"WebPage","@id":"/minima/2016/05/19/codeblocks-ahoy.html"},"url":"/minima/2016/05/19/codeblocks-ahoy.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
-  <link id="stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Minima Demo Site" />
+<link id="main-stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Minima Demo Site" />
 </head>
 <body><header class="site-header">
 
@@ -156,7 +155,9 @@
 </article>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
   <data class="u-url" href="/minima/"></data>
 
   <div class="wrapper">
@@ -200,6 +201,9 @@
 
 </footer>
 <div class="sub-footer">
+  <span id="sf-toggle" onclick="toggleSubFooter()">
+    <span class="sf-toggle-icon"></span>
+  </span>
   <div id="skin-switch-container">
     Page rendered with the <select id="skin-switch" onchange="changeSkin()">
       <option value="solarized-light.css">solarized-light</option>
@@ -213,9 +217,10 @@
   </div>
 </div>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 <script>
   document.getElementById("skin-switch-container").style.display = "block";
-  var metaTag = document.getElementById("stylesheet");
+  var metaTag = document.getElementById("main-stylesheet");
   var skinSwitcher = document.getElementById("skin-switch");
   var SSHref = metaTag.href;
   var SSName = SSHref.substring(SSHref.lastIndexOf('/') + 1);
@@ -232,6 +237,11 @@
     _ssName = event.target.value;
     metaTag.href = SSHref.replace(SSName, _ssName);
     localStorage.setItem("minima-ss", _ssName);
+  }
+
+  function toggleSubFooter() {
+    siteFooter = document.querySelector(".site-footer");
+    siteFooter.classList.toggle("sub-footer-hidden");
   }
 </script>
 </body>

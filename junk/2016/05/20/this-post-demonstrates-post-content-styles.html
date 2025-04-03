@@ -17,8 +17,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2016-05-20T00:00:00+00:00","datePublished":"2016-05-20T00:00:00+00:00","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.","headline":"This post demonstrates post content styles","mainEntityOfPage":{"@type":"WebPage","@id":"/minima/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"},"url":"/minima/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
-  <link id="stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Minima Demo Site" />
+<link id="main-stylesheet" rel="stylesheet" href="/minima/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/minima/feed.xml" title="Minima Demo Site" />
 </head>
 <body><header class="site-header">
 
@@ -126,6 +125,19 @@
 
 <p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
+<h3 id="whaaat-a-checklist">Whaaat, a checklist??</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Milk</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Cookies
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Classic Choco-chip</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Sourdough Choco-chip</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Chee-ee-eeee-zzze!!!!</li>
+</ul>
+
 <h3 id="oh-hai-an-unordered-list">Oh hai, an unordered list!!</h3>
 
 <p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
@@ -135,6 +147,13 @@
   <li>Second item, dawg</li>
   <li>Third item, what what?!</li>
   <li>Fourth item, fo sheezy my neezy</li>
+  <li>Fifth item, nested!
+    <ul>
+      <li>So la ti do</li>
+      <li>Ba-da-bing!</li>
+      <li>Ba-da-boom!</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="oh-hai-an-ordered-list">Oh hai, an ordered list!!</h3>
@@ -146,6 +165,13 @@
   <li>Second item, dawg</li>
   <li>Third item, what what?!</li>
   <li>Fourth item, fo sheezy my neezy</li>
+  <li>Fifth item, nested!
+    <ul>
+      <li>So la ti do</li>
+      <li>Ba-da-bing!</li>
+      <li>Ba-da-boom!</li>
+    </ul>
+  </li>
 </ol>
 
 <h2 id="headings-are-cool-h2">Headings are cool! (h2)</h2>
@@ -236,7 +262,9 @@
 </article>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
   <data class="u-url" href="/minima/"></data>
 
   <div class="wrapper">
@@ -280,6 +308,9 @@
 
 </footer>
 <div class="sub-footer">
+  <span id="sf-toggle" onclick="toggleSubFooter()">
+    <span class="sf-toggle-icon"></span>
+  </span>
   <div id="skin-switch-container">
     Page rendered with the <select id="skin-switch" onchange="changeSkin()">
       <option value="solarized-light.css">solarized-light</option>
@@ -293,9 +324,10 @@
   </div>
 </div>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 <script>
   document.getElementById("skin-switch-container").style.display = "block";
-  var metaTag = document.getElementById("stylesheet");
+  var metaTag = document.getElementById("main-stylesheet");
   var skinSwitcher = document.getElementById("skin-switch");
   var SSHref = metaTag.href;
   var SSName = SSHref.substring(SSHref.lastIndexOf('/') + 1);
@@ -312,6 +344,11 @@
     _ssName = event.target.value;
     metaTag.href = SSHref.replace(SSName, _ssName);
     localStorage.setItem("minima-ss", _ssName);
+  }
+
+  function toggleSubFooter() {
+    siteFooter = document.querySelector(".site-footer");
+    siteFooter.classList.toggle("sub-footer-hidden");
   }
 </script>
 </body>
