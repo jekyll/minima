@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  position: fixed;
+  position: relative;
   width: 100%;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -232,9 +232,7 @@
  * Page content
  */
 .page-content {
-  padding-top: 60px + $spacing-unit;
-  padding-inline: 0;
-  padding-bottom: $spacing-unit;
+  padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
 
