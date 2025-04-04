@@ -456,7 +456,7 @@ table td {
  * Site header
  */
 .site-header {
-  position: fixed;
+  position: relative;
   width: 100%;
   min-height: 55.95px;
   line-height: 54px;
@@ -659,9 +659,7 @@ table td {
  * Page content
  */
 .page-content {
-  padding-top: 90px;
-  padding-inline: 0;
-  padding-bottom: 30px;
+  padding: 30px 0;
   flex: 1 0 auto;
 }
 
