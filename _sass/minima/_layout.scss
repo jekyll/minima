@@ -29,120 +29,90 @@
 }
 
 .site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit * 0.6;
-  background-color: $background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  text-align: right;
+  float: right;
+  border: none;
+  background-color: inherit;
 
-  .nav-trigger, .slab {
+  label[for="nav-trigger"], #nav-trigger {
     display: none;
   }
 
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 18px;
-    text-align: center;
-
-    &::before {
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900;
-    }
-
-    > svg path {
-      fill: $border-color-03;
+  .nav-item {
+    color: $text-color;
+    &:not(:last-child) {
+      margin-right: $spacing-unit * 0.5;
     }
   }
 
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
+  @include media-query($on-medium) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit * 0.6;
+    background-color: $background-color;
+    border: 1px solid $border-color-01;
+    border-radius: 5px;
+    text-align: right;
 
-  #nav-trigger {
-    ~ label[for=nav-trigger] .menu-icon {
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 18px;
+      text-align: center;
+
       &::before {
-        content: "\f0c9";
-        font-size: 1.25em;
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+      }
+
+      > svg path {
+        fill: $border-color-03;
       }
     }
-    ~ .drawer-container {
-      position: absolute;
-      top: 47px;
-      right: -16px;
-      clear: both;
-      width: 0;
-      height: calc(100vh - 60px);
-      transition: width 0.5s;
-      overflow: hidden;
-      background-color: $background-color;
-      border-left: 1px solid;
-      border-left-color: transparent;
-      .drawer { opacity: 0 }
-    }
-    &:checked {
-    ~ label[for=nav-trigger] .menu-icon {
-      &::before {
-        content: "\f00d";
-        font-size: 1.5em;
+
+    #nav-trigger {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f0c9";
+          font-size: 1.25em;
+        }
       }
-    }
-      ~ .drawer-container {
-        width: 180px;
-        padding-bottom: 5px;
-        transition: width 0.5s;
-        overflow: auto;
-        border-left-color: $border-color-01;
-        .drawer {
-          padding: $spacing-unit * 0.5;
-          opacity: 1;
-          transition: opacity 1.5s;
+      ~ .nav-items {
+        clear: both;
+        display: none
+      }
+      &:checked {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f00d";
+          font-size: 1.5em;
+        }
+      }
+        ~ .nav-items {
+          display: block;
+          padding-bottom: 5px;
+          .nav-item {
+            margin-left: 20px;
+            padding: 5px 10px;
+          }
         }
       }
     }
-  }
-
-  .nav-item {
-    display: block;
-    padding: 5px 0;
-    color: $text-color;
-    line-height: $base-line-height;
-  }
-
-  @media screen and (min-width: $on-medium) {
-    position: static;
-    float: right;
-    border: none;
-    background-color: inherit;
-
-    .drawer-container,
-    .menu-icon,
-    label[for="nav-trigger"] {
-      display: none;
-    }
-
-    .slab {
-      display: block;
-      padding-top: 1px;
-    }
 
     .nav-item {
-      display: inline;
-      padding: 0;
-      margin-left: auto;
-
-      &:not(:last-child) {
-        margin-right: $spacing-unit * 0.5;
-      }
+      display: block;
+      padding: 5px 0;
+      color: $text-color;
+      line-height: $base-line-height;
     }
   }
 }

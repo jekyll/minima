@@ -8,19 +8,12 @@
 
     {%- unless page_titles == empty %}
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input type="checkbox" id="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon"></span>
         </label>
 
-        <div class="drawer-container">
-          <div class="drawer">
-            {%- include nav-items.html paths = page_paths %}
-          </div>
-        </div>
-        <div class="slab">
-          {%- include nav-items.html paths = page_paths %}
-        </div>
+        {% include nav-items.html paths = page_paths %}
       </nav>
     {%- endunless %}
   </div>
