@@ -1,35 +1,68 @@
 .site-footer {
-  padding-bottom: 120px
+  padding-bottom: $spacing-unit * 4;
+  transition: padding-bottom 0.5s;
+  + .sub-footer {
+    height: 80px;
+    transition: height 0.5s;
+    .sf-toggle-icon { --icon-code: "\2191" }
+  }
+  &.sub-footer-hidden {
+    padding-bottom: $spacing-unit * 2;
+    transition: padding-bottom 0.5s;
+    + .sub-footer {
+      height: 15px;
+      transition: height 0.5s;
+      .sf-toggle-icon { --icon-code: "\2193" }
+    }
+  }
 }
 .sub-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  &:before {
+  border-top: 1px solid $border-color-01;
+  #sf-toggle {
     position: absolute;
     display: table;
-    margin: -60px auto;
+    margin: -21px auto;
     top: 1px;
     left: 0;
     right: 0;
-    content: "";
-    border: 30px solid;
+    border: 21px solid $table-header-bg-color;
     cursor: pointer;
-    border-color: transparent transparent $brand-color;
+    transform: rotate(45deg);
+    z-index: 10;
+    .sf-toggle-icon {
+      display: table;
+      font-family: auto;
+      font-size: 1.25em;
+      line-height: .05em;
+      &::before {
+        position: absolute;
+        top: -7px;
+        left: -11px;
+        content: var(--icon-code);
+        transform: rotate(135deg);
+      }
+    }
   }
 }
 #skin-switch-container {
+  position: relative;
   display: none;
   margin-left: -4px;
-  padding: 15px 0;
+  padding: 15px;
   text-align: center;
   font-size: 0.8rem;
+  z-index: 15;
   select {
     margin: 0 2px;
     padding: 5px 2px;
     text-align: center;
     font-size: 0.8rem;
     border-radius: 5px;
+    border-color: $table-header-border;
+    cursor: pointer;
     &:focus-visible {
       outline: none;
     }
@@ -37,9 +70,6 @@
 }
 
 .sub-footer, .sub-footer select {
-  color: $table-text-color;
+  color: $border-color-03;
   background: $table-header-bg-color;
-  &::before {
-    border-color: transparent transparent $table-header-bg-color;
-  }
 }

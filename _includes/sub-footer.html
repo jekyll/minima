@@ -1,0 +1,44 @@
+<div class="sub-footer">
+  <span id="sf-toggle" onclick="toggleSubFooter()">
+    <span class="sf-toggle-icon"></span>
+  </span>
+  <div id="skin-switch-container">
+    Page rendered with the <select id="skin-switch" onchange="changeSkin()">
+      {%- for skin in page.available_skins %}
+      {% if skin == 'classic' -%}
+      <option value="style.css">classic</option>
+      {%- else -%}
+      <option value="{{ skin }}.css">{{ skin }}</option>
+      {%- endif %}
+      {%- endfor %}
+    </select> skin of Minima theme.
+    <div><small>Theme-switcher is not a part of Minima</small></div>
+  </div>
+</div>
+
+<script>
+  document.getElementById("skin-switch-container").style.display = "block";
+  var metaTag = document.getElementById("main-stylesheet");
+  var skinSwitcher = document.getElementById("skin-switch");
+  var SSHref = metaTag.href;
+  var SSName = SSHref.substring(SSHref.lastIndexOf('/') + 1);
+  var prevSkin = localStorage.getItem("minima-ss");
+
+  if (prevSkin) {
+    metaTag.href = SSHref.replace(SSName, prevSkin);
+    skinSwitcher.value = prevSkin;
+  } else {
+    skinSwitcher.value = SSName;
+  }
+
+  function changeSkin() {
+    _ssName = event.target.value;
+    metaTag.href = SSHref.replace(SSName, _ssName);
+    localStorage.setItem("minima-ss", _ssName);
+  }
+
+  function toggleSubFooter() {
+    siteFooter = document.querySelector(".site-footer");
+    siteFooter.classList.toggle("sub-footer-hidden");
+  }
+</script>
