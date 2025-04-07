@@ -272,16 +272,19 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 
 ### Enabling comments (via Disqus)
 
-Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
+1. Create a Disqus site using [this form](https://disqus.com/admin/create/) and take note of the shortname (the unique Disqus URL prefix displayed under the _Website Name_ field).
 
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
+1. Add the `_includes/disqus_comments.html` file from this repository to your repository `_includes/` folder.
 
-To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
+1. Make the following changes to your `_config.yml` file:
 
-```yaml
-  disqus:
-    shortname: my_disqus_shortname
-```
+   ```diff
+   - url: ""
+   + url: https://myusername.github.io
+
+   + disqus:
+   +   shortname: my_disqus_shortname
+   ```
 
 You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
