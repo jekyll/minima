@@ -104,7 +104,7 @@ The title for this section is `Posts` by default and rendered with an `<h2>` tag
 
 Refers to snippets of code within the `_includes` directory that can be inserted in multiple layouts (and another include-file as well) within the same theme-gem.
 
-  - `disqus_comments.html` &mdash; Code to markup disqus comment box.
+  - `comments.html` &mdash; Markup to render comments (via Disqus; active only when Jekyll environment is set to `production`).
   - `footer.html` &mdash; Defines the site's footer section.
   - `google-analytics.html` &mdash; Inserts Google Analytics module (active only in production environment).
   - `head.html` &mdash; Code-block that defines the `<head></head>` in *default* layout.
@@ -272,22 +272,20 @@ You can *add* custom metadata to the `<head />` of your layouts by creating a fi
 
 ### Enabling comments (via Disqus)
 
-Optionally, if you have a Disqus account, you can tell Jekyll to use it to show a comments section below each post.
-
-:warning: `url`, e.g. `https://example.com`, must be set in you config file for Disqus to work.
-
-To enable it, after setting the url field, you also need to add the following lines to your Jekyll site:
+Optionally, if you have a Disqus account, you can render a comments section below each post with the following configuration:
 
 ```yaml
-  disqus:
-    shortname: my_disqus_shortname
+url: "https://my_domain.com"
+disqus:
+  shortname: my_disqus_shortname
 ```
 
 You can find out more about Disqus' shortnames [here](https://help.disqus.com/installation/whats-a-shortname).
 
 Comments are enabled by default and will only appear in production, i.e., `JEKYLL_ENV=production`
 
-If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's YAML Front Matter.
+If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that
+post's YAML Front Matter.
 
 ### Author Metadata
 
