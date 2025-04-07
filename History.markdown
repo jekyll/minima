@@ -62,6 +62,7 @@
   * Simplify `.wrapper` style definition (#852)
   * Improve navigation styling and experience (#856)
   * Set default `font-weight` of headings to `500` (#868)
+  * Render comments via platform-agnostic inclusion (#886)
 
 ### Bug Fixes
 
