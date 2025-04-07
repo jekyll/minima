@@ -259,7 +259,6 @@
   .post-authors { margin-top: 3px }
 }
 
-
 .post-title,
 .post-content h1 {
   margin-bottom: 10px;
@@ -306,6 +305,10 @@
   }
 }
 
+.comments-disabled-message {
+  text-align: center;
+  font-weight: 300;
+}
 
 .social-media-list {
   display: table;
