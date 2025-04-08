@@ -1,12 +1,12 @@
 # Site-wide settings
 # ------------------
-#
-# title: Your awesome title
-#
-# author:
-#   name: GitHub User
-#   email: your-email@domain.com
-#
+
+title: sisyphe blog
+
+author:
+  name: sisyphe98
+  email: griiim134@gmail.com
+
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
 # description: >
@@ -31,13 +31,13 @@
 # Minima requires the following plugins:
 plugins:
  - jekyll-feed
-#  - jekyll-seo-tag
+ - jekyll-seo-tag
 #
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
-# sass:
-#   quiet_deps: true
-#   silence_deprecations: [import]
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
 
 # Minima-specific settings (applicable to Minima v3 and above only)
@@ -46,7 +46,7 @@ plugins:
 #  *All described config keys below should be nested under the top-level
 #   `minima` key.*
 #
-# minima:
+minima:
 #   Minima skin selection. Available skins are:
 #     * classic            Default, light color scheme.
 #     * dark               Dark variant of the classic skin.
@@ -54,14 +54,14 @@ plugins:
 #     * solarized-light    Light variant of solarized color scheme.
 #     * solarized-dark     Dark variant of solarized color scheme.
 #     * solarized          Adaptive skin for solarized color scheme skins.
-#   skin: auto
+  skin: auto
 #
 #   Specific pages for site navigation.
 #     If you wish to link only specific pages in the site-navigation, use this
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
-#   nav_pages:
-#     - about.md
+  nav_pages:
+    - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
 #   show_excerpts: false
@@ -77,10 +77,10 @@ plugins:
 #       * title    Tooltip rendered on hovering over icon.
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
-#   social_links:
-#     - title: Minima Theme repository at GitHub
-#       icon: github
-#       url: "https://github.com/jekyll/minima"
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/sisyphe98"
 #     - title: Jekyll at X (formerly Twitter)
 #       icon: x-twitter
 #       url: "https://x.com/jekyllrb"
