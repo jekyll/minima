@@ -759,6 +759,11 @@ table td {
   font-size: 1.0625rem;
 }
 
+.comments-disabled-message {
+  text-align: center;
+  font-weight: 300;
+}
+
 .social-media-list, .pagination {
   display: table;
   margin: 0 auto;
