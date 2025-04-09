@@ -104,6 +104,7 @@
   * Delay loading font-awesome stylesheet from CDN (#883)
   * Undo fixed header (#884)
   * Render minimal site-nav on small screens (#885)
+  * Fix invalid HTML (#330)
 
 ### Development Fixes
 
