@@ -335,10 +335,10 @@ The full list of available social icons can be found at https://fontawesome.com/
 To enable Google Analytics, add the following lines to your Jekyll site:
 
 ```yaml
-  google_analytics: UA-NNNNNNNN-N
+google_analytics: G-NNNNNNNNNN  // The former `UA-NNNNNNNN-N` format is no longer supported by Google
 ```
 
-Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
+Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`.
 
 ### Enabling Excerpts on the Home Page
 
