@@ -2,13 +2,13 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  position: relative;
+  width: 100%;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  background-color: $background-color;
+  border-top: 5px solid $border-color-03;
+  border-bottom: 1px solid $border-color-01;
 }
 
 .site-title {
@@ -29,89 +29,90 @@
 }
 
 .site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $border-color-01;
-  border-radius: 5px;
-  text-align: right;
+  float: right;
+  border: none;
+  background-color: inherit;
 
-  .nav-trigger {
+  label[for="nav-trigger"], #nav-trigger {
     display: none;
   }
 
-  .menu-icon {
-    float: right;
-    width: 36px;
-    height: 26px;
-    line-height: 0;
-    padding-top: 10px;
-    text-align: center;
-
-    > svg path {
-      fill: $border-color-03;
-    }
-  }
-
-  label[for="nav-trigger"] {
-    display: block;
-    float: right;
-    width: 36px;
-    height: 36px;
-    z-index: 2;
-    cursor: pointer;
-  }
-
-  input ~ .trigger {
-    clear: both;
-    display: none;
-  }
-
-  input:checked ~ .trigger {
-    display: block;
-    padding-bottom: 5px;
-  }
-
-  .page-link {
+  .nav-item {
     color: $text-color;
-    line-height: $base-line-height;
-    display: block;
-    padding: 5px 10px;
-
-    // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 0;
+      margin-right: $spacing-unit * 0.5;
     }
-    margin-left: 20px;
   }
 
-  @media screen and (min-width: $on-medium) {
-    position: static;
-    float: right;
-    border: none;
-    background-color: inherit;
+  @include media-query($on-medium) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit * 0.6;
+    background-color: $background-color;
+    border: 1px solid $border-color-01;
+    border-radius: 5px;
+    text-align: right;
 
     label[for="nav-trigger"] {
-      display: none;
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
     }
 
     .menu-icon {
-      display: none;
-    }
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 18px;
+      text-align: center;
 
-    input ~ .trigger {
-      display: block;
-    }
-
-    .page-link {
-      display: inline;
-      padding: 0;
-
-      &:not(:last-child) {
-        margin-right: 20px;
+      &::before {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
       }
-      margin-left: auto;
+
+      > svg path {
+        fill: $border-color-03;
+      }
+    }
+
+    #nav-trigger {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f0c9";
+          font-size: 1.25em;
+        }
+      }
+      ~ .nav-items {
+        clear: both;
+        display: none
+      }
+      &:checked {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f00d";
+          font-size: 1.5em;
+        }
+      }
+        ~ .nav-items {
+          display: block;
+          padding-bottom: 5px;
+          .nav-item {
+            margin-left: 20px;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+
+    .nav-item {
+      display: block;
+      padding: 5px 0;
+      color: $text-color;
+      line-height: $base-line-height;
     }
   }
 }
@@ -128,7 +129,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit * .5;
 }
 
 .feed-subscribe .svg-icon {
@@ -148,7 +149,7 @@
 }
 
 .footer-col {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit * .5;
 }
 
 .footer-col-1,
@@ -181,16 +182,16 @@
 
   .footer-col {
     width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit / 2);
+    padding: 0 ($spacing-unit * .5);
 
     &:first-child {
-      padding-right: $spacing-unit / 2;
+      padding-right: $spacing-unit * .5;
       padding-left: 0;
     }
 
     &:last-child {
       padding-right: 0;
-      padding-left: $spacing-unit / 2;
+      padding-left: $spacing-unit * .5;
     }
   }
 }
@@ -239,11 +240,30 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  padding-bottom: 18px;
+  text-align: center;
+  border-bottom: 1px solid $border-color-01;
+}
+
+.post-meta {
+  .bullet-divider { padding-inline: 15px }
+  .meta-label { font-weight: 600 }
+
+  .force-inline {
+    display: inline;
+    &::before {
+      content: "•";
+      padding-inline: 5px;
+    }
+  }
+  .post-authors { margin-top: 3px }
 }
 
 .post-title,
 .post-content h1 {
+  margin-bottom: 10px;
   @include relative-font-size(2.625);
+  font-weight: $base-font-weight;
   letter-spacing: -1px;
   line-height: 1.15;
 
@@ -285,12 +305,19 @@
   }
 }
 
+.comments-disabled-message {
+  text-align: center;
+  font-weight: 300;
+}
 
 .social-media-list {
   display: table;
   margin: 0 auto;
   li {
     float: left;
+    min-width: 45px;
+    min-height: 45px;
+    text-align: center;
     margin: 5px 10px 5px 0;
     &:last-of-type { margin-right: 0 }
     a {
@@ -318,7 +345,7 @@
     }
     div {
       display: block;
-      padding: $spacing-unit / 4;
+      padding: $spacing-unit * .25;
       border: 1px solid transparent;
 
       &.pager-edge {
@@ -326,6 +353,42 @@
         border: 1px dashed;
       }
     }
+  }
+}
+
+
+
+/**
+ * Task-lists
+ */
+
+.task-list {
+  margin-left: 0;
+  padding-left: $spacing-unit * 0.6;
+}
+
+.task-list-item {
+  list-style-type: none;
+  &-checkbox {
+    position: relative;
+    margin-right: $spacing-unit * 0.3;
+    margin-left: -$spacing-unit * 0.5;
+    appearance: none;
+    border: 8px solid $border-color-01;
+    vertical-align: text-top;
+    z-index: -1;
+    &::after {
+      position: absolute;
+      top: -8px;
+      left: -3px;
+      width: 4px;
+      height: 10px;
+      content: "";
+      border: solid transparent;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    &:checked::after { border-color: $border-color-03 }
   }
 }
 

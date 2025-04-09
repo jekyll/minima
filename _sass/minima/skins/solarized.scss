@@ -43,9 +43,11 @@ $sol-green:    #859900;  // 60 -20  65
 $sol-light-mix1:  mix($sol-base1, $sol-base3);
 $sol-light-mix2:  mix($sol-blue, $sol-base00);
 $sol-light-mix3:  mix($sol-base2, $sol-base3);
+$sol-light-mix4:  #e8e3d4; // custom mixture of `$sol-base1` and `$sol-base3`.
 $sol-dark-mix1:   mix($sol-base01, $sol-base03);
 $sol-dark-mix2:   mix($sol-blue, $sol-base0);
 $sol-dark-mix3:   mix($sol-base02, $sol-base03);
+$sol-dark-mix4:   #193843; // custom mixture of `$sol-base01` and `$sol-base03`.
 
 
 // Mode selection
@@ -59,6 +61,7 @@ $sol-mono01:   $sol-base01;
 $sol-mix1:     $sol-light-mix1;
 $sol-mix2:     $sol-light-mix2;
 $sol-mix3:     $sol-light-mix3;
+$sol-mix4:     $sol-light-mix4;
 
 @if $sol-is-dark {
   $sol-mono3:  $sol-base03;
@@ -69,6 +72,7 @@ $sol-mix3:     $sol-light-mix3;
   $sol-mix1:   $sol-dark-mix1;
   $sol-mix2:   $sol-dark-mix2;
   $sol-mix3:   $sol-dark-mix3;
+  $sol-mix4:   $sol-dark-mix4;
 }
 
 @if $sol-is-auto {
@@ -81,6 +85,7 @@ $sol-mix3:     $sol-light-mix3;
     --solarized-mix1:   #{$sol-light-mix1};
     --solarized-mix2:   #{$sol-light-mix2};
     --solarized-mix3:   #{$sol-light-mix3};
+    --solarized-mix4:   #{$sol-light-mix4};
   }
 
   @media (prefers-color-scheme: dark) {
@@ -93,6 +98,7 @@ $sol-mix3:     $sol-light-mix3;
       --solarized-mix1:   #{$sol-dark-mix1};
       --solarized-mix2:   #{$sol-dark-mix2};
       --solarized-mix3:   #{$sol-dark-mix3};
+      --solarized-mix4:   #{$sol-dark-mix4};
     }
   }
 
@@ -104,6 +110,7 @@ $sol-mix3:     $sol-light-mix3;
   $sol-mix1:   var(--solarized-mix1);
   $sol-mix2:   var(--solarized-mix2);
   $sol-mix3:   var(--solarized-mix3);
+  $sol-mix4:   var(--solarized-mix4);
 }
 
 
@@ -111,14 +118,15 @@ $sol-mix3:     $sol-light-mix3;
 // ----------------------
 
 $brand-color:           $sol-mono1 !default;
-$brand-color-light:     $sol-mix1 !default;
+$brand-color-light:     $sol-mix4 !default;
 $brand-color-dark:      $sol-mono00 !default;
 
 $site-title-color:      $sol-mono00 !default;
 
-$text-color:            $sol-mono01 !default;
+$heading-color:         $sol-mono01 !default;
+$text-color:            $sol-mono00 !default;
 $background-color:      $sol-mono3 !default;
-$code-background-color: $sol-mono2 !default;
+$code-background-color: $sol-mix3 !default;
 
 $link-base-color:       $sol-blue !default;
 $link-visited-color:    $sol-mix2 !default;
@@ -131,71 +139,81 @@ $border-color-03:       $sol-mono00 !default;
 $table-text-color:      $sol-mono00 !default;
 $table-zebra-color:     $sol-mix3 !default;
 $table-header-bg-color: $sol-mono2 !default;
-$table-header-border:   $sol-mono1 !default;
-$table-border-color:    $sol-mono1 !default;
+$table-header-border:   $sol-mix1 !default;
+$table-border-color:    $sol-mix1 !default;
 
 
 // Syntax highlighting styles
 // --------------------------
 
 .highlight {
-  .c     { color: $sol-mono1; font-style: italic } // Comment
-  .err   { color: $sol-red } // Error
-  .k     { color: $sol-mono01; font-weight: bold } // Keyword
-  .o     { color: $sol-mono01; font-weight: bold } // Operator
-  .cm    { color: $sol-mono1; font-style: italic } // Comment.Multiline
-  .cp    { color: $sol-mono1; font-weight: bold } // Comment.Preproc
-  .c1    { color: $sol-mono1; font-style: italic } // Comment.Single
-  .cs    { color: $sol-mono1; font-weight: bold; font-style: italic } // Comment.Special
+  .err   { color: #fefeec; background-color: $sol-red } // Error
+
+  .c     { color: $sol-mono1 } // Comment
+  .c1    { color: $sol-mono1 } // Comment.Single
+  .cm    { color: $sol-mono1 } // Comment.Multiline
+  .cp    { color: $sol-mono1 } // Comment.Preproc
+  .cs    { color: $sol-mono1; font-style: italic } // Comment.Special
+
   .gd    { color: $sol-red } // Generic.Deleted
   .gd .x { color: $sol-red } // Generic.Deleted.Specific
   .ge    { color: $sol-mono00; font-style: italic } // Generic.Emph
-  .gr    { color: $sol-red } // Generic.Error
   .gh    { color: $sol-mono1 } // Generic.Heading
   .gi    { color: $sol-green } // Generic.Inserted
   .gi .x { color: $sol-green } // Generic.Inserted.Specific
   .go    { color: $sol-mono00 } // Generic.Output
   .gp    { color: $sol-mono00 } // Generic.Prompt
+  .gr    { color: $sol-red } // Generic.Error
   .gs    { color: $sol-mono01; font-weight: bold } // Generic.Strong
-  .gu    { color: $sol-mono1 } // Generic.Subheading
   .gt    { color: $sol-red } // Generic.Traceback
-  .kc    { color: $sol-mono01; font-weight: bold } // Keyword.Constant
-  .kd    { color: $sol-mono01; font-weight: bold } // Keyword.Declaration
-  .kp    { color: $sol-mono01; font-weight: bold } // Keyword.Pseudo
-  .kr    { color: $sol-mono01; font-weight: bold } // Keyword.Reserved
-  .kt    { color: $sol-violet; font-weight: bold } // Keyword.Type
-  .m     { color: $sol-cyan } // Literal.Number
-  .s     { color: $sol-magenta } // Literal.String
+  .gu    { color: $sol-mono1 } // Generic.Subheading
+
+  .k     { color: $sol-orange } // Keyword
+  .kc    { color: $sol-orange } // Keyword.Constant
+  .kd    { color: $sol-orange } // Keyword.Declaration
+  .kp    { color: $sol-orange } // Keyword.Pseudo
+  .kr    { color: $sol-orange } // Keyword.Reserved
+  .kt    { color: $sol-violet } // Keyword.Type
+
   .na    { color: $sol-cyan } // Name.Attribute
-  .nb    { color: $sol-blue } // Name.Builtin
-  .nc    { color: $sol-violet; font-weight: bold } // Name.Class
-  .no    { color: $sol-cyan } // Name.Constant
+  .nb    { color: $sol-orange } // Name.Builtin
+  .bp    { color: $sol-blue } // Name.Builtin.Pseudo
+  .nc    { color: $sol-violet } // Name.Class
+  .ne    { color: $sol-violet } // Name.Exception
+  .nf    { color: $sol-blue } // Name.Function
   .ni    { color: $sol-violet } // Name.Entity
-  .ne    { color: $sol-violet; font-weight: bold } // Name.Exception
-  .nf    { color: $sol-blue; font-weight: bold } // Name.Function
-  .nn    { color: $sol-mono00 } // Name.Namespace
-  .nt    { color: $sol-blue } // Name.Tag
+  .nn    { color: $sol-violet } // Name.Namespace
+  .no    { color: $sol-violet } // Name.Constant
+  .nt    { color: $sol-orange } // Name.Tag
   .nv    { color: $sol-cyan } // Name.Variable
-  .ow    { color: $sol-mono01; font-weight: bold } // Operator.Word
-  .w     { color: $sol-mono1 } // Text.Whitespace
-  .mf    { color: $sol-cyan } // Literal.Number.Float
-  .mh    { color: $sol-cyan } // Literal.Number.Hex
-  .mi    { color: $sol-cyan } // Literal.Number.Integer
-  .mo    { color: $sol-cyan } // Literal.Number.Oct
-  .sb    { color: $sol-magenta } // Literal.String.Backtick
-  .sc    { color: $sol-magenta } // Literal.String.Char
-  .sd    { color: $sol-magenta } // Literal.String.Doc
-  .s2    { color: $sol-magenta } // Literal.String.Double
-  .se    { color: $sol-magenta } // Literal.String.Escape
-  .sh    { color: $sol-magenta } // Literal.String.Heredoc
-  .si    { color: $sol-magenta } // Literal.String.Interpol
-  .sx    { color: $sol-magenta } // Literal.String.Other
-  .sr    { color: $sol-green } // Literal.String.Regex
-  .s1    { color: $sol-magenta } // Literal.String.Single
-  .ss    { color: $sol-magenta } // Literal.String.Symbol
-  .bp    { color: $sol-mono1 } // Name.Builtin.Pseudo
   .vc    { color: $sol-cyan } // Name.Variable.Class
   .vg    { color: $sol-cyan } // Name.Variable.Global
   .vi    { color: $sol-cyan } // Name.Variable.Instance
-  .il    { color: $sol-cyan } // Literal.Number.Integer.Long
+
+  .o     { color: $sol-green } // Operator
+  .ow    { color: $sol-green } // Operator.Word
+
+  .m     { color: $sol-violet } // Literal.Number
+  .mf    { color: $sol-violet } // Literal.Number.Float
+  .mh    { color: $sol-violet } // Literal.Number.Hex
+  .mi    { color: $sol-violet } // Literal.Number.Integer
+  .il    { color: $sol-violet } // Literal.Number.Integer.Long
+  .mo    { color: $sol-violet } // Literal.Number.Oct
+
+  .s     { color: $sol-magenta } // Literal.String
+  .s1    { color: $sol-magenta } // Literal.String.Single
+  .s2    { color: $sol-magenta } // Literal.String.Double
+  .sb    { color: $sol-magenta } // Literal.String.Backtick
+  .sc    { color: $sol-magenta } // Literal.String.Char
+  .sd    { color: $sol-magenta } // Literal.String.Doc
+  .se    { color: $sol-magenta } // Literal.String.Escape
+  .sh    { color: $sol-magenta } // Literal.String.Heredoc
+  .si    { color: $sol-magenta } // Literal.String.Interpol
+  .sr    { color: $sol-green } // Literal.String.Regex
+  .ss    { color: $sol-magenta } // Literal.String.Symbol
+  .sx    { color: $sol-magenta } // Literal.String.Other
+
+  .w     { color: $sol-mono1 } // Text.Whitespace
+
+  .lineno, .gl { color: $sol-mono1 } // Line Number
 }

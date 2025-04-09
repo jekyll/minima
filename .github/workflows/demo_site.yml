@@ -1,10 +1,8 @@
 name: Build and Deploy Demo Site
 
 on:
-  push:
-    branches:
-      - master
-      - demo-site
+  # Run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   deploy_demo_site:

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name     = "minima"
-  spec.version  = "2.5.1"
+  spec.version  = "3.0.0.dev"
   spec.authors  = ["Joel Glovier"]
   spec.email    = ["jglovier@github.com"]
 
