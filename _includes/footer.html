@@ -1,33 +1,41 @@
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
 <footer class="site-footer h-card">
   <data class="u-url" value="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
         </ul>
+      {%- endif %}
       </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+    <div class="social-links">
+      {%- include social.html -%}
     </div>
 
   </div>

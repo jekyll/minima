@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+// Default color scheme settings
+// These are overridden in classic.css and dark.scss
+
+$color-scheme-auto: true !default;
+$color-scheme-dark: false !default;
+
+
+// Light mode
+// ----------
+
+$lm-brand-color:           #818181 !default;
+$lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
+$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+
+$lm-site-title-color:      $lm-brand-color-dark !default;
+
+$lm-heading-color:         #111111 !default;
+$lm-text-color:            $lm-brand-color-dark !default;
+$lm-background-color:      #fdfdfd !default;
+$lm-code-background-color: #f6f8fa !default;
+
+$lm-link-base-color:       #2a7ae2 !default;
+$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
+$lm-link-hover-color:      $lm-text-color !default;
+
+$lm-border-color-01:       $lm-brand-color-light !default;
+$lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
+$lm-border-color-03:       $lm-brand-color-dark !default;
+
+$lm-table-text-color:      lighten($lm-heading-color, 18%) !default;
+$lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
+$lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
+$lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
+$lm-table-border-color:    $lm-border-color-01 !default;
+
+
+// Syntax highlighting styles should be adjusted appropriately for every "skin"
+// ----------------------------------------------------------------------------
+
+@mixin lm-highlight {
+  .highlight {
+    .err   { color: #e3d2d2; background-color: #a61717 } // Error
+
+    .c     { color: #9c9996 } // Comment
+    .cm    { color: #9c9996 } // Comment.Multiline
+    .cp    { color: #9c9996 } // Comment.Preproc
+    .c1    { color: #9c9996 } // Comment.Single
+    .cs    { color: #9c9996; font-style: italic } // Comment.Special
+
+    .gd    { color: #e25050 } // Generic.Deleted
+    .gd .x { color: #e25050 } // Generic.Deleted.Specific
+    .ge    { font-style: italic } // Generic.Emph
+    .gh    { color: #999999 } // Generic.Heading
+    .gi    { color: #3f993f } // Generic.Inserted
+    .gi .x { color: #3f993f } // Generic.Inserted.Specific
+    .go    { color: #888888 } // Generic.Output
+    .gp    { color: #555555 } // Generic.Prompt
+    .gr    { color: #aa0000 } // Generic.Error
+    .gs    { font-weight: bold } // Generic.Strong
+    .gt    { color: #aa0000 } // Generic.Traceback
+    .gu    { color: #aaaaaa } // Generic.Subheading
+
+    .k     { color: #cf222e } // Keyword
+    .kc    { color: #cf222e } // Keyword.Constant
+    .kd    { color: #cf222e } // Keyword.Declaration
+    .kp    { color: #cf222e } // Keyword.Pseudo
+    .kr    { color: #cf222e } // Keyword.Reserved
+    .kt    { color: #445588 } // Keyword.Type
+
+    .n     { color: #111111 }
+    .na    { color: #097e39 } // Name.Attribute
+    .nb    { color: #cf222e } // Name.Builtin
+    .bp    { color: #999999 } // Name.Builtin.Pseudo
+    .nc    { color: #097e39 } // Name.Class
+    .ne    { color: #990000 } // Name.Exception
+    .nf    { color: #2c7d74 } // Name.Function
+    .ni    { color: #097e39 } // Name.Entity
+    .nn    { color: #097e39 } // Name.Namespace
+    .no    { color: #a61154 } // Name.Constant
+    .nt    { color: #b81e63 } // Name.Tag
+    .nv    { color: #752a75 } // Name.Variable
+    .vc    { color: #752a75 } // Name.Variable.Class
+    .vg    { color: #752a75 } // Name.Variable.Global
+    .vi    { color: #752a75 } // Name.Variable.Instance
+
+    .o     { color: #0842a0 } // Operator
+    .ow    { color: #0842a0 } // Operator.Word
+
+    .m     { color: #005a99 } // Literal.Number
+    .mf    { color: #005a99 } // Literal.Number.Float
+    .mh    { color: #005a99 } // Literal.Number.Hex
+    .mi    { color: #005a99 } // Literal.Number.Integer
+    .il    { color: #005a99 } // Literal.Number.Integer.Long
+    .mo    { color: #005a99 } // Literal.Number.Oct
+
+    .s     { color: #914d08 } // Literal.String
+    .s1    { color: #914d08 } // Literal.String.Single
+    .s2    { color: #914d08 } // Literal.String.Double
+    .sb    { color: #914d08 } // Literal.String.Backtick
+    .sc    { color: #914d08 } // Literal.String.Char
+    .sd    { color: #914d08 } // Literal.String.Doc
+    .se    { color: #914d08 } // Literal.String.Escape
+    .sh    { color: #914d08 } // Literal.String.Heredoc
+    .si    { color: #914d08 } // Literal.String.Interpol
+    .sr    { color: #009926 } // Literal.String.Regex
+    .ss    { color: #0842a0 } // Literal.String.Symbol
+    .sx    { color: #914d08 } // Literal.String.Other
+
+    .w     { color: #bbbbbb } // Text.Whitespace
+
+    .lineno, .gl { color: #9c9996 } // Line Number
+  }
+}
+
+
+// Dark mode
+// ---------
+
+$dm-brand-color:           #999999 !default;
+$dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
+$dm-brand-color-dark:      darken($dm-brand-color, 43%) !default;
+
+$dm-site-title-color:      $dm-brand-color-light !default;
+
+$dm-heading-color:         #bbbbbb !default;
+$dm-text-color:            darken($dm-heading-color, 15%) !default;
+$dm-background-color:      #181818 !default;
+$dm-code-background-color: #222222 !default;
+
+$dm-link-base-color:       #79b8ff !default;
+$dm-link-visited-color:    $dm-link-base-color !default;
+$dm-link-hover-color:      $dm-text-color !default;
+
+$dm-border-color-01:       $dm-brand-color-dark !default;
+$dm-border-color-02:       $dm-brand-color-light !default;
+$dm-border-color-03:       $dm-brand-color !default;
+
+$dm-table-text-color:      $dm-text-color !default;
+$dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
+$dm-table-header-bg-color: lighten($dm-background-color, 10%) !default;
+$dm-table-header-border:   lighten($dm-background-color, 15%) !default;
+$dm-table-border-color:    $dm-border-color-01 !default;
+
+
+// Syntax highlighting styles should be adjusted appropriately for every "skin"
+// List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
+// Some colors come from Material Theme Darker:
+// https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/settings/specific/darker-hc.ts
+// https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/color-set.ts
+// ----------------------------------------------------------------------------
+
+@mixin dm-highlight {
+  .highlight {
+    .err   { color: #e3d2d2; background-color: #8c2121 } // Error
+
+    .c     { color: #8a8a8a } // Comment
+    .c1    { color: #8a8a8a } // Comment.Single
+    .cm    { color: #8a8a8a } // Comment.Multiline
+    .cp    { color: #8a8a8a } // Comment.Preproc
+    .cs    { color: #8a8a8a; font-style: italic }  // Comment.Special
+
+    .gd    { color: #d85a5a } // Generic.Deleted
+    .gd .x { color: #d85a5a } // Generic.Deleted.Specific
+    .ge    { font-style: italic } // Generic.Emph
+    .gh    { color: #999999 } // Generic.Heading
+    .gi    { color: #4ec64e } // Generic.Inserted
+    .gi .x { color: #4ec64e } // Generic.Inserted.Specific
+    .go    { color: #888888 } // Generic.Output
+    .gp    { color: #555555 } // Generic.Prompt
+    .gr    { color: #f07178 } // Generic.Error
+    .gs    { font-weight: bold } // Generic.Strong
+    .gt    { color: #f07178 } // Generic.Traceback
+    .gu    { color: #aaaaaa } // Generic.Subheading
+
+    .k     { color: #d85a7b } // Keyword
+    .kc    { color: #d85a7b } // Keyword.Constant
+    .kd    { color: #d85a7b } // Keyword.Declaration
+    .kp    { color: #d85a7b } // Keyword.Pseudo
+    .kr    { color: #d85a7b } // Keyword.Reserved
+    .kt    { color: #ffcb6b } // Keyword.Type
+
+    .n     { color: #c7d1d8 }
+    .na    { color: #11a69f } // Name.Attribute
+    .nb    { color: #d85a7b } // Name.Builtin
+    .bp    { color: #999999 } // Name.Builtin.Pseudo
+    .nc    { color: #11a69f } // Name.Class
+    .ne    { color: #990000 } // Name.Exception
+    .nf    { color: #5ab780 } // Name.Function
+    .ni    { color: #11a69f } // Name.Entity
+    .nn    { color: #11a69f } // Name.Namespace
+    .no    { color: #9d99e6 } // Name.Constant
+    .nt    { color: #de3581 } // Name.Tag
+    .nv    { color: #9680b1 } // Name.Variable
+    .vc    { color: #9680b1 } // Name.Variable.Class
+    .vg    { color: #9680b1 } // Name.Variable.Global
+    .vi    { color: #9680b1 } // Name.Variable.Instance
+
+    .o     { color: #bcd890 } // Operator
+    .ow    { color: #bcd890 } // Operator.Word
+
+    .m     { color: #9d99e6 } // Literal.Number
+    .mf    { color: #9d99e6 } // Literal.Number.Float
+    .mh    { color: #9d99e6 } // Literal.Number.Hex
+    .mi    { color: #9d99e6 } // Literal.Number.Integer
+    .il    { color: #9d99e6 } // Literal.Number.Integer.Long
+    .mo    { color: #9d99e6 } // Literal.Number.Oct
+
+    .s     { color: #baa94a } // Literal.String
+    .s1    { color: #baa94a } // Literal.String.Single
+    .s2    { color: #baa94a } // Literal.String.Double
+    .sb    { color: #baa94a } // Literal.String.Backtick
+    .sc    { color: #baa94a } // Literal.String.Char
+    .sd    { color: #baa94a } // Literal.String.Doc
+    .se    { color: #baa94a } // Literal.String.Escape
+    .sh    { color: #baa94a } // Literal.String.Heredoc
+    .si    { color: #baa94a } // Literal.String.Interpol
+    .sr    { color: #009926 } // Literal.String.Regex
+    .ss    { color: #3c90f5 } // Literal.String.Symbol
+    .sx    { color: #baa94a } // Literal.String.Other
+
+    .w     { color: #eeffff } // Text.Whitespace
+
+    .lineno, .gl { color: #8a8a8a } // Line Number
+  }
+}
+
+
+// Mode selection
+// --------------
+
+
+// Classic skin (always light mode)
+// Assign outside of the if construct to establish global variable scope
+
+$brand-color: $lm-brand-color;
+$brand-color-light: $lm-brand-color-light;
+$brand-color-dark: $lm-brand-color-dark;
+
+$site-title-color: $lm-site-title-color;
+
+$heading-color: $lm-heading-color;
+$text-color: $lm-text-color;
+$background-color: $lm-background-color;
+$code-background-color: $lm-code-background-color;
+
+$link-base-color: $lm-link-base-color;
+$link-visited-color: $lm-link-visited-color;
+$link-hover-color: $lm-link-hover-color;
+
+$border-color-01: $lm-border-color-01;
+$border-color-02: $lm-border-color-02;
+$border-color-03: $lm-border-color-03;
+
+$table-text-color: $lm-table-text-color;
+$table-zebra-color: $lm-table-zebra-color;
+$table-header-bg-color: $lm-table-header-bg-color;
+$table-header-border: $lm-table-header-border;
+$table-border-color: $lm-table-border-color;
+
+
+@if $color-scheme-auto {
+
+  // Auto mode
+
+  :root {
+    --minima-brand-color: #{$lm-brand-color};
+    --minima-brand-color-light: #{$lm-brand-color-light};
+    --minima-brand-color-dark: #{$lm-brand-color-dark};
+
+    --minima-site-title-color: #{$lm-site-title-color};
+
+    --minima-heading-color: #{$lm-heading-color};
+    --minima-text-color: #{$lm-text-color};
+    --minima-background-color: #{$lm-background-color};
+    --minima-code-background-color: #{$lm-code-background-color};
+
+    --minima-link-base-color: #{$lm-link-base-color};
+    --minima-link-visited-color: #{$lm-link-visited-color};
+    --minima-link-hover-color: #{$lm-link-hover-color};
+
+    --minima-border-color-01: #{$lm-border-color-01};
+    --minima-border-color-02: #{$lm-border-color-02};
+    --minima-border-color-03: #{$lm-border-color-03};
+
+    --minima-table-text-color: #{$lm-table-text-color};
+    --minima-table-zebra-color: #{$lm-table-zebra-color};
+    --minima-table-header-bg-color: #{$lm-table-header-bg-color};
+    --minima-table-header-border: #{$lm-table-header-border};
+    --minima-table-border-color: #{$lm-table-border-color};
+  }
+
+  @include lm-highlight;
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --minima-brand-color: #{$dm-brand-color};
+      --minima-brand-color-light: #{$dm-brand-color-light};
+      --minima-brand-color-dark: #{$dm-brand-color-dark};
+
+      --minima-site-title-color: #{$dm-site-title-color};
+
+      --minima-heading-color: #{$dm-heading-color};
+      --minima-text-color: #{$dm-text-color};
+      --minima-background-color: #{$dm-background-color};
+      --minima-code-background-color: #{$dm-code-background-color};
+
+      --minima-link-base-color: #{$dm-link-base-color};
+      --minima-link-visited-color: #{$dm-link-visited-color};
+      --minima-link-hover-color: #{$dm-link-hover-color};
+
+      --minima-border-color-01: #{$dm-border-color-01};
+      --minima-border-color-02: #{$dm-border-color-02};
+      --minima-border-color-03: #{$dm-border-color-03};
+
+      --minima-table-text-color: #{$dm-table-text-color};
+      --minima-table-zebra-color: #{$dm-table-zebra-color};
+      --minima-table-header-bg-color: #{$dm-table-header-bg-color};
+      --minima-table-header-border: #{$dm-table-header-border};
+      --minima-table-border-color: #{$dm-table-border-color};
+    }
+
+    @include dm-highlight;
+  }
+
+  $brand-color: var(--minima-brand-color);
+  $brand-color-light: var(--minima-brand-color-light);
+  $brand-color-dark: var(--minima-brand-color-dark);
+
+  $site-title-color: var(--minima-site-title-color);
+
+  $heading-color: var(--minima-heading-color);
+  $text-color: var(--minima-text-color);
+  $background-color: var(--minima-background-color);
+  $code-background-color: var(--minima-code-background-color);
+
+  $link-base-color: var(--minima-link-base-color);
+  $link-visited-color: var(--minima-link-visited-color);
+  $link-hover-color: var(--minima-link-hover-color);
+
+  $border-color-01: var(--minima-border-color-01);
+  $border-color-02: var(--minima-border-color-02);
+  $border-color-03: var(--minima-border-color-03);
+
+  $table-text-color: var(--minima-table-text-color);
+  $table-zebra-color: var(--minima-table-zebra-color);
+  $table-header-bg-color: var(--minima-table-header-bg-color);
+  $table-header-border: var(--minima-table-header-border);
+  $table-border-color: var(--minima-table-border-color);
+
+
+} @else if $color-scheme-dark {
+
+  // Dark skin (always dark mode)
+
+  $brand-color: $dm-brand-color;
+  $brand-color-light: $dm-brand-color-light;
+  $brand-color-dark: $dm-brand-color-dark;
+
+  $site-title-color: $dm-site-title-color;
+
+  $heading-color: $dm-heading-color;
+  $text-color: $dm-text-color;
+  $background-color: $dm-background-color;
+  $code-background-color: $dm-code-background-color;
+
+  $link-base-color: $dm-link-base-color;
+  $link-visited-color: $dm-link-visited-color;
+  $link-hover-color: $dm-link-hover-color;
+
+  $border-color-01: $dm-border-color-01;
+  $border-color-02: $dm-border-color-02;
+  $border-color-03: $dm-border-color-03;
+
+  $table-text-color: $dm-table-text-color;
+  $table-zebra-color: $dm-table-zebra-color;
+  $table-header-bg-color: $dm-table-header-bg-color;
+  $table-header-border: $dm-table-header-border;
+  $table-border-color: $dm-table-border-color;
+
+  @include dm-highlight;
+
+
+} @else {
+
+  // Classic skin syntax highlighting
+  @include lm-highlight;
+
+}

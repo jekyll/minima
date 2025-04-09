@@ -3,4 +3,4 @@
 set -e
 
 echo "Building the example site..."
-bundle exec jekyll build
+bundle exec jekyll build --config _config_theme-dev.yml
