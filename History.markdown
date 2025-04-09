@@ -13,6 +13,7 @@
   * Add platform X supporting in README (#780)
   * Update readme_banner.svg to support dark mode (#813)
   * Add a warning regarding HEAD commit of `master` (#861)
+  * Update google analytics README regarding G- and UA- tags (#689)
 
 ### Minor Enhancements
 
