@@ -329,6 +329,13 @@ where `title` corresponds to the link-title displayed when a visitor hovers mous
 Social platform icons are rendered using the latest version of Font Awesome Free webfonts sourced via remote CDN.
 The full list of available social icons can be found at https://fontawesome.com/search?ic=brands
 
+> [!NOTE]
+> The link to your site's main syndication feed is always rendered as the last item of the social-links list.<br />
+> You may opt to not have this link rendered at all by setting config **`minima.hide_site_feed_link`** to `true`:
+> ```yaml
+> minima:
+>   hide_site_feed_link: true  # `false` or `null` by default
+> ```
 
 ### Enabling Google Analytics
 

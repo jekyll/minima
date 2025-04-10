@@ -84,3 +84,9 @@
 #     - title: Jekyll at X (formerly Twitter)
 #       icon: x-twitter
 #       url: "https://x.com/jekyllrb"
+#
+#   Hide syndication feed subscription link.
+#     RSS / Atom feed link is always rendered as the last item of social-links
+#     list. Set below key to `true` to not have the link to feed rendered as
+#     part of social-links list.
+#   hide_site_feed_link: false
