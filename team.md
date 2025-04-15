@@ -104,6 +104,15 @@ M.Sc.A. student, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechn
 Quantum Physics Enthusiast. \
 Enjoys tennis, frisbee, Nordic skiing, and a wide range of sports, as well as exploring the flavors of various beverages, including beer, wine, scotch, rum, and even coffee.
 
+<img src="https://github.com/polyquantique/polyquantique.github.io/raw/master/assets/images/tadeu.jpeg"
+     alt="Tadeu"
+     width="80"
+     height="90"
+     style="float: left; margin-right: 10px;" /> [**Tadeu Tassis**](https://tadeutassis.github.io). \
+Postdoctoral Associate, [Engineering Physics](https://www.polymtl.ca/phys/), [Polytechnique Montréal](https://www.polymtl.ca).  
+Graduated in 2018 with a PhD in Physics from Universidade Federal do ABC (UFABC, Brazil). \
+Enjoys music, films, coffee, and roaming through Wikipedia.
+
 ### Ancien.nes polyquanticien.nes
 * Yuan Yao was a visiting Ph.D. student from [Télécom Paris](https://www.telecom-paris.fr) in 2022 and is now a Quantum Architecture Scientist at Xanadu Quantum Technologies.
 * Jaehee Kim was a Qcenter fellow in 2023 and is now continuing his Ph.D. at [Sungkyunkwan University](https://www.skku.edu/eng/).
