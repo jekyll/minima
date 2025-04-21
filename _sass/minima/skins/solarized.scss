@@ -15,12 +15,15 @@ $sol-is-dark: false !default;
 // Color scheme
 // ------------
 // The inline comments show the canonical L*a*b values for each color.
+//
+// Some colors were altered from the canonical scheme to comply with
+// WCAG-contrast criteria between foreground and background colors.
 
 $sol-base03:   #002b36;  // 15 -12 -12
 $sol-base02:   #073642;  // 20 -12 -12
 $sol-base01:   #586e75;  // 45 -07 -07
-$sol-base00:   #657b83;  // 50 -07 -07
-$sol-base0:    #839496;  // 60 -06 -03
+$sol-base00:   #4e626a;  // original hex: #657b83 ; L*a*b: 50 -07 -07
+$sol-base0:    #91a0a1;  // original hex: #839496 ; L*a*b: 60 -06 -03
 $sol-base1:    #93a1a1;  // 65 -05 -02
 $sol-base2:    #eee8d5;  // 92 -00  10
 $sol-base3:    #fdf6e3;  // 97  00  10
@@ -33,6 +36,11 @@ $sol-blue:     #268bd2;  // 55 -10 -45
 $sol-cyan:     #2aa198;  // 60 -35 -05
 $sol-green:    #859900;  // 60 -20  65
 
+// Non-canonical; Derived to comply with WCAG-contrast criterion.
+$sol-light-blue:   #469edd;
+$sol-light-blue2:  #64a5ce;
+$sol-dark-blue:    #2072ac;
+$sol-dark-blue2:   #376a8b;
 
 // Mixed colors
 // ------------
@@ -49,7 +57,6 @@ $sol-dark-mix2:   mix($sol-blue, $sol-base0);
 $sol-dark-mix3:   mix($sol-base02, $sol-base03);
 $sol-dark-mix4:   #193843; // custom mixture of `$sol-base01` and `$sol-base03`.
 
-
 // Mode selection
 // --------------
 
@@ -63,6 +70,10 @@ $sol-mix2:     $sol-light-mix2;
 $sol-mix3:     $sol-light-mix3;
 $sol-mix4:     $sol-light-mix4;
 
+$sol-mono1-dimmed: darken($sol-base1, 20%);
+$sol-link-color:   $sol-dark-blue;
+$sol-link-visited: $sol-dark-blue2;
+
 @if $sol-is-dark {
   $sol-mono3:  $sol-base03;
   $sol-mono2:  $sol-base02;
@@ -73,6 +84,10 @@ $sol-mix4:     $sol-light-mix4;
   $sol-mix2:   $sol-dark-mix2;
   $sol-mix3:   $sol-dark-mix3;
   $sol-mix4:   $sol-dark-mix4;
+
+  $sol-mono1-dimmed: lighten($sol-base01, 16%);
+  $sol-link-color:   $sol-light-blue;
+  $sol-link-visited: $sol-light-blue2;
 }
 
 @if $sol-is-auto {
@@ -86,6 +101,10 @@ $sol-mix4:     $sol-light-mix4;
     --solarized-mix2:   #{$sol-light-mix2};
     --solarized-mix3:   #{$sol-light-mix3};
     --solarized-mix4:   #{$sol-light-mix4};
+
+    --solarized-mono1-dimmed: #{darken($sol-base1, 20%)};
+    --solarized-link-color:   #{$sol-dark-blue};
+    --solarized-link-visited: #{$sol-dark-blue2};
   }
 
   @media (prefers-color-scheme: dark) {
@@ -99,6 +118,10 @@ $sol-mix4:     $sol-light-mix4;
       --solarized-mix2:   #{$sol-dark-mix2};
       --solarized-mix3:   #{$sol-dark-mix3};
       --solarized-mix4:   #{$sol-dark-mix4};
+
+      --solarized-mono1-dimmed: #{lighten($sol-base01, 16%)};
+      --solarized-link-color:   #{$sol-light-blue};
+      --solarized-link-visited: #{$sol-light-blue2};
     }
   }
 
@@ -111,6 +134,10 @@ $sol-mix4:     $sol-light-mix4;
   $sol-mix2:   var(--solarized-mix2);
   $sol-mix3:   var(--solarized-mix3);
   $sol-mix4:   var(--solarized-mix4);
+
+  $sol-mono1-dimmed: var(--solarized-mono1-dimmed);
+  $sol-link-color:   var(--solarized-link-color);
+  $sol-link-visited: var(--solarized-link-visited);
 }
 
 
@@ -119,6 +146,7 @@ $sol-mix4:     $sol-light-mix4;
 
 $brand-color:           $sol-mono1 !default;
 $brand-color-light:     $sol-mix4 !default;
+$brand-color-dimmed:    $sol-mono1-dimmed !default;
 $brand-color-dark:      $sol-mono00 !default;
 
 $site-title-color:      $sol-mono00 !default;
@@ -128,8 +156,8 @@ $text-color:            $sol-mono00 !default;
 $background-color:      $sol-mono3 !default;
 $code-background-color: $sol-mix3 !default;
 
-$link-base-color:       $sol-blue !default;
-$link-visited-color:    $sol-mix2 !default;
+$link-base-color:       $sol-link-color !default;
+$link-visited-color:    $sol-link-visited !default;
 $link-hover-color:      $sol-mono00 !default;
 
 $border-color-01:       $brand-color-light !default;
