@@ -50,6 +50,7 @@
   * Refresh styling of highlighted code snippet blocks (#875)
   * Adapt styles for GFM task-lists (#882)
   * Render link to feed as last item of social-links list (#888)
+  * Adjust colors based on WCAG contrast criterion (#891)
 
 ### Major Enhancements
 
