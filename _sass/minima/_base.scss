@@ -196,7 +196,7 @@ div.highlight, figure.highlight {
 }
 
 figure.highlight {
-  & > pre { padding: 5px 0 0 }
+  table { margin: -8px -12px -14px }
   td.gutter { border-right: 1px solid $border-color-01 }
   td.code { width: 100% }
 }
