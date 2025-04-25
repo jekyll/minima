@@ -52,6 +52,7 @@
   * Render link to feed as last item of social-links list (#888)
   * Adjust colors based on WCAG contrast criterion (#891)
   * Add styles to be in sync with Jekyll&#39;s `mark_lines` feature (#892)
+  * Improve rendering of pagination pagers (#893)
 
 ### Major Enhancements
 
