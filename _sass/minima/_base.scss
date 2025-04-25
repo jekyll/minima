@@ -193,10 +193,11 @@ div.highlight, figure.highlight {
     padding: 0;
     border: 0
   }
+  .lineno, .gl { text-align: right }
 }
 
 figure.highlight {
-  & > pre { padding: 5px 0 0 }
+  table { margin: -8px -12px -14px }
   td.gutter { border-right: 1px solid $border-color-01 }
   td.code { width: 100% }
 }

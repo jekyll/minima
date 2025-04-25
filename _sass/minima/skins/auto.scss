@@ -112,6 +112,7 @@ $lm-table-border-color:    $lm-border-color-01 !default;
     .w     { color: #bbbbbb } // Text.Whitespace
 
     .lineno, .gl { color: #9c9996 } // Line Number
+    .hll   { background-color: #ffffcc } // Marked-lines
   }
 }
 
@@ -225,6 +226,7 @@ $dm-table-border-color:    $dm-border-color-01 !default;
     .w     { color: #eeffff } // Text.Whitespace
 
     .lineno, .gl { color: #8a8a8a } // Line Number
+    .hll   { background-color: #373730 } // Marked-lines
   }
 }
 

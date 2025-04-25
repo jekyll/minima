@@ -74,6 +74,8 @@ $sol-mono1-dimmed: darken($sol-base1, 20%);
 $sol-link-color:   $sol-dark-blue;
 $sol-link-visited: $sol-dark-blue2;
 
+$sol-mark-line-bgcolor: #ffffcc;
+
 @if $sol-is-dark {
   $sol-mono3:  $sol-base03;
   $sol-mono2:  $sol-base02;
@@ -88,6 +90,8 @@ $sol-link-visited: $sol-dark-blue2;
   $sol-mono1-dimmed: lighten($sol-base01, 16%);
   $sol-link-color:   $sol-light-blue;
   $sol-link-visited: $sol-light-blue2;
+
+  $sol-mark-line-bgcolor: #164145;
 }
 
 @if $sol-is-auto {
@@ -105,6 +109,8 @@ $sol-link-visited: $sol-dark-blue2;
     --solarized-mono1-dimmed: #{darken($sol-base1, 20%)};
     --solarized-link-color:   #{$sol-dark-blue};
     --solarized-link-visited: #{$sol-dark-blue2};
+
+    --solarized-mark-line-bg-color: #ffffcc;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -122,6 +128,8 @@ $sol-link-visited: $sol-dark-blue2;
       --solarized-mono1-dimmed: #{lighten($sol-base01, 16%)};
       --solarized-link-color:   #{$sol-light-blue};
       --solarized-link-visited: #{$sol-light-blue2};
+
+      --solarized-mark-line-bg-color: #164145;
     }
   }
 
@@ -138,6 +146,8 @@ $sol-link-visited: $sol-dark-blue2;
   $sol-mono1-dimmed: var(--solarized-mono1-dimmed);
   $sol-link-color:   var(--solarized-link-color);
   $sol-link-visited: var(--solarized-link-visited);
+
+  $sol-mark-line-bgcolor: var(--solarized-mark-line-bg-color);
 }
 
 
@@ -244,4 +254,5 @@ $table-border-color:    $sol-mix1 !default;
   .w     { color: $sol-mono1 } // Text.Whitespace
 
   .lineno, .gl { color: $sol-mono1 } // Line Number
+  .hll   { background-color: $sol-mark-line-bgcolor } // Marked-lines
 }

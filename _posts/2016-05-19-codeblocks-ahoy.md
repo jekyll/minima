@@ -86,7 +86,43 @@ author:
   id: 75636474
 ```
 
+{% highlight html %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <p>Hello, World!</p>
+  </body>
+</html>
+{% endhighlight %}
+
+{% highlight html mark_lines="1 4 7" %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <p>Hello, World!</p>
+  </body>
+</html>
+{% endhighlight %}
+
 {% highlight html linenos %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <p>Hello, World!</p>
+  </body>
+</html>
+{% endhighlight %}
+
+{% highlight html linenos mark_lines="1 4 7" %}
 <html>
   <head>
     <meta charset="utf-8" />
