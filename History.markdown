@@ -51,6 +51,7 @@
   * Adapt styles for GFM task-lists (#882)
   * Render link to feed as last item of social-links list (#888)
   * Adjust colors based on WCAG contrast criterion (#891)
+  * Add styles to be in sync with Jekyll&#39;s `mark_lines` feature (#892)
 
 ### Major Enhancements
 
