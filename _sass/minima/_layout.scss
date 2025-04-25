@@ -335,22 +335,35 @@
  * Pagination navbar
  */
 .pagination {
-  margin-bottom: $spacing-unit;
-  @extend .social-media-list;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
   li {
+    float: left;
+    margin: 0 3px;
+    min-width: 45px;
+    min-height: 45px;
+    text-align: center;
+    a {
+      display: block;
+      text-decoration: none;
+      border: 1px solid $border-color-01;
+      &:hover { border-color: $border-color-02 }
+    }
     a, div {
       min-width: 41px;
+      padding: 10px 12px;
       text-align: center;
       box-sizing: border-box;
     }
     div {
-      display: block;
-      padding: $spacing-unit * .25;
       border: 1px solid transparent;
-
       &.pager-edge {
         color: $border-color-01;
         border: 1px dashed;
+      }
+      &.current-page {
+        font-weight: bold;
       }
     }
   }
