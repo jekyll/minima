@@ -91,7 +91,7 @@ $sol-mark-line-bgcolor: #ffffcc;
   $sol-link-color:   $sol-light-blue;
   $sol-link-visited: $sol-light-blue2;
 
-  $sol-mark-line-bgcolor: #153d41;
+  $sol-mark-line-bgcolor: #164145;
 }
 
 @if $sol-is-auto {
@@ -129,7 +129,7 @@ $sol-mark-line-bgcolor: #ffffcc;
       --solarized-link-color:   #{$sol-light-blue};
       --solarized-link-visited: #{$sol-light-blue2};
 
-      --solarized-mark-line-bg-color: #153d41;
+      --solarized-mark-line-bg-color: #164145;
     }
   }
 
