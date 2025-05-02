@@ -14,6 +14,7 @@
   * Update readme_banner.svg to support dark mode (#813)
   * Add a warning regarding HEAD commit of `master` (#861)
   * Update google analytics README regarding G- and UA- tags (#689)
+  * Fix typo in README (#895)
 
 ### Minor Enhancements
 
