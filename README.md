@@ -35,11 +35,23 @@
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+### Minima 3
+
+Add this line to your Jekyll site's Gemfile to use Minima 3:
 
 ```ruby
+gem "minima", github: "jekyll/minima"
+```
+
+### Minima 2
+
+If for some reason you prefer to use minima 2, then you may pull it from rubygems.org:
+
+```
 gem "minima"
 ```
+
+### Install
 
 And then execute:
 
