@@ -1,3 +1,5 @@
+@use "sass:list";
+
 html {
   font-size: $base-font-size;
 }
@@ -19,7 +21,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight list.slash($base-font-size, $base-line-height) $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
