@@ -184,6 +184,9 @@
 .highlight .lineno, .highlight .gl {
   color: #9c9996;
 }
+.highlight .hll {
+  background-color: #ffffcc;
+}
 
 html {
   font-size: 16px;
@@ -284,21 +287,21 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #1e69d8;
   text-decoration: none;
 }
 a:visited {
-  color: #1756a9;
+  color: #154895;
 }
 a:hover {
   color: #414141;
   text-decoration: underline #818181;
   text-underline-offset: 3px;
 }
-.social-media-list a:hover, .pagination a:hover {
+.social-media-list a:hover {
   text-decoration: none;
 }
-.social-media-list a:hover .username, .pagination a:hover .username {
+.social-media-list a:hover .username {
   text-decoration: underline;
 }
 
@@ -358,9 +361,12 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   padding: 0;
   border: 0;
 }
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
+}
 
-figure.highlight > pre {
-  padding: 5px 0 0;
+figure.highlight table {
+  margin: -8px -12px -14px;
 }
 figure.highlight td.gutter {
   border-right: 1px solid #e7e7e7;
@@ -574,8 +580,7 @@ table td {
 }
 
 .contact-list,
-.social-media-list,
-.pagination {
+.social-media-list {
   list-style: none;
   margin-left: 0;
 }
@@ -583,7 +588,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: #818181;
+  color: #656565;
 }
 
 .footer-col {
@@ -653,7 +658,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: #818181;
+  color: #656565;
 }
 
 .post-link {
@@ -740,26 +745,26 @@ table td {
   font-weight: 300;
 }
 
-.social-media-list, .pagination {
+.social-media-list {
   display: table;
   margin: 0 auto;
 }
-.social-media-list li, .pagination li {
+.social-media-list li {
   float: left;
   min-width: 45px;
   min-height: 45px;
   text-align: center;
   margin: 5px 10px 5px 0;
 }
-.social-media-list li:last-of-type, .pagination li:last-of-type {
+.social-media-list li:last-of-type {
   margin-right: 0;
 }
-.social-media-list li a, .pagination li a {
+.social-media-list li a {
   display: block;
   padding: 10px 12px;
   border: 1px solid #e7e7e7;
 }
-.social-media-list li a:hover, .pagination li a:hover {
+.social-media-list li a:hover {
   border-color: #dadada;
 }
 
@@ -767,21 +772,40 @@ table td {
  * Pagination navbar
  */
 .pagination {
-  margin-bottom: 30px;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.pagination li {
+  float: left;
+  margin: 0 3px;
+  min-width: 45px;
+  min-height: 45px;
+  text-align: center;
+}
+.pagination li a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #e7e7e7;
+}
+.pagination li a:hover {
+  border-color: #dadada;
 }
 .pagination li a, .pagination li div {
   min-width: 41px;
+  padding: 10px 12px;
   text-align: center;
   box-sizing: border-box;
 }
 .pagination li div {
-  display: block;
-  padding: 7.5px;
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
   color: #e7e7e7;
   border: 1px dashed;
+}
+.pagination li div.current-page {
+  font-weight: bold;
 }
 
 /**

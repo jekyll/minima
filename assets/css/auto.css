@@ -2,14 +2,15 @@
 :root {
   --minima-brand-color: #818181;
   --minima-brand-color-light: #e7e7e7;
+  --minima-brand-color-dimmed: #656565;
   --minima-brand-color-dark: #414141;
   --minima-site-title-color: #414141;
   --minima-heading-color: #111111;
   --minima-text-color: #414141;
   --minima-background-color: #fdfdfd;
   --minima-code-background-color: #f6f8fa;
-  --minima-link-base-color: #2a7ae2;
-  --minima-link-visited-color: #1756a9;
+  --minima-link-base-color: #1e69d8;
+  --minima-link-visited-color: #154895;
   --minima-link-hover-color: #414141;
   --minima-border-color-01: #e7e7e7;
   --minima-border-color-02: #dadada;
@@ -206,19 +207,23 @@
 .highlight .lineno, .highlight .gl {
   color: #9c9996;
 }
+.highlight .hll {
+  background-color: #ffffcc;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --minima-brand-color: #999999;
     --minima-brand-color-light: #a6a6a6;
+    --minima-brand-color-dimmed: #858585;
     --minima-brand-color-dark: #2b2b2b;
     --minima-site-title-color: #a6a6a6;
     --minima-heading-color: #bbbbbb;
     --minima-text-color: #959595;
     --minima-background-color: #181818;
     --minima-code-background-color: #222222;
-    --minima-link-base-color: #79b8ff;
-    --minima-link-visited-color: #79b8ff;
+    --minima-link-base-color: #5691cd;
+    --minima-link-visited-color: #80bbff;
     --minima-link-hover-color: #959595;
     --minima-border-color-01: #2b2b2b;
     --minima-border-color-02: #a6a6a6;
@@ -414,6 +419,9 @@
   .highlight .lineno, .highlight .gl {
     color: #8a8a8a;
   }
+  .highlight .hll {
+    background-color: #373730;
+  }
 }
 html {
   font-size: 16px;
@@ -525,10 +533,10 @@ a:hover {
   text-decoration: underline var(--minima-brand-color);
   text-underline-offset: 3px;
 }
-.social-media-list a:hover, .pagination a:hover {
+.social-media-list a:hover {
   text-decoration: none;
 }
-.social-media-list a:hover .username, .pagination a:hover .username {
+.social-media-list a:hover .username {
   text-decoration: underline;
 }
 
@@ -588,9 +596,12 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   padding: 0;
   border: 0;
 }
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
+}
 
-figure.highlight > pre {
-  padding: 5px 0 0;
+figure.highlight table {
+  margin: -8px -12px -14px;
 }
 figure.highlight td.gutter {
   border-right: 1px solid var(--minima-border-color-01);
@@ -804,8 +815,7 @@ table td {
 }
 
 .contact-list,
-.social-media-list,
-.pagination {
+.social-media-list {
   list-style: none;
   margin-left: 0;
 }
@@ -813,7 +823,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: var(--minima-brand-color);
+  color: var(--minima-brand-color-dimmed);
 }
 
 .footer-col {
@@ -883,7 +893,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: var(--minima-brand-color);
+  color: var(--minima-brand-color-dimmed);
 }
 
 .post-link {
@@ -970,26 +980,26 @@ table td {
   font-weight: 300;
 }
 
-.social-media-list, .pagination {
+.social-media-list {
   display: table;
   margin: 0 auto;
 }
-.social-media-list li, .pagination li {
+.social-media-list li {
   float: left;
   min-width: 45px;
   min-height: 45px;
   text-align: center;
   margin: 5px 10px 5px 0;
 }
-.social-media-list li:last-of-type, .pagination li:last-of-type {
+.social-media-list li:last-of-type {
   margin-right: 0;
 }
-.social-media-list li a, .pagination li a {
+.social-media-list li a {
   display: block;
   padding: 10px 12px;
   border: 1px solid var(--minima-border-color-01);
 }
-.social-media-list li a:hover, .pagination li a:hover {
+.social-media-list li a:hover {
   border-color: var(--minima-border-color-02);
 }
 
@@ -997,21 +1007,40 @@ table td {
  * Pagination navbar
  */
 .pagination {
-  margin-bottom: 30px;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.pagination li {
+  float: left;
+  margin: 0 3px;
+  min-width: 45px;
+  min-height: 45px;
+  text-align: center;
+}
+.pagination li a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--minima-border-color-01);
+}
+.pagination li a:hover {
+  border-color: var(--minima-border-color-02);
 }
 .pagination li a, .pagination li div {
   min-width: 41px;
+  padding: 10px 12px;
   text-align: center;
   box-sizing: border-box;
 }
 .pagination li div {
-  display: block;
-  padding: 7.5px;
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
   color: var(--minima-border-color-01);
   border: 1px dashed;
+}
+.pagination li div.current-page {
+  font-weight: bold;
 }
 
 /**

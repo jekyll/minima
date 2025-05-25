@@ -3,12 +3,16 @@
   --solarized-mono3: #fdf6e3;
   --solarized-mono2: #eee8d5;
   --solarized-mono1: #93a1a1;
-  --solarized-mono00: #657b83;
+  --solarized-mono00: #4e626a;
   --solarized-mono01: #586e75;
   --solarized-mix1: #c8ccc2;
-  --solarized-mix2: #4683ab;
+  --solarized-mix2: #3a779e;
   --solarized-mix3: #f6efdc;
   --solarized-mix4: #e8e3d4;
+  --solarized-mono1-dimmed: #606e6e;
+  --solarized-link-color: #2072ac;
+  --solarized-link-visited: #376a8b;
+  --solarized-mark-line-bg-color: #ffffcc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +20,16 @@
     --solarized-mono3: #002b36;
     --solarized-mono2: #073642;
     --solarized-mono1: #586e75;
-    --solarized-mono00: #839496;
+    --solarized-mono00: #91a0a1;
     --solarized-mono01: #93a1a1;
     --solarized-mix1: #2c4d56;
-    --solarized-mix2: #5590b4;
+    --solarized-mix2: #5c96ba;
     --solarized-mix3: #04313c;
     --solarized-mix4: #193843;
+    --solarized-mono1-dimmed: #7f979f;
+    --solarized-link-color: #469edd;
+    --solarized-link-visited: #64a5ce;
+    --solarized-mark-line-bg-color: #164145;
   }
 }
 .highlight .err {
@@ -208,6 +216,9 @@
 .highlight .lineno, .highlight .gl {
   color: var(--solarized-mono1);
 }
+.highlight .hll {
+  background-color: var(--solarized-mark-line-bg-color);
+}
 
 html {
   font-size: 16px;
@@ -308,21 +319,21 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #268bd2;
+  color: var(--solarized-link-color);
   text-decoration: none;
 }
 a:visited {
-  color: var(--solarized-mix2);
+  color: var(--solarized-link-visited);
 }
 a:hover {
   color: var(--solarized-mono00);
   text-decoration: underline var(--solarized-mono1);
   text-underline-offset: 3px;
 }
-.social-media-list a:hover, .pagination a:hover {
+.social-media-list a:hover {
   text-decoration: none;
 }
-.social-media-list a:hover .username, .pagination a:hover .username {
+.social-media-list a:hover .username {
   text-decoration: underline;
 }
 
@@ -382,9 +393,12 @@ div.highlight table, div.highlight tbody, div.highlight th, div.highlight tr, di
   padding: 0;
   border: 0;
 }
+div.highlight .lineno, div.highlight .gl, figure.highlight .lineno, figure.highlight .gl {
+  text-align: right;
+}
 
-figure.highlight > pre {
-  padding: 5px 0 0;
+figure.highlight table {
+  margin: -8px -12px -14px;
 }
 figure.highlight td.gutter {
   border-right: 1px solid var(--solarized-mix4);
@@ -598,8 +612,7 @@ table td {
 }
 
 .contact-list,
-.social-media-list,
-.pagination {
+.social-media-list {
   list-style: none;
   margin-left: 0;
 }
@@ -607,7 +620,7 @@ table td {
 .footer-col-wrapper,
 .social-links {
   font-size: 0.9375rem;
-  color: var(--solarized-mono1);
+  color: var(--solarized-mono1-dimmed);
 }
 
 .footer-col {
@@ -677,7 +690,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: var(--solarized-mono1);
+  color: var(--solarized-mono1-dimmed);
 }
 
 .post-link {
@@ -764,26 +777,26 @@ table td {
   font-weight: 300;
 }
 
-.social-media-list, .pagination {
+.social-media-list {
   display: table;
   margin: 0 auto;
 }
-.social-media-list li, .pagination li {
+.social-media-list li {
   float: left;
   min-width: 45px;
   min-height: 45px;
   text-align: center;
   margin: 5px 10px 5px 0;
 }
-.social-media-list li:last-of-type, .pagination li:last-of-type {
+.social-media-list li:last-of-type {
   margin-right: 0;
 }
-.social-media-list li a, .pagination li a {
+.social-media-list li a {
   display: block;
   padding: 10px 12px;
   border: 1px solid var(--solarized-mix4);
 }
-.social-media-list li a:hover, .pagination li a:hover {
+.social-media-list li a:hover {
   border-color: var(--solarized-mono1);
 }
 
@@ -791,21 +804,40 @@ table td {
  * Pagination navbar
  */
 .pagination {
-  margin-bottom: 30px;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.pagination li {
+  float: left;
+  margin: 0 3px;
+  min-width: 45px;
+  min-height: 45px;
+  text-align: center;
+}
+.pagination li a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--solarized-mix4);
+}
+.pagination li a:hover {
+  border-color: var(--solarized-mono1);
 }
 .pagination li a, .pagination li div {
   min-width: 41px;
+  padding: 10px 12px;
   text-align: center;
   box-sizing: border-box;
 }
 .pagination li div {
-  display: block;
-  padding: 7.5px;
   border: 1px solid transparent;
 }
 .pagination li div.pager-edge {
   color: var(--solarized-mix4);
   border: 1px dashed;
+}
+.pagination li div.current-page {
+  font-weight: bold;
 }
 
 /**
