@@ -90,3 +90,6 @@
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
 #   hide_site_feed_link: false
+
+plugins:
+  - jekyll-seo-tag
