@@ -110,6 +110,7 @@
   * Undo fixed header (#884)
   * Render minimal site-nav on small screens (#885)
   * Fix invalid HTML (#330)
+  * Restore the functionality of Disqus (#902)
 
 ### Development Fixes
 
