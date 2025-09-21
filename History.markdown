@@ -111,6 +111,7 @@
   * Render minimal site-nav on small screens (#885)
   * Fix invalid HTML (#330)
   * Restore the functionality of Disqus (#902)
+  * Pins font awesome font to version 7 and use it in the stylesheets (#908)
 
 ### Development Fixes
 
