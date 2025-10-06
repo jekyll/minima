@@ -1,15 +1,17 @@
 # Site-wide settings
 # ------------------
 #
-# title: Your awesome title
+ title: a university student
 #
 # author:
-#   name: GitHub User
-#   email: your-email@domain.com
+   name: Nguyen Quoc Dat
+#  
+email: nguyenqd2106@gmail.com
 #
+url: "https://Dat.github.io"
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
-# description: >
+description: welcome
 #   Write an awesome description for your new site here. You can edit this line
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
