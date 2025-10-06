@@ -1,10 +1,11 @@
 # Site-wide settings
 # ------------------
 #
- title: a university student
+ title: dat
 #
+theme: jekyll-theme-dat
 # author:
-   name: Nguyen Quoc Dat
+   name: your_full_name
 #  
 email: nguyenqd2106@gmail.com
 #
@@ -22,13 +23,13 @@ description: welcome
 #
 # If you wish to use the gem-version of Minima with or without a Gemfile, use
 #   the following setting:
-# theme: minima
+theme: minima
 #
 # **OR** if you wish to use the theme directly from the GitHub repository by
 #   bypassing a Gemfile, use the following setting instead.
 #   It is best that you lock to a particular commit and update if uptream changes
 #   do not affect your site adversely.
-# remote_theme: jekyll/minima@d4d779a
+remote_theme: jekyll/minima@d4d779a
 #
 # Minima requires the following plugins:
 # plugins:
