@@ -23,13 +23,13 @@ description: welcome
 #
 # If you wish to use the gem-version of Minima with or without a Gemfile, use
 #   the following setting:
-theme: minima
+#theme: minima
 #
 # **OR** if you wish to use the theme directly from the GitHub repository by
 #   bypassing a Gemfile, use the following setting instead.
 #   It is best that you lock to a particular commit and update if uptream changes
 #   do not affect your site adversely.
-remote_theme: jekyll/minima@d4d779a
+#remote_theme: jekyll/minima@d4d779a
 #
 # Minima requires the following plugins:
 # plugins:
@@ -84,10 +84,10 @@ remote_theme: jekyll/minima@d4d779a
 #     - title: Minima Theme repository at GitHub
 #       icon: github
 #       url: "https://github.com/jekyll/minima"
+#.      url: "https://github.com/jekyll/minima"
 #     - title: Jekyll at X (formerly Twitter)
 #       icon: x-twitter
 #       url: "https://x.com/jekyllrb"
-#
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
 #     list. Set below key to `true` to not have the link to feed rendered as
