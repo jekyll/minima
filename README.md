@@ -1,11 +1,8 @@
-
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+### 👋 Hello There!
+### Just a random guy loves watching meme
 
 # 💫About Me :
-I’m studying at HUTECH University 
+I’m studying at HUTECH University,with Information Technology is my major
 
 ## 🌐Socials
 [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/Đạt) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/Quocdat) 
