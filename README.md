@@ -1,4 +1,4 @@
-### 👋 Hello There!
+### 👋 Hello There
 ### Just a random guy loves watching meme
 
 # 💫About Me :
