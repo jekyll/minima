@@ -1,0 +1,8 @@
+cd path/to/your/repo
+touch .nojekyll
+ls -a
+
+git add .nojekyll
+git commit -m "Add .nojekyll to disable Jekyll build"
+git push origin <branch>
+
