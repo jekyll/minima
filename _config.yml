@@ -24,7 +24,7 @@
 #
 # **OR** if you wish to use the theme directly from the GitHub repository by
 #   bypassing a Gemfile, use the following setting instead.
-#   It is best that you lock to a particular commit and update if uptream changes
+#   It is best that you lock to a particular commit and update if upstream changes
 #   do not affect your site adversely.
 # remote_theme: jekyll/minima@d4d779a
 #
