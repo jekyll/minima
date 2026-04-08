@@ -339,7 +339,7 @@ The full list of available social icons can be found at https://fontawesome.com/
 
 ### Enabling Google Analytics
 
-To enable Google Analytics, add the following lines to your Jekyll site:
+To enable Google Analytics, first set up an account there and then add your measurement id to your `_config.yml`:
 
 ```yaml
 google_analytics: G-NNNNNNNNNN  // The former `UA-NNNNNNNN-N` format is no longer supported by Google
