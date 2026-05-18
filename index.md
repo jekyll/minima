@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+# Clubhouse
+Welcome to the Clubhouse!
