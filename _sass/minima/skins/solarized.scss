@@ -207,6 +207,7 @@ $table-border-color:    $sol-mix1 !default;
   .gu    { color: $sol-mono1 } // Generic.Subheading
 
   .k     { color: $sol-orange } // Keyword
+  .kn    { color: $sol-orange } // Keyword.Namespace
   .kc    { color: $sol-orange } // Keyword.Constant
   .kd    { color: $sol-orange } // Keyword.Declaration
   .kp    { color: $sol-orange } // Keyword.Pseudo
