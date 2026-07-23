@@ -111,7 +111,7 @@ permalink: /research/
 
     <div class="pub-meta">
       <em>Social Sciences in China</em>, 2024, (12): 23–43.
-      <span class="pub-links">[<a href="http://39.98.141.84:3838/iMarxTool/SSC2024.pdf" target="_blank" rel="noopener">SSC2024</a>]</span>
+      <span class="pub-links">[<a href="../file/SSC2024.pdf" target="_blank" rel="noopener">SSC2024</a>]</span>
       <button class="btn copy-cite" data-cite="Li, Bangxi, Chong Liu, and Liang Chen. 2024. “The real–fictitious relationship in China’s economic development: An extension of Marx’s theory on the reproduction of aggregate social capital.” Social Sciences in China, no. 12: 23–43. (in Chinese)">Copy Citation</button>
     </div>
 
@@ -140,7 +140,7 @@ permalink: /research/
 
     <div class="pub-meta">
       <em>Economic Research Journal</em>, 2019, 54(3): 181–193.
-      <span class="pub-links">[<a href="http://39.98.141.84:3838/iMarxTool/ERJ2019.pdf" target="_blank" rel="noopener">ERJ2019</a>]</span>
+      <span class="pub-links">[<a href="../file/ERJ2019.pdf" target="_blank" rel="noopener">ERJ2019</a>]</span>
       <button class="btn copy-cite" data-cite="Li, Bangxi, Chong Liu, Feng Zhao, and Yanghua Huang. 2019. “Production structure, income distribution, and macroeconomic efficiency: An analytical framework and empirical study of Marxist political economy.” Economic Research Journal 54 (3): 181–193. (in Chinese)">Copy Citation</button>
     </div>
 
@@ -155,7 +155,7 @@ permalink: /research/
     <li>The 5th <strong>LIU Shibai Award in Economics</strong> (2020)</li>
     <li><strong>TOP 0.5%</strong> on Academic Influence among 2,952 Papers in Political Economy (2012–2019)</li>
     <li><strong>Translated into English and Reprinted</strong> by <em>China Political Economy</em>, 2021, 4(1): 110–127.
-    <span class="pub-links">[<a href="http://39.98.141.84:3838/iMarxTool/CPE2021.pdf" target="_blank" rel="noopener">CPE2021</a>]</span>
+    <span class="pub-links">[<a href="../file/CPE2021.pdf" target="_blank" rel="noopener">CPE2021</a>]</span>
     </li>
     </ul>
 
@@ -191,7 +191,7 @@ permalink: /research/
 
     <div class="pub-meta">
       <em>China Review of Political Economy</em>, 2022, 13(6): 146–174.
-      <span class="pub-links">[<a href="http://39.98.141.84:3838/iMarxTool/CRPE2022.pdf" target="_blank" rel="noopener">CRPE2022</a>]</span>
+      <span class="pub-links">[<a href="../file/CRPE2022.pdf" target="_blank" rel="noopener">CRPE2022</a>]</span>
       <button class="btn copy-cite" data-cite="Liu, Chong, and Lirong Jiang. 2022. “The French regulation school: Core concepts, theoretical evolution, and theoretical implications.” China Review of Political Economy 13 (6): 146–174. (in Chinese)">Copy Citation</button>
     </div>
 
@@ -212,7 +212,7 @@ permalink: /research/
 
     <div class="pub-meta">
       <em>Evolutionary and Institutional Economics Review</em>, 2025, 22: 181–211.
-      <span class="pub-links">[<a href="http://39.98.141.84:3838/iMarxTool/EIER2025.pdf" target="_blank" rel="noopener">EIER2025</a>]</span>
+      <span class="pub-links">[<a href="../file/EIER2025.pdf" target="_blank" rel="noopener">EIER2025</a>]</span>
       <button class="btn copy-cite" data-cite="Liu, Chong, Bangxi Li, and Jim Huangnan Shen. 2025. “Accelerated depreciation and investment-driven growth: A Marx–Okishio approach.” Evolutionary and Institutional Economics Review 22: 181–211.">Copy Citation</button>
     </div>
 

@@ -6,7 +6,7 @@ permalink: /cv/
 
 # CV
 
-<!--You can find my CV [here](http://39.98.141.84:3838/iMarxTool/CV_Chong_Liu.pdf).-->
+<!--You can find my CV [here](../file/CV_4.0_LaTeX.pdf).-->
 
 <br/>
 
