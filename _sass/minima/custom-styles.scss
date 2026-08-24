@@ -1,2 +1,294 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+:root {
+  --digimic-ink: #17342f;
+  --digimic-muted: #526b65;
+  --digimic-green: #147d64;
+  --digimic-green-dark: #0d5b49;
+  --digimic-mint: #e8f5ef;
+  --digimic-sand: #f6f3e9;
+  --digimic-line: #cddbd6;
+}
+
+body {
+  color: var(--digimic-ink);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #f2ad3b;
+  outline-offset: 3px;
+}
+
+.site-header {
+  border-top-color: var(--digimic-green);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--digimic-ink);
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+
+.page-content {
+  padding-top: 0;
+}
+
+.eyebrow {
+  color: var(--digimic-green-dark);
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+  margin-bottom: .7rem;
+  text-transform: uppercase;
+}
+
+.hero {
+  background:
+    radial-gradient(circle at 88% 15%, rgba(20, 125, 100, .2), transparent 28%),
+    linear-gradient(135deg, var(--digimic-sand), #fff 72%);
+  border-bottom: 1px solid var(--digimic-line);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: clamp(4rem, 9vw, 8rem) max(calc((100vw - 800px) / 2), 1.25rem);
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 7vw, 5.35rem);
+  font-weight: 720;
+  letter-spacing: -.055em;
+  line-height: .98;
+  margin-bottom: 1.5rem;
+  max-width: 960px;
+}
+
+.hero-lead,
+.section-intro {
+  color: var(--digimic-muted);
+  font-size: clamp(1.08rem, 2.2vw, 1.35rem);
+  line-height: 1.55;
+  max-width: 760px;
+}
+
+.action-row,
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+}
+
+.action-row {
+  margin-top: 2rem;
+}
+
+.button {
+  border: 1px solid var(--digimic-green);
+  border-radius: 999px;
+  display: inline-block;
+  font-weight: 700;
+  padding: .78rem 1.2rem;
+}
+
+.button-primary,
+.button-primary:visited {
+  background: var(--digimic-green);
+  color: #fff;
+}
+
+.button-primary:hover {
+  background: var(--digimic-green-dark);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-secondary,
+.button-secondary:visited {
+  background: rgba(255, 255, 255, .65);
+  color: var(--digimic-green-dark);
+}
+
+.button-secondary:hover {
+  background: #fff;
+  color: var(--digimic-green-dark);
+  text-decoration: none;
+}
+
+.section-block {
+  padding: clamp(3.25rem, 7vw, 6rem) 0;
+}
+
+.section-block h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 680;
+  letter-spacing: -.035em;
+  line-height: 1.12;
+  max-width: 760px;
+}
+
+.gateway-grid,
+.pathway-grid,
+.team-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 2.25rem;
+}
+
+.gateway-card {
+  background: #fff;
+  border: 1px solid var(--digimic-line);
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(23, 52, 47, .06);
+  padding: clamp(1.4rem, 4vw, 2.25rem);
+}
+
+.gateway-card-featured {
+  border-top: 5px solid var(--digimic-green);
+}
+
+.gateway-card h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+}
+
+.gateway-card p {
+  color: var(--digimic-muted);
+}
+
+.status-pill {
+  background: var(--digimic-mint);
+  border-radius: 999px;
+  color: var(--digimic-green-dark);
+  display: inline-block;
+  font-size: .78rem;
+  font-weight: 700;
+  padding: .32rem .62rem;
+}
+
+.card-links a,
+.text-link,
+.pathway-grid a {
+  font-weight: 700;
+}
+
+.section-tinted {
+  background: var(--digimic-mint);
+  border-radius: 24px;
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+  padding-right: clamp(1.25rem, 4vw, 3rem);
+}
+
+.pathway-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pathway-grid article {
+  border-top: 1px solid rgba(13, 91, 73, .28);
+  padding-top: 1.2rem;
+}
+
+.pathway-number {
+  color: var(--digimic-green);
+  display: block;
+  font-size: .78rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.project-vision {
+  align-items: center;
+  display: grid;
+  gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: .85fr 1.15fr;
+}
+
+.project-vision img {
+  border: 1px solid var(--digimic-line);
+  border-radius: 16px;
+}
+
+.resource-grid {
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  margin-left: 0;
+}
+
+.team-card {
+  align-items: center;
+  border: 1px solid var(--digimic-line);
+  border-radius: 16px;
+  display: flex;
+  gap: 1rem;
+  padding: 1.3rem;
+}
+
+.team-card h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 .25rem;
+}
+
+.team-card p {
+  color: var(--digimic-muted);
+  margin-bottom: .35rem;
+}
+
+.team-avatar {
+  align-items: center;
+  background: var(--digimic-mint);
+  border-radius: 50%;
+  color: var(--digimic-green-dark);
+  display: flex;
+  flex: 0 0 3.2rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  height: 3.2rem;
+  justify-content: center;
+}
+
+.contributor-note {
+  background: var(--digimic-sand);
+  border-radius: 16px;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.footer-brand {
+  color: var(--digimic-ink);
+  font-size: 1.15rem;
+  font-weight: 750;
+}
+
+.footer-heading {
+  color: var(--digimic-ink);
+  font-weight: 700;
+}
+
+.footer-links {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-meta {
+  border-top: 1px solid var(--digimic-line);
+  color: var(--digimic-muted);
+  font-size: .82rem;
+  margin: 1.25rem 0 0;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+  .gateway-grid,
+  .pathway-grid,
+  .project-vision,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    letter-spacing: -.04em;
+  }
+}

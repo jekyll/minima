@@ -1,15 +1,7 @@
 team:
   - name: Samraat Pawar
-    position: xxx
-    img: 
+    role: Project contributor
+    github: https://github.com/mhasoba
   - name: Tom Clegg
-    position: xxx
-  - name: Person 1
-    position: xxx
-  - name: Person 2
-    position: xxx
-  - name: Person 4
-    position: xxx
-
-default:
-  - img: assets/img/profiles/default.png
+    role: Project contributor
+    github: https://github.com/CleggTom
