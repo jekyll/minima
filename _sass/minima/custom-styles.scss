@@ -12,6 +12,10 @@ body {
   color: var(--digimic-ink);
 }
 
+img {
+  height: auto;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
