@@ -5,3 +5,13 @@ team:
   - name: Tom Clegg
     role: Project contributor
     github: https://github.com/CleggTom
+
+digimicpy_contributors:
+  - name: "@yanzhu624"
+    github: https://github.com/yanzhu624
+  - name: Samraat Pawar (@mhasoba)
+    github: https://github.com/mhasoba
+  - name: "@chanli01"
+    github: https://github.com/chanli01
+  - name: ZB (@Lakezh)
+    github: https://github.com/Lakezh
