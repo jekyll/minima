@@ -1,27 +1,55 @@
-name: Continuous Integration
+name: Build and deploy site
+
 on:
   push:
-    branches:
-      - master
+    branches: [master]
   pull_request:
-    branches:
-      - master
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
-    name: "Test with Jekyll ${{ matrix.jekyll }}"
-    runs-on: "ubuntu-latest"
-    strategy:
-      matrix:
-        jekyll: ["~> 3.9", "~> 4.2"]
-    env:
-      JEKYLL_VERSION: ${{ matrix.jekyll }}
+    name: Build Jekyll site
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-      - name: Set Up Ruby 2.7
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: "3.3"
           bundler-cache: true
-      - name: Run tests
-        run: script/cibuild
+      - name: Build site
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy GitHub Pages
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
