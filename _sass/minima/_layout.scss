@@ -70,7 +70,7 @@
       text-align: center;
 
       &::before {
-        font-family: "Font Awesome 6 Free";
+        font-family: "Font Awesome 7 Free";
         font-weight: 900;
       }
 
@@ -110,6 +110,7 @@
 
     .nav-item {
       display: block;
+      margin-right: $spacing-unit * 0.5;
       padding: 5px 0;
       color: $text-color;
       line-height: $base-line-height;
