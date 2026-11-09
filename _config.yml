@@ -1,10 +1,10 @@
 # Site-wide settings
 # ------------------
 #
-title: Rüzgar ERİK
+title: Rüzgar Erik
 #
 author:
-  name: Rüzgar ERİK
+  name: Rüzgar Erik
   email: ruzgarerik@gmail.com
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
